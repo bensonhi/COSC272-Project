@@ -1,0 +1,132 @@
+{
+  "id": 1389,
+  "origin": "dev",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "mTORC2 regulates intracellular cysteine levels through xCT inhibition.",
+      "evidence": [
+        {
+          "doc_id": 23895668,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "mTORC2 phosphorylates serine 26 at the cytosolic N terminus of xCT, inhibiting its activity.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 23895668,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Genetic inhibition of mTORC2, or pharmacologic inhibition of the mammalian target of rapamycin (mTOR) kinase, promotes glutamate secretion, cystine uptake, and incorporation into glutathione, linking growth factor receptor signaling with amino acid uptake and utilization.",
+          "kept": true,
+          "new_index": 3
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 23895668,
+          "title": "mTORC2 Regulates Amino Acid Metabolism in Cancer by Phosphorylation of the Cystine-Glutamate Antiporter xCT.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Mutations in cancer reprogram amino acid metabolism to drive tumor growth, but the molecular mechanisms are not well understood."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Using an unbiased proteomic screen, we identified mTORC2 as a critical regulator of amino acid metabolism in cancer via phosphorylation of the cystine-glutamate antiporter xCT."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "mTORC2 phosphorylates serine 26 at the cytosolic N terminus of xCT, inhibiting its activity."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Genetic inhibition of mTORC2, or pharmacologic inhibition of the mammalian target of rapamycin (mTOR) kinase, promotes glutamate secretion, cystine uptake, and incorporation into glutathione, linking growth factor receptor signaling with amino acid uptake and utilization."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "These results identify an unanticipated mechanism regulating amino acid metabolism in cancer, enabling tumor cells to adapt to changing environmental conditions."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "mTORC2 regulates intracellular cysteine levels through xCT inhibition.",
+      "evidence": [
+        {
+          "doc_id": 23895668,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "mTORC2 phosphorylates serine 26 at the cytosolic N terminus of xCT, inhibiting its activity.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 23895668,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Genetic inhibition of mTORC2, or pharmacologic inhibition of the mammalian target of rapamycin (mTOR) kinase, promotes glutamate secretion, cystine uptake, and incorporation into glutathione, linking growth factor receptor signaling with amino acid uptake and utilization.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 23895668,
+          "title": "mTORC2 Regulates Amino Acid Metabolism in Cancer by Phosphorylation of the Cystine-Glutamate Antiporter xCT.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Mutations in cancer reprogram amino acid metabolism to drive tumor growth, but the molecular mechanisms are not well understood."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Using an unbiased proteomic screen, we identified mTORC2 as a critical regulator of amino acid metabolism in cancer via phosphorylation of the cystine-glutamate antiporter xCT."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "These results identify an unanticipated mechanism regulating amino acid metabolism in cancer, enabling tumor cells to adapt to changing environmental conditions."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 23895668,
+          "original_index": 2,
+          "sentence": "mTORC2 phosphorylates serine 26 at the cytosolic N terminus of xCT, inhibiting its activity.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 23895668,
+          "original_index": 3,
+          "sentence": "Genetic inhibition of mTORC2, or pharmacologic inhibition of the mammalian target of rapamycin (mTOR) kinase, promotes glutamate secretion, cystine uptake, and incorporation into glutathione, linking growth factor receptor signaling with amino acid uptake and utilization.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

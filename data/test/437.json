@@ -1,0 +1,55 @@
+{
+  "id": 437,
+  "origin": "dev",
+  "claim": "Functional consequences of genomic alterations due to Myelodysplastic syndrome (MDS) are poorly understood due to the lack of an animal model.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 18399038,
+      "title": "Establishment of human iPSC-based models for the study and targeting of glioma initiating cells",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Glioma tumour-initiating cells (GTICs) can originate upon the transformation of neural progenitor cells (NPCs)."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Studies on GTICs have focused on primary tumours from which GTICs could be isolated and the use of human embryonic material."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Recently, the somatic genomic landscape of human gliomas has been reported."
+        },
+        {
+          "original_index": 3,
+          "sentence": "RTK (receptor tyrosine kinase) and p53 signalling were found dysregulated in ∼90% and 86% of all primary tumours analysed, respectively."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Here we report on the use of human-induced pluripotent stem cells (hiPSCs) for modelling gliomagenesis."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Dysregulation of RTK and p53 signalling in hiPSC-derived NPCs (iNPCs) recapitulates GTIC properties in vitro."
+        },
+        {
+          "original_index": 6,
+          "sentence": "In vivo transplantation of transformed iNPCs leads to highly aggressive tumours containing undifferentiated stem cells and their differentiated derivatives."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Metabolic modulation compromises GTIC viability."
+        },
+        {
+          "original_index": 8,
+          "sentence": "Last, screening of 101 anti-cancer compounds identifies three molecules specifically targeting transformed iNPCs and primary GTICs."
+        },
+        {
+          "original_index": 9,
+          "sentence": "Together, our results highlight the potential of hiPSCs for studying human tumourigenesis."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

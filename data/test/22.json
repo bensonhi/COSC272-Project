@@ -1,0 +1,71 @@
+{
+  "id": 22,
+  "origin": "train_more",
+  "claim": "76-85% of people with severe mental disorder receive no treatment in low and middle income countries.",
+  "evidence": [
+    {
+      "doc_id": 6490571,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 7,
+      "sentence": "Although disorder severity was correlated with probability of treatment in almost all countries, 35.5% to 50.3% of serious cases in developed countries and 76.3% to 85.4% in less-developed countries received no treatment in the 12 months before the interview."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 6490571,
+      "title": "Prevalence, severity, and unmet need for treatment of mental disorders in the World Health Organization World Mental Health Surveys.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "CONTEXT Little is known about the extent or severity of untreated mental disorders, especially in less-developed countries.   \n"
+        },
+        {
+          "original_index": 1,
+          "sentence": "OBJECTIVE To estimate prevalence, severity, and treatment of Diagnostic and Statistical Manual of Mental Disorders, Fourth Edition (DSM-IV) mental disorders in 14 countries (6 less developed, 8 developed) in the World Health Organization (WHO) World Mental Health (WMH) Survey Initiative.   \n"
+        },
+        {
+          "original_index": 2,
+          "sentence": "DESIGN, SETTING, AND PARTICIPANTS Face-to-face household surveys of 60 463 community adults conducted from 2001-2003 in 14 countries in the Americas, Europe, the Middle East, Africa, and Asia.   \n"
+        },
+        {
+          "original_index": 3,
+          "sentence": "MAIN OUTCOME MEASURES The DSM-IV disorders, severity, and treatment were assessed with the WMH version of the WHO Composite International Diagnostic Interview (WMH-CIDI), a fully structured, lay-administered psychiatric diagnostic interview.   \n"
+        },
+        {
+          "original_index": 4,
+          "sentence": "RESULTS The prevalence of having any WMH-CIDI/DSM-IV disorder in the prior year varied widely, from 4.3% in Shanghai to 26.4% in the United States, with an interquartile range (IQR) of 9.1%-16.9%."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Between 33.1% (Colombia) and 80.9% (Nigeria) of 12-month cases were mild (IQR, 40.2%-53.3%)."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Serious disorders were associated with substantial role disability."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Although disorder severity was correlated with probability of treatment in almost all countries, 35.5% to 50.3% of serious cases in developed countries and 76.3% to 85.4% in less-developed countries received no treatment in the 12 months before the interview."
+        },
+        {
+          "original_index": 8,
+          "sentence": "Due to the high prevalence of mild and subthreshold cases, the number of those who received treatment far exceeds the number of untreated serious cases in every country.   \n"
+        },
+        {
+          "original_index": 9,
+          "sentence": "CONCLUSIONS Reallocation of treatment resources could substantially decrease the problem of unmet need for treatment of mental disorders among serious cases."
+        },
+        {
+          "original_index": 10,
+          "sentence": "Structural barriers exist to this reallocation."
+        },
+        {
+          "original_index": 11,
+          "sentence": "Careful consideration needs to be given to the value of treating some mild cases, especially those at risk for progressing to more serious disorders."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

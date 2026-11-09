@@ -1,0 +1,87 @@
+{
+  "id": 212,
+  "origin": "dev",
+  "claim": "CR is associated with higher methylation age.",
+  "evidence": [
+    {
+      "doc_id": 22038539,
+      "group_id": "g0",
+      "evidence_label": "CONTRADICT",
+      "original_index": 1,
+      "sentence": "Epigenetic information encoded by DNA methylation is tightly regulated, but shows a striking drift associated with age that includes both gains and losses of DNA methylation at various sites."
+    },
+    {
+      "doc_id": 22038539,
+      "group_id": "g1",
+      "evidence_label": "CONTRADICT",
+      "original_index": 3,
+      "sentence": "Twenty-two to 30-year-old rhesus monkeys exposed to 30% caloric restriction since 7-14 years of age showed attenuation of age-related methylation drift compared to ad libitum-fed controls such that their blood methylation age appeared 7 years younger than their chronologic age."
+    },
+    {
+      "doc_id": 22038539,
+      "group_id": "g2",
+      "evidence_label": "CONTRADICT",
+      "original_index": 4,
+      "sentence": "Even more pronounced effects were seen in 2.7-3.2-year-old mice exposed to 40% caloric restriction starting at 0.3 years of age."
+    },
+    {
+      "doc_id": 22038539,
+      "group_id": "g3",
+      "evidence_label": "CONTRADICT",
+      "original_index": 7,
+      "sentence": "Caloric restriction has been shown to increase lifespan in mammals."
+    },
+    {
+      "doc_id": 22038539,
+      "group_id": "g4",
+      "evidence_label": "CONTRADICT",
+      "original_index": 8,
+      "sentence": "Here, the authors provide evidence that age-related methylation drift correlates with lifespan and that caloric restriction in mice and rhesus monkeys results in attenuation of age-related methylation drift."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 22038539,
+      "title": "Caloric restriction delays age-related methylation drift",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "In mammals, caloric restriction consistently results in extended lifespan."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Epigenetic information encoded by DNA methylation is tightly regulated, but shows a striking drift associated with age that includes both gains and losses of DNA methylation at various sites."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Here, we report that epigenetic drift is conserved across species and the rate of drift correlates with lifespan when comparing mice, rhesus monkeys, and humans."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Twenty-two to 30-year-old rhesus monkeys exposed to 30% caloric restriction since 7-14 years of age showed attenuation of age-related methylation drift compared to ad libitum-fed controls such that their blood methylation age appeared 7 years younger than their chronologic age."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Even more pronounced effects were seen in 2.7-3.2-year-old mice exposed to 40% caloric restriction starting at 0.3 years of age."
+        },
+        {
+          "original_index": 5,
+          "sentence": "The effects of caloric restriction on DNA methylation were detectable across different tissues and correlated with gene expression."
+        },
+        {
+          "original_index": 6,
+          "sentence": "We propose that epigenetic drift is a determinant of lifespan in mammals."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Caloric restriction has been shown to increase lifespan in mammals."
+        },
+        {
+          "original_index": 8,
+          "sentence": "Here, the authors provide evidence that age-related methylation drift correlates with lifespan and that caloric restriction in mice and rhesus monkeys results in attenuation of age-related methylation drift."
+        }
+      ]
+    }
+  ],
+  "label": "CONTRADICT"
+}

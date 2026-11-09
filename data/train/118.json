@@ -1,0 +1,197 @@
+{
+  "id": 118,
+  "origin": "dev",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Antibiotic induced alterations in the gut microbiome reduce resistance against Clostridium difficile",
+      "evidence": [
+        {
+          "doc_id": 6372244,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "Antibiotics can have significant and long-lasting effects on the gastrointestinal tract microbiota, reducing colonization resistance against pathogens including Clostridium difficile.",
+          "kept": true,
+          "new_index": 0
+        },
+        {
+          "doc_id": 6372244,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Our results indicate that antibiotic-mediated alteration of the gut microbiome converts the global metabolic profile to one that favours C. difficile germination and growth.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6372244,
+          "title": "Antibiotic-induced shifts in the mouse gut microbiome and metabolome increase susceptibility to Clostridium difficile infection",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Antibiotics can have significant and long-lasting effects on the gastrointestinal tract microbiota, reducing colonization resistance against pathogens including Clostridium difficile."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here we show that antibiotic treatment induces substantial changes in the gut microbial community and in the metabolome of mice susceptible to C. difficile infection."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Levels of secondary bile acids, glucose, free fatty acids and dipeptides decrease, whereas those of primary bile acids and sugar alcohols increase, reflecting the modified metabolic activity of the altered gut microbiome."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "In vitro and ex vivo analyses demonstrate that C. difficile can exploit specific metabolites that become more abundant in the mouse gut after antibiotics, including the primary bile acid taurocholate for germination, and carbon sources such as mannitol, fructose, sorbitol, raffinose and stachyose for growth."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Our results indicate that antibiotic-mediated alteration of the gut microbiome converts the global metabolic profile to one that favours C. difficile germination and growth."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Antibiotic induced alterations in the gut microbiome reduce resistance against Clostridium difficile",
+      "evidence": [
+        {
+          "doc_id": 6372244,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "Antibiotics can have significant and long-lasting effects on the gastrointestinal tract microbiota, reducing colonization resistance against pathogens including Clostridium difficile.",
+          "kept": true,
+          "new_index": 0
+        },
+        {
+          "doc_id": 6372244,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Our results indicate that antibiotic-mediated alteration of the gut microbiome converts the global metabolic profile to one that favours C. difficile germination and growth.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6372244,
+          "title": "Antibiotic-induced shifts in the mouse gut microbiome and metabolome increase susceptibility to Clostridium difficile infection",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Antibiotics can have significant and long-lasting effects on the gastrointestinal tract microbiota, reducing colonization resistance against pathogens including Clostridium difficile."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here we show that antibiotic treatment induces substantial changes in the gut microbial community and in the metabolome of mice susceptible to C. difficile infection."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Levels of secondary bile acids, glucose, free fatty acids and dipeptides decrease, whereas those of primary bile acids and sugar alcohols increase, reflecting the modified metabolic activity of the altered gut microbiome."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "In vitro and ex vivo analyses demonstrate that C. difficile can exploit specific metabolites that become more abundant in the mouse gut after antibiotics, including the primary bile acid taurocholate for germination, and carbon sources such as mannitol, fructose, sorbitol, raffinose and stachyose for growth."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6372244,
+          "original_index": 4,
+          "sentence": "Our results indicate that antibiotic-mediated alteration of the gut microbiome converts the global metabolic profile to one that favours C. difficile germination and growth.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Antibiotic induced alterations in the gut microbiome reduce resistance against Clostridium difficile",
+      "evidence": [
+        {
+          "doc_id": 6372244,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "Antibiotics can have significant and long-lasting effects on the gastrointestinal tract microbiota, reducing colonization resistance against pathogens including Clostridium difficile.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6372244,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Our results indicate that antibiotic-mediated alteration of the gut microbiome converts the global metabolic profile to one that favours C. difficile germination and growth.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6372244,
+          "title": "Antibiotic-induced shifts in the mouse gut microbiome and metabolome increase susceptibility to Clostridium difficile infection",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "Here we show that antibiotic treatment induces substantial changes in the gut microbial community and in the metabolome of mice susceptible to C. difficile infection."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Levels of secondary bile acids, glucose, free fatty acids and dipeptides decrease, whereas those of primary bile acids and sugar alcohols increase, reflecting the modified metabolic activity of the altered gut microbiome."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "In vitro and ex vivo analyses demonstrate that C. difficile can exploit specific metabolites that become more abundant in the mouse gut after antibiotics, including the primary bile acid taurocholate for germination, and carbon sources such as mannitol, fructose, sorbitol, raffinose and stachyose for growth."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6372244,
+          "original_index": 0,
+          "sentence": "Antibiotics can have significant and long-lasting effects on the gastrointestinal tract microbiota, reducing colonization resistance against pathogens including Clostridium difficile.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 6372244,
+          "original_index": 4,
+          "sentence": "Our results indicate that antibiotic-mediated alteration of the gut microbiome converts the global metabolic profile to one that favours C. difficile germination and growth.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

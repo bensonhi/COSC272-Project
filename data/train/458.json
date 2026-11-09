@@ -1,0 +1,134 @@
+{
+  "id": 458,
+  "origin": "train_more",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Genetic deficiency of mast cells leads to decreased weight gain in a mouse model of diet-induced obesity.",
+      "evidence": [
+        {
+          "doc_id": 597790,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Furthermore, in the context of mice on a Western diet, genetically induced deficiency of mast cells, or their pharmacological stabilization, reduces body weight gain and levels of inflammatory cytokines, chemokines and proteases in serum and WAT, in concert with improved glucose homeostasis and energy expenditure.",
+          "kept": true,
+          "new_index": 3
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 597790,
+          "title": "Deficiency and pharmacological stabilization of mast cells reduce diet-induced obesity and diabetes in mice",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Although mast cell functions have classically been related to allergic responses, recent studies indicate that these cells contribute to other common diseases such as multiple sclerosis, rheumatoid arthritis, atherosclerosis, aortic aneurysm and cancer."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "This study presents evidence that mast cells also contribute to diet-induced obesity and diabetes."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "For example, white adipose tissue (WAT) from obese humans and mice contain more mast cells than WAT from their lean counterparts."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Furthermore, in the context of mice on a Western diet, genetically induced deficiency of mast cells, or their pharmacological stabilization, reduces body weight gain and levels of inflammatory cytokines, chemokines and proteases in serum and WAT, in concert with improved glucose homeostasis and energy expenditure."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Mechanistic studies reveal that mast cells contribute to WAT and muscle angiogenesis and associated cell apoptosis and cathepsin activity."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Adoptive transfer experiments of cytokine-deficient mast cells show that these cells, by producing interleukin-6 (IL-6) and interferon-gamma (IFN-gamma), contribute to mouse adipose tissue cysteine protease cathepsin expression, apoptosis and angiogenesis, thereby promoting diet-induced obesity and glucose intolerance."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Our results showing reduced obesity and diabetes in mice treated with clinically available mast cell-stabilizing agents suggest the potential of developing new therapies for these common human metabolic disorders."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Genetic deficiency of mast cells leads to decreased weight gain in a mouse model of diet-induced obesity.",
+      "evidence": [
+        {
+          "doc_id": 597790,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Furthermore, in the context of mice on a Western diet, genetically induced deficiency of mast cells, or their pharmacological stabilization, reduces body weight gain and levels of inflammatory cytokines, chemokines and proteases in serum and WAT, in concert with improved glucose homeostasis and energy expenditure.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 597790,
+          "title": "Deficiency and pharmacological stabilization of mast cells reduce diet-induced obesity and diabetes in mice",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Although mast cell functions have classically been related to allergic responses, recent studies indicate that these cells contribute to other common diseases such as multiple sclerosis, rheumatoid arthritis, atherosclerosis, aortic aneurysm and cancer."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "This study presents evidence that mast cells also contribute to diet-induced obesity and diabetes."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Mechanistic studies reveal that mast cells contribute to WAT and muscle angiogenesis and associated cell apoptosis and cathepsin activity."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Adoptive transfer experiments of cytokine-deficient mast cells show that these cells, by producing interleukin-6 (IL-6) and interferon-gamma (IFN-gamma), contribute to mouse adipose tissue cysteine protease cathepsin expression, apoptosis and angiogenesis, thereby promoting diet-induced obesity and glucose intolerance."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Our results showing reduced obesity and diabetes in mice treated with clinically available mast cell-stabilizing agents suggest the potential of developing new therapies for these common human metabolic disorders."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 597790,
+          "original_index": 2,
+          "sentence": "For example, white adipose tissue (WAT) from obese humans and mice contain more mast cells than WAT from their lean counterparts.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 597790,
+          "original_index": 3,
+          "sentence": "Furthermore, in the context of mice on a Western diet, genetically induced deficiency of mast cells, or their pharmacological stabilization, reduces body weight gain and levels of inflammatory cytokines, chemokines and proteases in serum and WAT, in concert with improved glucose homeostasis and energy expenditure.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

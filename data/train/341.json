@@ -1,0 +1,547 @@
+{
+  "id": 341,
+  "origin": "train_more",
+  "n_groups": 4,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Diabetes remission occurs more in people treated with conventional therapy than in people treated with laparoscopic adjustable gastric banding surgery.",
+      "evidence": [
+        {
+          "doc_id": 7098463,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Remission of type 2 diabetes was achieved by 22 (73%) in the surgical group and 4 (13%) in the conventional-therapy group.",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 7098463,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "Relative risk of remission for the surgical group was 5.5 (95% confidence interval, 2.2-14.0).",
+          "kept": true,
+          "new_index": 10
+        },
+        {
+          "doc_id": 7098463,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 14,
+          "sentence": "CONCLUSIONS Participants randomized to surgical therapy were more likely to achieve remission of type 2 diabetes through greater weight loss.",
+          "kept": true,
+          "new_index": 14
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 7098463,
+          "title": "Adjustable gastric banding and conventional therapy for type 2 diabetes: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Observational studies suggest that surgically induced loss of weight may be effective therapy for type 2 diabetes.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To determine if surgically induced weight loss results in better glycemic control and less need for diabetes medications than conventional approaches to weight loss and diabetes control.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Unblinded randomized controlled trial conducted from December 2002 through December 2006 at the University Obesity Research Center in Australia, with general community recruitment to established treatment programs."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Participants were 60 obese patients (BMI >30 and <40) with recently diagnosed (<2 years) type 2 diabetes.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "INTERVENTIONS Conventional diabetes therapy with a focus on weight loss by lifestyle change vs laparoscopic adjustable gastric banding with conventional diabetes care.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "MAIN OUTCOME MEASURES Remission of type 2 diabetes (fasting glucose level <126 mg/dL [7.0 mmol/L] and glycated hemoglobin [HbA1c] value <6.2% while taking no glycemic therapy)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Secondary measures included weight and components of the metabolic syndrome."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Analysis was by intention-to-treat.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "RESULTS Of the 60 patients enrolled, 55 (92%) completed the 2-year follow-up."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Remission of type 2 diabetes was achieved by 22 (73%) in the surgical group and 4 (13%) in the conventional-therapy group."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Relative risk of remission for the surgical group was 5.5 (95% confidence interval, 2.2-14.0)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Surgical and conventional-therapy groups lost a mean (SD) of 20.7% (8.6%) and 1.7% (5.2%) of weight, respectively, at 2 years (P < .001)."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "Remission of type 2 diabetes was related to weight loss (R2 = 0.46, P < .001) and lower baseline HbA1c levels (combined R2 = 0.52, P < .001)."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "There were no serious complications in either group.   \n"
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "CONCLUSIONS Participants randomized to surgical therapy were more likely to achieve remission of type 2 diabetes through greater weight loss."
+            },
+            {
+              "new_index": 15,
+              "original_index": 15,
+              "sentence": "These results need to be confirmed in a larger, more diverse population and have long-term efficacy assessed.   \n"
+            },
+            {
+              "new_index": 16,
+              "original_index": 16,
+              "sentence": "TRIAL REGISTRATION actr.org Identifier: ACTRN012605000159651."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g2"
+      ],
+      "claim": "Diabetes remission occurs more in people treated with conventional therapy than in people treated with laparoscopic adjustable gastric banding surgery.",
+      "evidence": [
+        {
+          "doc_id": 7098463,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Remission of type 2 diabetes was achieved by 22 (73%) in the surgical group and 4 (13%) in the conventional-therapy group.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 7098463,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "Relative risk of remission for the surgical group was 5.5 (95% confidence interval, 2.2-14.0).",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 7098463,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 14,
+          "sentence": "CONCLUSIONS Participants randomized to surgical therapy were more likely to achieve remission of type 2 diabetes through greater weight loss.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 7098463,
+          "title": "Adjustable gastric banding and conventional therapy for type 2 diabetes: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Observational studies suggest that surgically induced loss of weight may be effective therapy for type 2 diabetes.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To determine if surgically induced weight loss results in better glycemic control and less need for diabetes medications than conventional approaches to weight loss and diabetes control.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "INTERVENTIONS Conventional diabetes therapy with a focus on weight loss by lifestyle change vs laparoscopic adjustable gastric banding with conventional diabetes care.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "MAIN OUTCOME MEASURES Remission of type 2 diabetes (fasting glucose level <126 mg/dL [7.0 mmol/L] and glycated hemoglobin [HbA1c] value <6.2% while taking no glycemic therapy)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Secondary measures included weight and components of the metabolic syndrome."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Analysis was by intention-to-treat.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "RESULTS Of the 60 patients enrolled, 55 (92%) completed the 2-year follow-up."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Remission of type 2 diabetes was achieved by 22 (73%) in the surgical group and 4 (13%) in the conventional-therapy group."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "Relative risk of remission for the surgical group was 5.5 (95% confidence interval, 2.2-14.0)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "Surgical and conventional-therapy groups lost a mean (SD) of 20.7% (8.6%) and 1.7% (5.2%) of weight, respectively, at 2 years (P < .001)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 12,
+              "sentence": "Remission of type 2 diabetes was related to weight loss (R2 = 0.46, P < .001) and lower baseline HbA1c levels (combined R2 = 0.52, P < .001)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 13,
+              "sentence": "There were no serious complications in either group.   \n"
+            },
+            {
+              "new_index": 12,
+              "original_index": 15,
+              "sentence": "These results need to be confirmed in a larger, more diverse population and have long-term efficacy assessed.   \n"
+            },
+            {
+              "new_index": 13,
+              "original_index": 16,
+              "sentence": "TRIAL REGISTRATION actr.org Identifier: ACTRN012605000159651."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 7098463,
+          "original_index": 2,
+          "sentence": "DESIGN, SETTING, AND PARTICIPANTS Unblinded randomized controlled trial conducted from December 2002 through December 2006 at the University Obesity Research Center in Australia, with general community recruitment to established treatment programs.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 7098463,
+          "original_index": 3,
+          "sentence": "Participants were 60 obese patients (BMI >30 and <40) with recently diagnosed (<2 years) type 2 diabetes.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 7098463,
+          "original_index": 14,
+          "sentence": "CONCLUSIONS Participants randomized to surgical therapy were more likely to achieve remission of type 2 diabetes through greater weight loss.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g0",
+        "g2"
+      ],
+      "claim": "Diabetes remission occurs more in people treated with conventional therapy than in people treated with laparoscopic adjustable gastric banding surgery.",
+      "evidence": [
+        {
+          "doc_id": 7098463,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Remission of type 2 diabetes was achieved by 22 (73%) in the surgical group and 4 (13%) in the conventional-therapy group.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 7098463,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "Relative risk of remission for the surgical group was 5.5 (95% confidence interval, 2.2-14.0).",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 7098463,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 14,
+          "sentence": "CONCLUSIONS Participants randomized to surgical therapy were more likely to achieve remission of type 2 diabetes through greater weight loss.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 7098463,
+          "title": "Adjustable gastric banding and conventional therapy for type 2 diabetes: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Observational studies suggest that surgically induced loss of weight may be effective therapy for type 2 diabetes.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To determine if surgically induced weight loss results in better glycemic control and less need for diabetes medications than conventional approaches to weight loss and diabetes control.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Unblinded randomized controlled trial conducted from December 2002 through December 2006 at the University Obesity Research Center in Australia, with general community recruitment to established treatment programs."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Participants were 60 obese patients (BMI >30 and <40) with recently diagnosed (<2 years) type 2 diabetes.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "MAIN OUTCOME MEASURES Remission of type 2 diabetes (fasting glucose level <126 mg/dL [7.0 mmol/L] and glycated hemoglobin [HbA1c] value <6.2% while taking no glycemic therapy)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Secondary measures included weight and components of the metabolic syndrome."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "Analysis was by intention-to-treat.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "RESULTS Of the 60 patients enrolled, 55 (92%) completed the 2-year follow-up."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "Relative risk of remission for the surgical group was 5.5 (95% confidence interval, 2.2-14.0)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "Surgical and conventional-therapy groups lost a mean (SD) of 20.7% (8.6%) and 1.7% (5.2%) of weight, respectively, at 2 years (P < .001)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 12,
+              "sentence": "Remission of type 2 diabetes was related to weight loss (R2 = 0.46, P < .001) and lower baseline HbA1c levels (combined R2 = 0.52, P < .001)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 13,
+              "sentence": "There were no serious complications in either group.   \n"
+            },
+            {
+              "new_index": 12,
+              "original_index": 15,
+              "sentence": "These results need to be confirmed in a larger, more diverse population and have long-term efficacy assessed.   \n"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 7098463,
+          "original_index": 4,
+          "sentence": "INTERVENTIONS Conventional diabetes therapy with a focus on weight loss by lifestyle change vs laparoscopic adjustable gastric banding with conventional diabetes care.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 7098463,
+          "original_index": 9,
+          "sentence": "Remission of type 2 diabetes was achieved by 22 (73%) in the surgical group and 4 (13%) in the conventional-therapy group.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 7098463,
+          "original_index": 14,
+          "sentence": "CONCLUSIONS Participants randomized to surgical therapy were more likely to achieve remission of type 2 diabetes through greater weight loss.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 7098463,
+          "original_index": 16,
+          "sentence": "TRIAL REGISTRATION actr.org Identifier: ACTRN012605000159651.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2"
+      ],
+      "claim": "Diabetes remission occurs more in people treated with conventional therapy than in people treated with laparoscopic adjustable gastric banding surgery.",
+      "evidence": [
+        {
+          "doc_id": 7098463,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Remission of type 2 diabetes was achieved by 22 (73%) in the surgical group and 4 (13%) in the conventional-therapy group.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 7098463,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "Relative risk of remission for the surgical group was 5.5 (95% confidence interval, 2.2-14.0).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 7098463,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 14,
+          "sentence": "CONCLUSIONS Participants randomized to surgical therapy were more likely to achieve remission of type 2 diabetes through greater weight loss.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 7098463,
+          "title": "Adjustable gastric banding and conventional therapy for type 2 diabetes: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Observational studies suggest that surgically induced loss of weight may be effective therapy for type 2 diabetes.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To determine if surgically induced weight loss results in better glycemic control and less need for diabetes medications than conventional approaches to weight loss and diabetes control.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Unblinded randomized controlled trial conducted from December 2002 through December 2006 at the University Obesity Research Center in Australia, with general community recruitment to established treatment programs."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Participants were 60 obese patients (BMI >30 and <40) with recently diagnosed (<2 years) type 2 diabetes.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "INTERVENTIONS Conventional diabetes therapy with a focus on weight loss by lifestyle change vs laparoscopic adjustable gastric banding with conventional diabetes care.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Secondary measures included weight and components of the metabolic syndrome."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "Analysis was by intention-to-treat.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "RESULTS Of the 60 patients enrolled, 55 (92%) completed the 2-year follow-up."
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "Surgical and conventional-therapy groups lost a mean (SD) of 20.7% (8.6%) and 1.7% (5.2%) of weight, respectively, at 2 years (P < .001)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 13,
+              "sentence": "There were no serious complications in either group.   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 15,
+              "sentence": "These results need to be confirmed in a larger, more diverse population and have long-term efficacy assessed.   \n"
+            },
+            {
+              "new_index": 11,
+              "original_index": 16,
+              "sentence": "TRIAL REGISTRATION actr.org Identifier: ACTRN012605000159651."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 7098463,
+          "original_index": 5,
+          "sentence": "MAIN OUTCOME MEASURES Remission of type 2 diabetes (fasting glucose level <126 mg/dL [7.0 mmol/L] and glycated hemoglobin [HbA1c] value <6.2% while taking no glycemic therapy).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 7098463,
+          "original_index": 9,
+          "sentence": "Remission of type 2 diabetes was achieved by 22 (73%) in the surgical group and 4 (13%) in the conventional-therapy group.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 7098463,
+          "original_index": 10,
+          "sentence": "Relative risk of remission for the surgical group was 5.5 (95% confidence interval, 2.2-14.0).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 7098463,
+          "original_index": 12,
+          "sentence": "Remission of type 2 diabetes was related to weight loss (R2 = 0.46, P < .001) and lower baseline HbA1c levels (combined R2 = 0.52, P < .001).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 7098463,
+          "original_index": 14,
+          "sentence": "CONCLUSIONS Participants randomized to surgical therapy were more likely to achieve remission of type 2 diabetes through greater weight loss.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

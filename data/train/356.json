@@ -1,0 +1,475 @@
+{
+  "id": 356,
+  "origin": "train_more",
+  "n_groups": 5,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Dscam1 acts as a hypervariable pattern-recognition receptor for the immune system.",
+      "evidence": [
+        {
+          "doc_id": 6144337,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "Here we report a novel role of an alternatively spliced hypervariable immunoglobulin domain-encoding gene, Dscam, in generating a broad range of PRRs implicated in immune defense in the malaria vector Anopheles gambiae.",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 6144337,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "AgDscam responds to infection by producing pathogen challenge-specific splice form repertoires.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 6144337,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "AgDscam is mediating phagocytosis of bacteria with which it can associate and defend against in a splice form–specific manner.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 6144337,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "AgDscam is a hypervariable PRR of the A. gambiae innate immune system.",
+          "kept": true,
+          "new_index": 6
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6144337,
+          "title": "AgDscam, a Hypervariable Immunoglobulin Domain-Containing Receptor of the       Anopheles gambiae Innate Immune System     ",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Activation of the insect innate immune system is dependent on a limited number of pattern recognition receptors (PRRs) capable of interacting with pathogen-associated molecular pattern."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here we report a novel role of an alternatively spliced hypervariable immunoglobulin domain-encoding gene, Dscam, in generating a broad range of PRRs implicated in immune defense in the malaria vector Anopheles gambiae."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "The mosquito Down syndrome cell adhesion molecule gene, AgDscam, has a complex genome organization with 101 exons that can produce over 31,000 potential alternative splice forms with different combinations of adhesive domains and interaction specificities."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "AgDscam responds to infection by producing pathogen challenge-specific splice form repertoires."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Transient silencing of AgDscam compromises the mosquito's resistance to infections with bacteria and the malaria parasite Plasmodium."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "AgDscam is mediating phagocytosis of bacteria with which it can associate and defend against in a splice form–specific manner."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "AgDscam is a hypervariable PRR of the A. gambiae innate immune system."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Dscam1 acts as a hypervariable pattern-recognition receptor for the immune system.",
+      "evidence": [
+        {
+          "doc_id": 6144337,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "Here we report a novel role of an alternatively spliced hypervariable immunoglobulin domain-encoding gene, Dscam, in generating a broad range of PRRs implicated in immune defense in the malaria vector Anopheles gambiae.",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 6144337,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "AgDscam responds to infection by producing pathogen challenge-specific splice form repertoires.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6144337,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "AgDscam is mediating phagocytosis of bacteria with which it can associate and defend against in a splice form–specific manner.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 6144337,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "AgDscam is a hypervariable PRR of the A. gambiae innate immune system.",
+          "kept": true,
+          "new_index": 5
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6144337,
+          "title": "AgDscam, a Hypervariable Immunoglobulin Domain-Containing Receptor of the       Anopheles gambiae Innate Immune System     ",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Activation of the insect innate immune system is dependent on a limited number of pattern recognition receptors (PRRs) capable of interacting with pathogen-associated molecular pattern."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here we report a novel role of an alternatively spliced hypervariable immunoglobulin domain-encoding gene, Dscam, in generating a broad range of PRRs implicated in immune defense in the malaria vector Anopheles gambiae."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "The mosquito Down syndrome cell adhesion molecule gene, AgDscam, has a complex genome organization with 101 exons that can produce over 31,000 potential alternative splice forms with different combinations of adhesive domains and interaction specificities."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Transient silencing of AgDscam compromises the mosquito's resistance to infections with bacteria and the malaria parasite Plasmodium."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "AgDscam is mediating phagocytosis of bacteria with which it can associate and defend against in a splice form–specific manner."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "AgDscam is a hypervariable PRR of the A. gambiae innate immune system."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6144337,
+          "original_index": 3,
+          "sentence": "AgDscam responds to infection by producing pathogen challenge-specific splice form repertoires.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g3",
+        "g0"
+      ],
+      "claim": "Dscam1 acts as a hypervariable pattern-recognition receptor for the immune system.",
+      "evidence": [
+        {
+          "doc_id": 6144337,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "Here we report a novel role of an alternatively spliced hypervariable immunoglobulin domain-encoding gene, Dscam, in generating a broad range of PRRs implicated in immune defense in the malaria vector Anopheles gambiae.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6144337,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "AgDscam responds to infection by producing pathogen challenge-specific splice form repertoires.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 6144337,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "AgDscam is mediating phagocytosis of bacteria with which it can associate and defend against in a splice form–specific manner.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 6144337,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "AgDscam is a hypervariable PRR of the A. gambiae innate immune system.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6144337,
+          "title": "AgDscam, a Hypervariable Immunoglobulin Domain-Containing Receptor of the       Anopheles gambiae Innate Immune System     ",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Activation of the insect innate immune system is dependent on a limited number of pattern recognition receptors (PRRs) capable of interacting with pathogen-associated molecular pattern."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "The mosquito Down syndrome cell adhesion molecule gene, AgDscam, has a complex genome organization with 101 exons that can produce over 31,000 potential alternative splice forms with different combinations of adhesive domains and interaction specificities."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "AgDscam responds to infection by producing pathogen challenge-specific splice form repertoires."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Transient silencing of AgDscam compromises the mosquito's resistance to infections with bacteria and the malaria parasite Plasmodium."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "AgDscam is mediating phagocytosis of bacteria with which it can associate and defend against in a splice form–specific manner."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6144337,
+          "original_index": 1,
+          "sentence": "Here we report a novel role of an alternatively spliced hypervariable immunoglobulin domain-encoding gene, Dscam, in generating a broad range of PRRs implicated in immune defense in the malaria vector Anopheles gambiae.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 6144337,
+          "original_index": 6,
+          "sentence": "AgDscam is a hypervariable PRR of the A. gambiae innate immune system.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_3_groups",
+      "dropped_group_ids": [
+        "g1",
+        "g0",
+        "g3"
+      ],
+      "claim": "Dscam1 acts as a hypervariable pattern-recognition receptor for the immune system.",
+      "evidence": [
+        {
+          "doc_id": 6144337,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "Here we report a novel role of an alternatively spliced hypervariable immunoglobulin domain-encoding gene, Dscam, in generating a broad range of PRRs implicated in immune defense in the malaria vector Anopheles gambiae.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6144337,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "AgDscam responds to infection by producing pathogen challenge-specific splice form repertoires.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6144337,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "AgDscam is mediating phagocytosis of bacteria with which it can associate and defend against in a splice form–specific manner.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 6144337,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "AgDscam is a hypervariable PRR of the A. gambiae innate immune system.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6144337,
+          "title": "AgDscam, a Hypervariable Immunoglobulin Domain-Containing Receptor of the       Anopheles gambiae Innate Immune System     ",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Activation of the insect innate immune system is dependent on a limited number of pattern recognition receptors (PRRs) capable of interacting with pathogen-associated molecular pattern."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "The mosquito Down syndrome cell adhesion molecule gene, AgDscam, has a complex genome organization with 101 exons that can produce over 31,000 potential alternative splice forms with different combinations of adhesive domains and interaction specificities."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Transient silencing of AgDscam compromises the mosquito's resistance to infections with bacteria and the malaria parasite Plasmodium."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "AgDscam is mediating phagocytosis of bacteria with which it can associate and defend against in a splice form–specific manner."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6144337,
+          "original_index": 1,
+          "sentence": "Here we report a novel role of an alternatively spliced hypervariable immunoglobulin domain-encoding gene, Dscam, in generating a broad range of PRRs implicated in immune defense in the malaria vector Anopheles gambiae.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 6144337,
+          "original_index": 3,
+          "sentence": "AgDscam responds to infection by producing pathogen challenge-specific splice form repertoires.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 6144337,
+          "original_index": 6,
+          "sentence": "AgDscam is a hypervariable PRR of the A. gambiae innate immune system.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2",
+        "g3"
+      ],
+      "claim": "Dscam1 acts as a hypervariable pattern-recognition receptor for the immune system.",
+      "evidence": [
+        {
+          "doc_id": 6144337,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "Here we report a novel role of an alternatively spliced hypervariable immunoglobulin domain-encoding gene, Dscam, in generating a broad range of PRRs implicated in immune defense in the malaria vector Anopheles gambiae.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6144337,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "AgDscam responds to infection by producing pathogen challenge-specific splice form repertoires.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6144337,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "AgDscam is mediating phagocytosis of bacteria with which it can associate and defend against in a splice form–specific manner.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6144337,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "AgDscam is a hypervariable PRR of the A. gambiae innate immune system.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6144337,
+          "title": "AgDscam, a Hypervariable Immunoglobulin Domain-Containing Receptor of the       Anopheles gambiae Innate Immune System     ",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Activation of the insect innate immune system is dependent on a limited number of pattern recognition receptors (PRRs) capable of interacting with pathogen-associated molecular pattern."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "The mosquito Down syndrome cell adhesion molecule gene, AgDscam, has a complex genome organization with 101 exons that can produce over 31,000 potential alternative splice forms with different combinations of adhesive domains and interaction specificities."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Transient silencing of AgDscam compromises the mosquito's resistance to infections with bacteria and the malaria parasite Plasmodium."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6144337,
+          "original_index": 1,
+          "sentence": "Here we report a novel role of an alternatively spliced hypervariable immunoglobulin domain-encoding gene, Dscam, in generating a broad range of PRRs implicated in immune defense in the malaria vector Anopheles gambiae.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 6144337,
+          "original_index": 3,
+          "sentence": "AgDscam responds to infection by producing pathogen challenge-specific splice form repertoires.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 6144337,
+          "original_index": 5,
+          "sentence": "AgDscam is mediating phagocytosis of bacteria with which it can associate and defend against in a splice form–specific manner.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 6144337,
+          "original_index": 6,
+          "sentence": "AgDscam is a hypervariable PRR of the A. gambiae innate immune system.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

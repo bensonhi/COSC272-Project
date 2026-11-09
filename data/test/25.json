@@ -1,0 +1,47 @@
+{
+  "id": 25,
+  "origin": "train_more",
+  "claim": "90% of sudden infant death syndrome (SIDS) deaths happen in newborns aged less than 6 months.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 2613775,
+      "title": "Sudden infant death syndrome.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Despite declines in prevalence during the past two decades, sudden infant death syndrome (SIDS) continues to be the leading cause of death for infants aged between 1 month and 1 year in developed countries."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Behavioural risk factors identified in epidemiological studies include prone and side positions for infant sleep, smoke exposure, soft bedding and sleep surfaces, and overheating."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Evidence also suggests that pacifier use at sleep time and room sharing without bed sharing are associated with decreased risk of SIDS."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Although the cause of SIDS is unknown, immature cardiorespiratory autonomic control and failure of arousal responsiveness from sleep are important factors."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Gene polymorphisms relating to serotonin transport and autonomic nervous system development might make affected infants more vulnerable to SIDS."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Campaigns for risk reduction have helped to reduce SIDS incidence by 50-90%."
+        },
+        {
+          "original_index": 6,
+          "sentence": "However, to reduce the incidence even further, greater strides must be made in reducing prenatal smoke exposure and implementing other recommended infant care practices."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Continued research is needed to identify the pathophysiological basis of SIDS."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

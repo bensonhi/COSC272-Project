@@ -1,0 +1,43 @@
+{
+  "id": 655,
+  "origin": "train_more",
+  "claim": "Intra-cerebroventricular infusion of amyloid-β oligomers reduces expression of fibronectin type-III domain-containing protein 5 mRNA in mice hippocampi.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 57574395,
+      "title": "Exercise-linked FNDC5/irisin rescues synaptic plasticity and memory defects in Alzheimer’s models",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Defective brain hormonal signaling has been associated with Alzheimer's disease (AD), a disorder characterized by synapse and memory failure."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Irisin is an exercise-induced myokine released on cleavage of the membrane-bound precursor protein fibronectin type III domain-containing protein 5 (FNDC5), also expressed in the hippocampus."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Here we show that FNDC5/irisin levels are reduced in AD hippocampi and cerebrospinal fluid, and in experimental AD models."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Knockdown of brain FNDC5/irisin impairs long-term potentiation and novel object recognition memory in mice."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Conversely, boosting brain levels of FNDC5/irisin rescues synaptic plasticity and memory in AD mouse models."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Peripheral overexpression of FNDC5/irisin rescues memory impairment, whereas blockade of either peripheral or brain FNDC5/irisin attenuates the neuroprotective actions of physical exercise on synaptic plasticity and memory in AD mice."
+        },
+        {
+          "original_index": 6,
+          "sentence": "By showing that FNDC5/irisin is an important mediator of the beneficial effects of exercise in AD models, our findings place FNDC5/irisin as a novel agent capable of opposing synapse failure and memory impairment in AD."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

@@ -1,0 +1,659 @@
+{
+  "id": 506,
+  "origin": "train_more",
+  "n_groups": 6,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Helminths interfere with immune system control of coinfections by microbial pathogens 16.",
+      "evidence": [
+        {
+          "doc_id": 7433668,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "We show that mice infected with the intestinal helminth Nippostrongylus brasiliensis (Nb) exhibit a transitory impairment of resistance to airborne Mtb infection.",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 7433668,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Furthermore, a second dose of Nb infection substantially increases the bacterial burden in the lungs of co-infected mice.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 7433668,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "Co-infected mice lacking interleukin (IL) 4Rα exhibited improved ability to control Mtb infection, which was accompanied by significantly reduced accumulation of AAMs.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 7433668,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "Moreover, IL-4Rα(-/-) mice adoptively transferred with wild-type macrophages had a significantly higher Mtb load in their lungs compared with those that received IL-4Rα(-/-) macrophages, suggesting a direct contribution for the IL-4R pathway to the heightened susceptibility of co-infected animals.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 7433668,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "The Th2 response can thus enhance the intracellular persistence of Mtb, in part by mediating the alternative activation of macrophages via the IL-4Rα signaling pathway.",
+          "kept": true,
+          "new_index": 7
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 7433668,
+          "title": "Preexisting helminth infection induces inhibition of innate pulmonary anti-tuberculosis defense by engaging the IL-4 receptor pathway",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Tuberculosis and helminthic infections coexist in many parts of the world, yet the impact of helminth-elicited Th2 responses on the ability of the host to control Mycobacterium tuberculosis (Mtb) infection has not been fully explored."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We show that mice infected with the intestinal helminth Nippostrongylus brasiliensis (Nb) exhibit a transitory impairment of resistance to airborne Mtb infection."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Furthermore, a second dose of Nb infection substantially increases the bacterial burden in the lungs of co-infected mice."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Interestingly, the Th2 response in the co-infected animals did not impair the onset and development of the protective Mtb-specific Th1 cellular immune responses."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "However, the helminth-induced Th2 environment resulted in the accumulation of alternatively activated macrophages (AAMs) in the lung."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Co-infected mice lacking interleukin (IL) 4Rα exhibited improved ability to control Mtb infection, which was accompanied by significantly reduced accumulation of AAMs."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Moreover, IL-4Rα(-/-) mice adoptively transferred with wild-type macrophages had a significantly higher Mtb load in their lungs compared with those that received IL-4Rα(-/-) macrophages, suggesting a direct contribution for the IL-4R pathway to the heightened susceptibility of co-infected animals."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "The Th2 response can thus enhance the intracellular persistence of Mtb, in part by mediating the alternative activation of macrophages via the IL-4Rα signaling pathway."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g2"
+      ],
+      "claim": "Helminths interfere with immune system control of coinfections by microbial pathogens 16.",
+      "evidence": [
+        {
+          "doc_id": 7433668,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "We show that mice infected with the intestinal helminth Nippostrongylus brasiliensis (Nb) exhibit a transitory impairment of resistance to airborne Mtb infection.",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 7433668,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Furthermore, a second dose of Nb infection substantially increases the bacterial burden in the lungs of co-infected mice.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 7433668,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "Co-infected mice lacking interleukin (IL) 4Rα exhibited improved ability to control Mtb infection, which was accompanied by significantly reduced accumulation of AAMs.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 7433668,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "Moreover, IL-4Rα(-/-) mice adoptively transferred with wild-type macrophages had a significantly higher Mtb load in their lungs compared with those that received IL-4Rα(-/-) macrophages, suggesting a direct contribution for the IL-4R pathway to the heightened susceptibility of co-infected animals.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 7433668,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "The Th2 response can thus enhance the intracellular persistence of Mtb, in part by mediating the alternative activation of macrophages via the IL-4Rα signaling pathway.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 7433668,
+          "title": "Preexisting helminth infection induces inhibition of innate pulmonary anti-tuberculosis defense by engaging the IL-4 receptor pathway",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Tuberculosis and helminthic infections coexist in many parts of the world, yet the impact of helminth-elicited Th2 responses on the ability of the host to control Mycobacterium tuberculosis (Mtb) infection has not been fully explored."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We show that mice infected with the intestinal helminth Nippostrongylus brasiliensis (Nb) exhibit a transitory impairment of resistance to airborne Mtb infection."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Furthermore, a second dose of Nb infection substantially increases the bacterial burden in the lungs of co-infected mice."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Interestingly, the Th2 response in the co-infected animals did not impair the onset and development of the protective Mtb-specific Th1 cellular immune responses."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "However, the helminth-induced Th2 environment resulted in the accumulation of alternatively activated macrophages (AAMs) in the lung."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Co-infected mice lacking interleukin (IL) 4Rα exhibited improved ability to control Mtb infection, which was accompanied by significantly reduced accumulation of AAMs."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Moreover, IL-4Rα(-/-) mice adoptively transferred with wild-type macrophages had a significantly higher Mtb load in their lungs compared with those that received IL-4Rα(-/-) macrophages, suggesting a direct contribution for the IL-4R pathway to the heightened susceptibility of co-infected animals."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 7433668,
+          "original_index": 7,
+          "sentence": "The Th2 response can thus enhance the intracellular persistence of Mtb, in part by mediating the alternative activation of macrophages via the IL-4Rα signaling pathway.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g1",
+        "g0"
+      ],
+      "claim": "Helminths interfere with immune system control of coinfections by microbial pathogens 16.",
+      "evidence": [
+        {
+          "doc_id": 7433668,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "We show that mice infected with the intestinal helminth Nippostrongylus brasiliensis (Nb) exhibit a transitory impairment of resistance to airborne Mtb infection.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 7433668,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Furthermore, a second dose of Nb infection substantially increases the bacterial burden in the lungs of co-infected mice.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 7433668,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "Co-infected mice lacking interleukin (IL) 4Rα exhibited improved ability to control Mtb infection, which was accompanied by significantly reduced accumulation of AAMs.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 7433668,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "Moreover, IL-4Rα(-/-) mice adoptively transferred with wild-type macrophages had a significantly higher Mtb load in their lungs compared with those that received IL-4Rα(-/-) macrophages, suggesting a direct contribution for the IL-4R pathway to the heightened susceptibility of co-infected animals.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 7433668,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "The Th2 response can thus enhance the intracellular persistence of Mtb, in part by mediating the alternative activation of macrophages via the IL-4Rα signaling pathway.",
+          "kept": true,
+          "new_index": 5
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 7433668,
+          "title": "Preexisting helminth infection induces inhibition of innate pulmonary anti-tuberculosis defense by engaging the IL-4 receptor pathway",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Tuberculosis and helminthic infections coexist in many parts of the world, yet the impact of helminth-elicited Th2 responses on the ability of the host to control Mycobacterium tuberculosis (Mtb) infection has not been fully explored."
+            },
+            {
+              "new_index": 1,
+              "original_index": 3,
+              "sentence": "Interestingly, the Th2 response in the co-infected animals did not impair the onset and development of the protective Mtb-specific Th1 cellular immune responses."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "However, the helminth-induced Th2 environment resulted in the accumulation of alternatively activated macrophages (AAMs) in the lung."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Co-infected mice lacking interleukin (IL) 4Rα exhibited improved ability to control Mtb infection, which was accompanied by significantly reduced accumulation of AAMs."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Moreover, IL-4Rα(-/-) mice adoptively transferred with wild-type macrophages had a significantly higher Mtb load in their lungs compared with those that received IL-4Rα(-/-) macrophages, suggesting a direct contribution for the IL-4R pathway to the heightened susceptibility of co-infected animals."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "The Th2 response can thus enhance the intracellular persistence of Mtb, in part by mediating the alternative activation of macrophages via the IL-4Rα signaling pathway."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 7433668,
+          "original_index": 1,
+          "sentence": "We show that mice infected with the intestinal helminth Nippostrongylus brasiliensis (Nb) exhibit a transitory impairment of resistance to airborne Mtb infection.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 7433668,
+          "original_index": 2,
+          "sentence": "Furthermore, a second dose of Nb infection substantially increases the bacterial burden in the lungs of co-infected mice.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_3_groups",
+      "dropped_group_ids": [
+        "g0",
+        "g4",
+        "g3"
+      ],
+      "claim": "Helminths interfere with immune system control of coinfections by microbial pathogens 16.",
+      "evidence": [
+        {
+          "doc_id": 7433668,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "We show that mice infected with the intestinal helminth Nippostrongylus brasiliensis (Nb) exhibit a transitory impairment of resistance to airborne Mtb infection.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 7433668,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Furthermore, a second dose of Nb infection substantially increases the bacterial burden in the lungs of co-infected mice.",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 7433668,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "Co-infected mice lacking interleukin (IL) 4Rα exhibited improved ability to control Mtb infection, which was accompanied by significantly reduced accumulation of AAMs.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 7433668,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "Moreover, IL-4Rα(-/-) mice adoptively transferred with wild-type macrophages had a significantly higher Mtb load in their lungs compared with those that received IL-4Rα(-/-) macrophages, suggesting a direct contribution for the IL-4R pathway to the heightened susceptibility of co-infected animals.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 7433668,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "The Th2 response can thus enhance the intracellular persistence of Mtb, in part by mediating the alternative activation of macrophages via the IL-4Rα signaling pathway.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 7433668,
+          "title": "Preexisting helminth infection induces inhibition of innate pulmonary anti-tuberculosis defense by engaging the IL-4 receptor pathway",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Tuberculosis and helminthic infections coexist in many parts of the world, yet the impact of helminth-elicited Th2 responses on the ability of the host to control Mycobacterium tuberculosis (Mtb) infection has not been fully explored."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Furthermore, a second dose of Nb infection substantially increases the bacterial burden in the lungs of co-infected mice."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Interestingly, the Th2 response in the co-infected animals did not impair the onset and development of the protective Mtb-specific Th1 cellular immune responses."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "However, the helminth-induced Th2 environment resulted in the accumulation of alternatively activated macrophages (AAMs) in the lung."
+            },
+            {
+              "new_index": 4,
+              "original_index": 7,
+              "sentence": "The Th2 response can thus enhance the intracellular persistence of Mtb, in part by mediating the alternative activation of macrophages via the IL-4Rα signaling pathway."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 7433668,
+          "original_index": 1,
+          "sentence": "We show that mice infected with the intestinal helminth Nippostrongylus brasiliensis (Nb) exhibit a transitory impairment of resistance to airborne Mtb infection.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 7433668,
+          "original_index": 5,
+          "sentence": "Co-infected mice lacking interleukin (IL) 4Rα exhibited improved ability to control Mtb infection, which was accompanied by significantly reduced accumulation of AAMs.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 7433668,
+          "original_index": 6,
+          "sentence": "Moreover, IL-4Rα(-/-) mice adoptively transferred with wild-type macrophages had a significantly higher Mtb load in their lungs compared with those that received IL-4Rα(-/-) macrophages, suggesting a direct contribution for the IL-4R pathway to the heightened susceptibility of co-infected animals.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_4_groups",
+      "dropped_group_ids": [
+        "g1",
+        "g4",
+        "g0",
+        "g3"
+      ],
+      "claim": "Helminths interfere with immune system control of coinfections by microbial pathogens 16.",
+      "evidence": [
+        {
+          "doc_id": 7433668,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "We show that mice infected with the intestinal helminth Nippostrongylus brasiliensis (Nb) exhibit a transitory impairment of resistance to airborne Mtb infection.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 7433668,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Furthermore, a second dose of Nb infection substantially increases the bacterial burden in the lungs of co-infected mice.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 7433668,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "Co-infected mice lacking interleukin (IL) 4Rα exhibited improved ability to control Mtb infection, which was accompanied by significantly reduced accumulation of AAMs.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 7433668,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "Moreover, IL-4Rα(-/-) mice adoptively transferred with wild-type macrophages had a significantly higher Mtb load in their lungs compared with those that received IL-4Rα(-/-) macrophages, suggesting a direct contribution for the IL-4R pathway to the heightened susceptibility of co-infected animals.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 7433668,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "The Th2 response can thus enhance the intracellular persistence of Mtb, in part by mediating the alternative activation of macrophages via the IL-4Rα signaling pathway.",
+          "kept": true,
+          "new_index": 3
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 7433668,
+          "title": "Preexisting helminth infection induces inhibition of innate pulmonary anti-tuberculosis defense by engaging the IL-4 receptor pathway",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Tuberculosis and helminthic infections coexist in many parts of the world, yet the impact of helminth-elicited Th2 responses on the ability of the host to control Mycobacterium tuberculosis (Mtb) infection has not been fully explored."
+            },
+            {
+              "new_index": 1,
+              "original_index": 3,
+              "sentence": "Interestingly, the Th2 response in the co-infected animals did not impair the onset and development of the protective Mtb-specific Th1 cellular immune responses."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "However, the helminth-induced Th2 environment resulted in the accumulation of alternatively activated macrophages (AAMs) in the lung."
+            },
+            {
+              "new_index": 3,
+              "original_index": 7,
+              "sentence": "The Th2 response can thus enhance the intracellular persistence of Mtb, in part by mediating the alternative activation of macrophages via the IL-4Rα signaling pathway."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 7433668,
+          "original_index": 1,
+          "sentence": "We show that mice infected with the intestinal helminth Nippostrongylus brasiliensis (Nb) exhibit a transitory impairment of resistance to airborne Mtb infection.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 7433668,
+          "original_index": 2,
+          "sentence": "Furthermore, a second dose of Nb infection substantially increases the bacterial burden in the lungs of co-infected mice.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 7433668,
+          "original_index": 5,
+          "sentence": "Co-infected mice lacking interleukin (IL) 4Rα exhibited improved ability to control Mtb infection, which was accompanied by significantly reduced accumulation of AAMs.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 7433668,
+          "original_index": 6,
+          "sentence": "Moreover, IL-4Rα(-/-) mice adoptively transferred with wild-type macrophages had a significantly higher Mtb load in their lungs compared with those that received IL-4Rα(-/-) macrophages, suggesting a direct contribution for the IL-4R pathway to the heightened susceptibility of co-infected animals.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2",
+        "g3",
+        "g4"
+      ],
+      "claim": "Helminths interfere with immune system control of coinfections by microbial pathogens 16.",
+      "evidence": [
+        {
+          "doc_id": 7433668,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "We show that mice infected with the intestinal helminth Nippostrongylus brasiliensis (Nb) exhibit a transitory impairment of resistance to airborne Mtb infection.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 7433668,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Furthermore, a second dose of Nb infection substantially increases the bacterial burden in the lungs of co-infected mice.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 7433668,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "Co-infected mice lacking interleukin (IL) 4Rα exhibited improved ability to control Mtb infection, which was accompanied by significantly reduced accumulation of AAMs.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 7433668,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "Moreover, IL-4Rα(-/-) mice adoptively transferred with wild-type macrophages had a significantly higher Mtb load in their lungs compared with those that received IL-4Rα(-/-) macrophages, suggesting a direct contribution for the IL-4R pathway to the heightened susceptibility of co-infected animals.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 7433668,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "The Th2 response can thus enhance the intracellular persistence of Mtb, in part by mediating the alternative activation of macrophages via the IL-4Rα signaling pathway.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 7433668,
+          "title": "Preexisting helminth infection induces inhibition of innate pulmonary anti-tuberculosis defense by engaging the IL-4 receptor pathway",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Tuberculosis and helminthic infections coexist in many parts of the world, yet the impact of helminth-elicited Th2 responses on the ability of the host to control Mycobacterium tuberculosis (Mtb) infection has not been fully explored."
+            },
+            {
+              "new_index": 1,
+              "original_index": 3,
+              "sentence": "Interestingly, the Th2 response in the co-infected animals did not impair the onset and development of the protective Mtb-specific Th1 cellular immune responses."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "However, the helminth-induced Th2 environment resulted in the accumulation of alternatively activated macrophages (AAMs) in the lung."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 7433668,
+          "original_index": 1,
+          "sentence": "We show that mice infected with the intestinal helminth Nippostrongylus brasiliensis (Nb) exhibit a transitory impairment of resistance to airborne Mtb infection.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 7433668,
+          "original_index": 2,
+          "sentence": "Furthermore, a second dose of Nb infection substantially increases the bacterial burden in the lungs of co-infected mice.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 7433668,
+          "original_index": 5,
+          "sentence": "Co-infected mice lacking interleukin (IL) 4Rα exhibited improved ability to control Mtb infection, which was accompanied by significantly reduced accumulation of AAMs.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 7433668,
+          "original_index": 6,
+          "sentence": "Moreover, IL-4Rα(-/-) mice adoptively transferred with wild-type macrophages had a significantly higher Mtb load in their lungs compared with those that received IL-4Rα(-/-) macrophages, suggesting a direct contribution for the IL-4R pathway to the heightened susceptibility of co-infected animals.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 7433668,
+          "original_index": 7,
+          "sentence": "The Th2 response can thus enhance the intracellular persistence of Mtb, in part by mediating the alternative activation of macrophages via the IL-4Rα signaling pathway.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

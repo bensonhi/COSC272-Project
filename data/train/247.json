@@ -1,0 +1,58 @@
+{
+  "id": 247,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Chemical injury represses transglutaminase 2 activity.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 13578199,
+          "title": "Transglutaminase 2 Undergoes a Large Conformational Change upon Activation ",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Human transglutaminase 2 (TG2), a member of a large family of enzymes that catalyze protein crosslinking, plays an important role in the extracellular matrix biology of many tissues and is implicated in the gluten-induced pathogenesis of celiac sprue."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Although vertebrate transglutaminases have been studied extensively, thus far all structurally characterized members of this family have been crystallized in conformations with inaccessible active sites."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We have trapped human TG2 in complex with an inhibitor that mimics inflammatory gluten peptide substrates and have solved, at 2-A resolution, its x-ray crystal structure."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "The inhibitor stabilizes TG2 in an extended conformation that is dramatically different from earlier transglutaminase structures."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "The active site is exposed, revealing that catalysis takes place in a tunnel, bridged by two tryptophan residues that separate acyl-donor from acyl-acceptor and stabilize the tetrahedral reaction intermediates."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Site-directed mutagenesis was used to investigate the acyl-acceptor side of the tunnel, yielding mutants with a marked increase in preference for hydrolysis over transamidation."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "By providing the ability to visualize this activated conformer, our results create a foundation for understanding the catalytic as well as the non-catalytic roles of TG2 in biology, and for dissecting the process by which the autoantibody response to TG2 is induced in celiac sprue patients."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

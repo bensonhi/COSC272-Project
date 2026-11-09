@@ -1,0 +1,39 @@
+{
+  "id": 1402,
+  "origin": "train_more",
+  "claim": "r-protein chaperones are found in complexes with their r-protein binding partners.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 8126244,
+      "title": "Rational Extension of the Ribosome Biogenesis Pathway Using Network-Guided Genetics",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Biogenesis of ribosomes is an essential cellular process conserved across all eukaryotes and is known to require >170 genes for the assembly, modification, and trafficking of ribosome components through multiple cellular compartments."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Despite intensive study, this pathway likely involves many additional genes."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Here, we employ network-guided genetics-an approach for associating candidate genes with biological processes that capitalizes on recent advances in functional genomic and proteomic studies-to computationally identify additional ribosomal biogenesis genes."
+        },
+        {
+          "original_index": 3,
+          "sentence": "We experimentally evaluated >100 candidate yeast genes in a battery of assays, confirming involvement of at least 15 new genes, including previously uncharacterized genes (YDL063C, YIL091C, YOR287C, YOR006C/TSR3, YOL022C/TSR4)."
+        },
+        {
+          "original_index": 4,
+          "sentence": "We associate the new genes with specific aspects of ribosomal subunit maturation, ribosomal particle association, and ribosomal subunit nuclear export, and we identify genes specifically required for the processing of 5S, 7S, 20S, 27S, and 35S rRNAs."
+        },
+        {
+          "original_index": 5,
+          "sentence": "These results reveal new connections between ribosome biogenesis and mRNA splicing and add >10% new genes-most with human orthologs-to the biogenesis pathway, significantly extending our understanding of a universally conserved eukaryotic process."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

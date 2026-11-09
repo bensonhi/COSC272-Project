@@ -1,0 +1,74 @@
+{
+  "id": 1406,
+  "origin": "train_more",
+  "claim": "β-sheet opening occurs during pleurotolysin pore formation.",
+  "evidence": [
+    {
+      "doc_id": 2617858,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 4,
+      "sentence": "The major conformational changes in PlyB are a ∼70° opening of the bent and distorted central β-sheet of the MACPF domain, accompanied by extrusion and refolding of two α-helical regions into transmembrane β-hairpins (TMH1 and TMH2)."
+    },
+    {
+      "doc_id": 2617858,
+      "group_id": "g1",
+      "evidence_label": "SUPPORT_more",
+      "original_index": 6,
+      "sentence": "Analysis of these data by molecular modelling and flexible fitting allows us to generate a potential trajectory of β-sheet unbending."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 2617858,
+      "title": "Conformational Changes during Pore Formation by the Perforin-Related Protein Pleurotolysin",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Membrane attack complex/perforin-like (MACPF) proteins comprise the largest superfamily of pore-forming proteins, playing crucial roles in immunity and pathogenesis."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Soluble monomers assemble into large transmembrane pores via conformational transitions that remain to be structurally and mechanistically characterised."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Here we present an 11 Å resolution cryo-electron microscopy (cryo-EM) structure of the two-part, fungal toxin Pleurotolysin (Ply), together with crystal structures of both components (the lipid binding PlyA protein and the pore-forming MACPF component PlyB)."
+        },
+        {
+          "original_index": 3,
+          "sentence": "These data reveal a 13-fold pore 80 Å in diameter and 100 Å in height, with each subunit comprised of a PlyB molecule atop a membrane bound dimer of PlyA. The resolution of the EM map, together with biophysical and computational experiments, allowed confident assignment of subdomains in a MACPF pore assembly."
+        },
+        {
+          "original_index": 4,
+          "sentence": "The major conformational changes in PlyB are a ∼70° opening of the bent and distorted central β-sheet of the MACPF domain, accompanied by extrusion and refolding of two α-helical regions into transmembrane β-hairpins (TMH1 and TMH2)."
+        },
+        {
+          "original_index": 5,
+          "sentence": "We determined the structures of three different disulphide bond-trapped prepore intermediates."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Analysis of these data by molecular modelling and flexible fitting allows us to generate a potential trajectory of β-sheet unbending."
+        },
+        {
+          "original_index": 7,
+          "sentence": "The results suggest that MACPF conformational change is triggered through disruption of the interface between a conserved helix-turn-helix motif and the top of TMH2."
+        },
+        {
+          "original_index": 8,
+          "sentence": "Following their release we propose that the transmembrane regions assemble into β-hairpins via top down zippering of backbone hydrogen bonds to form the membrane-inserted β-barrel."
+        },
+        {
+          "original_index": 9,
+          "sentence": "The intermediate structures of the MACPF domain during refolding into the β-barrel pore establish a structural paradigm for the transition from soluble monomer to pore, which may be conserved across the whole superfamily."
+        },
+        {
+          "original_index": 10,
+          "sentence": "The TMH2 region is critical for the release of both TMH clusters, suggesting why this region is targeted by endogenous inhibitors of MACPF function."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

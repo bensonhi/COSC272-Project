@@ -1,0 +1,949 @@
+{
+  "id": 1134,
+  "origin": "train_more",
+  "n_groups": 7,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "TNFAIP3 is a glioblastoma tumor enhancer.",
+      "evidence": [
+        {
+          "doc_id": 33370,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Inhibiting A20 expression decreased GSC growth and survival through mechanisms associated with decreased cell-cycle progression and decreased phosphorylation of p65/RelA. Elevated levels of A20 in GSCs contributed to apoptotic resistance: GSCs were less susceptible to TNFalpha-induced cell death than matched non-stem glioma cells, but A20 knockdown sensitized GSCs to TNFalpha-mediated apoptosis.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "The decreased survival of GSCs upon A20 knockdown contributed to the reduced ability of these cells to self-renew in primary and secondary neurosphere formation assays.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "The tumorigenic potential of GSCs was decreased with A20 targeting, resulting in increased survival of mice bearing human glioma xenografts.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "In silico analysis of a glioma patient genomic database indicates that A20 overexpression and amplification is inversely correlated with survival.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "Together these data indicate that A20 contributes to glioma maintenance through effects on the glioma stem cell subpopulation.",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Although inactivating mutations in A20 in lymphoma suggest A20 can act as a tumor suppressor, similar point mutations have not been identified through glioma genomic sequencing: in fact, our data suggest A20 may function as a tumor enhancer in glioma through promotion of GSC survival.",
+          "kept": true,
+          "new_index": 9
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 33370,
+          "title": "Targeting A20 Decreases Glioma Stem Cell Survival and Tumor Growth",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Glioblastomas are deadly cancers that display a functional cellular hierarchy maintained by self-renewing glioblastoma stem cells (GSCs)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "GSCs are regulated by molecular pathways distinct from the bulk tumor that may be useful therapeutic targets."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We determined that A20 (TNFAIP3), a regulator of cell survival and the NF-kappaB pathway, is overexpressed in GSCs relative to non-stem glioblastoma cells at both the mRNA and protein levels."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "To determine the functional significance of A20 in GSCs, we targeted A20 expression with lentiviral-mediated delivery of short hairpin RNA (shRNA)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Inhibiting A20 expression decreased GSC growth and survival through mechanisms associated with decreased cell-cycle progression and decreased phosphorylation of p65/RelA. Elevated levels of A20 in GSCs contributed to apoptotic resistance: GSCs were less susceptible to TNFalpha-induced cell death than matched non-stem glioma cells, but A20 knockdown sensitized GSCs to TNFalpha-mediated apoptosis."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "The decreased survival of GSCs upon A20 knockdown contributed to the reduced ability of these cells to self-renew in primary and secondary neurosphere formation assays."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "The tumorigenic potential of GSCs was decreased with A20 targeting, resulting in increased survival of mice bearing human glioma xenografts."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "In silico analysis of a glioma patient genomic database indicates that A20 overexpression and amplification is inversely correlated with survival."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Together these data indicate that A20 contributes to glioma maintenance through effects on the glioma stem cell subpopulation."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Although inactivating mutations in A20 in lymphoma suggest A20 can act as a tumor suppressor, similar point mutations have not been identified through glioma genomic sequencing: in fact, our data suggest A20 may function as a tumor enhancer in glioma through promotion of GSC survival."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "A20 anticancer therapies should therefore be viewed with caution as effects will likely differ depending on the tumor type."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g3"
+      ],
+      "claim": "TNFAIP3 is a glioblastoma tumor enhancer.",
+      "evidence": [
+        {
+          "doc_id": 33370,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Inhibiting A20 expression decreased GSC growth and survival through mechanisms associated with decreased cell-cycle progression and decreased phosphorylation of p65/RelA. Elevated levels of A20 in GSCs contributed to apoptotic resistance: GSCs were less susceptible to TNFalpha-induced cell death than matched non-stem glioma cells, but A20 knockdown sensitized GSCs to TNFalpha-mediated apoptosis.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "The decreased survival of GSCs upon A20 knockdown contributed to the reduced ability of these cells to self-renew in primary and secondary neurosphere formation assays.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "The tumorigenic potential of GSCs was decreased with A20 targeting, resulting in increased survival of mice bearing human glioma xenografts.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "In silico analysis of a glioma patient genomic database indicates that A20 overexpression and amplification is inversely correlated with survival.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "Together these data indicate that A20 contributes to glioma maintenance through effects on the glioma stem cell subpopulation.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Although inactivating mutations in A20 in lymphoma suggest A20 can act as a tumor suppressor, similar point mutations have not been identified through glioma genomic sequencing: in fact, our data suggest A20 may function as a tumor enhancer in glioma through promotion of GSC survival.",
+          "kept": true,
+          "new_index": 7
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 33370,
+          "title": "Targeting A20 Decreases Glioma Stem Cell Survival and Tumor Growth",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "GSCs are regulated by molecular pathways distinct from the bulk tumor that may be useful therapeutic targets."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "We determined that A20 (TNFAIP3), a regulator of cell survival and the NF-kappaB pathway, is overexpressed in GSCs relative to non-stem glioblastoma cells at both the mRNA and protein levels."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "To determine the functional significance of A20 in GSCs, we targeted A20 expression with lentiviral-mediated delivery of short hairpin RNA (shRNA)."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Inhibiting A20 expression decreased GSC growth and survival through mechanisms associated with decreased cell-cycle progression and decreased phosphorylation of p65/RelA. Elevated levels of A20 in GSCs contributed to apoptotic resistance: GSCs were less susceptible to TNFalpha-induced cell death than matched non-stem glioma cells, but A20 knockdown sensitized GSCs to TNFalpha-mediated apoptosis."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "The decreased survival of GSCs upon A20 knockdown contributed to the reduced ability of these cells to self-renew in primary and secondary neurosphere formation assays."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "In silico analysis of a glioma patient genomic database indicates that A20 overexpression and amplification is inversely correlated with survival."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "Together these data indicate that A20 contributes to glioma maintenance through effects on the glioma stem cell subpopulation."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Although inactivating mutations in A20 in lymphoma suggest A20 can act as a tumor suppressor, similar point mutations have not been identified through glioma genomic sequencing: in fact, our data suggest A20 may function as a tumor enhancer in glioma through promotion of GSC survival."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "A20 anticancer therapies should therefore be viewed with caution as effects will likely differ depending on the tumor type."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 33370,
+          "original_index": 0,
+          "sentence": "Glioblastomas are deadly cancers that display a functional cellular hierarchy maintained by self-renewing glioblastoma stem cells (GSCs).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 33370,
+          "original_index": 6,
+          "sentence": "The tumorigenic potential of GSCs was decreased with A20 targeting, resulting in increased survival of mice bearing human glioma xenografts.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g0",
+        "g5"
+      ],
+      "claim": "TNFAIP3 is a glioblastoma tumor enhancer.",
+      "evidence": [
+        {
+          "doc_id": 33370,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Inhibiting A20 expression decreased GSC growth and survival through mechanisms associated with decreased cell-cycle progression and decreased phosphorylation of p65/RelA. Elevated levels of A20 in GSCs contributed to apoptotic resistance: GSCs were less susceptible to TNFalpha-induced cell death than matched non-stem glioma cells, but A20 knockdown sensitized GSCs to TNFalpha-mediated apoptosis.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "The decreased survival of GSCs upon A20 knockdown contributed to the reduced ability of these cells to self-renew in primary and secondary neurosphere formation assays.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "The tumorigenic potential of GSCs was decreased with A20 targeting, resulting in increased survival of mice bearing human glioma xenografts.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "In silico analysis of a glioma patient genomic database indicates that A20 overexpression and amplification is inversely correlated with survival.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "Together these data indicate that A20 contributes to glioma maintenance through effects on the glioma stem cell subpopulation.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Although inactivating mutations in A20 in lymphoma suggest A20 can act as a tumor suppressor, similar point mutations have not been identified through glioma genomic sequencing: in fact, our data suggest A20 may function as a tumor enhancer in glioma through promotion of GSC survival.",
+          "kept": true,
+          "new_index": 6
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 33370,
+          "title": "Targeting A20 Decreases Glioma Stem Cell Survival and Tumor Growth",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "GSCs are regulated by molecular pathways distinct from the bulk tumor that may be useful therapeutic targets."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "We determined that A20 (TNFAIP3), a regulator of cell survival and the NF-kappaB pathway, is overexpressed in GSCs relative to non-stem glioblastoma cells at both the mRNA and protein levels."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "To determine the functional significance of A20 in GSCs, we targeted A20 expression with lentiviral-mediated delivery of short hairpin RNA (shRNA)."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "The decreased survival of GSCs upon A20 knockdown contributed to the reduced ability of these cells to self-renew in primary and secondary neurosphere formation assays."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "The tumorigenic potential of GSCs was decreased with A20 targeting, resulting in increased survival of mice bearing human glioma xenografts."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "In silico analysis of a glioma patient genomic database indicates that A20 overexpression and amplification is inversely correlated with survival."
+            },
+            {
+              "new_index": 6,
+              "original_index": 9,
+              "sentence": "Although inactivating mutations in A20 in lymphoma suggest A20 can act as a tumor suppressor, similar point mutations have not been identified through glioma genomic sequencing: in fact, our data suggest A20 may function as a tumor enhancer in glioma through promotion of GSC survival."
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "A20 anticancer therapies should therefore be viewed with caution as effects will likely differ depending on the tumor type."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 33370,
+          "original_index": 0,
+          "sentence": "Glioblastomas are deadly cancers that display a functional cellular hierarchy maintained by self-renewing glioblastoma stem cells (GSCs).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 33370,
+          "original_index": 4,
+          "sentence": "Inhibiting A20 expression decreased GSC growth and survival through mechanisms associated with decreased cell-cycle progression and decreased phosphorylation of p65/RelA. Elevated levels of A20 in GSCs contributed to apoptotic resistance: GSCs were less susceptible to TNFalpha-induced cell death than matched non-stem glioma cells, but A20 knockdown sensitized GSCs to TNFalpha-mediated apoptosis.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 33370,
+          "original_index": 8,
+          "sentence": "Together these data indicate that A20 contributes to glioma maintenance through effects on the glioma stem cell subpopulation.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_3_groups",
+      "dropped_group_ids": [
+        "g1",
+        "g2",
+        "g4"
+      ],
+      "claim": "TNFAIP3 is a glioblastoma tumor enhancer.",
+      "evidence": [
+        {
+          "doc_id": 33370,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Inhibiting A20 expression decreased GSC growth and survival through mechanisms associated with decreased cell-cycle progression and decreased phosphorylation of p65/RelA. Elevated levels of A20 in GSCs contributed to apoptotic resistance: GSCs were less susceptible to TNFalpha-induced cell death than matched non-stem glioma cells, but A20 knockdown sensitized GSCs to TNFalpha-mediated apoptosis.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "The decreased survival of GSCs upon A20 knockdown contributed to the reduced ability of these cells to self-renew in primary and secondary neurosphere formation assays.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "The tumorigenic potential of GSCs was decreased with A20 targeting, resulting in increased survival of mice bearing human glioma xenografts.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "In silico analysis of a glioma patient genomic database indicates that A20 overexpression and amplification is inversely correlated with survival.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "Together these data indicate that A20 contributes to glioma maintenance through effects on the glioma stem cell subpopulation.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Although inactivating mutations in A20 in lymphoma suggest A20 can act as a tumor suppressor, similar point mutations have not been identified through glioma genomic sequencing: in fact, our data suggest A20 may function as a tumor enhancer in glioma through promotion of GSC survival.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 33370,
+          "title": "Targeting A20 Decreases Glioma Stem Cell Survival and Tumor Growth",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "GSCs are regulated by molecular pathways distinct from the bulk tumor that may be useful therapeutic targets."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "We determined that A20 (TNFAIP3), a regulator of cell survival and the NF-kappaB pathway, is overexpressed in GSCs relative to non-stem glioblastoma cells at both the mRNA and protein levels."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "To determine the functional significance of A20 in GSCs, we targeted A20 expression with lentiviral-mediated delivery of short hairpin RNA (shRNA)."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Inhibiting A20 expression decreased GSC growth and survival through mechanisms associated with decreased cell-cycle progression and decreased phosphorylation of p65/RelA. Elevated levels of A20 in GSCs contributed to apoptotic resistance: GSCs were less susceptible to TNFalpha-induced cell death than matched non-stem glioma cells, but A20 knockdown sensitized GSCs to TNFalpha-mediated apoptosis."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "The tumorigenic potential of GSCs was decreased with A20 targeting, resulting in increased survival of mice bearing human glioma xenografts."
+            },
+            {
+              "new_index": 5,
+              "original_index": 8,
+              "sentence": "Together these data indicate that A20 contributes to glioma maintenance through effects on the glioma stem cell subpopulation."
+            },
+            {
+              "new_index": 6,
+              "original_index": 10,
+              "sentence": "A20 anticancer therapies should therefore be viewed with caution as effects will likely differ depending on the tumor type."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 33370,
+          "original_index": 0,
+          "sentence": "Glioblastomas are deadly cancers that display a functional cellular hierarchy maintained by self-renewing glioblastoma stem cells (GSCs).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 33370,
+          "original_index": 5,
+          "sentence": "The decreased survival of GSCs upon A20 knockdown contributed to the reduced ability of these cells to self-renew in primary and secondary neurosphere formation assays.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 33370,
+          "original_index": 7,
+          "sentence": "In silico analysis of a glioma patient genomic database indicates that A20 overexpression and amplification is inversely correlated with survival.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 33370,
+          "original_index": 9,
+          "sentence": "Although inactivating mutations in A20 in lymphoma suggest A20 can act as a tumor suppressor, similar point mutations have not been identified through glioma genomic sequencing: in fact, our data suggest A20 may function as a tumor enhancer in glioma through promotion of GSC survival.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_4_groups",
+      "dropped_group_ids": [
+        "g3",
+        "g5",
+        "g2",
+        "g1"
+      ],
+      "claim": "TNFAIP3 is a glioblastoma tumor enhancer.",
+      "evidence": [
+        {
+          "doc_id": 33370,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Inhibiting A20 expression decreased GSC growth and survival through mechanisms associated with decreased cell-cycle progression and decreased phosphorylation of p65/RelA. Elevated levels of A20 in GSCs contributed to apoptotic resistance: GSCs were less susceptible to TNFalpha-induced cell death than matched non-stem glioma cells, but A20 knockdown sensitized GSCs to TNFalpha-mediated apoptosis.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "The decreased survival of GSCs upon A20 knockdown contributed to the reduced ability of these cells to self-renew in primary and secondary neurosphere formation assays.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "The tumorigenic potential of GSCs was decreased with A20 targeting, resulting in increased survival of mice bearing human glioma xenografts.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "In silico analysis of a glioma patient genomic database indicates that A20 overexpression and amplification is inversely correlated with survival.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "Together these data indicate that A20 contributes to glioma maintenance through effects on the glioma stem cell subpopulation.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Although inactivating mutations in A20 in lymphoma suggest A20 can act as a tumor suppressor, similar point mutations have not been identified through glioma genomic sequencing: in fact, our data suggest A20 may function as a tumor enhancer in glioma through promotion of GSC survival.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 33370,
+          "title": "Targeting A20 Decreases Glioma Stem Cell Survival and Tumor Growth",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Glioblastomas are deadly cancers that display a functional cellular hierarchy maintained by self-renewing glioblastoma stem cells (GSCs)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "GSCs are regulated by molecular pathways distinct from the bulk tumor that may be useful therapeutic targets."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We determined that A20 (TNFAIP3), a regulator of cell survival and the NF-kappaB pathway, is overexpressed in GSCs relative to non-stem glioblastoma cells at both the mRNA and protein levels."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "To determine the functional significance of A20 in GSCs, we targeted A20 expression with lentiviral-mediated delivery of short hairpin RNA (shRNA)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Inhibiting A20 expression decreased GSC growth and survival through mechanisms associated with decreased cell-cycle progression and decreased phosphorylation of p65/RelA. Elevated levels of A20 in GSCs contributed to apoptotic resistance: GSCs were less susceptible to TNFalpha-induced cell death than matched non-stem glioma cells, but A20 knockdown sensitized GSCs to TNFalpha-mediated apoptosis."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "In silico analysis of a glioma patient genomic database indicates that A20 overexpression and amplification is inversely correlated with survival."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 33370,
+          "original_index": 5,
+          "sentence": "The decreased survival of GSCs upon A20 knockdown contributed to the reduced ability of these cells to self-renew in primary and secondary neurosphere formation assays.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 33370,
+          "original_index": 6,
+          "sentence": "The tumorigenic potential of GSCs was decreased with A20 targeting, resulting in increased survival of mice bearing human glioma xenografts.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 33370,
+          "original_index": 8,
+          "sentence": "Together these data indicate that A20 contributes to glioma maintenance through effects on the glioma stem cell subpopulation.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 33370,
+          "original_index": 9,
+          "sentence": "Although inactivating mutations in A20 in lymphoma suggest A20 can act as a tumor suppressor, similar point mutations have not been identified through glioma genomic sequencing: in fact, our data suggest A20 may function as a tumor enhancer in glioma through promotion of GSC survival.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 33370,
+          "original_index": 10,
+          "sentence": "A20 anticancer therapies should therefore be viewed with caution as effects will likely differ depending on the tumor type.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_5_groups",
+      "dropped_group_ids": [
+        "g5",
+        "g2",
+        "g0",
+        "g3",
+        "g1"
+      ],
+      "claim": "TNFAIP3 is a glioblastoma tumor enhancer.",
+      "evidence": [
+        {
+          "doc_id": 33370,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Inhibiting A20 expression decreased GSC growth and survival through mechanisms associated with decreased cell-cycle progression and decreased phosphorylation of p65/RelA. Elevated levels of A20 in GSCs contributed to apoptotic resistance: GSCs were less susceptible to TNFalpha-induced cell death than matched non-stem glioma cells, but A20 knockdown sensitized GSCs to TNFalpha-mediated apoptosis.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "The decreased survival of GSCs upon A20 knockdown contributed to the reduced ability of these cells to self-renew in primary and secondary neurosphere formation assays.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "The tumorigenic potential of GSCs was decreased with A20 targeting, resulting in increased survival of mice bearing human glioma xenografts.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "In silico analysis of a glioma patient genomic database indicates that A20 overexpression and amplification is inversely correlated with survival.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "Together these data indicate that A20 contributes to glioma maintenance through effects on the glioma stem cell subpopulation.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Although inactivating mutations in A20 in lymphoma suggest A20 can act as a tumor suppressor, similar point mutations have not been identified through glioma genomic sequencing: in fact, our data suggest A20 may function as a tumor enhancer in glioma through promotion of GSC survival.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 33370,
+          "title": "Targeting A20 Decreases Glioma Stem Cell Survival and Tumor Growth",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "GSCs are regulated by molecular pathways distinct from the bulk tumor that may be useful therapeutic targets."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "We determined that A20 (TNFAIP3), a regulator of cell survival and the NF-kappaB pathway, is overexpressed in GSCs relative to non-stem glioblastoma cells at both the mRNA and protein levels."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "To determine the functional significance of A20 in GSCs, we targeted A20 expression with lentiviral-mediated delivery of short hairpin RNA (shRNA)."
+            },
+            {
+              "new_index": 3,
+              "original_index": 7,
+              "sentence": "In silico analysis of a glioma patient genomic database indicates that A20 overexpression and amplification is inversely correlated with survival."
+            },
+            {
+              "new_index": 4,
+              "original_index": 10,
+              "sentence": "A20 anticancer therapies should therefore be viewed with caution as effects will likely differ depending on the tumor type."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 33370,
+          "original_index": 0,
+          "sentence": "Glioblastomas are deadly cancers that display a functional cellular hierarchy maintained by self-renewing glioblastoma stem cells (GSCs).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 33370,
+          "original_index": 4,
+          "sentence": "Inhibiting A20 expression decreased GSC growth and survival through mechanisms associated with decreased cell-cycle progression and decreased phosphorylation of p65/RelA. Elevated levels of A20 in GSCs contributed to apoptotic resistance: GSCs were less susceptible to TNFalpha-induced cell death than matched non-stem glioma cells, but A20 knockdown sensitized GSCs to TNFalpha-mediated apoptosis.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 33370,
+          "original_index": 5,
+          "sentence": "The decreased survival of GSCs upon A20 knockdown contributed to the reduced ability of these cells to self-renew in primary and secondary neurosphere formation assays.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 33370,
+          "original_index": 6,
+          "sentence": "The tumorigenic potential of GSCs was decreased with A20 targeting, resulting in increased survival of mice bearing human glioma xenografts.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 33370,
+          "original_index": 8,
+          "sentence": "Together these data indicate that A20 contributes to glioma maintenance through effects on the glioma stem cell subpopulation.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 33370,
+          "original_index": 9,
+          "sentence": "Although inactivating mutations in A20 in lymphoma suggest A20 can act as a tumor suppressor, similar point mutations have not been identified through glioma genomic sequencing: in fact, our data suggest A20 may function as a tumor enhancer in glioma through promotion of GSC survival.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "claim": "TNFAIP3 is a glioblastoma tumor enhancer.",
+      "evidence": [
+        {
+          "doc_id": 33370,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Inhibiting A20 expression decreased GSC growth and survival through mechanisms associated with decreased cell-cycle progression and decreased phosphorylation of p65/RelA. Elevated levels of A20 in GSCs contributed to apoptotic resistance: GSCs were less susceptible to TNFalpha-induced cell death than matched non-stem glioma cells, but A20 knockdown sensitized GSCs to TNFalpha-mediated apoptosis.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "The decreased survival of GSCs upon A20 knockdown contributed to the reduced ability of these cells to self-renew in primary and secondary neurosphere formation assays.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "The tumorigenic potential of GSCs was decreased with A20 targeting, resulting in increased survival of mice bearing human glioma xenografts.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "In silico analysis of a glioma patient genomic database indicates that A20 overexpression and amplification is inversely correlated with survival.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "Together these data indicate that A20 contributes to glioma maintenance through effects on the glioma stem cell subpopulation.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 33370,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Although inactivating mutations in A20 in lymphoma suggest A20 can act as a tumor suppressor, similar point mutations have not been identified through glioma genomic sequencing: in fact, our data suggest A20 may function as a tumor enhancer in glioma through promotion of GSC survival.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 33370,
+          "title": "Targeting A20 Decreases Glioma Stem Cell Survival and Tumor Growth",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Glioblastomas are deadly cancers that display a functional cellular hierarchy maintained by self-renewing glioblastoma stem cells (GSCs)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "GSCs are regulated by molecular pathways distinct from the bulk tumor that may be useful therapeutic targets."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "To determine the functional significance of A20 in GSCs, we targeted A20 expression with lentiviral-mediated delivery of short hairpin RNA (shRNA)."
+            },
+            {
+              "new_index": 3,
+              "original_index": 10,
+              "sentence": "A20 anticancer therapies should therefore be viewed with caution as effects will likely differ depending on the tumor type."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 33370,
+          "original_index": 2,
+          "sentence": "We determined that A20 (TNFAIP3), a regulator of cell survival and the NF-kappaB pathway, is overexpressed in GSCs relative to non-stem glioblastoma cells at both the mRNA and protein levels.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 33370,
+          "original_index": 4,
+          "sentence": "Inhibiting A20 expression decreased GSC growth and survival through mechanisms associated with decreased cell-cycle progression and decreased phosphorylation of p65/RelA. Elevated levels of A20 in GSCs contributed to apoptotic resistance: GSCs were less susceptible to TNFalpha-induced cell death than matched non-stem glioma cells, but A20 knockdown sensitized GSCs to TNFalpha-mediated apoptosis.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 33370,
+          "original_index": 5,
+          "sentence": "The decreased survival of GSCs upon A20 knockdown contributed to the reduced ability of these cells to self-renew in primary and secondary neurosphere formation assays.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 33370,
+          "original_index": 6,
+          "sentence": "The tumorigenic potential of GSCs was decreased with A20 targeting, resulting in increased survival of mice bearing human glioma xenografts.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 33370,
+          "original_index": 7,
+          "sentence": "In silico analysis of a glioma patient genomic database indicates that A20 overexpression and amplification is inversely correlated with survival.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 33370,
+          "original_index": 8,
+          "sentence": "Together these data indicate that A20 contributes to glioma maintenance through effects on the glioma stem cell subpopulation.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 33370,
+          "original_index": 9,
+          "sentence": "Although inactivating mutations in A20 in lymphoma suggest A20 can act as a tumor suppressor, similar point mutations have not been identified through glioma genomic sequencing: in fact, our data suggest A20 may function as a tumor enhancer in glioma through promotion of GSC survival.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

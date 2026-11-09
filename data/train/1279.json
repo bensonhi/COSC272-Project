@@ -1,0 +1,53 @@
+{
+  "id": 1279,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The treatment of cancer patients with co-IR blockade precipitates adverse autoimmune events.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 11335781,
+          "title": "Is autoimmunity the Achilles' heel of cancer immunotherapy?",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The emergence of immuno-oncology as the first broadly successful strategy for metastatic cancer will require clinicians to integrate this new pillar of medicine with chemotherapy, radiation, and targeted small-molecule compounds."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Of equal importance is gaining an understanding of the limitations and toxicities of immunotherapy."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Immunotherapy was initially perceived to be a relatively less toxic approach to cancer treatment than other available therapies—and surely it is, when compared to those."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "However, as the use of immunotherapy becomes more common, especially as first- and second-line treatments, immunotoxicity and autoimmunity are emerging as the Achilles' heel of immunotherapy."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "In this Perspective, we discuss evidence that the occurrence of immunotoxicity bodes well for the patient, and describe mechanisms that might be related to the induction of autoimmunity."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We then explore approaches to limit immunotoxicity, and discuss the future directions of research and reporting that are needed to diminish it."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

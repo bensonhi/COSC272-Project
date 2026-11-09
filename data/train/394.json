@@ -1,0 +1,629 @@
+{
+  "id": 394,
+  "origin": "train_more",
+  "n_groups": 5,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Excess gestational weight gain is associated with obesity-related pregnancy outcomes.",
+      "evidence": [
+        {
+          "doc_id": 11360768,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Interventions were associated with a reduced the risk of pre-eclampsia (0.74, 0.60 to 0.92) and shoulder dystocia (0.39, 0.22 to 0.70), with no significant effect on other critically important outcomes.",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 11360768,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 9,
+          "sentence": "Dietary intervention resulted in the largest reduction in maternal gestational weight gain (3.84 kg, 2.45 to 5.22 kg), with improved pregnancy outcomes compared with other interventions.",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 11360768,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Dietary and lifestyle interventions in pregnancy can reduce maternal gestational weight gain and improve outcomes for both mother and baby.",
+          "kept": true,
+          "new_index": 11
+        },
+        {
+          "doc_id": 11360768,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 12,
+          "sentence": "Among the interventions, those based on diet are the most effective and are associated with reductions in maternal gestational weight gain and improved obstetric outcomes.",
+          "kept": true,
+          "new_index": 12
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 11360768,
+          "title": "Effects of interventions in pregnancy on maternal weight and obstetric outcomes: meta-analysis of randomised evidence",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To evaluate the effects of dietary and lifestyle interventions in pregnancy on maternal and fetal weight and to quantify the effects of these interventions on obstetric outcomes.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Systematic review and meta-analysis.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DATA SOURCES Major databases from inception to January 2012 without language restrictions.   "
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "STUDY SELECTION Randomised controlled trials that evaluated any dietary or lifestyle interventions with potential to influence maternal weight during pregnancy and outcomes of pregnancy.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "DATA SYNTHESIS Results summarised as relative risks for dichotomous data and mean differences for continuous data.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "RESULTS We identified 44 relevant randomised controlled trials (7278 women) evaluating three categories of interventions: diet, physical activity, and a mixed approach."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Overall, there was 1.42 kg reduction (95% confidence interval 0.95 to 1.89 kg) in gestational weight gain with any intervention compared with control."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "With all interventions combined, there were no significant differences in birth weight (mean difference -50 g, -100 to 0 g) and the incidence of large for gestational age (relative risk 0.85, 0.66 to 1.09) or small for gestational age (1.00, 0.78 to 1.28) babies between the groups, though by itself physical activity was associated with reduced birth weight (mean difference -60 g, -120 to -10 g)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Interventions were associated with a reduced the risk of pre-eclampsia (0.74, 0.60 to 0.92) and shoulder dystocia (0.39, 0.22 to 0.70), with no significant effect on other critically important outcomes."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Dietary intervention resulted in the largest reduction in maternal gestational weight gain (3.84 kg, 2.45 to 5.22 kg), with improved pregnancy outcomes compared with other interventions."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "The overall evidence rating was low to very low for important outcomes such as pre-eclampsia, gestational diabetes, gestational hypertension, and preterm delivery.   \n"
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "CONCLUSIONS Dietary and lifestyle interventions in pregnancy can reduce maternal gestational weight gain and improve outcomes for both mother and baby."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "Among the interventions, those based on diet are the most effective and are associated with reductions in maternal gestational weight gain and improved obstetric outcomes."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g3"
+      ],
+      "claim": "Excess gestational weight gain is associated with obesity-related pregnancy outcomes.",
+      "evidence": [
+        {
+          "doc_id": 11360768,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Interventions were associated with a reduced the risk of pre-eclampsia (0.74, 0.60 to 0.92) and shoulder dystocia (0.39, 0.22 to 0.70), with no significant effect on other critically important outcomes.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 11360768,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 9,
+          "sentence": "Dietary intervention resulted in the largest reduction in maternal gestational weight gain (3.84 kg, 2.45 to 5.22 kg), with improved pregnancy outcomes compared with other interventions.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 11360768,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Dietary and lifestyle interventions in pregnancy can reduce maternal gestational weight gain and improve outcomes for both mother and baby.",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 11360768,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 12,
+          "sentence": "Among the interventions, those based on diet are the most effective and are associated with reductions in maternal gestational weight gain and improved obstetric outcomes.",
+          "kept": true,
+          "new_index": 10
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 11360768,
+          "title": "Effects of interventions in pregnancy on maternal weight and obstetric outcomes: meta-analysis of randomised evidence",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To evaluate the effects of dietary and lifestyle interventions in pregnancy on maternal and fetal weight and to quantify the effects of these interventions on obstetric outcomes.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "DATA SOURCES Major databases from inception to January 2012 without language restrictions.   "
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "STUDY SELECTION Randomised controlled trials that evaluated any dietary or lifestyle interventions with potential to influence maternal weight during pregnancy and outcomes of pregnancy.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "DATA SYNTHESIS Results summarised as relative risks for dichotomous data and mean differences for continuous data.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "RESULTS We identified 44 relevant randomised controlled trials (7278 women) evaluating three categories of interventions: diet, physical activity, and a mixed approach."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Overall, there was 1.42 kg reduction (95% confidence interval 0.95 to 1.89 kg) in gestational weight gain with any intervention compared with control."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "With all interventions combined, there were no significant differences in birth weight (mean difference -50 g, -100 to 0 g) and the incidence of large for gestational age (relative risk 0.85, 0.66 to 1.09) or small for gestational age (1.00, 0.78 to 1.28) babies between the groups, though by itself physical activity was associated with reduced birth weight (mean difference -60 g, -120 to -10 g)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "Interventions were associated with a reduced the risk of pre-eclampsia (0.74, 0.60 to 0.92) and shoulder dystocia (0.39, 0.22 to 0.70), with no significant effect on other critically important outcomes."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "The overall evidence rating was low to very low for important outcomes such as pre-eclampsia, gestational diabetes, gestational hypertension, and preterm delivery.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "CONCLUSIONS Dietary and lifestyle interventions in pregnancy can reduce maternal gestational weight gain and improve outcomes for both mother and baby."
+            },
+            {
+              "new_index": 10,
+              "original_index": 12,
+              "sentence": "Among the interventions, those based on diet are the most effective and are associated with reductions in maternal gestational weight gain and improved obstetric outcomes."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 11360768,
+          "original_index": 1,
+          "sentence": "DESIGN Systematic review and meta-analysis.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 11360768,
+          "original_index": 9,
+          "sentence": "Dietary intervention resulted in the largest reduction in maternal gestational weight gain (3.84 kg, 2.45 to 5.22 kg), with improved pregnancy outcomes compared with other interventions.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g2",
+        "g1"
+      ],
+      "claim": "Excess gestational weight gain is associated with obesity-related pregnancy outcomes.",
+      "evidence": [
+        {
+          "doc_id": 11360768,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Interventions were associated with a reduced the risk of pre-eclampsia (0.74, 0.60 to 0.92) and shoulder dystocia (0.39, 0.22 to 0.70), with no significant effect on other critically important outcomes.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 11360768,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 9,
+          "sentence": "Dietary intervention resulted in the largest reduction in maternal gestational weight gain (3.84 kg, 2.45 to 5.22 kg), with improved pregnancy outcomes compared with other interventions.",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 11360768,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Dietary and lifestyle interventions in pregnancy can reduce maternal gestational weight gain and improve outcomes for both mother and baby.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 11360768,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 12,
+          "sentence": "Among the interventions, those based on diet are the most effective and are associated with reductions in maternal gestational weight gain and improved obstetric outcomes.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 11360768,
+          "title": "Effects of interventions in pregnancy on maternal weight and obstetric outcomes: meta-analysis of randomised evidence",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To evaluate the effects of dietary and lifestyle interventions in pregnancy on maternal and fetal weight and to quantify the effects of these interventions on obstetric outcomes.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Systematic review and meta-analysis.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DATA SOURCES Major databases from inception to January 2012 without language restrictions.   "
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "STUDY SELECTION Randomised controlled trials that evaluated any dietary or lifestyle interventions with potential to influence maternal weight during pregnancy and outcomes of pregnancy.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "RESULTS We identified 44 relevant randomised controlled trials (7278 women) evaluating three categories of interventions: diet, physical activity, and a mixed approach."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Overall, there was 1.42 kg reduction (95% confidence interval 0.95 to 1.89 kg) in gestational weight gain with any intervention compared with control."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "With all interventions combined, there were no significant differences in birth weight (mean difference -50 g, -100 to 0 g) and the incidence of large for gestational age (relative risk 0.85, 0.66 to 1.09) or small for gestational age (1.00, 0.78 to 1.28) babies between the groups, though by itself physical activity was associated with reduced birth weight (mean difference -60 g, -120 to -10 g)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "Interventions were associated with a reduced the risk of pre-eclampsia (0.74, 0.60 to 0.92) and shoulder dystocia (0.39, 0.22 to 0.70), with no significant effect on other critically important outcomes."
+            },
+            {
+              "new_index": 8,
+              "original_index": 9,
+              "sentence": "Dietary intervention resulted in the largest reduction in maternal gestational weight gain (3.84 kg, 2.45 to 5.22 kg), with improved pregnancy outcomes compared with other interventions."
+            },
+            {
+              "new_index": 9,
+              "original_index": 10,
+              "sentence": "The overall evidence rating was low to very low for important outcomes such as pre-eclampsia, gestational diabetes, gestational hypertension, and preterm delivery.   \n"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 11360768,
+          "original_index": 4,
+          "sentence": "DATA SYNTHESIS Results summarised as relative risks for dichotomous data and mean differences for continuous data.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 11360768,
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Dietary and lifestyle interventions in pregnancy can reduce maternal gestational weight gain and improve outcomes for both mother and baby.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 11360768,
+          "original_index": 12,
+          "sentence": "Among the interventions, those based on diet are the most effective and are associated with reductions in maternal gestational weight gain and improved obstetric outcomes.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_3_groups",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g3"
+      ],
+      "claim": "Excess gestational weight gain is associated with obesity-related pregnancy outcomes.",
+      "evidence": [
+        {
+          "doc_id": 11360768,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Interventions were associated with a reduced the risk of pre-eclampsia (0.74, 0.60 to 0.92) and shoulder dystocia (0.39, 0.22 to 0.70), with no significant effect on other critically important outcomes.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 11360768,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 9,
+          "sentence": "Dietary intervention resulted in the largest reduction in maternal gestational weight gain (3.84 kg, 2.45 to 5.22 kg), with improved pregnancy outcomes compared with other interventions.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 11360768,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Dietary and lifestyle interventions in pregnancy can reduce maternal gestational weight gain and improve outcomes for both mother and baby.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 11360768,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 12,
+          "sentence": "Among the interventions, those based on diet are the most effective and are associated with reductions in maternal gestational weight gain and improved obstetric outcomes.",
+          "kept": true,
+          "new_index": 8
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 11360768,
+          "title": "Effects of interventions in pregnancy on maternal weight and obstetric outcomes: meta-analysis of randomised evidence",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To evaluate the effects of dietary and lifestyle interventions in pregnancy on maternal and fetal weight and to quantify the effects of these interventions on obstetric outcomes.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Systematic review and meta-analysis.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DATA SOURCES Major databases from inception to January 2012 without language restrictions.   "
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "STUDY SELECTION Randomised controlled trials that evaluated any dietary or lifestyle interventions with potential to influence maternal weight during pregnancy and outcomes of pregnancy.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "DATA SYNTHESIS Results summarised as relative risks for dichotomous data and mean differences for continuous data.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "RESULTS We identified 44 relevant randomised controlled trials (7278 women) evaluating three categories of interventions: diet, physical activity, and a mixed approach."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Overall, there was 1.42 kg reduction (95% confidence interval 0.95 to 1.89 kg) in gestational weight gain with any intervention compared with control."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "With all interventions combined, there were no significant differences in birth weight (mean difference -50 g, -100 to 0 g) and the incidence of large for gestational age (relative risk 0.85, 0.66 to 1.09) or small for gestational age (1.00, 0.78 to 1.28) babies between the groups, though by itself physical activity was associated with reduced birth weight (mean difference -60 g, -120 to -10 g)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 12,
+              "sentence": "Among the interventions, those based on diet are the most effective and are associated with reductions in maternal gestational weight gain and improved obstetric outcomes."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 11360768,
+          "original_index": 8,
+          "sentence": "Interventions were associated with a reduced the risk of pre-eclampsia (0.74, 0.60 to 0.92) and shoulder dystocia (0.39, 0.22 to 0.70), with no significant effect on other critically important outcomes.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 11360768,
+          "original_index": 9,
+          "sentence": "Dietary intervention resulted in the largest reduction in maternal gestational weight gain (3.84 kg, 2.45 to 5.22 kg), with improved pregnancy outcomes compared with other interventions.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 11360768,
+          "original_index": 10,
+          "sentence": "The overall evidence rating was low to very low for important outcomes such as pre-eclampsia, gestational diabetes, gestational hypertension, and preterm delivery.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 11360768,
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Dietary and lifestyle interventions in pregnancy can reduce maternal gestational weight gain and improve outcomes for both mother and baby.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2",
+        "g3"
+      ],
+      "claim": "Excess gestational weight gain is associated with obesity-related pregnancy outcomes.",
+      "evidence": [
+        {
+          "doc_id": 11360768,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Interventions were associated with a reduced the risk of pre-eclampsia (0.74, 0.60 to 0.92) and shoulder dystocia (0.39, 0.22 to 0.70), with no significant effect on other critically important outcomes.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 11360768,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 9,
+          "sentence": "Dietary intervention resulted in the largest reduction in maternal gestational weight gain (3.84 kg, 2.45 to 5.22 kg), with improved pregnancy outcomes compared with other interventions.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 11360768,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Dietary and lifestyle interventions in pregnancy can reduce maternal gestational weight gain and improve outcomes for both mother and baby.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 11360768,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 12,
+          "sentence": "Among the interventions, those based on diet are the most effective and are associated with reductions in maternal gestational weight gain and improved obstetric outcomes.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 11360768,
+          "title": "Effects of interventions in pregnancy on maternal weight and obstetric outcomes: meta-analysis of randomised evidence",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To evaluate the effects of dietary and lifestyle interventions in pregnancy on maternal and fetal weight and to quantify the effects of these interventions on obstetric outcomes.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Systematic review and meta-analysis.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DATA SOURCES Major databases from inception to January 2012 without language restrictions.   "
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "STUDY SELECTION Randomised controlled trials that evaluated any dietary or lifestyle interventions with potential to influence maternal weight during pregnancy and outcomes of pregnancy.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "DATA SYNTHESIS Results summarised as relative risks for dichotomous data and mean differences for continuous data.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "RESULTS We identified 44 relevant randomised controlled trials (7278 women) evaluating three categories of interventions: diet, physical activity, and a mixed approach."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Overall, there was 1.42 kg reduction (95% confidence interval 0.95 to 1.89 kg) in gestational weight gain with any intervention compared with control."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "With all interventions combined, there were no significant differences in birth weight (mean difference -50 g, -100 to 0 g) and the incidence of large for gestational age (relative risk 0.85, 0.66 to 1.09) or small for gestational age (1.00, 0.78 to 1.28) babies between the groups, though by itself physical activity was associated with reduced birth weight (mean difference -60 g, -120 to -10 g)."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 11360768,
+          "original_index": 8,
+          "sentence": "Interventions were associated with a reduced the risk of pre-eclampsia (0.74, 0.60 to 0.92) and shoulder dystocia (0.39, 0.22 to 0.70), with no significant effect on other critically important outcomes.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 11360768,
+          "original_index": 9,
+          "sentence": "Dietary intervention resulted in the largest reduction in maternal gestational weight gain (3.84 kg, 2.45 to 5.22 kg), with improved pregnancy outcomes compared with other interventions.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 11360768,
+          "original_index": 10,
+          "sentence": "The overall evidence rating was low to very low for important outcomes such as pre-eclampsia, gestational diabetes, gestational hypertension, and preterm delivery.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 11360768,
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Dietary and lifestyle interventions in pregnancy can reduce maternal gestational weight gain and improve outcomes for both mother and baby.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 11360768,
+          "original_index": 12,
+          "sentence": "Among the interventions, those based on diet are the most effective and are associated with reductions in maternal gestational weight gain and improved obstetric outcomes.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

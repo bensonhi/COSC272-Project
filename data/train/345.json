@@ -1,0 +1,58 @@
+{
+  "id": 345,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Differentiated E2f-1, -2, -3 TKO cells in the intestine do not exhibit apoptosis.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 4394817,
+          "title": "E2F1-3 Switch from Activators in Progenitor Cells to Repressors in Differentiating Cells",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "In the established model of mammalian cell cycle control, the retinoblastoma protein (Rb) functions to restrict cells from entering S phase by binding and sequestering E2f activators (E2f1, E2f2 and E2f3), which are invariably portrayed as the ultimate effectors of a transcriptional program that commit cells to enter and progress through S phase."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Using a panel of tissue-specific cre-transgenic mice and conditional E2f alleles we examined the effects of E2f1, E2f2 and E2f3 triple deficiency in murine embryonic stem cells, embryos and small intestines."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We show that in normal dividing progenitor cells E2f1-3 function as transcriptional activators, but contrary to the current view, are dispensable for cell division and instead are necessary for cell survival."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "In differentiating cells E2f1-3 function in a complex with Rb as repressors to silence E2f targets and facilitate exit from the cell cycle."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "The inactivation of Rb in differentiating cells resulted in a switch of E2f1-3 from repressors to activators, leading to the superactivation of E2f responsive targets and ectopic cell divisions."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Loss of E2f1-3 completely suppressed these phenotypes caused by Rb deficiency."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "This work contextualizes the activator versus repressor functions of E2f1-3 in vivo, revealing distinct roles in dividing versus differentiating cells and in normal versus cancer-like cell cycles."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

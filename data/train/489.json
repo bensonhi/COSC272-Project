@@ -1,0 +1,53 @@
+{
+  "id": 489,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "HIV trans-activator protein (TAT) effectively transports large and small molecules across cellular membranes into larger populations of neurons.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 6625693,
+          "title": "Suppression of inflammatory and neuropathic pain by uncoupling CRMP-2 from the presynaptic Ca2+ channel complex",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The use of N-type voltage-gated calcium channel (CaV2.2) blockers to treat pain is limited by many physiological side effects."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here we report that inflammatory and neuropathic hypersensitivity can be suppressed by inhibiting the binding of collapsin response mediator protein 2 (CRMP-2) to CaV2.2 and thereby reducing channel function."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "A peptide of CRMP-2 fused to the HIV transactivator of transcription (TAT) protein (TAT-CBD3) decreased neuropeptide release from sensory neurons and excitatory synaptic transmission in dorsal horn neurons, reduced meningeal blood flow, reduced nocifensive behavior induced by formalin injection or corneal capsaicin application and reversed neuropathic hypersensitivity produced by an antiretroviral drug."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "TAT-CBD3 was mildly anxiolytic without affecting memory retrieval, sensorimotor function or depression."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "At doses tenfold higher than that required to reduce hypersensitivity in vivo, TAT-CBD3 caused a transient episode of tail kinking and body contortion."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "By preventing CRMP-2–mediated enhancement of CaV2.2 function, TAT-CBD3 alleviated inflammatory and neuropathic hypersensitivity, an approach that may prove useful in managing chronic pain."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

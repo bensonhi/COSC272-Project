@@ -1,0 +1,58 @@
+{
+  "id": 916,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "PRC1-bound plasmids sediment at a slower rate in unbound plasmids than in sucrose gradients.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 18037805,
+          "title": "Polycomb Proteins Remain Bound to Chromatin and DNA during DNA Replication In Vitro",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The transcriptional status of a gene can be maintained through multiple rounds of cell division during development."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "This epigenetic effect is believed to reflect heritable changes in chromatin folding and histone modifications or variants at target genes, but little is known about how these chromatin features are inherited through cell division."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "A particular challenge for maintaining transcription states is DNA replication, which disrupts or dilutes chromatin-associated proteins and histone modifications."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "PRC1-class Polycomb group protein complexes are essential for development and are thought to heritably silence transcription by altering chromatin folding and histone modifications."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "It is not known whether these complexes and their effects are maintained during DNA replication or subsequently re-established."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We find that when PRC1-class Polycomb complex-bound chromatin or DNA is replicated in vitro, Polycomb complexes remain bound to replicated templates."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Retention of Polycomb proteins through DNA replication may contribute to maintenance of transcriptional silencing through cell division."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

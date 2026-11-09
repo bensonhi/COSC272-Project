@@ -1,0 +1,43 @@
+{
+  "id": 1118,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Sweet taste receptors on the tongue are deactivated by between 1 and 10 mM glucose.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 23351136,
+          "title": "Detection of sweet and umami taste in the absence of taste receptor T1r3.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The tastes of sugars (sweet) and glutamate (umami) are thought to be detected by T1r receptors expressed in taste cells."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Molecular genetics and heterologous expression implicate T1r2 plus T1r3 as a sweet-responsive receptor,and T1r1 plus T1r3,as well as a truncated form of the type 4 metabotropic glutamate receptor (taste-mGluR4),as umami-responsive receptors."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here,we show that mice lacking T1r3 showed no preference for artificial sweeteners and had diminished but not abolished behavioral and nerve responses to sugars and umami compounds."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "These results indicate that T1r3-independent sweet- and umami-responsive receptors and/or pathways exist in taste cells."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

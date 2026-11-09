@@ -1,0 +1,70 @@
+{
+  "id": 837,
+  "origin": "dev",
+  "claim": "NR5A2 is important in development of endometrial tissues.",
+  "evidence": [
+    {
+      "doc_id": 15928989,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 7,
+      "sentence": "Lrh-1 is also expressed in the mouse and human endometrium, and in a primary culture of human endometrial stromal cells, reduction of NR5A2 transcript abundance by RNA interference abrogated decidualization."
+    },
+    {
+      "doc_id": 15928989,
+      "group_id": "g1",
+      "evidence_label": "SUPPORT",
+      "original_index": 8,
+      "sentence": "These findings show that Lrh-1 is necessary for maintenance of the corpus luteum, for promotion of decidualization and for formation of the placenta."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 15928989,
+      "title": "Liver receptor homolog-1 is essential for pregnancy",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Successful pregnancy requires coordination of an array of signals and factors from multiple tissues."
+        },
+        {
+          "original_index": 1,
+          "sentence": "One such element, liver receptor homolog-1 (Lrh-1), is an orphan nuclear receptor that regulates metabolism and hormone synthesis."
+        },
+        {
+          "original_index": 2,
+          "sentence": "It is strongly expressed in granulosa cells of ovarian follicles and in the corpus luteum of rodents and humans."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Germline ablation of Nr5a2 (also called Lrh-1), the gene coding for Lrh-1, in mice is embryonically lethal at gastrulation."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Depletion of Lrh-1 in the ovarian follicle shows that it regulates genes required for both steroid synthesis and ovulation."
+        },
+        {
+          "original_index": 5,
+          "sentence": "To study the effects of Lrh-1 on mouse gestation, we genetically disrupted its expression in the corpus luteum, resulting in luteal insufficiency."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Hormone replacement permitted embryo implantation but was followed by gestational failure with impaired endometrial decidualization, compromised placental formation, fetal growth retardation and fetal death."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Lrh-1 is also expressed in the mouse and human endometrium, and in a primary culture of human endometrial stromal cells, reduction of NR5A2 transcript abundance by RNA interference abrogated decidualization."
+        },
+        {
+          "original_index": 8,
+          "sentence": "These findings show that Lrh-1 is necessary for maintenance of the corpus luteum, for promotion of decidualization and for formation of the placenta."
+        },
+        {
+          "original_index": 9,
+          "sentence": "It therefore has multiple, indispensible roles in establishing and sustaining pregnancy."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

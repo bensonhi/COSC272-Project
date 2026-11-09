@@ -1,0 +1,217 @@
+{
+  "id": 540,
+  "origin": "dev",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Hypothalamic glutamate neurotransmission is crucial to energy balance.",
+      "evidence": [
+        {
+          "doc_id": 11886686,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "These mice have hypoglycemia during fasting secondary to impaired fasting-induced increases in the glucose-raising pancreatic hormone glucagon and impaired induction in liver of mRNAs encoding PGC-1alpha and the gluconeogenic enzymes PEPCK and G6Pase.",
+          "kept": true,
+          "new_index": 5
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 11886686,
+          "title": "Synaptic glutamate release by ventromedial hypothalamic neurons is part of the neurocircuitry that prevents hypoglycemia.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The importance of neuropeptides in the hypothalamus has been experimentally established."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Due to difficulties in assessing function in vivo, the roles of the fast-acting neurotransmitters glutamate and GABA are largely unknown."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Synaptic vesicular transporters (VGLUTs for glutamate and VGAT for GABA) are required for vesicular uptake and, consequently, synaptic release of neurotransmitters."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Ventromedial hypothalamic (VMH) neurons are predominantly glutamatergic and express VGLUT2."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "To evaluate the role of glutamate release from VMH neurons, we generated mice lacking VGLUT2 selectively in SF1 neurons (a major subset of VMH neurons)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "These mice have hypoglycemia during fasting secondary to impaired fasting-induced increases in the glucose-raising pancreatic hormone glucagon and impaired induction in liver of mRNAs encoding PGC-1alpha and the gluconeogenic enzymes PEPCK and G6Pase."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Similarly, these mice have defective counterregulatory responses to insulin-induced hypoglycemia and 2-deoxyglucose (an antimetabolite)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Thus, glutamate release from VMH neurons is an important component of the neurocircuitry that functions to prevent hypoglycemia."
+            }
+          ]
+        },
+        {
+          "doc_id": 25007443,
+          "title": "Topographic mapping of VMH → arcuate nucleus microcircuits and their reorganization by fasting",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "In the hypothalamic arcuate nucleus (ARC), pro-opiomelanocortin (POMC) neurons inhibit feeding and neuropeptide-Y (NPY) neurons stimulate feeding."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We tested whether neurons in the ventromedial hypothalamic nucleus (VMH), a known satiety center, activate anorexigenic neuronal pathways in the ARC by projecting either excitatory synaptic inputs to POMC neurons and/or inhibitory inputs to NPY neurons."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Using laser scanning photostimulation in brain slices from transgenic mice, we found that POMC and NPY neurons, which are interspersed in the ARC, are nevertheless regulated by anatomically distinct synaptic inputs."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "POMC neurons received strong excitatory input from the medial VMH (mVMH), whereas NPY neurons did not and, instead, received weak inhibitory input only from within the ARC."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "The strength of the excitatory input from the mVMH to POMC neurons was diminished by fasting."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "These data identify a new molecularly defined circuit that is dynamically regulated by nutritional state in a manner consistent with the known role of the VMH as a satiety center."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Hypothalamic glutamate neurotransmission is crucial to energy balance.",
+      "evidence": [
+        {
+          "doc_id": 11886686,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "These mice have hypoglycemia during fasting secondary to impaired fasting-induced increases in the glucose-raising pancreatic hormone glucagon and impaired induction in liver of mRNAs encoding PGC-1alpha and the gluconeogenic enzymes PEPCK and G6Pase.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 11886686,
+          "title": "Synaptic glutamate release by ventromedial hypothalamic neurons is part of the neurocircuitry that prevents hypoglycemia.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The importance of neuropeptides in the hypothalamus has been experimentally established."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Synaptic vesicular transporters (VGLUTs for glutamate and VGAT for GABA) are required for vesicular uptake and, consequently, synaptic release of neurotransmitters."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Ventromedial hypothalamic (VMH) neurons are predominantly glutamatergic and express VGLUT2."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "To evaluate the role of glutamate release from VMH neurons, we generated mice lacking VGLUT2 selectively in SF1 neurons (a major subset of VMH neurons)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Similarly, these mice have defective counterregulatory responses to insulin-induced hypoglycemia and 2-deoxyglucose (an antimetabolite)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Thus, glutamate release from VMH neurons is an important component of the neurocircuitry that functions to prevent hypoglycemia."
+            }
+          ]
+        },
+        {
+          "doc_id": 25007443,
+          "title": "Topographic mapping of VMH → arcuate nucleus microcircuits and their reorganization by fasting",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "We tested whether neurons in the ventromedial hypothalamic nucleus (VMH), a known satiety center, activate anorexigenic neuronal pathways in the ARC by projecting either excitatory synaptic inputs to POMC neurons and/or inhibitory inputs to NPY neurons."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Using laser scanning photostimulation in brain slices from transgenic mice, we found that POMC and NPY neurons, which are interspersed in the ARC, are nevertheless regulated by anatomically distinct synaptic inputs."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "POMC neurons received strong excitatory input from the medial VMH (mVMH), whereas NPY neurons did not and, instead, received weak inhibitory input only from within the ARC."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "The strength of the excitatory input from the mVMH to POMC neurons was diminished by fasting."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "These data identify a new molecularly defined circuit that is dynamically regulated by nutritional state in a manner consistent with the known role of the VMH as a satiety center."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 11886686,
+          "original_index": 1,
+          "sentence": "Due to difficulties in assessing function in vivo, the roles of the fast-acting neurotransmitters glutamate and GABA are largely unknown.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 11886686,
+          "original_index": 5,
+          "sentence": "These mice have hypoglycemia during fasting secondary to impaired fasting-induced increases in the glucose-raising pancreatic hormone glucagon and impaired induction in liver of mRNAs encoding PGC-1alpha and the gluconeogenic enzymes PEPCK and G6Pase.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 25007443,
+          "original_index": 0,
+          "sentence": "In the hypothalamic arcuate nucleus (ARC), pro-opiomelanocortin (POMC) neurons inhibit feeding and neuropeptide-Y (NPY) neurons stimulate feeding.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

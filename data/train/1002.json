@@ -1,0 +1,43 @@
+{
+  "id": 1002,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "RA activation of DIF2 and NB4 cells induces hallmarks of transcriptionally active promoters.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 13639330,
+          "title": "Histone Methylation-Dependent Mechanisms Impose Ligand Dependency for Gene Activation by Nuclear Receptors",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Nuclear receptors undergo ligand-dependent conformational changes that are required for corepressor-coactivator exchange, but whether there is an actual requirement for specific epigenetic landmarks to impose ligand dependency for gene activation remains unknown."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here we report an unexpected and general strategy that is based on the requirement for specific cohorts of inhibitory histone methyltransferases (HMTs) to impose gene-specific gatekeeper functions that prevent unliganded nuclear receptors and other classes of regulated transcription factors from binding to their target gene promoters and causing constitutive gene activation in the absence of stimulating signals."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "This strategy, based at least in part on an HMT-dependent inhibitory histone code, imposes a requirement for specific histone demethylases, including LSD1, to permit ligand- and signal-dependent activation of regulated gene expression."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "These events link an inhibitory methylation component of the histone code to a broadly used strategy that circumvents pathological constitutive gene induction by physiologically regulated transcription factors."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "id": 1132,
+  "origin": "dev",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "TCR/CD3 microdomains are a required to induce the immunologic synapse to activate T cells.",
+      "evidence": [
+        {
+          "doc_id": 33499189,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "The conformational change is elicited by cooperative rearrangements of two TCR-CD3 complexes and does not require accompanying changes in the structure of the TCRalphabeta ectodomains.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 33499189,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "This conformational change at CD3 reverts upon ligand dissociation and is required for T cell activation.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 33499189,
+          "title": "Full activation of the T cell receptor requires both clustering and conformational changes at CD3.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "T cell receptor (TCR-CD3) triggering involves both receptor clustering and conformational changes at the cytoplasmic tails of the CD3 subunits."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The mechanism by which TCRalphabeta ligand binding confers conformational changes to CD3 is unknown."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "By using well-defined ligands, we showed that induction of the conformational change requires both multivalent engagement and the mobility restriction of the TCR-CD3 imposed by the plasma membrane."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "The conformational change is elicited by cooperative rearrangements of two TCR-CD3 complexes and does not require accompanying changes in the structure of the TCRalphabeta ectodomains."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "This conformational change at CD3 reverts upon ligand dissociation and is required for T cell activation."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Thus, our permissive geometry model provides a molecular mechanism that rationalizes how the information of ligand binding to TCRalphabeta is transmitted to the CD3 subunits and to the intracellular signaling machinery."
+            }
+          ]
+        },
+        {
+          "doc_id": 9283422,
+          "title": "T cell receptor-proximal signals are sustained in peripheral microclusters and terminated in the central supramolecular activation cluster.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "T cell receptor (TCR) signaling is initiated and sustained in microclusters; however, it's not known whether signaling also occurs in the TCR-rich central supramolecular activation cluster (cSMAC)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We showed that the cSMAC formed by fusion of microclusters contained more CD45 than microclusters and is a site enriched in lysobisphosphatidic acid, a lipid involved in sorting ubiquitinated membrane proteins for degradation."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Calcium signaling via TCR was blocked within 2 min by anti-MHCp treatment and 1 min by latrunculin-A treatment."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "TCR-MHCp interactions in the cSMAC survived these perturbations for 10 min and hence were not sufficient to sustain signaling."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "TCR microclusters were also resistant to disruption by anti-MHCp and latrunculin-A treatments."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We propose that TCR signaling is sustained by stabilized microclusters and is terminated in the cSMAC, a structure from which TCR are sorted for degradation."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Our studies reveal a role for F-actin in TCR signaling beyond microcluster formation."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "TCR/CD3 microdomains are a required to induce the immunologic synapse to activate T cells.",
+      "evidence": [
+        {
+          "doc_id": 33499189,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "The conformational change is elicited by cooperative rearrangements of two TCR-CD3 complexes and does not require accompanying changes in the structure of the TCRalphabeta ectodomains.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 33499189,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "This conformational change at CD3 reverts upon ligand dissociation and is required for T cell activation.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 33499189,
+          "title": "Full activation of the T cell receptor requires both clustering and conformational changes at CD3.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "T cell receptor (TCR-CD3) triggering involves both receptor clustering and conformational changes at the cytoplasmic tails of the CD3 subunits."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "By using well-defined ligands, we showed that induction of the conformational change requires both multivalent engagement and the mobility restriction of the TCR-CD3 imposed by the plasma membrane."
+            },
+            {
+              "new_index": 2,
+              "original_index": 5,
+              "sentence": "Thus, our permissive geometry model provides a molecular mechanism that rationalizes how the information of ligand binding to TCRalphabeta is transmitted to the CD3 subunits and to the intracellular signaling machinery."
+            }
+          ]
+        },
+        {
+          "doc_id": 9283422,
+          "title": "T cell receptor-proximal signals are sustained in peripheral microclusters and terminated in the central supramolecular activation cluster.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "T cell receptor (TCR) signaling is initiated and sustained in microclusters; however, it's not known whether signaling also occurs in the TCR-rich central supramolecular activation cluster (cSMAC)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We showed that the cSMAC formed by fusion of microclusters contained more CD45 than microclusters and is a site enriched in lysobisphosphatidic acid, a lipid involved in sorting ubiquitinated membrane proteins for degradation."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Calcium signaling via TCR was blocked within 2 min by anti-MHCp treatment and 1 min by latrunculin-A treatment."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "TCR-MHCp interactions in the cSMAC survived these perturbations for 10 min and hence were not sufficient to sustain signaling."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "We propose that TCR signaling is sustained by stabilized microclusters and is terminated in the cSMAC, a structure from which TCR are sorted for degradation."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Our studies reveal a role for F-actin in TCR signaling beyond microcluster formation."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 33499189,
+          "original_index": 1,
+          "sentence": "The mechanism by which TCRalphabeta ligand binding confers conformational changes to CD3 is unknown.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 33499189,
+          "original_index": 3,
+          "sentence": "The conformational change is elicited by cooperative rearrangements of two TCR-CD3 complexes and does not require accompanying changes in the structure of the TCRalphabeta ectodomains.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 33499189,
+          "original_index": 4,
+          "sentence": "This conformational change at CD3 reverts upon ligand dissociation and is required for T cell activation.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 9283422,
+          "original_index": 4,
+          "sentence": "TCR microclusters were also resistant to disruption by anti-MHCp and latrunculin-A treatments.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

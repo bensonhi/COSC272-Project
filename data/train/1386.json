@@ -1,0 +1,124 @@
+{
+  "id": 1386,
+  "origin": "train_more",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "cSMAC formation represses weak ligand signalling.",
+      "evidence": [
+        {
+          "doc_id": 306006,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 4,
+          "sentence": "This conclusion was supported by experiments that showed that enhancing cSMAC formation reduced stimulatory capacity of the weak peptide.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 306006,
+          "title": "The stimulatory potency of T cell antigens is influenced by the formation of the immunological synapse.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "T cell activation is predicated on the interaction between the T cell receptor and peptide-major histocompatibility (pMHC) ligands."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The factors that determine the stimulatory potency of a pMHC molecule remain unclear."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We describe results showing that a peptide exhibiting many hallmarks of a weak agonist stimulates T cells to proliferate more than the wild-type agonist ligand."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "An in silico approach suggested that the inability to form the central supramolecular activation cluster (cSMAC) could underlie the increased proliferation."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "This conclusion was supported by experiments that showed that enhancing cSMAC formation reduced stimulatory capacity of the weak peptide."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Our studies highlight the fact that a complex interplay of factors determines the quality of a T cell antigen."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "cSMAC formation represses weak ligand signalling.",
+      "evidence": [
+        {
+          "doc_id": 306006,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 4,
+          "sentence": "This conclusion was supported by experiments that showed that enhancing cSMAC formation reduced stimulatory capacity of the weak peptide.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 306006,
+          "title": "The stimulatory potency of T cell antigens is influenced by the formation of the immunological synapse.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "T cell activation is predicated on the interaction between the T cell receptor and peptide-major histocompatibility (pMHC) ligands."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The factors that determine the stimulatory potency of a pMHC molecule remain unclear."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We describe results showing that a peptide exhibiting many hallmarks of a weak agonist stimulates T cells to proliferate more than the wild-type agonist ligand."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "An in silico approach suggested that the inability to form the central supramolecular activation cluster (cSMAC) could underlie the increased proliferation."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 306006,
+          "original_index": 4,
+          "sentence": "This conclusion was supported by experiments that showed that enhancing cSMAC formation reduced stimulatory capacity of the weak peptide.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 306006,
+          "original_index": 5,
+          "sentence": "Our studies highlight the fact that a complex interplay of factors determines the quality of a T cell antigen.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

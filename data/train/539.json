@@ -1,0 +1,321 @@
+{
+  "id": 539,
+  "origin": "dev",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Hypoglycemia increases the risk of dementia.",
+      "evidence": [
+        {
+          "doc_id": 13282296,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Compared with patients with no hypoglycemia, patients with single or multiple episodes had a graded increase in risk with fully adjusted hazard ratios (HRs): for 1 episode (HR, 1.26; 95% confidence interval [CI], 1.10-1.49); 2 episodes (HR, 1.80; 95% CI, 1.37-2.36); and 3 or more episodes (HR, 1.94; 95% CI, 1.42-2.64).",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 13282296,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Among older patients with type 2 diabetes, a history of severe hypoglycemic episodes was associated with a greater risk of dementia.",
+          "kept": true,
+          "new_index": 11
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13282296,
+          "title": "Hypoglycemic episodes and risk of dementia in older patients with type 2 diabetes mellitus.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Although acute hypoglycemia may be associated with cognitive impairment in children with type 1 diabetes, no studies to date have evaluated whether hypoglycemia is a risk factor for dementia in older patients with type 2 diabetes.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To determine if hypoglycemic episodes severe enough to require hospitalization are associated with an increased risk of dementia in a population of older patients with type 2 diabetes followed up for 27 years.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN, SETTING, AND PATIENTS A longitudinal cohort study from 1980-2007 of 16,667 patients with a mean age of 65 years and type 2 diabetes who are members of an integrated health care delivery system in northern California.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "MAIN OUTCOME MEASURE Hypoglycemic events from 1980-2002 were collected and reviewed using hospital discharge and emergency department diagnoses."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Cohort members with no prior diagnoses of dementia, mild cognitive impairment, or general memory complaints as of January 1, 2003, were followed up for a dementia diagnosis through January 15, 2007."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Dementia risk was examined using Cox proportional hazard regression models, adjusted for age, sex, race/ethnicity, education, body mass index, duration of diabetes, 7-year mean glycated hemoglobin, diabetes treatment, duration of insulin use, hyperlipidemia, hypertension, cardiovascular disease, stroke, transient cerebral ischemia, and end-stage renal disease.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "RESULTS At least 1 episode of hypoglycemia was diagnosed in 1465 patients (8.8%) and dementia was diagnosed in 1822 patients (11%) during follow-up; 250 patients had both dementia and at least 1 episode of hypoglycemia (16.95%)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Compared with patients with no hypoglycemia, patients with single or multiple episodes had a graded increase in risk with fully adjusted hazard ratios (HRs): for 1 episode (HR, 1.26; 95% confidence interval [CI], 1.10-1.49); 2 episodes (HR, 1.80; 95% CI, 1.37-2.36); and 3 or more episodes (HR, 1.94; 95% CI, 1.42-2.64)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "The attributable risk of dementia between individuals with and without a history of hypoglycemia was 2.39% per year (95% CI, 1.72%-3.01%)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Results were not attenuated when medical utilization rates, length of health plan membership, or time since initial diabetes diagnosis were added to the model."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "When examining emergency department admissions for hypoglycemia for association with risk of dementia (535 episodes), results were similar (compared with patients with 0 episodes) with fully adjusted HRs: for 1 episode (HR, 1.42; 95% CI, 1.12-1.78) and for 2 or more episodes (HR, 2.36; 95% CI, 1.57-3.55).   \n"
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "CONCLUSIONS Among older patients with type 2 diabetes, a history of severe hypoglycemic episodes was associated with a greater risk of dementia."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "Whether minor hypoglycemic episodes increase risk of dementia is unknown."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Hypoglycemia increases the risk of dementia.",
+      "evidence": [
+        {
+          "doc_id": 13282296,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Compared with patients with no hypoglycemia, patients with single or multiple episodes had a graded increase in risk with fully adjusted hazard ratios (HRs): for 1 episode (HR, 1.26; 95% confidence interval [CI], 1.10-1.49); 2 episodes (HR, 1.80; 95% CI, 1.37-2.36); and 3 or more episodes (HR, 1.94; 95% CI, 1.42-2.64).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13282296,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Among older patients with type 2 diabetes, a history of severe hypoglycemic episodes was associated with a greater risk of dementia.",
+          "kept": true,
+          "new_index": 8
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13282296,
+          "title": "Hypoglycemic episodes and risk of dementia in older patients with type 2 diabetes mellitus.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Although acute hypoglycemia may be associated with cognitive impairment in children with type 1 diabetes, no studies to date have evaluated whether hypoglycemia is a risk factor for dementia in older patients with type 2 diabetes.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To determine if hypoglycemic episodes severe enough to require hospitalization are associated with an increased risk of dementia in a population of older patients with type 2 diabetes followed up for 27 years.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "MAIN OUTCOME MEASURE Hypoglycemic events from 1980-2002 were collected and reviewed using hospital discharge and emergency department diagnoses."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Cohort members with no prior diagnoses of dementia, mild cognitive impairment, or general memory complaints as of January 1, 2003, were followed up for a dementia diagnosis through January 15, 2007."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Dementia risk was examined using Cox proportional hazard regression models, adjusted for age, sex, race/ethnicity, education, body mass index, duration of diabetes, 7-year mean glycated hemoglobin, diabetes treatment, duration of insulin use, hyperlipidemia, hypertension, cardiovascular disease, stroke, transient cerebral ischemia, and end-stage renal disease.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "RESULTS At least 1 episode of hypoglycemia was diagnosed in 1465 patients (8.8%) and dementia was diagnosed in 1822 patients (11%) during follow-up; 250 patients had both dementia and at least 1 episode of hypoglycemia (16.95%)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 9,
+              "sentence": "Results were not attenuated when medical utilization rates, length of health plan membership, or time since initial diabetes diagnosis were added to the model."
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "When examining emergency department admissions for hypoglycemia for association with risk of dementia (535 episodes), results were similar (compared with patients with 0 episodes) with fully adjusted HRs: for 1 episode (HR, 1.42; 95% CI, 1.12-1.78) and for 2 or more episodes (HR, 2.36; 95% CI, 1.57-3.55).   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "CONCLUSIONS Among older patients with type 2 diabetes, a history of severe hypoglycemic episodes was associated with a greater risk of dementia."
+            },
+            {
+              "new_index": 9,
+              "original_index": 12,
+              "sentence": "Whether minor hypoglycemic episodes increase risk of dementia is unknown."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 13282296,
+          "original_index": 2,
+          "sentence": "DESIGN, SETTING, AND PATIENTS A longitudinal cohort study from 1980-2007 of 16,667 patients with a mean age of 65 years and type 2 diabetes who are members of an integrated health care delivery system in northern California.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 13282296,
+          "original_index": 7,
+          "sentence": "Compared with patients with no hypoglycemia, patients with single or multiple episodes had a graded increase in risk with fully adjusted hazard ratios (HRs): for 1 episode (HR, 1.26; 95% confidence interval [CI], 1.10-1.49); 2 episodes (HR, 1.80; 95% CI, 1.37-2.36); and 3 or more episodes (HR, 1.94; 95% CI, 1.42-2.64).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13282296,
+          "original_index": 8,
+          "sentence": "The attributable risk of dementia between individuals with and without a history of hypoglycemia was 2.39% per year (95% CI, 1.72%-3.01%).",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Hypoglycemia increases the risk of dementia.",
+      "evidence": [
+        {
+          "doc_id": 13282296,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Compared with patients with no hypoglycemia, patients with single or multiple episodes had a graded increase in risk with fully adjusted hazard ratios (HRs): for 1 episode (HR, 1.26; 95% confidence interval [CI], 1.10-1.49); 2 episodes (HR, 1.80; 95% CI, 1.37-2.36); and 3 or more episodes (HR, 1.94; 95% CI, 1.42-2.64).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13282296,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Among older patients with type 2 diabetes, a history of severe hypoglycemic episodes was associated with a greater risk of dementia.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13282296,
+          "title": "Hypoglycemic episodes and risk of dementia in older patients with type 2 diabetes mellitus.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Although acute hypoglycemia may be associated with cognitive impairment in children with type 1 diabetes, no studies to date have evaluated whether hypoglycemia is a risk factor for dementia in older patients with type 2 diabetes.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "DESIGN, SETTING, AND PATIENTS A longitudinal cohort study from 1980-2007 of 16,667 patients with a mean age of 65 years and type 2 diabetes who are members of an integrated health care delivery system in northern California.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "MAIN OUTCOME MEASURE Hypoglycemic events from 1980-2002 were collected and reviewed using hospital discharge and emergency department diagnoses."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Cohort members with no prior diagnoses of dementia, mild cognitive impairment, or general memory complaints as of January 1, 2003, were followed up for a dementia diagnosis through January 15, 2007."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Dementia risk was examined using Cox proportional hazard regression models, adjusted for age, sex, race/ethnicity, education, body mass index, duration of diabetes, 7-year mean glycated hemoglobin, diabetes treatment, duration of insulin use, hyperlipidemia, hypertension, cardiovascular disease, stroke, transient cerebral ischemia, and end-stage renal disease.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "RESULTS At least 1 episode of hypoglycemia was diagnosed in 1465 patients (8.8%) and dementia was diagnosed in 1822 patients (11%) during follow-up; 250 patients had both dementia and at least 1 episode of hypoglycemia (16.95%)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "The attributable risk of dementia between individuals with and without a history of hypoglycemia was 2.39% per year (95% CI, 1.72%-3.01%)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "When examining emergency department admissions for hypoglycemia for association with risk of dementia (535 episodes), results were similar (compared with patients with 0 episodes) with fully adjusted HRs: for 1 episode (HR, 1.42; 95% CI, 1.12-1.78) and for 2 or more episodes (HR, 2.36; 95% CI, 1.57-3.55).   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 12,
+              "sentence": "Whether minor hypoglycemic episodes increase risk of dementia is unknown."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 13282296,
+          "original_index": 1,
+          "sentence": "OBJECTIVE To determine if hypoglycemic episodes severe enough to require hospitalization are associated with an increased risk of dementia in a population of older patients with type 2 diabetes followed up for 27 years.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 13282296,
+          "original_index": 7,
+          "sentence": "Compared with patients with no hypoglycemia, patients with single or multiple episodes had a graded increase in risk with fully adjusted hazard ratios (HRs): for 1 episode (HR, 1.26; 95% confidence interval [CI], 1.10-1.49); 2 episodes (HR, 1.80; 95% CI, 1.37-2.36); and 3 or more episodes (HR, 1.94; 95% CI, 1.42-2.64).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13282296,
+          "original_index": 9,
+          "sentence": "Results were not attenuated when medical utilization rates, length of health plan membership, or time since initial diabetes diagnosis were added to the model.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 13282296,
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Among older patients with type 2 diabetes, a history of severe hypoglycemic episodes was associated with a greater risk of dementia.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

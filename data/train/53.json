@@ -1,0 +1,124 @@
+{
+  "id": 53,
+  "origin": "dev",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "ALDH1 expression is associated with poorer prognosis in breast cancer.",
+      "evidence": [
+        {
+          "doc_id": 45638119,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 45638119,
+          "title": "ALDH1 is a marker of normal and malignant human mammary stem cells and a predictor of poor clinical outcome.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Application of stem cell biology to breast cancer research has been limited by the lack of simple methods for identification and isolation of normal and malignant stem cells."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Utilizing in vitro and in vivo experimental systems, we show that normal and cancer human mammary epithelial cells with increased aldehyde dehydrogenase activity (ALDH) have stem/progenitor properties."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "These cells contain the subpopulation of normal breast epithelium with the broadest lineage differentiation potential and greatest growth capacity in a xenotransplant model."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "In breast carcinomas, high ALDH activity identifies the tumorigenic cell fraction, capable of self-renewal and of generating tumors that recapitulate the heterogeneity of the parental tumor."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "These findings offer an important new tool for the study of normal and malignant breast stem cells and facilitate the clinical application of stem cell concepts."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "ALDH1 expression is associated with poorer prognosis in breast cancer.",
+      "evidence": [
+        {
+          "doc_id": 45638119,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 45638119,
+          "title": "ALDH1 is a marker of normal and malignant human mammary stem cells and a predictor of poor clinical outcome.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "Utilizing in vitro and in vivo experimental systems, we show that normal and cancer human mammary epithelial cells with increased aldehyde dehydrogenase activity (ALDH) have stem/progenitor properties."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "These cells contain the subpopulation of normal breast epithelium with the broadest lineage differentiation potential and greatest growth capacity in a xenotransplant model."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "In breast carcinomas, high ALDH activity identifies the tumorigenic cell fraction, capable of self-renewal and of generating tumors that recapitulate the heterogeneity of the parental tumor."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "These findings offer an important new tool for the study of normal and malignant breast stem cells and facilitate the clinical application of stem cell concepts."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 45638119,
+          "original_index": 0,
+          "sentence": "Application of stem cell biology to breast cancer research has been limited by the lack of simple methods for identification and isolation of normal and malignant stem cells.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 45638119,
+          "original_index": 4,
+          "sentence": "In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

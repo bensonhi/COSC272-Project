@@ -1,0 +1,53 @@
+{
+  "id": 897,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Overexpressing Cnp1 N-tail variants rescues the temperature-sensitive growth defect of scm3-139.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 14338915,
+          "title": "Fission Yeast Scm3: A CENP-A Receptor Required for Integrity of Subkinetochore Chromatin",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The mechanisms ensuring specific incorporation of CENP-A at centromeres are poorly understood."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Mis16 and Mis18 are required for CENP-A localization at centromeres and form a complex that is conserved from fission yeast to human."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Fission yeast sim1 mutants that alleviate kinetochore domain silencing are defective in Scm3(Sp), the ortholog of budding yeast Scm3(Sc)."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Scm3(Sp) depends on Mis16/18 for its centromere localization and like them is recruited to centromeres in late anaphase."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Importantly, Scm3(Sp) coaffinity purifies with CENP-A(Cnp1) and associates with CENP-A(Cnp1) in vitro, yet localizes independently of intact CENP-A(Cnp1) chromatin and is differentially released from chromatin."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "While Scm3(Sc) has been proposed to form a unique hexameric nucleosome with CENP-A(Cse4) and histone H4 at budding yeast point centromeres, we favor a model in which Scm3(Sp) acts as a CENP-A(Cnp1) receptor/assembly factor, cooperating with Mis16 and Mis18 to receive CENP-A(Cnp1) from the Sim3 escort and mediate assembly of CENP-A(Cnp1) into subkinetochore chromatin."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": 324,
+  "origin": "dev",
+  "claim": "Deleting Raptor reduces G-CSF levels.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 2014909,
+      "title": "Oncogenic mTOR signaling recruits myeloid-derived suppressor cells to promote tumor initiation",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Myeloid-derived suppressor cells (MDSCs) play critical roles in primary and metastatic cancer progression."
+        },
+        {
+          "original_index": 1,
+          "sentence": "MDSC regulation is widely variable even among patients harbouring the same type of malignancy, and the mechanisms governing such heterogeneity are largely unknown."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Here, integrating human tumour genomics and syngeneic mammary tumour models, we demonstrate that mTOR signalling in cancer cells dictates a mammary tumour's ability to stimulate MDSC accumulation through regulating G-CSF."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Inhibiting this pathway or its activators (for example, FGFR) impairs tumour progression, which is partially rescued by restoring MDSCs or G-CSF."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Tumour-initiating cells (TICs) exhibit elevated G-CSF."
+        },
+        {
+          "original_index": 5,
+          "sentence": "MDSCs reciprocally increase TIC frequency through activating Notch in tumour cells, forming a feedforward loop."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Analyses of primary breast cancers and patient-derived xenografts corroborate these mechanisms in patients."
+        },
+        {
+          "original_index": 7,
+          "sentence": "These findings establish a non-canonical oncogenic role of mTOR signalling in recruiting pro-tumorigenic MDSCs and show how defined cancer subsets may evolve to promote and depend on a distinct immune microenvironment."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

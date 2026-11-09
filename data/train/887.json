@@ -1,0 +1,98 @@
+{
+  "id": 887,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Only a minority of cells survive development after differentiation into stress-resistant spores.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 18855191,
+          "title": "Exploitative and Hierarchical Antagonism in a Cooperative Bacterium",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Social organisms that cooperate with some members of their own species, such as close relatives, may fail to cooperate with other genotypes of the same species."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Such noncooperation may take the form of outright antagonism or social exploitation."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Myxococcus xanthus is a highly social prokaryote that cooperatively develops into spore-bearing, multicellular fruiting bodies in response to starvation."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Here we have characterized the nature of social interactions among nine developmentally proficient strains of M. xanthus isolated from spatially distant locations."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Strains were competed against one another in all possible pairwise combinations during starvation-induced development."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "In most pairings, at least one competitor exhibited strong antagonism toward its partner and a majority of mixes showed bidirectional antagonism that decreased total spore production, even to the point of driving whole populations to extinction."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Differential response to mixing was the primary determinant of competitive superiority rather than the sporulation efficiencies of unmixed populations."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "In some competitive pairings, the dominant partner sporulated more efficiently in mixed populations than in clonal isolation."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "This finding represents a novel form of exploitation in bacteria carried out by socially competent genotypes and is the first documentation of social exploitation among natural bacterial isolates."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Patterns of antagonistic superiority among these strains form a highly linear dominance hierarchy."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "At least some competition pairs construct chimeric, rather than segregated, fruiting bodies."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "The cooperative prokaryote M. xanthus has diverged into a large number of distinct social types that cooperate with clone-mates but exhibit intense antagonism toward distinct social types of the same species."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "Most lengthy migration events in nature may thus result in strong antagonism between migratory and resident populations, and this antagonism may have large effects on local population sizes and dynamics."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "Intense mutual antagonism appears to be more prevalent in this prokaryotic social species than has been observed in the eukaryotic social slime mold Dictyostelium discoideum, which also exhibits multicellular development."
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "The finding of several cases of facultative social exploitation among these natural isolates suggests that such exploitation may occur frequently in nature in many prokaryotes with cooperative traits."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

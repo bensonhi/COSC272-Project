@@ -1,0 +1,424 @@
+{
+  "id": 1087,
+  "origin": "train_more",
+  "n_groups": 4,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Sildenafil worsens erectile function in men who experience sexual dysfunction as a result of the use of SSRI antidepressants.",
+      "evidence": [
+        {
+          "doc_id": 39281140,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 6,
+          "sentence": "At a CGI-SF score of 2 or lower, 54.5% (24/44) of sildenafil compared with 4.4% (2/45) of placebo patients were much or very much improved (P<.001).",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 39281140,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 7,
+          "sentence": "Erectile function, arousal, ejaculation, orgasm, and overall satisfaction domain measures improved significantly in sildenafil compared with placebo patients.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 39281140,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "CONCLUSION In our study, sildenafil effectively improved erectile function and other aspects of sexual function in men with sexual dysfunction associated with the use of SRI antidepressants.",
+          "kept": true,
+          "new_index": 9
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 39281140,
+          "title": "Treatment of antidepressant-associated sexual dysfunction with sildenafil: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Sexual dysfunction is a common adverse effect of antidepressants that frequently results in treatment noncompliance.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To assess the efficacy of sildenafil citrate in men with sexual dysfunction associated with the use of selective and nonselective serotonin reuptake inhibitor (SRI) antidepressants.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN, SETTING, AND PATIENTS Prospective, parallel-group, randomized, double-blind, placebo-controlled trial conducted between November 1, 2000, and January 1, 2001, at 3 US university medical centers among 90 male outpatients (mean [SD] age, 45 [8] years) with major depression in remission and sexual dysfunction associated with SRI antidepressant treatment.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "INTERVENTION Patients were randomly assigned to take sildenafil (n = 45) or placebo (n = 45) at a flexible dose starting at 50 mg and adjustable to 100 mg before sexual activity for 6 weeks.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURES The primary outcome measure was score on the Clinical Global Impression-Sexual Function (CGI-SF); secondary measures were scores on the International Index of Erectile Function, Arizona Sexual Experience Scale, Massachusetts General Hospital-Sexual Functioning Questionnaire, and Hamilton Rating Scale for Depression (HAM-D).   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "RESULTS Among the 90 randomized patients, 93% (83/89) of patients treated per protocol took at least 1 dose of study drug and 85% (76/89) completed week 6 end-point assessments with last observation carried forward analyses."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "At a CGI-SF score of 2 or lower, 54.5% (24/44) of sildenafil compared with 4.4% (2/45) of placebo patients were much or very much improved (P<.001)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Erectile function, arousal, ejaculation, orgasm, and overall satisfaction domain measures improved significantly in sildenafil compared with placebo patients."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Mean depression scores remained consistent with remission (HAM-D score < or =10) in both groups for the study duration.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "CONCLUSION In our study, sildenafil effectively improved erectile function and other aspects of sexual function in men with sexual dysfunction associated with the use of SRI antidepressants."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "These improvements may allow patients to maintain adherence with effective antidepressant treatment."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Sildenafil worsens erectile function in men who experience sexual dysfunction as a result of the use of SSRI antidepressants.",
+      "evidence": [
+        {
+          "doc_id": 39281140,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 6,
+          "sentence": "At a CGI-SF score of 2 or lower, 54.5% (24/44) of sildenafil compared with 4.4% (2/45) of placebo patients were much or very much improved (P<.001).",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 39281140,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 7,
+          "sentence": "Erectile function, arousal, ejaculation, orgasm, and overall satisfaction domain measures improved significantly in sildenafil compared with placebo patients.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 39281140,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "CONCLUSION In our study, sildenafil effectively improved erectile function and other aspects of sexual function in men with sexual dysfunction associated with the use of SRI antidepressants.",
+          "kept": true,
+          "new_index": 7
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 39281140,
+          "title": "Treatment of antidepressant-associated sexual dysfunction with sildenafil: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Sexual dysfunction is a common adverse effect of antidepressants that frequently results in treatment noncompliance.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To assess the efficacy of sildenafil citrate in men with sexual dysfunction associated with the use of selective and nonselective serotonin reuptake inhibitor (SRI) antidepressants.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN, SETTING, AND PATIENTS Prospective, parallel-group, randomized, double-blind, placebo-controlled trial conducted between November 1, 2000, and January 1, 2001, at 3 US university medical centers among 90 male outpatients (mean [SD] age, 45 [8] years) with major depression in remission and sexual dysfunction associated with SRI antidepressant treatment.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURES The primary outcome measure was score on the Clinical Global Impression-Sexual Function (CGI-SF); secondary measures were scores on the International Index of Erectile Function, Arizona Sexual Experience Scale, Massachusetts General Hospital-Sexual Functioning Questionnaire, and Hamilton Rating Scale for Depression (HAM-D).   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "RESULTS Among the 90 randomized patients, 93% (83/89) of patients treated per protocol took at least 1 dose of study drug and 85% (76/89) completed week 6 end-point assessments with last observation carried forward analyses."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "At a CGI-SF score of 2 or lower, 54.5% (24/44) of sildenafil compared with 4.4% (2/45) of placebo patients were much or very much improved (P<.001)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "Mean depression scores remained consistent with remission (HAM-D score < or =10) in both groups for the study duration.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "CONCLUSION In our study, sildenafil effectively improved erectile function and other aspects of sexual function in men with sexual dysfunction associated with the use of SRI antidepressants."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "These improvements may allow patients to maintain adherence with effective antidepressant treatment."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 39281140,
+          "original_index": 3,
+          "sentence": "INTERVENTION Patients were randomly assigned to take sildenafil (n = 45) or placebo (n = 45) at a flexible dose starting at 50 mg and adjustable to 100 mg before sexual activity for 6 weeks.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 39281140,
+          "original_index": 7,
+          "sentence": "Erectile function, arousal, ejaculation, orgasm, and overall satisfaction domain measures improved significantly in sildenafil compared with placebo patients.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g2",
+        "g0"
+      ],
+      "claim": "Sildenafil worsens erectile function in men who experience sexual dysfunction as a result of the use of SSRI antidepressants.",
+      "evidence": [
+        {
+          "doc_id": 39281140,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 6,
+          "sentence": "At a CGI-SF score of 2 or lower, 54.5% (24/44) of sildenafil compared with 4.4% (2/45) of placebo patients were much or very much improved (P<.001).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 39281140,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 7,
+          "sentence": "Erectile function, arousal, ejaculation, orgasm, and overall satisfaction domain measures improved significantly in sildenafil compared with placebo patients.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 39281140,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "CONCLUSION In our study, sildenafil effectively improved erectile function and other aspects of sexual function in men with sexual dysfunction associated with the use of SRI antidepressants.",
+          "kept": true,
+          "new_index": 6
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 39281140,
+          "title": "Treatment of antidepressant-associated sexual dysfunction with sildenafil: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Sexual dysfunction is a common adverse effect of antidepressants that frequently results in treatment noncompliance.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To assess the efficacy of sildenafil citrate in men with sexual dysfunction associated with the use of selective and nonselective serotonin reuptake inhibitor (SRI) antidepressants.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN, SETTING, AND PATIENTS Prospective, parallel-group, randomized, double-blind, placebo-controlled trial conducted between November 1, 2000, and January 1, 2001, at 3 US university medical centers among 90 male outpatients (mean [SD] age, 45 [8] years) with major depression in remission and sexual dysfunction associated with SRI antidepressant treatment.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "INTERVENTION Patients were randomly assigned to take sildenafil (n = 45) or placebo (n = 45) at a flexible dose starting at 50 mg and adjustable to 100 mg before sexual activity for 6 weeks.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURES The primary outcome measure was score on the Clinical Global Impression-Sexual Function (CGI-SF); secondary measures were scores on the International Index of Erectile Function, Arizona Sexual Experience Scale, Massachusetts General Hospital-Sexual Functioning Questionnaire, and Hamilton Rating Scale for Depression (HAM-D).   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 8,
+              "sentence": "Mean depression scores remained consistent with remission (HAM-D score < or =10) in both groups for the study duration.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 9,
+              "sentence": "CONCLUSION In our study, sildenafil effectively improved erectile function and other aspects of sexual function in men with sexual dysfunction associated with the use of SRI antidepressants."
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "These improvements may allow patients to maintain adherence with effective antidepressant treatment."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 39281140,
+          "original_index": 5,
+          "sentence": "RESULTS Among the 90 randomized patients, 93% (83/89) of patients treated per protocol took at least 1 dose of study drug and 85% (76/89) completed week 6 end-point assessments with last observation carried forward analyses.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 39281140,
+          "original_index": 6,
+          "sentence": "At a CGI-SF score of 2 or lower, 54.5% (24/44) of sildenafil compared with 4.4% (2/45) of placebo patients were much or very much improved (P<.001).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 39281140,
+          "original_index": 7,
+          "sentence": "Erectile function, arousal, ejaculation, orgasm, and overall satisfaction domain measures improved significantly in sildenafil compared with placebo patients.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2"
+      ],
+      "claim": "Sildenafil worsens erectile function in men who experience sexual dysfunction as a result of the use of SSRI antidepressants.",
+      "evidence": [
+        {
+          "doc_id": 39281140,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 6,
+          "sentence": "At a CGI-SF score of 2 or lower, 54.5% (24/44) of sildenafil compared with 4.4% (2/45) of placebo patients were much or very much improved (P<.001).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 39281140,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 7,
+          "sentence": "Erectile function, arousal, ejaculation, orgasm, and overall satisfaction domain measures improved significantly in sildenafil compared with placebo patients.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 39281140,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "CONCLUSION In our study, sildenafil effectively improved erectile function and other aspects of sexual function in men with sexual dysfunction associated with the use of SRI antidepressants.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 39281140,
+          "title": "Treatment of antidepressant-associated sexual dysfunction with sildenafil: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Sexual dysfunction is a common adverse effect of antidepressants that frequently results in treatment noncompliance.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "DESIGN, SETTING, AND PATIENTS Prospective, parallel-group, randomized, double-blind, placebo-controlled trial conducted between November 1, 2000, and January 1, 2001, at 3 US university medical centers among 90 male outpatients (mean [SD] age, 45 [8] years) with major depression in remission and sexual dysfunction associated with SRI antidepressant treatment.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "INTERVENTION Patients were randomly assigned to take sildenafil (n = 45) or placebo (n = 45) at a flexible dose starting at 50 mg and adjustable to 100 mg before sexual activity for 6 weeks.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURES The primary outcome measure was score on the Clinical Global Impression-Sexual Function (CGI-SF); secondary measures were scores on the International Index of Erectile Function, Arizona Sexual Experience Scale, Massachusetts General Hospital-Sexual Functioning Questionnaire, and Hamilton Rating Scale for Depression (HAM-D).   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "RESULTS Among the 90 randomized patients, 93% (83/89) of patients treated per protocol took at least 1 dose of study drug and 85% (76/89) completed week 6 end-point assessments with last observation carried forward analyses."
+            },
+            {
+              "new_index": 5,
+              "original_index": 8,
+              "sentence": "Mean depression scores remained consistent with remission (HAM-D score < or =10) in both groups for the study duration.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 10,
+              "sentence": "These improvements may allow patients to maintain adherence with effective antidepressant treatment."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 39281140,
+          "original_index": 1,
+          "sentence": "OBJECTIVE To assess the efficacy of sildenafil citrate in men with sexual dysfunction associated with the use of selective and nonselective serotonin reuptake inhibitor (SRI) antidepressants.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 39281140,
+          "original_index": 6,
+          "sentence": "At a CGI-SF score of 2 or lower, 54.5% (24/44) of sildenafil compared with 4.4% (2/45) of placebo patients were much or very much improved (P<.001).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 39281140,
+          "original_index": 7,
+          "sentence": "Erectile function, arousal, ejaculation, orgasm, and overall satisfaction domain measures improved significantly in sildenafil compared with placebo patients.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 39281140,
+          "original_index": 9,
+          "sentence": "CONCLUSION In our study, sildenafil effectively improved erectile function and other aspects of sexual function in men with sexual dysfunction associated with the use of SRI antidepressants.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

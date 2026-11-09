@@ -1,0 +1,450 @@
+{
+  "id": 184,
+  "origin": "train_more",
+  "n_groups": 5,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Bone marrow cells don't contribute to adult macrophage compartments.",
+      "evidence": [
+        {
+          "doc_id": 12827098,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 1,
+          "sentence": "Using parabiosis and fate-mapping approaches, we confirmed that monocytes do not show significant contribution to tissue macrophages in the steady state.",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 12827098,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 2,
+          "sentence": "Similarly, we found that after depletion of lung macrophages, the majority of repopulation occurred by stochastic cellular proliferation in situ in a macrophage colony-stimulating factor (M-Csf)- and granulocyte macrophage (GM)-CSF-dependent manner but independently of interleukin-4.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 12827098,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "We also found that after bone marrow transplantation, host macrophages retained the capacity to expand when the development of donor macrophages was compromised.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 12827098,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "Collectively, these results indicate that tissue-resident macrophages and circulating monocytes should be classified as mononuclear phagocyte lineages that are independently maintained in the steady state.",
+          "kept": true,
+          "new_index": 5
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 12827098,
+          "title": "Tissue-resident macrophages self-maintain locally throughout adult life with minimal contribution from circulating monocytes.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Despite accumulating evidence suggesting local self-maintenance of tissue macrophages in the steady state, the dogma remains that tissue macrophages derive from monocytes."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Using parabiosis and fate-mapping approaches, we confirmed that monocytes do not show significant contribution to tissue macrophages in the steady state."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Similarly, we found that after depletion of lung macrophages, the majority of repopulation occurred by stochastic cellular proliferation in situ in a macrophage colony-stimulating factor (M-Csf)- and granulocyte macrophage (GM)-CSF-dependent manner but independently of interleukin-4."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We also found that after bone marrow transplantation, host macrophages retained the capacity to expand when the development of donor macrophages was compromised."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Expansion of host macrophages was functional and prevented the development of alveolar proteinosis in mice transplanted with GM-Csf-receptor-deficient progenitors."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Collectively, these results indicate that tissue-resident macrophages and circulating monocytes should be classified as mononuclear phagocyte lineages that are independently maintained in the steady state."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g2"
+      ],
+      "claim": "Bone marrow cells don't contribute to adult macrophage compartments.",
+      "evidence": [
+        {
+          "doc_id": 12827098,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 1,
+          "sentence": "Using parabiosis and fate-mapping approaches, we confirmed that monocytes do not show significant contribution to tissue macrophages in the steady state.",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 12827098,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 2,
+          "sentence": "Similarly, we found that after depletion of lung macrophages, the majority of repopulation occurred by stochastic cellular proliferation in situ in a macrophage colony-stimulating factor (M-Csf)- and granulocyte macrophage (GM)-CSF-dependent manner but independently of interleukin-4.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 12827098,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "We also found that after bone marrow transplantation, host macrophages retained the capacity to expand when the development of donor macrophages was compromised.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 12827098,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "Collectively, these results indicate that tissue-resident macrophages and circulating monocytes should be classified as mononuclear phagocyte lineages that are independently maintained in the steady state.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 12827098,
+          "title": "Tissue-resident macrophages self-maintain locally throughout adult life with minimal contribution from circulating monocytes.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Despite accumulating evidence suggesting local self-maintenance of tissue macrophages in the steady state, the dogma remains that tissue macrophages derive from monocytes."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Using parabiosis and fate-mapping approaches, we confirmed that monocytes do not show significant contribution to tissue macrophages in the steady state."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "We also found that after bone marrow transplantation, host macrophages retained the capacity to expand when the development of donor macrophages was compromised."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Expansion of host macrophages was functional and prevented the development of alveolar proteinosis in mice transplanted with GM-Csf-receptor-deficient progenitors."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Collectively, these results indicate that tissue-resident macrophages and circulating monocytes should be classified as mononuclear phagocyte lineages that are independently maintained in the steady state."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 12827098,
+          "original_index": 2,
+          "sentence": "Similarly, we found that after depletion of lung macrophages, the majority of repopulation occurred by stochastic cellular proliferation in situ in a macrophage colony-stimulating factor (M-Csf)- and granulocyte macrophage (GM)-CSF-dependent manner but independently of interleukin-4.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g0",
+        "g3"
+      ],
+      "claim": "Bone marrow cells don't contribute to adult macrophage compartments.",
+      "evidence": [
+        {
+          "doc_id": 12827098,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 1,
+          "sentence": "Using parabiosis and fate-mapping approaches, we confirmed that monocytes do not show significant contribution to tissue macrophages in the steady state.",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 12827098,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 2,
+          "sentence": "Similarly, we found that after depletion of lung macrophages, the majority of repopulation occurred by stochastic cellular proliferation in situ in a macrophage colony-stimulating factor (M-Csf)- and granulocyte macrophage (GM)-CSF-dependent manner but independently of interleukin-4.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 12827098,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "We also found that after bone marrow transplantation, host macrophages retained the capacity to expand when the development of donor macrophages was compromised.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 12827098,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "Collectively, these results indicate that tissue-resident macrophages and circulating monocytes should be classified as mononuclear phagocyte lineages that are independently maintained in the steady state.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 12827098,
+          "title": "Tissue-resident macrophages self-maintain locally throughout adult life with minimal contribution from circulating monocytes.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Despite accumulating evidence suggesting local self-maintenance of tissue macrophages in the steady state, the dogma remains that tissue macrophages derive from monocytes."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Using parabiosis and fate-mapping approaches, we confirmed that monocytes do not show significant contribution to tissue macrophages in the steady state."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Similarly, we found that after depletion of lung macrophages, the majority of repopulation occurred by stochastic cellular proliferation in situ in a macrophage colony-stimulating factor (M-Csf)- and granulocyte macrophage (GM)-CSF-dependent manner but independently of interleukin-4."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Expansion of host macrophages was functional and prevented the development of alveolar proteinosis in mice transplanted with GM-Csf-receptor-deficient progenitors."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 12827098,
+          "original_index": 3,
+          "sentence": "We also found that after bone marrow transplantation, host macrophages retained the capacity to expand when the development of donor macrophages was compromised.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 12827098,
+          "original_index": 5,
+          "sentence": "Collectively, these results indicate that tissue-resident macrophages and circulating monocytes should be classified as mononuclear phagocyte lineages that are independently maintained in the steady state.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_3_groups",
+      "dropped_group_ids": [
+        "g2",
+        "g3",
+        "g0"
+      ],
+      "claim": "Bone marrow cells don't contribute to adult macrophage compartments.",
+      "evidence": [
+        {
+          "doc_id": 12827098,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 1,
+          "sentence": "Using parabiosis and fate-mapping approaches, we confirmed that monocytes do not show significant contribution to tissue macrophages in the steady state.",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 12827098,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 2,
+          "sentence": "Similarly, we found that after depletion of lung macrophages, the majority of repopulation occurred by stochastic cellular proliferation in situ in a macrophage colony-stimulating factor (M-Csf)- and granulocyte macrophage (GM)-CSF-dependent manner but independently of interleukin-4.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 12827098,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "We also found that after bone marrow transplantation, host macrophages retained the capacity to expand when the development of donor macrophages was compromised.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 12827098,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "Collectively, these results indicate that tissue-resident macrophages and circulating monocytes should be classified as mononuclear phagocyte lineages that are independently maintained in the steady state.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 12827098,
+          "title": "Tissue-resident macrophages self-maintain locally throughout adult life with minimal contribution from circulating monocytes.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Despite accumulating evidence suggesting local self-maintenance of tissue macrophages in the steady state, the dogma remains that tissue macrophages derive from monocytes."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Using parabiosis and fate-mapping approaches, we confirmed that monocytes do not show significant contribution to tissue macrophages in the steady state."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Expansion of host macrophages was functional and prevented the development of alveolar proteinosis in mice transplanted with GM-Csf-receptor-deficient progenitors."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 12827098,
+          "original_index": 2,
+          "sentence": "Similarly, we found that after depletion of lung macrophages, the majority of repopulation occurred by stochastic cellular proliferation in situ in a macrophage colony-stimulating factor (M-Csf)- and granulocyte macrophage (GM)-CSF-dependent manner but independently of interleukin-4.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 12827098,
+          "original_index": 3,
+          "sentence": "We also found that after bone marrow transplantation, host macrophages retained the capacity to expand when the development of donor macrophages was compromised.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 12827098,
+          "original_index": 5,
+          "sentence": "Collectively, these results indicate that tissue-resident macrophages and circulating monocytes should be classified as mononuclear phagocyte lineages that are independently maintained in the steady state.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2",
+        "g3"
+      ],
+      "claim": "Bone marrow cells don't contribute to adult macrophage compartments.",
+      "evidence": [
+        {
+          "doc_id": 12827098,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 1,
+          "sentence": "Using parabiosis and fate-mapping approaches, we confirmed that monocytes do not show significant contribution to tissue macrophages in the steady state.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 12827098,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 2,
+          "sentence": "Similarly, we found that after depletion of lung macrophages, the majority of repopulation occurred by stochastic cellular proliferation in situ in a macrophage colony-stimulating factor (M-Csf)- and granulocyte macrophage (GM)-CSF-dependent manner but independently of interleukin-4.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 12827098,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "We also found that after bone marrow transplantation, host macrophages retained the capacity to expand when the development of donor macrophages was compromised.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 12827098,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "Collectively, these results indicate that tissue-resident macrophages and circulating monocytes should be classified as mononuclear phagocyte lineages that are independently maintained in the steady state.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 12827098,
+          "title": "Tissue-resident macrophages self-maintain locally throughout adult life with minimal contribution from circulating monocytes.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Despite accumulating evidence suggesting local self-maintenance of tissue macrophages in the steady state, the dogma remains that tissue macrophages derive from monocytes."
+            },
+            {
+              "new_index": 1,
+              "original_index": 4,
+              "sentence": "Expansion of host macrophages was functional and prevented the development of alveolar proteinosis in mice transplanted with GM-Csf-receptor-deficient progenitors."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 12827098,
+          "original_index": 1,
+          "sentence": "Using parabiosis and fate-mapping approaches, we confirmed that monocytes do not show significant contribution to tissue macrophages in the steady state.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 12827098,
+          "original_index": 2,
+          "sentence": "Similarly, we found that after depletion of lung macrophages, the majority of repopulation occurred by stochastic cellular proliferation in situ in a macrophage colony-stimulating factor (M-Csf)- and granulocyte macrophage (GM)-CSF-dependent manner but independently of interleukin-4.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 12827098,
+          "original_index": 3,
+          "sentence": "We also found that after bone marrow transplantation, host macrophages retained the capacity to expand when the development of donor macrophages was compromised.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 12827098,
+          "original_index": 5,
+          "sentence": "Collectively, these results indicate that tissue-resident macrophages and circulating monocytes should be classified as mononuclear phagocyte lineages that are independently maintained in the steady state.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

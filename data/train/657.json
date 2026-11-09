@@ -1,0 +1,143 @@
+{
+  "id": 657,
+  "origin": "train_more",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Intramembrane cleavage by signal peptide peptidase aids in the degradation of proteins with a complex membrane orientation.",
+      "evidence": [
+        {
+          "doc_id": 8533245,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Here we show that the evolutionary conserved rhomboid family protein RHBDL4 is a ubiquitin-dependent ER-resident intramembrane protease that is upregulated upon ER stress.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 8533245,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "RHBDL4 cleaves single-spanning and polytopic membrane proteins with unstable transmembrane helices, leading to their degradation by the canonical ERAD machinery.",
+          "kept": true,
+          "new_index": 3
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 8533245,
+          "title": "Ubiquitin-dependent intramembrane rhomboid protease promotes ERAD of membrane proteins.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The ER-associated degradation (ERAD) pathway serves as an important cellular safeguard by directing incorrectly folded and unassembled proteins from the ER to the proteasome."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Still, however, little is known about the components mediating ERAD of membrane proteins."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here we show that the evolutionary conserved rhomboid family protein RHBDL4 is a ubiquitin-dependent ER-resident intramembrane protease that is upregulated upon ER stress."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "RHBDL4 cleaves single-spanning and polytopic membrane proteins with unstable transmembrane helices, leading to their degradation by the canonical ERAD machinery."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "RHBDL4 specifically binds the AAA+-ATPase p97, suggesting that proteolytic processing and dislocation into the cytosol are functionally linked."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "The phylogenetic relationship between rhomboids and the ERAD factor derlin suggests that substrates for intramembrane proteolysis and protein dislocation are recruited by a shared mechanism."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Intramembrane cleavage by signal peptide peptidase aids in the degradation of proteins with a complex membrane orientation.",
+      "evidence": [
+        {
+          "doc_id": 8533245,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Here we show that the evolutionary conserved rhomboid family protein RHBDL4 is a ubiquitin-dependent ER-resident intramembrane protease that is upregulated upon ER stress.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 8533245,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "RHBDL4 cleaves single-spanning and polytopic membrane proteins with unstable transmembrane helices, leading to their degradation by the canonical ERAD machinery.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 8533245,
+          "title": "Ubiquitin-dependent intramembrane rhomboid protease promotes ERAD of membrane proteins.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The ER-associated degradation (ERAD) pathway serves as an important cellular safeguard by directing incorrectly folded and unassembled proteins from the ER to the proteasome."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Still, however, little is known about the components mediating ERAD of membrane proteins."
+            },
+            {
+              "new_index": 2,
+              "original_index": 5,
+              "sentence": "The phylogenetic relationship between rhomboids and the ERAD factor derlin suggests that substrates for intramembrane proteolysis and protein dislocation are recruited by a shared mechanism."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 8533245,
+          "original_index": 2,
+          "sentence": "Here we show that the evolutionary conserved rhomboid family protein RHBDL4 is a ubiquitin-dependent ER-resident intramembrane protease that is upregulated upon ER stress.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 8533245,
+          "original_index": 3,
+          "sentence": "RHBDL4 cleaves single-spanning and polytopic membrane proteins with unstable transmembrane helices, leading to their degradation by the canonical ERAD machinery.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 8533245,
+          "original_index": 4,
+          "sentence": "RHBDL4 specifically binds the AAA+-ATPase p97, suggesting that proteolytic processing and dislocation into the cytosol are functionally linked.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

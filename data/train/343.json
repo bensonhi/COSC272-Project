@@ -1,0 +1,278 @@
+{
+  "id": 343,
+  "origin": "dev",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Diabetic patients with acute coronary syndrome experience increased short-term and long-term risk for bleeding events.",
+      "evidence": [
+        {
+          "doc_id": 5884524,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Diabetes independently predicted mortality (relative risk [RR], 1.57; 95% CI, 1.38 to 1.81; P:<0.001), as well as cardiovascular death, new myocardial infarction, stroke, and new congestive heart failure.",
+          "kept": true,
+          "new_index": 5
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 7873737,
+          "title": "Platelet glycoprotein IIb/IIIa inhibitors reduce mortality in diabetic patients with non-ST-segment-elevation acute coronary syndromes.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Diabetes mellitus is a major risk factor for adverse outcomes after acute coronary syndromes (ACS)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Because this disease may be associated with increased platelet aggregation, we investigated whether diabetic patients with ACS derive particular benefit from platelet glycoprotein (GP) IIb/IIIa receptor inhibition.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS AND RESULTS We performed a meta-analysis of the diabetic populations enrolled in the 6 large-scale platelet GP IIb/IIIa inhibitor ACS trials: PRISM, PRISM-PLUS, PARAGON A, PARAGON B, PURSUIT, and GUSTO IV."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Among 6458 diabetic patients, platelet GP IIb/IIIa inhibition was associated with a significant mortality reduction at 30 days, from 6.2% to 4.6% (OR 0.74; 95% CI 0.59 to 0.92; P=0.007)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Conversely, 23 072 nondiabetic patients had no survival benefit (3.0% versus 3.0%)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "The interaction between platelet GP IIb/IIIa inhibition and diabetic status was statistically significant (P=0.036)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Among 1279 diabetic patients undergoing percutaneous coronary intervention (PCI) during index hospitalization, the use of these agents was associated with a mortality reduction at 30 days from 4.0% to 1.2% (OR 0.30; 95% CI 0.14 to 0.69; P=0.002).   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "CONCLUSIONS This meta-analysis, including the entire large-scale trial experience of intravenous platelet GP IIb/IIIa inhibitors for the medical management of non-ST-segment-elevation ACS, shows that these agents may significantly reduce mortality at 30 days in diabetic patients."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Although not based on a randomized assessment, the survival benefit appears to be of greater magnitude in patients undergoing PCI."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Therefore, the use of platelet GP IIb/IIIa inhibitors should be strongly considered in diabetic patients with ACS."
+            }
+          ]
+        },
+        {
+          "doc_id": 5884524,
+          "title": "Impact of diabetes on long-term prognosis in patients with unstable angina and non-Q-wave myocardial infarction: results of the OASIS (Organization to Assess Strategies for Ischemic Syndromes) Registry.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Although unstable coronary artery disease is the most common reason for admission to a coronary care unit, the long-term prognosis of patients with this diagnosis is unknown."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "This is particularly true for patients with diabetes mellitus, who are known to have a high morbidity and mortality after an acute myocardial infarction.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS AND RESULTS Prospectively collected data from 6 different countries in the Organization to Assess Strategies for Ischemic Syndromes (OASIS) registry were analyzed to determine the 2-year prognosis of diabetic and nondiabetic patients who were hospitalized with unstable angina or non-Q-wave myocardial infarction."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Overall, 1718 of 8013 registry patients (21%) had diabetes."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Diabetic patients had a higher rate of coronary bypass surgery than nondiabetic patients (23% versus 20%, P:<0.001) but had similar rates of catheterization and angioplasty."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Diabetes independently predicted mortality (relative risk [RR], 1.57; 95% CI, 1.38 to 1.81; P:<0.001), as well as cardiovascular death, new myocardial infarction, stroke, and new congestive heart failure."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Moreover, compared with their nondiabetic counterparts, women had a significantly higher risk than men (RR, 1.98; 95% CI, 1.60 to 2.44; and RR, 1.28; 95% CI, 1.06 to 1.56, respectively)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Interestingly, diabetic patients without prior cardiovascular disease had the same event rates for all outcomes as nondiabetic patients with previous vascular disease.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "CONCLUSIONS Hospitalization for unstable angina or non-Q-wave myocardial infarction predicts a high 2-year morbidity and mortality; this is especially evident for patients with diabetes."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Diabetic patients with no previous cardiovascular disease have the same long-term morbidity and mortality as nondiabetic patients with established cardiovascular disease after hospitalization for unstable coronary artery disease."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Diabetic patients with acute coronary syndrome experience increased short-term and long-term risk for bleeding events.",
+      "evidence": [
+        {
+          "doc_id": 5884524,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Diabetes independently predicted mortality (relative risk [RR], 1.57; 95% CI, 1.38 to 1.81; P:<0.001), as well as cardiovascular death, new myocardial infarction, stroke, and new congestive heart failure.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 7873737,
+          "title": "Platelet glycoprotein IIb/IIIa inhibitors reduce mortality in diabetic patients with non-ST-segment-elevation acute coronary syndromes.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Diabetes mellitus is a major risk factor for adverse outcomes after acute coronary syndromes (ACS)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Because this disease may be associated with increased platelet aggregation, we investigated whether diabetic patients with ACS derive particular benefit from platelet glycoprotein (GP) IIb/IIIa receptor inhibition.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Among 6458 diabetic patients, platelet GP IIb/IIIa inhibition was associated with a significant mortality reduction at 30 days, from 6.2% to 4.6% (OR 0.74; 95% CI 0.59 to 0.92; P=0.007)."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Conversely, 23 072 nondiabetic patients had no survival benefit (3.0% versus 3.0%)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "The interaction between platelet GP IIb/IIIa inhibition and diabetic status was statistically significant (P=0.036)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Among 1279 diabetic patients undergoing percutaneous coronary intervention (PCI) during index hospitalization, the use of these agents was associated with a mortality reduction at 30 days from 4.0% to 1.2% (OR 0.30; 95% CI 0.14 to 0.69; P=0.002).   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "CONCLUSIONS This meta-analysis, including the entire large-scale trial experience of intravenous platelet GP IIb/IIIa inhibitors for the medical management of non-ST-segment-elevation ACS, shows that these agents may significantly reduce mortality at 30 days in diabetic patients."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "Although not based on a randomized assessment, the survival benefit appears to be of greater magnitude in patients undergoing PCI."
+            }
+          ]
+        },
+        {
+          "doc_id": 5884524,
+          "title": "Impact of diabetes on long-term prognosis in patients with unstable angina and non-Q-wave myocardial infarction: results of the OASIS (Organization to Assess Strategies for Ischemic Syndromes) Registry.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "This is particularly true for patients with diabetes mellitus, who are known to have a high morbidity and mortality after an acute myocardial infarction.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "METHODS AND RESULTS Prospectively collected data from 6 different countries in the Organization to Assess Strategies for Ischemic Syndromes (OASIS) registry were analyzed to determine the 2-year prognosis of diabetic and nondiabetic patients who were hospitalized with unstable angina or non-Q-wave myocardial infarction."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Overall, 1718 of 8013 registry patients (21%) had diabetes."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Diabetic patients had a higher rate of coronary bypass surgery than nondiabetic patients (23% versus 20%, P:<0.001) but had similar rates of catheterization and angioplasty."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Moreover, compared with their nondiabetic counterparts, women had a significantly higher risk than men (RR, 1.98; 95% CI, 1.60 to 2.44; and RR, 1.28; 95% CI, 1.06 to 1.56, respectively)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Interestingly, diabetic patients without prior cardiovascular disease had the same event rates for all outcomes as nondiabetic patients with previous vascular disease.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "CONCLUSIONS Hospitalization for unstable angina or non-Q-wave myocardial infarction predicts a high 2-year morbidity and mortality; this is especially evident for patients with diabetes."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Diabetic patients with no previous cardiovascular disease have the same long-term morbidity and mortality as nondiabetic patients with established cardiovascular disease after hospitalization for unstable coronary artery disease."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 7873737,
+          "original_index": 2,
+          "sentence": "METHODS AND RESULTS We performed a meta-analysis of the diabetic populations enrolled in the 6 large-scale platelet GP IIb/IIIa inhibitor ACS trials: PRISM, PRISM-PLUS, PARAGON A, PARAGON B, PURSUIT, and GUSTO IV.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 7873737,
+          "original_index": 9,
+          "sentence": "Therefore, the use of platelet GP IIb/IIIa inhibitors should be strongly considered in diabetic patients with ACS.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 5884524,
+          "original_index": 0,
+          "sentence": "BACKGROUND Although unstable coronary artery disease is the most common reason for admission to a coronary care unit, the long-term prognosis of patients with this diagnosis is unknown.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 5884524,
+          "original_index": 5,
+          "sentence": "Diabetes independently predicted mortality (relative risk [RR], 1.57; 95% CI, 1.38 to 1.81; P:<0.001), as well as cardiovascular death, new myocardial infarction, stroke, and new congestive heart failure.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

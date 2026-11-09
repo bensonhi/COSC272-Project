@@ -1,0 +1,78 @@
+{
+  "id": 895,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Over half of the gabonese children with Schimmelpenning-Feuerstein-Mims syndrome (SFM) had a plasma lactate of more than 5mmol/L.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 18750453,
+          "title": "Assessment of Volume Depletion in Children with Malaria",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Background The degree of volume depletion in severe malaria is currently unknown, although knowledge of fluid compartment volumes can guide therapy."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "To assist management of severely ill children, and to test the hypothesis that volume changes in fluid compartments reflect disease severity, we measured body compartment volumes in Gabonese children with malaria."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Methods and Findings Total body water volume (TBW) and extracellular water volume (ECW) were estimated in children with severe or moderate malaria and in convalescence by tracer dilution with heavy water and bromide, respectively."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Intracellular water volume (ICW) was derived from these parameters."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Bioelectrical impedance analysis estimates of TBW and ECW were calibrated against dilution methods, and bioelectrical impedance analysis measurements were taken daily until discharge."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Sixteen children had severe and 19 moderate malaria."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Severe childhood malaria was associated with depletion of TBW (mean [SD] of 37 [33] ml/kg, or 6.7% [6.0%]) relative to measurement at discharge."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "This is defined as mild dehydration in other conditions."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "ECW measurements were normal on admission in children with severe malaria and did not rise in the first few days of admission."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Volumes in different compartments (TBW, ECW, and ICW) were not related to hyperlactataemia or other clinical and laboratory markers of disease severity."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Moderate malaria was not associated with a depletion of TBW."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

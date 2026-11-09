@@ -1,0 +1,277 @@
+{
+  "id": 945,
+  "origin": "train_more",
+  "claim": "Physical activity level has no association with the difference in maximal oxygen consumption between black and white youth.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 8428935,
+      "title": "Relationship of physical activity and television watching with body weight and level of fatness among children: results from the Third National Health and Nutrition Examination Survey.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "CONTEXT Physical inactivity contributes to weight gain in adults, but whether this relationship is true for children of different ethnic groups is not well established.   \n"
+        },
+        {
+          "original_index": 1,
+          "sentence": "OBJECTIVE To assess participation in vigorous activity and television watching habits and their relationship to body weight and fatness in US children.   \n"
+        },
+        {
+          "original_index": 2,
+          "sentence": "DESIGN Nationally representative cross-sectional survey with an in-person interview and medical examination.   \n"
+        },
+        {
+          "original_index": 3,
+          "sentence": "SETTING AND PARTICIPANTS Between 1988 and 1994, 4063 children aged 8 through 16 years were examined as part of the National Health and Nutrition Examination Survey III."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Mexican Americans and non-Hispanic blacks were oversampled to produce reliable estimates for these groups.   \n"
+        },
+        {
+          "original_index": 5,
+          "sentence": "MAIN OUTCOME MEASURES Episodes of weekly vigorous activity and daily hours of television watched, and their relationship to body mass index and body fatness.   \n"
+        },
+        {
+          "original_index": 6,
+          "sentence": "RESULTS Eighty percent of US children reported performing 3 or more bouts of vigorous activity each week."
+        },
+        {
+          "original_index": 7,
+          "sentence": "This rate was lower in non-Hispanic black and Mexican American girls (69% and 73%, respectively)."
+        },
+        {
+          "original_index": 8,
+          "sentence": "Twenty percent of US children participated in 2 or fewer bouts of vigorous activity perweek, and the rate was higher in girls (26%) than in boys (17%)."
+        },
+        {
+          "original_index": 9,
+          "sentence": "Overall, 26% of US children watched 4 or more hours of television per day and 67% watched at least 2 hours per day."
+        },
+        {
+          "original_index": 10,
+          "sentence": "Non-Hispanic black children had the highest rates of watching 4 or more hours of television per day (42%)."
+        },
+        {
+          "original_index": 11,
+          "sentence": "Boys and girls who watch 4 or more hours of television each day had greater body fat (P<.001) and had a greater body mass index (P<.001) than those who watched less than 2 hours per day.   \n"
+        },
+        {
+          "original_index": 12,
+          "sentence": "CONCLUSIONS Many US children watch a great deal of television and are inadequately vigorously active."
+        },
+        {
+          "original_index": 13,
+          "sentence": "Vigorous activity levels are lowest among girls, non-Hispanic blacks, and Mexican Americans."
+        },
+        {
+          "original_index": 14,
+          "sentence": "Intervention strategies to promote lifelong physical activity among US children are needed to stem the adverse health consequences of inactivity."
+        }
+      ]
+    },
+    {
+      "doc_id": 26112696,
+      "title": "Maximal aerobic capacity in African-American and Caucasian prepubertal children.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "The purpose of this study was to examine differences in resting, submaximal, and maximal (VO2max) oxygen consumption (VO2) in African-American (n = 44) and Caucasian (n = 31) prepubertal children aged 5-10 yr."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Resting VO2 was measured via indirect calorimetry in the fasted state."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Submaximal VO2 and VO2max were determined during an all out, progressive treadmill exercise test appropriate for children."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Dual-energy X-ray absorptiometry was used to determine total fat mass (FM), soft lean tissue mass (LTM), and leg soft LTM."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Doubly labeled water was used to determine total energy expenditure (TEE) and activity energy expenditure (AEE)."
+        },
+        {
+          "original_index": 5,
+          "sentence": "A significant effect of ethnicity (P < 0.01) was found for VO2max but not resting or submaximal VO2, with African-American children having absolute VO2max approximately 15% lower than Caucasian children (1.21 +/- 0.032 vs. 1.43 +/-"
+        },
+        {
+          "original_index": 6,
+          "sentence": "0.031 l/min, respectively)."
+        },
+        {
+          "original_index": 7,
+          "sentence": "The lower VO2max persisted in African-American children after adjustment for soft LTM (1.23 +/- 0.025 vs. 1.39 +/-"
+        },
+        {
+          "original_index": 8,
+          "sentence": "0.031 l/min; P < 0.01), leg soft LTM (1.20 +/-"
+        },
+        {
+          "original_index": 9,
+          "sentence": "0.031 vs. 1.43 +/-"
+        },
+        {
+          "original_index": 10,
+          "sentence": "0.042 l/min; P < 0.01), and soft LTM and FM (1.23 +/-"
+        },
+        {
+          "original_index": 11,
+          "sentence": "0.025 vs. 1.39 +/-"
+        },
+        {
+          "original_index": 12,
+          "sentence": "0.031 l/min; P < 0.01)."
+        },
+        {
+          "original_index": 13,
+          "sentence": "The lower VO2max persisted also after adjustment for TEE (1.20 +/-"
+        },
+        {
+          "original_index": 14,
+          "sentence": "0.02 vs. 1.38 +/-"
+        },
+        {
+          "original_index": 15,
+          "sentence": "0.0028 l/min P < 0.001) and AEE (1.20 +/- 0.024 vs. 1.38 +/-"
+        },
+        {
+          "original_index": 16,
+          "sentence": "0.028 l/min; P < 0.001)."
+        },
+        {
+          "original_index": 17,
+          "sentence": "In conclusion, our data indicate that African-American and Caucasian children have similar rates of VO2 at rest and during submaximal exercise, but VO2max is approximately 15% lower in African-American children, independent of soft LTM, FM, leg LTM, TEE, and AEE."
+        }
+      ]
+    },
+    {
+      "doc_id": 4463588,
+      "title": "Effects of exercise intensity on cardiovascular fitness, total body composition, and visceral adiposity of obese adolescents.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "BACKGROUND Little is known about how the intensity of exercise influences cardiovascular fitness and body composition, especially in obese adolescents.   \n"
+        },
+        {
+          "original_index": 1,
+          "sentence": "OBJECTIVE Our goal was to determine the effects of physical training intensity on the cardiovascular fitness, percentage of body fat (%BF), and visceral adipose tissue (VAT) of obese adolescents.   \n"
+        },
+        {
+          "original_index": 2,
+          "sentence": "DESIGN Obese 13-16-y-olds (n = 80) were assigned to 1) biweekly lifestyle education (LSE), 2) LSE + moderate-intensity physical training, or 3) LSE + high-intensity physical training."
+        },
+        {
+          "original_index": 3,
+          "sentence": "The intervention lasted 8 mo."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Physical training was offered 5 d/wk, and the target energy expenditure for all subjects in physical training groups was 1047 kJ (250 kcal)/session."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Cardiovascular fitness was measured with a multistage treadmill test, %BF with dual-energy X-ray absorptiometry, and VAT with magnetic resonance imaging.   \n"
+        },
+        {
+          "original_index": 6,
+          "sentence": "RESULTS The increase in cardiovascular fitness in the high-intensity physical training group, but not in the moderate-intensity group, was significantly greater than that in the LSE alone group (P = 0.009); no other comparisons of the 3 groups were significant."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Compared with the LSE alone group, a group composed of subjects in both physical training groups combined who attended training sessions >or=2 d/wk showed favorable changes in cardiovascular fitness (P < 0.001), %BF (P = 0.001), and VAT (P = 0.029)."
+        },
+        {
+          "original_index": 8,
+          "sentence": "We found no evidence that the high-intensity physical training was more effective than the moderate-intensity physical training in enhancing body composition.   \n"
+        },
+        {
+          "original_index": 9,
+          "sentence": "CONCLUSIONS The cardiovascular fitness of obese adolescents was significantly improved by physical training, especially high-intensity physical training."
+        },
+        {
+          "original_index": 10,
+          "sentence": "The physical training also reduced both visceral and total-body adiposity, but there was no clear effect of the intensity of physical training."
+        }
+      ]
+    },
+    {
+      "doc_id": 13083189,
+      "title": "Determinants of adolescent physical activity and inactivity patterns.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "OBJECTIVES Despite recognition of the important influence of environmental determinants on physical activity patterns, minimal empirical research has been done to assess the impact of environmental/contextual determinants of physical activity."
+        },
+        {
+          "original_index": 1,
+          "sentence": "This article aims to investigate environmental and sociodemographic determinants of physical activity and inactivity patterns among subpopulations of US adolescents."
+        },
+        {
+          "original_index": 2,
+          "sentence": "We define environmental determinants as modifiable factors in the physical environment that impose a direct influence on the opportunity to engage in physical activity."
+        },
+        {
+          "original_index": 3,
+          "sentence": "The present research examines environmental and sociodemographic determinants of physical activity and inactivity with the implication that these findings can point toward societal-level intervention strategies for increasing physical activity and decreasing inactivity among adolescents.   "
+        },
+        {
+          "original_index": 4,
+          "sentence": "STUDY DESIGN AND METHODOLOGY The study population consists of nationally representative data from the 1996 National Longitudinal Study of Adolescent Health on 17 766 US adolescents enrolled in US middle and high schools (including 3933 non-Hispanic blacks, 3148 Hispanics, and 1337 Asians)."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Hours/week of inactivity (TV/video viewing and video/computer games) and times/week of moderate to vigorous physical activity were collected by questionnaire."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Outcome variables were moderate to vigorous physical activity and inactivity, which were broken into categories (physical activity: 0-2 times/week, 3-4 times/week, and >/=5 times/week; inactivity: 0-10 hours/week, 11-24 hours/week, and >/=25 hours/week)."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Sociodemographic and environmental correlates of physical activity and inactivity were used as exposure and control variables and included sex, age, urban residence, participation in school physical education program, use of community recreation center, total reported incidents of serious crime in neighborhood, socioeconomic status, ethnicity, generation of residence in the United States, presence of mother/father in household, pregnancy status, work status, in-school status, region, and month of interview."
+        },
+        {
+          "original_index": 8,
+          "sentence": "Logistic regression models of high versus low and medium physical activity and inactivity were used to investigate sex and ethnic interactions in relation to environmental and sociodemographic factors to examine evidence for the potential impact of physical education and recreation programs and sociodemographic factors on physical activity and inactivity patterns.   \n"
+        },
+        {
+          "original_index": 9,
+          "sentence": "RESULTS Moderate to vigorous physical activity was lower and inactivity higher for non-Hispanic black and Hispanic adolescents."
+        },
+        {
+          "original_index": 10,
+          "sentence": "Participation in school physical education programs was considerably low for these adolescents and decreased with age."
+        },
+        {
+          "original_index": 11,
+          "sentence": "Participation in daily school physical education (PE) program classes (adjusted odds ratio [AOR]: 2.21; confidence interval [CI]: 1.82-2.68) and use of a community recreation center (AOR: 1.75; CI: 1.56-1.96) were associated with an increased likelihood of engaging in high level moderate to vigorous physical activity."
+        },
+        {
+          "original_index": 12,
+          "sentence": "Maternal education was inversely associated with high inactivity patterns; for example, having a mother with a graduate or professional degree was associated with an AOR of.61 (CI:.48-.76) for high inactivity."
+        },
+        {
+          "original_index": 13,
+          "sentence": "High family income was associated with increased moderate to vigorous physical activity (AOR: 1.43; CI: 1.22-1.67) and decreased inactivity (AOR:.70; CI:.59-.82)."
+        },
+        {
+          "original_index": 14,
+          "sentence": "High neighborhood serious crime level was associated with a decreased likelihood of falling in the highest category of moderate to vigorous physical activity (AOR:.77; CI:.66-.91).   \n"
+        },
+        {
+          "original_index": 15,
+          "sentence": "CONCLUSIONS These results show important associations between modifiable environmental factors, such as participation in school PE and community recreation programs, with activity patterns of adolescents."
+        },
+        {
+          "original_index": 16,
+          "sentence": "Despite the marked and significant impact of participation in school PE programs on physical activity patterns of US adolescents, few adolescents participated in such school PE programs; only 21.3% of all adolescents"
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

@@ -1,0 +1,364 @@
+{
+  "id": 55,
+  "origin": "train_more",
+  "n_groups": 4,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "AMP-activated protein kinase (AMPK) activation reduces inflammation-related fibrosis in the lungs.",
+      "evidence": [
+        {
+          "doc_id": 49556906,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Pharmacological activation of AMPK in myofibroblasts from lungs of humans with IPF display lower fibrotic activity, along with enhanced mitochondrial biogenesis and normalization of sensitivity to apoptosis.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 49556906,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "In a bleomycin model of lung fibrosis in mice, metformin therapeutically accelerates the resolution of well-established fibrosis in an AMPK-dependent manner.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 49556906,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "These studies implicate deficient AMPK activation in non-resolving, pathologic fibrotic processes, and support a role for metformin (or other AMPK activators) to reverse established fibrosis by facilitating deactivation and apoptosis of myofibroblasts.",
+          "kept": true,
+          "new_index": 7
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 49556906,
+          "title": "Metformin reverses established lung fibrosis in a bleomycin model",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Fibrosis is a pathological result of a dysfunctional repair response to tissue injury and occurs in a number of organs, including the lungs1."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Cellular metabolism regulates tissue repair and remodelling responses to injury2-4."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "AMPK is a critical sensor of cellular bioenergetics and controls the switch from anabolic to catabolic metabolism5."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "However, the role of AMPK in fibrosis is not well understood."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Here, we demonstrate that in humans with idiopathic pulmonary fibrosis (IPF) and in an experimental mouse model of lung fibrosis, AMPK activity is lower in fibrotic regions associated with metabolically active and apoptosis-resistant myofibroblasts."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Pharmacological activation of AMPK in myofibroblasts from lungs of humans with IPF display lower fibrotic activity, along with enhanced mitochondrial biogenesis and normalization of sensitivity to apoptosis."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "In a bleomycin model of lung fibrosis in mice, metformin therapeutically accelerates the resolution of well-established fibrosis in an AMPK-dependent manner."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "These studies implicate deficient AMPK activation in non-resolving, pathologic fibrotic processes, and support a role for metformin (or other AMPK activators) to reverse established fibrosis by facilitating deactivation and apoptosis of myofibroblasts."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g2"
+      ],
+      "claim": "AMP-activated protein kinase (AMPK) activation reduces inflammation-related fibrosis in the lungs.",
+      "evidence": [
+        {
+          "doc_id": 49556906,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Pharmacological activation of AMPK in myofibroblasts from lungs of humans with IPF display lower fibrotic activity, along with enhanced mitochondrial biogenesis and normalization of sensitivity to apoptosis.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 49556906,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "In a bleomycin model of lung fibrosis in mice, metformin therapeutically accelerates the resolution of well-established fibrosis in an AMPK-dependent manner.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 49556906,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "These studies implicate deficient AMPK activation in non-resolving, pathologic fibrotic processes, and support a role for metformin (or other AMPK activators) to reverse established fibrosis by facilitating deactivation and apoptosis of myofibroblasts.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 49556906,
+          "title": "Metformin reverses established lung fibrosis in a bleomycin model",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Fibrosis is a pathological result of a dysfunctional repair response to tissue injury and occurs in a number of organs, including the lungs1."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Cellular metabolism regulates tissue repair and remodelling responses to injury2-4."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "AMPK is a critical sensor of cellular bioenergetics and controls the switch from anabolic to catabolic metabolism5."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Here, we demonstrate that in humans with idiopathic pulmonary fibrosis (IPF) and in an experimental mouse model of lung fibrosis, AMPK activity is lower in fibrotic regions associated with metabolically active and apoptosis-resistant myofibroblasts."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Pharmacological activation of AMPK in myofibroblasts from lungs of humans with IPF display lower fibrotic activity, along with enhanced mitochondrial biogenesis and normalization of sensitivity to apoptosis."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "In a bleomycin model of lung fibrosis in mice, metformin therapeutically accelerates the resolution of well-established fibrosis in an AMPK-dependent manner."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 49556906,
+          "original_index": 3,
+          "sentence": "However, the role of AMPK in fibrosis is not well understood.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 49556906,
+          "original_index": 7,
+          "sentence": "These studies implicate deficient AMPK activation in non-resolving, pathologic fibrotic processes, and support a role for metformin (or other AMPK activators) to reverse established fibrosis by facilitating deactivation and apoptosis of myofibroblasts.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g2",
+        "g1"
+      ],
+      "claim": "AMP-activated protein kinase (AMPK) activation reduces inflammation-related fibrosis in the lungs.",
+      "evidence": [
+        {
+          "doc_id": 49556906,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Pharmacological activation of AMPK in myofibroblasts from lungs of humans with IPF display lower fibrotic activity, along with enhanced mitochondrial biogenesis and normalization of sensitivity to apoptosis.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 49556906,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "In a bleomycin model of lung fibrosis in mice, metformin therapeutically accelerates the resolution of well-established fibrosis in an AMPK-dependent manner.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 49556906,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "These studies implicate deficient AMPK activation in non-resolving, pathologic fibrotic processes, and support a role for metformin (or other AMPK activators) to reverse established fibrosis by facilitating deactivation and apoptosis of myofibroblasts.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 49556906,
+          "title": "Metformin reverses established lung fibrosis in a bleomycin model",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Fibrosis is a pathological result of a dysfunctional repair response to tissue injury and occurs in a number of organs, including the lungs1."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Cellular metabolism regulates tissue repair and remodelling responses to injury2-4."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "However, the role of AMPK in fibrosis is not well understood."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Here, we demonstrate that in humans with idiopathic pulmonary fibrosis (IPF) and in an experimental mouse model of lung fibrosis, AMPK activity is lower in fibrotic regions associated with metabolically active and apoptosis-resistant myofibroblasts."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Pharmacological activation of AMPK in myofibroblasts from lungs of humans with IPF display lower fibrotic activity, along with enhanced mitochondrial biogenesis and normalization of sensitivity to apoptosis."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 49556906,
+          "original_index": 2,
+          "sentence": "AMPK is a critical sensor of cellular bioenergetics and controls the switch from anabolic to catabolic metabolism5.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 49556906,
+          "original_index": 6,
+          "sentence": "In a bleomycin model of lung fibrosis in mice, metformin therapeutically accelerates the resolution of well-established fibrosis in an AMPK-dependent manner.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 49556906,
+          "original_index": 7,
+          "sentence": "These studies implicate deficient AMPK activation in non-resolving, pathologic fibrotic processes, and support a role for metformin (or other AMPK activators) to reverse established fibrosis by facilitating deactivation and apoptosis of myofibroblasts.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2"
+      ],
+      "claim": "AMP-activated protein kinase (AMPK) activation reduces inflammation-related fibrosis in the lungs.",
+      "evidence": [
+        {
+          "doc_id": 49556906,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Pharmacological activation of AMPK in myofibroblasts from lungs of humans with IPF display lower fibrotic activity, along with enhanced mitochondrial biogenesis and normalization of sensitivity to apoptosis.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 49556906,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "In a bleomycin model of lung fibrosis in mice, metformin therapeutically accelerates the resolution of well-established fibrosis in an AMPK-dependent manner.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 49556906,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "These studies implicate deficient AMPK activation in non-resolving, pathologic fibrotic processes, and support a role for metformin (or other AMPK activators) to reverse established fibrosis by facilitating deactivation and apoptosis of myofibroblasts.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 49556906,
+          "title": "Metformin reverses established lung fibrosis in a bleomycin model",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Fibrosis is a pathological result of a dysfunctional repair response to tissue injury and occurs in a number of organs, including the lungs1."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "AMPK is a critical sensor of cellular bioenergetics and controls the switch from anabolic to catabolic metabolism5."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "However, the role of AMPK in fibrosis is not well understood."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Here, we demonstrate that in humans with idiopathic pulmonary fibrosis (IPF) and in an experimental mouse model of lung fibrosis, AMPK activity is lower in fibrotic regions associated with metabolically active and apoptosis-resistant myofibroblasts."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 49556906,
+          "original_index": 1,
+          "sentence": "Cellular metabolism regulates tissue repair and remodelling responses to injury2-4.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 49556906,
+          "original_index": 5,
+          "sentence": "Pharmacological activation of AMPK in myofibroblasts from lungs of humans with IPF display lower fibrotic activity, along with enhanced mitochondrial biogenesis and normalization of sensitivity to apoptosis.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 49556906,
+          "original_index": 6,
+          "sentence": "In a bleomycin model of lung fibrosis in mice, metformin therapeutically accelerates the resolution of well-established fibrosis in an AMPK-dependent manner.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 49556906,
+          "original_index": 7,
+          "sentence": "These studies implicate deficient AMPK activation in non-resolving, pathologic fibrotic processes, and support a role for metformin (or other AMPK activators) to reverse established fibrosis by facilitating deactivation and apoptosis of myofibroblasts.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

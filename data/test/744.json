@@ -1,0 +1,55 @@
+{
+  "id": 744,
+  "origin": "dev",
+  "claim": "Macropinocytosis contributes to a cell's supply of amino acids via the intracellular uptake of protein.",
+  "evidence": [
+    {
+      "doc_id": 8460275,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 2,
+      "sentence": "Here, we demonstrate that protein macropinocytosis can also serve as an essential amino acid source."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 8460275,
+      "title": "The Utilization of Extracellular Proteins as Nutrients Is Suppressed by mTORC1",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Despite being surrounded by diverse nutrients, mammalian cells preferentially metabolize glucose and free amino acids."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Recently, Ras-induced macropinocytosis of extracellular proteins was shown to reduce a transformed cell's dependence on extracellular glutamine."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Here, we demonstrate that protein macropinocytosis can also serve as an essential amino acid source."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Lysosomal degradation of extracellular proteins can sustain cell survival and induce activation of mTORC1 but fails to elicit significant cell accumulation."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Unlike its growth-promoting activity under amino-acid-replete conditions, we discovered that mTORC1 activation suppresses proliferation when cells rely on extracellular proteins as an amino acid source."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Inhibiting mTORC1 results in increased catabolism of endocytosed proteins and enhances cell proliferation during nutrient-depleted conditions in vitro and within vascularly compromised tumors in vivo."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Thus, by preventing nutritional consumption of extracellular proteins, mTORC1 couples growth to availability of free amino acids."
+        },
+        {
+          "original_index": 7,
+          "sentence": "These results may have important implications for the use of mTOR inhibitors as therapeutics."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

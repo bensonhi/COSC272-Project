@@ -1,0 +1,124 @@
+{
+  "id": 57,
+  "origin": "dev",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "APOE4 expression in iPSC-derived neurons increases AlphaBeta production and tau phosphorylation, delaying GABA neuron degeneration.",
+      "evidence": [
+        {
+          "doc_id": 4709641,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 1,
+          "sentence": "Using human neurons derived from induced pluripotent stem cells that expressed apolipoprotein E4 (ApoE4), a variant of the APOE gene product and the major genetic risk factor for AD, we demonstrated that ApoE4-expressing neurons had higher levels of tau phosphorylation, unrelated to their increased production of amyloid-β (Aβ) peptides, and that they displayed GABAergic neuron degeneration.",
+          "kept": true,
+          "new_index": 1
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4709641,
+          "title": "Gain of toxic Apolipoprotein E4 effects in Human iPSC-Derived Neurons Is Ameliorated by a Small-Molecule Structure Corrector",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Efforts to develop drugs for Alzheimer's disease (AD) have shown promise in animal studies, only to fail in human trials, suggesting a pressing need to study AD in human model systems."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Using human neurons derived from induced pluripotent stem cells that expressed apolipoprotein E4 (ApoE4), a variant of the APOE gene product and the major genetic risk factor for AD, we demonstrated that ApoE4-expressing neurons had higher levels of tau phosphorylation, unrelated to their increased production of amyloid-β (Aβ) peptides, and that they displayed GABAergic neuron degeneration."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "ApoE4 increased Aβ production in human, but not in mouse, neurons."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Converting ApoE4 to ApoE3 by gene editing rescued these phenotypes, indicating the specific effects of ApoE4."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Neurons that lacked APOE behaved similarly to those expressing ApoE3, and the introduction of ApoE4 expression recapitulated the pathological phenotypes, suggesting a gain of toxic effects from ApoE4."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Treatment of ApoE4-expressing neurons with a small-molecule structure corrector ameliorated the detrimental effects, thus showing that correcting the pathogenic conformation of ApoE4 is a viable therapeutic approach for ApoE4-related AD."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "APOE4 expression in iPSC-derived neurons increases AlphaBeta production and tau phosphorylation, delaying GABA neuron degeneration.",
+      "evidence": [
+        {
+          "doc_id": 4709641,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 1,
+          "sentence": "Using human neurons derived from induced pluripotent stem cells that expressed apolipoprotein E4 (ApoE4), a variant of the APOE gene product and the major genetic risk factor for AD, we demonstrated that ApoE4-expressing neurons had higher levels of tau phosphorylation, unrelated to their increased production of amyloid-β (Aβ) peptides, and that they displayed GABAergic neuron degeneration.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4709641,
+          "title": "Gain of toxic Apolipoprotein E4 effects in Human iPSC-Derived Neurons Is Ameliorated by a Small-Molecule Structure Corrector",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 2,
+              "sentence": "ApoE4 increased Aβ production in human, but not in mouse, neurons."
+            },
+            {
+              "new_index": 1,
+              "original_index": 3,
+              "sentence": "Converting ApoE4 to ApoE3 by gene editing rescued these phenotypes, indicating the specific effects of ApoE4."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Neurons that lacked APOE behaved similarly to those expressing ApoE3, and the introduction of ApoE4 expression recapitulated the pathological phenotypes, suggesting a gain of toxic effects from ApoE4."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Treatment of ApoE4-expressing neurons with a small-molecule structure corrector ameliorated the detrimental effects, thus showing that correcting the pathogenic conformation of ApoE4 is a viable therapeutic approach for ApoE4-related AD."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 4709641,
+          "original_index": 0,
+          "sentence": "Efforts to develop drugs for Alzheimer's disease (AD) have shown promise in animal studies, only to fail in human trials, suggesting a pressing need to study AD in human model systems.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4709641,
+          "original_index": 1,
+          "sentence": "Using human neurons derived from induced pluripotent stem cells that expressed apolipoprotein E4 (ApoE4), a variant of the APOE gene product and the major genetic risk factor for AD, we demonstrated that ApoE4-expressing neurons had higher levels of tau phosphorylation, unrelated to their increased production of amyloid-β (Aβ) peptides, and that they displayed GABAergic neuron degeneration.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

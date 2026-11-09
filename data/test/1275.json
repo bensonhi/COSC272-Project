@@ -1,0 +1,39 @@
+{
+  "id": 1275,
+  "origin": "train_more",
+  "claim": "The tip of the inner tube of the toxic type VI secretion system (T6SS) antibacterial effector in Escherichia coli (E. coli) is decorated with VgrG and PAAR proteins.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 27731651,
+      "title": "A view to a kill: the bacterial type VI secretion system.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "The bacterial type VI secretion system (T6SS) is an organelle that is structurally and mechanistically analogous to an intracellular membrane-attached contractile phage tail."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Recent studies determined that a rapid conformational change in the structure of a sheath protein complex propels T6SS spike and tube components along with antibacterial and antieukaryotic effectors out of predatory T6SS(+) cells and into prey cells."
+        },
+        {
+          "original_index": 2,
+          "sentence": "The contracted organelle is then recycled in an ATP-dependent process."
+        },
+        {
+          "original_index": 3,
+          "sentence": "T6SS is regulated at transcriptional and posttranslational levels, the latter involving detection of membrane perturbation in some species."
+        },
+        {
+          "original_index": 4,
+          "sentence": "In addition to directly targeting eukaryotic cells, the T6SS can also target other bacteria coinfecting a mammalian host, highlighting the importance of the T6SS not only for bacterial survival in environmental ecosystems, but also in the context of infection and disease."
+        },
+        {
+          "original_index": 5,
+          "sentence": "This review highlights these and other advances in our understanding of the structure, mechanical function, assembly, and regulation of the T6SS."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

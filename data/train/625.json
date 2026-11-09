@@ -1,0 +1,344 @@
+{
+  "id": 625,
+  "origin": "train_more",
+  "n_groups": 4,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Induced hepatic stem cells possess the potential to differentiate into hepatocytic cells.",
+      "evidence": [
+        {
+          "doc_id": 20033112,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "iHepSCs can be stably expanded in vitro and possess the potential of bidirectional differentiation into both hepatocytic and cholangiocytic lineages.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 20033112,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 4,
+          "sentence": "In the injured liver of fumarylacetoacetate hydrolase (Fah)-deficient mice, repopulating iHepSCs become hepatocyte-like cells.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 20033112,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "Lineage conversion into bipotential expandable iHepSCs provides a strategy to enable efficient derivation of both hepatocytes and cholangiocytes for use in disease modeling and tissue engineering.",
+          "kept": true,
+          "new_index": 6
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 20033112,
+          "title": "Reprogramming fibroblasts into bipotential hepatic stem cells by defined factors.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Recent studies have demonstrated direct reprogramming of fibroblasts into a range of somatic cell types, but to date stem or progenitor cells have only been reprogrammed for the blood and neuronal lineages."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We previously reported generation of induced hepatocyte-like (iHep) cells by transduction of Gata4, Hnf1α, and Foxa3 in p19 Arf null mouse embryonic fibroblasts (MEFs)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here, we show that Hnf1β and Foxa3, liver organogenesis transcription factors, are sufficient to reprogram MEFs into induced hepatic stem cells (iHepSCs)."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "iHepSCs can be stably expanded in vitro and possess the potential of bidirectional differentiation into both hepatocytic and cholangiocytic lineages."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "In the injured liver of fumarylacetoacetate hydrolase (Fah)-deficient mice, repopulating iHepSCs become hepatocyte-like cells."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "They also engraft as cholangiocytes into bile ducts of mice with DDC-induced bile ductular injury."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Lineage conversion into bipotential expandable iHepSCs provides a strategy to enable efficient derivation of both hepatocytes and cholangiocytes for use in disease modeling and tissue engineering."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Induced hepatic stem cells possess the potential to differentiate into hepatocytic cells.",
+      "evidence": [
+        {
+          "doc_id": 20033112,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "iHepSCs can be stably expanded in vitro and possess the potential of bidirectional differentiation into both hepatocytic and cholangiocytic lineages.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 20033112,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 4,
+          "sentence": "In the injured liver of fumarylacetoacetate hydrolase (Fah)-deficient mice, repopulating iHepSCs become hepatocyte-like cells.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 20033112,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "Lineage conversion into bipotential expandable iHepSCs provides a strategy to enable efficient derivation of both hepatocytes and cholangiocytes for use in disease modeling and tissue engineering.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 20033112,
+          "title": "Reprogramming fibroblasts into bipotential hepatic stem cells by defined factors.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "We previously reported generation of induced hepatocyte-like (iHep) cells by transduction of Gata4, Hnf1α, and Foxa3 in p19 Arf null mouse embryonic fibroblasts (MEFs)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Here, we show that Hnf1β and Foxa3, liver organogenesis transcription factors, are sufficient to reprogram MEFs into induced hepatic stem cells (iHepSCs)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "In the injured liver of fumarylacetoacetate hydrolase (Fah)-deficient mice, repopulating iHepSCs become hepatocyte-like cells."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "They also engraft as cholangiocytes into bile ducts of mice with DDC-induced bile ductular injury."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Lineage conversion into bipotential expandable iHepSCs provides a strategy to enable efficient derivation of both hepatocytes and cholangiocytes for use in disease modeling and tissue engineering."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 20033112,
+          "original_index": 0,
+          "sentence": "Recent studies have demonstrated direct reprogramming of fibroblasts into a range of somatic cell types, but to date stem or progenitor cells have only been reprogrammed for the blood and neuronal lineages.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 20033112,
+          "original_index": 3,
+          "sentence": "iHepSCs can be stably expanded in vitro and possess the potential of bidirectional differentiation into both hepatocytic and cholangiocytic lineages.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Induced hepatic stem cells possess the potential to differentiate into hepatocytic cells.",
+      "evidence": [
+        {
+          "doc_id": 20033112,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "iHepSCs can be stably expanded in vitro and possess the potential of bidirectional differentiation into both hepatocytic and cholangiocytic lineages.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 20033112,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 4,
+          "sentence": "In the injured liver of fumarylacetoacetate hydrolase (Fah)-deficient mice, repopulating iHepSCs become hepatocyte-like cells.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 20033112,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "Lineage conversion into bipotential expandable iHepSCs provides a strategy to enable efficient derivation of both hepatocytes and cholangiocytes for use in disease modeling and tissue engineering.",
+          "kept": true,
+          "new_index": 3
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 20033112,
+          "title": "Reprogramming fibroblasts into bipotential hepatic stem cells by defined factors.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Recent studies have demonstrated direct reprogramming of fibroblasts into a range of somatic cell types, but to date stem or progenitor cells have only been reprogrammed for the blood and neuronal lineages."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We previously reported generation of induced hepatocyte-like (iHep) cells by transduction of Gata4, Hnf1α, and Foxa3 in p19 Arf null mouse embryonic fibroblasts (MEFs)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 5,
+              "sentence": "They also engraft as cholangiocytes into bile ducts of mice with DDC-induced bile ductular injury."
+            },
+            {
+              "new_index": 3,
+              "original_index": 6,
+              "sentence": "Lineage conversion into bipotential expandable iHepSCs provides a strategy to enable efficient derivation of both hepatocytes and cholangiocytes for use in disease modeling and tissue engineering."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 20033112,
+          "original_index": 2,
+          "sentence": "Here, we show that Hnf1β and Foxa3, liver organogenesis transcription factors, are sufficient to reprogram MEFs into induced hepatic stem cells (iHepSCs).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 20033112,
+          "original_index": 3,
+          "sentence": "iHepSCs can be stably expanded in vitro and possess the potential of bidirectional differentiation into both hepatocytic and cholangiocytic lineages.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 20033112,
+          "original_index": 4,
+          "sentence": "In the injured liver of fumarylacetoacetate hydrolase (Fah)-deficient mice, repopulating iHepSCs become hepatocyte-like cells.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2"
+      ],
+      "claim": "Induced hepatic stem cells possess the potential to differentiate into hepatocytic cells.",
+      "evidence": [
+        {
+          "doc_id": 20033112,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "iHepSCs can be stably expanded in vitro and possess the potential of bidirectional differentiation into both hepatocytic and cholangiocytic lineages.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 20033112,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 4,
+          "sentence": "In the injured liver of fumarylacetoacetate hydrolase (Fah)-deficient mice, repopulating iHepSCs become hepatocyte-like cells.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 20033112,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "Lineage conversion into bipotential expandable iHepSCs provides a strategy to enable efficient derivation of both hepatocytes and cholangiocytes for use in disease modeling and tissue engineering.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 20033112,
+          "title": "Reprogramming fibroblasts into bipotential hepatic stem cells by defined factors.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "We previously reported generation of induced hepatocyte-like (iHep) cells by transduction of Gata4, Hnf1α, and Foxa3 in p19 Arf null mouse embryonic fibroblasts (MEFs)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Here, we show that Hnf1β and Foxa3, liver organogenesis transcription factors, are sufficient to reprogram MEFs into induced hepatic stem cells (iHepSCs)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 5,
+              "sentence": "They also engraft as cholangiocytes into bile ducts of mice with DDC-induced bile ductular injury."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 20033112,
+          "original_index": 0,
+          "sentence": "Recent studies have demonstrated direct reprogramming of fibroblasts into a range of somatic cell types, but to date stem or progenitor cells have only been reprogrammed for the blood and neuronal lineages.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 20033112,
+          "original_index": 3,
+          "sentence": "iHepSCs can be stably expanded in vitro and possess the potential of bidirectional differentiation into both hepatocytic and cholangiocytic lineages.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 20033112,
+          "original_index": 4,
+          "sentence": "In the injured liver of fumarylacetoacetate hydrolase (Fah)-deficient mice, repopulating iHepSCs become hepatocyte-like cells.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 20033112,
+          "original_index": 6,
+          "sentence": "Lineage conversion into bipotential expandable iHepSCs provides a strategy to enable efficient derivation of both hepatocytes and cholangiocytes for use in disease modeling and tissue engineering.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

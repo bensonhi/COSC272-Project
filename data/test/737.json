@@ -1,0 +1,128 @@
+{
+  "id": 737,
+  "origin": "train_more",
+  "claim": "MICAL redox enzymes regulate actin dynamics in many cell types.",
+  "evidence": [
+    {
+      "doc_id": 16562534,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 4,
+      "sentence": "Instead of being integrated into a regular sarcomeric pattern, actin and myosin filaments are disorganized and accumulate beneath the plasmamembrane."
+    },
+    {
+      "doc_id": 16562534,
+      "group_id": "g1",
+      "evidence_label": "SUPPORT",
+      "original_index": 6,
+      "sentence": "Transgenic expression of interfering RNA molecules demonstrates that MICAL is required in muscles for the higher order arrangement of myofilaments."
+    },
+    {
+      "doc_id": 6609935,
+      "group_id": "g2",
+      "evidence_label": "SUPPORT",
+      "original_index": 3,
+      "sentence": "In this study we show that in non-neural cells human MICALs are required for normal actin organization, and all three MICALs regulate actin stress fibers."
+    },
+    {
+      "doc_id": 16562534,
+      "group_id": "g3",
+      "evidence_label": "SUPPORT_more",
+      "original_index": 3,
+      "sentence": "Consistent with high expression of MICAL in somatic muscles, immunohistochemical stainings reveal that the subcellular localization and architecture of contractile muscle filaments are dramatically disturbed in mical mutants."
+    },
+    {
+      "doc_id": 6609935,
+      "group_id": "g4",
+      "evidence_label": "SUPPORT_more",
+      "original_index": 4,
+      "sentence": "Moreover, we provide evidence that the generation of reactive oxygen species by MICAL proteins is crucial for their actin-regulatory function."
+    },
+    {
+      "doc_id": 6609935,
+      "group_id": "g5",
+      "evidence_label": "SUPPORT_more",
+      "original_index": 6,
+      "sentence": "These data suggest differential but complementary roles for MICAL1 and MICAL2 in actin microfilament regulation."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 16562534,
+      "title": "Drosophila MICAL regulates myofilament organization and synaptic structure",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "The overall size and structure of a synaptic terminal is an important determinant of its function."
+        },
+        {
+          "original_index": 1,
+          "sentence": "In a large-scale mutagenesis screen, designed to identify Drosophila mutants with abnormally structured neuromuscular junctions (NMJs), we discovered mutations in Drosophila mical, a conserved gene encoding a multi-domain protein with a N-terminal monooxygenase domain."
+        },
+        {
+          "original_index": 2,
+          "sentence": "In mical mutants, synaptic boutons do not sprout normally over the muscle surface and tend to form clusters along synaptic branches and at nerve entry sites."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Consistent with high expression of MICAL in somatic muscles, immunohistochemical stainings reveal that the subcellular localization and architecture of contractile muscle filaments are dramatically disturbed in mical mutants."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Instead of being integrated into a regular sarcomeric pattern, actin and myosin filaments are disorganized and accumulate beneath the plasmamembrane."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Whereas contractile elements are strongly deranged, the proposed organizer of sarcomeric structure, D-Titin, is much less affected."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Transgenic expression of interfering RNA molecules demonstrates that MICAL is required in muscles for the higher order arrangement of myofilaments."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Ultrastructural analysis confirms that myosin-rich thick filaments enter submembranous regions and interfere with synaptic development, indicating that the disorganized myofilaments may cause the synaptic growth phenotype."
+        },
+        {
+          "original_index": 8,
+          "sentence": "As a model, we suggest that the filamentous network around synaptic boutons restrains the spreading of synaptic branches."
+        }
+      ]
+    },
+    {
+      "doc_id": 6609935,
+      "title": "Differential regulation of actin microfilaments by human MICAL proteins.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "The Drosophila melanogaster MICAL protein is essential for the neuronal growth cone machinery that functions through plexin- and semaphorin-mediated axonal signaling."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Drosophila MICAL is also involved in regulating myofilament organization and synaptic structures, and serves as an actin disassembly factor downstream of plexin-mediated axonal repulsion."
+        },
+        {
+          "original_index": 2,
+          "sentence": "In mammalian cells there are three known isoforms, MICAL1, MICAL2 and MICAL3, as well as the MICAL-like proteins MICAL-L1 and MICAL-L2, but little is known of their function, and information comes almost exclusively from neural cells."
+        },
+        {
+          "original_index": 3,
+          "sentence": "In this study we show that in non-neural cells human MICALs are required for normal actin organization, and all three MICALs regulate actin stress fibers."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Moreover, we provide evidence that the generation of reactive oxygen species by MICAL proteins is crucial for their actin-regulatory function."
+        },
+        {
+          "original_index": 5,
+          "sentence": "However, although MICAL1 is auto-inhibited by its C-terminal coiled-coil region, MICAL2 remains constitutively active and affects stress fibers."
+        },
+        {
+          "original_index": 6,
+          "sentence": "These data suggest differential but complementary roles for MICAL1 and MICAL2 in actin microfilament regulation."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

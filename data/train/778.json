@@ -1,0 +1,379 @@
+{
+  "id": 778,
+  "origin": "train_more",
+  "n_groups": 4,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Mice lacking Sirt1 in Sf1-expressing neurons are immune to diet-induced obesity and insulin resistance.",
+      "evidence": [
+        {
+          "doc_id": 13001323,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 2,
+          "sentence": "Here, we show that mice lacking SIRT1 in steroidogenic factor 1 (SF1) neurons are hypersensitive to dietary obesity owing to maladaptive energy expenditure.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 13001323,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 3,
+          "sentence": "Also, mutant mice have increased susceptibility to developing dietary T2DM due to insulin resistance in skeletal muscle.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 13001323,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 5,
+          "sentence": "Conversely, mice overexpressing SIRT1 in SF1 neurons are more resistant to diet-induced obesity and insulin resistance due to increased energy expenditure and enhanced skeletal muscle insulin sensitivity.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 13001323,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 6,
+          "sentence": "Our results unveil important protective roles of SIRT1 in SF1 neurons against dietary metabolic imbalance.",
+          "kept": true,
+          "new_index": 6
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13001323,
+          "title": "SIRT1 deacetylase in SF1 neurons protects against metabolic imbalance.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Chronic feeding on high-calorie diets causes obesity and type 2 diabetes mellitus (T2DM), illnesses that affect hundreds of millions."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Thus, understanding the pathways protecting against diet-induced metabolic imbalance is of paramount medical importance."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here, we show that mice lacking SIRT1 in steroidogenic factor 1 (SF1) neurons are hypersensitive to dietary obesity owing to maladaptive energy expenditure."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Also, mutant mice have increased susceptibility to developing dietary T2DM due to insulin resistance in skeletal muscle."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Mechanistically, these aberrations arise, in part, from impaired metabolic actions of the neuropeptide orexin-A and the hormone leptin."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Conversely, mice overexpressing SIRT1 in SF1 neurons are more resistant to diet-induced obesity and insulin resistance due to increased energy expenditure and enhanced skeletal muscle insulin sensitivity."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Our results unveil important protective roles of SIRT1 in SF1 neurons against dietary metabolic imbalance."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Mice lacking Sirt1 in Sf1-expressing neurons are immune to diet-induced obesity and insulin resistance.",
+      "evidence": [
+        {
+          "doc_id": 13001323,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 2,
+          "sentence": "Here, we show that mice lacking SIRT1 in steroidogenic factor 1 (SF1) neurons are hypersensitive to dietary obesity owing to maladaptive energy expenditure.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 13001323,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 3,
+          "sentence": "Also, mutant mice have increased susceptibility to developing dietary T2DM due to insulin resistance in skeletal muscle.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 13001323,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 5,
+          "sentence": "Conversely, mice overexpressing SIRT1 in SF1 neurons are more resistant to diet-induced obesity and insulin resistance due to increased energy expenditure and enhanced skeletal muscle insulin sensitivity.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13001323,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 6,
+          "sentence": "Our results unveil important protective roles of SIRT1 in SF1 neurons against dietary metabolic imbalance.",
+          "kept": true,
+          "new_index": 5
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13001323,
+          "title": "SIRT1 deacetylase in SF1 neurons protects against metabolic imbalance.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Chronic feeding on high-calorie diets causes obesity and type 2 diabetes mellitus (T2DM), illnesses that affect hundreds of millions."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Thus, understanding the pathways protecting against diet-induced metabolic imbalance is of paramount medical importance."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here, we show that mice lacking SIRT1 in steroidogenic factor 1 (SF1) neurons are hypersensitive to dietary obesity owing to maladaptive energy expenditure."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Also, mutant mice have increased susceptibility to developing dietary T2DM due to insulin resistance in skeletal muscle."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Mechanistically, these aberrations arise, in part, from impaired metabolic actions of the neuropeptide orexin-A and the hormone leptin."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Our results unveil important protective roles of SIRT1 in SF1 neurons against dietary metabolic imbalance."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 13001323,
+          "original_index": 5,
+          "sentence": "Conversely, mice overexpressing SIRT1 in SF1 neurons are more resistant to diet-induced obesity and insulin resistance due to increased energy expenditure and enhanced skeletal muscle insulin sensitivity.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g0",
+        "g2"
+      ],
+      "claim": "Mice lacking Sirt1 in Sf1-expressing neurons are immune to diet-induced obesity and insulin resistance.",
+      "evidence": [
+        {
+          "doc_id": 13001323,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 2,
+          "sentence": "Here, we show that mice lacking SIRT1 in steroidogenic factor 1 (SF1) neurons are hypersensitive to dietary obesity owing to maladaptive energy expenditure.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13001323,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 3,
+          "sentence": "Also, mutant mice have increased susceptibility to developing dietary T2DM due to insulin resistance in skeletal muscle.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13001323,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 5,
+          "sentence": "Conversely, mice overexpressing SIRT1 in SF1 neurons are more resistant to diet-induced obesity and insulin resistance due to increased energy expenditure and enhanced skeletal muscle insulin sensitivity.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 13001323,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 6,
+          "sentence": "Our results unveil important protective roles of SIRT1 in SF1 neurons against dietary metabolic imbalance.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13001323,
+          "title": "SIRT1 deacetylase in SF1 neurons protects against metabolic imbalance.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Chronic feeding on high-calorie diets causes obesity and type 2 diabetes mellitus (T2DM), illnesses that affect hundreds of millions."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Thus, understanding the pathways protecting against diet-induced metabolic imbalance is of paramount medical importance."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Mechanistically, these aberrations arise, in part, from impaired metabolic actions of the neuropeptide orexin-A and the hormone leptin."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Conversely, mice overexpressing SIRT1 in SF1 neurons are more resistant to diet-induced obesity and insulin resistance due to increased energy expenditure and enhanced skeletal muscle insulin sensitivity."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 13001323,
+          "original_index": 2,
+          "sentence": "Here, we show that mice lacking SIRT1 in steroidogenic factor 1 (SF1) neurons are hypersensitive to dietary obesity owing to maladaptive energy expenditure.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13001323,
+          "original_index": 3,
+          "sentence": "Also, mutant mice have increased susceptibility to developing dietary T2DM due to insulin resistance in skeletal muscle.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13001323,
+          "original_index": 6,
+          "sentence": "Our results unveil important protective roles of SIRT1 in SF1 neurons against dietary metabolic imbalance.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2"
+      ],
+      "claim": "Mice lacking Sirt1 in Sf1-expressing neurons are immune to diet-induced obesity and insulin resistance.",
+      "evidence": [
+        {
+          "doc_id": 13001323,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 2,
+          "sentence": "Here, we show that mice lacking SIRT1 in steroidogenic factor 1 (SF1) neurons are hypersensitive to dietary obesity owing to maladaptive energy expenditure.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13001323,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 3,
+          "sentence": "Also, mutant mice have increased susceptibility to developing dietary T2DM due to insulin resistance in skeletal muscle.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13001323,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 5,
+          "sentence": "Conversely, mice overexpressing SIRT1 in SF1 neurons are more resistant to diet-induced obesity and insulin resistance due to increased energy expenditure and enhanced skeletal muscle insulin sensitivity.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13001323,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 6,
+          "sentence": "Our results unveil important protective roles of SIRT1 in SF1 neurons against dietary metabolic imbalance.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13001323,
+          "title": "SIRT1 deacetylase in SF1 neurons protects against metabolic imbalance.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Chronic feeding on high-calorie diets causes obesity and type 2 diabetes mellitus (T2DM), illnesses that affect hundreds of millions."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Thus, understanding the pathways protecting against diet-induced metabolic imbalance is of paramount medical importance."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Mechanistically, these aberrations arise, in part, from impaired metabolic actions of the neuropeptide orexin-A and the hormone leptin."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 13001323,
+          "original_index": 2,
+          "sentence": "Here, we show that mice lacking SIRT1 in steroidogenic factor 1 (SF1) neurons are hypersensitive to dietary obesity owing to maladaptive energy expenditure.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13001323,
+          "original_index": 3,
+          "sentence": "Also, mutant mice have increased susceptibility to developing dietary T2DM due to insulin resistance in skeletal muscle.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13001323,
+          "original_index": 5,
+          "sentence": "Conversely, mice overexpressing SIRT1 in SF1 neurons are more resistant to diet-induced obesity and insulin resistance due to increased energy expenditure and enhanced skeletal muscle insulin sensitivity.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13001323,
+          "original_index": 6,
+          "sentence": "Our results unveil important protective roles of SIRT1 in SF1 neurons against dietary metabolic imbalance.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

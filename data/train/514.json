@@ -1,0 +1,73 @@
+{
+  "id": 514,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "High dietary calcium intakes are unnecessary for prevention of secondary hyperparathyroidism in subjects with 25(OH)D levels above 75 nmol/liter.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 16256507,
+          "title": "Relationship between serum parathyroid hormone levels, vitamin D sufficiency, and calcium intake.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Adequate vitamin D status for optimum bone health has received increased recognition in recent years; however, the ideal intake is not known."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Serum 25-hydroxyvitamin D is the generally accepted indicator of vitamin D status, but no universal reference level has been reached.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To investigate the relative importance of high calcium intake and serum 25-hydroxyvitamin D for calcium homeostasis, as determined by serum intact parathyroid hormone (PTH).   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Cross-sectional study of 2310 healthy Icelandic adults who were divided equally into 3 age groups (30-45 years, 50-65 years, or 70-85 years) and recruited from February 2001 to January 2003."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "They were administered a semi-quantitative food frequency questionnaire, which assessed vitamin D and calcium intake."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Participants were further divided into groups according to calcium intake (<800 mg/d, 800-1200 mg/d, and >1200 mg/d) and serum 25-hydroxyvitamin D level (<10 ng/mL, 10-18 ng/mL, and >18 ng/mL).   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "MAIN OUTCOME MEASURE Serum intact PTH as determined by calcium intake and vitamin D.   RESULTS A total of 944 healthy participants completed all parts of the study."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "After adjusting for relevant factors, serum PTH was lowest in the group with a serum 25-hydroxyvitamin D level of more than 18 ng/mL but highest in the group with a serum 25-hydroxyvitamin D level of less than 10 ng/mL. At the low serum 25-hydroxyvitamin D level (<10 ng/mL), calcium intake of less than 800 mg/d vs more than 1200 mg/d was significantly associated with higher serum PTH (P = .04); and at a calcium intake of more than 1200 mg/d, there was a significant difference between the lowest and highest vitamin D groups (P = .04).   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "CONCLUSIONS As long as vitamin D status is ensured, calcium intake levels of more than 800 mg/d may be unnecessary for maintaining calcium metabolism."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Vitamin D supplements are necessary for adequate vitamin D status in northern climates."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

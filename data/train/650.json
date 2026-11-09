@@ -1,0 +1,73 @@
+{
+  "id": 650,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Integrating classroom-based collaborative learning with Web-based collaborative learning offers the best class performance.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 12789595,
+          "title": "Computer assisted learning in undergraduate medical education.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "It is becoming “a truth universally acknowledged” that the education of undergraduate medical students will be enhanced through the use of computer assisted learning."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Access to the wide range of online options illustrated in the figure must surely make learning more exciting, effective, and likely to be retained."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "This assumption is potentially but by no means inevitably correct.  "
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "### Box 1: Why fund computer assisted learning?  "
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Computer assisted learning is inevitable —Individual lecturers and departments are already beginning to introduce a wide range of computer based applications, sometimes in a haphazard way."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Planned and coordinated development is better than indiscriminate expansion  It is convenient and flexible —Courses supported by computer assisted learning applications may require fewer face to face lectures and seminars and place fewer geographical and temporal constraints on staff and students."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Students at peripheral hospitals or primary care centres may benefit in particular  Unique presentational benefits —Computer presentation is particularly suited to subjects that are visually intensive, detail oriented, and difficult to conceptualise, such as complex biochemical processes or microscopic images.1 Furthermore, “virtual” cases may reduce the need to use animal or human tissue in learning  Personalised learning —Each learner can progress at his or her preferred pace."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "They can repeat, interrupt, and resume at will, which may have particular advantages for weaker students  Economies of scale —Once an application has been set up, the incremental cost of offering it to additional students is relatively small  Competitive advantage —Potential applicants may use the quality of information technology to discriminate between medical schools."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "A “leading edge” virtual campus is likely to attract good students  Achieves the ultimate goal of higher education —The goal is to link people into learning communities."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Computer applications, especially the internet and world wide web, are an extremely efficient way of doing this2  Expands pedagogical horizons —The most controversial argument for … RETURN TO TEXT"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

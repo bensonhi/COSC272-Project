@@ -1,0 +1,306 @@
+{
+  "id": 563,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "In British Men, haplogroup I decreases risk of cardiovascular disease.",
+      "evidence": [
+        {
+          "doc_id": 2867345,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 7,
+          "sentence": "Carriers of haplogroup I had about a 50% higher age-adjusted risk of coronary artery disease than did men with other Y chromosome lineages in BHF-FHS (odds ratio 1·75, 95% CI 1·20-2·54, p=0·004), WOSCOPS (1·45, 1·08-1·95, p=0·012), and joint analysis of both populations (1·56, 1·24-1·97, p=0·0002).",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 2867345,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 8,
+          "sentence": "The association between haplogroup I and increased risk of coronary artery disease was independent of traditional cardiovascular and socioeconomic risk factors.",
+          "kept": true,
+          "new_index": 8
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 2867345,
+          "title": "Inheritance of coronary artery disease in men: an analysis of the role of the Y chromosome",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND A sexual dimorphism exists in the incidence and prevalence of coronary artery disease--men are more commonly affected than are age-matched women."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We explored the role of the Y chromosome in coronary artery disease in the context of this sexual inequity.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS We genotyped 11 markers of the male-specific region of the Y chromosome in 3233 biologically unrelated British men from three cohorts: the British Heart Foundation Family Heart Study (BHF-FHS), West of Scotland Coronary Prevention Study (WOSCOPS), and Cardiogenics Study."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "On the basis of this information, each Y chromosome was tracked back into one of 13 ancient lineages defined as haplogroups."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We then examined associations between common Y chromosome haplogroups and the risk of coronary artery disease in cross-sectional BHF-FHS and prospective WOSCOPS."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Finally, we undertook functional analysis of Y chromosome effects on monocyte and macrophage transcriptome in British men from the Cardiogenics Study.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "FINDINGS Of nine haplogroups identified, two (R1b1b2 and I) accounted for roughly 90% of the Y chromosome variants among British men."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Carriers of haplogroup I had about a 50% higher age-adjusted risk of coronary artery disease than did men with other Y chromosome lineages in BHF-FHS (odds ratio 1·75, 95% CI 1·20-2·54, p=0·004), WOSCOPS (1·45, 1·08-1·95, p=0·012), and joint analysis of both populations (1·56, 1·24-1·97, p=0·0002)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "The association between haplogroup I and increased risk of coronary artery disease was independent of traditional cardiovascular and socioeconomic risk factors."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Analysis of macrophage transcriptome in the Cardiogenics Study revealed that 19 molecular pathways showing strong differential expression between men with haplogroup I and other lineages of the Y chromosome were interconnected by common genes related to inflammation and immunity, and that some of them have a strong relevance to atherosclerosis.   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "INTERPRETATION The human Y chromosome is associated with risk of coronary artery disease in men of European ancestry, possibly through interactions of immunity and inflammation.   \n"
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "FUNDING British Heart Foundation; UK National Institute for Health Research; LEW Carty Charitable Fund; National Health and Medical Research Council of Australia; European Union 6th Framework Programme; Wellcome Trust."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "In British Men, haplogroup I decreases risk of cardiovascular disease.",
+      "evidence": [
+        {
+          "doc_id": 2867345,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 7,
+          "sentence": "Carriers of haplogroup I had about a 50% higher age-adjusted risk of coronary artery disease than did men with other Y chromosome lineages in BHF-FHS (odds ratio 1·75, 95% CI 1·20-2·54, p=0·004), WOSCOPS (1·45, 1·08-1·95, p=0·012), and joint analysis of both populations (1·56, 1·24-1·97, p=0·0002).",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 2867345,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 8,
+          "sentence": "The association between haplogroup I and increased risk of coronary artery disease was independent of traditional cardiovascular and socioeconomic risk factors.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 2867345,
+          "title": "Inheritance of coronary artery disease in men: an analysis of the role of the Y chromosome",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND A sexual dimorphism exists in the incidence and prevalence of coronary artery disease--men are more commonly affected than are age-matched women."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "METHODS We genotyped 11 markers of the male-specific region of the Y chromosome in 3233 biologically unrelated British men from three cohorts: the British Heart Foundation Family Heart Study (BHF-FHS), West of Scotland Coronary Prevention Study (WOSCOPS), and Cardiogenics Study."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "On the basis of this information, each Y chromosome was tracked back into one of 13 ancient lineages defined as haplogroups."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Finally, we undertook functional analysis of Y chromosome effects on monocyte and macrophage transcriptome in British men from the Cardiogenics Study.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "FINDINGS Of nine haplogroups identified, two (R1b1b2 and I) accounted for roughly 90% of the Y chromosome variants among British men."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Carriers of haplogroup I had about a 50% higher age-adjusted risk of coronary artery disease than did men with other Y chromosome lineages in BHF-FHS (odds ratio 1·75, 95% CI 1·20-2·54, p=0·004), WOSCOPS (1·45, 1·08-1·95, p=0·012), and joint analysis of both populations (1·56, 1·24-1·97, p=0·0002)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 9,
+              "sentence": "Analysis of macrophage transcriptome in the Cardiogenics Study revealed that 19 molecular pathways showing strong differential expression between men with haplogroup I and other lineages of the Y chromosome were interconnected by common genes related to inflammation and immunity, and that some of them have a strong relevance to atherosclerosis.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "INTERPRETATION The human Y chromosome is associated with risk of coronary artery disease in men of European ancestry, possibly through interactions of immunity and inflammation.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "FUNDING British Heart Foundation; UK National Institute for Health Research; LEW Carty Charitable Fund; National Health and Medical Research Council of Australia; European Union 6th Framework Programme; Wellcome Trust."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 2867345,
+          "original_index": 1,
+          "sentence": "We explored the role of the Y chromosome in coronary artery disease in the context of this sexual inequity.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 2867345,
+          "original_index": 4,
+          "sentence": "We then examined associations between common Y chromosome haplogroups and the risk of coronary artery disease in cross-sectional BHF-FHS and prospective WOSCOPS.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 2867345,
+          "original_index": 8,
+          "sentence": "The association between haplogroup I and increased risk of coronary artery disease was independent of traditional cardiovascular and socioeconomic risk factors.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "In British Men, haplogroup I decreases risk of cardiovascular disease.",
+      "evidence": [
+        {
+          "doc_id": 2867345,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 7,
+          "sentence": "Carriers of haplogroup I had about a 50% higher age-adjusted risk of coronary artery disease than did men with other Y chromosome lineages in BHF-FHS (odds ratio 1·75, 95% CI 1·20-2·54, p=0·004), WOSCOPS (1·45, 1·08-1·95, p=0·012), and joint analysis of both populations (1·56, 1·24-1·97, p=0·0002).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 2867345,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 8,
+          "sentence": "The association between haplogroup I and increased risk of coronary artery disease was independent of traditional cardiovascular and socioeconomic risk factors.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 2867345,
+          "title": "Inheritance of coronary artery disease in men: an analysis of the role of the Y chromosome",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND A sexual dimorphism exists in the incidence and prevalence of coronary artery disease--men are more commonly affected than are age-matched women."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We explored the role of the Y chromosome in coronary artery disease in the context of this sexual inequity.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS We genotyped 11 markers of the male-specific region of the Y chromosome in 3233 biologically unrelated British men from three cohorts: the British Heart Foundation Family Heart Study (BHF-FHS), West of Scotland Coronary Prevention Study (WOSCOPS), and Cardiogenics Study."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "On the basis of this information, each Y chromosome was tracked back into one of 13 ancient lineages defined as haplogroups."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We then examined associations between common Y chromosome haplogroups and the risk of coronary artery disease in cross-sectional BHF-FHS and prospective WOSCOPS."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Finally, we undertook functional analysis of Y chromosome effects on monocyte and macrophage transcriptome in British men from the Cardiogenics Study.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "FINDINGS Of nine haplogroups identified, two (R1b1b2 and I) accounted for roughly 90% of the Y chromosome variants among British men."
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "INTERPRETATION The human Y chromosome is associated with risk of coronary artery disease in men of European ancestry, possibly through interactions of immunity and inflammation.   \n"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 2867345,
+          "original_index": 7,
+          "sentence": "Carriers of haplogroup I had about a 50% higher age-adjusted risk of coronary artery disease than did men with other Y chromosome lineages in BHF-FHS (odds ratio 1·75, 95% CI 1·20-2·54, p=0·004), WOSCOPS (1·45, 1·08-1·95, p=0·012), and joint analysis of both populations (1·56, 1·24-1·97, p=0·0002).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 2867345,
+          "original_index": 8,
+          "sentence": "The association between haplogroup I and increased risk of coronary artery disease was independent of traditional cardiovascular and socioeconomic risk factors.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 2867345,
+          "original_index": 9,
+          "sentence": "Analysis of macrophage transcriptome in the Cardiogenics Study revealed that 19 molecular pathways showing strong differential expression between men with haplogroup I and other lineages of the Y chromosome were interconnected by common genes related to inflammation and immunity, and that some of them have a strong relevance to atherosclerosis.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 2867345,
+          "original_index": 11,
+          "sentence": "FUNDING British Heart Foundation; UK National Institute for Health Research; LEW Carty Charitable Fund; National Health and Medical Research Council of Australia; European Union 6th Framework Programme; Wellcome Trust.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

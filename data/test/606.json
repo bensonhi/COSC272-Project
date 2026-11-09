@@ -1,0 +1,43 @@
+{
+  "id": 606,
+  "origin": "train_more",
+  "claim": "Increased conversion of PGE 2 to PPARy ligand 15-ket-PGE 2 causes accumulation of PGE.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 712078,
+      "title": "Pharmacological correction of a defect in PPARγ signaling ameliorates disease severity in Cftr-deficient mice",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Cystic fibrosis is caused by mutations in the cystic fibrosis transmembrane conductance regulator (encoded by Cftr) that impair its role as an apical chloride channel that supports bicarbonate transport."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Individuals with cystic fibrosis show retained, thickened mucus that plugs airways and obstructs luminal organs as well as numerous other abnormalities that include inflammation of affected organs, alterations in lipid metabolism and insulin resistance."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Here we show that colonic epithelial cells and whole lung tissue from Cftr-deficient mice show a defect in peroxisome proliferator-activated receptor-gamma (PPAR-gamma, encoded by Pparg) function that contributes to a pathological program of gene expression."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Lipidomic analysis of colonic epithelial cells suggests that this defect results in part from reduced amounts of the endogenous PPAR-gamma ligand 15-keto-prostaglandin E(2) (15-keto-PGE(2))."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Treatment of Cftr-deficient mice with the synthetic PPAR-gamma ligand rosiglitazone partially normalizes the altered gene expression pattern associated with Cftr deficiency and reduces disease severity."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Rosiglitazone has no effect on chloride secretion in the colon, but it increases expression of the genes encoding carbonic anhydrases 4 and 2 (Car4 and Car2), increases bicarbonate secretion and reduces mucus retention."
+        },
+        {
+          "original_index": 6,
+          "sentence": "These studies reveal a reversible defect in PPAR-gamma signaling in Cftr-deficient cells that can be pharmacologically corrected to ameliorate the severity of the cystic fibrosis phenotype in mice."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

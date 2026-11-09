@@ -1,0 +1,124 @@
+{
+  "id": 721,
+  "origin": "dev",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Lupus-prone mice infected with curliproducing bacteria have higher autoantibody titers compared to controls.",
+      "evidence": [
+        {
+          "doc_id": 1834762,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "We also found that the infection of lupus-prone mice with curli-producing bacteria triggered higher autoantibody titers compared to curli-deficient bacteria.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1834762,
+          "title": "Amyloid-DNA Composites of Bacterial Biofilms Stimulate Autoimmunity.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Research on the human microbiome has established that commensal and pathogenic bacteria can influence obesity, cancer, and autoimmunity through mechanisms mostly unknown."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We found that a component of bacterial biofilms, the amyloid protein curli, irreversibly formed fibers with bacterial DNA during biofilm formation."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "This interaction accelerated amyloid polymerization and created potent immunogenic complexes that activated immune cells, including dendritic cells, to produce cytokines such as type I interferons, which are pathogenic in systemic lupus erythematosus (SLE)."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "When given systemically, curli-DNA composites triggered immune activation and production of autoantibodies in lupus-prone and wild-type mice."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We also found that the infection of lupus-prone mice with curli-producing bacteria triggered higher autoantibody titers compared to curli-deficient bacteria."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "These data provide a mechanism by which the microbiome and biofilm-producing enteric infections may contribute to the progression of SLE and point to a potential molecular target for treatment of autoimmunity."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Lupus-prone mice infected with curliproducing bacteria have higher autoantibody titers compared to controls.",
+      "evidence": [
+        {
+          "doc_id": 1834762,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "We also found that the infection of lupus-prone mice with curli-producing bacteria triggered higher autoantibody titers compared to curli-deficient bacteria.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1834762,
+          "title": "Amyloid-DNA Composites of Bacterial Biofilms Stimulate Autoimmunity.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Research on the human microbiome has established that commensal and pathogenic bacteria can influence obesity, cancer, and autoimmunity through mechanisms mostly unknown."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "This interaction accelerated amyloid polymerization and created potent immunogenic complexes that activated immune cells, including dendritic cells, to produce cytokines such as type I interferons, which are pathogenic in systemic lupus erythematosus (SLE)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "When given systemically, curli-DNA composites triggered immune activation and production of autoantibodies in lupus-prone and wild-type mice."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "These data provide a mechanism by which the microbiome and biofilm-producing enteric infections may contribute to the progression of SLE and point to a potential molecular target for treatment of autoimmunity."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 1834762,
+          "original_index": 1,
+          "sentence": "We found that a component of bacterial biofilms, the amyloid protein curli, irreversibly formed fibers with bacterial DNA during biofilm formation.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 1834762,
+          "original_index": 4,
+          "sentence": "We also found that the infection of lupus-prone mice with curli-producing bacteria triggered higher autoantibody titers compared to curli-deficient bacteria.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

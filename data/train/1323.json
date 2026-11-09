@@ -1,0 +1,450 @@
+{
+  "id": 1323,
+  "origin": "train_more",
+  "n_groups": 5,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Treatment with a protein named FN impairs regenerative abilities of aged muscles.",
+      "evidence": [
+        {
+          "doc_id": 19912367,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 1,
+          "sentence": "Here we demonstrate that the aged stem cell niche in skeletal muscle contains substantially reduced levels of fibronectin (FN), leading to detrimental consequences for the function and maintenance of muscle stem cells (MuSCs).",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 19912367,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 2,
+          "sentence": "Deletion of the gene encoding FN from young regenerating muscles replicates the aging phenotype and leads to a loss of MuSC numbers.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 19912367,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 4,
+          "sentence": "Reconstitution of FN levels in the aged niche remobilizes stem cells and restores youth-like muscle regeneration.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 19912367,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 5,
+          "sentence": "Taken together, we identify the loss of stem cell adhesion to FN in the niche ECM as a previously unknown aging mechanism.",
+          "kept": true,
+          "new_index": 5
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 19912367,
+          "title": "Loss of fibronectin from the aged stem cell niche affects the regenerative capacity of skeletal muscle in mice",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Age-related changes in the niche have long been postulated to impair the function of somatic stem cells."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here we demonstrate that the aged stem cell niche in skeletal muscle contains substantially reduced levels of fibronectin (FN), leading to detrimental consequences for the function and maintenance of muscle stem cells (MuSCs)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Deletion of the gene encoding FN from young regenerating muscles replicates the aging phenotype and leads to a loss of MuSC numbers."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "By using an extracellular matrix (ECM) library screen and pathway profiling, we characterize FN as a preferred adhesion substrate for MuSCs and demonstrate that integrin-mediated signaling through focal adhesion kinase and the p38 mitogen-activated protein kinase pathway is strongly de-regulated in MuSCs from aged mice because of insufficient attachment to the niche."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Reconstitution of FN levels in the aged niche remobilizes stem cells and restores youth-like muscle regeneration."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Taken together, we identify the loss of stem cell adhesion to FN in the niche ECM as a previously unknown aging mechanism."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g3"
+      ],
+      "claim": "Treatment with a protein named FN impairs regenerative abilities of aged muscles.",
+      "evidence": [
+        {
+          "doc_id": 19912367,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 1,
+          "sentence": "Here we demonstrate that the aged stem cell niche in skeletal muscle contains substantially reduced levels of fibronectin (FN), leading to detrimental consequences for the function and maintenance of muscle stem cells (MuSCs).",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 19912367,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 2,
+          "sentence": "Deletion of the gene encoding FN from young regenerating muscles replicates the aging phenotype and leads to a loss of MuSC numbers.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 19912367,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 4,
+          "sentence": "Reconstitution of FN levels in the aged niche remobilizes stem cells and restores youth-like muscle regeneration.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 19912367,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 5,
+          "sentence": "Taken together, we identify the loss of stem cell adhesion to FN in the niche ECM as a previously unknown aging mechanism.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 19912367,
+          "title": "Loss of fibronectin from the aged stem cell niche affects the regenerative capacity of skeletal muscle in mice",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Age-related changes in the niche have long been postulated to impair the function of somatic stem cells."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here we demonstrate that the aged stem cell niche in skeletal muscle contains substantially reduced levels of fibronectin (FN), leading to detrimental consequences for the function and maintenance of muscle stem cells (MuSCs)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Deletion of the gene encoding FN from young regenerating muscles replicates the aging phenotype and leads to a loss of MuSC numbers."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "By using an extracellular matrix (ECM) library screen and pathway profiling, we characterize FN as a preferred adhesion substrate for MuSCs and demonstrate that integrin-mediated signaling through focal adhesion kinase and the p38 mitogen-activated protein kinase pathway is strongly de-regulated in MuSCs from aged mice because of insufficient attachment to the niche."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Reconstitution of FN levels in the aged niche remobilizes stem cells and restores youth-like muscle regeneration."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 19912367,
+          "original_index": 5,
+          "sentence": "Taken together, we identify the loss of stem cell adhesion to FN in the niche ECM as a previously unknown aging mechanism.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g1",
+        "g3"
+      ],
+      "claim": "Treatment with a protein named FN impairs regenerative abilities of aged muscles.",
+      "evidence": [
+        {
+          "doc_id": 19912367,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 1,
+          "sentence": "Here we demonstrate that the aged stem cell niche in skeletal muscle contains substantially reduced levels of fibronectin (FN), leading to detrimental consequences for the function and maintenance of muscle stem cells (MuSCs).",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 19912367,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 2,
+          "sentence": "Deletion of the gene encoding FN from young regenerating muscles replicates the aging phenotype and leads to a loss of MuSC numbers.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 19912367,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 4,
+          "sentence": "Reconstitution of FN levels in the aged niche remobilizes stem cells and restores youth-like muscle regeneration.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 19912367,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 5,
+          "sentence": "Taken together, we identify the loss of stem cell adhesion to FN in the niche ECM as a previously unknown aging mechanism.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 19912367,
+          "title": "Loss of fibronectin from the aged stem cell niche affects the regenerative capacity of skeletal muscle in mice",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Age-related changes in the niche have long been postulated to impair the function of somatic stem cells."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here we demonstrate that the aged stem cell niche in skeletal muscle contains substantially reduced levels of fibronectin (FN), leading to detrimental consequences for the function and maintenance of muscle stem cells (MuSCs)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Deletion of the gene encoding FN from young regenerating muscles replicates the aging phenotype and leads to a loss of MuSC numbers."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "By using an extracellular matrix (ECM) library screen and pathway profiling, we characterize FN as a preferred adhesion substrate for MuSCs and demonstrate that integrin-mediated signaling through focal adhesion kinase and the p38 mitogen-activated protein kinase pathway is strongly de-regulated in MuSCs from aged mice because of insufficient attachment to the niche."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 19912367,
+          "original_index": 4,
+          "sentence": "Reconstitution of FN levels in the aged niche remobilizes stem cells and restores youth-like muscle regeneration.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 19912367,
+          "original_index": 5,
+          "sentence": "Taken together, we identify the loss of stem cell adhesion to FN in the niche ECM as a previously unknown aging mechanism.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_3_groups",
+      "dropped_group_ids": [
+        "g3",
+        "g1",
+        "g2"
+      ],
+      "claim": "Treatment with a protein named FN impairs regenerative abilities of aged muscles.",
+      "evidence": [
+        {
+          "doc_id": 19912367,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 1,
+          "sentence": "Here we demonstrate that the aged stem cell niche in skeletal muscle contains substantially reduced levels of fibronectin (FN), leading to detrimental consequences for the function and maintenance of muscle stem cells (MuSCs).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 19912367,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 2,
+          "sentence": "Deletion of the gene encoding FN from young regenerating muscles replicates the aging phenotype and leads to a loss of MuSC numbers.",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 19912367,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 4,
+          "sentence": "Reconstitution of FN levels in the aged niche remobilizes stem cells and restores youth-like muscle regeneration.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 19912367,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 5,
+          "sentence": "Taken together, we identify the loss of stem cell adhesion to FN in the niche ECM as a previously unknown aging mechanism.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 19912367,
+          "title": "Loss of fibronectin from the aged stem cell niche affects the regenerative capacity of skeletal muscle in mice",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Age-related changes in the niche have long been postulated to impair the function of somatic stem cells."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Deletion of the gene encoding FN from young regenerating muscles replicates the aging phenotype and leads to a loss of MuSC numbers."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "By using an extracellular matrix (ECM) library screen and pathway profiling, we characterize FN as a preferred adhesion substrate for MuSCs and demonstrate that integrin-mediated signaling through focal adhesion kinase and the p38 mitogen-activated protein kinase pathway is strongly de-regulated in MuSCs from aged mice because of insufficient attachment to the niche."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 19912367,
+          "original_index": 1,
+          "sentence": "Here we demonstrate that the aged stem cell niche in skeletal muscle contains substantially reduced levels of fibronectin (FN), leading to detrimental consequences for the function and maintenance of muscle stem cells (MuSCs).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 19912367,
+          "original_index": 4,
+          "sentence": "Reconstitution of FN levels in the aged niche remobilizes stem cells and restores youth-like muscle regeneration.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 19912367,
+          "original_index": 5,
+          "sentence": "Taken together, we identify the loss of stem cell adhesion to FN in the niche ECM as a previously unknown aging mechanism.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2",
+        "g3"
+      ],
+      "claim": "Treatment with a protein named FN impairs regenerative abilities of aged muscles.",
+      "evidence": [
+        {
+          "doc_id": 19912367,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 1,
+          "sentence": "Here we demonstrate that the aged stem cell niche in skeletal muscle contains substantially reduced levels of fibronectin (FN), leading to detrimental consequences for the function and maintenance of muscle stem cells (MuSCs).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 19912367,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 2,
+          "sentence": "Deletion of the gene encoding FN from young regenerating muscles replicates the aging phenotype and leads to a loss of MuSC numbers.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 19912367,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 4,
+          "sentence": "Reconstitution of FN levels in the aged niche remobilizes stem cells and restores youth-like muscle regeneration.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 19912367,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 5,
+          "sentence": "Taken together, we identify the loss of stem cell adhesion to FN in the niche ECM as a previously unknown aging mechanism.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 19912367,
+          "title": "Loss of fibronectin from the aged stem cell niche affects the regenerative capacity of skeletal muscle in mice",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Age-related changes in the niche have long been postulated to impair the function of somatic stem cells."
+            },
+            {
+              "new_index": 1,
+              "original_index": 3,
+              "sentence": "By using an extracellular matrix (ECM) library screen and pathway profiling, we characterize FN as a preferred adhesion substrate for MuSCs and demonstrate that integrin-mediated signaling through focal adhesion kinase and the p38 mitogen-activated protein kinase pathway is strongly de-regulated in MuSCs from aged mice because of insufficient attachment to the niche."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 19912367,
+          "original_index": 1,
+          "sentence": "Here we demonstrate that the aged stem cell niche in skeletal muscle contains substantially reduced levels of fibronectin (FN), leading to detrimental consequences for the function and maintenance of muscle stem cells (MuSCs).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 19912367,
+          "original_index": 2,
+          "sentence": "Deletion of the gene encoding FN from young regenerating muscles replicates the aging phenotype and leads to a loss of MuSC numbers.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 19912367,
+          "original_index": 4,
+          "sentence": "Reconstitution of FN levels in the aged niche remobilizes stem cells and restores youth-like muscle regeneration.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 19912367,
+          "original_index": 5,
+          "sentence": "Taken together, we identify the loss of stem cell adhesion to FN in the niche ECM as a previously unknown aging mechanism.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

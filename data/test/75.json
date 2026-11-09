@@ -1,0 +1,59 @@
+{
+  "id": 75,
+  "origin": "dev",
+  "claim": "Active H. pylori urease has a polymeric structure that compromises two subunits, UreA and UreB.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 4387784,
+      "title": "Structure of the proton-gated urea channel from the gastric pathogen Helicobacter pylori",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Half the world's population is chronically infected with Helicobacter pylori, causing gastritis, gastric ulcers and an increased incidence of gastric adenocarcinoma."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Its proton-gated inner-membrane urea channel, HpUreI, is essential for survival in the acidic environment of the stomach."
+        },
+        {
+          "original_index": 2,
+          "sentence": "The channel is closed at neutral pH and opens at acidic pH to allow the rapid access of urea to cytoplasmic urease."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Urease produces NH(3) and CO(2), neutralizing entering protons and thus buffering the periplasm to a pH of roughly 6.1 even in gastric juice at a pH below 2.0."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Here we report the structure of HpUreI, revealing six protomers assembled in a hexameric ring surrounding a central bilayer plug of ordered lipids."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Each protomer encloses a channel formed by a twisted bundle of six transmembrane helices."
+        },
+        {
+          "original_index": 6,
+          "sentence": "The bundle defines a previously unobserved fold comprising a two-helix hairpin motif repeated three times around the central axis of the channel, without the inverted repeat of mammalian-type urea transporters."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Both the channel and the protomer interface contain residues conserved in the AmiS/UreI superfamily, suggesting the preservation of channel architecture and oligomeric state in this superfamily."
+        },
+        {
+          "original_index": 8,
+          "sentence": "Predominantly aromatic or aliphatic side chains line the entire channel and define two consecutive constriction sites in the middle of the channel."
+        },
+        {
+          "original_index": 9,
+          "sentence": "Mutation of Trp 153 in the cytoplasmic constriction site to Ala or Phe decreases the selectivity for urea in comparison with thiourea, suggesting that solute interaction with Trp 153 contributes specificity."
+        },
+        {
+          "original_index": 10,
+          "sentence": "The previously unobserved hexameric channel structure described here provides a new model for the permeation of urea and other small amide solutes in prokaryotes and archaea."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

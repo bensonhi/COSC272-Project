@@ -1,0 +1,98 @@
+{
+  "id": 26,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "A 100g dose of chloroquine chemoprophylactic regimen results in retinal toxicity after 1 year of weekly intake.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 32390525,
+          "title": "Prevention of malaria in long-term travelers.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Long-term travelers, defined here as those traveling for periods of 6 months or longer, face particular challenges regarding malaria prevention."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Current guidelines for malaria prevention primarily address prevention of Plasmodium falciparum infections in short-term travelers.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVES To examine the risk of malaria in long-term travelers, recent developments in personal protective measures, and the safety and tolerability of malaria chemoprophylaxis during long-term use and to consider prevention strategies including continuous chemoprophylaxis, stand-by emergency self-treatment, seasonal prophylaxis, and strategies to prevent primary infection and relapses from P vivax malaria.   "
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "EVIDENCE ACQUISITION Comprehensive search of scientific publications including MEDLINE via both OVID and PubMED for relevant studies and articles with a cutoff date of July 2006, using the search terms long-term travel and malaria prevention, long-term malaria chemoprophylaxis, and insect repellent and malaria."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Additional references were obtained from searching the bibliographies of the selected articles, from dissertations, and from the proceedings of relevant conferences on travel medicine."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "There were no language restrictions.   "
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "EVIDENCE SYNTHESIS Long-term travelers have a higher risk of malaria than short-term travelers."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Long-term travelers underuse personal protective measures and adhere poorly to continuous chemoprophylaxis regimens."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "A number of strategies are used during long-term stays: discontinuation of chemoprophylaxis after the initial period, sequential regimens with different medications for chemoprophylaxis, stand-by emergency self-treatment, and seasonal chemoprophylaxis targeting high-incidence periods or locations."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "All strategies have advantages and drawbacks."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Counterfeit drugs sold in countries endemic for malaria pose serious concern for long-term travelers who purchase their medications overseas."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Vivax malaria causes significant illness in travelers, but relapses of vivax malaria are not prevented with the current first-line chemoprophylaxis regimens."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "Consensus guidelines are needed for prevention of malaria in long-term travelers.   \n"
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "CONCLUSIONS Prevention of malaria in long-term travelers is a complex issue and requires expert advice from travel medicine specialists."
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "Recommendations for prevention of malaria in long-term travelers must be individualized."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

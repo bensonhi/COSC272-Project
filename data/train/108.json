@@ -1,0 +1,2583 @@
+{
+  "id": 108,
+  "origin": "train_more",
+  "n_groups": 10,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Amitriptyline is an effective treatment for chronic tension-type headaches.",
+      "evidence": [
+        {
+          "doc_id": 6191684,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "RESULTS Tricyclic antidepressant medication and stress management therapy each produced larger reductions in headache activity, analgesic medication use, and headache-related disability than placebo, but antidepressant medication yielded more rapid improvements in headache activity.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 6191684,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Combined therapy was more likely to produce clinically significant (>/=50%) reductions in headache index scores (64% of participants) than antidepressant medication (38% of participants; P =.006), stress management therapy (35%; P =.003), or placebo (29%; P =.001).",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 6191684,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "CONCLUSIONS Our results indicate that antidepressant medication and stress management therapy are each modestly effective in treating chronic tension-type headaches.",
+          "kept": true,
+          "new_index": 10
+        },
+        {
+          "doc_id": 22995579,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "The tricyclic antidepressant, amitriptyline, is an effective drug for the treatment of chronic tension-type headache and for other chronic pain syndromes, but it is also effective in the prophylaxis of an episodic type of headache such as migraine.",
+          "kept": true,
+          "new_index": 0
+        },
+        {
+          "doc_id": 22995579,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Amitriptyline significantly reduced (P < 0.05) frequency and duration of headache as well as analgesic consumption in chronic, but not in episodic, tension-type headache.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "Amitriptyline is the medication of first choice in the treatment of chronic tension-type headache.",
+          "kept": true,
+          "new_index": 0
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g6",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "The primary study endpoint was a reduction of at least 50% of the product of headache duration and frequency and a reduction of at least 50% in headache intensity.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g7",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "A reduction in headache duration and frequency of at least 50% was found in 39.4% on AO, in 25.4% on AM and in 26.6% on PL (PAO-PL = .1384, PAM-PL = 1.000, PAO-AM = .0973).",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g8",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "A reduction in headache intensity of at least 50% was found in 31.8% on AO, in 26.9% on AM and in 26.6% on PL (PAO-PL = .5657, PAM-PL = 1.000, PAO-AM = .5715).",
+          "kept": true,
+          "new_index": 8
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6191684,
+          "title": "Management of chronic tension-type headache with tricyclic antidepressant medication, stress management therapy, and their combination: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Chronic tension-type headaches are characterized by near-daily headaches and often are difficult to manage in primary practice."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Behavioral and pharmacological therapies each appear modestly effective, but data are lacking on their separate and combined effects.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To evaluate the clinical efficacy of behavioral and pharmacological therapies, singly and combined, for chronic tension-type headaches.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DESIGN AND SETTING Randomized placebo-controlled trial conducted from August 1995 to January 1998 at 2 outpatient sites in Ohio.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "PARTICIPANTS Two hundred three adults (mean age, 37 years; 76% women) with diagnosis of chronic tension-type headaches (mean, 26 headache d/mo).   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "INTERVENTIONS Participants were randomly assigned to receive tricyclic antidepressant (amitriptyline hydrochloride, up to 100 mg/d, or nortriptyline hydrochloride, up to 75 mg/d) medication (n = 53), placebo (n = 48), stress management (eg, relaxation, cognitive coping) therapy (3 sessions and 2 telephone contacts) plus placebo (n = 49), or stress management therapy plus antidepressant medication (n = 53).   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "MAIN OUTCOME MEASURES Monthly headache index scores calculated as the mean of pain ratings (0-10 scale) recorded by participants in a daily diary 4 times per day; number of days per month with at least moderate pain (pain rating >/=5), analgesic medication use, and Headache Disability Inventory scores, compared by intervention group.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "RESULTS Tricyclic antidepressant medication and stress management therapy each produced larger reductions in headache activity, analgesic medication use, and headache-related disability than placebo, but antidepressant medication yielded more rapid improvements in headache activity."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Combined therapy was more likely to produce clinically significant (>/=50%) reductions in headache index scores (64% of participants) than antidepressant medication (38% of participants; P =.006), stress management therapy (35%; P =.003), or placebo (29%; P =.001)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "On other measures the combined therapy and its 2 component therapies produced similar outcomes.   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "CONCLUSIONS Our results indicate that antidepressant medication and stress management therapy are each modestly effective in treating chronic tension-type headaches."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Combined therapy may improve outcome relative to monotherapy."
+            }
+          ]
+        },
+        {
+          "doc_id": 22995579,
+          "title": "Amitriptyline is effective in chronic but not in episodic tension-type headache: pathogenetic implications.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The tricyclic antidepressant, amitriptyline, is an effective drug for the treatment of chronic tension-type headache and for other chronic pain syndromes, but it is also effective in the prophylaxis of an episodic type of headache such as migraine."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "However, its efficacy in episodic tension-type headache has not yet been clarified."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We compared the efficacy of amitriptyline (25 mg/day) in 82 nondepressed patients with either chronic or episodic tension-type headache in an open-label study."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Amitriptyline significantly reduced (P < 0.05) frequency and duration of headache as well as analgesic consumption in chronic, but not in episodic, tension-type headache."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Further placebo-controlled trials, possibly with higher doses of amitriptyline, might confirm if the different pattern of response to amitriptyline can be explained in terms of different involvement of central nociception and of peripheral myofascial factors in the chronic and in the episodic forms of tension-type headache."
+            }
+          ]
+        },
+        {
+          "doc_id": 23865182,
+          "title": "Efficacy and tolerability of amitriptylinoxide in the treatment of chronic tension-type headache: a multi-centre controlled study.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Amitriptyline is the medication of first choice in the treatment of chronic tension-type headache."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "In 197 patients with chronic tension-type headache (87M and 110F with a mean age of 38 +/-"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "13 (18-68)) efficacy and tolerability of 60-90 mg amitriptylinoxide (AO) were compared with 50-75 mg amitriptyline (AM) and placebo (PL) in a double-blind, parallel-group trial consisting of a four weeks' baseline phase and 12 weeks of treatment."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "The primary study endpoint was a reduction of at least 50% of the product of headache duration and frequency and a reduction of at least 50% in headache intensity."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Statistics used were Fisher's exact test and analysis of variance."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "No significant difference emerged between AO, AM and PL with respect to the primary study endpoint."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Treatment response occurred in 30.3% of the AO, 22.4% of the AM and 21.9% of the PL group."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "A reduction in headache duration and frequency of at least 50% was found in 39.4% on AO, in 25.4% on AM and in 26.6% on PL (PAO-PL = .1384, PAM-PL = 1.000, PAO-AM = .0973)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "A reduction in headache intensity of at least 50% was found in 31.8% on AO, in 26.9% on AM and in 26.6% on PL (PAO-PL = .5657, PAM-PL = 1.000, PAO-AM = .5715)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Trend analysis with respect to a significant reduction of headache intensity (p < 0.05) and the product of headache duration and frequency revealed a superior effect of AO.(ABSTRACT TRUNCATED AT 250 WORDS)"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g8"
+      ],
+      "claim": "Amitriptyline is an effective treatment for chronic tension-type headaches.",
+      "evidence": [
+        {
+          "doc_id": 6191684,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "RESULTS Tricyclic antidepressant medication and stress management therapy each produced larger reductions in headache activity, analgesic medication use, and headache-related disability than placebo, but antidepressant medication yielded more rapid improvements in headache activity.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 6191684,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Combined therapy was more likely to produce clinically significant (>/=50%) reductions in headache index scores (64% of participants) than antidepressant medication (38% of participants; P =.006), stress management therapy (35%; P =.003), or placebo (29%; P =.001).",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 6191684,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "CONCLUSIONS Our results indicate that antidepressant medication and stress management therapy are each modestly effective in treating chronic tension-type headaches.",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 22995579,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "The tricyclic antidepressant, amitriptyline, is an effective drug for the treatment of chronic tension-type headache and for other chronic pain syndromes, but it is also effective in the prophylaxis of an episodic type of headache such as migraine.",
+          "kept": true,
+          "new_index": 0
+        },
+        {
+          "doc_id": 22995579,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Amitriptyline significantly reduced (P < 0.05) frequency and duration of headache as well as analgesic consumption in chronic, but not in episodic, tension-type headache.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "Amitriptyline is the medication of first choice in the treatment of chronic tension-type headache.",
+          "kept": true,
+          "new_index": 0
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g6",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "The primary study endpoint was a reduction of at least 50% of the product of headache duration and frequency and a reduction of at least 50% in headache intensity.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g7",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "A reduction in headache duration and frequency of at least 50% was found in 39.4% on AO, in 25.4% on AM and in 26.6% on PL (PAO-PL = .1384, PAM-PL = 1.000, PAO-AM = .0973).",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g8",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "A reduction in headache intensity of at least 50% was found in 31.8% on AO, in 26.9% on AM and in 26.6% on PL (PAO-PL = .5657, PAM-PL = 1.000, PAO-AM = .5715).",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6191684,
+          "title": "Management of chronic tension-type headache with tricyclic antidepressant medication, stress management therapy, and their combination: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Chronic tension-type headaches are characterized by near-daily headaches and often are difficult to manage in primary practice."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Behavioral and pharmacological therapies each appear modestly effective, but data are lacking on their separate and combined effects.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To evaluate the clinical efficacy of behavioral and pharmacological therapies, singly and combined, for chronic tension-type headaches.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "PARTICIPANTS Two hundred three adults (mean age, 37 years; 76% women) with diagnosis of chronic tension-type headaches (mean, 26 headache d/mo).   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "INTERVENTIONS Participants were randomly assigned to receive tricyclic antidepressant (amitriptyline hydrochloride, up to 100 mg/d, or nortriptyline hydrochloride, up to 75 mg/d) medication (n = 53), placebo (n = 48), stress management (eg, relaxation, cognitive coping) therapy (3 sessions and 2 telephone contacts) plus placebo (n = 49), or stress management therapy plus antidepressant medication (n = 53).   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "MAIN OUTCOME MEASURES Monthly headache index scores calculated as the mean of pain ratings (0-10 scale) recorded by participants in a daily diary 4 times per day; number of days per month with at least moderate pain (pain rating >/=5), analgesic medication use, and Headache Disability Inventory scores, compared by intervention group.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "RESULTS Tricyclic antidepressant medication and stress management therapy each produced larger reductions in headache activity, analgesic medication use, and headache-related disability than placebo, but antidepressant medication yielded more rapid improvements in headache activity."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "Combined therapy was more likely to produce clinically significant (>/=50%) reductions in headache index scores (64% of participants) than antidepressant medication (38% of participants; P =.006), stress management therapy (35%; P =.003), or placebo (29%; P =.001)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 9,
+              "sentence": "On other measures the combined therapy and its 2 component therapies produced similar outcomes.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 10,
+              "sentence": "CONCLUSIONS Our results indicate that antidepressant medication and stress management therapy are each modestly effective in treating chronic tension-type headaches."
+            },
+            {
+              "new_index": 10,
+              "original_index": 11,
+              "sentence": "Combined therapy may improve outcome relative to monotherapy."
+            }
+          ]
+        },
+        {
+          "doc_id": 22995579,
+          "title": "Amitriptyline is effective in chronic but not in episodic tension-type headache: pathogenetic implications.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The tricyclic antidepressant, amitriptyline, is an effective drug for the treatment of chronic tension-type headache and for other chronic pain syndromes, but it is also effective in the prophylaxis of an episodic type of headache such as migraine."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "However, its efficacy in episodic tension-type headache has not yet been clarified."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We compared the efficacy of amitriptyline (25 mg/day) in 82 nondepressed patients with either chronic or episodic tension-type headache in an open-label study."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Amitriptyline significantly reduced (P < 0.05) frequency and duration of headache as well as analgesic consumption in chronic, but not in episodic, tension-type headache."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Further placebo-controlled trials, possibly with higher doses of amitriptyline, might confirm if the different pattern of response to amitriptyline can be explained in terms of different involvement of central nociception and of peripheral myofascial factors in the chronic and in the episodic forms of tension-type headache."
+            }
+          ]
+        },
+        {
+          "doc_id": 23865182,
+          "title": "Efficacy and tolerability of amitriptylinoxide in the treatment of chronic tension-type headache: a multi-centre controlled study.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Amitriptyline is the medication of first choice in the treatment of chronic tension-type headache."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "In 197 patients with chronic tension-type headache (87M and 110F with a mean age of 38 +/-"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "13 (18-68)) efficacy and tolerability of 60-90 mg amitriptylinoxide (AO) were compared with 50-75 mg amitriptyline (AM) and placebo (PL) in a double-blind, parallel-group trial consisting of a four weeks' baseline phase and 12 weeks of treatment."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "The primary study endpoint was a reduction of at least 50% of the product of headache duration and frequency and a reduction of at least 50% in headache intensity."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Statistics used were Fisher's exact test and analysis of variance."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "No significant difference emerged between AO, AM and PL with respect to the primary study endpoint."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Treatment response occurred in 30.3% of the AO, 22.4% of the AM and 21.9% of the PL group."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "A reduction in headache duration and frequency of at least 50% was found in 39.4% on AO, in 25.4% on AM and in 26.6% on PL (PAO-PL = .1384, PAM-PL = 1.000, PAO-AM = .0973)."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6191684,
+          "original_index": 3,
+          "sentence": "DESIGN AND SETTING Randomized placebo-controlled trial conducted from August 1995 to January 1998 at 2 outpatient sites in Ohio.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 8,
+          "sentence": "A reduction in headache intensity of at least 50% was found in 31.8% on AO, in 26.9% on AM and in 26.6% on PL (PAO-PL = .5657, PAM-PL = 1.000, PAO-AM = .5715).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 9,
+          "sentence": "Trend analysis with respect to a significant reduction of headache intensity (p < 0.05) and the product of headache duration and frequency revealed a superior effect of AO.(ABSTRACT TRUNCATED AT 250 WORDS)",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g4",
+        "g0"
+      ],
+      "claim": "Amitriptyline is an effective treatment for chronic tension-type headaches.",
+      "evidence": [
+        {
+          "doc_id": 6191684,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "RESULTS Tricyclic antidepressant medication and stress management therapy each produced larger reductions in headache activity, analgesic medication use, and headache-related disability than placebo, but antidepressant medication yielded more rapid improvements in headache activity.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6191684,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Combined therapy was more likely to produce clinically significant (>/=50%) reductions in headache index scores (64% of participants) than antidepressant medication (38% of participants; P =.006), stress management therapy (35%; P =.003), or placebo (29%; P =.001).",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 6191684,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "CONCLUSIONS Our results indicate that antidepressant medication and stress management therapy are each modestly effective in treating chronic tension-type headaches.",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 22995579,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "The tricyclic antidepressant, amitriptyline, is an effective drug for the treatment of chronic tension-type headache and for other chronic pain syndromes, but it is also effective in the prophylaxis of an episodic type of headache such as migraine.",
+          "kept": true,
+          "new_index": 0
+        },
+        {
+          "doc_id": 22995579,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Amitriptyline significantly reduced (P < 0.05) frequency and duration of headache as well as analgesic consumption in chronic, but not in episodic, tension-type headache.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "Amitriptyline is the medication of first choice in the treatment of chronic tension-type headache.",
+          "kept": true,
+          "new_index": 0
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g6",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "The primary study endpoint was a reduction of at least 50% of the product of headache duration and frequency and a reduction of at least 50% in headache intensity.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g7",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "A reduction in headache duration and frequency of at least 50% was found in 39.4% on AO, in 25.4% on AM and in 26.6% on PL (PAO-PL = .1384, PAM-PL = 1.000, PAO-AM = .0973).",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g8",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "A reduction in headache intensity of at least 50% was found in 31.8% on AO, in 26.9% on AM and in 26.6% on PL (PAO-PL = .5657, PAM-PL = 1.000, PAO-AM = .5715).",
+          "kept": true,
+          "new_index": 7
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6191684,
+          "title": "Management of chronic tension-type headache with tricyclic antidepressant medication, stress management therapy, and their combination: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Chronic tension-type headaches are characterized by near-daily headaches and often are difficult to manage in primary practice."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Behavioral and pharmacological therapies each appear modestly effective, but data are lacking on their separate and combined effects.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To evaluate the clinical efficacy of behavioral and pharmacological therapies, singly and combined, for chronic tension-type headaches.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DESIGN AND SETTING Randomized placebo-controlled trial conducted from August 1995 to January 1998 at 2 outpatient sites in Ohio.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "INTERVENTIONS Participants were randomly assigned to receive tricyclic antidepressant (amitriptyline hydrochloride, up to 100 mg/d, or nortriptyline hydrochloride, up to 75 mg/d) medication (n = 53), placebo (n = 48), stress management (eg, relaxation, cognitive coping) therapy (3 sessions and 2 telephone contacts) plus placebo (n = 49), or stress management therapy plus antidepressant medication (n = 53).   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "MAIN OUTCOME MEASURES Monthly headache index scores calculated as the mean of pain ratings (0-10 scale) recorded by participants in a daily diary 4 times per day; number of days per month with at least moderate pain (pain rating >/=5), analgesic medication use, and Headache Disability Inventory scores, compared by intervention group.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "Combined therapy was more likely to produce clinically significant (>/=50%) reductions in headache index scores (64% of participants) than antidepressant medication (38% of participants; P =.006), stress management therapy (35%; P =.003), or placebo (29%; P =.001)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "On other measures the combined therapy and its 2 component therapies produced similar outcomes.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "CONCLUSIONS Our results indicate that antidepressant medication and stress management therapy are each modestly effective in treating chronic tension-type headaches."
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "Combined therapy may improve outcome relative to monotherapy."
+            }
+          ]
+        },
+        {
+          "doc_id": 22995579,
+          "title": "Amitriptyline is effective in chronic but not in episodic tension-type headache: pathogenetic implications.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The tricyclic antidepressant, amitriptyline, is an effective drug for the treatment of chronic tension-type headache and for other chronic pain syndromes, but it is also effective in the prophylaxis of an episodic type of headache such as migraine."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "However, its efficacy in episodic tension-type headache has not yet been clarified."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We compared the efficacy of amitriptyline (25 mg/day) in 82 nondepressed patients with either chronic or episodic tension-type headache in an open-label study."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Further placebo-controlled trials, possibly with higher doses of amitriptyline, might confirm if the different pattern of response to amitriptyline can be explained in terms of different involvement of central nociception and of peripheral myofascial factors in the chronic and in the episodic forms of tension-type headache."
+            }
+          ]
+        },
+        {
+          "doc_id": 23865182,
+          "title": "Efficacy and tolerability of amitriptylinoxide in the treatment of chronic tension-type headache: a multi-centre controlled study.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Amitriptyline is the medication of first choice in the treatment of chronic tension-type headache."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "In 197 patients with chronic tension-type headache (87M and 110F with a mean age of 38 +/-"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "13 (18-68)) efficacy and tolerability of 60-90 mg amitriptylinoxide (AO) were compared with 50-75 mg amitriptyline (AM) and placebo (PL) in a double-blind, parallel-group trial consisting of a four weeks' baseline phase and 12 weeks of treatment."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "The primary study endpoint was a reduction of at least 50% of the product of headache duration and frequency and a reduction of at least 50% in headache intensity."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Statistics used were Fisher's exact test and analysis of variance."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Treatment response occurred in 30.3% of the AO, 22.4% of the AM and 21.9% of the PL group."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "A reduction in headache duration and frequency of at least 50% was found in 39.4% on AO, in 25.4% on AM and in 26.6% on PL (PAO-PL = .1384, PAM-PL = 1.000, PAO-AM = .0973)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "A reduction in headache intensity of at least 50% was found in 31.8% on AO, in 26.9% on AM and in 26.6% on PL (PAO-PL = .5657, PAM-PL = 1.000, PAO-AM = .5715)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 9,
+              "sentence": "Trend analysis with respect to a significant reduction of headache intensity (p < 0.05) and the product of headache duration and frequency revealed a superior effect of AO.(ABSTRACT TRUNCATED AT 250 WORDS)"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6191684,
+          "original_index": 4,
+          "sentence": "PARTICIPANTS Two hundred three adults (mean age, 37 years; 76% women) with diagnosis of chronic tension-type headaches (mean, 26 headache d/mo).   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 6191684,
+          "original_index": 7,
+          "sentence": "RESULTS Tricyclic antidepressant medication and stress management therapy each produced larger reductions in headache activity, analgesic medication use, and headache-related disability than placebo, but antidepressant medication yielded more rapid improvements in headache activity.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22995579,
+          "original_index": 3,
+          "sentence": "Amitriptyline significantly reduced (P < 0.05) frequency and duration of headache as well as analgesic consumption in chronic, but not in episodic, tension-type headache.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 5,
+          "sentence": "No significant difference emerged between AO, AM and PL with respect to the primary study endpoint.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_3_groups",
+      "dropped_group_ids": [
+        "g5",
+        "g1",
+        "g7"
+      ],
+      "claim": "Amitriptyline is an effective treatment for chronic tension-type headaches.",
+      "evidence": [
+        {
+          "doc_id": 6191684,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "RESULTS Tricyclic antidepressant medication and stress management therapy each produced larger reductions in headache activity, analgesic medication use, and headache-related disability than placebo, but antidepressant medication yielded more rapid improvements in headache activity.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 6191684,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Combined therapy was more likely to produce clinically significant (>/=50%) reductions in headache index scores (64% of participants) than antidepressant medication (38% of participants; P =.006), stress management therapy (35%; P =.003), or placebo (29%; P =.001).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6191684,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "CONCLUSIONS Our results indicate that antidepressant medication and stress management therapy are each modestly effective in treating chronic tension-type headaches.",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 22995579,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "The tricyclic antidepressant, amitriptyline, is an effective drug for the treatment of chronic tension-type headache and for other chronic pain syndromes, but it is also effective in the prophylaxis of an episodic type of headache such as migraine.",
+          "kept": true,
+          "new_index": 0
+        },
+        {
+          "doc_id": 22995579,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Amitriptyline significantly reduced (P < 0.05) frequency and duration of headache as well as analgesic consumption in chronic, but not in episodic, tension-type headache.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "Amitriptyline is the medication of first choice in the treatment of chronic tension-type headache.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g6",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "The primary study endpoint was a reduction of at least 50% of the product of headache duration and frequency and a reduction of at least 50% in headache intensity.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g7",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "A reduction in headache duration and frequency of at least 50% was found in 39.4% on AO, in 25.4% on AM and in 26.6% on PL (PAO-PL = .1384, PAM-PL = 1.000, PAO-AM = .0973).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g8",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "A reduction in headache intensity of at least 50% was found in 31.8% on AO, in 26.9% on AM and in 26.6% on PL (PAO-PL = .5657, PAM-PL = 1.000, PAO-AM = .5715).",
+          "kept": true,
+          "new_index": 5
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6191684,
+          "title": "Management of chronic tension-type headache with tricyclic antidepressant medication, stress management therapy, and their combination: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Chronic tension-type headaches are characterized by near-daily headaches and often are difficult to manage in primary practice."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Behavioral and pharmacological therapies each appear modestly effective, but data are lacking on their separate and combined effects.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To evaluate the clinical efficacy of behavioral and pharmacological therapies, singly and combined, for chronic tension-type headaches.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "PARTICIPANTS Two hundred three adults (mean age, 37 years; 76% women) with diagnosis of chronic tension-type headaches (mean, 26 headache d/mo).   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "INTERVENTIONS Participants were randomly assigned to receive tricyclic antidepressant (amitriptyline hydrochloride, up to 100 mg/d, or nortriptyline hydrochloride, up to 75 mg/d) medication (n = 53), placebo (n = 48), stress management (eg, relaxation, cognitive coping) therapy (3 sessions and 2 telephone contacts) plus placebo (n = 49), or stress management therapy plus antidepressant medication (n = 53).   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "MAIN OUTCOME MEASURES Monthly headache index scores calculated as the mean of pain ratings (0-10 scale) recorded by participants in a daily diary 4 times per day; number of days per month with at least moderate pain (pain rating >/=5), analgesic medication use, and Headache Disability Inventory scores, compared by intervention group.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "RESULTS Tricyclic antidepressant medication and stress management therapy each produced larger reductions in headache activity, analgesic medication use, and headache-related disability than placebo, but antidepressant medication yielded more rapid improvements in headache activity."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "On other measures the combined therapy and its 2 component therapies produced similar outcomes.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "CONCLUSIONS Our results indicate that antidepressant medication and stress management therapy are each modestly effective in treating chronic tension-type headaches."
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "Combined therapy may improve outcome relative to monotherapy."
+            }
+          ]
+        },
+        {
+          "doc_id": 22995579,
+          "title": "Amitriptyline is effective in chronic but not in episodic tension-type headache: pathogenetic implications.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The tricyclic antidepressant, amitriptyline, is an effective drug for the treatment of chronic tension-type headache and for other chronic pain syndromes, but it is also effective in the prophylaxis of an episodic type of headache such as migraine."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "However, its efficacy in episodic tension-type headache has not yet been clarified."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We compared the efficacy of amitriptyline (25 mg/day) in 82 nondepressed patients with either chronic or episodic tension-type headache in an open-label study."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Amitriptyline significantly reduced (P < 0.05) frequency and duration of headache as well as analgesic consumption in chronic, but not in episodic, tension-type headache."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Further placebo-controlled trials, possibly with higher doses of amitriptyline, might confirm if the different pattern of response to amitriptyline can be explained in terms of different involvement of central nociception and of peripheral myofascial factors in the chronic and in the episodic forms of tension-type headache."
+            }
+          ]
+        },
+        {
+          "doc_id": 23865182,
+          "title": "Efficacy and tolerability of amitriptylinoxide in the treatment of chronic tension-type headache: a multi-centre controlled study.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "In 197 patients with chronic tension-type headache (87M and 110F with a mean age of 38 +/-"
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "13 (18-68)) efficacy and tolerability of 60-90 mg amitriptylinoxide (AO) were compared with 50-75 mg amitriptyline (AM) and placebo (PL) in a double-blind, parallel-group trial consisting of a four weeks' baseline phase and 12 weeks of treatment."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "The primary study endpoint was a reduction of at least 50% of the product of headache duration and frequency and a reduction of at least 50% in headache intensity."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Statistics used were Fisher's exact test and analysis of variance."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Treatment response occurred in 30.3% of the AO, 22.4% of the AM and 21.9% of the PL group."
+            },
+            {
+              "new_index": 5,
+              "original_index": 8,
+              "sentence": "A reduction in headache intensity of at least 50% was found in 31.8% on AO, in 26.9% on AM and in 26.6% on PL (PAO-PL = .5657, PAM-PL = 1.000, PAO-AM = .5715)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 9,
+              "sentence": "Trend analysis with respect to a significant reduction of headache intensity (p < 0.05) and the product of headache duration and frequency revealed a superior effect of AO.(ABSTRACT TRUNCATED AT 250 WORDS)"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6191684,
+          "original_index": 3,
+          "sentence": "DESIGN AND SETTING Randomized placebo-controlled trial conducted from August 1995 to January 1998 at 2 outpatient sites in Ohio.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 6191684,
+          "original_index": 8,
+          "sentence": "Combined therapy was more likely to produce clinically significant (>/=50%) reductions in headache index scores (64% of participants) than antidepressant medication (38% of participants; P =.006), stress management therapy (35%; P =.003), or placebo (29%; P =.001).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 0,
+          "sentence": "Amitriptyline is the medication of first choice in the treatment of chronic tension-type headache.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 5,
+          "sentence": "No significant difference emerged between AO, AM and PL with respect to the primary study endpoint.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 7,
+          "sentence": "A reduction in headache duration and frequency of at least 50% was found in 39.4% on AO, in 25.4% on AM and in 26.6% on PL (PAO-PL = .1384, PAM-PL = 1.000, PAO-AM = .0973).",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_4_groups",
+      "dropped_group_ids": [
+        "g2",
+        "g8",
+        "g4",
+        "g6"
+      ],
+      "claim": "Amitriptyline is an effective treatment for chronic tension-type headaches.",
+      "evidence": [
+        {
+          "doc_id": 6191684,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "RESULTS Tricyclic antidepressant medication and stress management therapy each produced larger reductions in headache activity, analgesic medication use, and headache-related disability than placebo, but antidepressant medication yielded more rapid improvements in headache activity.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 6191684,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Combined therapy was more likely to produce clinically significant (>/=50%) reductions in headache index scores (64% of participants) than antidepressant medication (38% of participants; P =.006), stress management therapy (35%; P =.003), or placebo (29%; P =.001).",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 6191684,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "CONCLUSIONS Our results indicate that antidepressant medication and stress management therapy are each modestly effective in treating chronic tension-type headaches.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22995579,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "The tricyclic antidepressant, amitriptyline, is an effective drug for the treatment of chronic tension-type headache and for other chronic pain syndromes, but it is also effective in the prophylaxis of an episodic type of headache such as migraine.",
+          "kept": true,
+          "new_index": 0
+        },
+        {
+          "doc_id": 22995579,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Amitriptyline significantly reduced (P < 0.05) frequency and duration of headache as well as analgesic consumption in chronic, but not in episodic, tension-type headache.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "Amitriptyline is the medication of first choice in the treatment of chronic tension-type headache.",
+          "kept": true,
+          "new_index": 0
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g6",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "The primary study endpoint was a reduction of at least 50% of the product of headache duration and frequency and a reduction of at least 50% in headache intensity.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g7",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "A reduction in headache duration and frequency of at least 50% was found in 39.4% on AO, in 25.4% on AM and in 26.6% on PL (PAO-PL = .1384, PAM-PL = 1.000, PAO-AM = .0973).",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g8",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "A reduction in headache intensity of at least 50% was found in 31.8% on AO, in 26.9% on AM and in 26.6% on PL (PAO-PL = .5657, PAM-PL = 1.000, PAO-AM = .5715).",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6191684,
+          "title": "Management of chronic tension-type headache with tricyclic antidepressant medication, stress management therapy, and their combination: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Chronic tension-type headaches are characterized by near-daily headaches and often are difficult to manage in primary practice."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Behavioral and pharmacological therapies each appear modestly effective, but data are lacking on their separate and combined effects.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To evaluate the clinical efficacy of behavioral and pharmacological therapies, singly and combined, for chronic tension-type headaches.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "PARTICIPANTS Two hundred three adults (mean age, 37 years; 76% women) with diagnosis of chronic tension-type headaches (mean, 26 headache d/mo).   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "INTERVENTIONS Participants were randomly assigned to receive tricyclic antidepressant (amitriptyline hydrochloride, up to 100 mg/d, or nortriptyline hydrochloride, up to 75 mg/d) medication (n = 53), placebo (n = 48), stress management (eg, relaxation, cognitive coping) therapy (3 sessions and 2 telephone contacts) plus placebo (n = 49), or stress management therapy plus antidepressant medication (n = 53).   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "MAIN OUTCOME MEASURES Monthly headache index scores calculated as the mean of pain ratings (0-10 scale) recorded by participants in a daily diary 4 times per day; number of days per month with at least moderate pain (pain rating >/=5), analgesic medication use, and Headache Disability Inventory scores, compared by intervention group.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "RESULTS Tricyclic antidepressant medication and stress management therapy each produced larger reductions in headache activity, analgesic medication use, and headache-related disability than placebo, but antidepressant medication yielded more rapid improvements in headache activity."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "Combined therapy was more likely to produce clinically significant (>/=50%) reductions in headache index scores (64% of participants) than antidepressant medication (38% of participants; P =.006), stress management therapy (35%; P =.003), or placebo (29%; P =.001)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 9,
+              "sentence": "On other measures the combined therapy and its 2 component therapies produced similar outcomes.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "Combined therapy may improve outcome relative to monotherapy."
+            }
+          ]
+        },
+        {
+          "doc_id": 22995579,
+          "title": "Amitriptyline is effective in chronic but not in episodic tension-type headache: pathogenetic implications.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The tricyclic antidepressant, amitriptyline, is an effective drug for the treatment of chronic tension-type headache and for other chronic pain syndromes, but it is also effective in the prophylaxis of an episodic type of headache such as migraine."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "However, its efficacy in episodic tension-type headache has not yet been clarified."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We compared the efficacy of amitriptyline (25 mg/day) in 82 nondepressed patients with either chronic or episodic tension-type headache in an open-label study."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Further placebo-controlled trials, possibly with higher doses of amitriptyline, might confirm if the different pattern of response to amitriptyline can be explained in terms of different involvement of central nociception and of peripheral myofascial factors in the chronic and in the episodic forms of tension-type headache."
+            }
+          ]
+        },
+        {
+          "doc_id": 23865182,
+          "title": "Efficacy and tolerability of amitriptylinoxide in the treatment of chronic tension-type headache: a multi-centre controlled study.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Amitriptyline is the medication of first choice in the treatment of chronic tension-type headache."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "In 197 patients with chronic tension-type headache (87M and 110F with a mean age of 38 +/-"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "13 (18-68)) efficacy and tolerability of 60-90 mg amitriptylinoxide (AO) were compared with 50-75 mg amitriptyline (AM) and placebo (PL) in a double-blind, parallel-group trial consisting of a four weeks' baseline phase and 12 weeks of treatment."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Statistics used were Fisher's exact test and analysis of variance."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "No significant difference emerged between AO, AM and PL with respect to the primary study endpoint."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Treatment response occurred in 30.3% of the AO, 22.4% of the AM and 21.9% of the PL group."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "A reduction in headache duration and frequency of at least 50% was found in 39.4% on AO, in 25.4% on AM and in 26.6% on PL (PAO-PL = .1384, PAM-PL = 1.000, PAO-AM = .0973)."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6191684,
+          "original_index": 3,
+          "sentence": "DESIGN AND SETTING Randomized placebo-controlled trial conducted from August 1995 to January 1998 at 2 outpatient sites in Ohio.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 6191684,
+          "original_index": 10,
+          "sentence": "CONCLUSIONS Our results indicate that antidepressant medication and stress management therapy are each modestly effective in treating chronic tension-type headaches.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22995579,
+          "original_index": 3,
+          "sentence": "Amitriptyline significantly reduced (P < 0.05) frequency and duration of headache as well as analgesic consumption in chronic, but not in episodic, tension-type headache.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 3,
+          "sentence": "The primary study endpoint was a reduction of at least 50% of the product of headache duration and frequency and a reduction of at least 50% in headache intensity.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 8,
+          "sentence": "A reduction in headache intensity of at least 50% was found in 31.8% on AO, in 26.9% on AM and in 26.6% on PL (PAO-PL = .5657, PAM-PL = 1.000, PAO-AM = .5715).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 9,
+          "sentence": "Trend analysis with respect to a significant reduction of headache intensity (p < 0.05) and the product of headache duration and frequency revealed a superior effect of AO.(ABSTRACT TRUNCATED AT 250 WORDS)",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_5_groups",
+      "dropped_group_ids": [
+        "g0",
+        "g2",
+        "g1",
+        "g4",
+        "g3"
+      ],
+      "claim": "Amitriptyline is an effective treatment for chronic tension-type headaches.",
+      "evidence": [
+        {
+          "doc_id": 6191684,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "RESULTS Tricyclic antidepressant medication and stress management therapy each produced larger reductions in headache activity, analgesic medication use, and headache-related disability than placebo, but antidepressant medication yielded more rapid improvements in headache activity.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6191684,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Combined therapy was more likely to produce clinically significant (>/=50%) reductions in headache index scores (64% of participants) than antidepressant medication (38% of participants; P =.006), stress management therapy (35%; P =.003), or placebo (29%; P =.001).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6191684,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "CONCLUSIONS Our results indicate that antidepressant medication and stress management therapy are each modestly effective in treating chronic tension-type headaches.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22995579,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "The tricyclic antidepressant, amitriptyline, is an effective drug for the treatment of chronic tension-type headache and for other chronic pain syndromes, but it is also effective in the prophylaxis of an episodic type of headache such as migraine.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22995579,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Amitriptyline significantly reduced (P < 0.05) frequency and duration of headache as well as analgesic consumption in chronic, but not in episodic, tension-type headache.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "Amitriptyline is the medication of first choice in the treatment of chronic tension-type headache.",
+          "kept": true,
+          "new_index": 0
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g6",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "The primary study endpoint was a reduction of at least 50% of the product of headache duration and frequency and a reduction of at least 50% in headache intensity.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g7",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "A reduction in headache duration and frequency of at least 50% was found in 39.4% on AO, in 25.4% on AM and in 26.6% on PL (PAO-PL = .1384, PAM-PL = 1.000, PAO-AM = .0973).",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g8",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "A reduction in headache intensity of at least 50% was found in 31.8% on AO, in 26.9% on AM and in 26.6% on PL (PAO-PL = .5657, PAM-PL = 1.000, PAO-AM = .5715).",
+          "kept": true,
+          "new_index": 7
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6191684,
+          "title": "Management of chronic tension-type headache with tricyclic antidepressant medication, stress management therapy, and their combination: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Chronic tension-type headaches are characterized by near-daily headaches and often are difficult to manage in primary practice."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Behavioral and pharmacological therapies each appear modestly effective, but data are lacking on their separate and combined effects.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To evaluate the clinical efficacy of behavioral and pharmacological therapies, singly and combined, for chronic tension-type headaches.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DESIGN AND SETTING Randomized placebo-controlled trial conducted from August 1995 to January 1998 at 2 outpatient sites in Ohio.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "PARTICIPANTS Two hundred three adults (mean age, 37 years; 76% women) with diagnosis of chronic tension-type headaches (mean, 26 headache d/mo).   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "INTERVENTIONS Participants were randomly assigned to receive tricyclic antidepressant (amitriptyline hydrochloride, up to 100 mg/d, or nortriptyline hydrochloride, up to 75 mg/d) medication (n = 53), placebo (n = 48), stress management (eg, relaxation, cognitive coping) therapy (3 sessions and 2 telephone contacts) plus placebo (n = 49), or stress management therapy plus antidepressant medication (n = 53).   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "MAIN OUTCOME MEASURES Monthly headache index scores calculated as the mean of pain ratings (0-10 scale) recorded by participants in a daily diary 4 times per day; number of days per month with at least moderate pain (pain rating >/=5), analgesic medication use, and Headache Disability Inventory scores, compared by intervention group.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "On other measures the combined therapy and its 2 component therapies produced similar outcomes.   \n"
+            }
+          ]
+        },
+        {
+          "doc_id": 22995579,
+          "title": "Amitriptyline is effective in chronic but not in episodic tension-type headache: pathogenetic implications.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "However, its efficacy in episodic tension-type headache has not yet been clarified."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "We compared the efficacy of amitriptyline (25 mg/day) in 82 nondepressed patients with either chronic or episodic tension-type headache in an open-label study."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Further placebo-controlled trials, possibly with higher doses of amitriptyline, might confirm if the different pattern of response to amitriptyline can be explained in terms of different involvement of central nociception and of peripheral myofascial factors in the chronic and in the episodic forms of tension-type headache."
+            }
+          ]
+        },
+        {
+          "doc_id": 23865182,
+          "title": "Efficacy and tolerability of amitriptylinoxide in the treatment of chronic tension-type headache: a multi-centre controlled study.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Amitriptyline is the medication of first choice in the treatment of chronic tension-type headache."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "In 197 patients with chronic tension-type headache (87M and 110F with a mean age of 38 +/-"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "13 (18-68)) efficacy and tolerability of 60-90 mg amitriptylinoxide (AO) were compared with 50-75 mg amitriptyline (AM) and placebo (PL) in a double-blind, parallel-group trial consisting of a four weeks' baseline phase and 12 weeks of treatment."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "The primary study endpoint was a reduction of at least 50% of the product of headache duration and frequency and a reduction of at least 50% in headache intensity."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Statistics used were Fisher's exact test and analysis of variance."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Treatment response occurred in 30.3% of the AO, 22.4% of the AM and 21.9% of the PL group."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "A reduction in headache duration and frequency of at least 50% was found in 39.4% on AO, in 25.4% on AM and in 26.6% on PL (PAO-PL = .1384, PAM-PL = 1.000, PAO-AM = .0973)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "A reduction in headache intensity of at least 50% was found in 31.8% on AO, in 26.9% on AM and in 26.6% on PL (PAO-PL = .5657, PAM-PL = 1.000, PAO-AM = .5715)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 9,
+              "sentence": "Trend analysis with respect to a significant reduction of headache intensity (p < 0.05) and the product of headache duration and frequency revealed a superior effect of AO.(ABSTRACT TRUNCATED AT 250 WORDS)"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6191684,
+          "original_index": 7,
+          "sentence": "RESULTS Tricyclic antidepressant medication and stress management therapy each produced larger reductions in headache activity, analgesic medication use, and headache-related disability than placebo, but antidepressant medication yielded more rapid improvements in headache activity.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 6191684,
+          "original_index": 8,
+          "sentence": "Combined therapy was more likely to produce clinically significant (>/=50%) reductions in headache index scores (64% of participants) than antidepressant medication (38% of participants; P =.006), stress management therapy (35%; P =.003), or placebo (29%; P =.001).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 6191684,
+          "original_index": 10,
+          "sentence": "CONCLUSIONS Our results indicate that antidepressant medication and stress management therapy are each modestly effective in treating chronic tension-type headaches.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 6191684,
+          "original_index": 11,
+          "sentence": "Combined therapy may improve outcome relative to monotherapy.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 22995579,
+          "original_index": 0,
+          "sentence": "The tricyclic antidepressant, amitriptyline, is an effective drug for the treatment of chronic tension-type headache and for other chronic pain syndromes, but it is also effective in the prophylaxis of an episodic type of headache such as migraine.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22995579,
+          "original_index": 3,
+          "sentence": "Amitriptyline significantly reduced (P < 0.05) frequency and duration of headache as well as analgesic consumption in chronic, but not in episodic, tension-type headache.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 5,
+          "sentence": "No significant difference emerged between AO, AM and PL with respect to the primary study endpoint.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_6_groups",
+      "dropped_group_ids": [
+        "g1",
+        "g8",
+        "g3",
+        "g0",
+        "g5",
+        "g7"
+      ],
+      "claim": "Amitriptyline is an effective treatment for chronic tension-type headaches.",
+      "evidence": [
+        {
+          "doc_id": 6191684,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "RESULTS Tricyclic antidepressant medication and stress management therapy each produced larger reductions in headache activity, analgesic medication use, and headache-related disability than placebo, but antidepressant medication yielded more rapid improvements in headache activity.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6191684,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Combined therapy was more likely to produce clinically significant (>/=50%) reductions in headache index scores (64% of participants) than antidepressant medication (38% of participants; P =.006), stress management therapy (35%; P =.003), or placebo (29%; P =.001).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6191684,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "CONCLUSIONS Our results indicate that antidepressant medication and stress management therapy are each modestly effective in treating chronic tension-type headaches.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 22995579,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "The tricyclic antidepressant, amitriptyline, is an effective drug for the treatment of chronic tension-type headache and for other chronic pain syndromes, but it is also effective in the prophylaxis of an episodic type of headache such as migraine.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22995579,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Amitriptyline significantly reduced (P < 0.05) frequency and duration of headache as well as analgesic consumption in chronic, but not in episodic, tension-type headache.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "Amitriptyline is the medication of first choice in the treatment of chronic tension-type headache.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g6",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "The primary study endpoint was a reduction of at least 50% of the product of headache duration and frequency and a reduction of at least 50% in headache intensity.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g7",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "A reduction in headache duration and frequency of at least 50% was found in 39.4% on AO, in 25.4% on AM and in 26.6% on PL (PAO-PL = .1384, PAM-PL = 1.000, PAO-AM = .0973).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g8",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "A reduction in headache intensity of at least 50% was found in 31.8% on AO, in 26.9% on AM and in 26.6% on PL (PAO-PL = .5657, PAM-PL = 1.000, PAO-AM = .5715).",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6191684,
+          "title": "Management of chronic tension-type headache with tricyclic antidepressant medication, stress management therapy, and their combination: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Chronic tension-type headaches are characterized by near-daily headaches and often are difficult to manage in primary practice."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Behavioral and pharmacological therapies each appear modestly effective, but data are lacking on their separate and combined effects.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To evaluate the clinical efficacy of behavioral and pharmacological therapies, singly and combined, for chronic tension-type headaches.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DESIGN AND SETTING Randomized placebo-controlled trial conducted from August 1995 to January 1998 at 2 outpatient sites in Ohio.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "INTERVENTIONS Participants were randomly assigned to receive tricyclic antidepressant (amitriptyline hydrochloride, up to 100 mg/d, or nortriptyline hydrochloride, up to 75 mg/d) medication (n = 53), placebo (n = 48), stress management (eg, relaxation, cognitive coping) therapy (3 sessions and 2 telephone contacts) plus placebo (n = 49), or stress management therapy plus antidepressant medication (n = 53).   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "MAIN OUTCOME MEASURES Monthly headache index scores calculated as the mean of pain ratings (0-10 scale) recorded by participants in a daily diary 4 times per day; number of days per month with at least moderate pain (pain rating >/=5), analgesic medication use, and Headache Disability Inventory scores, compared by intervention group.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 9,
+              "sentence": "On other measures the combined therapy and its 2 component therapies produced similar outcomes.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "CONCLUSIONS Our results indicate that antidepressant medication and stress management therapy are each modestly effective in treating chronic tension-type headaches."
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "Combined therapy may improve outcome relative to monotherapy."
+            }
+          ]
+        },
+        {
+          "doc_id": 22995579,
+          "title": "Amitriptyline is effective in chronic but not in episodic tension-type headache: pathogenetic implications.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "However, its efficacy in episodic tension-type headache has not yet been clarified."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "We compared the efficacy of amitriptyline (25 mg/day) in 82 nondepressed patients with either chronic or episodic tension-type headache in an open-label study."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Amitriptyline significantly reduced (P < 0.05) frequency and duration of headache as well as analgesic consumption in chronic, but not in episodic, tension-type headache."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Further placebo-controlled trials, possibly with higher doses of amitriptyline, might confirm if the different pattern of response to amitriptyline can be explained in terms of different involvement of central nociception and of peripheral myofascial factors in the chronic and in the episodic forms of tension-type headache."
+            }
+          ]
+        },
+        {
+          "doc_id": 23865182,
+          "title": "Efficacy and tolerability of amitriptylinoxide in the treatment of chronic tension-type headache: a multi-centre controlled study.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "In 197 patients with chronic tension-type headache (87M and 110F with a mean age of 38 +/-"
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "13 (18-68)) efficacy and tolerability of 60-90 mg amitriptylinoxide (AO) were compared with 50-75 mg amitriptyline (AM) and placebo (PL) in a double-blind, parallel-group trial consisting of a four weeks' baseline phase and 12 weeks of treatment."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "The primary study endpoint was a reduction of at least 50% of the product of headache duration and frequency and a reduction of at least 50% in headache intensity."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Statistics used were Fisher's exact test and analysis of variance."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "No significant difference emerged between AO, AM and PL with respect to the primary study endpoint."
+            },
+            {
+              "new_index": 5,
+              "original_index": 9,
+              "sentence": "Trend analysis with respect to a significant reduction of headache intensity (p < 0.05) and the product of headache duration and frequency revealed a superior effect of AO.(ABSTRACT TRUNCATED AT 250 WORDS)"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6191684,
+          "original_index": 4,
+          "sentence": "PARTICIPANTS Two hundred three adults (mean age, 37 years; 76% women) with diagnosis of chronic tension-type headaches (mean, 26 headache d/mo).   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 6191684,
+          "original_index": 7,
+          "sentence": "RESULTS Tricyclic antidepressant medication and stress management therapy each produced larger reductions in headache activity, analgesic medication use, and headache-related disability than placebo, but antidepressant medication yielded more rapid improvements in headache activity.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 6191684,
+          "original_index": 8,
+          "sentence": "Combined therapy was more likely to produce clinically significant (>/=50%) reductions in headache index scores (64% of participants) than antidepressant medication (38% of participants; P =.006), stress management therapy (35%; P =.003), or placebo (29%; P =.001).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22995579,
+          "original_index": 0,
+          "sentence": "The tricyclic antidepressant, amitriptyline, is an effective drug for the treatment of chronic tension-type headache and for other chronic pain syndromes, but it is also effective in the prophylaxis of an episodic type of headache such as migraine.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 0,
+          "sentence": "Amitriptyline is the medication of first choice in the treatment of chronic tension-type headache.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 6,
+          "sentence": "Treatment response occurred in 30.3% of the AO, 22.4% of the AM and 21.9% of the PL group.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 7,
+          "sentence": "A reduction in headache duration and frequency of at least 50% was found in 39.4% on AO, in 25.4% on AM and in 26.6% on PL (PAO-PL = .1384, PAM-PL = 1.000, PAO-AM = .0973).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 8,
+          "sentence": "A reduction in headache intensity of at least 50% was found in 31.8% on AO, in 26.9% on AM and in 26.6% on PL (PAO-PL = .5657, PAM-PL = 1.000, PAO-AM = .5715).",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_7_groups",
+      "dropped_group_ids": [
+        "g7",
+        "g4",
+        "g6",
+        "g2",
+        "g5",
+        "g1",
+        "g0"
+      ],
+      "claim": "Amitriptyline is an effective treatment for chronic tension-type headaches.",
+      "evidence": [
+        {
+          "doc_id": 6191684,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "RESULTS Tricyclic antidepressant medication and stress management therapy each produced larger reductions in headache activity, analgesic medication use, and headache-related disability than placebo, but antidepressant medication yielded more rapid improvements in headache activity.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6191684,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Combined therapy was more likely to produce clinically significant (>/=50%) reductions in headache index scores (64% of participants) than antidepressant medication (38% of participants; P =.006), stress management therapy (35%; P =.003), or placebo (29%; P =.001).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6191684,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "CONCLUSIONS Our results indicate that antidepressant medication and stress management therapy are each modestly effective in treating chronic tension-type headaches.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22995579,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "The tricyclic antidepressant, amitriptyline, is an effective drug for the treatment of chronic tension-type headache and for other chronic pain syndromes, but it is also effective in the prophylaxis of an episodic type of headache such as migraine.",
+          "kept": true,
+          "new_index": 0
+        },
+        {
+          "doc_id": 22995579,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Amitriptyline significantly reduced (P < 0.05) frequency and duration of headache as well as analgesic consumption in chronic, but not in episodic, tension-type headache.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "Amitriptyline is the medication of first choice in the treatment of chronic tension-type headache.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g6",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "The primary study endpoint was a reduction of at least 50% of the product of headache duration and frequency and a reduction of at least 50% in headache intensity.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g7",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "A reduction in headache duration and frequency of at least 50% was found in 39.4% on AO, in 25.4% on AM and in 26.6% on PL (PAO-PL = .1384, PAM-PL = 1.000, PAO-AM = .0973).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g8",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "A reduction in headache intensity of at least 50% was found in 31.8% on AO, in 26.9% on AM and in 26.6% on PL (PAO-PL = .5657, PAM-PL = 1.000, PAO-AM = .5715).",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6191684,
+          "title": "Management of chronic tension-type headache with tricyclic antidepressant medication, stress management therapy, and their combination: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Chronic tension-type headaches are characterized by near-daily headaches and often are difficult to manage in primary practice."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Behavioral and pharmacological therapies each appear modestly effective, but data are lacking on their separate and combined effects.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To evaluate the clinical efficacy of behavioral and pharmacological therapies, singly and combined, for chronic tension-type headaches.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DESIGN AND SETTING Randomized placebo-controlled trial conducted from August 1995 to January 1998 at 2 outpatient sites in Ohio.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "PARTICIPANTS Two hundred three adults (mean age, 37 years; 76% women) with diagnosis of chronic tension-type headaches (mean, 26 headache d/mo).   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "INTERVENTIONS Participants were randomly assigned to receive tricyclic antidepressant (amitriptyline hydrochloride, up to 100 mg/d, or nortriptyline hydrochloride, up to 75 mg/d) medication (n = 53), placebo (n = 48), stress management (eg, relaxation, cognitive coping) therapy (3 sessions and 2 telephone contacts) plus placebo (n = 49), or stress management therapy plus antidepressant medication (n = 53).   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "MAIN OUTCOME MEASURES Monthly headache index scores calculated as the mean of pain ratings (0-10 scale) recorded by participants in a daily diary 4 times per day; number of days per month with at least moderate pain (pain rating >/=5), analgesic medication use, and Headache Disability Inventory scores, compared by intervention group.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 11,
+              "sentence": "Combined therapy may improve outcome relative to monotherapy."
+            }
+          ]
+        },
+        {
+          "doc_id": 22995579,
+          "title": "Amitriptyline is effective in chronic but not in episodic tension-type headache: pathogenetic implications.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The tricyclic antidepressant, amitriptyline, is an effective drug for the treatment of chronic tension-type headache and for other chronic pain syndromes, but it is also effective in the prophylaxis of an episodic type of headache such as migraine."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "However, its efficacy in episodic tension-type headache has not yet been clarified."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We compared the efficacy of amitriptyline (25 mg/day) in 82 nondepressed patients with either chronic or episodic tension-type headache in an open-label study."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Further placebo-controlled trials, possibly with higher doses of amitriptyline, might confirm if the different pattern of response to amitriptyline can be explained in terms of different involvement of central nociception and of peripheral myofascial factors in the chronic and in the episodic forms of tension-type headache."
+            }
+          ]
+        },
+        {
+          "doc_id": 23865182,
+          "title": "Efficacy and tolerability of amitriptylinoxide in the treatment of chronic tension-type headache: a multi-centre controlled study.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "In 197 patients with chronic tension-type headache (87M and 110F with a mean age of 38 +/-"
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "13 (18-68)) efficacy and tolerability of 60-90 mg amitriptylinoxide (AO) were compared with 50-75 mg amitriptyline (AM) and placebo (PL) in a double-blind, parallel-group trial consisting of a four weeks' baseline phase and 12 weeks of treatment."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Statistics used were Fisher's exact test and analysis of variance."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "No significant difference emerged between AO, AM and PL with respect to the primary study endpoint."
+            },
+            {
+              "new_index": 4,
+              "original_index": 8,
+              "sentence": "A reduction in headache intensity of at least 50% was found in 31.8% on AO, in 26.9% on AM and in 26.6% on PL (PAO-PL = .5657, PAM-PL = 1.000, PAO-AM = .5715)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 9,
+              "sentence": "Trend analysis with respect to a significant reduction of headache intensity (p < 0.05) and the product of headache duration and frequency revealed a superior effect of AO.(ABSTRACT TRUNCATED AT 250 WORDS)"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6191684,
+          "original_index": 7,
+          "sentence": "RESULTS Tricyclic antidepressant medication and stress management therapy each produced larger reductions in headache activity, analgesic medication use, and headache-related disability than placebo, but antidepressant medication yielded more rapid improvements in headache activity.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 6191684,
+          "original_index": 8,
+          "sentence": "Combined therapy was more likely to produce clinically significant (>/=50%) reductions in headache index scores (64% of participants) than antidepressant medication (38% of participants; P =.006), stress management therapy (35%; P =.003), or placebo (29%; P =.001).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 6191684,
+          "original_index": 9,
+          "sentence": "On other measures the combined therapy and its 2 component therapies produced similar outcomes.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 6191684,
+          "original_index": 10,
+          "sentence": "CONCLUSIONS Our results indicate that antidepressant medication and stress management therapy are each modestly effective in treating chronic tension-type headaches.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22995579,
+          "original_index": 3,
+          "sentence": "Amitriptyline significantly reduced (P < 0.05) frequency and duration of headache as well as analgesic consumption in chronic, but not in episodic, tension-type headache.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 0,
+          "sentence": "Amitriptyline is the medication of first choice in the treatment of chronic tension-type headache.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 3,
+          "sentence": "The primary study endpoint was a reduction of at least 50% of the product of headache duration and frequency and a reduction of at least 50% in headache intensity.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 6,
+          "sentence": "Treatment response occurred in 30.3% of the AO, 22.4% of the AM and 21.9% of the PL group.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 7,
+          "sentence": "A reduction in headache duration and frequency of at least 50% was found in 39.4% on AO, in 25.4% on AM and in 26.6% on PL (PAO-PL = .1384, PAM-PL = 1.000, PAO-AM = .0973).",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_8_groups",
+      "dropped_group_ids": [
+        "g7",
+        "g1",
+        "g5",
+        "g3",
+        "g6",
+        "g4",
+        "g8",
+        "g0"
+      ],
+      "claim": "Amitriptyline is an effective treatment for chronic tension-type headaches.",
+      "evidence": [
+        {
+          "doc_id": 6191684,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "RESULTS Tricyclic antidepressant medication and stress management therapy each produced larger reductions in headache activity, analgesic medication use, and headache-related disability than placebo, but antidepressant medication yielded more rapid improvements in headache activity.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6191684,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Combined therapy was more likely to produce clinically significant (>/=50%) reductions in headache index scores (64% of participants) than antidepressant medication (38% of participants; P =.006), stress management therapy (35%; P =.003), or placebo (29%; P =.001).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6191684,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "CONCLUSIONS Our results indicate that antidepressant medication and stress management therapy are each modestly effective in treating chronic tension-type headaches.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 22995579,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "The tricyclic antidepressant, amitriptyline, is an effective drug for the treatment of chronic tension-type headache and for other chronic pain syndromes, but it is also effective in the prophylaxis of an episodic type of headache such as migraine.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22995579,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Amitriptyline significantly reduced (P < 0.05) frequency and duration of headache as well as analgesic consumption in chronic, but not in episodic, tension-type headache.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "Amitriptyline is the medication of first choice in the treatment of chronic tension-type headache.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g6",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "The primary study endpoint was a reduction of at least 50% of the product of headache duration and frequency and a reduction of at least 50% in headache intensity.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g7",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "A reduction in headache duration and frequency of at least 50% was found in 39.4% on AO, in 25.4% on AM and in 26.6% on PL (PAO-PL = .1384, PAM-PL = 1.000, PAO-AM = .0973).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g8",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "A reduction in headache intensity of at least 50% was found in 31.8% on AO, in 26.9% on AM and in 26.6% on PL (PAO-PL = .5657, PAM-PL = 1.000, PAO-AM = .5715).",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6191684,
+          "title": "Management of chronic tension-type headache with tricyclic antidepressant medication, stress management therapy, and their combination: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Chronic tension-type headaches are characterized by near-daily headaches and often are difficult to manage in primary practice."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Behavioral and pharmacological therapies each appear modestly effective, but data are lacking on their separate and combined effects.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To evaluate the clinical efficacy of behavioral and pharmacological therapies, singly and combined, for chronic tension-type headaches.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DESIGN AND SETTING Randomized placebo-controlled trial conducted from August 1995 to January 1998 at 2 outpatient sites in Ohio.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "PARTICIPANTS Two hundred three adults (mean age, 37 years; 76% women) with diagnosis of chronic tension-type headaches (mean, 26 headache d/mo).   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "MAIN OUTCOME MEASURES Monthly headache index scores calculated as the mean of pain ratings (0-10 scale) recorded by participants in a daily diary 4 times per day; number of days per month with at least moderate pain (pain rating >/=5), analgesic medication use, and Headache Disability Inventory scores, compared by intervention group.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 9,
+              "sentence": "On other measures the combined therapy and its 2 component therapies produced similar outcomes.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "CONCLUSIONS Our results indicate that antidepressant medication and stress management therapy are each modestly effective in treating chronic tension-type headaches."
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "Combined therapy may improve outcome relative to monotherapy."
+            }
+          ]
+        },
+        {
+          "doc_id": 22995579,
+          "title": "Amitriptyline is effective in chronic but not in episodic tension-type headache: pathogenetic implications.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "However, its efficacy in episodic tension-type headache has not yet been clarified."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "We compared the efficacy of amitriptyline (25 mg/day) in 82 nondepressed patients with either chronic or episodic tension-type headache in an open-label study."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Further placebo-controlled trials, possibly with higher doses of amitriptyline, might confirm if the different pattern of response to amitriptyline can be explained in terms of different involvement of central nociception and of peripheral myofascial factors in the chronic and in the episodic forms of tension-type headache."
+            }
+          ]
+        },
+        {
+          "doc_id": 23865182,
+          "title": "Efficacy and tolerability of amitriptylinoxide in the treatment of chronic tension-type headache: a multi-centre controlled study.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "In 197 patients with chronic tension-type headache (87M and 110F with a mean age of 38 +/-"
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "13 (18-68)) efficacy and tolerability of 60-90 mg amitriptylinoxide (AO) were compared with 50-75 mg amitriptyline (AM) and placebo (PL) in a double-blind, parallel-group trial consisting of a four weeks' baseline phase and 12 weeks of treatment."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Statistics used were Fisher's exact test and analysis of variance."
+            },
+            {
+              "new_index": 3,
+              "original_index": 6,
+              "sentence": "Treatment response occurred in 30.3% of the AO, 22.4% of the AM and 21.9% of the PL group."
+            },
+            {
+              "new_index": 4,
+              "original_index": 9,
+              "sentence": "Trend analysis with respect to a significant reduction of headache intensity (p < 0.05) and the product of headache duration and frequency revealed a superior effect of AO.(ABSTRACT TRUNCATED AT 250 WORDS)"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6191684,
+          "original_index": 5,
+          "sentence": "INTERVENTIONS Participants were randomly assigned to receive tricyclic antidepressant (amitriptyline hydrochloride, up to 100 mg/d, or nortriptyline hydrochloride, up to 75 mg/d) medication (n = 53), placebo (n = 48), stress management (eg, relaxation, cognitive coping) therapy (3 sessions and 2 telephone contacts) plus placebo (n = 49), or stress management therapy plus antidepressant medication (n = 53).   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 6191684,
+          "original_index": 7,
+          "sentence": "RESULTS Tricyclic antidepressant medication and stress management therapy each produced larger reductions in headache activity, analgesic medication use, and headache-related disability than placebo, but antidepressant medication yielded more rapid improvements in headache activity.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 6191684,
+          "original_index": 8,
+          "sentence": "Combined therapy was more likely to produce clinically significant (>/=50%) reductions in headache index scores (64% of participants) than antidepressant medication (38% of participants; P =.006), stress management therapy (35%; P =.003), or placebo (29%; P =.001).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22995579,
+          "original_index": 0,
+          "sentence": "The tricyclic antidepressant, amitriptyline, is an effective drug for the treatment of chronic tension-type headache and for other chronic pain syndromes, but it is also effective in the prophylaxis of an episodic type of headache such as migraine.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22995579,
+          "original_index": 3,
+          "sentence": "Amitriptyline significantly reduced (P < 0.05) frequency and duration of headache as well as analgesic consumption in chronic, but not in episodic, tension-type headache.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 0,
+          "sentence": "Amitriptyline is the medication of first choice in the treatment of chronic tension-type headache.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 3,
+          "sentence": "The primary study endpoint was a reduction of at least 50% of the product of headache duration and frequency and a reduction of at least 50% in headache intensity.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 5,
+          "sentence": "No significant difference emerged between AO, AM and PL with respect to the primary study endpoint.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 7,
+          "sentence": "A reduction in headache duration and frequency of at least 50% was found in 39.4% on AO, in 25.4% on AM and in 26.6% on PL (PAO-PL = .1384, PAM-PL = 1.000, PAO-AM = .0973).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 8,
+          "sentence": "A reduction in headache intensity of at least 50% was found in 31.8% on AO, in 26.9% on AM and in 26.6% on PL (PAO-PL = .5657, PAM-PL = 1.000, PAO-AM = .5715).",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8"
+      ],
+      "claim": "Amitriptyline is an effective treatment for chronic tension-type headaches.",
+      "evidence": [
+        {
+          "doc_id": 6191684,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "RESULTS Tricyclic antidepressant medication and stress management therapy each produced larger reductions in headache activity, analgesic medication use, and headache-related disability than placebo, but antidepressant medication yielded more rapid improvements in headache activity.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6191684,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Combined therapy was more likely to produce clinically significant (>/=50%) reductions in headache index scores (64% of participants) than antidepressant medication (38% of participants; P =.006), stress management therapy (35%; P =.003), or placebo (29%; P =.001).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6191684,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "CONCLUSIONS Our results indicate that antidepressant medication and stress management therapy are each modestly effective in treating chronic tension-type headaches.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22995579,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "The tricyclic antidepressant, amitriptyline, is an effective drug for the treatment of chronic tension-type headache and for other chronic pain syndromes, but it is also effective in the prophylaxis of an episodic type of headache such as migraine.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22995579,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Amitriptyline significantly reduced (P < 0.05) frequency and duration of headache as well as analgesic consumption in chronic, but not in episodic, tension-type headache.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "Amitriptyline is the medication of first choice in the treatment of chronic tension-type headache.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g6",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "The primary study endpoint was a reduction of at least 50% of the product of headache duration and frequency and a reduction of at least 50% in headache intensity.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g7",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "A reduction in headache duration and frequency of at least 50% was found in 39.4% on AO, in 25.4% on AM and in 26.6% on PL (PAO-PL = .1384, PAM-PL = 1.000, PAO-AM = .0973).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 23865182,
+          "group_id": "g8",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "A reduction in headache intensity of at least 50% was found in 31.8% on AO, in 26.9% on AM and in 26.6% on PL (PAO-PL = .5657, PAM-PL = 1.000, PAO-AM = .5715).",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6191684,
+          "title": "Management of chronic tension-type headache with tricyclic antidepressant medication, stress management therapy, and their combination: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Chronic tension-type headaches are characterized by near-daily headaches and often are difficult to manage in primary practice."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To evaluate the clinical efficacy of behavioral and pharmacological therapies, singly and combined, for chronic tension-type headaches.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "DESIGN AND SETTING Randomized placebo-controlled trial conducted from August 1995 to January 1998 at 2 outpatient sites in Ohio.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "PARTICIPANTS Two hundred three adults (mean age, 37 years; 76% women) with diagnosis of chronic tension-type headaches (mean, 26 headache d/mo).   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "INTERVENTIONS Participants were randomly assigned to receive tricyclic antidepressant (amitriptyline hydrochloride, up to 100 mg/d, or nortriptyline hydrochloride, up to 75 mg/d) medication (n = 53), placebo (n = 48), stress management (eg, relaxation, cognitive coping) therapy (3 sessions and 2 telephone contacts) plus placebo (n = 49), or stress management therapy plus antidepressant medication (n = 53).   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "MAIN OUTCOME MEASURES Monthly headache index scores calculated as the mean of pain ratings (0-10 scale) recorded by participants in a daily diary 4 times per day; number of days per month with at least moderate pain (pain rating >/=5), analgesic medication use, and Headache Disability Inventory scores, compared by intervention group.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 9,
+              "sentence": "On other measures the combined therapy and its 2 component therapies produced similar outcomes.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 11,
+              "sentence": "Combined therapy may improve outcome relative to monotherapy."
+            }
+          ]
+        },
+        {
+          "doc_id": 22995579,
+          "title": "Amitriptyline is effective in chronic but not in episodic tension-type headache: pathogenetic implications.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "However, its efficacy in episodic tension-type headache has not yet been clarified."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "We compared the efficacy of amitriptyline (25 mg/day) in 82 nondepressed patients with either chronic or episodic tension-type headache in an open-label study."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Further placebo-controlled trials, possibly with higher doses of amitriptyline, might confirm if the different pattern of response to amitriptyline can be explained in terms of different involvement of central nociception and of peripheral myofascial factors in the chronic and in the episodic forms of tension-type headache."
+            }
+          ]
+        },
+        {
+          "doc_id": 23865182,
+          "title": "Efficacy and tolerability of amitriptylinoxide in the treatment of chronic tension-type headache: a multi-centre controlled study.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 2,
+              "sentence": "13 (18-68)) efficacy and tolerability of 60-90 mg amitriptylinoxide (AO) were compared with 50-75 mg amitriptyline (AM) and placebo (PL) in a double-blind, parallel-group trial consisting of a four weeks' baseline phase and 12 weeks of treatment."
+            },
+            {
+              "new_index": 1,
+              "original_index": 4,
+              "sentence": "Statistics used were Fisher's exact test and analysis of variance."
+            },
+            {
+              "new_index": 2,
+              "original_index": 5,
+              "sentence": "No significant difference emerged between AO, AM and PL with respect to the primary study endpoint."
+            },
+            {
+              "new_index": 3,
+              "original_index": 6,
+              "sentence": "Treatment response occurred in 30.3% of the AO, 22.4% of the AM and 21.9% of the PL group."
+            },
+            {
+              "new_index": 4,
+              "original_index": 9,
+              "sentence": "Trend analysis with respect to a significant reduction of headache intensity (p < 0.05) and the product of headache duration and frequency revealed a superior effect of AO.(ABSTRACT TRUNCATED AT 250 WORDS)"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6191684,
+          "original_index": 1,
+          "sentence": "Behavioral and pharmacological therapies each appear modestly effective, but data are lacking on their separate and combined effects.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 6191684,
+          "original_index": 7,
+          "sentence": "RESULTS Tricyclic antidepressant medication and stress management therapy each produced larger reductions in headache activity, analgesic medication use, and headache-related disability than placebo, but antidepressant medication yielded more rapid improvements in headache activity.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 6191684,
+          "original_index": 8,
+          "sentence": "Combined therapy was more likely to produce clinically significant (>/=50%) reductions in headache index scores (64% of participants) than antidepressant medication (38% of participants; P =.006), stress management therapy (35%; P =.003), or placebo (29%; P =.001).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 6191684,
+          "original_index": 10,
+          "sentence": "CONCLUSIONS Our results indicate that antidepressant medication and stress management therapy are each modestly effective in treating chronic tension-type headaches.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22995579,
+          "original_index": 0,
+          "sentence": "The tricyclic antidepressant, amitriptyline, is an effective drug for the treatment of chronic tension-type headache and for other chronic pain syndromes, but it is also effective in the prophylaxis of an episodic type of headache such as migraine.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22995579,
+          "original_index": 3,
+          "sentence": "Amitriptyline significantly reduced (P < 0.05) frequency and duration of headache as well as analgesic consumption in chronic, but not in episodic, tension-type headache.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 0,
+          "sentence": "Amitriptyline is the medication of first choice in the treatment of chronic tension-type headache.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 1,
+          "sentence": "In 197 patients with chronic tension-type headache (87M and 110F with a mean age of 38 +/-",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 3,
+          "sentence": "The primary study endpoint was a reduction of at least 50% of the product of headache duration and frequency and a reduction of at least 50% in headache intensity.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 7,
+          "sentence": "A reduction in headache duration and frequency of at least 50% was found in 39.4% on AO, in 25.4% on AM and in 26.6% on PL (PAO-PL = .1384, PAM-PL = 1.000, PAO-AM = .0973).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 23865182,
+          "original_index": 8,
+          "sentence": "A reduction in headache intensity of at least 50% was found in 31.8% on AO, in 26.9% on AM and in 26.6% on PL (PAO-PL = .5657, PAM-PL = 1.000, PAO-AM = .5715).",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

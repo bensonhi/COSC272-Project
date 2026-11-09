@@ -1,0 +1,61 @@
+{
+  "id": 1383,
+  "origin": "train_more",
+  "claim": "aPKCz causes tumour suppression by affecting glutamine metabolism.",
+  "evidence": [
+    {
+      "doc_id": 17755060,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 3,
+      "sentence": "Interestingly, the loss of PKCζ in mice results in enhanced intestinal tumorigenesis and increased levels of these two metabolic enzymes, whereas patients with low levels of PKCζ have a poor prognosis."
+    },
+    {
+      "doc_id": 17755060,
+      "group_id": "g1",
+      "evidence_label": "SUPPORT",
+      "original_index": 5,
+      "sentence": "Taken together, this demonstrates that PKCζ is a critical metabolic tumor suppressor in mouse and human cancer."
+    },
+    {
+      "doc_id": 17755060,
+      "group_id": "g2",
+      "evidence_label": "SUPPORT_more",
+      "original_index": 1,
+      "sentence": "We show that PKCζ deficiency promotes the plasticity necessary for cancer cells to reprogram their metabolism to utilize glutamine through the serine biosynthetic pathway in the absence of glucose."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 17755060,
+      "title": "Control of Nutrient Stress-Induced Metabolic Reprogramming by PKCζ in Tumorigenesis",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Tumor cells have high-energetic and anabolic needs and are known to adapt their metabolism to be able to survive and keep proliferating under conditions of nutrient stress."
+        },
+        {
+          "original_index": 1,
+          "sentence": "We show that PKCζ deficiency promotes the plasticity necessary for cancer cells to reprogram their metabolism to utilize glutamine through the serine biosynthetic pathway in the absence of glucose."
+        },
+        {
+          "original_index": 2,
+          "sentence": "PKCζ represses the expression of two key enzymes of the pathway, PHGDH and PSAT1, and phosphorylates PHGDH at key residues to inhibit its enzymatic activity."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Interestingly, the loss of PKCζ in mice results in enhanced intestinal tumorigenesis and increased levels of these two metabolic enzymes, whereas patients with low levels of PKCζ have a poor prognosis."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Furthermore, PKCζ and caspase-3 activities are correlated with PHGDH levels in human intestinal tumors."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Taken together, this demonstrates that PKCζ is a critical metabolic tumor suppressor in mouse and human cancer."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

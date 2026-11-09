@@ -1,0 +1,48 @@
+{
+  "id": 1068,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "ScPif1p has reduced binding ability to G-rich ssDNA compared to non-G-rich ssDNA.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 4429668,
+          "title": "Pif1 family helicases suppress genome instability at G-quadruplex motifs",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The Saccharomyces cerevisiae Pif1 helicase is the prototypical member of the Pif1 DNA helicase family, which is conserved from bacteria to humans."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here we show that exceptionally potent G-quadruplex unwinding is conserved among Pif1 helicases."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Moreover, Pif1 helicases from organisms separated by more than 3 billion years of evolution suppressed DNA damage at G-quadruplex motifs in yeast."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "The G-quadruplex-induced damage generated in the absence of Pif1 helicases led to new genetic and epigenetic changes."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Furthermore, when expressed in yeast, human PIF1 suppressed both G-quadruplex-associated DNA damage and telomere lengthening."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

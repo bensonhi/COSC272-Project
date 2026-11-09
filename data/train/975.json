@@ -1,0 +1,58 @@
+{
+  "id": 975,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Primary pro-inflammatory cytokines induce secondary pro- and anti-inflammatory mediators.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 5304891,
+          "title": "Inter-individual variability and genetic influences on cytokine responses to bacteria and fungi",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Little is known about the inter-individual variation of cytokine responses to different pathogens in healthy individuals."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "To systematically describe cytokine responses elicited by distinct pathogens and to determine the effect of genetic variation on cytokine production, we profiled cytokines produced by peripheral blood mononuclear cells from 197 individuals of European origin from the 200 Functional Genomics (200FG) cohort in the Human Functional Genomics Project (http://www.humanfunctionalgenomics.org), obtained over three different years."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We compared bacteria- and fungi-induced cytokine profiles and found that most cytokine responses were organized around a physiological response to specific pathogens, rather than around a particular immune pathway or cytokine."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We then correlated genome-wide single-nucleotide polymorphism (SNP) genotypes with cytokine abundance and identified six cytokine quantitative trait loci (QTLs)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Among them, a cytokine QTL at the NAA35-GOLM1 locus markedly modulated interleukin (IL)-6 production in response to multiple pathogens and was associated with susceptibility to candidemia."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Furthermore, the cytokine QTLs that we identified were enriched among SNPs previously associated with infectious diseases and heart diseases."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "These data reveal and begin to explain the variability in cytokine production by human immune cells in response to pathogens."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "id": 266,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Cnn1 recruitment varies with cell cycle timing.",
+      "evidence": [
+        {
+          "doc_id": 22405338,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Cnn1 regulates KMN activity in a spatiotemporal manner by inhibiting the interaction between its complexes.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 22405338,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "Cnn1 activity peaks in anaphase and is driven by the Cdc28, Mps1 and Ipl1 kinases.",
+          "kept": true,
+          "new_index": 6
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 22405338,
+          "title": "Cnn1 inhibits the interactions between the KMN complexes of the yeast kinetochore",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Kinetochores attach the replicated chromosomes to the mitotic spindle and orchestrate their transmission to the daughter cells."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Kinetochore–spindle binding and chromosome segregation are mediated by the multi-copy KNL1Spc105, MIS12Mtw1 and NDC80Ndc80 complexes that form the so-called KMN network."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "KMN–spindle attachment is regulated by the Aurora BIpl1 and MPS1Mps1 kinases."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "It is unclear whether other mechanisms exist that support KMN activity during the cell cycle."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Using budding yeast, we show that kinetochore protein Cnn1 localizes to the base of the Ndc80 complex and promotes a functionally competent configuration of the KMN network."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Cnn1 regulates KMN activity in a spatiotemporal manner by inhibiting the interaction between its complexes."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Cnn1 activity peaks in anaphase and is driven by the Cdc28, Mps1 and Ipl1 kinases."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Cnn1 recruitment varies with cell cycle timing.",
+      "evidence": [
+        {
+          "doc_id": 22405338,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Cnn1 regulates KMN activity in a spatiotemporal manner by inhibiting the interaction between its complexes.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22405338,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "Cnn1 activity peaks in anaphase and is driven by the Cdc28, Mps1 and Ipl1 kinases.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 22405338,
+          "title": "Cnn1 inhibits the interactions between the KMN complexes of the yeast kinetochore",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Kinetochores attach the replicated chromosomes to the mitotic spindle and orchestrate their transmission to the daughter cells."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Kinetochore–spindle binding and chromosome segregation are mediated by the multi-copy KNL1Spc105, MIS12Mtw1 and NDC80Ndc80 complexes that form the so-called KMN network."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "It is unclear whether other mechanisms exist that support KMN activity during the cell cycle."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Using budding yeast, we show that kinetochore protein Cnn1 localizes to the base of the Ndc80 complex and promotes a functionally competent configuration of the KMN network."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Cnn1 activity peaks in anaphase and is driven by the Cdc28, Mps1 and Ipl1 kinases."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 22405338,
+          "original_index": 2,
+          "sentence": "KMN–spindle attachment is regulated by the Aurora BIpl1 and MPS1Mps1 kinases.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 22405338,
+          "original_index": 5,
+          "sentence": "Cnn1 regulates KMN activity in a spatiotemporal manner by inhibiting the interaction between its complexes.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Cnn1 recruitment varies with cell cycle timing.",
+      "evidence": [
+        {
+          "doc_id": 22405338,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Cnn1 regulates KMN activity in a spatiotemporal manner by inhibiting the interaction between its complexes.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22405338,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "Cnn1 activity peaks in anaphase and is driven by the Cdc28, Mps1 and Ipl1 kinases.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 22405338,
+          "title": "Cnn1 inhibits the interactions between the KMN complexes of the yeast kinetochore",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Kinetochores attach the replicated chromosomes to the mitotic spindle and orchestrate their transmission to the daughter cells."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Kinetochore–spindle binding and chromosome segregation are mediated by the multi-copy KNL1Spc105, MIS12Mtw1 and NDC80Ndc80 complexes that form the so-called KMN network."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "It is unclear whether other mechanisms exist that support KMN activity during the cell cycle."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Using budding yeast, we show that kinetochore protein Cnn1 localizes to the base of the Ndc80 complex and promotes a functionally competent configuration of the KMN network."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 22405338,
+          "original_index": 2,
+          "sentence": "KMN–spindle attachment is regulated by the Aurora BIpl1 and MPS1Mps1 kinases.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 22405338,
+          "original_index": 5,
+          "sentence": "Cnn1 regulates KMN activity in a spatiotemporal manner by inhibiting the interaction between its complexes.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22405338,
+          "original_index": 6,
+          "sentence": "Cnn1 activity peaks in anaphase and is driven by the Cdc28, Mps1 and Ipl1 kinases.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

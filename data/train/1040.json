@@ -1,0 +1,144 @@
+{
+  "id": 1040,
+  "origin": "train_more",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Replacement of histone H2A with H2A.Z accelerates gene activation in yeasts by destabilizing +1 nucleosomes.",
+      "evidence": [
+        {
+          "doc_id": 25254425,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Immunoprecipitation studies of nucleosome core particles (NCPs) show that NCPs that contain both H3.3 and H2A.Z are even less stable than NCPs containing H3.3 and H2A.",
+          "kept": true,
+          "new_index": 3
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 25254425,
+          "title": "Nucleosome stability mediated by histone variants H3.3 and H2A.Z.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Nucleosomes containing the histone variant H3.3 tend to be clustered in vivo in the neighborhood of transcriptionally active genes and over regulatory elements."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "It has not been clear, however, whether H3.3-containing nucleosomes possess unique properties that would affect transcription."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We report here that H3.3 nucleosomes isolated from vertebrates, regardless of whether they are partnered with H2A or H2A.Z, are unusually sensitive to salt-dependent disruption, losing H2A/H2B or H2A.Z/H2B dimers."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Immunoprecipitation studies of nucleosome core particles (NCPs) show that NCPs that contain both H3.3 and H2A.Z are even less stable than NCPs containing H3.3 and H2A."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Intriguingly, NCPs containing H3 and H2A.Z are at least as stable as H3/H2A NCPs."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "These results establish an hierarchy of stabilities for native nucleosomes carrying different complements of variants, and suggest how H2A.Z could play different roles depending on its partners within the NCP."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "They also are consistent with the idea that H3.3 plays an active role in maintaining accessible chromatin structures in enhancer regions and transcribed regions."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Consistent with this idea, promoters and enhancers at transcriptionally active genes and coding regions at highly expressed genes have nucleosomes that simultaneously carry both H3.3 and H2A.Z, and should therefore be extremely sensitive to disruption."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Replacement of histone H2A with H2A.Z accelerates gene activation in yeasts by destabilizing +1 nucleosomes.",
+      "evidence": [
+        {
+          "doc_id": 25254425,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Immunoprecipitation studies of nucleosome core particles (NCPs) show that NCPs that contain both H3.3 and H2A.Z are even less stable than NCPs containing H3.3 and H2A.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 25254425,
+          "title": "Nucleosome stability mediated by histone variants H3.3 and H2A.Z.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Nucleosomes containing the histone variant H3.3 tend to be clustered in vivo in the neighborhood of transcriptionally active genes and over regulatory elements."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "It has not been clear, however, whether H3.3-containing nucleosomes possess unique properties that would affect transcription."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We report here that H3.3 nucleosomes isolated from vertebrates, regardless of whether they are partnered with H2A or H2A.Z, are unusually sensitive to salt-dependent disruption, losing H2A/H2B or H2A.Z/H2B dimers."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Intriguingly, NCPs containing H3 and H2A.Z are at least as stable as H3/H2A NCPs."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "They also are consistent with the idea that H3.3 plays an active role in maintaining accessible chromatin structures in enhancer regions and transcribed regions."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Consistent with this idea, promoters and enhancers at transcriptionally active genes and coding regions at highly expressed genes have nucleosomes that simultaneously carry both H3.3 and H2A.Z, and should therefore be extremely sensitive to disruption."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 25254425,
+          "original_index": 3,
+          "sentence": "Immunoprecipitation studies of nucleosome core particles (NCPs) show that NCPs that contain both H3.3 and H2A.Z are even less stable than NCPs containing H3.3 and H2A.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 25254425,
+          "original_index": 5,
+          "sentence": "These results establish an hierarchy of stabilities for native nucleosomes carrying different complements of variants, and suggest how H2A.Z could play different roles depending on its partners within the NCP.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

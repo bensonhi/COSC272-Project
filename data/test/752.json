@@ -1,0 +1,62 @@
+{
+  "id": 752,
+  "origin": "train_more",
+  "claim": "Major vault protein regulates sorting of tumor suppressive miR-193a into EVs.",
+  "evidence": [
+    {
+      "doc_id": 19800147,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 4,
+      "sentence": "Knockout of MVP leads to miR-193a accumulation in the exosomal donor cells instead of exosomes, inhibiting tumour progression."
+    },
+    {
+      "doc_id": 19800147,
+      "group_id": "g1",
+      "evidence_label": "SUPPORT_more",
+      "original_index": 7,
+      "sentence": "In summary, our data demonstrate that MVP-mediated selective sorting of tumour suppressor miRNA into exosomes promotes tumour progression."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 19800147,
+      "title": "MVP-mediated exosomal sorting of miR-193a promotes colon cancer progression",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Exosomes are emerging mediators of intercellular communication; whether the release of exosomes has an effect on the exosome donor cells in addition to the recipient cells has not been investigated to any extent."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Here, we examine different exosomal miRNA expression profiles in primary mouse colon tumour, liver metastasis of colon cancer and naive colon tissues."
+        },
+        {
+          "original_index": 2,
+          "sentence": "In more advanced disease, higher levels of tumour suppressor miRNAs are encapsulated in the exosomes."
+        },
+        {
+          "original_index": 3,
+          "sentence": "miR-193a interacts with major vault protein (MVP)."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Knockout of MVP leads to miR-193a accumulation in the exosomal donor cells instead of exosomes, inhibiting tumour progression."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Furthermore, miR-193a causes cell cycle G1 arrest and cell proliferation repression through targeting of Caprin1, which upregulates Ccnd2 and c-Myc."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Human colon cancer patients with more advanced disease show higher levels of circulating exosomal miR-193a."
+        },
+        {
+          "original_index": 7,
+          "sentence": "In summary, our data demonstrate that MVP-mediated selective sorting of tumour suppressor miRNA into exosomes promotes tumour progression."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

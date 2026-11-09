@@ -1,0 +1,781 @@
+{
+  "id": 275,
+  "origin": "dev",
+  "n_groups": 4,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Combining phosphatidylinositide 3-kinase and MEK 1/2 inhibitors is effective at treating KRAS mutant tumors.",
+      "evidence": [
+        {
+          "doc_id": 4961038,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "However, when NVP-BEZ235 was combined with a mitogen-activated protein kinase kinase (MEK) inhibitor, ARRY-142886, there was marked synergy in shrinking these Kras-mutant cancers.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 4961038,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "These in vivo studies suggest that inhibitors of the PI3K-mTOR pathway may be active in cancers with PIK3CA mutations and, when combined with MEK inhibitors, may effectively treat KRAS mutated lung cancers.",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 14241418,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "In summary, NVP-BEZ235 inhibits the PI3K/mTOR axis and results in antiproliferative and antitumoral activity in cancer cells with both wild-type and mutated p110-alpha.",
+          "kept": true,
+          "new_index": 10
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4961038,
+          "title": "Effective Use of PI3K and MEK Inhibitors to Treat Mutant K-Ras G12D and PIK3CA H1047R Murine Lung Cancers",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Somatic mutations that activate phosphoinositide 3-kinase (PI3K) have been identified in the p110-alpha catalytic subunit (encoded by PIK3CA)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "They are most frequently observed in two hotspots: the helical domain (E545K and E542K) and the kinase domain (H1047R)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Although the p110-alpha mutants are transforming in vitro, their oncogenic potential has not been assessed in genetically engineered mouse models."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Furthermore, clinical trials with PI3K inhibitors have recently been initiated, and it is unknown if their efficacy will be restricted to specific, genetically defined malignancies."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "In this study, we engineered a mouse model of lung adenocarcinomas initiated and maintained by expression of p110-alpha H1047R."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Treatment of these tumors with NVP-BEZ235, a dual pan-PI3K and mammalian target of rapamycin (mTOR) inhibitor in clinical development, led to marked tumor regression as shown by positron emission tomography-computed tomography, magnetic resonance imaging and microscopic examination."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "In contrast, mouse lung cancers driven by mutant Kras did not substantially respond to single-agent NVP-BEZ235."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "However, when NVP-BEZ235 was combined with a mitogen-activated protein kinase kinase (MEK) inhibitor, ARRY-142886, there was marked synergy in shrinking these Kras-mutant cancers."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "These in vivo studies suggest that inhibitors of the PI3K-mTOR pathway may be active in cancers with PIK3CA mutations and, when combined with MEK inhibitors, may effectively treat KRAS mutated lung cancers."
+            }
+          ]
+        },
+        {
+          "doc_id": 14241418,
+          "title": "NVP-BEZ235, a dual PI3K/mTOR inhibitor, prevents PI3K signaling and inhibits the growth of cancer cells with activating PI3K mutations.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Phosphatidylinositol-3-kinase (PI3K) pathway deregulation is a common event in human cancer, either through inactivation of the tumor suppressor phosphatase and tensin homologue deleted from chromosome 10 or activating mutations of p110-alpha."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "These hotspot mutations result in oncogenic activity of the enzyme and contribute to therapeutic resistance to the anti-HER2 antibody trastuzumab."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "The PI3K pathway is, therefore, an attractive target for cancer therapy."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We have studied NVP-BEZ235, a dual inhibitor of the PI3K and the downstream mammalian target of rapamycin (mTOR)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "NVP-BEZ235 inhibited the activation of the downstream effectors Akt, S6 ribosomal protein, and 4EBP1 in breast cancer cells."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "The antiproliferative activity of NVP-BEZ235 was superior to the allosteric selective mTOR complex inhibitor everolimus in a panel of 21 cancer cell lines of different origin and mutation status."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "The described Akt activation due to mTOR inhibition was prevented by higher doses of NVP-BEZ235."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "NVP-BEZ235 reversed the hyperactivation of the PI3K/mTOR pathway caused by the oncogenic mutations of p110-alpha, E545K, and H1047R, and inhibited the proliferation of HER2-amplified BT474 cells exogenously expressing these mutations that render them resistant to trastuzumab."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "In trastuzumab-resistant BT474 H1047R breast cancer xenografts, NVP-BEZ235 inhibited PI3K signaling and had potent antitumor activity."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "In treated animals, there was complete inhibition of PI3K signaling in the skin at pharmacologically active doses, suggesting that skin may serve as surrogate tissue for pharmacodynamic studies."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "In summary, NVP-BEZ235 inhibits the PI3K/mTOR axis and results in antiproliferative and antitumoral activity in cancer cells with both wild-type and mutated p110-alpha."
+            }
+          ]
+        },
+        {
+          "doc_id": 14819804,
+          "title": "Mutations in the phosphatidylinositol-3-kinase pathway predict for antitumor activity of the inhibitor PX-866 whereas oncogenic Ras is a dominant predictor for resistance.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The novel phosphatidylinositol-3-kinase (PI3K) inhibitor PX-866 was tested against 13 experimental human tumor xenografts derived from cell lines of various tissue origins."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Mutant PI3K (PIK3CA) and loss of PTEN activity were sufficient, but not necessary, as predictors of sensitivity to the antitumor activity of the PI3K inhibitor PX-866 in the presence of wild-type Ras, whereas mutant oncogenic Ras was a dominant determinant of resistance, even in tumors with coexisting mutations in PIK3CA."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "The level of activation of PI3K signaling measured by tumor phosphorylated Ser(473)-Akt was insufficient to predict in vivo antitumor response to PX-866."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Reverse-phase protein array revealed that the Ras-dependent downstream targets c-Myc and cyclin B were elevated in cell lines resistant to PX-866 in vivo."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Studies using an H-Ras construct to constitutively and preferentially activate the three best-defined downstream targets of Ras, i.e., Raf, RalGDS, and PI3K, showed that mutant Ras mediates resistance through its ability to use multiple pathways for tumorigenesis."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "The identification of Ras and downstream signaling pathways driving resistance to PI3K inhibition might serve as an important guide for patient selection as inhibitors enter clinical trials and for the development of rational combinations with other molecularly targeted agents."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Combining phosphatidylinositide 3-kinase and MEK 1/2 inhibitors is effective at treating KRAS mutant tumors.",
+      "evidence": [
+        {
+          "doc_id": 4961038,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "However, when NVP-BEZ235 was combined with a mitogen-activated protein kinase kinase (MEK) inhibitor, ARRY-142886, there was marked synergy in shrinking these Kras-mutant cancers.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 4961038,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "These in vivo studies suggest that inhibitors of the PI3K-mTOR pathway may be active in cancers with PIK3CA mutations and, when combined with MEK inhibitors, may effectively treat KRAS mutated lung cancers.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 14241418,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "In summary, NVP-BEZ235 inhibits the PI3K/mTOR axis and results in antiproliferative and antitumoral activity in cancer cells with both wild-type and mutated p110-alpha.",
+          "kept": true,
+          "new_index": 8
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4961038,
+          "title": "Effective Use of PI3K and MEK Inhibitors to Treat Mutant K-Ras G12D and PIK3CA H1047R Murine Lung Cancers",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Somatic mutations that activate phosphoinositide 3-kinase (PI3K) have been identified in the p110-alpha catalytic subunit (encoded by PIK3CA)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "They are most frequently observed in two hotspots: the helical domain (E545K and E542K) and the kinase domain (H1047R)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Furthermore, clinical trials with PI3K inhibitors have recently been initiated, and it is unknown if their efficacy will be restricted to specific, genetically defined malignancies."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "In this study, we engineered a mouse model of lung adenocarcinomas initiated and maintained by expression of p110-alpha H1047R."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Treatment of these tumors with NVP-BEZ235, a dual pan-PI3K and mammalian target of rapamycin (mTOR) inhibitor in clinical development, led to marked tumor regression as shown by positron emission tomography-computed tomography, magnetic resonance imaging and microscopic examination."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "In contrast, mouse lung cancers driven by mutant Kras did not substantially respond to single-agent NVP-BEZ235."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "However, when NVP-BEZ235 was combined with a mitogen-activated protein kinase kinase (MEK) inhibitor, ARRY-142886, there was marked synergy in shrinking these Kras-mutant cancers."
+            }
+          ]
+        },
+        {
+          "doc_id": 14241418,
+          "title": "NVP-BEZ235, a dual PI3K/mTOR inhibitor, prevents PI3K signaling and inhibits the growth of cancer cells with activating PI3K mutations.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Phosphatidylinositol-3-kinase (PI3K) pathway deregulation is a common event in human cancer, either through inactivation of the tumor suppressor phosphatase and tensin homologue deleted from chromosome 10 or activating mutations of p110-alpha."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "These hotspot mutations result in oncogenic activity of the enzyme and contribute to therapeutic resistance to the anti-HER2 antibody trastuzumab."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "NVP-BEZ235 inhibited the activation of the downstream effectors Akt, S6 ribosomal protein, and 4EBP1 in breast cancer cells."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "The antiproliferative activity of NVP-BEZ235 was superior to the allosteric selective mTOR complex inhibitor everolimus in a panel of 21 cancer cell lines of different origin and mutation status."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "The described Akt activation due to mTOR inhibition was prevented by higher doses of NVP-BEZ235."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "NVP-BEZ235 reversed the hyperactivation of the PI3K/mTOR pathway caused by the oncogenic mutations of p110-alpha, E545K, and H1047R, and inhibited the proliferation of HER2-amplified BT474 cells exogenously expressing these mutations that render them resistant to trastuzumab."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "In trastuzumab-resistant BT474 H1047R breast cancer xenografts, NVP-BEZ235 inhibited PI3K signaling and had potent antitumor activity."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "In treated animals, there was complete inhibition of PI3K signaling in the skin at pharmacologically active doses, suggesting that skin may serve as surrogate tissue for pharmacodynamic studies."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "In summary, NVP-BEZ235 inhibits the PI3K/mTOR axis and results in antiproliferative and antitumoral activity in cancer cells with both wild-type and mutated p110-alpha."
+            }
+          ]
+        },
+        {
+          "doc_id": 14819804,
+          "title": "Mutations in the phosphatidylinositol-3-kinase pathway predict for antitumor activity of the inhibitor PX-866 whereas oncogenic Ras is a dominant predictor for resistance.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The novel phosphatidylinositol-3-kinase (PI3K) inhibitor PX-866 was tested against 13 experimental human tumor xenografts derived from cell lines of various tissue origins."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Mutant PI3K (PIK3CA) and loss of PTEN activity were sufficient, but not necessary, as predictors of sensitivity to the antitumor activity of the PI3K inhibitor PX-866 in the presence of wild-type Ras, whereas mutant oncogenic Ras was a dominant determinant of resistance, even in tumors with coexisting mutations in PIK3CA."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "The level of activation of PI3K signaling measured by tumor phosphorylated Ser(473)-Akt was insufficient to predict in vivo antitumor response to PX-866."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Studies using an H-Ras construct to constitutively and preferentially activate the three best-defined downstream targets of Ras, i.e., Raf, RalGDS, and PI3K, showed that mutant Ras mediates resistance through its ability to use multiple pathways for tumorigenesis."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "The identification of Ras and downstream signaling pathways driving resistance to PI3K inhibition might serve as an important guide for patient selection as inhibitors enter clinical trials and for the development of rational combinations with other molecularly targeted agents."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 4961038,
+          "original_index": 2,
+          "sentence": "Although the p110-alpha mutants are transforming in vitro, their oncogenic potential has not been assessed in genetically engineered mouse models.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4961038,
+          "original_index": 8,
+          "sentence": "These in vivo studies suggest that inhibitors of the PI3K-mTOR pathway may be active in cancers with PIK3CA mutations and, when combined with MEK inhibitors, may effectively treat KRAS mutated lung cancers.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 14241418,
+          "original_index": 2,
+          "sentence": "The PI3K pathway is, therefore, an attractive target for cancer therapy.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 14241418,
+          "original_index": 3,
+          "sentence": "We have studied NVP-BEZ235, a dual inhibitor of the PI3K and the downstream mammalian target of rapamycin (mTOR).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 14819804,
+          "original_index": 3,
+          "sentence": "Reverse-phase protein array revealed that the Ras-dependent downstream targets c-Myc and cyclin B were elevated in cell lines resistant to PX-866 in vivo.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g2",
+        "g1"
+      ],
+      "claim": "Combining phosphatidylinositide 3-kinase and MEK 1/2 inhibitors is effective at treating KRAS mutant tumors.",
+      "evidence": [
+        {
+          "doc_id": 4961038,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "However, when NVP-BEZ235 was combined with a mitogen-activated protein kinase kinase (MEK) inhibitor, ARRY-142886, there was marked synergy in shrinking these Kras-mutant cancers.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 4961038,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "These in vivo studies suggest that inhibitors of the PI3K-mTOR pathway may be active in cancers with PIK3CA mutations and, when combined with MEK inhibitors, may effectively treat KRAS mutated lung cancers.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 14241418,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "In summary, NVP-BEZ235 inhibits the PI3K/mTOR axis and results in antiproliferative and antitumoral activity in cancer cells with both wild-type and mutated p110-alpha.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4961038,
+          "title": "Effective Use of PI3K and MEK Inhibitors to Treat Mutant K-Ras G12D and PIK3CA H1047R Murine Lung Cancers",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Somatic mutations that activate phosphoinositide 3-kinase (PI3K) have been identified in the p110-alpha catalytic subunit (encoded by PIK3CA)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "They are most frequently observed in two hotspots: the helical domain (E545K and E542K) and the kinase domain (H1047R)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Furthermore, clinical trials with PI3K inhibitors have recently been initiated, and it is unknown if their efficacy will be restricted to specific, genetically defined malignancies."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "In this study, we engineered a mouse model of lung adenocarcinomas initiated and maintained by expression of p110-alpha H1047R."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Treatment of these tumors with NVP-BEZ235, a dual pan-PI3K and mammalian target of rapamycin (mTOR) inhibitor in clinical development, led to marked tumor regression as shown by positron emission tomography-computed tomography, magnetic resonance imaging and microscopic examination."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "In contrast, mouse lung cancers driven by mutant Kras did not substantially respond to single-agent NVP-BEZ235."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "However, when NVP-BEZ235 was combined with a mitogen-activated protein kinase kinase (MEK) inhibitor, ARRY-142886, there was marked synergy in shrinking these Kras-mutant cancers."
+            }
+          ]
+        },
+        {
+          "doc_id": 14241418,
+          "title": "NVP-BEZ235, a dual PI3K/mTOR inhibitor, prevents PI3K signaling and inhibits the growth of cancer cells with activating PI3K mutations.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Phosphatidylinositol-3-kinase (PI3K) pathway deregulation is a common event in human cancer, either through inactivation of the tumor suppressor phosphatase and tensin homologue deleted from chromosome 10 or activating mutations of p110-alpha."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "The PI3K pathway is, therefore, an attractive target for cancer therapy."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "We have studied NVP-BEZ235, a dual inhibitor of the PI3K and the downstream mammalian target of rapamycin (mTOR)."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "NVP-BEZ235 inhibited the activation of the downstream effectors Akt, S6 ribosomal protein, and 4EBP1 in breast cancer cells."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "The described Akt activation due to mTOR inhibition was prevented by higher doses of NVP-BEZ235."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "NVP-BEZ235 reversed the hyperactivation of the PI3K/mTOR pathway caused by the oncogenic mutations of p110-alpha, E545K, and H1047R, and inhibited the proliferation of HER2-amplified BT474 cells exogenously expressing these mutations that render them resistant to trastuzumab."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "In trastuzumab-resistant BT474 H1047R breast cancer xenografts, NVP-BEZ235 inhibited PI3K signaling and had potent antitumor activity."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "In treated animals, there was complete inhibition of PI3K signaling in the skin at pharmacologically active doses, suggesting that skin may serve as surrogate tissue for pharmacodynamic studies."
+            }
+          ]
+        },
+        {
+          "doc_id": 14819804,
+          "title": "Mutations in the phosphatidylinositol-3-kinase pathway predict for antitumor activity of the inhibitor PX-866 whereas oncogenic Ras is a dominant predictor for resistance.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "Mutant PI3K (PIK3CA) and loss of PTEN activity were sufficient, but not necessary, as predictors of sensitivity to the antitumor activity of the PI3K inhibitor PX-866 in the presence of wild-type Ras, whereas mutant oncogenic Ras was a dominant determinant of resistance, even in tumors with coexisting mutations in PIK3CA."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "The level of activation of PI3K signaling measured by tumor phosphorylated Ser(473)-Akt was insufficient to predict in vivo antitumor response to PX-866."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Reverse-phase protein array revealed that the Ras-dependent downstream targets c-Myc and cyclin B were elevated in cell lines resistant to PX-866 in vivo."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Studies using an H-Ras construct to constitutively and preferentially activate the three best-defined downstream targets of Ras, i.e., Raf, RalGDS, and PI3K, showed that mutant Ras mediates resistance through its ability to use multiple pathways for tumorigenesis."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "The identification of Ras and downstream signaling pathways driving resistance to PI3K inhibition might serve as an important guide for patient selection as inhibitors enter clinical trials and for the development of rational combinations with other molecularly targeted agents."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 4961038,
+          "original_index": 2,
+          "sentence": "Although the p110-alpha mutants are transforming in vitro, their oncogenic potential has not been assessed in genetically engineered mouse models.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4961038,
+          "original_index": 8,
+          "sentence": "These in vivo studies suggest that inhibitors of the PI3K-mTOR pathway may be active in cancers with PIK3CA mutations and, when combined with MEK inhibitors, may effectively treat KRAS mutated lung cancers.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 14241418,
+          "original_index": 1,
+          "sentence": "These hotspot mutations result in oncogenic activity of the enzyme and contribute to therapeutic resistance to the anti-HER2 antibody trastuzumab.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 14241418,
+          "original_index": 5,
+          "sentence": "The antiproliferative activity of NVP-BEZ235 was superior to the allosteric selective mTOR complex inhibitor everolimus in a panel of 21 cancer cell lines of different origin and mutation status.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 14241418,
+          "original_index": 10,
+          "sentence": "In summary, NVP-BEZ235 inhibits the PI3K/mTOR axis and results in antiproliferative and antitumoral activity in cancer cells with both wild-type and mutated p110-alpha.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 14819804,
+          "original_index": 0,
+          "sentence": "The novel phosphatidylinositol-3-kinase (PI3K) inhibitor PX-866 was tested against 13 experimental human tumor xenografts derived from cell lines of various tissue origins.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2"
+      ],
+      "claim": "Combining phosphatidylinositide 3-kinase and MEK 1/2 inhibitors is effective at treating KRAS mutant tumors.",
+      "evidence": [
+        {
+          "doc_id": 4961038,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "However, when NVP-BEZ235 was combined with a mitogen-activated protein kinase kinase (MEK) inhibitor, ARRY-142886, there was marked synergy in shrinking these Kras-mutant cancers.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4961038,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "These in vivo studies suggest that inhibitors of the PI3K-mTOR pathway may be active in cancers with PIK3CA mutations and, when combined with MEK inhibitors, may effectively treat KRAS mutated lung cancers.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 14241418,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "In summary, NVP-BEZ235 inhibits the PI3K/mTOR axis and results in antiproliferative and antitumoral activity in cancer cells with both wild-type and mutated p110-alpha.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4961038,
+          "title": "Effective Use of PI3K and MEK Inhibitors to Treat Mutant K-Ras G12D and PIK3CA H1047R Murine Lung Cancers",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Somatic mutations that activate phosphoinositide 3-kinase (PI3K) have been identified in the p110-alpha catalytic subunit (encoded by PIK3CA)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "They are most frequently observed in two hotspots: the helical domain (E545K and E542K) and the kinase domain (H1047R)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Although the p110-alpha mutants are transforming in vitro, their oncogenic potential has not been assessed in genetically engineered mouse models."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "In this study, we engineered a mouse model of lung adenocarcinomas initiated and maintained by expression of p110-alpha H1047R."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Treatment of these tumors with NVP-BEZ235, a dual pan-PI3K and mammalian target of rapamycin (mTOR) inhibitor in clinical development, led to marked tumor regression as shown by positron emission tomography-computed tomography, magnetic resonance imaging and microscopic examination."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "In contrast, mouse lung cancers driven by mutant Kras did not substantially respond to single-agent NVP-BEZ235."
+            }
+          ]
+        },
+        {
+          "doc_id": 14241418,
+          "title": "NVP-BEZ235, a dual PI3K/mTOR inhibitor, prevents PI3K signaling and inhibits the growth of cancer cells with activating PI3K mutations.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "These hotspot mutations result in oncogenic activity of the enzyme and contribute to therapeutic resistance to the anti-HER2 antibody trastuzumab."
+            },
+            {
+              "new_index": 1,
+              "original_index": 3,
+              "sentence": "We have studied NVP-BEZ235, a dual inhibitor of the PI3K and the downstream mammalian target of rapamycin (mTOR)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "NVP-BEZ235 inhibited the activation of the downstream effectors Akt, S6 ribosomal protein, and 4EBP1 in breast cancer cells."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "The antiproliferative activity of NVP-BEZ235 was superior to the allosteric selective mTOR complex inhibitor everolimus in a panel of 21 cancer cell lines of different origin and mutation status."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "The described Akt activation due to mTOR inhibition was prevented by higher doses of NVP-BEZ235."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "NVP-BEZ235 reversed the hyperactivation of the PI3K/mTOR pathway caused by the oncogenic mutations of p110-alpha, E545K, and H1047R, and inhibited the proliferation of HER2-amplified BT474 cells exogenously expressing these mutations that render them resistant to trastuzumab."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "In trastuzumab-resistant BT474 H1047R breast cancer xenografts, NVP-BEZ235 inhibited PI3K signaling and had potent antitumor activity."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "In treated animals, there was complete inhibition of PI3K signaling in the skin at pharmacologically active doses, suggesting that skin may serve as surrogate tissue for pharmacodynamic studies."
+            }
+          ]
+        },
+        {
+          "doc_id": 14819804,
+          "title": "Mutations in the phosphatidylinositol-3-kinase pathway predict for antitumor activity of the inhibitor PX-866 whereas oncogenic Ras is a dominant predictor for resistance.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The novel phosphatidylinositol-3-kinase (PI3K) inhibitor PX-866 was tested against 13 experimental human tumor xenografts derived from cell lines of various tissue origins."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "The level of activation of PI3K signaling measured by tumor phosphorylated Ser(473)-Akt was insufficient to predict in vivo antitumor response to PX-866."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Reverse-phase protein array revealed that the Ras-dependent downstream targets c-Myc and cyclin B were elevated in cell lines resistant to PX-866 in vivo."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Studies using an H-Ras construct to constitutively and preferentially activate the three best-defined downstream targets of Ras, i.e., Raf, RalGDS, and PI3K, showed that mutant Ras mediates resistance through its ability to use multiple pathways for tumorigenesis."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "The identification of Ras and downstream signaling pathways driving resistance to PI3K inhibition might serve as an important guide for patient selection as inhibitors enter clinical trials and for the development of rational combinations with other molecularly targeted agents."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 4961038,
+          "original_index": 3,
+          "sentence": "Furthermore, clinical trials with PI3K inhibitors have recently been initiated, and it is unknown if their efficacy will be restricted to specific, genetically defined malignancies.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4961038,
+          "original_index": 7,
+          "sentence": "However, when NVP-BEZ235 was combined with a mitogen-activated protein kinase kinase (MEK) inhibitor, ARRY-142886, there was marked synergy in shrinking these Kras-mutant cancers.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 4961038,
+          "original_index": 8,
+          "sentence": "These in vivo studies suggest that inhibitors of the PI3K-mTOR pathway may be active in cancers with PIK3CA mutations and, when combined with MEK inhibitors, may effectively treat KRAS mutated lung cancers.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 14241418,
+          "original_index": 0,
+          "sentence": "Phosphatidylinositol-3-kinase (PI3K) pathway deregulation is a common event in human cancer, either through inactivation of the tumor suppressor phosphatase and tensin homologue deleted from chromosome 10 or activating mutations of p110-alpha.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 14241418,
+          "original_index": 2,
+          "sentence": "The PI3K pathway is, therefore, an attractive target for cancer therapy.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 14241418,
+          "original_index": 10,
+          "sentence": "In summary, NVP-BEZ235 inhibits the PI3K/mTOR axis and results in antiproliferative and antitumoral activity in cancer cells with both wild-type and mutated p110-alpha.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 14819804,
+          "original_index": 1,
+          "sentence": "Mutant PI3K (PIK3CA) and loss of PTEN activity were sufficient, but not necessary, as predictors of sensitivity to the antitumor activity of the PI3K inhibitor PX-866 in the presence of wild-type Ras, whereas mutant oncogenic Ras was a dominant determinant of resistance, even in tumors with coexisting mutations in PIK3CA.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

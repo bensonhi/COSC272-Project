@@ -1,0 +1,63 @@
+{
+  "id": 439,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Fz/PCP-dependent Pk localizes to the anterior membrane of neuroectoderm cells during zebrafish neuralation",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 4423559,
+          "title": "Planar cell polarity signalling couples cell division and morphogenesis during neurulation",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Environmental and genetic aberrations lead to neural tube closure defects (NTDs) in 1 out of every 1,000 births."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Mouse and frog models for these birth defects have indicated that Van Gogh-like 2 (Vangl2, also known as Strabismus) and other components of planar cell polarity (PCP) signalling might control neurulation by promoting the convergence of neural progenitors to the midline."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here we show a novel role for PCP signalling during neurulation in zebrafish."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We demonstrate that non-canonical Wnt/PCP signalling polarizes neural progenitors along the anteroposterior axis."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "This polarity is transiently lost during cell division in the neural keel but is re-established as daughter cells reintegrate into the neuroepithelium."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Loss of zebrafish Vangl2 (in trilobite mutants) abolishes the polarization of neural keel cells, disrupts re-intercalation of daughter cells into the neuroepithelium, and results in ectopic neural progenitor accumulations and NTDs."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Remarkably, blocking cell division leads to rescue of trilobite neural tube morphogenesis despite persistent defects in convergence and extension."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "These results reveal a function for PCP signalling in coupling cell division and morphogenesis at neurulation and indicate a previously unrecognized mechanism that might underlie NTDs."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,1155 @@
+{
+  "id": 1327,
+  "origin": "train_more",
+  "n_groups": 6,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Tuberculosis incidence occurs at higher rates in more sparsely populated areas in the UK.",
+      "evidence": [
+        {
+          "doc_id": 24241932,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 6,
+          "sentence": "All deprivation covariates were positively associated with each other but on multiple regression, higher level of overcrowding was independently associated with tuberculosis rates.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 24241932,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 7,
+          "sentence": "For the white population, overcrowding was associated with tuberculosis rates independently of other variables (P=0.0036).",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 22194407,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 3,
+          "sentence": "A strong association was found between all TB mortality groups and overcrowding at the household level.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 22194407,
+          "group_id": "g4",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 8,
+          "sentence": "The significance of household as opposed to district level crowding suggests that prolonged contact is required for disease transmission.",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 22194407,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Regression analysis indicates that it is the overcrowding and poverty among ethnic populations that is significant for their tuberculosis mortality.",
+          "kept": true,
+          "new_index": 9
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 24241932,
+          "title": "Ecological analysis of ethnic differences in relation between tuberculosis and poverty.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To examine the effect of ethnicity on the relation between tuberculosis and deprivation.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Retrospective ecological study comparing incidence of tuberculosis in white and south Asian residents of the 39 electoral wards in Birmingham with ethnic specific indices of deprivation.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "SETTING Birmingham, 1989-93.   "
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "SUBJECTS 1516 notified cases of tuberculosis.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURES Rates of tuberculosis and measures of deprivation.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "RESULTS Univariate analysis showed significant associations of tuberculosis rates for the whole population with several indices of deprivation (P<0.01) and with the proportion of the population of south Asian origin (P<0.01)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "All deprivation covariates were positively associated with each other but on multiple regression, higher level of overcrowding was independently associated with tuberculosis rates."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "For the white population, overcrowding was associated with tuberculosis rates independently of other variables (P=0.0036)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "No relation with deprivation was found for the south Asian population in either single or multivariable analyses.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "CONCLUSIONS Poverty is significantly associated with tuberculosis in the white population, but no such relation exists for those of Asian ethnicity."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "These findings suggest that causal factors, and therefore potential interventions, will also differ by ethnic group."
+            }
+          ]
+        },
+        {
+          "doc_id": 22194407,
+          "title": "Tuberculosis mortality in England and Wales during 1982-1992: its association with poverty, ethnicity and AIDS.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "This paper seeks to establish the strength of association between contemporary tuberculosis (TB) in England and Wales and several potential aetiological factors."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "It presents an ecological analysis of standardised annual TB mortality rates for the 403 local authority districts between 1982 and 1992, disaggregated by age and sex."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Social, demographic and ethnicity measures from the 1981 and 1991 censuses and standardised annual AIDS-related mortality rates for young men are used to calculate Poisson regression models."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "A strong association was found between all TB mortality groups and overcrowding at the household level."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "For women, no other measures improved the explanatory power of the models."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "In multiple regressions, both poverty and AIDS-related mortality explained additional variation in the model for younger men."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "The link between ethnicity and tuberculosis notifications was not reflected in this analysis of mortality."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "For all groups no evidence of a positive relationship with ethnicity was found, once overcrowding had been accounted for."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "The significance of household as opposed to district level crowding suggests that prolonged contact is required for disease transmission."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Regression analysis indicates that it is the overcrowding and poverty among ethnic populations that is significant for their tuberculosis mortality."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "The fact that the relationship between AIDS and TB is confined to the group most typical of AIDS patients provides evidence that AIDS has little influence on the level of tuberculosis mortality in the wider population."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Explanations for the observed relationship include preferential certification, migration for treatment and shortcomings in health care provision."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g4"
+      ],
+      "claim": "Tuberculosis incidence occurs at higher rates in more sparsely populated areas in the UK.",
+      "evidence": [
+        {
+          "doc_id": 24241932,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 6,
+          "sentence": "All deprivation covariates were positively associated with each other but on multiple regression, higher level of overcrowding was independently associated with tuberculosis rates.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 24241932,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 7,
+          "sentence": "For the white population, overcrowding was associated with tuberculosis rates independently of other variables (P=0.0036).",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 22194407,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 3,
+          "sentence": "A strong association was found between all TB mortality groups and overcrowding at the household level.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 22194407,
+          "group_id": "g4",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 8,
+          "sentence": "The significance of household as opposed to district level crowding suggests that prolonged contact is required for disease transmission.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22194407,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Regression analysis indicates that it is the overcrowding and poverty among ethnic populations that is significant for their tuberculosis mortality.",
+          "kept": true,
+          "new_index": 7
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 24241932,
+          "title": "Ecological analysis of ethnic differences in relation between tuberculosis and poverty.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To examine the effect of ethnicity on the relation between tuberculosis and deprivation.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Retrospective ecological study comparing incidence of tuberculosis in white and south Asian residents of the 39 electoral wards in Birmingham with ethnic specific indices of deprivation.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "SETTING Birmingham, 1989-93.   "
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "SUBJECTS 1516 notified cases of tuberculosis.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURES Rates of tuberculosis and measures of deprivation.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "RESULTS Univariate analysis showed significant associations of tuberculosis rates for the whole population with several indices of deprivation (P<0.01) and with the proportion of the population of south Asian origin (P<0.01)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "All deprivation covariates were positively associated with each other but on multiple regression, higher level of overcrowding was independently associated with tuberculosis rates."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "For the white population, overcrowding was associated with tuberculosis rates independently of other variables (P=0.0036)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "No relation with deprivation was found for the south Asian population in either single or multivariable analyses.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 10,
+              "sentence": "These findings suggest that causal factors, and therefore potential interventions, will also differ by ethnic group."
+            }
+          ]
+        },
+        {
+          "doc_id": 22194407,
+          "title": "Tuberculosis mortality in England and Wales during 1982-1992: its association with poverty, ethnicity and AIDS.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "This paper seeks to establish the strength of association between contemporary tuberculosis (TB) in England and Wales and several potential aetiological factors."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "It presents an ecological analysis of standardised annual TB mortality rates for the 403 local authority districts between 1982 and 1992, disaggregated by age and sex."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Social, demographic and ethnicity measures from the 1981 and 1991 censuses and standardised annual AIDS-related mortality rates for young men are used to calculate Poisson regression models."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "A strong association was found between all TB mortality groups and overcrowding at the household level."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "For women, no other measures improved the explanatory power of the models."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "In multiple regressions, both poverty and AIDS-related mortality explained additional variation in the model for younger men."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "For all groups no evidence of a positive relationship with ethnicity was found, once overcrowding had been accounted for."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Regression analysis indicates that it is the overcrowding and poverty among ethnic populations that is significant for their tuberculosis mortality."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "The fact that the relationship between AIDS and TB is confined to the group most typical of AIDS patients provides evidence that AIDS has little influence on the level of tuberculosis mortality in the wider population."
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "Explanations for the observed relationship include preferential certification, migration for treatment and shortcomings in health care provision."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 24241932,
+          "original_index": 9,
+          "sentence": "CONCLUSIONS Poverty is significantly associated with tuberculosis in the white population, but no such relation exists for those of Asian ethnicity.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 22194407,
+          "original_index": 6,
+          "sentence": "The link between ethnicity and tuberculosis notifications was not reflected in this analysis of mortality.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 22194407,
+          "original_index": 8,
+          "sentence": "The significance of household as opposed to district level crowding suggests that prolonged contact is required for disease transmission.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g3",
+        "g2"
+      ],
+      "claim": "Tuberculosis incidence occurs at higher rates in more sparsely populated areas in the UK.",
+      "evidence": [
+        {
+          "doc_id": 24241932,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 6,
+          "sentence": "All deprivation covariates were positively associated with each other but on multiple regression, higher level of overcrowding was independently associated with tuberculosis rates.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 24241932,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 7,
+          "sentence": "For the white population, overcrowding was associated with tuberculosis rates independently of other variables (P=0.0036).",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 22194407,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 3,
+          "sentence": "A strong association was found between all TB mortality groups and overcrowding at the household level.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22194407,
+          "group_id": "g4",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 8,
+          "sentence": "The significance of household as opposed to district level crowding suggests that prolonged contact is required for disease transmission.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 22194407,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Regression analysis indicates that it is the overcrowding and poverty among ethnic populations that is significant for their tuberculosis mortality.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 24241932,
+          "title": "Ecological analysis of ethnic differences in relation between tuberculosis and poverty.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To examine the effect of ethnicity on the relation between tuberculosis and deprivation.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Retrospective ecological study comparing incidence of tuberculosis in white and south Asian residents of the 39 electoral wards in Birmingham with ethnic specific indices of deprivation.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "SETTING Birmingham, 1989-93.   "
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "SUBJECTS 1516 notified cases of tuberculosis.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "RESULTS Univariate analysis showed significant associations of tuberculosis rates for the whole population with several indices of deprivation (P<0.01) and with the proportion of the population of south Asian origin (P<0.01)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "All deprivation covariates were positively associated with each other but on multiple regression, higher level of overcrowding was independently associated with tuberculosis rates."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "For the white population, overcrowding was associated with tuberculosis rates independently of other variables (P=0.0036)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "No relation with deprivation was found for the south Asian population in either single or multivariable analyses.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 9,
+              "sentence": "CONCLUSIONS Poverty is significantly associated with tuberculosis in the white population, but no such relation exists for those of Asian ethnicity."
+            },
+            {
+              "new_index": 9,
+              "original_index": 10,
+              "sentence": "These findings suggest that causal factors, and therefore potential interventions, will also differ by ethnic group."
+            }
+          ]
+        },
+        {
+          "doc_id": 22194407,
+          "title": "Tuberculosis mortality in England and Wales during 1982-1992: its association with poverty, ethnicity and AIDS.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "It presents an ecological analysis of standardised annual TB mortality rates for the 403 local authority districts between 1982 and 1992, disaggregated by age and sex."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Social, demographic and ethnicity measures from the 1981 and 1991 censuses and standardised annual AIDS-related mortality rates for young men are used to calculate Poisson regression models."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "For women, no other measures improved the explanatory power of the models."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "In multiple regressions, both poverty and AIDS-related mortality explained additional variation in the model for younger men."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "The link between ethnicity and tuberculosis notifications was not reflected in this analysis of mortality."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "For all groups no evidence of a positive relationship with ethnicity was found, once overcrowding had been accounted for."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "The significance of household as opposed to district level crowding suggests that prolonged contact is required for disease transmission."
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "The fact that the relationship between AIDS and TB is confined to the group most typical of AIDS patients provides evidence that AIDS has little influence on the level of tuberculosis mortality in the wider population."
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "Explanations for the observed relationship include preferential certification, migration for treatment and shortcomings in health care provision."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 24241932,
+          "original_index": 4,
+          "sentence": "MAIN OUTCOME MEASURES Rates of tuberculosis and measures of deprivation.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 22194407,
+          "original_index": 0,
+          "sentence": "This paper seeks to establish the strength of association between contemporary tuberculosis (TB) in England and Wales and several potential aetiological factors.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 22194407,
+          "original_index": 3,
+          "sentence": "A strong association was found between all TB mortality groups and overcrowding at the household level.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22194407,
+          "original_index": 9,
+          "sentence": "Regression analysis indicates that it is the overcrowding and poverty among ethnic populations that is significant for their tuberculosis mortality.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_3_groups",
+      "dropped_group_ids": [
+        "g1",
+        "g3",
+        "g2"
+      ],
+      "claim": "Tuberculosis incidence occurs at higher rates in more sparsely populated areas in the UK.",
+      "evidence": [
+        {
+          "doc_id": 24241932,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 6,
+          "sentence": "All deprivation covariates were positively associated with each other but on multiple regression, higher level of overcrowding was independently associated with tuberculosis rates.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 24241932,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 7,
+          "sentence": "For the white population, overcrowding was associated with tuberculosis rates independently of other variables (P=0.0036).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22194407,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 3,
+          "sentence": "A strong association was found between all TB mortality groups and overcrowding at the household level.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22194407,
+          "group_id": "g4",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 8,
+          "sentence": "The significance of household as opposed to district level crowding suggests that prolonged contact is required for disease transmission.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 22194407,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Regression analysis indicates that it is the overcrowding and poverty among ethnic populations that is significant for their tuberculosis mortality.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 24241932,
+          "title": "Ecological analysis of ethnic differences in relation between tuberculosis and poverty.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To examine the effect of ethnicity on the relation between tuberculosis and deprivation.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Retrospective ecological study comparing incidence of tuberculosis in white and south Asian residents of the 39 electoral wards in Birmingham with ethnic specific indices of deprivation.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "SETTING Birmingham, 1989-93.   "
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "SUBJECTS 1516 notified cases of tuberculosis.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURES Rates of tuberculosis and measures of deprivation.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "RESULTS Univariate analysis showed significant associations of tuberculosis rates for the whole population with several indices of deprivation (P<0.01) and with the proportion of the population of south Asian origin (P<0.01)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "All deprivation covariates were positively associated with each other but on multiple regression, higher level of overcrowding was independently associated with tuberculosis rates."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "No relation with deprivation was found for the south Asian population in either single or multivariable analyses.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "These findings suggest that causal factors, and therefore potential interventions, will also differ by ethnic group."
+            }
+          ]
+        },
+        {
+          "doc_id": 22194407,
+          "title": "Tuberculosis mortality in England and Wales during 1982-1992: its association with poverty, ethnicity and AIDS.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "This paper seeks to establish the strength of association between contemporary tuberculosis (TB) in England and Wales and several potential aetiological factors."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Social, demographic and ethnicity measures from the 1981 and 1991 censuses and standardised annual AIDS-related mortality rates for young men are used to calculate Poisson regression models."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "For women, no other measures improved the explanatory power of the models."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "In multiple regressions, both poverty and AIDS-related mortality explained additional variation in the model for younger men."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "The link between ethnicity and tuberculosis notifications was not reflected in this analysis of mortality."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "For all groups no evidence of a positive relationship with ethnicity was found, once overcrowding had been accounted for."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "The significance of household as opposed to district level crowding suggests that prolonged contact is required for disease transmission."
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "The fact that the relationship between AIDS and TB is confined to the group most typical of AIDS patients provides evidence that AIDS has little influence on the level of tuberculosis mortality in the wider population."
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "Explanations for the observed relationship include preferential certification, migration for treatment and shortcomings in health care provision."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 24241932,
+          "original_index": 7,
+          "sentence": "For the white population, overcrowding was associated with tuberculosis rates independently of other variables (P=0.0036).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 24241932,
+          "original_index": 9,
+          "sentence": "CONCLUSIONS Poverty is significantly associated with tuberculosis in the white population, but no such relation exists for those of Asian ethnicity.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 22194407,
+          "original_index": 1,
+          "sentence": "It presents an ecological analysis of standardised annual TB mortality rates for the 403 local authority districts between 1982 and 1992, disaggregated by age and sex.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 22194407,
+          "original_index": 3,
+          "sentence": "A strong association was found between all TB mortality groups and overcrowding at the household level.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22194407,
+          "original_index": 9,
+          "sentence": "Regression analysis indicates that it is the overcrowding and poverty among ethnic populations that is significant for their tuberculosis mortality.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_4_groups",
+      "dropped_group_ids": [
+        "g0",
+        "g2",
+        "g4",
+        "g3"
+      ],
+      "claim": "Tuberculosis incidence occurs at higher rates in more sparsely populated areas in the UK.",
+      "evidence": [
+        {
+          "doc_id": 24241932,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 6,
+          "sentence": "All deprivation covariates were positively associated with each other but on multiple regression, higher level of overcrowding was independently associated with tuberculosis rates.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 24241932,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 7,
+          "sentence": "For the white population, overcrowding was associated with tuberculosis rates independently of other variables (P=0.0036).",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 22194407,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 3,
+          "sentence": "A strong association was found between all TB mortality groups and overcrowding at the household level.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22194407,
+          "group_id": "g4",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 8,
+          "sentence": "The significance of household as opposed to district level crowding suggests that prolonged contact is required for disease transmission.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22194407,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Regression analysis indicates that it is the overcrowding and poverty among ethnic populations that is significant for their tuberculosis mortality.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 24241932,
+          "title": "Ecological analysis of ethnic differences in relation between tuberculosis and poverty.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To examine the effect of ethnicity on the relation between tuberculosis and deprivation.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Retrospective ecological study comparing incidence of tuberculosis in white and south Asian residents of the 39 electoral wards in Birmingham with ethnic specific indices of deprivation.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "SETTING Birmingham, 1989-93.   "
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURES Rates of tuberculosis and measures of deprivation.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "RESULTS Univariate analysis showed significant associations of tuberculosis rates for the whole population with several indices of deprivation (P<0.01) and with the proportion of the population of south Asian origin (P<0.01)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "For the white population, overcrowding was associated with tuberculosis rates independently of other variables (P=0.0036)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "No relation with deprivation was found for the south Asian population in either single or multivariable analyses.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "CONCLUSIONS Poverty is significantly associated with tuberculosis in the white population, but no such relation exists for those of Asian ethnicity."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "These findings suggest that causal factors, and therefore potential interventions, will also differ by ethnic group."
+            }
+          ]
+        },
+        {
+          "doc_id": 22194407,
+          "title": "Tuberculosis mortality in England and Wales during 1982-1992: its association with poverty, ethnicity and AIDS.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "It presents an ecological analysis of standardised annual TB mortality rates for the 403 local authority districts between 1982 and 1992, disaggregated by age and sex."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Social, demographic and ethnicity measures from the 1981 and 1991 censuses and standardised annual AIDS-related mortality rates for young men are used to calculate Poisson regression models."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "For women, no other measures improved the explanatory power of the models."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "In multiple regressions, both poverty and AIDS-related mortality explained additional variation in the model for younger men."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "The link between ethnicity and tuberculosis notifications was not reflected in this analysis of mortality."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "For all groups no evidence of a positive relationship with ethnicity was found, once overcrowding had been accounted for."
+            },
+            {
+              "new_index": 6,
+              "original_index": 10,
+              "sentence": "The fact that the relationship between AIDS and TB is confined to the group most typical of AIDS patients provides evidence that AIDS has little influence on the level of tuberculosis mortality in the wider population."
+            },
+            {
+              "new_index": 7,
+              "original_index": 11,
+              "sentence": "Explanations for the observed relationship include preferential certification, migration for treatment and shortcomings in health care provision."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 24241932,
+          "original_index": 3,
+          "sentence": "SUBJECTS 1516 notified cases of tuberculosis.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 24241932,
+          "original_index": 6,
+          "sentence": "All deprivation covariates were positively associated with each other but on multiple regression, higher level of overcrowding was independently associated with tuberculosis rates.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22194407,
+          "original_index": 0,
+          "sentence": "This paper seeks to establish the strength of association between contemporary tuberculosis (TB) in England and Wales and several potential aetiological factors.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 22194407,
+          "original_index": 3,
+          "sentence": "A strong association was found between all TB mortality groups and overcrowding at the household level.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22194407,
+          "original_index": 8,
+          "sentence": "The significance of household as opposed to district level crowding suggests that prolonged contact is required for disease transmission.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22194407,
+          "original_index": 9,
+          "sentence": "Regression analysis indicates that it is the overcrowding and poverty among ethnic populations that is significant for their tuberculosis mortality.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2",
+        "g3",
+        "g4"
+      ],
+      "claim": "Tuberculosis incidence occurs at higher rates in more sparsely populated areas in the UK.",
+      "evidence": [
+        {
+          "doc_id": 24241932,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 6,
+          "sentence": "All deprivation covariates were positively associated with each other but on multiple regression, higher level of overcrowding was independently associated with tuberculosis rates.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 24241932,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 7,
+          "sentence": "For the white population, overcrowding was associated with tuberculosis rates independently of other variables (P=0.0036).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22194407,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 3,
+          "sentence": "A strong association was found between all TB mortality groups and overcrowding at the household level.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22194407,
+          "group_id": "g4",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 8,
+          "sentence": "The significance of household as opposed to district level crowding suggests that prolonged contact is required for disease transmission.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22194407,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Regression analysis indicates that it is the overcrowding and poverty among ethnic populations that is significant for their tuberculosis mortality.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 24241932,
+          "title": "Ecological analysis of ethnic differences in relation between tuberculosis and poverty.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To examine the effect of ethnicity on the relation between tuberculosis and deprivation.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Retrospective ecological study comparing incidence of tuberculosis in white and south Asian residents of the 39 electoral wards in Birmingham with ethnic specific indices of deprivation.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "SUBJECTS 1516 notified cases of tuberculosis.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURES Rates of tuberculosis and measures of deprivation.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "RESULTS Univariate analysis showed significant associations of tuberculosis rates for the whole population with several indices of deprivation (P<0.01) and with the proportion of the population of south Asian origin (P<0.01)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 8,
+              "sentence": "No relation with deprivation was found for the south Asian population in either single or multivariable analyses.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 9,
+              "sentence": "CONCLUSIONS Poverty is significantly associated with tuberculosis in the white population, but no such relation exists for those of Asian ethnicity."
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "These findings suggest that causal factors, and therefore potential interventions, will also differ by ethnic group."
+            }
+          ]
+        },
+        {
+          "doc_id": 22194407,
+          "title": "Tuberculosis mortality in England and Wales during 1982-1992: its association with poverty, ethnicity and AIDS.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "This paper seeks to establish the strength of association between contemporary tuberculosis (TB) in England and Wales and several potential aetiological factors."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "It presents an ecological analysis of standardised annual TB mortality rates for the 403 local authority districts between 1982 and 1992, disaggregated by age and sex."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Social, demographic and ethnicity measures from the 1981 and 1991 censuses and standardised annual AIDS-related mortality rates for young men are used to calculate Poisson regression models."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "In multiple regressions, both poverty and AIDS-related mortality explained additional variation in the model for younger men."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "The link between ethnicity and tuberculosis notifications was not reflected in this analysis of mortality."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "For all groups no evidence of a positive relationship with ethnicity was found, once overcrowding had been accounted for."
+            },
+            {
+              "new_index": 6,
+              "original_index": 10,
+              "sentence": "The fact that the relationship between AIDS and TB is confined to the group most typical of AIDS patients provides evidence that AIDS has little influence on the level of tuberculosis mortality in the wider population."
+            },
+            {
+              "new_index": 7,
+              "original_index": 11,
+              "sentence": "Explanations for the observed relationship include preferential certification, migration for treatment and shortcomings in health care provision."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 24241932,
+          "original_index": 2,
+          "sentence": "SETTING Birmingham, 1989-93.   ",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 24241932,
+          "original_index": 6,
+          "sentence": "All deprivation covariates were positively associated with each other but on multiple regression, higher level of overcrowding was independently associated with tuberculosis rates.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 24241932,
+          "original_index": 7,
+          "sentence": "For the white population, overcrowding was associated with tuberculosis rates independently of other variables (P=0.0036).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22194407,
+          "original_index": 3,
+          "sentence": "A strong association was found between all TB mortality groups and overcrowding at the household level.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22194407,
+          "original_index": 4,
+          "sentence": "For women, no other measures improved the explanatory power of the models.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 22194407,
+          "original_index": 8,
+          "sentence": "The significance of household as opposed to district level crowding suggests that prolonged contact is required for disease transmission.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22194407,
+          "original_index": 9,
+          "sentence": "Regression analysis indicates that it is the overcrowding and poverty among ethnic populations that is significant for their tuberculosis mortality.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

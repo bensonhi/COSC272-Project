@@ -1,0 +1,53 @@
+{
+  "id": 956,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Pleiotropic coupling of GLP-1R to intracellular effectors promotes distinct profiles of cellular signaling.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 12956194,
+          "title": "The Extracellular Surface of the GLP-1 Receptor Is a Molecular Trigger for Biased Agonism",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Ligand-directed signal bias offers opportunities for sculpting molecular events, with the promise of better, safer therapeutics."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Critical to the exploitation of signal bias is an understanding of the molecular events coupling ligand binding to intracellular signaling."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Activation of class B G protein-coupled receptors is driven by interaction of the peptide N terminus with the receptor core."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "To understand how this drives signaling, we have used advanced analytical methods that enable separation of effects on pathway-specific signaling from those that modify agonist affinity and mapped the functional consequence of receptor modification onto three-dimensional models of a receptor-ligand complex."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "This yields molecular insights into the initiation of receptor activation and the mechanistic basis for biased agonism."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Our data reveal that peptide agonists can engage different elements of the receptor extracellular face to achieve effector coupling and biased signaling providing a foundation for rational design of biased agonists."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

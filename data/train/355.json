@@ -1,0 +1,551 @@
+{
+  "id": 355,
+  "origin": "train_more",
+  "n_groups": 4,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Drosophila supracellular actomyosin structures are found at boundaries in wing imaginal discs.",
+      "evidence": [
+        {
+          "doc_id": 12800122,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Our results provide a physical mechanism in which the local increase in Myosin II-dependent cell bond tension directs cell sorting at compartment boundaries.",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 38380061,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Here, we show that the dorsal-ventral boundary exhibits a distinct accumulation of Myosin II, and that this accumulation is regulated downstream of Notch signaling.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 38380061,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "These observations identify a distinct accumulation and requirement for Myosin activity in dorsal-ventral compartmentalization, and suggest a novel mechanism in which contractile tension along an F-actin cable at the compartment boundary contributes to compartmentalization.",
+          "kept": true,
+          "new_index": 6
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 12800122,
+          "title": "Increased Cell Bond Tension Governs Cell Sorting at the Drosophila Anteroposterior Compartment Boundary",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Subdividing proliferating tissues into compartments is an evolutionarily conserved strategy of animal development [1-6]."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Signals across boundaries between compartments can result in local expression of secreted proteins organizing growth and patterning of tissues [1-6]."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Sharp and straight interfaces between compartments are crucial for stabilizing the position of such organizers and therefore for precise implementation of body plans."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Maintaining boundaries in proliferating tissues requires mechanisms to counteract cell rearrangements caused by cell division; however, the nature of such mechanisms remains unclear."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Here we quantitatively analyzed cell morphology and the response to the laser ablation of cell bonds in the vicinity of the anteroposterior compartment boundary in developing Drosophila wings."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We found that mechanical tension is approximately 2.5-fold increased on cell bonds along this compartment boundary as compared to the remaining tissue."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Cell bond tension is decreased in the presence of Y-27632 [7], an inhibitor of Rho-kinase whose main effector is Myosin II [8]."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Simulations using a vertex model [9] demonstrate that a 2.5-fold increase in local cell bond tension suffices to guide the rearrangement of cells after cell division to maintain compartment boundaries."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Our results provide a physical mechanism in which the local increase in Myosin II-dependent cell bond tension directs cell sorting at compartment boundaries."
+            }
+          ]
+        },
+        {
+          "doc_id": 38380061,
+          "title": "Localization and requirement for Myosin II at the dorsal-ventral compartment boundary of the Drosophila wing.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "As organisms develop, their tissues can become separated into distinct cell populations through the establishment of compartment boundaries."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Compartment boundaries have been discovered in a wide variety of tissues, but in many cases the molecular mechanisms that separate cells remain poorly understood."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "In the Drosophila wing, a stripe of Notch activation maintains the dorsal-ventral compartment boundary, through a process that depends on the actin cytoskeleton."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Here, we show that the dorsal-ventral boundary exhibits a distinct accumulation of Myosin II, and that this accumulation is regulated downstream of Notch signaling."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Conversely, the dorsal-ventral boundary is depleted for the Par-3 homologue Bazooka."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We further show that mutations in the Myosin heavy chain subunit encoded by zipper can impair dorsal-ventral compartmentalization without affecting anterior-posterior compartmentalization."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "These observations identify a distinct accumulation and requirement for Myosin activity in dorsal-ventral compartmentalization, and suggest a novel mechanism in which contractile tension along an F-actin cable at the compartment boundary contributes to compartmentalization."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Drosophila supracellular actomyosin structures are found at boundaries in wing imaginal discs.",
+      "evidence": [
+        {
+          "doc_id": 12800122,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Our results provide a physical mechanism in which the local increase in Myosin II-dependent cell bond tension directs cell sorting at compartment boundaries.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 38380061,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Here, we show that the dorsal-ventral boundary exhibits a distinct accumulation of Myosin II, and that this accumulation is regulated downstream of Notch signaling.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 38380061,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "These observations identify a distinct accumulation and requirement for Myosin activity in dorsal-ventral compartmentalization, and suggest a novel mechanism in which contractile tension along an F-actin cable at the compartment boundary contributes to compartmentalization.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 12800122,
+          "title": "Increased Cell Bond Tension Governs Cell Sorting at the Drosophila Anteroposterior Compartment Boundary",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Subdividing proliferating tissues into compartments is an evolutionarily conserved strategy of animal development [1-6]."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Signals across boundaries between compartments can result in local expression of secreted proteins organizing growth and patterning of tissues [1-6]."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Sharp and straight interfaces between compartments are crucial for stabilizing the position of such organizers and therefore for precise implementation of body plans."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Maintaining boundaries in proliferating tissues requires mechanisms to counteract cell rearrangements caused by cell division; however, the nature of such mechanisms remains unclear."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Here we quantitatively analyzed cell morphology and the response to the laser ablation of cell bonds in the vicinity of the anteroposterior compartment boundary in developing Drosophila wings."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We found that mechanical tension is approximately 2.5-fold increased on cell bonds along this compartment boundary as compared to the remaining tissue."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "Simulations using a vertex model [9] demonstrate that a 2.5-fold increase in local cell bond tension suffices to guide the rearrangement of cells after cell division to maintain compartment boundaries."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "Our results provide a physical mechanism in which the local increase in Myosin II-dependent cell bond tension directs cell sorting at compartment boundaries."
+            }
+          ]
+        },
+        {
+          "doc_id": 38380061,
+          "title": "Localization and requirement for Myosin II at the dorsal-ventral compartment boundary of the Drosophila wing.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "As organisms develop, their tissues can become separated into distinct cell populations through the establishment of compartment boundaries."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "In the Drosophila wing, a stripe of Notch activation maintains the dorsal-ventral compartment boundary, through a process that depends on the actin cytoskeleton."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Conversely, the dorsal-ventral boundary is depleted for the Par-3 homologue Bazooka."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "We further show that mutations in the Myosin heavy chain subunit encoded by zipper can impair dorsal-ventral compartmentalization without affecting anterior-posterior compartmentalization."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "These observations identify a distinct accumulation and requirement for Myosin activity in dorsal-ventral compartmentalization, and suggest a novel mechanism in which contractile tension along an F-actin cable at the compartment boundary contributes to compartmentalization."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 12800122,
+          "original_index": 6,
+          "sentence": "Cell bond tension is decreased in the presence of Y-27632 [7], an inhibitor of Rho-kinase whose main effector is Myosin II [8].",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 38380061,
+          "original_index": 1,
+          "sentence": "Compartment boundaries have been discovered in a wide variety of tissues, but in many cases the molecular mechanisms that separate cells remain poorly understood.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 38380061,
+          "original_index": 3,
+          "sentence": "Here, we show that the dorsal-ventral boundary exhibits a distinct accumulation of Myosin II, and that this accumulation is regulated downstream of Notch signaling.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g1",
+        "g2"
+      ],
+      "claim": "Drosophila supracellular actomyosin structures are found at boundaries in wing imaginal discs.",
+      "evidence": [
+        {
+          "doc_id": 12800122,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Our results provide a physical mechanism in which the local increase in Myosin II-dependent cell bond tension directs cell sorting at compartment boundaries.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 38380061,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Here, we show that the dorsal-ventral boundary exhibits a distinct accumulation of Myosin II, and that this accumulation is regulated downstream of Notch signaling.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 38380061,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "These observations identify a distinct accumulation and requirement for Myosin activity in dorsal-ventral compartmentalization, and suggest a novel mechanism in which contractile tension along an F-actin cable at the compartment boundary contributes to compartmentalization.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 12800122,
+          "title": "Increased Cell Bond Tension Governs Cell Sorting at the Drosophila Anteroposterior Compartment Boundary",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Subdividing proliferating tissues into compartments is an evolutionarily conserved strategy of animal development [1-6]."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Signals across boundaries between compartments can result in local expression of secreted proteins organizing growth and patterning of tissues [1-6]."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Sharp and straight interfaces between compartments are crucial for stabilizing the position of such organizers and therefore for precise implementation of body plans."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Maintaining boundaries in proliferating tissues requires mechanisms to counteract cell rearrangements caused by cell division; however, the nature of such mechanisms remains unclear."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Here we quantitatively analyzed cell morphology and the response to the laser ablation of cell bonds in the vicinity of the anteroposterior compartment boundary in developing Drosophila wings."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We found that mechanical tension is approximately 2.5-fold increased on cell bonds along this compartment boundary as compared to the remaining tissue."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "Simulations using a vertex model [9] demonstrate that a 2.5-fold increase in local cell bond tension suffices to guide the rearrangement of cells after cell division to maintain compartment boundaries."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "Our results provide a physical mechanism in which the local increase in Myosin II-dependent cell bond tension directs cell sorting at compartment boundaries."
+            }
+          ]
+        },
+        {
+          "doc_id": 38380061,
+          "title": "Localization and requirement for Myosin II at the dorsal-ventral compartment boundary of the Drosophila wing.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "As organisms develop, their tissues can become separated into distinct cell populations through the establishment of compartment boundaries."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Compartment boundaries have been discovered in a wide variety of tissues, but in many cases the molecular mechanisms that separate cells remain poorly understood."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "In the Drosophila wing, a stripe of Notch activation maintains the dorsal-ventral compartment boundary, through a process that depends on the actin cytoskeleton."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "We further show that mutations in the Myosin heavy chain subunit encoded by zipper can impair dorsal-ventral compartmentalization without affecting anterior-posterior compartmentalization."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 12800122,
+          "original_index": 6,
+          "sentence": "Cell bond tension is decreased in the presence of Y-27632 [7], an inhibitor of Rho-kinase whose main effector is Myosin II [8].",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 38380061,
+          "original_index": 3,
+          "sentence": "Here, we show that the dorsal-ventral boundary exhibits a distinct accumulation of Myosin II, and that this accumulation is regulated downstream of Notch signaling.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 38380061,
+          "original_index": 4,
+          "sentence": "Conversely, the dorsal-ventral boundary is depleted for the Par-3 homologue Bazooka.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 38380061,
+          "original_index": 6,
+          "sentence": "These observations identify a distinct accumulation and requirement for Myosin activity in dorsal-ventral compartmentalization, and suggest a novel mechanism in which contractile tension along an F-actin cable at the compartment boundary contributes to compartmentalization.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2"
+      ],
+      "claim": "Drosophila supracellular actomyosin structures are found at boundaries in wing imaginal discs.",
+      "evidence": [
+        {
+          "doc_id": 12800122,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Our results provide a physical mechanism in which the local increase in Myosin II-dependent cell bond tension directs cell sorting at compartment boundaries.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 38380061,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Here, we show that the dorsal-ventral boundary exhibits a distinct accumulation of Myosin II, and that this accumulation is regulated downstream of Notch signaling.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 38380061,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "These observations identify a distinct accumulation and requirement for Myosin activity in dorsal-ventral compartmentalization, and suggest a novel mechanism in which contractile tension along an F-actin cable at the compartment boundary contributes to compartmentalization.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 12800122,
+          "title": "Increased Cell Bond Tension Governs Cell Sorting at the Drosophila Anteroposterior Compartment Boundary",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Subdividing proliferating tissues into compartments is an evolutionarily conserved strategy of animal development [1-6]."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Signals across boundaries between compartments can result in local expression of secreted proteins organizing growth and patterning of tissues [1-6]."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Sharp and straight interfaces between compartments are crucial for stabilizing the position of such organizers and therefore for precise implementation of body plans."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Here we quantitatively analyzed cell morphology and the response to the laser ablation of cell bonds in the vicinity of the anteroposterior compartment boundary in developing Drosophila wings."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "We found that mechanical tension is approximately 2.5-fold increased on cell bonds along this compartment boundary as compared to the remaining tissue."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Cell bond tension is decreased in the presence of Y-27632 [7], an inhibitor of Rho-kinase whose main effector is Myosin II [8]."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "Simulations using a vertex model [9] demonstrate that a 2.5-fold increase in local cell bond tension suffices to guide the rearrangement of cells after cell division to maintain compartment boundaries."
+            }
+          ]
+        },
+        {
+          "doc_id": 38380061,
+          "title": "Localization and requirement for Myosin II at the dorsal-ventral compartment boundary of the Drosophila wing.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "As organisms develop, their tissues can become separated into distinct cell populations through the establishment of compartment boundaries."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Compartment boundaries have been discovered in a wide variety of tissues, but in many cases the molecular mechanisms that separate cells remain poorly understood."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "In the Drosophila wing, a stripe of Notch activation maintains the dorsal-ventral compartment boundary, through a process that depends on the actin cytoskeleton."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "We further show that mutations in the Myosin heavy chain subunit encoded by zipper can impair dorsal-ventral compartmentalization without affecting anterior-posterior compartmentalization."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 12800122,
+          "original_index": 3,
+          "sentence": "Maintaining boundaries in proliferating tissues requires mechanisms to counteract cell rearrangements caused by cell division; however, the nature of such mechanisms remains unclear.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 12800122,
+          "original_index": 8,
+          "sentence": "Our results provide a physical mechanism in which the local increase in Myosin II-dependent cell bond tension directs cell sorting at compartment boundaries.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 38380061,
+          "original_index": 3,
+          "sentence": "Here, we show that the dorsal-ventral boundary exhibits a distinct accumulation of Myosin II, and that this accumulation is regulated downstream of Notch signaling.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 38380061,
+          "original_index": 4,
+          "sentence": "Conversely, the dorsal-ventral boundary is depleted for the Par-3 homologue Bazooka.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 38380061,
+          "original_index": 6,
+          "sentence": "These observations identify a distinct accumulation and requirement for Myosin activity in dorsal-ventral compartmentalization, and suggest a novel mechanism in which contractile tension along an F-actin cable at the compartment boundary contributes to compartmentalization.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

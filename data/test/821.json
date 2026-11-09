@@ -1,0 +1,55 @@
+{
+  "id": 821,
+  "origin": "dev",
+  "claim": "N-terminal cleavage reduces success identifying transcription start sites.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 8646760,
+      "title": "Identification and Functional Characterization of N-Terminally Acetylated Proteins in Drosophila melanogaster",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Protein modifications play a major role for most biological processes in living organisms."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Amino-terminal acetylation of proteins is a common modification found throughout the tree of life: the N-terminus of a nascent polypeptide chain becomes co-translationally acetylated, often after the removal of the initiating methionine residue."
+        },
+        {
+          "original_index": 2,
+          "sentence": "While the enzymes and protein complexes involved in these processes have been extensively studied, only little is known about the biological function of such N-terminal modification events."
+        },
+        {
+          "original_index": 3,
+          "sentence": "To identify common principles of N-terminal acetylation, we analyzed the amino-terminal peptides from proteins extracted from Drosophila Kc167 cells."
+        },
+        {
+          "original_index": 4,
+          "sentence": "We detected more than 1,200 mature protein N-termini and could show that N-terminal acetylation occurs in insects with a similar frequency as in humans."
+        },
+        {
+          "original_index": 5,
+          "sentence": "As the sole true determinant for N-terminal acetylation we could extract the (X)PX rule that indicates the prevention of acetylation under all circumstances."
+        },
+        {
+          "original_index": 6,
+          "sentence": "We could show that this rule can be used to genetically engineer a protein to study the biological relevance of the presence or absence of an acetyl group, thereby generating a generic assay to probe the functional importance of N-terminal acetylation."
+        },
+        {
+          "original_index": 7,
+          "sentence": "We applied the assay by expressing mutated proteins as transgenes in cell lines and in flies."
+        },
+        {
+          "original_index": 8,
+          "sentence": "Here, we present a straightforward strategy to systematically study the functional relevance of N-terminal acetylations in cells and whole organisms."
+        },
+        {
+          "original_index": 9,
+          "sentence": "Since the (X)PX rule seems to be of general validity in lower as well as higher eukaryotes, we propose that it can be used to study the function of N-terminal acetylation in all species."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

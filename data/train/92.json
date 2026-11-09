@@ -1,0 +1,53 @@
+{
+  "id": 92,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Aged patients are more susceptible to ischaemia/reperfusion injury.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 1084345,
+          "title": "Restoration of chaperone-mediated autophagy in aging liver improves cellular maintenance and hepatic function",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Chaperone-mediated autophagy (CMA), a selective mechanism for degradation of cytosolic proteins in lysosomes, contributes to the removal of altered proteins as part of the cellular quality-control systems."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We have previously found that CMA activity declines in aged organisms and have proposed that this failure in cellular clearance could contribute to the accumulation of altered proteins, the abnormal cellular homeostasis and, eventually, the functional loss characteristic of aged organisms."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "To determine whether these negative features of aging can be prevented by maintaining efficient autophagic activity until late in life, in this work we have corrected the CMA defect in aged rodents."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We have generated a double transgenic mouse model in which the amount of the lysosomal receptor for CMA, previously shown to decrease in abundance with age, can be modulated."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We have analyzed in this model the consequences of preventing the age-dependent decrease in receptor abundance in aged rodents at the cellular and organ levels."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We show here that CMA activity is maintained until advanced ages if the decrease in the receptor abundance is prevented and that preservation of autophagic activity is associated with lower intracellular accumulation of damaged proteins, better ability to handle protein damage and improved organ function."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

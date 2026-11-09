@@ -1,0 +1,39 @@
+{
+  "id": 1098,
+  "origin": "train_more",
+  "claim": "Stacking is more stable when a purine is present in the +5 position (C1698).",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 13552682,
+      "title": "Decoding Mammalian Ribosome-mRNA States by Translational GTPase Complexes",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "In eukaryotes, accurate protein synthesis relies on a family of translational GTPases that pair with specific decoding factors to decipher the mRNA code on ribosomes."
+        },
+        {
+          "original_index": 1,
+          "sentence": "We present structures of the mammalian ribosome engaged with decoding factor⋅GTPase complexes representing intermediates of translation elongation (aminoacyl-tRNA⋅eEF1A), termination (eRF1⋅eRF3), and ribosome rescue (Pelota⋅Hbs1l)."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Comparative analyses reveal that each decoding factor exploits the plasticity of the ribosomal decoding center to differentially remodel ribosomal proteins and rRNA."
+        },
+        {
+          "original_index": 3,
+          "sentence": "This leads to varying degrees of large-scale ribosome movements and implies distinct mechanisms for communicating information from the decoding center to each GTPase."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Additional structural snapshots of the translation termination pathway reveal the conformational changes that choreograph the accommodation of decoding factors into the peptidyl transferase center."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Our results provide a structural framework for how different states of the mammalian ribosome are selectively recognized by the appropriate decoding factor⋅GTPase complex to ensure translational fidelity."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

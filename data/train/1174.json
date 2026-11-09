@@ -1,0 +1,53 @@
+{
+  "id": 1174,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The PPR MDA5 has twenty N-terminal CARD domains.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 31272411,
+          "title": "Immune signaling by RIG-I-like receptors.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The RIG-I-like receptors (RLRs) RIG-I, MDA5, and LGP2 play a major role in pathogen sensing of RNA virus infection to initiate and modulate antiviral immunity."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The RLRs detect viral RNA ligands or processed self RNA in the cytoplasm to trigger innate immunity and inflammation and to impart gene expression that serves to control infection."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Importantly, RLRs cooperate in signaling crosstalk networks with Toll-like receptors and other factors to impart innate immunity and to modulate the adaptive immune response."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "RLR regulation occurs at a variety of levels ranging from autoregulation to ligand and cofactor interactions and posttranslational modifications."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Abberant RLR signaling or dysregulation of RLR expression is now implicated in the development of autoimmune diseases."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Understanding the processes of RLR signaling and response will provide insights to guide RLR-targeted therapeutics for antiviral and immune-modifying applications."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

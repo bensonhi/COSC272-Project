@@ -1,0 +1,428 @@
+{
+  "id": 885,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "One in five surgical randomized controlled trials are discontinued early.",
+      "evidence": [
+        {
+          "doc_id": 6477536,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "Of these, 21% (81/395) were discontinued early, most commonly owing to poor recruitment (44%, 36/81).",
+          "kept": true,
+          "new_index": 10
+        },
+        {
+          "doc_id": 6477536,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 17,
+          "sentence": "CONCLUSIONS One in five surgical randomised controlled trials are discontinued early, one in three completed trials remain unpublished, and investigators of unpublished studies are frequently not contactable.",
+          "kept": true,
+          "new_index": 17
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6477536,
+          "title": "Discontinuation and non-publication of surgical randomised controlled trials: observational study",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To determine the rate of early discontinuation and non-publication of randomised controlled trials involving patients undergoing surgery.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Cross sectional observational study of registered and published trials.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "SETTING Randomised controlled trials of interventions in patients undergoing a surgical procedure.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DATA SOURCES The ClinicalTrials.gov database was searched for interventional trials registered between January 2008 and December 2009 using the keyword \"surgery\"."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Recruitment status was extracted from the ClinicalTrials.gov database."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "A systematic search for studies published in peer reviewed journals was performed; if they were not found, results posted on the ClinicalTrials.gov results database were sought."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Email queries were sent to trial investigators of discontinued and unpublished completed trials if no reason for the respective status was disclosed.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "MAIN OUTCOME MEASURES Trial discontinuation before completion and non-publication after completion."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Logistic regression was used to determine the effect of funding source on publication status, with adjustment for intervention type and trial size.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "RESULTS Of 818 registered trials found using the keyword \"surgery\", 395 met the inclusion criteria."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Of these, 21% (81/395) were discontinued early, most commonly owing to poor recruitment (44%, 36/81)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "The remaining 314 (79%) trials proceeded to completion, with a publication rate of 66% (208/314) at a median time of 4.9 (interquartile range 4.0-6.0) years from study completion to publication search."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "A further 6% (20/314) of studies presented results on ClinicalTrials.gov without a corresponding peer reviewed publication."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "Industry funding did not affect the rate of discontinuation (adjusted odds ratio 0.91, 95% confidence interval 0.54 to 1.55) but was associated with a lower odds of publication for completed trials (0.43, 0.26 to 0.72)."
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "Investigators' email addresses for trials with an uncertain fate were identified for 71.4% (10/14) of discontinued trials and 83% (101/122) of unpublished studies."
+            },
+            {
+              "new_index": 15,
+              "original_index": 15,
+              "sentence": "Only 43% (6/14) and 20% (25/122) replies were received."
+            },
+            {
+              "new_index": 16,
+              "original_index": 16,
+              "sentence": "Email responses for completed trials indicated 11 trials in press, five published studies (four in non-indexed peer reviewed journals), and nine trials remaining unpublished.   \n"
+            },
+            {
+              "new_index": 17,
+              "original_index": 17,
+              "sentence": "CONCLUSIONS One in five surgical randomised controlled trials are discontinued early, one in three completed trials remain unpublished, and investigators of unpublished studies are frequently not contactable."
+            },
+            {
+              "new_index": 18,
+              "original_index": 18,
+              "sentence": "This represents a waste of research resources and raises ethical concerns regarding hidden clinical data and futile participation by patients with its attendant risks."
+            },
+            {
+              "new_index": 19,
+              "original_index": 19,
+              "sentence": "To promote future efficiency and transparency, changes are proposed to research governance frameworks to overcome these concerns."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "One in five surgical randomized controlled trials are discontinued early.",
+      "evidence": [
+        {
+          "doc_id": 6477536,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "Of these, 21% (81/395) were discontinued early, most commonly owing to poor recruitment (44%, 36/81).",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 6477536,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 17,
+          "sentence": "CONCLUSIONS One in five surgical randomised controlled trials are discontinued early, one in three completed trials remain unpublished, and investigators of unpublished studies are frequently not contactable.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6477536,
+          "title": "Discontinuation and non-publication of surgical randomised controlled trials: observational study",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "DESIGN Cross sectional observational study of registered and published trials.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "SETTING Randomised controlled trials of interventions in patients undergoing a surgical procedure.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "DATA SOURCES The ClinicalTrials.gov database was searched for interventional trials registered between January 2008 and December 2009 using the keyword \"surgery\"."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Recruitment status was extracted from the ClinicalTrials.gov database."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Email queries were sent to trial investigators of discontinued and unpublished completed trials if no reason for the respective status was disclosed.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "MAIN OUTCOME MEASURES Trial discontinuation before completion and non-publication after completion."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "Logistic regression was used to determine the effect of funding source on publication status, with adjustment for intervention type and trial size.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "RESULTS Of 818 registered trials found using the keyword \"surgery\", 395 met the inclusion criteria."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "Of these, 21% (81/395) were discontinued early, most commonly owing to poor recruitment (44%, 36/81)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "The remaining 314 (79%) trials proceeded to completion, with a publication rate of 66% (208/314) at a median time of 4.9 (interquartile range 4.0-6.0) years from study completion to publication search."
+            },
+            {
+              "new_index": 10,
+              "original_index": 13,
+              "sentence": "Industry funding did not affect the rate of discontinuation (adjusted odds ratio 0.91, 95% confidence interval 0.54 to 1.55) but was associated with a lower odds of publication for completed trials (0.43, 0.26 to 0.72)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 14,
+              "sentence": "Investigators' email addresses for trials with an uncertain fate were identified for 71.4% (10/14) of discontinued trials and 83% (101/122) of unpublished studies."
+            },
+            {
+              "new_index": 12,
+              "original_index": 15,
+              "sentence": "Only 43% (6/14) and 20% (25/122) replies were received."
+            },
+            {
+              "new_index": 13,
+              "original_index": 16,
+              "sentence": "Email responses for completed trials indicated 11 trials in press, five published studies (four in non-indexed peer reviewed journals), and nine trials remaining unpublished.   \n"
+            },
+            {
+              "new_index": 14,
+              "original_index": 18,
+              "sentence": "This represents a waste of research resources and raises ethical concerns regarding hidden clinical data and futile participation by patients with its attendant risks."
+            },
+            {
+              "new_index": 15,
+              "original_index": 19,
+              "sentence": "To promote future efficiency and transparency, changes are proposed to research governance frameworks to overcome these concerns."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6477536,
+          "original_index": 0,
+          "sentence": "OBJECTIVE To determine the rate of early discontinuation and non-publication of randomised controlled trials involving patients undergoing surgery.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 6477536,
+          "original_index": 5,
+          "sentence": "A systematic search for studies published in peer reviewed journals was performed; if they were not found, results posted on the ClinicalTrials.gov results database were sought.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 6477536,
+          "original_index": 12,
+          "sentence": "A further 6% (20/314) of studies presented results on ClinicalTrials.gov without a corresponding peer reviewed publication.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 6477536,
+          "original_index": 17,
+          "sentence": "CONCLUSIONS One in five surgical randomised controlled trials are discontinued early, one in three completed trials remain unpublished, and investigators of unpublished studies are frequently not contactable.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "One in five surgical randomized controlled trials are discontinued early.",
+      "evidence": [
+        {
+          "doc_id": 6477536,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "Of these, 21% (81/395) were discontinued early, most commonly owing to poor recruitment (44%, 36/81).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6477536,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 17,
+          "sentence": "CONCLUSIONS One in five surgical randomised controlled trials are discontinued early, one in three completed trials remain unpublished, and investigators of unpublished studies are frequently not contactable.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6477536,
+          "title": "Discontinuation and non-publication of surgical randomised controlled trials: observational study",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To determine the rate of early discontinuation and non-publication of randomised controlled trials involving patients undergoing surgery.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Cross sectional observational study of registered and published trials.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "SETTING Randomised controlled trials of interventions in patients undergoing a surgical procedure.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Recruitment status was extracted from the ClinicalTrials.gov database."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "A systematic search for studies published in peer reviewed journals was performed; if they were not found, results posted on the ClinicalTrials.gov results database were sought."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Email queries were sent to trial investigators of discontinued and unpublished completed trials if no reason for the respective status was disclosed.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "MAIN OUTCOME MEASURES Trial discontinuation before completion and non-publication after completion."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "Logistic regression was used to determine the effect of funding source on publication status, with adjustment for intervention type and trial size.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "The remaining 314 (79%) trials proceeded to completion, with a publication rate of 66% (208/314) at a median time of 4.9 (interquartile range 4.0-6.0) years from study completion to publication search."
+            },
+            {
+              "new_index": 9,
+              "original_index": 12,
+              "sentence": "A further 6% (20/314) of studies presented results on ClinicalTrials.gov without a corresponding peer reviewed publication."
+            },
+            {
+              "new_index": 10,
+              "original_index": 13,
+              "sentence": "Industry funding did not affect the rate of discontinuation (adjusted odds ratio 0.91, 95% confidence interval 0.54 to 1.55) but was associated with a lower odds of publication for completed trials (0.43, 0.26 to 0.72)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 14,
+              "sentence": "Investigators' email addresses for trials with an uncertain fate were identified for 71.4% (10/14) of discontinued trials and 83% (101/122) of unpublished studies."
+            },
+            {
+              "new_index": 12,
+              "original_index": 15,
+              "sentence": "Only 43% (6/14) and 20% (25/122) replies were received."
+            },
+            {
+              "new_index": 13,
+              "original_index": 18,
+              "sentence": "This represents a waste of research resources and raises ethical concerns regarding hidden clinical data and futile participation by patients with its attendant risks."
+            },
+            {
+              "new_index": 14,
+              "original_index": 19,
+              "sentence": "To promote future efficiency and transparency, changes are proposed to research governance frameworks to overcome these concerns."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6477536,
+          "original_index": 3,
+          "sentence": "DATA SOURCES The ClinicalTrials.gov database was searched for interventional trials registered between January 2008 and December 2009 using the keyword \"surgery\".",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 6477536,
+          "original_index": 9,
+          "sentence": "RESULTS Of 818 registered trials found using the keyword \"surgery\", 395 met the inclusion criteria.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 6477536,
+          "original_index": 10,
+          "sentence": "Of these, 21% (81/395) were discontinued early, most commonly owing to poor recruitment (44%, 36/81).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 6477536,
+          "original_index": 16,
+          "sentence": "Email responses for completed trials indicated 11 trials in press, five published studies (four in non-indexed peer reviewed journals), and nine trials remaining unpublished.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 6477536,
+          "original_index": 17,
+          "sentence": "CONCLUSIONS One in five surgical randomised controlled trials are discontinued early, one in three completed trials remain unpublished, and investigators of unpublished studies are frequently not contactable.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

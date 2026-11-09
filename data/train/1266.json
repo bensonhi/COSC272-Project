@@ -1,0 +1,336 @@
+{
+  "id": 1266,
+  "origin": "dev",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The risk of breast cancer among parous women increases with placental weight of pregnancies, and this association is strongest for premenopausal breast cancer.",
+      "evidence": [
+        {
+          "doc_id": 37480103,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "Compared with women who had placentas weighing less than 500 g in 2 consecutive pregnancies, the risk of breast cancer was increased among women whose placentas weighed between 500 and 699 g in their first pregnancy and at least 700 g in their second pregnancy (or vice versa) (adjusted hazard ratio, 1.82; 95% confidence interval [CI], 1.07-3.08), and the corresponding risk was doubled among women whose placentas weighed at least 700 g in both pregnancies (adjusted hazard ratio, 2.05; 95% CI, 1.15-3.64).",
+          "kept": true,
+          "new_index": 10
+        },
+        {
+          "doc_id": 37480103,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 12,
+          "sentence": "CONCLUSIONS Placental weight is positively associated with maternal risk of breast cancer.",
+          "kept": true,
+          "new_index": 12
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 37480103,
+          "title": "Pregnancy characteristics and maternal risk of breast cancer.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT During pregnancy, serum levels of estrogen, progesterone, and other hormones are markedly higher than during other periods of life."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Pregnancy hormones primarily are produced in the placenta, and signs of placental impairment may serve as indirect markers of hormone exposures during pregnancy."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "During pregnancy, these markers have been inconsistently associated with subsequent risk of breast cancer in the mother.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "OBJECTIVE To examine associations between indirect markers of hormonal exposures, such as placental weight and other pregnancy characteristics, and maternal risk of developing breast cancer.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "DESIGN AND SETTING Population-based cohort study using data from the Swedish Birth Register, the Swedish Cancer Register, the Swedish Cause of Death Register, and the Swedish Register of Population and Population Changes.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "PARTICIPANTS Women included in the Sweden Birth Register who delivered singletons between 1982 and 1989, with complete information on date of birth and gestational age."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Women were followed up until the occurrence of breast cancer, death, or end of follow-up (December 31, 2001)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Cox proportional hazards models were used to estimate associations between hormone exposures and risks of breast cancer.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "MAIN OUTCOME MEASURE Incidence of invasive breast cancer.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "RESULTS Of 314,019 women in the cohort, 2216 (0.7%) developed breast cancer during the follow-up through 2001, of whom 2100 (95%) were diagnosed before age 50 years."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Compared with women who had placentas weighing less than 500 g in 2 consecutive pregnancies, the risk of breast cancer was increased among women whose placentas weighed between 500 and 699 g in their first pregnancy and at least 700 g in their second pregnancy (or vice versa) (adjusted hazard ratio, 1.82; 95% confidence interval [CI], 1.07-3.08), and the corresponding risk was doubled among women whose placentas weighed at least 700 g in both pregnancies (adjusted hazard ratio, 2.05; 95% CI, 1.15-3.64)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "A high birth weight (> or =4000 g) in 2 successive births was associated with an increased risk of breast cancer before but not after adjusting for placental weight and other covariates (adjusted hazard ratio, 1.10; 95% CI, 0.76-1.59).   \n"
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "CONCLUSIONS Placental weight is positively associated with maternal risk of breast cancer."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "These results further support the hypothesis that pregnancy hormones are important modifiers of subsequent maternal breast cancer risk."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "The risk of breast cancer among parous women increases with placental weight of pregnancies, and this association is strongest for premenopausal breast cancer.",
+      "evidence": [
+        {
+          "doc_id": 37480103,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "Compared with women who had placentas weighing less than 500 g in 2 consecutive pregnancies, the risk of breast cancer was increased among women whose placentas weighed between 500 and 699 g in their first pregnancy and at least 700 g in their second pregnancy (or vice versa) (adjusted hazard ratio, 1.82; 95% confidence interval [CI], 1.07-3.08), and the corresponding risk was doubled among women whose placentas weighed at least 700 g in both pregnancies (adjusted hazard ratio, 2.05; 95% CI, 1.15-3.64).",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 37480103,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 12,
+          "sentence": "CONCLUSIONS Placental weight is positively associated with maternal risk of breast cancer.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 37480103,
+          "title": "Pregnancy characteristics and maternal risk of breast cancer.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT During pregnancy, serum levels of estrogen, progesterone, and other hormones are markedly higher than during other periods of life."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Pregnancy hormones primarily are produced in the placenta, and signs of placental impairment may serve as indirect markers of hormone exposures during pregnancy."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "During pregnancy, these markers have been inconsistently associated with subsequent risk of breast cancer in the mother.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "OBJECTIVE To examine associations between indirect markers of hormonal exposures, such as placental weight and other pregnancy characteristics, and maternal risk of developing breast cancer.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "DESIGN AND SETTING Population-based cohort study using data from the Swedish Birth Register, the Swedish Cancer Register, the Swedish Cause of Death Register, and the Swedish Register of Population and Population Changes.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "PARTICIPANTS Women included in the Sweden Birth Register who delivered singletons between 1982 and 1989, with complete information on date of birth and gestational age."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Women were followed up until the occurrence of breast cancer, death, or end of follow-up (December 31, 2001)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "MAIN OUTCOME MEASURE Incidence of invasive breast cancer.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 9,
+              "sentence": "RESULTS Of 314,019 women in the cohort, 2216 (0.7%) developed breast cancer during the follow-up through 2001, of whom 2100 (95%) were diagnosed before age 50 years."
+            },
+            {
+              "new_index": 9,
+              "original_index": 10,
+              "sentence": "Compared with women who had placentas weighing less than 500 g in 2 consecutive pregnancies, the risk of breast cancer was increased among women whose placentas weighed between 500 and 699 g in their first pregnancy and at least 700 g in their second pregnancy (or vice versa) (adjusted hazard ratio, 1.82; 95% confidence interval [CI], 1.07-3.08), and the corresponding risk was doubled among women whose placentas weighed at least 700 g in both pregnancies (adjusted hazard ratio, 2.05; 95% CI, 1.15-3.64)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 11,
+              "sentence": "A high birth weight (> or =4000 g) in 2 successive births was associated with an increased risk of breast cancer before but not after adjusting for placental weight and other covariates (adjusted hazard ratio, 1.10; 95% CI, 0.76-1.59).   \n"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 37480103,
+          "original_index": 7,
+          "sentence": "Cox proportional hazards models were used to estimate associations between hormone exposures and risks of breast cancer.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 37480103,
+          "original_index": 12,
+          "sentence": "CONCLUSIONS Placental weight is positively associated with maternal risk of breast cancer.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 37480103,
+          "original_index": 13,
+          "sentence": "These results further support the hypothesis that pregnancy hormones are important modifiers of subsequent maternal breast cancer risk.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "The risk of breast cancer among parous women increases with placental weight of pregnancies, and this association is strongest for premenopausal breast cancer.",
+      "evidence": [
+        {
+          "doc_id": 37480103,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "Compared with women who had placentas weighing less than 500 g in 2 consecutive pregnancies, the risk of breast cancer was increased among women whose placentas weighed between 500 and 699 g in their first pregnancy and at least 700 g in their second pregnancy (or vice versa) (adjusted hazard ratio, 1.82; 95% confidence interval [CI], 1.07-3.08), and the corresponding risk was doubled among women whose placentas weighed at least 700 g in both pregnancies (adjusted hazard ratio, 2.05; 95% CI, 1.15-3.64).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 37480103,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 12,
+          "sentence": "CONCLUSIONS Placental weight is positively associated with maternal risk of breast cancer.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 37480103,
+          "title": "Pregnancy characteristics and maternal risk of breast cancer.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT During pregnancy, serum levels of estrogen, progesterone, and other hormones are markedly higher than during other periods of life."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Pregnancy hormones primarily are produced in the placenta, and signs of placental impairment may serve as indirect markers of hormone exposures during pregnancy."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "During pregnancy, these markers have been inconsistently associated with subsequent risk of breast cancer in the mother.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "DESIGN AND SETTING Population-based cohort study using data from the Swedish Birth Register, the Swedish Cancer Register, the Swedish Cause of Death Register, and the Swedish Register of Population and Population Changes.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "PARTICIPANTS Women included in the Sweden Birth Register who delivered singletons between 1982 and 1989, with complete information on date of birth and gestational age."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Cox proportional hazards models were used to estimate associations between hormone exposures and risks of breast cancer.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "MAIN OUTCOME MEASURE Incidence of invasive breast cancer.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "RESULTS Of 314,019 women in the cohort, 2216 (0.7%) developed breast cancer during the follow-up through 2001, of whom 2100 (95%) were diagnosed before age 50 years."
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "A high birth weight (> or =4000 g) in 2 successive births was associated with an increased risk of breast cancer before but not after adjusting for placental weight and other covariates (adjusted hazard ratio, 1.10; 95% CI, 0.76-1.59).   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 13,
+              "sentence": "These results further support the hypothesis that pregnancy hormones are important modifiers of subsequent maternal breast cancer risk."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 37480103,
+          "original_index": 3,
+          "sentence": "OBJECTIVE To examine associations between indirect markers of hormonal exposures, such as placental weight and other pregnancy characteristics, and maternal risk of developing breast cancer.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 37480103,
+          "original_index": 6,
+          "sentence": "Women were followed up until the occurrence of breast cancer, death, or end of follow-up (December 31, 2001).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 37480103,
+          "original_index": 10,
+          "sentence": "Compared with women who had placentas weighing less than 500 g in 2 consecutive pregnancies, the risk of breast cancer was increased among women whose placentas weighed between 500 and 699 g in their first pregnancy and at least 700 g in their second pregnancy (or vice versa) (adjusted hazard ratio, 1.82; 95% confidence interval [CI], 1.07-3.08), and the corresponding risk was doubled among women whose placentas weighed at least 700 g in both pregnancies (adjusted hazard ratio, 2.05; 95% CI, 1.15-3.64).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 37480103,
+          "original_index": 12,
+          "sentence": "CONCLUSIONS Placental weight is positively associated with maternal risk of breast cancer.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

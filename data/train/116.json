@@ -1,0 +1,364 @@
+{
+  "id": 116,
+  "origin": "train_more",
+  "n_groups": 4,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Anthrax spores remain deadly until affected areas are decontaminated.",
+      "evidence": [
+        {
+          "doc_id": 33872649,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 4,
+          "sentence": "RESULTS Viable B anthracis spores reaerosolized under semiquiescent conditions, with a marked increase in reaerosolization during simulated active office conditions.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 33872649,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "More than 80% of the B anthracis particles collected on stationary monitors were within an alveolar respirable size range of 0.95 to 3.5 micro m.   CONCLUSIONS Bacillus anthracis spores used in a recent terrorist incident reaerosolized under common office activities.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 33872649,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "These findings have important implications for appropriate respiratory protection, remediation, and reoccupancy of contaminated office environments.",
+          "kept": true,
+          "new_index": 7
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 33872649,
+          "title": "Secondary aerosolization of viable Bacillus anthracis spores in a contaminated US Senate Office.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Bioterrorist attacks involving letters and mail-handling systems in Washington, DC, resulted in Bacillus anthracis (anthrax) spore contamination in the Hart Senate Office Building and other facilities in the US Capitol's vicinity.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To provide information about the nature and extent of indoor secondary aerosolization of B anthracis spores.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN Stationary and personal air samples, surface dust, and swab samples were collected under semiquiescent (minimal activities) and then simulated active office conditions to estimate secondary aerosolization of B anthracis spores."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Nominal size characteristics, airborne concentrations, and surface contamination of B anthracis particles (colony-forming units) were evaluated.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "RESULTS Viable B anthracis spores reaerosolized under semiquiescent conditions, with a marked increase in reaerosolization during simulated active office conditions."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Increases were observed for B anthracis collected on open sheep blood agar plates (P<.001) and personal air monitors (P =.01) during active office conditions."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "More than 80% of the B anthracis particles collected on stationary monitors were within an alveolar respirable size range of 0.95 to 3.5 micro m.   CONCLUSIONS Bacillus anthracis spores used in a recent terrorist incident reaerosolized under common office activities."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "These findings have important implications for appropriate respiratory protection, remediation, and reoccupancy of contaminated office environments."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g2"
+      ],
+      "claim": "Anthrax spores remain deadly until affected areas are decontaminated.",
+      "evidence": [
+        {
+          "doc_id": 33872649,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 4,
+          "sentence": "RESULTS Viable B anthracis spores reaerosolized under semiquiescent conditions, with a marked increase in reaerosolization during simulated active office conditions.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 33872649,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "More than 80% of the B anthracis particles collected on stationary monitors were within an alveolar respirable size range of 0.95 to 3.5 micro m.   CONCLUSIONS Bacillus anthracis spores used in a recent terrorist incident reaerosolized under common office activities.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 33872649,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "These findings have important implications for appropriate respiratory protection, remediation, and reoccupancy of contaminated office environments.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 33872649,
+          "title": "Secondary aerosolization of viable Bacillus anthracis spores in a contaminated US Senate Office.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To provide information about the nature and extent of indoor secondary aerosolization of B anthracis spores.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "DESIGN Stationary and personal air samples, surface dust, and swab samples were collected under semiquiescent (minimal activities) and then simulated active office conditions to estimate secondary aerosolization of B anthracis spores."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Nominal size characteristics, airborne concentrations, and surface contamination of B anthracis particles (colony-forming units) were evaluated.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "RESULTS Viable B anthracis spores reaerosolized under semiquiescent conditions, with a marked increase in reaerosolization during simulated active office conditions."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Increases were observed for B anthracis collected on open sheep blood agar plates (P<.001) and personal air monitors (P =.01) during active office conditions."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "More than 80% of the B anthracis particles collected on stationary monitors were within an alveolar respirable size range of 0.95 to 3.5 micro m.   CONCLUSIONS Bacillus anthracis spores used in a recent terrorist incident reaerosolized under common office activities."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 33872649,
+          "original_index": 0,
+          "sentence": "CONTEXT Bioterrorist attacks involving letters and mail-handling systems in Washington, DC, resulted in Bacillus anthracis (anthrax) spore contamination in the Hart Senate Office Building and other facilities in the US Capitol's vicinity.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 33872649,
+          "original_index": 7,
+          "sentence": "These findings have important implications for appropriate respiratory protection, remediation, and reoccupancy of contaminated office environments.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g2",
+        "g0"
+      ],
+      "claim": "Anthrax spores remain deadly until affected areas are decontaminated.",
+      "evidence": [
+        {
+          "doc_id": 33872649,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 4,
+          "sentence": "RESULTS Viable B anthracis spores reaerosolized under semiquiescent conditions, with a marked increase in reaerosolization during simulated active office conditions.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 33872649,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "More than 80% of the B anthracis particles collected on stationary monitors were within an alveolar respirable size range of 0.95 to 3.5 micro m.   CONCLUSIONS Bacillus anthracis spores used in a recent terrorist incident reaerosolized under common office activities.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 33872649,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "These findings have important implications for appropriate respiratory protection, remediation, and reoccupancy of contaminated office environments.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 33872649,
+          "title": "Secondary aerosolization of viable Bacillus anthracis spores in a contaminated US Senate Office.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Bioterrorist attacks involving letters and mail-handling systems in Washington, DC, resulted in Bacillus anthracis (anthrax) spore contamination in the Hart Senate Office Building and other facilities in the US Capitol's vicinity.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "DESIGN Stationary and personal air samples, surface dust, and swab samples were collected under semiquiescent (minimal activities) and then simulated active office conditions to estimate secondary aerosolization of B anthracis spores."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Nominal size characteristics, airborne concentrations, and surface contamination of B anthracis particles (colony-forming units) were evaluated.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "RESULTS Viable B anthracis spores reaerosolized under semiquiescent conditions, with a marked increase in reaerosolization during simulated active office conditions."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Increases were observed for B anthracis collected on open sheep blood agar plates (P<.001) and personal air monitors (P =.01) during active office conditions."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 33872649,
+          "original_index": 1,
+          "sentence": "OBJECTIVE To provide information about the nature and extent of indoor secondary aerosolization of B anthracis spores.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 33872649,
+          "original_index": 6,
+          "sentence": "More than 80% of the B anthracis particles collected on stationary monitors were within an alveolar respirable size range of 0.95 to 3.5 micro m.   CONCLUSIONS Bacillus anthracis spores used in a recent terrorist incident reaerosolized under common office activities.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 33872649,
+          "original_index": 7,
+          "sentence": "These findings have important implications for appropriate respiratory protection, remediation, and reoccupancy of contaminated office environments.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2"
+      ],
+      "claim": "Anthrax spores remain deadly until affected areas are decontaminated.",
+      "evidence": [
+        {
+          "doc_id": 33872649,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 4,
+          "sentence": "RESULTS Viable B anthracis spores reaerosolized under semiquiescent conditions, with a marked increase in reaerosolization during simulated active office conditions.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 33872649,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "More than 80% of the B anthracis particles collected on stationary monitors were within an alveolar respirable size range of 0.95 to 3.5 micro m.   CONCLUSIONS Bacillus anthracis spores used in a recent terrorist incident reaerosolized under common office activities.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 33872649,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "These findings have important implications for appropriate respiratory protection, remediation, and reoccupancy of contaminated office environments.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 33872649,
+          "title": "Secondary aerosolization of viable Bacillus anthracis spores in a contaminated US Senate Office.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Bioterrorist attacks involving letters and mail-handling systems in Washington, DC, resulted in Bacillus anthracis (anthrax) spore contamination in the Hart Senate Office Building and other facilities in the US Capitol's vicinity.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To provide information about the nature and extent of indoor secondary aerosolization of B anthracis spores.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN Stationary and personal air samples, surface dust, and swab samples were collected under semiquiescent (minimal activities) and then simulated active office conditions to estimate secondary aerosolization of B anthracis spores."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Increases were observed for B anthracis collected on open sheep blood agar plates (P<.001) and personal air monitors (P =.01) during active office conditions."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 33872649,
+          "original_index": 3,
+          "sentence": "Nominal size characteristics, airborne concentrations, and surface contamination of B anthracis particles (colony-forming units) were evaluated.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 33872649,
+          "original_index": 4,
+          "sentence": "RESULTS Viable B anthracis spores reaerosolized under semiquiescent conditions, with a marked increase in reaerosolization during simulated active office conditions.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 33872649,
+          "original_index": 6,
+          "sentence": "More than 80% of the B anthracis particles collected on stationary monitors were within an alveolar respirable size range of 0.95 to 3.5 micro m.   CONCLUSIONS Bacillus anthracis spores used in a recent terrorist incident reaerosolized under common office activities.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 33872649,
+          "original_index": 7,
+          "sentence": "These findings have important implications for appropriate respiratory protection, remediation, and reoccupancy of contaminated office environments.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

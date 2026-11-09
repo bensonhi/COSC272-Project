@@ -1,0 +1,547 @@
+{
+  "id": 504,
+  "origin": "train_more",
+  "n_groups": 4,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Healthy volunteers exhibit rapid and transient increase of cellular ATP after being bolus-injected with fructose.",
+      "evidence": [
+        {
+          "doc_id": 10883736,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 11,
+          "sentence": "Liver ATP levels were similar in the 2 groups before fructose infusion and decreased similarly in both after fructose infusion (P = .01 vs initial ATP levels).",
+          "kept": true,
+          "new_index": 11
+        },
+        {
+          "doc_id": 10883736,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 12,
+          "sentence": "However, controls replenished their hepatic ATP stores during the 1-hour follow-up period (P<.02 vs minimum ATP) but patients did not.",
+          "kept": true,
+          "new_index": 12
+        },
+        {
+          "doc_id": 10883736,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 16,
+          "sentence": "CONCLUSIONS These data suggest that recovery from hepatic ATP depletion becomes progressively less efficient as body mass increases in healthy controls and is severely impaired in patients with obesity-related nonalcoholic steatohepatitis.",
+          "kept": true,
+          "new_index": 16
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 10883736,
+          "title": "Alterations in liver ATP homeostasis in human nonalcoholic steatohepatitis: a pilot study.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT The mechanisms that drive progression from fatty liver to steatohepatitis and cirrhosis are unknown."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "In animal models, obese mice with fatty livers are vulnerable to liver adenosine triphosphate (ATP) depletion and necrosis, suggesting that altered hepatic energy homeostasis may be involved.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To determine if patients with fatty liver disease exhibit impaired recovery from hepatic ATP depletion.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DESIGN Laboratory analysis of liver ATP stores monitored by nuclear magnetic resonance spectroscopy before and after transient hepatic ATP depletion was induced by fructose injection."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "The study was conducted between July 15 and August 30, 1998.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "SETTING University hospital.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "PATIENTS Eight consecutive adults with biopsy-proven nonalcoholic steatohepatitis and 7 healthy age- and sex-matched controls.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "MAIN OUTCOME MEASURE Level of ATP 1 hour after fructose infusion in patients vs controls.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "RESULTS In patients, serum aminotransferase levels were increased (P = .02 vs controls); albumin and bilirubin values were normal and clinical evidence of portal hypertension was absent in both groups."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "However, 2 patients had moderate fibrosis and 1 had cirrhosis on liver biopsy."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Mean serum glucose, cholesterol, and triglyceride levels were similar between groups but patients weighed significantly more than controls (P = .02)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Liver ATP levels were similar in the 2 groups before fructose infusion and decreased similarly in both after fructose infusion (P = .01 vs initial ATP levels)."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "However, controls replenished their hepatic ATP stores during the 1-hour follow-up period (P<.02 vs minimum ATP) but patients did not."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "Hence, patients' hepatic ATP levels were lower than those of controls at the end of the study (P = .04)."
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "Body mass index (BMI) correlated inversely with ATP recovery, even in controls (R = -0.768; P = .07)."
+            },
+            {
+              "new_index": 15,
+              "original_index": 15,
+              "sentence": "Although BMI was greater in patients than controls (P = .02) and correlated strongly with fatty liver and serum aminotransferase elevations, neither of the latter 2 parameters nor the histologic severity of fibrosis strongly predicted hepatic ATP recovery.   \n"
+            },
+            {
+              "new_index": 16,
+              "original_index": 16,
+              "sentence": "CONCLUSIONS These data suggest that recovery from hepatic ATP depletion becomes progressively less efficient as body mass increases in healthy controls and is severely impaired in patients with obesity-related nonalcoholic steatohepatitis."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g2"
+      ],
+      "claim": "Healthy volunteers exhibit rapid and transient increase of cellular ATP after being bolus-injected with fructose.",
+      "evidence": [
+        {
+          "doc_id": 10883736,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 11,
+          "sentence": "Liver ATP levels were similar in the 2 groups before fructose infusion and decreased similarly in both after fructose infusion (P = .01 vs initial ATP levels).",
+          "kept": true,
+          "new_index": 10
+        },
+        {
+          "doc_id": 10883736,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 12,
+          "sentence": "However, controls replenished their hepatic ATP stores during the 1-hour follow-up period (P<.02 vs minimum ATP) but patients did not.",
+          "kept": true,
+          "new_index": 11
+        },
+        {
+          "doc_id": 10883736,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 16,
+          "sentence": "CONCLUSIONS These data suggest that recovery from hepatic ATP depletion becomes progressively less efficient as body mass increases in healthy controls and is severely impaired in patients with obesity-related nonalcoholic steatohepatitis.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 10883736,
+          "title": "Alterations in liver ATP homeostasis in human nonalcoholic steatohepatitis: a pilot study.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT The mechanisms that drive progression from fatty liver to steatohepatitis and cirrhosis are unknown."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "In animal models, obese mice with fatty livers are vulnerable to liver adenosine triphosphate (ATP) depletion and necrosis, suggesting that altered hepatic energy homeostasis may be involved.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To determine if patients with fatty liver disease exhibit impaired recovery from hepatic ATP depletion.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DESIGN Laboratory analysis of liver ATP stores monitored by nuclear magnetic resonance spectroscopy before and after transient hepatic ATP depletion was induced by fructose injection."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "The study was conducted between July 15 and August 30, 1998.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "PATIENTS Eight consecutive adults with biopsy-proven nonalcoholic steatohepatitis and 7 healthy age- and sex-matched controls.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "MAIN OUTCOME MEASURE Level of ATP 1 hour after fructose infusion in patients vs controls.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "RESULTS In patients, serum aminotransferase levels were increased (P = .02 vs controls); albumin and bilirubin values were normal and clinical evidence of portal hypertension was absent in both groups."
+            },
+            {
+              "new_index": 8,
+              "original_index": 9,
+              "sentence": "However, 2 patients had moderate fibrosis and 1 had cirrhosis on liver biopsy."
+            },
+            {
+              "new_index": 9,
+              "original_index": 10,
+              "sentence": "Mean serum glucose, cholesterol, and triglyceride levels were similar between groups but patients weighed significantly more than controls (P = .02)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 11,
+              "sentence": "Liver ATP levels were similar in the 2 groups before fructose infusion and decreased similarly in both after fructose infusion (P = .01 vs initial ATP levels)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 12,
+              "sentence": "However, controls replenished their hepatic ATP stores during the 1-hour follow-up period (P<.02 vs minimum ATP) but patients did not."
+            },
+            {
+              "new_index": 12,
+              "original_index": 13,
+              "sentence": "Hence, patients' hepatic ATP levels were lower than those of controls at the end of the study (P = .04)."
+            },
+            {
+              "new_index": 13,
+              "original_index": 15,
+              "sentence": "Although BMI was greater in patients than controls (P = .02) and correlated strongly with fatty liver and serum aminotransferase elevations, neither of the latter 2 parameters nor the histologic severity of fibrosis strongly predicted hepatic ATP recovery.   \n"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 10883736,
+          "original_index": 5,
+          "sentence": "SETTING University hospital.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 10883736,
+          "original_index": 14,
+          "sentence": "Body mass index (BMI) correlated inversely with ATP recovery, even in controls (R = -0.768; P = .07).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 10883736,
+          "original_index": 16,
+          "sentence": "CONCLUSIONS These data suggest that recovery from hepatic ATP depletion becomes progressively less efficient as body mass increases in healthy controls and is severely impaired in patients with obesity-related nonalcoholic steatohepatitis.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g0",
+        "g2"
+      ],
+      "claim": "Healthy volunteers exhibit rapid and transient increase of cellular ATP after being bolus-injected with fructose.",
+      "evidence": [
+        {
+          "doc_id": 10883736,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 11,
+          "sentence": "Liver ATP levels were similar in the 2 groups before fructose infusion and decreased similarly in both after fructose infusion (P = .01 vs initial ATP levels).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 10883736,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 12,
+          "sentence": "However, controls replenished their hepatic ATP stores during the 1-hour follow-up period (P<.02 vs minimum ATP) but patients did not.",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 10883736,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 16,
+          "sentence": "CONCLUSIONS These data suggest that recovery from hepatic ATP depletion becomes progressively less efficient as body mass increases in healthy controls and is severely impaired in patients with obesity-related nonalcoholic steatohepatitis.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 10883736,
+          "title": "Alterations in liver ATP homeostasis in human nonalcoholic steatohepatitis: a pilot study.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT The mechanisms that drive progression from fatty liver to steatohepatitis and cirrhosis are unknown."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "In animal models, obese mice with fatty livers are vulnerable to liver adenosine triphosphate (ATP) depletion and necrosis, suggesting that altered hepatic energy homeostasis may be involved.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To determine if patients with fatty liver disease exhibit impaired recovery from hepatic ATP depletion.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DESIGN Laboratory analysis of liver ATP stores monitored by nuclear magnetic resonance spectroscopy before and after transient hepatic ATP depletion was induced by fructose injection."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "SETTING University hospital.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "MAIN OUTCOME MEASURE Level of ATP 1 hour after fructose infusion in patients vs controls.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "RESULTS In patients, serum aminotransferase levels were increased (P = .02 vs controls); albumin and bilirubin values were normal and clinical evidence of portal hypertension was absent in both groups."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "However, 2 patients had moderate fibrosis and 1 had cirrhosis on liver biopsy."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "Mean serum glucose, cholesterol, and triglyceride levels were similar between groups but patients weighed significantly more than controls (P = .02)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 12,
+              "sentence": "However, controls replenished their hepatic ATP stores during the 1-hour follow-up period (P<.02 vs minimum ATP) but patients did not."
+            },
+            {
+              "new_index": 10,
+              "original_index": 13,
+              "sentence": "Hence, patients' hepatic ATP levels were lower than those of controls at the end of the study (P = .04)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 14,
+              "sentence": "Body mass index (BMI) correlated inversely with ATP recovery, even in controls (R = -0.768; P = .07)."
+            },
+            {
+              "new_index": 12,
+              "original_index": 15,
+              "sentence": "Although BMI was greater in patients than controls (P = .02) and correlated strongly with fatty liver and serum aminotransferase elevations, neither of the latter 2 parameters nor the histologic severity of fibrosis strongly predicted hepatic ATP recovery.   \n"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 10883736,
+          "original_index": 4,
+          "sentence": "The study was conducted between July 15 and August 30, 1998.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 10883736,
+          "original_index": 6,
+          "sentence": "PATIENTS Eight consecutive adults with biopsy-proven nonalcoholic steatohepatitis and 7 healthy age- and sex-matched controls.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 10883736,
+          "original_index": 11,
+          "sentence": "Liver ATP levels were similar in the 2 groups before fructose infusion and decreased similarly in both after fructose infusion (P = .01 vs initial ATP levels).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 10883736,
+          "original_index": 16,
+          "sentence": "CONCLUSIONS These data suggest that recovery from hepatic ATP depletion becomes progressively less efficient as body mass increases in healthy controls and is severely impaired in patients with obesity-related nonalcoholic steatohepatitis.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2"
+      ],
+      "claim": "Healthy volunteers exhibit rapid and transient increase of cellular ATP after being bolus-injected with fructose.",
+      "evidence": [
+        {
+          "doc_id": 10883736,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 11,
+          "sentence": "Liver ATP levels were similar in the 2 groups before fructose infusion and decreased similarly in both after fructose infusion (P = .01 vs initial ATP levels).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 10883736,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 12,
+          "sentence": "However, controls replenished their hepatic ATP stores during the 1-hour follow-up period (P<.02 vs minimum ATP) but patients did not.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 10883736,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 16,
+          "sentence": "CONCLUSIONS These data suggest that recovery from hepatic ATP depletion becomes progressively less efficient as body mass increases in healthy controls and is severely impaired in patients with obesity-related nonalcoholic steatohepatitis.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 10883736,
+          "title": "Alterations in liver ATP homeostasis in human nonalcoholic steatohepatitis: a pilot study.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT The mechanisms that drive progression from fatty liver to steatohepatitis and cirrhosis are unknown."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To determine if patients with fatty liver disease exhibit impaired recovery from hepatic ATP depletion.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "DESIGN Laboratory analysis of liver ATP stores monitored by nuclear magnetic resonance spectroscopy before and after transient hepatic ATP depletion was induced by fructose injection."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "The study was conducted between July 15 and August 30, 1998.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "SETTING University hospital.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "PATIENTS Eight consecutive adults with biopsy-proven nonalcoholic steatohepatitis and 7 healthy age- and sex-matched controls.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "MAIN OUTCOME MEASURE Level of ATP 1 hour after fructose infusion in patients vs controls.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "RESULTS In patients, serum aminotransferase levels were increased (P = .02 vs controls); albumin and bilirubin values were normal and clinical evidence of portal hypertension was absent in both groups."
+            },
+            {
+              "new_index": 8,
+              "original_index": 9,
+              "sentence": "However, 2 patients had moderate fibrosis and 1 had cirrhosis on liver biopsy."
+            },
+            {
+              "new_index": 9,
+              "original_index": 13,
+              "sentence": "Hence, patients' hepatic ATP levels were lower than those of controls at the end of the study (P = .04)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 14,
+              "sentence": "Body mass index (BMI) correlated inversely with ATP recovery, even in controls (R = -0.768; P = .07)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 15,
+              "sentence": "Although BMI was greater in patients than controls (P = .02) and correlated strongly with fatty liver and serum aminotransferase elevations, neither of the latter 2 parameters nor the histologic severity of fibrosis strongly predicted hepatic ATP recovery.   \n"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 10883736,
+          "original_index": 1,
+          "sentence": "In animal models, obese mice with fatty livers are vulnerable to liver adenosine triphosphate (ATP) depletion and necrosis, suggesting that altered hepatic energy homeostasis may be involved.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 10883736,
+          "original_index": 10,
+          "sentence": "Mean serum glucose, cholesterol, and triglyceride levels were similar between groups but patients weighed significantly more than controls (P = .02).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 10883736,
+          "original_index": 11,
+          "sentence": "Liver ATP levels were similar in the 2 groups before fructose infusion and decreased similarly in both after fructose infusion (P = .01 vs initial ATP levels).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 10883736,
+          "original_index": 12,
+          "sentence": "However, controls replenished their hepatic ATP stores during the 1-hour follow-up period (P<.02 vs minimum ATP) but patients did not.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 10883736,
+          "original_index": 16,
+          "sentence": "CONCLUSIONS These data suggest that recovery from hepatic ATP depletion becomes progressively less efficient as body mass increases in healthy controls and is severely impaired in patients with obesity-related nonalcoholic steatohepatitis.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

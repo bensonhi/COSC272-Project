@@ -1,0 +1,404 @@
+{
+  "id": 912,
+  "origin": "train_more",
+  "n_groups": 4,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "PKG-la plays an essential role in expression of spinal long term potentiation in PGK-la knockout mice.",
+      "evidence": [
+        {
+          "doc_id": 11254556,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 3,
+          "sentence": "Here, we found that Protein Kinase G1 (PKG-I) localized presynaptically in nociceptor terminals plays an essential role in the expression of spinal LTP.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 11254556,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Patch clamp recordings showed that activity-induced LTP at identified synapses between nociceptors and spinal neurons projecting to the periaqueductal grey (PAG) was completely abolished in SNS-PKG-I(-/-) mice, although basal synaptic transmission was not affected.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 11254556,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 9,
+          "sentence": "Our results thus indicate that presynaptic mechanisms involving an increase in release probability from nociceptors are operational in the expression of synaptic LTP on spinal-PAG projection neurons and that PKG-I localized in presynaptic nociceptor terminals plays an essential role in this process to regulate pain sensitivity.",
+          "kept": true,
+          "new_index": 9
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 11254556,
+          "title": "Presynaptically Localized Cyclic GMP-Dependent Protein Kinase 1 Is a Key Determinant of Spinal Synaptic Potentiation and Pain Hypersensitivity",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Synaptic long-term potentiation (LTP) at spinal neurons directly communicating pain-specific inputs from the periphery to the brain has been proposed to serve as a trigger for pain hypersensitivity in pathological states."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Previous studies have functionally implicated the NMDA receptor-NO pathway and the downstream second messenger, cGMP, in these processes."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Because cGMP can broadly influence diverse ion-channels, kinases, and phosphodiesterases, pre- as well as post-synaptically, the precise identity of cGMP targets mediating spinal LTP, their mechanisms of action, and their locus in the spinal circuitry are still unclear."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Here, we found that Protein Kinase G1 (PKG-I) localized presynaptically in nociceptor terminals plays an essential role in the expression of spinal LTP."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Using the Cre-lox P system, we generated nociceptor-specific knockout mice lacking PKG-I specifically in presynaptic terminals of nociceptors in the spinal cord, but not in post-synaptic neurons or elsewhere (SNS-PKG-I(-/-) mice)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Patch clamp recordings showed that activity-induced LTP at identified synapses between nociceptors and spinal neurons projecting to the periaqueductal grey (PAG) was completely abolished in SNS-PKG-I(-/-) mice, although basal synaptic transmission was not affected."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Analyses of synaptic failure rates and paired-pulse ratios indicated a role for presynaptic PKG-I in regulating the probability of neurotransmitter release."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Inositol 1,4,5-triphosphate receptor 1 and myosin light chain kinase were recruited as key phosphorylation targets of presynaptic PKG-I in nociceptive neurons."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Finally, behavioural analyses in vivo showed marked defects in SNS-PKG-I(-/-) mice in several models of activity-induced nociceptive hypersensitivity, and pharmacological studies identified a clear contribution of PKG-I expressed in spinal terminals of nociceptors."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Our results thus indicate that presynaptic mechanisms involving an increase in release probability from nociceptors are operational in the expression of synaptic LTP on spinal-PAG projection neurons and that PKG-I localized in presynaptic nociceptor terminals plays an essential role in this process to regulate pain sensitivity."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "PKG-la plays an essential role in expression of spinal long term potentiation in PGK-la knockout mice.",
+      "evidence": [
+        {
+          "doc_id": 11254556,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 3,
+          "sentence": "Here, we found that Protein Kinase G1 (PKG-I) localized presynaptically in nociceptor terminals plays an essential role in the expression of spinal LTP.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 11254556,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Patch clamp recordings showed that activity-induced LTP at identified synapses between nociceptors and spinal neurons projecting to the periaqueductal grey (PAG) was completely abolished in SNS-PKG-I(-/-) mice, although basal synaptic transmission was not affected.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 11254556,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 9,
+          "sentence": "Our results thus indicate that presynaptic mechanisms involving an increase in release probability from nociceptors are operational in the expression of synaptic LTP on spinal-PAG projection neurons and that PKG-I localized in presynaptic nociceptor terminals plays an essential role in this process to regulate pain sensitivity.",
+          "kept": true,
+          "new_index": 7
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 11254556,
+          "title": "Presynaptically Localized Cyclic GMP-Dependent Protein Kinase 1 Is a Key Determinant of Spinal Synaptic Potentiation and Pain Hypersensitivity",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Synaptic long-term potentiation (LTP) at spinal neurons directly communicating pain-specific inputs from the periphery to the brain has been proposed to serve as a trigger for pain hypersensitivity in pathological states."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Previous studies have functionally implicated the NMDA receptor-NO pathway and the downstream second messenger, cGMP, in these processes."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Using the Cre-lox P system, we generated nociceptor-specific knockout mice lacking PKG-I specifically in presynaptic terminals of nociceptors in the spinal cord, but not in post-synaptic neurons or elsewhere (SNS-PKG-I(-/-) mice)."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Patch clamp recordings showed that activity-induced LTP at identified synapses between nociceptors and spinal neurons projecting to the periaqueductal grey (PAG) was completely abolished in SNS-PKG-I(-/-) mice, although basal synaptic transmission was not affected."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Analyses of synaptic failure rates and paired-pulse ratios indicated a role for presynaptic PKG-I in regulating the probability of neurotransmitter release."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Inositol 1,4,5-triphosphate receptor 1 and myosin light chain kinase were recruited as key phosphorylation targets of presynaptic PKG-I in nociceptive neurons."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "Finally, behavioural analyses in vivo showed marked defects in SNS-PKG-I(-/-) mice in several models of activity-induced nociceptive hypersensitivity, and pharmacological studies identified a clear contribution of PKG-I expressed in spinal terminals of nociceptors."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Our results thus indicate that presynaptic mechanisms involving an increase in release probability from nociceptors are operational in the expression of synaptic LTP on spinal-PAG projection neurons and that PKG-I localized in presynaptic nociceptor terminals plays an essential role in this process to regulate pain sensitivity."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 11254556,
+          "original_index": 2,
+          "sentence": "Because cGMP can broadly influence diverse ion-channels, kinases, and phosphodiesterases, pre- as well as post-synaptically, the precise identity of cGMP targets mediating spinal LTP, their mechanisms of action, and their locus in the spinal circuitry are still unclear.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 11254556,
+          "original_index": 3,
+          "sentence": "Here, we found that Protein Kinase G1 (PKG-I) localized presynaptically in nociceptor terminals plays an essential role in the expression of spinal LTP.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g1",
+        "g2"
+      ],
+      "claim": "PKG-la plays an essential role in expression of spinal long term potentiation in PGK-la knockout mice.",
+      "evidence": [
+        {
+          "doc_id": 11254556,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 3,
+          "sentence": "Here, we found that Protein Kinase G1 (PKG-I) localized presynaptically in nociceptor terminals plays an essential role in the expression of spinal LTP.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 11254556,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Patch clamp recordings showed that activity-induced LTP at identified synapses between nociceptors and spinal neurons projecting to the periaqueductal grey (PAG) was completely abolished in SNS-PKG-I(-/-) mice, although basal synaptic transmission was not affected.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 11254556,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 9,
+          "sentence": "Our results thus indicate that presynaptic mechanisms involving an increase in release probability from nociceptors are operational in the expression of synaptic LTP on spinal-PAG projection neurons and that PKG-I localized in presynaptic nociceptor terminals plays an essential role in this process to regulate pain sensitivity.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 11254556,
+          "title": "Presynaptically Localized Cyclic GMP-Dependent Protein Kinase 1 Is a Key Determinant of Spinal Synaptic Potentiation and Pain Hypersensitivity",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Synaptic long-term potentiation (LTP) at spinal neurons directly communicating pain-specific inputs from the periphery to the brain has been proposed to serve as a trigger for pain hypersensitivity in pathological states."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Previous studies have functionally implicated the NMDA receptor-NO pathway and the downstream second messenger, cGMP, in these processes."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Because cGMP can broadly influence diverse ion-channels, kinases, and phosphodiesterases, pre- as well as post-synaptically, the precise identity of cGMP targets mediating spinal LTP, their mechanisms of action, and their locus in the spinal circuitry are still unclear."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Using the Cre-lox P system, we generated nociceptor-specific knockout mice lacking PKG-I specifically in presynaptic terminals of nociceptors in the spinal cord, but not in post-synaptic neurons or elsewhere (SNS-PKG-I(-/-) mice)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Patch clamp recordings showed that activity-induced LTP at identified synapses between nociceptors and spinal neurons projecting to the periaqueductal grey (PAG) was completely abolished in SNS-PKG-I(-/-) mice, although basal synaptic transmission was not affected."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Analyses of synaptic failure rates and paired-pulse ratios indicated a role for presynaptic PKG-I in regulating the probability of neurotransmitter release."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "Inositol 1,4,5-triphosphate receptor 1 and myosin light chain kinase were recruited as key phosphorylation targets of presynaptic PKG-I in nociceptive neurons."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 11254556,
+          "original_index": 3,
+          "sentence": "Here, we found that Protein Kinase G1 (PKG-I) localized presynaptically in nociceptor terminals plays an essential role in the expression of spinal LTP.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 11254556,
+          "original_index": 8,
+          "sentence": "Finally, behavioural analyses in vivo showed marked defects in SNS-PKG-I(-/-) mice in several models of activity-induced nociceptive hypersensitivity, and pharmacological studies identified a clear contribution of PKG-I expressed in spinal terminals of nociceptors.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 11254556,
+          "original_index": 9,
+          "sentence": "Our results thus indicate that presynaptic mechanisms involving an increase in release probability from nociceptors are operational in the expression of synaptic LTP on spinal-PAG projection neurons and that PKG-I localized in presynaptic nociceptor terminals plays an essential role in this process to regulate pain sensitivity.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2"
+      ],
+      "claim": "PKG-la plays an essential role in expression of spinal long term potentiation in PGK-la knockout mice.",
+      "evidence": [
+        {
+          "doc_id": 11254556,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 3,
+          "sentence": "Here, we found that Protein Kinase G1 (PKG-I) localized presynaptically in nociceptor terminals plays an essential role in the expression of spinal LTP.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 11254556,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Patch clamp recordings showed that activity-induced LTP at identified synapses between nociceptors and spinal neurons projecting to the periaqueductal grey (PAG) was completely abolished in SNS-PKG-I(-/-) mice, although basal synaptic transmission was not affected.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 11254556,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 9,
+          "sentence": "Our results thus indicate that presynaptic mechanisms involving an increase in release probability from nociceptors are operational in the expression of synaptic LTP on spinal-PAG projection neurons and that PKG-I localized in presynaptic nociceptor terminals plays an essential role in this process to regulate pain sensitivity.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 11254556,
+          "title": "Presynaptically Localized Cyclic GMP-Dependent Protein Kinase 1 Is a Key Determinant of Spinal Synaptic Potentiation and Pain Hypersensitivity",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Synaptic long-term potentiation (LTP) at spinal neurons directly communicating pain-specific inputs from the periphery to the brain has been proposed to serve as a trigger for pain hypersensitivity in pathological states."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Previous studies have functionally implicated the NMDA receptor-NO pathway and the downstream second messenger, cGMP, in these processes."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Because cGMP can broadly influence diverse ion-channels, kinases, and phosphodiesterases, pre- as well as post-synaptically, the precise identity of cGMP targets mediating spinal LTP, their mechanisms of action, and their locus in the spinal circuitry are still unclear."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Using the Cre-lox P system, we generated nociceptor-specific knockout mice lacking PKG-I specifically in presynaptic terminals of nociceptors in the spinal cord, but not in post-synaptic neurons or elsewhere (SNS-PKG-I(-/-) mice)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Analyses of synaptic failure rates and paired-pulse ratios indicated a role for presynaptic PKG-I in regulating the probability of neurotransmitter release."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Inositol 1,4,5-triphosphate receptor 1 and myosin light chain kinase were recruited as key phosphorylation targets of presynaptic PKG-I in nociceptive neurons."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 11254556,
+          "original_index": 3,
+          "sentence": "Here, we found that Protein Kinase G1 (PKG-I) localized presynaptically in nociceptor terminals plays an essential role in the expression of spinal LTP.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 11254556,
+          "original_index": 5,
+          "sentence": "Patch clamp recordings showed that activity-induced LTP at identified synapses between nociceptors and spinal neurons projecting to the periaqueductal grey (PAG) was completely abolished in SNS-PKG-I(-/-) mice, although basal synaptic transmission was not affected.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 11254556,
+          "original_index": 8,
+          "sentence": "Finally, behavioural analyses in vivo showed marked defects in SNS-PKG-I(-/-) mice in several models of activity-induced nociceptive hypersensitivity, and pharmacological studies identified a clear contribution of PKG-I expressed in spinal terminals of nociceptors.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 11254556,
+          "original_index": 9,
+          "sentence": "Our results thus indicate that presynaptic mechanisms involving an increase in release probability from nociceptors are operational in the expression of synaptic LTP on spinal-PAG projection neurons and that PKG-I localized in presynaptic nociceptor terminals plays an essential role in this process to regulate pain sensitivity.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

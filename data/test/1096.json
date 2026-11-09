@@ -1,0 +1,31 @@
+{
+  "id": 1096,
+  "origin": "train_more",
+  "claim": "Specialized functional cell types can be derived from human pluripotent stem cells.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 29638116,
+      "title": "Complex Tissue and Disease Modeling using hiPSCs.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Defined genetic models based on human pluripotent stem cells have opened new avenues for understanding disease mechanisms and drug screening."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Many of these models assume cell-autonomous mechanisms of disease but it is possible that disease phenotypes or drug responses will only be evident if all cellular and extracellular components of a tissue are present and functionally mature."
+        },
+        {
+          "original_index": 2,
+          "sentence": "To derive optimal benefit from such models, complex multicellular structures with vascular components that mimic tissue niches will thus likely be necessary."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Here we consider emerging research creating human tissue mimics and provide some recommendations for moving the field forward."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

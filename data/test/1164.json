@@ -1,0 +1,63 @@
+{
+  "id": 1164,
+  "origin": "train_more",
+  "claim": "The G34R/V mutation creates a hypomethylated phenotype at the H3K36 histone.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 4455466,
+      "title": "ZMYND11 links histone H3.3K36me3 to transcription elongation and tumour suppression",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Recognition of modified histones by ‘reader’ proteins plays a critical role in the regulation of chromatin."
+        },
+        {
+          "original_index": 1,
+          "sentence": "H3K36 trimethylation (H3K36me3) is deposited onto the nucleosomes in the transcribed regions after RNA polymerase II elongation."
+        },
+        {
+          "original_index": 2,
+          "sentence": "In yeast, this mark in turn recruits epigenetic regulators to reset the chromatin to a relatively repressive state, thus suppressing cryptic transcription."
+        },
+        {
+          "original_index": 3,
+          "sentence": "However, much less is known about the role of H3K36me3 in transcription regulation in mammals."
+        },
+        {
+          "original_index": 4,
+          "sentence": "This is further complicated by the transcription-coupled incorporation of the histone variant H3.3 in gene bodies."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Here we show that the candidate tumour suppressor ZMYND11 specifically recognizes H3K36me3 on H3.3 (H3.3K36me3) and regulates RNA polymerase II elongation."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Structural studies show that in addition to the trimethyl-lysine binding by an aromatic cage within the PWWP domain, the H3.3-dependent recognition is mediated by the encapsulation of the H3.3-specific ‘Ser 31’ residue in a composite pocket formed by the tandem bromo–PWWP domains of ZMYND11."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Chromatin immunoprecipitation followed by sequencing shows a genome-wide co-localization of ZMYND11 with H3K36me3 and H3.3 in gene bodies, and its occupancy requires the pre-deposition of H3.3K36me3."
+        },
+        {
+          "original_index": 8,
+          "sentence": "Although ZMYND11 is associated with highly expressed genes, it functions as an unconventional transcription co-repressor by modulating RNA polymerase II at the elongation stage."
+        },
+        {
+          "original_index": 9,
+          "sentence": "ZMYND11 is critical for the repression of a transcriptional program that is essential for tumour cell growth; low expression levels of ZMYND11 in breast cancer patients correlate with worse prognosis."
+        },
+        {
+          "original_index": 10,
+          "sentence": "Consistently, overexpression of ZMYND11 suppresses cancer cell growth in vitro and tumour formation in mice."
+        },
+        {
+          "original_index": 11,
+          "sentence": "Together, this study identifies ZMYND11 as an H3.3-specific reader of H3K36me3 that links the histone-variant-mediated transcription elongation control to tumour suppression."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

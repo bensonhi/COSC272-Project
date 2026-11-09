@@ -1,0 +1,35 @@
+{
+  "id": 161,
+  "origin": "train_more",
+  "claim": "Bacteriophagaes MS2 and Qβ are members of the Leviviridae.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 6903077,
+      "title": "Asymmetric cryo-EM reconstruction of phage MS2 reveals genome structure in situ",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "In single-stranded ribonucleic acid (RNA) viruses, virus capsid assembly and genome packaging are intertwined processes."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Using cryo-electron microscopy and single particle analysis we determined the asymmetric virion structure of bacteriophage MS2, which includes 178 copies of the coat protein, a single copy of the A-protein and the RNA genome."
+        },
+        {
+          "original_index": 2,
+          "sentence": "This reveals that in situ, the viral RNA genome can adopt a defined conformation."
+        },
+        {
+          "original_index": 3,
+          "sentence": "The RNA forms a branched network of stem-loops that almost all allocate near the capsid inner surface, while predominantly binding to coat protein dimers that are located in one-half of the capsid."
+        },
+        {
+          "original_index": 4,
+          "sentence": "This suggests that genomic RNA is highly involved in genome packaging and virion assembly."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

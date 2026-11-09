@@ -1,0 +1,244 @@
+{
+  "id": 78,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Active caspase-11 participate in regulating phagosome-lysosome fusion.",
+      "evidence": [
+        {
+          "doc_id": 5099266,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "Caspase-11 promoted the fusion of the L. pneumophila vacuole with lysosomes by modulating actin polymerization through cofilin.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 5099266,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "However, caspase-11 was dispensable for the fusion of lysosomes with phagosomes containing nonpathogenic bacteria, uncovering a fundamental difference in the trafficking of phagosomes according to their cargo.",
+          "kept": true,
+          "new_index": 7
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 5099266,
+          "title": "Caspase-11 promotes the fusion of phagosomes harboring pathogenic bacteria with lysosomes by modulating actin polymerization.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Inflammasomes are multiprotein complexes that include members of the NLR (nucleotide-binding domain leucine-rich repeat containing) family and caspase-1."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Once bacterial molecules are sensed within the macrophage, the inflammasome is assembled, mediating the activation of caspase-1."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Caspase-11 mediates caspase-1 activation in response to lipopolysaccharide and bacterial toxins, and yet its role during bacterial infection is unknown."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Here, we demonstrated that caspase-11 was dispensable for caspase-1 activation in response to Legionella, Salmonella, Francisella, and Listeria."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We also determined that active mouse caspase-11 was required for restriction of L. pneumophila infection."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Similarly, human caspase-4 and caspase-5, homologs of mouse caspase-11, cooperated to restrict L. pneumophila infection in human macrophages."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Caspase-11 promoted the fusion of the L. pneumophila vacuole with lysosomes by modulating actin polymerization through cofilin."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "However, caspase-11 was dispensable for the fusion of lysosomes with phagosomes containing nonpathogenic bacteria, uncovering a fundamental difference in the trafficking of phagosomes according to their cargo."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Active caspase-11 participate in regulating phagosome-lysosome fusion.",
+      "evidence": [
+        {
+          "doc_id": 5099266,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "Caspase-11 promoted the fusion of the L. pneumophila vacuole with lysosomes by modulating actin polymerization through cofilin.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 5099266,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "However, caspase-11 was dispensable for the fusion of lysosomes with phagosomes containing nonpathogenic bacteria, uncovering a fundamental difference in the trafficking of phagosomes according to their cargo.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 5099266,
+          "title": "Caspase-11 promotes the fusion of phagosomes harboring pathogenic bacteria with lysosomes by modulating actin polymerization.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Inflammasomes are multiprotein complexes that include members of the NLR (nucleotide-binding domain leucine-rich repeat containing) family and caspase-1."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Caspase-11 mediates caspase-1 activation in response to lipopolysaccharide and bacterial toxins, and yet its role during bacterial infection is unknown."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Here, we demonstrated that caspase-11 was dispensable for caspase-1 activation in response to Legionella, Salmonella, Francisella, and Listeria."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "We also determined that active mouse caspase-11 was required for restriction of L. pneumophila infection."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Similarly, human caspase-4 and caspase-5, homologs of mouse caspase-11, cooperated to restrict L. pneumophila infection in human macrophages."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Caspase-11 promoted the fusion of the L. pneumophila vacuole with lysosomes by modulating actin polymerization through cofilin."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 5099266,
+          "original_index": 1,
+          "sentence": "Once bacterial molecules are sensed within the macrophage, the inflammasome is assembled, mediating the activation of caspase-1.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 5099266,
+          "original_index": 7,
+          "sentence": "However, caspase-11 was dispensable for the fusion of lysosomes with phagosomes containing nonpathogenic bacteria, uncovering a fundamental difference in the trafficking of phagosomes according to their cargo.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Active caspase-11 participate in regulating phagosome-lysosome fusion.",
+      "evidence": [
+        {
+          "doc_id": 5099266,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "Caspase-11 promoted the fusion of the L. pneumophila vacuole with lysosomes by modulating actin polymerization through cofilin.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 5099266,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "However, caspase-11 was dispensable for the fusion of lysosomes with phagosomes containing nonpathogenic bacteria, uncovering a fundamental difference in the trafficking of phagosomes according to their cargo.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 5099266,
+          "title": "Caspase-11 promotes the fusion of phagosomes harboring pathogenic bacteria with lysosomes by modulating actin polymerization.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Inflammasomes are multiprotein complexes that include members of the NLR (nucleotide-binding domain leucine-rich repeat containing) family and caspase-1."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Once bacterial molecules are sensed within the macrophage, the inflammasome is assembled, mediating the activation of caspase-1."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Caspase-11 mediates caspase-1 activation in response to lipopolysaccharide and bacterial toxins, and yet its role during bacterial infection is unknown."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Here, we demonstrated that caspase-11 was dispensable for caspase-1 activation in response to Legionella, Salmonella, Francisella, and Listeria."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Similarly, human caspase-4 and caspase-5, homologs of mouse caspase-11, cooperated to restrict L. pneumophila infection in human macrophages."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 5099266,
+          "original_index": 4,
+          "sentence": "We also determined that active mouse caspase-11 was required for restriction of L. pneumophila infection.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 5099266,
+          "original_index": 6,
+          "sentence": "Caspase-11 promoted the fusion of the L. pneumophila vacuole with lysosomes by modulating actin polymerization through cofilin.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 5099266,
+          "original_index": 7,
+          "sentence": "However, caspase-11 was dispensable for the fusion of lysosomes with phagosomes containing nonpathogenic bacteria, uncovering a fundamental difference in the trafficking of phagosomes according to their cargo.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

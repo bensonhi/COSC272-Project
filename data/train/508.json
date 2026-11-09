@@ -1,0 +1,48 @@
+{
+  "id": 508,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Hematopoietic Stem Cell purification reaches purity rate of up to 50%.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 13980338,
+          "title": "Combined Single-Cell Functional and Gene Expression Analysis Resolves Heterogeneity within Stem Cell Populations",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Heterogeneity within the self-renewal durability of adult hematopoietic stem cells (HSCs) challenges our understanding of the molecular framework underlying HSC function."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Gene expression studies have been hampered by the presence of multiple HSC subtypes and contaminating non-HSCs in bulk HSC populations."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "To gain deeper insight into the gene expression program of murine HSCs, we combined single-cell functional assays with flow cytometric index sorting and single-cell gene expression assays."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Through bioinformatic integration of these datasets, we designed an unbiased sorting strategy that separates non-HSCs away from HSCs, and single-cell transplantation experiments using the enriched population were combined with RNA-seq data to identify key molecules that associate with long-term durable self-renewal, producing a single-cell molecular dataset that is linked to functional stem cell activity."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Finally, we demonstrated the broader applicability of this approach for linking key molecules with defined cellular functions in another stem cell system."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": 913,
+  "origin": "dev",
+  "claim": "PPAR-RXRs are inhibited by PPAR ligands.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 3203590,
+      "title": "Unique response pathways are established by allosteric interactions among nuclear hormone receptors",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Heterodimerization is a common paradigm among eukaryotic transcription factors."
+        },
+        {
+          "original_index": 1,
+          "sentence": "The 9-cis retinoic acid receptor (RXR) serves as a common heterodimerization partner for several nuclear receptors, including the thyroid hormone receptor (T3R) and retinoic acid receptor (RAR)."
+        },
+        {
+          "original_index": 2,
+          "sentence": "This raises the question as to whether these complexes possess dual hormonal responsiveness."
+        },
+        {
+          "original_index": 3,
+          "sentence": "We devised a strategy to examine the transcriptional properties of each receptor individually or when tethered to a heterodimeric partner."
+        },
+        {
+          "original_index": 4,
+          "sentence": "We find that the intrinsic binding properties of RXR are masked in T3R-RXR and RAR-RXR heterodimers."
+        },
+        {
+          "original_index": 5,
+          "sentence": "In contrast, RXR is active as a non-DNA-binding cofactor with the NGFI-B/Nurr1 orphan receptors."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Heterodimerization of RXR with constitutively active NGFI-B/Nurr1 creates a novel hormone-dependent complex."
+        },
+        {
+          "original_index": 7,
+          "sentence": "These findings suggest that allosteric interactions among heterodimers create complexes with unique properties."
+        },
+        {
+          "original_index": 8,
+          "sentence": "We suggest that allostery is a critical feature underlying the generation of diversity in hormone response networks."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

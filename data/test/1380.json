@@ -1,0 +1,195 @@
+{
+  "id": 1380,
+  "origin": "train_more",
+  "claim": "Women with a lower birth weight are more likely to develop breast cancer later in life.",
+  "evidence": [
+    {
+      "doc_id": 16322674,
+      "group_id": "g0",
+      "evidence_label": "CONTRADICT",
+      "original_index": 5,
+      "sentence": "Birth weight was positively associated with breast cancer risk in studies based on birth records (pooled relative risk [RR] per one standard deviation [SD] [= 0.5 kg] increment in birth weight: 1.06; 95% confidence interval [CI] 1.02-1.09) and parental recall when the participants were children (1.02; 95% CI 0.99-1.05), but not in those based on adult self-reports, or maternal recall during the woman's adulthood (0.98; 95% CI 0.95-1.01) (p for heterogeneity between data sources = 0.003)."
+    },
+    {
+      "doc_id": 16322674,
+      "group_id": "g1",
+      "evidence_label": "CONTRADICT",
+      "original_index": 6,
+      "sentence": "Relative to women who weighed 3.000-3.499 kg, the risk was 0.96 (CI 0.80-1.16) in those who weighed < 2.500 kg, and 1.12 (95% CI 1.00-1.25) in those who weighed > or = 4.000 kg (p for linear trend = 0.001) in birth record data."
+    },
+    {
+      "doc_id": 23557241,
+      "group_id": "g2",
+      "evidence_label": "CONTRADICT",
+      "original_index": 6,
+      "sentence": "Increased risk of breast cancer was noted with increased birthweight (relative risk [RR] 1.15 [95% CI 1.09-1.21]), birth length (1.28 [1.11-1.48]), higher maternal age (1.13 [1.02-1.25]), and paternal age (1.12 [1.05-1.19])."
+    },
+    {
+      "doc_id": 17450673,
+      "group_id": "g3",
+      "evidence_label": "CONTRADICT",
+      "original_index": 5,
+      "sentence": "RESULTS We found that heavier birth weights were associated with increased breast cancer risk, with studies involving five categories of birth weight identifying odds ratios (ORs) of 1.24 (95% confidence interval [CI] 1.04 to 1.48) for 4,000 g or more and 1.15 (95% CI 1.04 to 1.26) for 3,500 g to 3,999 g, relative to a birth weight of 2,500 to 2,599 g. These studies provided no support for a J-shaped relationship of birthweight to risk."
+    },
+    {
+      "doc_id": 17450673,
+      "group_id": "g4",
+      "evidence_label": "CONTRADICT_more",
+      "original_index": 6,
+      "sentence": "Support for an association with birthweight was also derived from studies based on three birth weight categories (OR 1.15 [95% CI 1.01 to 1.31] for > or =4,000 g relative to <3,000 g) and two birth weight categories (OR 1.09 [95% CI 1.02 to 1.18] for > or =3,000 g relative to <3,000 g)."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 16322674,
+      "title": "Birth Size and Breast Cancer Risk: Re-analysis of Individual Participant Data from 32 Studies",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "BACKGROUND Birth size, perhaps a proxy for prenatal environment, might be a correlate of subsequent breast cancer risk, but findings from epidemiological studies have been inconsistent."
+        },
+        {
+          "original_index": 1,
+          "sentence": "We re-analysed individual participant data from published and unpublished studies to obtain more precise estimates of the magnitude and shape of the birth size-breast cancer association.   \n"
+        },
+        {
+          "original_index": 2,
+          "sentence": "METHODS AND FINDINGS Studies were identified through computer-assisted and manual searches, and personal communication with investigators."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Individual participant data from 32 studies, comprising 22,058 breast cancer cases, were obtained."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Random effect models were used, if appropriate, to combine study-specific estimates of effect."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Birth weight was positively associated with breast cancer risk in studies based on birth records (pooled relative risk [RR] per one standard deviation [SD] [= 0.5 kg] increment in birth weight: 1.06; 95% confidence interval [CI] 1.02-1.09) and parental recall when the participants were children (1.02; 95% CI 0.99-1.05), but not in those based on adult self-reports, or maternal recall during the woman's adulthood (0.98; 95% CI 0.95-1.01) (p for heterogeneity between data sources = 0.003)."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Relative to women who weighed 3.000-3.499 kg, the risk was 0.96 (CI 0.80-1.16) in those who weighed < 2.500 kg, and 1.12 (95% CI 1.00-1.25) in those who weighed > or = 4.000 kg (p for linear trend = 0.001) in birth record data."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Birth length and head circumference from birth records were also positively associated with breast cancer risk (pooled RR per one SD increment: 1.06 [95% CI 1.03-1.10] and 1.09 [95% CI 1.03-1.15], respectively)."
+        },
+        {
+          "original_index": 8,
+          "sentence": "Simultaneous adjustment for these three birth size variables showed that length was the strongest independent predictor of risk."
+        },
+        {
+          "original_index": 9,
+          "sentence": "The birth size effects did not appear to be confounded or mediated by established breast cancer risk factors and were not modified by age or menopausal status."
+        },
+        {
+          "original_index": 10,
+          "sentence": "The cumulative incidence of breast cancer per 100 women by age 80 y in the study populations was estimated to be 10.0, 10.0, 10.4, and 11.5 in those who were, respectively, in the bottom, second, third, and top fourths of the birth length distribution.   \n"
+        },
+        {
+          "original_index": 11,
+          "sentence": "CONCLUSIONS This pooled analysis of individual participant data is consistent with birth size, and in particular birth length, being an independent correlate of breast cancer risk in adulthood."
+        }
+      ]
+    },
+    {
+      "doc_id": 23557241,
+      "title": "Intrauterine factors and risk of breast cancer: a systematic review and meta-analysis of current evidence.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "BACKGROUND Emerging evidence suggests an association between female prenatal experience and her subsequent risk of developing breast cancer."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Potential underlying mechanisms include variation in amounts of maternal endogenous sex hormones and growth hormones, germ-cell mutations, formation of cancer stem-cells, and other genetic or epigenetic events."
+        },
+        {
+          "original_index": 2,
+          "sentence": "We reviewed and summarised quantitatively the available data on intrauterine exposures and risk of breast cancer.   \n"
+        },
+        {
+          "original_index": 3,
+          "sentence": "METHODS We systematically searched for studies that assessed association between perinatal factors and risk of breast cancer."
+        },
+        {
+          "original_index": 4,
+          "sentence": "We reviewed separately each of the perinatal factors, including birthweight, birth length, parental age at delivery, gestational age, intrauterine exposure to diethylstilbestrol, twin membership, maternal pre-eclampsia or eclampsia, and other factors.   \n"
+        },
+        {
+          "original_index": 5,
+          "sentence": "FINDINGS We identified 57 studies published between Oct 1, 1980, and June 21, 2007."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Increased risk of breast cancer was noted with increased birthweight (relative risk [RR] 1.15 [95% CI 1.09-1.21]), birth length (1.28 [1.11-1.48]), higher maternal age (1.13 [1.02-1.25]), and paternal age (1.12 [1.05-1.19])."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Decreased risk of breast cancer was noted for maternal pre-eclampsia and eclampsia (0.48 [0.30-0.78]) and twin membership (0.93 [0.87-1.00])."
+        },
+        {
+          "original_index": 8,
+          "sentence": "No association was noted between risk of breast cancer and gestational age at birth (0.95 [0.71-1.26]) or maternal diethylstilbestrol treatment (1.40 [0.86-2.28]).   \n"
+        },
+        {
+          "original_index": 9,
+          "sentence": "INTERPRETATION The intrauterine environment contributes to the predisposition of women to breast cancer in adulthood."
+        },
+        {
+          "original_index": 10,
+          "sentence": "The in-utero mechanisms responsible for such predisposition need to be elucidated."
+        }
+      ]
+    },
+    {
+      "doc_id": 17450673,
+      "title": "Intrauterine environments and breast cancer risk: meta-analysis and systematic review",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "INTRODUCTION Various perinatal factors, including birth weight, birth order, maternal age, gestational age, twin status, and parental smoking, have been postulated to affect breast cancer risk in daughters by altering the hormonal environment of the developing fetal mammary glands."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Despite ample biologic plausibility, epidemiologic studies to date have yielded conflicting results."
+        },
+        {
+          "original_index": 2,
+          "sentence": "We investigated the associations between perinatal factors and subsequent breast cancer risk through meta-analyses.   \n"
+        },
+        {
+          "original_index": 3,
+          "sentence": "METHODS We reviewed breast cancer studies published from January 1966 to February 2007 that included data on birth weight, birth order, maternal age, gestational age, twin status, and maternal or paternal smoking."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Meta-analyses using random effect models were employed to summarize the results.   \n"
+        },
+        {
+          "original_index": 5,
+          "sentence": "RESULTS We found that heavier birth weights were associated with increased breast cancer risk, with studies involving five categories of birth weight identifying odds ratios (ORs) of 1.24 (95% confidence interval [CI] 1.04 to 1.48) for 4,000 g or more and 1.15 (95% CI 1.04 to 1.26) for 3,500 g to 3,999 g, relative to a birth weight of 2,500 to 2,599 g. These studies provided no support for a J-shaped relationship of birthweight to risk."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Support for an association with birthweight was also derived from studies based on three birth weight categories (OR 1.15 [95% CI 1.01 to 1.31] for > or =4,000 g relative to <3,000 g) and two birth weight categories (OR 1.09 [95% CI 1.02 to 1.18] for > or =3,000 g relative to <3,000 g)."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Women born to older mothers and twins were also at some increased risk, but the results were heterogeneous across studies and publication years."
+        },
+        {
+          "original_index": 8,
+          "sentence": "Birth order, prematurity, and maternal smoking were unrelated to breast cancer risk.   \n"
+        },
+        {
+          "original_index": 9,
+          "sentence": "CONCLUSION Our findings provide some support for the hypothesis that in utero exposures reflective of higher endogenous hormone levels could affect risk for development of breast cancer in adulthood."
+        }
+      ]
+    }
+  ],
+  "label": "CONTRADICT"
+}

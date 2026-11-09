@@ -1,0 +1,61 @@
+{
+  "id": 93,
+  "origin": "train_more",
+  "claim": "Aggravated inflammation is dependent on NLRP3 inflammasome activation.",
+  "evidence": [
+    {
+      "doc_id": 2692522,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 2,
+      "sentence": "Here we show that MSU and CPPD engage the caspase-1-activating NALP3 (also called cryopyrin) inflammasome, resulting in the production of active interleukin (IL)-1β and IL-18."
+    },
+    {
+      "doc_id": 2692522,
+      "group_id": "g1",
+      "evidence_label": "SUPPORT",
+      "original_index": 3,
+      "sentence": "Macrophages from mice deficient in various components of the inflammasome such as caspase-1, ASC and NALP3 are defective in crystal-induced IL-1β activation."
+    },
+    {
+      "doc_id": 2692522,
+      "group_id": "g2",
+      "evidence_label": "SUPPORT_more",
+      "original_index": 4,
+      "sentence": "Moreover, an impaired neutrophil influx is found in an in vivo model of crystal-induced peritonitis in inflammasome-deficient mice or mice deficient in the IL-1β receptor (IL-1R)."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 2692522,
+      "title": "Gout-associated uric acid crystals activate the NALP3 inflammasome",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Development of the acute and chronic inflammatory responses known as gout and pseudogout are associated with the deposition of monosodium urate (MSU) or calcium pyrophosphate dihydrate (CPPD) crystals, respectively, in joints and periarticular tissues."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Although MSU crystals were first identified as the aetiological agent of gout in the eighteenth century and more recently as a ‘danger signal’ released from dying cells, little is known about the molecular mechanisms underlying MSU- or CPPD-induced inflammation."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Here we show that MSU and CPPD engage the caspase-1-activating NALP3 (also called cryopyrin) inflammasome, resulting in the production of active interleukin (IL)-1β and IL-18."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Macrophages from mice deficient in various components of the inflammasome such as caspase-1, ASC and NALP3 are defective in crystal-induced IL-1β activation."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Moreover, an impaired neutrophil influx is found in an in vivo model of crystal-induced peritonitis in inflammasome-deficient mice or mice deficient in the IL-1β receptor (IL-1R)."
+        },
+        {
+          "original_index": 5,
+          "sentence": "These findings provide insight into the molecular processes underlying the inflammatory conditions of gout and pseudogout, and further support a pivotal role of the inflammasome in several autoinflammatory diseases."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

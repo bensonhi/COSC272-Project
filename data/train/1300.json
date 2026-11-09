@@ -1,0 +1,48 @@
+{
+  "id": 1300,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Thiopurine active metabolites can be catabolized through dephosphorylation of thioguanine nucleotides.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 6421792,
+          "title": "Activating mutations in the NT5C2 nucleotidase gene drive chemotherapy resistance in relapsed ALL",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Acute lymphoblastic leukemia (ALL) is an aggressive hematological tumor resulting from the malignant transformation of lymphoid progenitors."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Despite intensive chemotherapy, 20% of pediatric patients and over 50% of adult patients with ALL do not achieve a complete remission or relapse after intensified chemotherapy, making disease relapse and resistance to therapy the most substantial challenge in the treatment of this disease."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Using whole-exome sequencing, we identify mutations in the cytosolic 5'-nucleotidase II gene (NT5C2), which encodes a 5'-nucleotidase enzyme that is responsible for the inactivation of nucleoside-analog chemotherapy drugs, in 20/103 (19%) relapse T cell ALLs and 1/35 (3%) relapse B-precursor ALLs."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "NT5C2 mutant proteins show increased nucleotidase activity in vitro and conferred resistance to chemotherapy with 6-mercaptopurine and 6-thioguanine when expressed in ALL lymphoblasts."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "These results support a prominent role for activating mutations in NT5C2 and increased nucleoside-analog metabolism in disease progression and chemotherapy resistance in ALL."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

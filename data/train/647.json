@@ -1,0 +1,404 @@
+{
+  "id": 647,
+  "origin": "train_more",
+  "n_groups": 4,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Integrated care is ineffective at tackling multiple comorbidities.",
+      "evidence": [
+        {
+          "doc_id": 15041758,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 6,
+          "sentence": "Improvements from baseline on the Sheehan disability scale (-0.9, 95% confidence interval -1.5 to -0.2; P = 0.006) and global quality of life rating (0.7, 0.2 to 1.2; P = 0.005) were significantly greater at six and 12 months in patients in the intervention group.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 15041758,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 7,
+          "sentence": "There was a trend toward greater improvement in disabilities in activities of daily living (-1.5, -3.3 to 0.4; P = 0.10).   \n",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 15041758,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 8,
+          "sentence": "CONCLUSIONS Integrated care that covers chronic physical disease and comorbid depression can reduce social role disability and enhance global quality of life.",
+          "kept": true,
+          "new_index": 8
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15041758,
+          "title": "Functional outcomes of multi-condition collaborative care and successful ageing: results of randomised trial",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To evaluate the effectiveness of integrated care for chronic physical diseases and depression in reducing disability and improving quality of life.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN A randomised controlled trial of multi-condition collaborative care for depression and poorly controlled diabetes and/or risk factors for coronary heart disease compared with usual care among middle aged and elderly people   SETTING Fourteen primary care clinics in Seattle, Washington.   PARTICIPANTS Patients with diabetes or coronary heart disease, or both, and blood pressure above 140/90 mm Hg, low density lipoprotein concentration >3.37 mmol/L, or glycated haemoglobin 8.5% or higher, and PHQ-9 depression scores of ≥ 10.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "INTERVENTION A 12 month intervention to improve depression, glycaemic control, blood pressure, and lipid control by integrating a \"treat to target\" programme for diabetes and risk factors for coronary heart disease with collaborative care for depression."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "The intervention combined self management support, monitoring of disease control, and pharmacotherapy to control depression, hyperglycaemia, hypertension, and hyperlipidaemia.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURES Social role disability (Sheehan disability scale), global quality of life rating, and World Health Organization disability assessment schedule (WHODAS-2) scales to measure disabilities in activities of daily living (mobility, self care, household maintenance).   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "RESULTS Of 214 patients enrolled (106 intervention and 108 usual care), disability and quality of life measures were obtained for 97 intervention patients at six months (92%) and 92 at 12 months (87%), and for 96 usual care patients at six months (89%) and 92 at 12 months (85%)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Improvements from baseline on the Sheehan disability scale (-0.9, 95% confidence interval -1.5 to -0.2; P = 0.006) and global quality of life rating (0.7, 0.2 to 1.2; P = 0.005) were significantly greater at six and 12 months in patients in the intervention group."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "There was a trend toward greater improvement in disabilities in activities of daily living (-1.5, -3.3 to 0.4; P = 0.10).   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "CONCLUSIONS Integrated care that covers chronic physical disease and comorbid depression can reduce social role disability and enhance global quality of life."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Trial registration Clinical Trials NCT00468676."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Integrated care is ineffective at tackling multiple comorbidities.",
+      "evidence": [
+        {
+          "doc_id": 15041758,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 6,
+          "sentence": "Improvements from baseline on the Sheehan disability scale (-0.9, 95% confidence interval -1.5 to -0.2; P = 0.006) and global quality of life rating (0.7, 0.2 to 1.2; P = 0.005) were significantly greater at six and 12 months in patients in the intervention group.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 15041758,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 7,
+          "sentence": "There was a trend toward greater improvement in disabilities in activities of daily living (-1.5, -3.3 to 0.4; P = 0.10).   \n",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 15041758,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 8,
+          "sentence": "CONCLUSIONS Integrated care that covers chronic physical disease and comorbid depression can reduce social role disability and enhance global quality of life.",
+          "kept": true,
+          "new_index": 6
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15041758,
+          "title": "Functional outcomes of multi-condition collaborative care and successful ageing: results of randomised trial",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "DESIGN A randomised controlled trial of multi-condition collaborative care for depression and poorly controlled diabetes and/or risk factors for coronary heart disease compared with usual care among middle aged and elderly people   SETTING Fourteen primary care clinics in Seattle, Washington.   PARTICIPANTS Patients with diabetes or coronary heart disease, or both, and blood pressure above 140/90 mm Hg, low density lipoprotein concentration >3.37 mmol/L, or glycated haemoglobin 8.5% or higher, and PHQ-9 depression scores of ≥ 10.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "INTERVENTION A 12 month intervention to improve depression, glycaemic control, blood pressure, and lipid control by integrating a \"treat to target\" programme for diabetes and risk factors for coronary heart disease with collaborative care for depression."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "The intervention combined self management support, monitoring of disease control, and pharmacotherapy to control depression, hyperglycaemia, hypertension, and hyperlipidaemia.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURES Social role disability (Sheehan disability scale), global quality of life rating, and World Health Organization disability assessment schedule (WHODAS-2) scales to measure disabilities in activities of daily living (mobility, self care, household maintenance).   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "RESULTS Of 214 patients enrolled (106 intervention and 108 usual care), disability and quality of life measures were obtained for 97 intervention patients at six months (92%) and 92 at 12 months (87%), and for 96 usual care patients at six months (89%) and 92 at 12 months (85%)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "There was a trend toward greater improvement in disabilities in activities of daily living (-1.5, -3.3 to 0.4; P = 0.10).   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "CONCLUSIONS Integrated care that covers chronic physical disease and comorbid depression can reduce social role disability and enhance global quality of life."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Trial registration Clinical Trials NCT00468676."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 15041758,
+          "original_index": 0,
+          "sentence": "OBJECTIVE To evaluate the effectiveness of integrated care for chronic physical diseases and depression in reducing disability and improving quality of life.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 15041758,
+          "original_index": 6,
+          "sentence": "Improvements from baseline on the Sheehan disability scale (-0.9, 95% confidence interval -1.5 to -0.2; P = 0.006) and global quality of life rating (0.7, 0.2 to 1.2; P = 0.005) were significantly greater at six and 12 months in patients in the intervention group.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g2",
+        "g1"
+      ],
+      "claim": "Integrated care is ineffective at tackling multiple comorbidities.",
+      "evidence": [
+        {
+          "doc_id": 15041758,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 6,
+          "sentence": "Improvements from baseline on the Sheehan disability scale (-0.9, 95% confidence interval -1.5 to -0.2; P = 0.006) and global quality of life rating (0.7, 0.2 to 1.2; P = 0.005) were significantly greater at six and 12 months in patients in the intervention group.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 15041758,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 7,
+          "sentence": "There was a trend toward greater improvement in disabilities in activities of daily living (-1.5, -3.3 to 0.4; P = 0.10).   \n",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 15041758,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 8,
+          "sentence": "CONCLUSIONS Integrated care that covers chronic physical disease and comorbid depression can reduce social role disability and enhance global quality of life.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15041758,
+          "title": "Functional outcomes of multi-condition collaborative care and successful ageing: results of randomised trial",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To evaluate the effectiveness of integrated care for chronic physical diseases and depression in reducing disability and improving quality of life.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN A randomised controlled trial of multi-condition collaborative care for depression and poorly controlled diabetes and/or risk factors for coronary heart disease compared with usual care among middle aged and elderly people   SETTING Fourteen primary care clinics in Seattle, Washington.   PARTICIPANTS Patients with diabetes or coronary heart disease, or both, and blood pressure above 140/90 mm Hg, low density lipoprotein concentration >3.37 mmol/L, or glycated haemoglobin 8.5% or higher, and PHQ-9 depression scores of ≥ 10.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "The intervention combined self management support, monitoring of disease control, and pharmacotherapy to control depression, hyperglycaemia, hypertension, and hyperlipidaemia.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURES Social role disability (Sheehan disability scale), global quality of life rating, and World Health Organization disability assessment schedule (WHODAS-2) scales to measure disabilities in activities of daily living (mobility, self care, household maintenance).   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "RESULTS Of 214 patients enrolled (106 intervention and 108 usual care), disability and quality of life measures were obtained for 97 intervention patients at six months (92%) and 92 at 12 months (87%), and for 96 usual care patients at six months (89%) and 92 at 12 months (85%)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Improvements from baseline on the Sheehan disability scale (-0.9, 95% confidence interval -1.5 to -0.2; P = 0.006) and global quality of life rating (0.7, 0.2 to 1.2; P = 0.005) were significantly greater at six and 12 months in patients in the intervention group."
+            },
+            {
+              "new_index": 6,
+              "original_index": 9,
+              "sentence": "Trial registration Clinical Trials NCT00468676."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 15041758,
+          "original_index": 2,
+          "sentence": "INTERVENTION A 12 month intervention to improve depression, glycaemic control, blood pressure, and lipid control by integrating a \"treat to target\" programme for diabetes and risk factors for coronary heart disease with collaborative care for depression.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 15041758,
+          "original_index": 7,
+          "sentence": "There was a trend toward greater improvement in disabilities in activities of daily living (-1.5, -3.3 to 0.4; P = 0.10).   \n",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 15041758,
+          "original_index": 8,
+          "sentence": "CONCLUSIONS Integrated care that covers chronic physical disease and comorbid depression can reduce social role disability and enhance global quality of life.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2"
+      ],
+      "claim": "Integrated care is ineffective at tackling multiple comorbidities.",
+      "evidence": [
+        {
+          "doc_id": 15041758,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 6,
+          "sentence": "Improvements from baseline on the Sheehan disability scale (-0.9, 95% confidence interval -1.5 to -0.2; P = 0.006) and global quality of life rating (0.7, 0.2 to 1.2; P = 0.005) were significantly greater at six and 12 months in patients in the intervention group.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 15041758,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 7,
+          "sentence": "There was a trend toward greater improvement in disabilities in activities of daily living (-1.5, -3.3 to 0.4; P = 0.10).   \n",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 15041758,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 8,
+          "sentence": "CONCLUSIONS Integrated care that covers chronic physical disease and comorbid depression can reduce social role disability and enhance global quality of life.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15041758,
+          "title": "Functional outcomes of multi-condition collaborative care and successful ageing: results of randomised trial",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To evaluate the effectiveness of integrated care for chronic physical diseases and depression in reducing disability and improving quality of life.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN A randomised controlled trial of multi-condition collaborative care for depression and poorly controlled diabetes and/or risk factors for coronary heart disease compared with usual care among middle aged and elderly people   SETTING Fourteen primary care clinics in Seattle, Washington.   PARTICIPANTS Patients with diabetes or coronary heart disease, or both, and blood pressure above 140/90 mm Hg, low density lipoprotein concentration >3.37 mmol/L, or glycated haemoglobin 8.5% or higher, and PHQ-9 depression scores of ≥ 10.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "INTERVENTION A 12 month intervention to improve depression, glycaemic control, blood pressure, and lipid control by integrating a \"treat to target\" programme for diabetes and risk factors for coronary heart disease with collaborative care for depression."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "The intervention combined self management support, monitoring of disease control, and pharmacotherapy to control depression, hyperglycaemia, hypertension, and hyperlipidaemia.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURES Social role disability (Sheehan disability scale), global quality of life rating, and World Health Organization disability assessment schedule (WHODAS-2) scales to measure disabilities in activities of daily living (mobility, self care, household maintenance).   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 9,
+              "sentence": "Trial registration Clinical Trials NCT00468676."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 15041758,
+          "original_index": 5,
+          "sentence": "RESULTS Of 214 patients enrolled (106 intervention and 108 usual care), disability and quality of life measures were obtained for 97 intervention patients at six months (92%) and 92 at 12 months (87%), and for 96 usual care patients at six months (89%) and 92 at 12 months (85%).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 15041758,
+          "original_index": 6,
+          "sentence": "Improvements from baseline on the Sheehan disability scale (-0.9, 95% confidence interval -1.5 to -0.2; P = 0.006) and global quality of life rating (0.7, 0.2 to 1.2; P = 0.005) were significantly greater at six and 12 months in patients in the intervention group.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 15041758,
+          "original_index": 7,
+          "sentence": "There was a trend toward greater improvement in disabilities in activities of daily living (-1.5, -3.3 to 0.4; P = 0.10).   \n",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 15041758,
+          "original_index": 8,
+          "sentence": "CONCLUSIONS Integrated care that covers chronic physical disease and comorbid depression can reduce social role disability and enhance global quality of life.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

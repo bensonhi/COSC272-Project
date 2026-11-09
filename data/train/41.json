@@ -1,0 +1,1119 @@
+{
+  "id": 41,
+  "origin": "train_more",
+  "n_groups": 7,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "A high microerythrocyte count protects against severe anemia in homozygous alpha (+)- thalassemia trait subjects.",
+      "evidence": [
+        {
+          "doc_id": 18174210,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "Individuals homozygous for alpha(+)-thalassaemia have microcytosis and an increased erythrocyte count.",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "This model predicted that children homozygous for alpha(+)-thalassaemia lose less Hb than children of normal genotype for a reduction in erythrocyte count of >1.1 x 10(12)/l as a result of the reduced mean cell Hb in homozygous alpha(+)-thalassaemia.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "In addition, children homozygous for alpha(+)-thalassaemia require a 10% greater reduction in erythrocyte count than children of normal genotype (p = 0.02) for Hb concentration to fall to 50 g/l, the cutoff for SMA.",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "We estimated that the haematological profile in children homozygous for alpha(+)-thalassaemia reduces the risk of SMA during acute malaria compared to children of normal genotype (relative risk 0.52; 95% confidence interval [CI] 0.24-1.12, p = 0.09).   \n",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "CONCLUSIONS The increased erythrocyte count and microcytosis in children homozygous for alpha(+)-thalassaemia may contribute substantially to their protection against SMA.",
+          "kept": true,
+          "new_index": 10
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 11,
+          "sentence": "A lower concentration of Hb per erythrocyte and a larger population of erythrocytes may be a biologically advantageous strategy against the significant reduction in erythrocyte count that occurs during acute infection with the malaria parasite Plasmodium falciparum.",
+          "kept": true,
+          "new_index": 11
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 12,
+          "sentence": "This haematological profile may reduce the risk of anaemia by other Plasmodium species, as well as other causes of anaemia.",
+          "kept": true,
+          "new_index": 12
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 18174210,
+          "title": "Increased Microerythrocyte Count in Homozygous α+-Thalassaemia Contributes to Protection against Severe Malarial Anaemia",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND The heritable haemoglobinopathy alpha(+)-thalassaemia is caused by the reduced synthesis of alpha-globin chains that form part of normal adult haemoglobin (Hb)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Individuals homozygous for alpha(+)-thalassaemia have microcytosis and an increased erythrocyte count."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Alpha(+)-thalassaemia homozygosity confers considerable protection against severe malaria, including severe malarial anaemia (SMA) (Hb concentration < 50 g/l), but does not influence parasite count."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We tested the hypothesis that the erythrocyte indices associated with alpha(+)-thalassaemia homozygosity provide a haematological benefit during acute malaria.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "METHODS AND FINDINGS Data from children living on the north coast of Papua New Guinea who had participated in a case-control study of the protection afforded by alpha(+)-thalassaemia against severe malaria were reanalysed to assess the genotype-specific reduction in erythrocyte count and Hb levels associated with acute malarial disease."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We observed a reduction in median erythrocyte count of approximately 1.5 x 10(12)/l in all children with acute falciparum malaria relative to values in community children (p < 0.001)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "We developed a simple mathematical model of the linear relationship between Hb concentration and erythrocyte count."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "This model predicted that children homozygous for alpha(+)-thalassaemia lose less Hb than children of normal genotype for a reduction in erythrocyte count of >1.1 x 10(12)/l as a result of the reduced mean cell Hb in homozygous alpha(+)-thalassaemia."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "In addition, children homozygous for alpha(+)-thalassaemia require a 10% greater reduction in erythrocyte count than children of normal genotype (p = 0.02) for Hb concentration to fall to 50 g/l, the cutoff for SMA."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "We estimated that the haematological profile in children homozygous for alpha(+)-thalassaemia reduces the risk of SMA during acute malaria compared to children of normal genotype (relative risk 0.52; 95% confidence interval [CI] 0.24-1.12, p = 0.09).   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "CONCLUSIONS The increased erythrocyte count and microcytosis in children homozygous for alpha(+)-thalassaemia may contribute substantially to their protection against SMA."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "A lower concentration of Hb per erythrocyte and a larger population of erythrocytes may be a biologically advantageous strategy against the significant reduction in erythrocyte count that occurs during acute infection with the malaria parasite Plasmodium falciparum."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "This haematological profile may reduce the risk of anaemia by other Plasmodium species, as well as other causes of anaemia."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "Other host polymorphisms that induce an increased erythrocyte count and microcytosis may confer a similar advantage."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g2"
+      ],
+      "claim": "A high microerythrocyte count protects against severe anemia in homozygous alpha (+)- thalassemia trait subjects.",
+      "evidence": [
+        {
+          "doc_id": 18174210,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "Individuals homozygous for alpha(+)-thalassaemia have microcytosis and an increased erythrocyte count.",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "This model predicted that children homozygous for alpha(+)-thalassaemia lose less Hb than children of normal genotype for a reduction in erythrocyte count of >1.1 x 10(12)/l as a result of the reduced mean cell Hb in homozygous alpha(+)-thalassaemia.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "In addition, children homozygous for alpha(+)-thalassaemia require a 10% greater reduction in erythrocyte count than children of normal genotype (p = 0.02) for Hb concentration to fall to 50 g/l, the cutoff for SMA.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "We estimated that the haematological profile in children homozygous for alpha(+)-thalassaemia reduces the risk of SMA during acute malaria compared to children of normal genotype (relative risk 0.52; 95% confidence interval [CI] 0.24-1.12, p = 0.09).   \n",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "CONCLUSIONS The increased erythrocyte count and microcytosis in children homozygous for alpha(+)-thalassaemia may contribute substantially to their protection against SMA.",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 11,
+          "sentence": "A lower concentration of Hb per erythrocyte and a larger population of erythrocytes may be a biologically advantageous strategy against the significant reduction in erythrocyte count that occurs during acute infection with the malaria parasite Plasmodium falciparum.",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 12,
+          "sentence": "This haematological profile may reduce the risk of anaemia by other Plasmodium species, as well as other causes of anaemia.",
+          "kept": true,
+          "new_index": 10
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 18174210,
+          "title": "Increased Microerythrocyte Count in Homozygous α+-Thalassaemia Contributes to Protection against Severe Malarial Anaemia",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND The heritable haemoglobinopathy alpha(+)-thalassaemia is caused by the reduced synthesis of alpha-globin chains that form part of normal adult haemoglobin (Hb)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Individuals homozygous for alpha(+)-thalassaemia have microcytosis and an increased erythrocyte count."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Alpha(+)-thalassaemia homozygosity confers considerable protection against severe malaria, including severe malarial anaemia (SMA) (Hb concentration < 50 g/l), but does not influence parasite count."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We tested the hypothesis that the erythrocyte indices associated with alpha(+)-thalassaemia homozygosity provide a haematological benefit during acute malaria.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "METHODS AND FINDINGS Data from children living on the north coast of Papua New Guinea who had participated in a case-control study of the protection afforded by alpha(+)-thalassaemia against severe malaria were reanalysed to assess the genotype-specific reduction in erythrocyte count and Hb levels associated with acute malarial disease."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We observed a reduction in median erythrocyte count of approximately 1.5 x 10(12)/l in all children with acute falciparum malaria relative to values in community children (p < 0.001)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "In addition, children homozygous for alpha(+)-thalassaemia require a 10% greater reduction in erythrocyte count than children of normal genotype (p = 0.02) for Hb concentration to fall to 50 g/l, the cutoff for SMA."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "We estimated that the haematological profile in children homozygous for alpha(+)-thalassaemia reduces the risk of SMA during acute malaria compared to children of normal genotype (relative risk 0.52; 95% confidence interval [CI] 0.24-1.12, p = 0.09).   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "CONCLUSIONS The increased erythrocyte count and microcytosis in children homozygous for alpha(+)-thalassaemia may contribute substantially to their protection against SMA."
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "A lower concentration of Hb per erythrocyte and a larger population of erythrocytes may be a biologically advantageous strategy against the significant reduction in erythrocyte count that occurs during acute infection with the malaria parasite Plasmodium falciparum."
+            },
+            {
+              "new_index": 10,
+              "original_index": 12,
+              "sentence": "This haematological profile may reduce the risk of anaemia by other Plasmodium species, as well as other causes of anaemia."
+            },
+            {
+              "new_index": 11,
+              "original_index": 13,
+              "sentence": "Other host polymorphisms that induce an increased erythrocyte count and microcytosis may confer a similar advantage."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 18174210,
+          "original_index": 6,
+          "sentence": "We developed a simple mathematical model of the linear relationship between Hb concentration and erythrocyte count.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 18174210,
+          "original_index": 7,
+          "sentence": "This model predicted that children homozygous for alpha(+)-thalassaemia lose less Hb than children of normal genotype for a reduction in erythrocyte count of >1.1 x 10(12)/l as a result of the reduced mean cell Hb in homozygous alpha(+)-thalassaemia.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g2",
+        "g1"
+      ],
+      "claim": "A high microerythrocyte count protects against severe anemia in homozygous alpha (+)- thalassemia trait subjects.",
+      "evidence": [
+        {
+          "doc_id": 18174210,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "Individuals homozygous for alpha(+)-thalassaemia have microcytosis and an increased erythrocyte count.",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "This model predicted that children homozygous for alpha(+)-thalassaemia lose less Hb than children of normal genotype for a reduction in erythrocyte count of >1.1 x 10(12)/l as a result of the reduced mean cell Hb in homozygous alpha(+)-thalassaemia.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "In addition, children homozygous for alpha(+)-thalassaemia require a 10% greater reduction in erythrocyte count than children of normal genotype (p = 0.02) for Hb concentration to fall to 50 g/l, the cutoff for SMA.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "We estimated that the haematological profile in children homozygous for alpha(+)-thalassaemia reduces the risk of SMA during acute malaria compared to children of normal genotype (relative risk 0.52; 95% confidence interval [CI] 0.24-1.12, p = 0.09).   \n",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "CONCLUSIONS The increased erythrocyte count and microcytosis in children homozygous for alpha(+)-thalassaemia may contribute substantially to their protection against SMA.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 11,
+          "sentence": "A lower concentration of Hb per erythrocyte and a larger population of erythrocytes may be a biologically advantageous strategy against the significant reduction in erythrocyte count that occurs during acute infection with the malaria parasite Plasmodium falciparum.",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 12,
+          "sentence": "This haematological profile may reduce the risk of anaemia by other Plasmodium species, as well as other causes of anaemia.",
+          "kept": true,
+          "new_index": 9
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 18174210,
+          "title": "Increased Microerythrocyte Count in Homozygous α+-Thalassaemia Contributes to Protection against Severe Malarial Anaemia",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND The heritable haemoglobinopathy alpha(+)-thalassaemia is caused by the reduced synthesis of alpha-globin chains that form part of normal adult haemoglobin (Hb)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Individuals homozygous for alpha(+)-thalassaemia have microcytosis and an increased erythrocyte count."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Alpha(+)-thalassaemia homozygosity confers considerable protection against severe malaria, including severe malarial anaemia (SMA) (Hb concentration < 50 g/l), but does not influence parasite count."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We tested the hypothesis that the erythrocyte indices associated with alpha(+)-thalassaemia homozygosity provide a haematological benefit during acute malaria.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "METHODS AND FINDINGS Data from children living on the north coast of Papua New Guinea who had participated in a case-control study of the protection afforded by alpha(+)-thalassaemia against severe malaria were reanalysed to assess the genotype-specific reduction in erythrocyte count and Hb levels associated with acute malarial disease."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We observed a reduction in median erythrocyte count of approximately 1.5 x 10(12)/l in all children with acute falciparum malaria relative to values in community children (p < 0.001)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "In addition, children homozygous for alpha(+)-thalassaemia require a 10% greater reduction in erythrocyte count than children of normal genotype (p = 0.02) for Hb concentration to fall to 50 g/l, the cutoff for SMA."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "We estimated that the haematological profile in children homozygous for alpha(+)-thalassaemia reduces the risk of SMA during acute malaria compared to children of normal genotype (relative risk 0.52; 95% confidence interval [CI] 0.24-1.12, p = 0.09).   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "A lower concentration of Hb per erythrocyte and a larger population of erythrocytes may be a biologically advantageous strategy against the significant reduction in erythrocyte count that occurs during acute infection with the malaria parasite Plasmodium falciparum."
+            },
+            {
+              "new_index": 9,
+              "original_index": 12,
+              "sentence": "This haematological profile may reduce the risk of anaemia by other Plasmodium species, as well as other causes of anaemia."
+            },
+            {
+              "new_index": 10,
+              "original_index": 13,
+              "sentence": "Other host polymorphisms that induce an increased erythrocyte count and microcytosis may confer a similar advantage."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 18174210,
+          "original_index": 6,
+          "sentence": "We developed a simple mathematical model of the linear relationship between Hb concentration and erythrocyte count.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 18174210,
+          "original_index": 7,
+          "sentence": "This model predicted that children homozygous for alpha(+)-thalassaemia lose less Hb than children of normal genotype for a reduction in erythrocyte count of >1.1 x 10(12)/l as a result of the reduced mean cell Hb in homozygous alpha(+)-thalassaemia.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 18174210,
+          "original_index": 10,
+          "sentence": "CONCLUSIONS The increased erythrocyte count and microcytosis in children homozygous for alpha(+)-thalassaemia may contribute substantially to their protection against SMA.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_3_groups",
+      "dropped_group_ids": [
+        "g3",
+        "g4",
+        "g2"
+      ],
+      "claim": "A high microerythrocyte count protects against severe anemia in homozygous alpha (+)- thalassemia trait subjects.",
+      "evidence": [
+        {
+          "doc_id": 18174210,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "Individuals homozygous for alpha(+)-thalassaemia have microcytosis and an increased erythrocyte count.",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "This model predicted that children homozygous for alpha(+)-thalassaemia lose less Hb than children of normal genotype for a reduction in erythrocyte count of >1.1 x 10(12)/l as a result of the reduced mean cell Hb in homozygous alpha(+)-thalassaemia.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "In addition, children homozygous for alpha(+)-thalassaemia require a 10% greater reduction in erythrocyte count than children of normal genotype (p = 0.02) for Hb concentration to fall to 50 g/l, the cutoff for SMA.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "We estimated that the haematological profile in children homozygous for alpha(+)-thalassaemia reduces the risk of SMA during acute malaria compared to children of normal genotype (relative risk 0.52; 95% confidence interval [CI] 0.24-1.12, p = 0.09).   \n",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "CONCLUSIONS The increased erythrocyte count and microcytosis in children homozygous for alpha(+)-thalassaemia may contribute substantially to their protection against SMA.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 11,
+          "sentence": "A lower concentration of Hb per erythrocyte and a larger population of erythrocytes may be a biologically advantageous strategy against the significant reduction in erythrocyte count that occurs during acute infection with the malaria parasite Plasmodium falciparum.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 12,
+          "sentence": "This haematological profile may reduce the risk of anaemia by other Plasmodium species, as well as other causes of anaemia.",
+          "kept": true,
+          "new_index": 8
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 18174210,
+          "title": "Increased Microerythrocyte Count in Homozygous α+-Thalassaemia Contributes to Protection against Severe Malarial Anaemia",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND The heritable haemoglobinopathy alpha(+)-thalassaemia is caused by the reduced synthesis of alpha-globin chains that form part of normal adult haemoglobin (Hb)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Individuals homozygous for alpha(+)-thalassaemia have microcytosis and an increased erythrocyte count."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Alpha(+)-thalassaemia homozygosity confers considerable protection against severe malaria, including severe malarial anaemia (SMA) (Hb concentration < 50 g/l), but does not influence parasite count."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We tested the hypothesis that the erythrocyte indices associated with alpha(+)-thalassaemia homozygosity provide a haematological benefit during acute malaria.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "METHODS AND FINDINGS Data from children living on the north coast of Papua New Guinea who had participated in a case-control study of the protection afforded by alpha(+)-thalassaemia against severe malaria were reanalysed to assess the genotype-specific reduction in erythrocyte count and Hb levels associated with acute malarial disease."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We observed a reduction in median erythrocyte count of approximately 1.5 x 10(12)/l in all children with acute falciparum malaria relative to values in community children (p < 0.001)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 9,
+              "sentence": "We estimated that the haematological profile in children homozygous for alpha(+)-thalassaemia reduces the risk of SMA during acute malaria compared to children of normal genotype (relative risk 0.52; 95% confidence interval [CI] 0.24-1.12, p = 0.09).   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "CONCLUSIONS The increased erythrocyte count and microcytosis in children homozygous for alpha(+)-thalassaemia may contribute substantially to their protection against SMA."
+            },
+            {
+              "new_index": 8,
+              "original_index": 12,
+              "sentence": "This haematological profile may reduce the risk of anaemia by other Plasmodium species, as well as other causes of anaemia."
+            },
+            {
+              "new_index": 9,
+              "original_index": 13,
+              "sentence": "Other host polymorphisms that induce an increased erythrocyte count and microcytosis may confer a similar advantage."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 18174210,
+          "original_index": 6,
+          "sentence": "We developed a simple mathematical model of the linear relationship between Hb concentration and erythrocyte count.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 18174210,
+          "original_index": 7,
+          "sentence": "This model predicted that children homozygous for alpha(+)-thalassaemia lose less Hb than children of normal genotype for a reduction in erythrocyte count of >1.1 x 10(12)/l as a result of the reduced mean cell Hb in homozygous alpha(+)-thalassaemia.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 18174210,
+          "original_index": 8,
+          "sentence": "In addition, children homozygous for alpha(+)-thalassaemia require a 10% greater reduction in erythrocyte count than children of normal genotype (p = 0.02) for Hb concentration to fall to 50 g/l, the cutoff for SMA.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 18174210,
+          "original_index": 11,
+          "sentence": "A lower concentration of Hb per erythrocyte and a larger population of erythrocytes may be a biologically advantageous strategy against the significant reduction in erythrocyte count that occurs during acute infection with the malaria parasite Plasmodium falciparum.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_4_groups",
+      "dropped_group_ids": [
+        "g1",
+        "g5",
+        "g3",
+        "g4"
+      ],
+      "claim": "A high microerythrocyte count protects against severe anemia in homozygous alpha (+)- thalassemia trait subjects.",
+      "evidence": [
+        {
+          "doc_id": 18174210,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "Individuals homozygous for alpha(+)-thalassaemia have microcytosis and an increased erythrocyte count.",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "This model predicted that children homozygous for alpha(+)-thalassaemia lose less Hb than children of normal genotype for a reduction in erythrocyte count of >1.1 x 10(12)/l as a result of the reduced mean cell Hb in homozygous alpha(+)-thalassaemia.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "In addition, children homozygous for alpha(+)-thalassaemia require a 10% greater reduction in erythrocyte count than children of normal genotype (p = 0.02) for Hb concentration to fall to 50 g/l, the cutoff for SMA.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "We estimated that the haematological profile in children homozygous for alpha(+)-thalassaemia reduces the risk of SMA during acute malaria compared to children of normal genotype (relative risk 0.52; 95% confidence interval [CI] 0.24-1.12, p = 0.09).   \n",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "CONCLUSIONS The increased erythrocyte count and microcytosis in children homozygous for alpha(+)-thalassaemia may contribute substantially to their protection against SMA.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 11,
+          "sentence": "A lower concentration of Hb per erythrocyte and a larger population of erythrocytes may be a biologically advantageous strategy against the significant reduction in erythrocyte count that occurs during acute infection with the malaria parasite Plasmodium falciparum.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 12,
+          "sentence": "This haematological profile may reduce the risk of anaemia by other Plasmodium species, as well as other causes of anaemia.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 18174210,
+          "title": "Increased Microerythrocyte Count in Homozygous α+-Thalassaemia Contributes to Protection against Severe Malarial Anaemia",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND The heritable haemoglobinopathy alpha(+)-thalassaemia is caused by the reduced synthesis of alpha-globin chains that form part of normal adult haemoglobin (Hb)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Individuals homozygous for alpha(+)-thalassaemia have microcytosis and an increased erythrocyte count."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Alpha(+)-thalassaemia homozygosity confers considerable protection against severe malaria, including severe malarial anaemia (SMA) (Hb concentration < 50 g/l), but does not influence parasite count."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We tested the hypothesis that the erythrocyte indices associated with alpha(+)-thalassaemia homozygosity provide a haematological benefit during acute malaria.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "We observed a reduction in median erythrocyte count of approximately 1.5 x 10(12)/l in all children with acute falciparum malaria relative to values in community children (p < 0.001)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "We developed a simple mathematical model of the linear relationship between Hb concentration and erythrocyte count."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "This model predicted that children homozygous for alpha(+)-thalassaemia lose less Hb than children of normal genotype for a reduction in erythrocyte count of >1.1 x 10(12)/l as a result of the reduced mean cell Hb in homozygous alpha(+)-thalassaemia."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "We estimated that the haematological profile in children homozygous for alpha(+)-thalassaemia reduces the risk of SMA during acute malaria compared to children of normal genotype (relative risk 0.52; 95% confidence interval [CI] 0.24-1.12, p = 0.09).   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 13,
+              "sentence": "Other host polymorphisms that induce an increased erythrocyte count and microcytosis may confer a similar advantage."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 18174210,
+          "original_index": 4,
+          "sentence": "METHODS AND FINDINGS Data from children living on the north coast of Papua New Guinea who had participated in a case-control study of the protection afforded by alpha(+)-thalassaemia against severe malaria were reanalysed to assess the genotype-specific reduction in erythrocyte count and Hb levels associated with acute malarial disease.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 18174210,
+          "original_index": 8,
+          "sentence": "In addition, children homozygous for alpha(+)-thalassaemia require a 10% greater reduction in erythrocyte count than children of normal genotype (p = 0.02) for Hb concentration to fall to 50 g/l, the cutoff for SMA.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 18174210,
+          "original_index": 10,
+          "sentence": "CONCLUSIONS The increased erythrocyte count and microcytosis in children homozygous for alpha(+)-thalassaemia may contribute substantially to their protection against SMA.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 18174210,
+          "original_index": 11,
+          "sentence": "A lower concentration of Hb per erythrocyte and a larger population of erythrocytes may be a biologically advantageous strategy against the significant reduction in erythrocyte count that occurs during acute infection with the malaria parasite Plasmodium falciparum.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 18174210,
+          "original_index": 12,
+          "sentence": "This haematological profile may reduce the risk of anaemia by other Plasmodium species, as well as other causes of anaemia.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_5_groups",
+      "dropped_group_ids": [
+        "g4",
+        "g5",
+        "g1",
+        "g0",
+        "g3"
+      ],
+      "claim": "A high microerythrocyte count protects against severe anemia in homozygous alpha (+)- thalassemia trait subjects.",
+      "evidence": [
+        {
+          "doc_id": 18174210,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "Individuals homozygous for alpha(+)-thalassaemia have microcytosis and an increased erythrocyte count.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "This model predicted that children homozygous for alpha(+)-thalassaemia lose less Hb than children of normal genotype for a reduction in erythrocyte count of >1.1 x 10(12)/l as a result of the reduced mean cell Hb in homozygous alpha(+)-thalassaemia.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "In addition, children homozygous for alpha(+)-thalassaemia require a 10% greater reduction in erythrocyte count than children of normal genotype (p = 0.02) for Hb concentration to fall to 50 g/l, the cutoff for SMA.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "We estimated that the haematological profile in children homozygous for alpha(+)-thalassaemia reduces the risk of SMA during acute malaria compared to children of normal genotype (relative risk 0.52; 95% confidence interval [CI] 0.24-1.12, p = 0.09).   \n",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "CONCLUSIONS The increased erythrocyte count and microcytosis in children homozygous for alpha(+)-thalassaemia may contribute substantially to their protection against SMA.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 11,
+          "sentence": "A lower concentration of Hb per erythrocyte and a larger population of erythrocytes may be a biologically advantageous strategy against the significant reduction in erythrocyte count that occurs during acute infection with the malaria parasite Plasmodium falciparum.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 12,
+          "sentence": "This haematological profile may reduce the risk of anaemia by other Plasmodium species, as well as other causes of anaemia.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 18174210,
+          "title": "Increased Microerythrocyte Count in Homozygous α+-Thalassaemia Contributes to Protection against Severe Malarial Anaemia",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND The heritable haemoglobinopathy alpha(+)-thalassaemia is caused by the reduced synthesis of alpha-globin chains that form part of normal adult haemoglobin (Hb)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Alpha(+)-thalassaemia homozygosity confers considerable protection against severe malaria, including severe malarial anaemia (SMA) (Hb concentration < 50 g/l), but does not influence parasite count."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "We tested the hypothesis that the erythrocyte indices associated with alpha(+)-thalassaemia homozygosity provide a haematological benefit during acute malaria.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "METHODS AND FINDINGS Data from children living on the north coast of Papua New Guinea who had participated in a case-control study of the protection afforded by alpha(+)-thalassaemia against severe malaria were reanalysed to assess the genotype-specific reduction in erythrocyte count and Hb levels associated with acute malarial disease."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "We observed a reduction in median erythrocyte count of approximately 1.5 x 10(12)/l in all children with acute falciparum malaria relative to values in community children (p < 0.001)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "We developed a simple mathematical model of the linear relationship between Hb concentration and erythrocyte count."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "This model predicted that children homozygous for alpha(+)-thalassaemia lose less Hb than children of normal genotype for a reduction in erythrocyte count of >1.1 x 10(12)/l as a result of the reduced mean cell Hb in homozygous alpha(+)-thalassaemia."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 18174210,
+          "original_index": 1,
+          "sentence": "Individuals homozygous for alpha(+)-thalassaemia have microcytosis and an increased erythrocyte count.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 18174210,
+          "original_index": 8,
+          "sentence": "In addition, children homozygous for alpha(+)-thalassaemia require a 10% greater reduction in erythrocyte count than children of normal genotype (p = 0.02) for Hb concentration to fall to 50 g/l, the cutoff for SMA.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 18174210,
+          "original_index": 9,
+          "sentence": "We estimated that the haematological profile in children homozygous for alpha(+)-thalassaemia reduces the risk of SMA during acute malaria compared to children of normal genotype (relative risk 0.52; 95% confidence interval [CI] 0.24-1.12, p = 0.09).   \n",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 18174210,
+          "original_index": 10,
+          "sentence": "CONCLUSIONS The increased erythrocyte count and microcytosis in children homozygous for alpha(+)-thalassaemia may contribute substantially to their protection against SMA.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 18174210,
+          "original_index": 11,
+          "sentence": "A lower concentration of Hb per erythrocyte and a larger population of erythrocytes may be a biologically advantageous strategy against the significant reduction in erythrocyte count that occurs during acute infection with the malaria parasite Plasmodium falciparum.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 18174210,
+          "original_index": 12,
+          "sentence": "This haematological profile may reduce the risk of anaemia by other Plasmodium species, as well as other causes of anaemia.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 18174210,
+          "original_index": 13,
+          "sentence": "Other host polymorphisms that induce an increased erythrocyte count and microcytosis may confer a similar advantage.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "claim": "A high microerythrocyte count protects against severe anemia in homozygous alpha (+)- thalassemia trait subjects.",
+      "evidence": [
+        {
+          "doc_id": 18174210,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "Individuals homozygous for alpha(+)-thalassaemia have microcytosis and an increased erythrocyte count.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "This model predicted that children homozygous for alpha(+)-thalassaemia lose less Hb than children of normal genotype for a reduction in erythrocyte count of >1.1 x 10(12)/l as a result of the reduced mean cell Hb in homozygous alpha(+)-thalassaemia.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "In addition, children homozygous for alpha(+)-thalassaemia require a 10% greater reduction in erythrocyte count than children of normal genotype (p = 0.02) for Hb concentration to fall to 50 g/l, the cutoff for SMA.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "We estimated that the haematological profile in children homozygous for alpha(+)-thalassaemia reduces the risk of SMA during acute malaria compared to children of normal genotype (relative risk 0.52; 95% confidence interval [CI] 0.24-1.12, p = 0.09).   \n",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "CONCLUSIONS The increased erythrocyte count and microcytosis in children homozygous for alpha(+)-thalassaemia may contribute substantially to their protection against SMA.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 11,
+          "sentence": "A lower concentration of Hb per erythrocyte and a larger population of erythrocytes may be a biologically advantageous strategy against the significant reduction in erythrocyte count that occurs during acute infection with the malaria parasite Plasmodium falciparum.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 18174210,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 12,
+          "sentence": "This haematological profile may reduce the risk of anaemia by other Plasmodium species, as well as other causes of anaemia.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 18174210,
+          "title": "Increased Microerythrocyte Count in Homozygous α+-Thalassaemia Contributes to Protection against Severe Malarial Anaemia",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 2,
+              "sentence": "Alpha(+)-thalassaemia homozygosity confers considerable protection against severe malaria, including severe malarial anaemia (SMA) (Hb concentration < 50 g/l), but does not influence parasite count."
+            },
+            {
+              "new_index": 1,
+              "original_index": 3,
+              "sentence": "We tested the hypothesis that the erythrocyte indices associated with alpha(+)-thalassaemia homozygosity provide a haematological benefit during acute malaria.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "METHODS AND FINDINGS Data from children living on the north coast of Papua New Guinea who had participated in a case-control study of the protection afforded by alpha(+)-thalassaemia against severe malaria were reanalysed to assess the genotype-specific reduction in erythrocyte count and Hb levels associated with acute malarial disease."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "We observed a reduction in median erythrocyte count of approximately 1.5 x 10(12)/l in all children with acute falciparum malaria relative to values in community children (p < 0.001)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "We developed a simple mathematical model of the linear relationship between Hb concentration and erythrocyte count."
+            },
+            {
+              "new_index": 5,
+              "original_index": 13,
+              "sentence": "Other host polymorphisms that induce an increased erythrocyte count and microcytosis may confer a similar advantage."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 18174210,
+          "original_index": 0,
+          "sentence": "BACKGROUND The heritable haemoglobinopathy alpha(+)-thalassaemia is caused by the reduced synthesis of alpha-globin chains that form part of normal adult haemoglobin (Hb).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 18174210,
+          "original_index": 1,
+          "sentence": "Individuals homozygous for alpha(+)-thalassaemia have microcytosis and an increased erythrocyte count.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 18174210,
+          "original_index": 7,
+          "sentence": "This model predicted that children homozygous for alpha(+)-thalassaemia lose less Hb than children of normal genotype for a reduction in erythrocyte count of >1.1 x 10(12)/l as a result of the reduced mean cell Hb in homozygous alpha(+)-thalassaemia.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 18174210,
+          "original_index": 8,
+          "sentence": "In addition, children homozygous for alpha(+)-thalassaemia require a 10% greater reduction in erythrocyte count than children of normal genotype (p = 0.02) for Hb concentration to fall to 50 g/l, the cutoff for SMA.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 18174210,
+          "original_index": 9,
+          "sentence": "We estimated that the haematological profile in children homozygous for alpha(+)-thalassaemia reduces the risk of SMA during acute malaria compared to children of normal genotype (relative risk 0.52; 95% confidence interval [CI] 0.24-1.12, p = 0.09).   \n",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 18174210,
+          "original_index": 10,
+          "sentence": "CONCLUSIONS The increased erythrocyte count and microcytosis in children homozygous for alpha(+)-thalassaemia may contribute substantially to their protection against SMA.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 18174210,
+          "original_index": 11,
+          "sentence": "A lower concentration of Hb per erythrocyte and a larger population of erythrocytes may be a biologically advantageous strategy against the significant reduction in erythrocyte count that occurs during acute infection with the malaria parasite Plasmodium falciparum.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 18174210,
+          "original_index": 12,
+          "sentence": "This haematological profile may reduce the risk of anaemia by other Plasmodium species, as well as other causes of anaemia.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

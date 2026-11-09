@@ -1,0 +1,124 @@
+{
+  "id": 1006,
+  "origin": "train_more",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "RTEL1 interacts with TRF2 through a C4C4 motif",
+      "evidence": [
+        {
+          "doc_id": 4926049,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "We show that the TRF2-RTEL1 interaction is mediated by a metal-coordinating C4C4 motif in RTEL1, which is compromised by the Hoyeraal-Hreidarsson syndrome (HHS) mutation, RTEL1(R1264H).",
+          "kept": true,
+          "new_index": 3
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4926049,
+          "title": "TRF2 Recruits RTEL1 to Telomeres in S Phase to Promote T-Loop Unwinding",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The helicase RTEL1 promotes t-loop unwinding and suppresses telomere fragility to maintain the integrity of vertebrate telomeres."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "An interaction between RTEL1 and PCNA is important to prevent telomere fragility, but how RTEL1 engages with the telomere to promote t-loop unwinding is unclear."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here, we establish that the shelterin protein TRF2 recruits RTEL1 to telomeres in S phase, which is required to prevent catastrophic t-loop processing by structure-specific nucleases."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We show that the TRF2-RTEL1 interaction is mediated by a metal-coordinating C4C4 motif in RTEL1, which is compromised by the Hoyeraal-Hreidarsson syndrome (HHS) mutation, RTEL1(R1264H)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Conversely, we define a TRF2(I124D) substitution mutation within the TRFH domain of TRF2, which eliminates RTEL1 binding and phenocopies the RTEL1(R1264H) mutation, giving rise to aberrant t-loop excision, telomere length heterogeneity, and loss of the telomere as a circle."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "These results implicate TRF2 in the recruitment of RTEL1 to facilitate t-loop disassembly at telomeres in S phase."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "RTEL1 interacts with TRF2 through a C4C4 motif",
+      "evidence": [
+        {
+          "doc_id": 4926049,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "We show that the TRF2-RTEL1 interaction is mediated by a metal-coordinating C4C4 motif in RTEL1, which is compromised by the Hoyeraal-Hreidarsson syndrome (HHS) mutation, RTEL1(R1264H).",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4926049,
+          "title": "TRF2 Recruits RTEL1 to Telomeres in S Phase to Promote T-Loop Unwinding",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "An interaction between RTEL1 and PCNA is important to prevent telomere fragility, but how RTEL1 engages with the telomere to promote t-loop unwinding is unclear."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Here, we establish that the shelterin protein TRF2 recruits RTEL1 to telomeres in S phase, which is required to prevent catastrophic t-loop processing by structure-specific nucleases."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Conversely, we define a TRF2(I124D) substitution mutation within the TRFH domain of TRF2, which eliminates RTEL1 binding and phenocopies the RTEL1(R1264H) mutation, giving rise to aberrant t-loop excision, telomere length heterogeneity, and loss of the telomere as a circle."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "These results implicate TRF2 in the recruitment of RTEL1 to facilitate t-loop disassembly at telomeres in S phase."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 4926049,
+          "original_index": 0,
+          "sentence": "The helicase RTEL1 promotes t-loop unwinding and suppresses telomere fragility to maintain the integrity of vertebrate telomeres.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4926049,
+          "original_index": 3,
+          "sentence": "We show that the TRF2-RTEL1 interaction is mediated by a metal-coordinating C4C4 motif in RTEL1, which is compromised by the Hoyeraal-Hreidarsson syndrome (HHS) mutation, RTEL1(R1264H).",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

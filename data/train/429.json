@@ -1,0 +1,58 @@
+{
+  "id": 429,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Formation of N-terminal pyroglutamate by glutamine cyclase (GC) competes with NTAQ1 for Nt-Gln substrates.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 36540079,
+          "title": "Glutamine-specific N-terminal amidase, a component of the N-end rule pathway.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Deamidation of N-terminal Gln by Nt(Q)-amidase, an N-terminal amidohydrolase, is a part of the N-end rule pathway of protein degradation."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We detected the activity of Nt(Q)-amidase, termed Ntaq1, in mouse tissues, purified Ntaq1 from bovine brains, identified its gene, and began analyzing this enzyme."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Ntaq1 is highly conserved among animals, plants, and some fungi, but its sequence is dissimilar to sequences of other amidases."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "An earlier mutant in the Drosophila Cg8253 gene that we show here to encode Nt(Q)-amidase has defective long-term memory."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Other studies identified protein ligands of the uncharacterized human C8orf32 protein that we show here to be the Ntaq1 Nt(Q)-amidase."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Remarkably, \"high-throughput\" studies have recently solved the crystal structure of C8orf32 (Ntaq1)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Our site-directed mutagenesis of Ntaq1 and its crystal structure indicate that the active site and catalytic mechanism of Nt(Q)-amidase are similar to those of transglutaminases."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

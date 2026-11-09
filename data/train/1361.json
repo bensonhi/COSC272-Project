@@ -1,0 +1,351 @@
+{
+  "id": 1361,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Varying expression levels of EBI2 affect the positioning and migration of B cells.",
+      "evidence": [
+        {
+          "doc_id": 15488881,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Here, we show that expression of the orphan G protein-coupled receptor Epstein-Barr virus-induced gene 2 (EBI2, also known as GPR183) by activated B cells was essential for their movement to extrafollicular sites and induction of early plasmablast responses.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 15488881,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Conversely, downregulation of EBI2 enabled B cells to access the center of follicles and promoted efficient GC formation.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 15058155,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "A few subsequently published studies further elucidated how 7α, 25-OHC bound to EBI2, and how a gradient of 7α, 25-OHC could be generated in vivo and regulated migration, activation, and functions of B cells, T cells, dendritic cells (DCs), monocytes/macrophages, and astrocytes.",
+          "kept": true,
+          "new_index": 3
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15488881,
+          "title": "Guidance of B cells by the orphan G protein-coupled receptor EBI2 shapes humoral immune responses.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Humoral immunity depends on both rapid and long-term antibody production against invading pathogens."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "This is achieved by the generation of spatially distinct extrafollicular plasmablast and follicular germinal center (GC) B cell populations, but the signals that guide responding B cells to these alternative compartments have not been fully elucidated."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here, we show that expression of the orphan G protein-coupled receptor Epstein-Barr virus-induced gene 2 (EBI2, also known as GPR183) by activated B cells was essential for their movement to extrafollicular sites and induction of early plasmablast responses."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Conversely, downregulation of EBI2 enabled B cells to access the center of follicles and promoted efficient GC formation."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "EBI2 therefore provides a previously uncharacterized dimension to B cell migration that is crucial for coordinating rapid versus long-term antibody responses."
+            }
+          ]
+        },
+        {
+          "doc_id": 15058155,
+          "title": "7α, 25-dihydroxycholesterol-mediated activation of EBI2 in immune regulation and diseases",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "EBI2, aka GPR183, is a G-couple receptor originally identified in 1993 as one of main genes induced in Burkitt's lymphoma cell line BL41 by Epstein-Barr virus (EBV) infection."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "After it was reported in 2009 that the receptor played a key role in regulating B cell migration and responses, we initiated an effort in looking for its endogenous ligand."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "In 2011 we and another group reported the identification of 7α, 25-dihydroxyxcholesterol (7α, 25-OHC), an oxysterol, as the likely physiological ligand of EBI2."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "A few subsequently published studies further elucidated how 7α, 25-OHC bound to EBI2, and how a gradient of 7α, 25-OHC could be generated in vivo and regulated migration, activation, and functions of B cells, T cells, dendritic cells (DCs), monocytes/macrophages, and astrocytes."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "The identification of 7α, 25-OHC as a G protein-coupled receptor ligand revealed a previously unknown signaling system of oxysterols, a class of molecules which exert profound biological functions."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Dysregulation of the synthesis or functions of these molecules is believed to contribute to inflammation and autoimmune diseases, cardiovascular diseases, neurodegenerative diseases, cancer as well as metabolic diseases such as diabetes, obesity, and dyslipidemia."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Therefore EBI2 may represent a promising target for therapeutic interventions for human diseases."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Varying expression levels of EBI2 affect the positioning and migration of B cells.",
+      "evidence": [
+        {
+          "doc_id": 15488881,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Here, we show that expression of the orphan G protein-coupled receptor Epstein-Barr virus-induced gene 2 (EBI2, also known as GPR183) by activated B cells was essential for their movement to extrafollicular sites and induction of early plasmablast responses.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 15488881,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Conversely, downregulation of EBI2 enabled B cells to access the center of follicles and promoted efficient GC formation.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 15058155,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "A few subsequently published studies further elucidated how 7α, 25-OHC bound to EBI2, and how a gradient of 7α, 25-OHC could be generated in vivo and regulated migration, activation, and functions of B cells, T cells, dendritic cells (DCs), monocytes/macrophages, and astrocytes.",
+          "kept": true,
+          "new_index": 3
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15488881,
+          "title": "Guidance of B cells by the orphan G protein-coupled receptor EBI2 shapes humoral immune responses.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Humoral immunity depends on both rapid and long-term antibody production against invading pathogens."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "This is achieved by the generation of spatially distinct extrafollicular plasmablast and follicular germinal center (GC) B cell populations, but the signals that guide responding B cells to these alternative compartments have not been fully elucidated."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "EBI2 therefore provides a previously uncharacterized dimension to B cell migration that is crucial for coordinating rapid versus long-term antibody responses."
+            }
+          ]
+        },
+        {
+          "doc_id": 15058155,
+          "title": "7α, 25-dihydroxycholesterol-mediated activation of EBI2 in immune regulation and diseases",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "EBI2, aka GPR183, is a G-couple receptor originally identified in 1993 as one of main genes induced in Burkitt's lymphoma cell line BL41 by Epstein-Barr virus (EBV) infection."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "After it was reported in 2009 that the receptor played a key role in regulating B cell migration and responses, we initiated an effort in looking for its endogenous ligand."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "In 2011 we and another group reported the identification of 7α, 25-dihydroxyxcholesterol (7α, 25-OHC), an oxysterol, as the likely physiological ligand of EBI2."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "A few subsequently published studies further elucidated how 7α, 25-OHC bound to EBI2, and how a gradient of 7α, 25-OHC could be generated in vivo and regulated migration, activation, and functions of B cells, T cells, dendritic cells (DCs), monocytes/macrophages, and astrocytes."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "The identification of 7α, 25-OHC as a G protein-coupled receptor ligand revealed a previously unknown signaling system of oxysterols, a class of molecules which exert profound biological functions."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Dysregulation of the synthesis or functions of these molecules is believed to contribute to inflammation and autoimmune diseases, cardiovascular diseases, neurodegenerative diseases, cancer as well as metabolic diseases such as diabetes, obesity, and dyslipidemia."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 15488881,
+          "original_index": 2,
+          "sentence": "Here, we show that expression of the orphan G protein-coupled receptor Epstein-Barr virus-induced gene 2 (EBI2, also known as GPR183) by activated B cells was essential for their movement to extrafollicular sites and induction of early plasmablast responses.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 15488881,
+          "original_index": 3,
+          "sentence": "Conversely, downregulation of EBI2 enabled B cells to access the center of follicles and promoted efficient GC formation.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 15058155,
+          "original_index": 6,
+          "sentence": "Therefore EBI2 may represent a promising target for therapeutic interventions for human diseases.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Varying expression levels of EBI2 affect the positioning and migration of B cells.",
+      "evidence": [
+        {
+          "doc_id": 15488881,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Here, we show that expression of the orphan G protein-coupled receptor Epstein-Barr virus-induced gene 2 (EBI2, also known as GPR183) by activated B cells was essential for their movement to extrafollicular sites and induction of early plasmablast responses.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 15488881,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Conversely, downregulation of EBI2 enabled B cells to access the center of follicles and promoted efficient GC formation.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 15058155,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "A few subsequently published studies further elucidated how 7α, 25-OHC bound to EBI2, and how a gradient of 7α, 25-OHC could be generated in vivo and regulated migration, activation, and functions of B cells, T cells, dendritic cells (DCs), monocytes/macrophages, and astrocytes.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15488881,
+          "title": "Guidance of B cells by the orphan G protein-coupled receptor EBI2 shapes humoral immune responses.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Humoral immunity depends on both rapid and long-term antibody production against invading pathogens."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "This is achieved by the generation of spatially distinct extrafollicular plasmablast and follicular germinal center (GC) B cell populations, but the signals that guide responding B cells to these alternative compartments have not been fully elucidated."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "EBI2 therefore provides a previously uncharacterized dimension to B cell migration that is crucial for coordinating rapid versus long-term antibody responses."
+            }
+          ]
+        },
+        {
+          "doc_id": 15058155,
+          "title": "7α, 25-dihydroxycholesterol-mediated activation of EBI2 in immune regulation and diseases",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "EBI2, aka GPR183, is a G-couple receptor originally identified in 1993 as one of main genes induced in Burkitt's lymphoma cell line BL41 by Epstein-Barr virus (EBV) infection."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "After it was reported in 2009 that the receptor played a key role in regulating B cell migration and responses, we initiated an effort in looking for its endogenous ligand."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "In 2011 we and another group reported the identification of 7α, 25-dihydroxyxcholesterol (7α, 25-OHC), an oxysterol, as the likely physiological ligand of EBI2."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Dysregulation of the synthesis or functions of these molecules is believed to contribute to inflammation and autoimmune diseases, cardiovascular diseases, neurodegenerative diseases, cancer as well as metabolic diseases such as diabetes, obesity, and dyslipidemia."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Therefore EBI2 may represent a promising target for therapeutic interventions for human diseases."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 15488881,
+          "original_index": 2,
+          "sentence": "Here, we show that expression of the orphan G protein-coupled receptor Epstein-Barr virus-induced gene 2 (EBI2, also known as GPR183) by activated B cells was essential for their movement to extrafollicular sites and induction of early plasmablast responses.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 15488881,
+          "original_index": 3,
+          "sentence": "Conversely, downregulation of EBI2 enabled B cells to access the center of follicles and promoted efficient GC formation.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 15058155,
+          "original_index": 3,
+          "sentence": "A few subsequently published studies further elucidated how 7α, 25-OHC bound to EBI2, and how a gradient of 7α, 25-OHC could be generated in vivo and regulated migration, activation, and functions of B cells, T cells, dendritic cells (DCs), monocytes/macrophages, and astrocytes.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 15058155,
+          "original_index": 4,
+          "sentence": "The identification of 7α, 25-OHC as a G protein-coupled receptor ligand revealed a previously unknown signaling system of oxysterols, a class of molecules which exert profound biological functions.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

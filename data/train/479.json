@@ -1,0 +1,321 @@
+{
+  "id": 479,
+  "origin": "train_more",
+  "n_groups": 4,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Gpr124 increases BBB breakdown in mouse models of ischemic stroke.",
+      "evidence": [
+        {
+          "doc_id": 6325527,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 2,
+          "sentence": "Here Gpr124 conditional knockout (CKO) in the endothelia of adult mice did not affect homeostatic BBB integrity, but resulted in BBB disruption and microvascular hemorrhage in mouse models of both ischemic stroke and glioblastoma, accompanied by reduced cerebrovascular canonical Wnt–β-catenin signaling.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 6325527,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 3,
+          "sentence": "Constitutive activation of Wnt–β-catenin signaling fully corrected the BBB disruption and hemorrhage defects of Gpr124-CKO mice, with rescue of the endothelial gene tight junction, pericyte coverage and extracellular-matrix deficits.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 6325527,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 4,
+          "sentence": "We thus identify Gpr124 as an endothelial GPCR specifically required for endothelial Wnt signaling and BBB integrity under pathological conditions in adult mice.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6325527,
+          "title": "Gpr124 is essential for blood–brain barrier integrity in central nervous system disease",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Although blood–brain barrier (BBB) compromise is central to the etiology of diverse central nervous system (CNS) disorders, endothelial receptor proteins that control BBB function are poorly defined."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The endothelial G-protein-coupled receptor (GPCR) Gpr124 has been reported to be required for normal forebrain angiogenesis and BBB function in mouse embryos, but the role of this receptor in adult animals is unknown."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here Gpr124 conditional knockout (CKO) in the endothelia of adult mice did not affect homeostatic BBB integrity, but resulted in BBB disruption and microvascular hemorrhage in mouse models of both ischemic stroke and glioblastoma, accompanied by reduced cerebrovascular canonical Wnt–β-catenin signaling."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Constitutive activation of Wnt–β-catenin signaling fully corrected the BBB disruption and hemorrhage defects of Gpr124-CKO mice, with rescue of the endothelial gene tight junction, pericyte coverage and extracellular-matrix deficits."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We thus identify Gpr124 as an endothelial GPCR specifically required for endothelial Wnt signaling and BBB integrity under pathological conditions in adult mice."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "This finding implicates Gpr124 as a potential therapeutic target for human CNS disorders characterized by BBB disruption."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Gpr124 increases BBB breakdown in mouse models of ischemic stroke.",
+      "evidence": [
+        {
+          "doc_id": 6325527,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 2,
+          "sentence": "Here Gpr124 conditional knockout (CKO) in the endothelia of adult mice did not affect homeostatic BBB integrity, but resulted in BBB disruption and microvascular hemorrhage in mouse models of both ischemic stroke and glioblastoma, accompanied by reduced cerebrovascular canonical Wnt–β-catenin signaling.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 6325527,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 3,
+          "sentence": "Constitutive activation of Wnt–β-catenin signaling fully corrected the BBB disruption and hemorrhage defects of Gpr124-CKO mice, with rescue of the endothelial gene tight junction, pericyte coverage and extracellular-matrix deficits.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6325527,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 4,
+          "sentence": "We thus identify Gpr124 as an endothelial GPCR specifically required for endothelial Wnt signaling and BBB integrity under pathological conditions in adult mice.",
+          "kept": true,
+          "new_index": 3
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6325527,
+          "title": "Gpr124 is essential for blood–brain barrier integrity in central nervous system disease",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Although blood–brain barrier (BBB) compromise is central to the etiology of diverse central nervous system (CNS) disorders, endothelial receptor proteins that control BBB function are poorly defined."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The endothelial G-protein-coupled receptor (GPCR) Gpr124 has been reported to be required for normal forebrain angiogenesis and BBB function in mouse embryos, but the role of this receptor in adult animals is unknown."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here Gpr124 conditional knockout (CKO) in the endothelia of adult mice did not affect homeostatic BBB integrity, but resulted in BBB disruption and microvascular hemorrhage in mouse models of both ischemic stroke and glioblastoma, accompanied by reduced cerebrovascular canonical Wnt–β-catenin signaling."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "We thus identify Gpr124 as an endothelial GPCR specifically required for endothelial Wnt signaling and BBB integrity under pathological conditions in adult mice."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "This finding implicates Gpr124 as a potential therapeutic target for human CNS disorders characterized by BBB disruption."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6325527,
+          "original_index": 3,
+          "sentence": "Constitutive activation of Wnt–β-catenin signaling fully corrected the BBB disruption and hemorrhage defects of Gpr124-CKO mice, with rescue of the endothelial gene tight junction, pericyte coverage and extracellular-matrix deficits.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Gpr124 increases BBB breakdown in mouse models of ischemic stroke.",
+      "evidence": [
+        {
+          "doc_id": 6325527,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 2,
+          "sentence": "Here Gpr124 conditional knockout (CKO) in the endothelia of adult mice did not affect homeostatic BBB integrity, but resulted in BBB disruption and microvascular hemorrhage in mouse models of both ischemic stroke and glioblastoma, accompanied by reduced cerebrovascular canonical Wnt–β-catenin signaling.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6325527,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 3,
+          "sentence": "Constitutive activation of Wnt–β-catenin signaling fully corrected the BBB disruption and hemorrhage defects of Gpr124-CKO mice, with rescue of the endothelial gene tight junction, pericyte coverage and extracellular-matrix deficits.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6325527,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 4,
+          "sentence": "We thus identify Gpr124 as an endothelial GPCR specifically required for endothelial Wnt signaling and BBB integrity under pathological conditions in adult mice.",
+          "kept": true,
+          "new_index": 2
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6325527,
+          "title": "Gpr124 is essential for blood–brain barrier integrity in central nervous system disease",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Although blood–brain barrier (BBB) compromise is central to the etiology of diverse central nervous system (CNS) disorders, endothelial receptor proteins that control BBB function are poorly defined."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The endothelial G-protein-coupled receptor (GPCR) Gpr124 has been reported to be required for normal forebrain angiogenesis and BBB function in mouse embryos, but the role of this receptor in adult animals is unknown."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "We thus identify Gpr124 as an endothelial GPCR specifically required for endothelial Wnt signaling and BBB integrity under pathological conditions in adult mice."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "This finding implicates Gpr124 as a potential therapeutic target for human CNS disorders characterized by BBB disruption."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6325527,
+          "original_index": 2,
+          "sentence": "Here Gpr124 conditional knockout (CKO) in the endothelia of adult mice did not affect homeostatic BBB integrity, but resulted in BBB disruption and microvascular hemorrhage in mouse models of both ischemic stroke and glioblastoma, accompanied by reduced cerebrovascular canonical Wnt–β-catenin signaling.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 6325527,
+          "original_index": 3,
+          "sentence": "Constitutive activation of Wnt–β-catenin signaling fully corrected the BBB disruption and hemorrhage defects of Gpr124-CKO mice, with rescue of the endothelial gene tight junction, pericyte coverage and extracellular-matrix deficits.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2"
+      ],
+      "claim": "Gpr124 increases BBB breakdown in mouse models of ischemic stroke.",
+      "evidence": [
+        {
+          "doc_id": 6325527,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 2,
+          "sentence": "Here Gpr124 conditional knockout (CKO) in the endothelia of adult mice did not affect homeostatic BBB integrity, but resulted in BBB disruption and microvascular hemorrhage in mouse models of both ischemic stroke and glioblastoma, accompanied by reduced cerebrovascular canonical Wnt–β-catenin signaling.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6325527,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 3,
+          "sentence": "Constitutive activation of Wnt–β-catenin signaling fully corrected the BBB disruption and hemorrhage defects of Gpr124-CKO mice, with rescue of the endothelial gene tight junction, pericyte coverage and extracellular-matrix deficits.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6325527,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 4,
+          "sentence": "We thus identify Gpr124 as an endothelial GPCR specifically required for endothelial Wnt signaling and BBB integrity under pathological conditions in adult mice.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6325527,
+          "title": "Gpr124 is essential for blood–brain barrier integrity in central nervous system disease",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Although blood–brain barrier (BBB) compromise is central to the etiology of diverse central nervous system (CNS) disorders, endothelial receptor proteins that control BBB function are poorly defined."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The endothelial G-protein-coupled receptor (GPCR) Gpr124 has been reported to be required for normal forebrain angiogenesis and BBB function in mouse embryos, but the role of this receptor in adult animals is unknown."
+            },
+            {
+              "new_index": 2,
+              "original_index": 5,
+              "sentence": "This finding implicates Gpr124 as a potential therapeutic target for human CNS disorders characterized by BBB disruption."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6325527,
+          "original_index": 2,
+          "sentence": "Here Gpr124 conditional knockout (CKO) in the endothelia of adult mice did not affect homeostatic BBB integrity, but resulted in BBB disruption and microvascular hemorrhage in mouse models of both ischemic stroke and glioblastoma, accompanied by reduced cerebrovascular canonical Wnt–β-catenin signaling.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 6325527,
+          "original_index": 3,
+          "sentence": "Constitutive activation of Wnt–β-catenin signaling fully corrected the BBB disruption and hemorrhage defects of Gpr124-CKO mice, with rescue of the endothelial gene tight junction, pericyte coverage and extracellular-matrix deficits.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 6325527,
+          "original_index": 4,
+          "sentence": "We thus identify Gpr124 as an endothelial GPCR specifically required for endothelial Wnt signaling and BBB integrity under pathological conditions in adult mice.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": 1085,
+  "origin": "train_more",
+  "claim": "Side effects associated with antidepressants lower risk of myocardial infarction.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 5691302,
+      "title": "Antidepressant use and risk of adverse outcomes in older people: population based cohort study",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "OBJECTIVES To investigate the association between antidepressant treatment and risk of several potential adverse outcomes in older people with depression and to examine risks by class of antidepressant, duration of use, and dose.   \n"
+        },
+        {
+          "original_index": 1,
+          "sentence": "DESIGN Cohort study of people aged 65 and over diagnosed as having depression.   \n"
+        },
+        {
+          "original_index": 2,
+          "sentence": "SETTING 570 general practices in the United Kingdom supplying data to the QResearch primary care database.   \n"
+        },
+        {
+          "original_index": 3,
+          "sentence": "PARTICIPANTS 60,746 patients diagnosed as having a new episode of depression between the ages of 65 and 100 years from 1 January 1996 to 31 December 2007 and followed up until 31 December 2008.   \n"
+        },
+        {
+          "original_index": 4,
+          "sentence": "MAIN OUTCOME MEASURES Hazard ratios associated with antidepressant use for all cause mortality, attempted suicide/self harm, myocardial infarction, stroke/transient ischaemic attack, falls, fractures, upper gastrointestinal bleeding, epilepsy/seizures, road traffic accidents, adverse drug reactions, and hyponatraemia, adjusted for a range of potential confounding variables."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Hazard ratios were calculated for antidepressant class (tricyclic and related antidepressants, selective serotonin reuptake inhibitors, other antidepressants), dose, and duration of use and for commonly prescribed individual drugs.   \n"
+        },
+        {
+          "original_index": 6,
+          "sentence": "RESULTS 54,038 (89.0%) patients received at least one prescription for an antidepressant during follow-up."
+        },
+        {
+          "original_index": 7,
+          "sentence": "A total of 1,398,359 antidepressant prescriptions were issued: 764,659 (54.7%) for selective serotonin reuptake inhibitors, 442,192 (31.6%) for tricyclic antidepressants, 2203 (0.2%) for monoamine oxidase inhibitors, and 189,305 (13.5%) for the group of other antidepressants."
+        },
+        {
+          "original_index": 8,
+          "sentence": "The associations with the adverse outcomes differed significantly between the antidepressant classes for seven outcomes."
+        },
+        {
+          "original_index": 9,
+          "sentence": "Selective serotonin reuptake inhibitors were associated with the highest adjusted hazard ratios for falls (1.66, 95% confidence interval 1.58 to 1.73) and hyponatraemia (1.52, 1.33 to 1.75) compared with when antidepressants were not being used."
+        },
+        {
+          "original_index": 10,
+          "sentence": "The group of other antidepressants was associated with the highest adjusted hazard ratios for all cause mortality (1.66, 1.56 to 1.77), attempted suicide/self harm (5.16, 3.90 to 6.83), stroke/transient ischaemic attack (1.37, 1.22 to 1.55), fracture (1.64, 1.46 to 1.84), and epilepsy/seizures (2.24, 1.60 to 3.15), compared with when antidepressants were not being used."
+        },
+        {
+          "original_index": 11,
+          "sentence": "Tricyclic antidepressants did not have the highest hazard ratio for any of the outcomes."
+        },
+        {
+          "original_index": 12,
+          "sentence": "Significantly different associations also existed between the individual drugs for the same seven outcomes; trazodone (tricyclic antidepressant), mirtazapine, and venlafaxine (both in the group of other antidepressants) were associated with the highest rates for some of these outcomes."
+        },
+        {
+          "original_index": 13,
+          "sentence": "Absolute risks over 1 year for all cause mortality were 7.04% for patients while not taking antidepressants, 8.12% for those taking tricyclic antidepressants, 10.61% for selective serotonin reuptake inhibitors, and 11.43% for other antidepressants.   \n"
+        },
+        {
+          "original_index": 14,
+          "sentence": "CONCLUSIONS Selective serotonin reuptake inhibitors and drugs in the group of other antidepressants were associated with an increased risk of several adverse outcomes compared with tricyclic antidepressants."
+        },
+        {
+          "original_index": 15,
+          "sentence": "Among individual drugs, trazodone, mirtazapine, and venlafaxine were associated with the highest risks for some outcomes."
+        },
+        {
+          "original_index": 16,
+          "sentence": "As this is an observational study, it is susceptible to confounding by indication, channelling bias, and residual confounding, so differences in characteristics between patients prescribed different antidepressant drugs that could account for some of the associations between the drugs and the adverse outcomes may remain."
+        },
+        {
+          "original_index": 17,
+          "sentence": "Further research is needed to confirm these findings, but the risks and benefits of different antidepressants should be carefully evaluated when these drugs are prescribed to older people."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

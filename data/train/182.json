@@ -1,0 +1,63 @@
+{
+  "id": 182,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Bone Marrow (BM) transplantation is used to treat acute myeloid leukemia (AML)",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 11369420,
+          "title": "Tetraspanin 3 Is Required for the Development and Propagation of Acute Myelogenous Leukemia.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Acute Myelogenous Leukemia (AML) is an aggressive cancer that strikes both adults and children and is frequently resistant to therapy."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Thus, identifying signals needed for AML propagation is a critical step toward developing new approaches for treating this disease."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here, we show that Tetraspanin 3 is a target of the RNA binding protein Musashi 2, which plays a key role in AML."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We generated Tspan3 knockout mice that were born without overt defects."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "However, Tspan3 deletion impaired leukemia stem cell self-renewal and disease propagation and markedly improved survival in mouse models of AML."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Additionally, Tspan3 inhibition blocked growth of AML patient samples, suggesting that Tspan3 is also important in human disease."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "As part of the mechanism, we show that Tspan3 deficiency disabled responses to CXCL12/SDF-1 and led to defects in AML localization within the niche."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "These identify Tspan3 as an important regulator of aggressive leukemias and highlight a role for Tspan3 in oncogenesis."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

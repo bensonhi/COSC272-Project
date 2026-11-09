@@ -1,0 +1,379 @@
+{
+  "id": 1050,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Risedronate increases risk of vertebral and non-vertebral fractures.",
+      "evidence": [
+        {
+          "doc_id": 19878070,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 8,
+          "sentence": "Treatment with 5 mg/d of risedronate, compared with placebo, decreased the cumulative incidence of new vertebral fractures by 41 % (95% confidence interval [CI], 18%-58%) over 3 years (11.3 % vs 16.3%; P= .003).",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 19878070,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 9,
+          "sentence": "A fracture reduction of 65% (95% CI, 38%-81 %) was observed after the first year (2.4% vs 6.4%; P<.001).",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 19878070,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "The cumulative incidence of nonvertebral fractures over 3 years was reduced by 39% (95% CI, 6%-61 %) (5.2 % vs 8.4%; P = .02).",
+          "kept": true,
+          "new_index": 10
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 19878070,
+          "title": "Effects of risedronate treatment on vertebral and nonvertebral fractures in women with postmenopausal osteoporosis: a randomized controlled trial. Vertebral Efficacy With Risedronate Therapy (VERT) Study Group.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Risedronate, a potent bisphosphonate, has been shown to be effective in the treatment of Paget disease of bone and other metabolic bone diseases but, to our knowledge, it has not been evaluated in the treatment of established postmenopausal osteoporosis.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To test the efficacy and safety of daily treatment with risedronate to reduce the risk of vertebral and other fractures in postmenopausal women with established osteoporosis.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Randomized, double-blind, placebo-controlled trial of 2458 ambulatory postmenopausal women younger than 85 years with at least 1 vertebral fracture at baseline who were enrolled at 1 of 110 centers in North America conducted between December 1993 and January 1998.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "INTERVENTIONS Subjects were randomly assigned to receive oral treatment for 3 years with risedronate (2.5 or 5 mg/d) or placebo."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "All subjects received calcium, 1000 mg/d."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Vitamin D (cholecalciferol, up to 500 IU/d) was provided if baseline levels of 25-hydroxyvitamin D were low.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "MAIN OUTCOME MEASURES Incidence of new vertebral fractures as detected by quantitative and semiquantitative assessments of radiographs; incidence of radiographically confirmed nonvertebral fractures and change from baseline in bone mineral density as determined by dual x-ray absorptiometry.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "RESULTS The 2.5 mg/d of risedronate arm was discontinued after 1 year; in the placebo and 5 mg/d of risedronate arms, 450 and 489 subjects, respectively, completed all 3 years of the trial."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Treatment with 5 mg/d of risedronate, compared with placebo, decreased the cumulative incidence of new vertebral fractures by 41 % (95% confidence interval [CI], 18%-58%) over 3 years (11.3 % vs 16.3%; P= .003)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "A fracture reduction of 65% (95% CI, 38%-81 %) was observed after the first year (2.4% vs 6.4%; P<.001)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "The cumulative incidence of nonvertebral fractures over 3 years was reduced by 39% (95% CI, 6%-61 %) (5.2 % vs 8.4%; P = .02)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Bone mineral density increased significantly compared with placebo at the lumbar spine (5.4% vs 1.1 %), femoral neck (1.6% vs -1.2%), femoral trochanter (3.3% vs -0.7%), and midshaft of the radius (0.2% vs -1.4%)."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "Bone formed during risedronate treatment was histologically normal."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "The overall safety profile of risedronate, including gastrointestinal safety, was similar to that of placebo.   \n"
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "CONCLUSIONS These data suggest that risedronate therapy is effective and well tolerated in the treatment of women with established postmenopausal osteoporosis."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Risedronate increases risk of vertebral and non-vertebral fractures.",
+      "evidence": [
+        {
+          "doc_id": 19878070,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 8,
+          "sentence": "Treatment with 5 mg/d of risedronate, compared with placebo, decreased the cumulative incidence of new vertebral fractures by 41 % (95% confidence interval [CI], 18%-58%) over 3 years (11.3 % vs 16.3%; P= .003).",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 19878070,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 9,
+          "sentence": "A fracture reduction of 65% (95% CI, 38%-81 %) was observed after the first year (2.4% vs 6.4%; P<.001).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 19878070,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "The cumulative incidence of nonvertebral fractures over 3 years was reduced by 39% (95% CI, 6%-61 %) (5.2 % vs 8.4%; P = .02).",
+          "kept": true,
+          "new_index": 7
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 19878070,
+          "title": "Effects of risedronate treatment on vertebral and nonvertebral fractures in women with postmenopausal osteoporosis: a randomized controlled trial. Vertebral Efficacy With Risedronate Therapy (VERT) Study Group.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To test the efficacy and safety of daily treatment with risedronate to reduce the risk of vertebral and other fractures in postmenopausal women with established osteoporosis.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Randomized, double-blind, placebo-controlled trial of 2458 ambulatory postmenopausal women younger than 85 years with at least 1 vertebral fracture at baseline who were enrolled at 1 of 110 centers in North America conducted between December 1993 and January 1998.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "INTERVENTIONS Subjects were randomly assigned to receive oral treatment for 3 years with risedronate (2.5 or 5 mg/d) or placebo."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "All subjects received calcium, 1000 mg/d."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "MAIN OUTCOME MEASURES Incidence of new vertebral fractures as detected by quantitative and semiquantitative assessments of radiographs; incidence of radiographically confirmed nonvertebral fractures and change from baseline in bone mineral density as determined by dual x-ray absorptiometry.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "RESULTS The 2.5 mg/d of risedronate arm was discontinued after 1 year; in the placebo and 5 mg/d of risedronate arms, 450 and 489 subjects, respectively, completed all 3 years of the trial."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "Treatment with 5 mg/d of risedronate, compared with placebo, decreased the cumulative incidence of new vertebral fractures by 41 % (95% confidence interval [CI], 18%-58%) over 3 years (11.3 % vs 16.3%; P= .003)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "The cumulative incidence of nonvertebral fractures over 3 years was reduced by 39% (95% CI, 6%-61 %) (5.2 % vs 8.4%; P = .02)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "Bone mineral density increased significantly compared with placebo at the lumbar spine (5.4% vs 1.1 %), femoral neck (1.6% vs -1.2%), femoral trochanter (3.3% vs -0.7%), and midshaft of the radius (0.2% vs -1.4%)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 12,
+              "sentence": "Bone formed during risedronate treatment was histologically normal."
+            },
+            {
+              "new_index": 10,
+              "original_index": 13,
+              "sentence": "The overall safety profile of risedronate, including gastrointestinal safety, was similar to that of placebo.   \n"
+            },
+            {
+              "new_index": 11,
+              "original_index": 14,
+              "sentence": "CONCLUSIONS These data suggest that risedronate therapy is effective and well tolerated in the treatment of women with established postmenopausal osteoporosis."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 19878070,
+          "original_index": 0,
+          "sentence": "CONTEXT Risedronate, a potent bisphosphonate, has been shown to be effective in the treatment of Paget disease of bone and other metabolic bone diseases but, to our knowledge, it has not been evaluated in the treatment of established postmenopausal osteoporosis.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 19878070,
+          "original_index": 5,
+          "sentence": "Vitamin D (cholecalciferol, up to 500 IU/d) was provided if baseline levels of 25-hydroxyvitamin D were low.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 19878070,
+          "original_index": 9,
+          "sentence": "A fracture reduction of 65% (95% CI, 38%-81 %) was observed after the first year (2.4% vs 6.4%; P<.001).",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Risedronate increases risk of vertebral and non-vertebral fractures.",
+      "evidence": [
+        {
+          "doc_id": 19878070,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 8,
+          "sentence": "Treatment with 5 mg/d of risedronate, compared with placebo, decreased the cumulative incidence of new vertebral fractures by 41 % (95% confidence interval [CI], 18%-58%) over 3 years (11.3 % vs 16.3%; P= .003).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 19878070,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 9,
+          "sentence": "A fracture reduction of 65% (95% CI, 38%-81 %) was observed after the first year (2.4% vs 6.4%; P<.001).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 19878070,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "The cumulative incidence of nonvertebral fractures over 3 years was reduced by 39% (95% CI, 6%-61 %) (5.2 % vs 8.4%; P = .02).",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 19878070,
+          "title": "Effects of risedronate treatment on vertebral and nonvertebral fractures in women with postmenopausal osteoporosis: a randomized controlled trial. Vertebral Efficacy With Risedronate Therapy (VERT) Study Group.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Risedronate, a potent bisphosphonate, has been shown to be effective in the treatment of Paget disease of bone and other metabolic bone diseases but, to our knowledge, it has not been evaluated in the treatment of established postmenopausal osteoporosis.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To test the efficacy and safety of daily treatment with risedronate to reduce the risk of vertebral and other fractures in postmenopausal women with established osteoporosis.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Randomized, double-blind, placebo-controlled trial of 2458 ambulatory postmenopausal women younger than 85 years with at least 1 vertebral fracture at baseline who were enrolled at 1 of 110 centers in North America conducted between December 1993 and January 1998.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "All subjects received calcium, 1000 mg/d."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Vitamin D (cholecalciferol, up to 500 IU/d) was provided if baseline levels of 25-hydroxyvitamin D were low.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "MAIN OUTCOME MEASURES Incidence of new vertebral fractures as detected by quantitative and semiquantitative assessments of radiographs; incidence of radiographically confirmed nonvertebral fractures and change from baseline in bone mineral density as determined by dual x-ray absorptiometry.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "RESULTS The 2.5 mg/d of risedronate arm was discontinued after 1 year; in the placebo and 5 mg/d of risedronate arms, 450 and 489 subjects, respectively, completed all 3 years of the trial."
+            },
+            {
+              "new_index": 7,
+              "original_index": 11,
+              "sentence": "Bone mineral density increased significantly compared with placebo at the lumbar spine (5.4% vs 1.1 %), femoral neck (1.6% vs -1.2%), femoral trochanter (3.3% vs -0.7%), and midshaft of the radius (0.2% vs -1.4%)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 13,
+              "sentence": "The overall safety profile of risedronate, including gastrointestinal safety, was similar to that of placebo.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 14,
+              "sentence": "CONCLUSIONS These data suggest that risedronate therapy is effective and well tolerated in the treatment of women with established postmenopausal osteoporosis."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 19878070,
+          "original_index": 3,
+          "sentence": "INTERVENTIONS Subjects were randomly assigned to receive oral treatment for 3 years with risedronate (2.5 or 5 mg/d) or placebo.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 19878070,
+          "original_index": 8,
+          "sentence": "Treatment with 5 mg/d of risedronate, compared with placebo, decreased the cumulative incidence of new vertebral fractures by 41 % (95% confidence interval [CI], 18%-58%) over 3 years (11.3 % vs 16.3%; P= .003).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 19878070,
+          "original_index": 9,
+          "sentence": "A fracture reduction of 65% (95% CI, 38%-81 %) was observed after the first year (2.4% vs 6.4%; P<.001).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 19878070,
+          "original_index": 10,
+          "sentence": "The cumulative incidence of nonvertebral fractures over 3 years was reduced by 39% (95% CI, 6%-61 %) (5.2 % vs 8.4%; P = .02).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 19878070,
+          "original_index": 12,
+          "sentence": "Bone formed during risedronate treatment was histologically normal.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

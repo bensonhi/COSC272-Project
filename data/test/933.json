@@ -1,0 +1,91 @@
+{
+  "id": 933,
+  "origin": "train_more",
+  "claim": "Pediatric SCD patients with vaso-occlusive crisis show increased morphine use after breathing 80 ppm iNO for 4 hours.",
+  "evidence": [
+    {
+      "doc_id": 14711483,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 12,
+      "sentence": "Morphine use over 6 hours was significantly less in the INO group (mean cumulative use, 0.29 vs 0.44 mg/kg; P =.03) but was not different over 4 hours (0.26 vs 0.32 mg/kg; P =.21) or 24 hours (0.63 vs 0.91 mg/kg; P =.15)."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 14711483,
+      "title": "Preliminary assessment of inhaled nitric oxide for acute vaso-occlusive crisis in pediatric patients with sickle cell disease.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "CONTEXT Vaso-occlusion is central to the painful crises and acute and chronic organ damage in sickle cell disease."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Abnormal nitric oxide-dependent regulation of vascular tone, adhesion, platelet activation, and inflammation contributes to the pathophysiology of vaso-occlusion."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Nitric oxide may have promise as a mechanism-of-disease-based therapy for treatment of vaso-occlusion.   \n"
+        },
+        {
+          "original_index": 3,
+          "sentence": "OBJECTIVE To explore the efficacy and safety of inhaled nitric oxide (INO) for treatment of vaso-occlusive crisis in pediatric patients.   \n"
+        },
+        {
+          "original_index": 4,
+          "sentence": "DESIGN Prospective, double-blind, placebo-controlled, randomized clinical trial with enrollment between September 1999 and October 2001.   \n"
+        },
+        {
+          "original_index": 5,
+          "sentence": "SETTING Urban, tertiary care children's hospital in the United States.   \n"
+        },
+        {
+          "original_index": 6,
+          "sentence": "PARTICIPANTS Twenty patients aged 10 to 21 years with sickle cell disease and severe acute vaso-occlusive crisis.   \n"
+        },
+        {
+          "original_index": 7,
+          "sentence": "INTERVENTION Patients were randomly assigned to receive INO (80 ppm with 21% final concentration of inspired oxygen; n = 10), or placebo (21% inspired oxygen; n = 10) for 4 hours.   \n"
+        },
+        {
+          "original_index": 8,
+          "sentence": "MAIN OUTCOME MEASURES Change in pain at 4 hours of inhalation compared with preinhalation pain, measured on a 10-cm visual analog scale (VAS); secondary outcome measures were pain over 6 hours, parenteral narcotic use over 24 hours, duration of hospitalization, blood pressure, oxygen saturation, and methemoglobin concentration.   \n"
+        },
+        {
+          "original_index": 9,
+          "sentence": "RESULTS Preinhalation VAS pain scores were similar in the INO and placebo groups (P =.80)."
+        },
+        {
+          "original_index": 10,
+          "sentence": "The decrease in VAS pain scores at 4 hours was 2.0 cm in the INO group and 1.2 cm in the placebo group (P =.37)."
+        },
+        {
+          "original_index": 11,
+          "sentence": "Repeated-measures analysis of variance for hourly pain scores showed a 1-cm/h greater reduction in the INO group than the placebo group (P =.02)."
+        },
+        {
+          "original_index": 12,
+          "sentence": "Morphine use over 6 hours was significantly less in the INO group (mean cumulative use, 0.29 vs 0.44 mg/kg; P =.03) but was not different over 4 hours (0.26 vs 0.32 mg/kg; P =.21) or 24 hours (0.63 vs 0.91 mg/kg; P =.15)."
+        },
+        {
+          "original_index": 13,
+          "sentence": "Duration of hospitalization was 78 and 100 hours in the INO and placebo groups, respectively (P =.19)."
+        },
+        {
+          "original_index": 14,
+          "sentence": "No INO toxicity was observed.   \n"
+        },
+        {
+          "original_index": 15,
+          "sentence": "CONCLUSIONS Results of this exploratory study suggest that INO may be beneficial for acute vaso-occlusive crisis."
+        },
+        {
+          "original_index": 16,
+          "sentence": "These preliminary results warrant further investigation."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

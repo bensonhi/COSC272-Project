@@ -1,0 +1,534 @@
+{
+  "id": 261,
+  "origin": "dev",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Chronic aerobic exercise alters endothelial function, improving vasodilating mechanisms mediated by NO.",
+      "evidence": [
+        {
+          "doc_id": 1122279,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Relaxation to the endothelium-dependent vasodilator bradykinin was decreased (P<0.05) in arterioles isolated from collateral-dependent LCx versus nonoccluded LAD regions of SED animals.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 1122279,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "CONCLUSIONS These data indicate that exercise training enhances bradykinin-mediated relaxation of collateral-dependent LCx arterioles isolated after chronic coronary occlusion, most likely because of effects on ecNOS mRNA expression and increased production of NO.",
+          "kept": true,
+          "new_index": 10
+        },
+        {
+          "doc_id": 10697096,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 12,
+          "sentence": "CONCLUSIONS These results suggest that exercise training enhances bradykinin-induced vasodilation through increased endothelium-derived relaxing factor/nitric oxide production by the L-arginine/nitric oxide synthase pathway.",
+          "kept": true,
+          "new_index": 12
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1122279,
+          "title": "Endothelium-mediated relaxation of porcine collateral-dependent arterioles is improved by exercise training.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Endothelium-dependent modulation of coronary tone is impaired in the collateral-dependent coronary microcirculation."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We used a porcine model of chronic coronary occlusion and collateral development to evaluate the hypothesis that exercise training enhances endothelium-mediated relaxation and increases endothelial nitric oxide synthase (ecNOS) mRNA levels of collateral-dependent microvasculature.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS AND RESULTS Adult female miniature swine were subjected to chronic, progressive ameroid occlusion of the proximal left circumflex coronary artery (LCx); after 2 months, animals were randomly exposed to 16-week exercise-training (EX group; treadmill running) or sedentary (SED group; cage confinement) protocols."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "After completion of EX or SED programs, coronary arterioles ( approximately 100 microm in diameter) were isolated from collateral-dependent LCx (distal to occlusion) and nonoccluded left anterior descending coronary artery (LAD) regions of each heart."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Arterioles were studied by in vitro videomicroscopy or frozen for ecNOS mRNA analysis (RT-PCR techniques)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Relaxation to the endothelium-dependent vasodilator bradykinin was decreased (P<0.05) in arterioles isolated from collateral-dependent LCx versus nonoccluded LAD regions of SED animals."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Bradykinin-mediated relaxation, however, was not different in LCx versus LAD arterioles isolated from EX animals."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Nitroprusside-induced relaxation was unaffected by either chronic occlusion or exercise."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Importantly, ecNOS mRNA expression was significantly decreased in arterioles isolated from LCx versus LAD regions of SED animals."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "After training, ecNOS mRNA expression was not different between LAD and LCx arterioles.   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "CONCLUSIONS These data indicate that exercise training enhances bradykinin-mediated relaxation of collateral-dependent LCx arterioles isolated after chronic coronary occlusion, most likely because of effects on ecNOS mRNA expression and increased production of NO."
+            }
+          ]
+        },
+        {
+          "doc_id": 10697096,
+          "title": "Vasodilator responses of coronary resistance arteries of exercise-trained pigs.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND The purpose of this study was to test the hypothesis that vasodilator responses of porcine coronary resistance arteries are increased by exercise training.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "METHODS AND RESULTS Yucatan miniature swine were randomly divided into groups of exercise-trained (ET) and sedentary (SED) control pigs."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "ET pigs were placed on a progressive treadmill training program lasting 16 to 20 weeks, and SED pigs remained inactive during the same time period."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Coronary resistance arteries 64 to 157 microns in diameter were isolated for in vitro evaluation of relaxation responses to the endothelium-independent dilators sodium nitroprusside (1 x 10(-10) to 1 x 10(-4) mol/L) and adenosine (1 x 10(-10) to 1 x 10(-5) mol/L) and to bradykinin (1 x 10(-13) to 3 x 10(-7) mol/L), an endothelium-dependent agent."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Relaxation responses to adenosine and sodium nitroprusside were not altered by exercise training."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Endothelium-dependent relaxation to bradykinin was enhanced in coronary resistance arteries from ET pigs (IC50: ET, 0.07 +/-"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "0.02 nmol/L; SED, 1.59 +/-"
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "0.09 nmol/L)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "To determine whether prostanoids and/or the nitric oxide synthase pathway were involved in the ET-induced changes in bradykinin-induced vasodilation, responses to bradykinin were examined in coronary resistance arteries from both ET and SED pigs in the presence of indomethacin and in the presence of nitro-monomethyl L-arginine (L-NMMA)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Both indomethacin and L-NMMA produced significant inhibition of the bradykinin-induced relaxation in vessels from both groups."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Despite decreased bradykinin-induced relaxation after indomethacin, bradykinin-induced vasodilation was still enhanced in vessels from the ET group."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "L-NMMA caused greater inhibition of the bradykinin-induced relaxation in coronary resistance arteries from ET pigs relative to arteries from SED pigs and eliminated the training-induced enhancement of the bradykinin responses.   \n"
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "CONCLUSIONS These results suggest that exercise training enhances bradykinin-induced vasodilation through increased endothelium-derived relaxing factor/nitric oxide production by the L-arginine/nitric oxide synthase pathway."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Chronic aerobic exercise alters endothelial function, improving vasodilating mechanisms mediated by NO.",
+      "evidence": [
+        {
+          "doc_id": 1122279,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Relaxation to the endothelium-dependent vasodilator bradykinin was decreased (P<0.05) in arterioles isolated from collateral-dependent LCx versus nonoccluded LAD regions of SED animals.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 1122279,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "CONCLUSIONS These data indicate that exercise training enhances bradykinin-mediated relaxation of collateral-dependent LCx arterioles isolated after chronic coronary occlusion, most likely because of effects on ecNOS mRNA expression and increased production of NO.",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 10697096,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 12,
+          "sentence": "CONCLUSIONS These results suggest that exercise training enhances bradykinin-induced vasodilation through increased endothelium-derived relaxing factor/nitric oxide production by the L-arginine/nitric oxide synthase pathway.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1122279,
+          "title": "Endothelium-mediated relaxation of porcine collateral-dependent arterioles is improved by exercise training.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Endothelium-dependent modulation of coronary tone is impaired in the collateral-dependent coronary microcirculation."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We used a porcine model of chronic coronary occlusion and collateral development to evaluate the hypothesis that exercise training enhances endothelium-mediated relaxation and increases endothelial nitric oxide synthase (ecNOS) mRNA levels of collateral-dependent microvasculature.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS AND RESULTS Adult female miniature swine were subjected to chronic, progressive ameroid occlusion of the proximal left circumflex coronary artery (LCx); after 2 months, animals were randomly exposed to 16-week exercise-training (EX group; treadmill running) or sedentary (SED group; cage confinement) protocols."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "After completion of EX or SED programs, coronary arterioles ( approximately 100 microm in diameter) were isolated from collateral-dependent LCx (distal to occlusion) and nonoccluded left anterior descending coronary artery (LAD) regions of each heart."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Arterioles were studied by in vitro videomicroscopy or frozen for ecNOS mRNA analysis (RT-PCR techniques)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Relaxation to the endothelium-dependent vasodilator bradykinin was decreased (P<0.05) in arterioles isolated from collateral-dependent LCx versus nonoccluded LAD regions of SED animals."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Bradykinin-mediated relaxation, however, was not different in LCx versus LAD arterioles isolated from EX animals."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "Importantly, ecNOS mRNA expression was significantly decreased in arterioles isolated from LCx versus LAD regions of SED animals."
+            },
+            {
+              "new_index": 8,
+              "original_index": 9,
+              "sentence": "After training, ecNOS mRNA expression was not different between LAD and LCx arterioles.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 10,
+              "sentence": "CONCLUSIONS These data indicate that exercise training enhances bradykinin-mediated relaxation of collateral-dependent LCx arterioles isolated after chronic coronary occlusion, most likely because of effects on ecNOS mRNA expression and increased production of NO."
+            }
+          ]
+        },
+        {
+          "doc_id": 10697096,
+          "title": "Vasodilator responses of coronary resistance arteries of exercise-trained pigs.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND The purpose of this study was to test the hypothesis that vasodilator responses of porcine coronary resistance arteries are increased by exercise training.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "METHODS AND RESULTS Yucatan miniature swine were randomly divided into groups of exercise-trained (ET) and sedentary (SED) control pigs."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "ET pigs were placed on a progressive treadmill training program lasting 16 to 20 weeks, and SED pigs remained inactive during the same time period."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Relaxation responses to adenosine and sodium nitroprusside were not altered by exercise training."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Endothelium-dependent relaxation to bradykinin was enhanced in coronary resistance arteries from ET pigs (IC50: ET, 0.07 +/-"
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "0.09 nmol/L)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "To determine whether prostanoids and/or the nitric oxide synthase pathway were involved in the ET-induced changes in bradykinin-induced vasodilation, responses to bradykinin were examined in coronary resistance arteries from both ET and SED pigs in the presence of indomethacin and in the presence of nitro-monomethyl L-arginine (L-NMMA)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Both indomethacin and L-NMMA produced significant inhibition of the bradykinin-induced relaxation in vessels from both groups."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "Despite decreased bradykinin-induced relaxation after indomethacin, bradykinin-induced vasodilation was still enhanced in vessels from the ET group."
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "L-NMMA caused greater inhibition of the bradykinin-induced relaxation in coronary resistance arteries from ET pigs relative to arteries from SED pigs and eliminated the training-induced enhancement of the bradykinin responses.   \n"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 1122279,
+          "original_index": 7,
+          "sentence": "Nitroprusside-induced relaxation was unaffected by either chronic occlusion or exercise.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 10697096,
+          "original_index": 3,
+          "sentence": "Coronary resistance arteries 64 to 157 microns in diameter were isolated for in vitro evaluation of relaxation responses to the endothelium-independent dilators sodium nitroprusside (1 x 10(-10) to 1 x 10(-4) mol/L) and adenosine (1 x 10(-10) to 1 x 10(-5) mol/L) and to bradykinin (1 x 10(-13) to 3 x 10(-7) mol/L), an endothelium-dependent agent.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 10697096,
+          "original_index": 6,
+          "sentence": "0.02 nmol/L; SED, 1.59 +/-",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 10697096,
+          "original_index": 12,
+          "sentence": "CONCLUSIONS These results suggest that exercise training enhances bradykinin-induced vasodilation through increased endothelium-derived relaxing factor/nitric oxide production by the L-arginine/nitric oxide synthase pathway.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Chronic aerobic exercise alters endothelial function, improving vasodilating mechanisms mediated by NO.",
+      "evidence": [
+        {
+          "doc_id": 1122279,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Relaxation to the endothelium-dependent vasodilator bradykinin was decreased (P<0.05) in arterioles isolated from collateral-dependent LCx versus nonoccluded LAD regions of SED animals.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 1122279,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "CONCLUSIONS These data indicate that exercise training enhances bradykinin-mediated relaxation of collateral-dependent LCx arterioles isolated after chronic coronary occlusion, most likely because of effects on ecNOS mRNA expression and increased production of NO.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 10697096,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 12,
+          "sentence": "CONCLUSIONS These results suggest that exercise training enhances bradykinin-induced vasodilation through increased endothelium-derived relaxing factor/nitric oxide production by the L-arginine/nitric oxide synthase pathway.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1122279,
+          "title": "Endothelium-mediated relaxation of porcine collateral-dependent arterioles is improved by exercise training.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Endothelium-dependent modulation of coronary tone is impaired in the collateral-dependent coronary microcirculation."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "METHODS AND RESULTS Adult female miniature swine were subjected to chronic, progressive ameroid occlusion of the proximal left circumflex coronary artery (LCx); after 2 months, animals were randomly exposed to 16-week exercise-training (EX group; treadmill running) or sedentary (SED group; cage confinement) protocols."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "After completion of EX or SED programs, coronary arterioles ( approximately 100 microm in diameter) were isolated from collateral-dependent LCx (distal to occlusion) and nonoccluded left anterior descending coronary artery (LAD) regions of each heart."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Arterioles were studied by in vitro videomicroscopy or frozen for ecNOS mRNA analysis (RT-PCR techniques)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Bradykinin-mediated relaxation, however, was not different in LCx versus LAD arterioles isolated from EX animals."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Nitroprusside-induced relaxation was unaffected by either chronic occlusion or exercise."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "Importantly, ecNOS mRNA expression was significantly decreased in arterioles isolated from LCx versus LAD regions of SED animals."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "After training, ecNOS mRNA expression was not different between LAD and LCx arterioles.   \n"
+            }
+          ]
+        },
+        {
+          "doc_id": 10697096,
+          "title": "Vasodilator responses of coronary resistance arteries of exercise-trained pigs.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND The purpose of this study was to test the hypothesis that vasodilator responses of porcine coronary resistance arteries are increased by exercise training.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "METHODS AND RESULTS Yucatan miniature swine were randomly divided into groups of exercise-trained (ET) and sedentary (SED) control pigs."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Coronary resistance arteries 64 to 157 microns in diameter were isolated for in vitro evaluation of relaxation responses to the endothelium-independent dilators sodium nitroprusside (1 x 10(-10) to 1 x 10(-4) mol/L) and adenosine (1 x 10(-10) to 1 x 10(-5) mol/L) and to bradykinin (1 x 10(-13) to 3 x 10(-7) mol/L), an endothelium-dependent agent."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Relaxation responses to adenosine and sodium nitroprusside were not altered by exercise training."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Endothelium-dependent relaxation to bradykinin was enhanced in coronary resistance arteries from ET pigs (IC50: ET, 0.07 +/-"
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "0.02 nmol/L; SED, 1.59 +/-"
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "0.09 nmol/L)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Both indomethacin and L-NMMA produced significant inhibition of the bradykinin-induced relaxation in vessels from both groups."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "Despite decreased bradykinin-induced relaxation after indomethacin, bradykinin-induced vasodilation was still enhanced in vessels from the ET group."
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "L-NMMA caused greater inhibition of the bradykinin-induced relaxation in coronary resistance arteries from ET pigs relative to arteries from SED pigs and eliminated the training-induced enhancement of the bradykinin responses.   \n"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 1122279,
+          "original_index": 1,
+          "sentence": "We used a porcine model of chronic coronary occlusion and collateral development to evaluate the hypothesis that exercise training enhances endothelium-mediated relaxation and increases endothelial nitric oxide synthase (ecNOS) mRNA levels of collateral-dependent microvasculature.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 1122279,
+          "original_index": 5,
+          "sentence": "Relaxation to the endothelium-dependent vasodilator bradykinin was decreased (P<0.05) in arterioles isolated from collateral-dependent LCx versus nonoccluded LAD regions of SED animals.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 1122279,
+          "original_index": 10,
+          "sentence": "CONCLUSIONS These data indicate that exercise training enhances bradykinin-mediated relaxation of collateral-dependent LCx arterioles isolated after chronic coronary occlusion, most likely because of effects on ecNOS mRNA expression and increased production of NO.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 10697096,
+          "original_index": 2,
+          "sentence": "ET pigs were placed on a progressive treadmill training program lasting 16 to 20 weeks, and SED pigs remained inactive during the same time period.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 10697096,
+          "original_index": 8,
+          "sentence": "To determine whether prostanoids and/or the nitric oxide synthase pathway were involved in the ET-induced changes in bradykinin-induced vasodilation, responses to bradykinin were examined in coronary resistance arteries from both ET and SED pigs in the presence of indomethacin and in the presence of nitro-monomethyl L-arginine (L-NMMA).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 10697096,
+          "original_index": 12,
+          "sentence": "CONCLUSIONS These results suggest that exercise training enhances bradykinin-induced vasodilation through increased endothelium-derived relaxing factor/nitric oxide production by the L-arginine/nitric oxide synthase pathway.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

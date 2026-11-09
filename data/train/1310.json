@@ -1,0 +1,68 @@
+{
+  "id": 1310,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Traditional reviews are biased in their interpretations.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 8042158,
+          "title": "Systematic reviews from astronomy to zoology: myths and misconceptions.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Systematic literature reviews are widely used as an aid to evidence based decision making."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "For example, reviews of randomised controlled trials are regularly used to answer questions about the effectiveness of healthcare interventions."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "The high profile of systematic reviews as a cornerstone of evidence based medicine, however, has led to several misconceptions about their purpose and methods."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Among these is the belief that systematic reviews are applicable only to randomised controlled trials and that they are incapable of dealing with other forms of evidence, such as from non-randomised studies or qualitative research.  "
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "The systematic literature review is a method of locating, appraising, and synthesising evidence."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "The value of regularly updated systematic reviews in the assessment of effectiveness of healthcare interventions was dramatically illustrated by Antman and colleagues, who showed that review articles failed to mention advances in treatment identified by an updated systematic review.1  It is nearly a quarter of a century since Gene Glass coined the term “meta-analysis” to refer to the quantitative synthesis of the results of primary studies.2 The importance of making explicit efforts to limit bias in the review of literature, however, has been emphasised by social scientists at least since the 1960s.3 In recent years systematic reviews have found an important role in health services research, and the growing interest in evidence based approaches to decision making makes it likely that their use will increase."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Not everybody accepts that systematic reviews are necessary or desirable, and as one moves further away from the clinical applications of systematic reviews cynicism about their utility grows."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Several arguments are commonly used to reject a wider role for systematic reviews, and these arguments are often based on major misconceptions about the history, purpose, methods, and uses of systematic reviews."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "I have examined eight common myths about …"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

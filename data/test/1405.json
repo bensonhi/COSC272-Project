@@ -1,0 +1,43 @@
+{
+  "id": 1405,
+  "origin": "train_more",
+  "claim": "taa1 tar1 tar2 triple mutants in Arabidopsis do not make root meristem during embryogenesis.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 10504681,
+      "title": "TAA1-Mediated Auxin Biosynthesis Is Essential for Hormone Crosstalk and Plant Development",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Plants have evolved a tremendous ability to respond to environmental changes by adapting their growth and development."
+        },
+        {
+          "original_index": 1,
+          "sentence": "The interaction between hormonal and developmental signals is a critical mechanism in the generation of this enormous plasticity."
+        },
+        {
+          "original_index": 2,
+          "sentence": "A good example is the response to the hormone ethylene that depends on tissue type, developmental stage, and environmental conditions."
+        },
+        {
+          "original_index": 3,
+          "sentence": "By characterizing the Arabidopsis wei8 mutant, we have found that a small family of genes mediates tissue-specific responses to ethylene."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Biochemical studies revealed that WEI8 encodes a long-anticipated tryptophan aminotransferase, TAA1, in the essential, yet genetically uncharacterized, indole-3-pyruvic acid (IPA) branch of the auxin biosynthetic pathway."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Analysis of TAA1 and its paralogues revealed a link between local auxin production, tissue-specific ethylene effects, and organ development."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Thus, the IPA route of auxin production is key to generating robust auxin gradients in response to environmental and developmental cues."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

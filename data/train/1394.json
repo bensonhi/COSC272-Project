@@ -1,0 +1,38 @@
+{
+  "id": 1394,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "miRNAs regulate a unique suite of mRNAs to maintain homeostasis in cells.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 2251426,
+          "title": "microRNAs: A Safeguard against Turmoil?",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Emerging data suggest that microRNAs (miRNAs) are instrumental in a variety of stress responses in addition to their more recognized role in development."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Surprisingly, miRNAs, which normally suppress expression of target transcripts, may become activators of expression during stress."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "This might be partially explained by new interactions of miRNA/Argonaute complexes with RNA-binding proteins that relocate from different subcellular compartments during stress."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

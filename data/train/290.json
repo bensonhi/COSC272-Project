@@ -1,0 +1,365 @@
+{
+  "id": 290,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Cost effectiveness evaluations based on cRCT data accurately reflect prices for patients in actual clinical practice.",
+      "evidence": [
+        {
+          "doc_id": 15048300,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "The mean costs (for GPRD events) over calendar time were US$58k during 1990-1993 and US$174k during 2002-2005.",
+          "kept": true,
+          "new_index": 10
+        },
+        {
+          "doc_id": 15048300,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 11,
+          "sentence": "Using RCT data rather than GPRD data for event probabilities, the mean cost was US$16k with the VIGOR RCT and US$20k with the CLASS RCT.   \n",
+          "kept": true,
+          "new_index": 11
+        },
+        {
+          "doc_id": 15048300,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 12,
+          "sentence": "CONCLUSIONS The published cost-effectiveness analyses of coxibs lacked external validity, did not represent patients in actual clinical practice, and should not have been used to inform prescribing policies.",
+          "kept": true,
+          "new_index": 12
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15048300,
+          "title": "A Comparison of Cost Effectiveness Using Data from Randomized Trials or Actual Clinical Practice: Selective Cox-2 Inhibitors as an Example",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Data on absolute risks of outcomes and patterns of drug use in cost-effectiveness analyses are often based on randomised clinical trials (RCTs)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The objective of this study was to evaluate the external validity of published cost-effectiveness studies by comparing the data used in these studies (typically based on RCTs) to observational data from actual clinical practice."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Selective Cox-2 inhibitors (coxibs) were used as an example.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "METHODS AND FINDINGS The UK General Practice Research Database (GPRD) was used to estimate the exposure characteristics and individual probabilities of upper gastrointestinal (GI) events during current exposure to nonsteroidal anti-inflammatory drugs (NSAIDs) or coxibs."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "A basic cost-effectiveness model was developed evaluating two alternative strategies: prescription of a conventional NSAID or coxib."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Outcomes included upper GI events as recorded in GPRD and hospitalisation for upper GI events recorded in the national registry of hospitalisations (Hospital Episode Statistics) linked to GPRD."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Prescription costs were based on the prescribed number of tables as recorded in GPRD and the 2006 cost data from the British National Formulary."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "The study population included over 1 million patients prescribed conventional NSAIDs or coxibs."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Only a minority of patients used the drugs long-term and daily (34.5% of conventional NSAIDs and 44.2% of coxibs), whereas coxib RCTs required daily use for at least 6-9 months."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "The mean cost of preventing one upper GI event as recorded in GPRD was US$104k (ranging from US$64k with long-term daily use to US$182k with intermittent use) and US$298k for hospitalizations."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "The mean costs (for GPRD events) over calendar time were US$58k during 1990-1993 and US$174k during 2002-2005."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Using RCT data rather than GPRD data for event probabilities, the mean cost was US$16k with the VIGOR RCT and US$20k with the CLASS RCT.   \n"
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "CONCLUSIONS The published cost-effectiveness analyses of coxibs lacked external validity, did not represent patients in actual clinical practice, and should not have been used to inform prescribing policies."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "External validity should be an explicit requirement for cost-effectiveness analyses."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Cost effectiveness evaluations based on cRCT data accurately reflect prices for patients in actual clinical practice.",
+      "evidence": [
+        {
+          "doc_id": 15048300,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "The mean costs (for GPRD events) over calendar time were US$58k during 1990-1993 and US$174k during 2002-2005.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 15048300,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 11,
+          "sentence": "Using RCT data rather than GPRD data for event probabilities, the mean cost was US$16k with the VIGOR RCT and US$20k with the CLASS RCT.   \n",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 15048300,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 12,
+          "sentence": "CONCLUSIONS The published cost-effectiveness analyses of coxibs lacked external validity, did not represent patients in actual clinical practice, and should not have been used to inform prescribing policies.",
+          "kept": true,
+          "new_index": 8
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15048300,
+          "title": "A Comparison of Cost Effectiveness Using Data from Randomized Trials or Actual Clinical Practice: Selective Cox-2 Inhibitors as an Example",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 2,
+              "sentence": "Selective Cox-2 inhibitors (coxibs) were used as an example.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 3,
+              "sentence": "METHODS AND FINDINGS The UK General Practice Research Database (GPRD) was used to estimate the exposure characteristics and individual probabilities of upper gastrointestinal (GI) events during current exposure to nonsteroidal anti-inflammatory drugs (NSAIDs) or coxibs."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "A basic cost-effectiveness model was developed evaluating two alternative strategies: prescription of a conventional NSAID or coxib."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Outcomes included upper GI events as recorded in GPRD and hospitalisation for upper GI events recorded in the national registry of hospitalisations (Hospital Episode Statistics) linked to GPRD."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Prescription costs were based on the prescribed number of tables as recorded in GPRD and the 2006 cost data from the British National Formulary."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "The study population included over 1 million patients prescribed conventional NSAIDs or coxibs."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "Only a minority of patients used the drugs long-term and daily (34.5% of conventional NSAIDs and 44.2% of coxibs), whereas coxib RCTs required daily use for at least 6-9 months."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "The mean cost of preventing one upper GI event as recorded in GPRD was US$104k (ranging from US$64k with long-term daily use to US$182k with intermittent use) and US$298k for hospitalizations."
+            },
+            {
+              "new_index": 8,
+              "original_index": 12,
+              "sentence": "CONCLUSIONS The published cost-effectiveness analyses of coxibs lacked external validity, did not represent patients in actual clinical practice, and should not have been used to inform prescribing policies."
+            },
+            {
+              "new_index": 9,
+              "original_index": 13,
+              "sentence": "External validity should be an explicit requirement for cost-effectiveness analyses."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 15048300,
+          "original_index": 0,
+          "sentence": "BACKGROUND Data on absolute risks of outcomes and patterns of drug use in cost-effectiveness analyses are often based on randomised clinical trials (RCTs).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 15048300,
+          "original_index": 1,
+          "sentence": "The objective of this study was to evaluate the external validity of published cost-effectiveness studies by comparing the data used in these studies (typically based on RCTs) to observational data from actual clinical practice.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 15048300,
+          "original_index": 10,
+          "sentence": "The mean costs (for GPRD events) over calendar time were US$58k during 1990-1993 and US$174k during 2002-2005.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 15048300,
+          "original_index": 11,
+          "sentence": "Using RCT data rather than GPRD data for event probabilities, the mean cost was US$16k with the VIGOR RCT and US$20k with the CLASS RCT.   \n",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Cost effectiveness evaluations based on cRCT data accurately reflect prices for patients in actual clinical practice.",
+      "evidence": [
+        {
+          "doc_id": 15048300,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "The mean costs (for GPRD events) over calendar time were US$58k during 1990-1993 and US$174k during 2002-2005.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 15048300,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 11,
+          "sentence": "Using RCT data rather than GPRD data for event probabilities, the mean cost was US$16k with the VIGOR RCT and US$20k with the CLASS RCT.   \n",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 15048300,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 12,
+          "sentence": "CONCLUSIONS The published cost-effectiveness analyses of coxibs lacked external validity, did not represent patients in actual clinical practice, and should not have been used to inform prescribing policies.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15048300,
+          "title": "A Comparison of Cost Effectiveness Using Data from Randomized Trials or Actual Clinical Practice: Selective Cox-2 Inhibitors as an Example",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 2,
+              "sentence": "Selective Cox-2 inhibitors (coxibs) were used as an example.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 3,
+              "sentence": "METHODS AND FINDINGS The UK General Practice Research Database (GPRD) was used to estimate the exposure characteristics and individual probabilities of upper gastrointestinal (GI) events during current exposure to nonsteroidal anti-inflammatory drugs (NSAIDs) or coxibs."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "A basic cost-effectiveness model was developed evaluating two alternative strategies: prescription of a conventional NSAID or coxib."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Outcomes included upper GI events as recorded in GPRD and hospitalisation for upper GI events recorded in the national registry of hospitalisations (Hospital Episode Statistics) linked to GPRD."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Prescription costs were based on the prescribed number of tables as recorded in GPRD and the 2006 cost data from the British National Formulary."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "The study population included over 1 million patients prescribed conventional NSAIDs or coxibs."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "Only a minority of patients used the drugs long-term and daily (34.5% of conventional NSAIDs and 44.2% of coxibs), whereas coxib RCTs required daily use for at least 6-9 months."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "The mean cost of preventing one upper GI event as recorded in GPRD was US$104k (ranging from US$64k with long-term daily use to US$182k with intermittent use) and US$298k for hospitalizations."
+            },
+            {
+              "new_index": 8,
+              "original_index": 13,
+              "sentence": "External validity should be an explicit requirement for cost-effectiveness analyses."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 15048300,
+          "original_index": 0,
+          "sentence": "BACKGROUND Data on absolute risks of outcomes and patterns of drug use in cost-effectiveness analyses are often based on randomised clinical trials (RCTs).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 15048300,
+          "original_index": 1,
+          "sentence": "The objective of this study was to evaluate the external validity of published cost-effectiveness studies by comparing the data used in these studies (typically based on RCTs) to observational data from actual clinical practice.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 15048300,
+          "original_index": 10,
+          "sentence": "The mean costs (for GPRD events) over calendar time were US$58k during 1990-1993 and US$174k during 2002-2005.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 15048300,
+          "original_index": 11,
+          "sentence": "Using RCT data rather than GPRD data for event probabilities, the mean cost was US$16k with the VIGOR RCT and US$20k with the CLASS RCT.   \n",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 15048300,
+          "original_index": 12,
+          "sentence": "CONCLUSIONS The published cost-effectiveness analyses of coxibs lacked external validity, did not represent patients in actual clinical practice, and should not have been used to inform prescribing policies.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

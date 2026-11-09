@@ -1,0 +1,225 @@
+{
+  "id": 635,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Inhibiting glucose-6-phospate dehydrogenase improves lipogenesis by deactivating LKB1-AMPK signaling.",
+      "evidence": [
+        {
+          "doc_id": 1686997,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 1,
+          "sentence": "We found that suppression of 6PGD decreased lipogenesis and RNA biosynthesis and elevated ROS levels in cancer cells, attenuating cell proliferation and tumour growth.",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 1686997,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 2,
+          "sentence": "6PGD-mediated production of ribulose-5-phosphate (Ru-5-P) inhibits AMPK activation by disrupting the active LKB1 complex, thereby activating acetyl-CoA carboxylase 1 and lipogenesis.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 1686997,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 3,
+          "sentence": "Ru-5-P and NADPH are thought to be precursors in RNA biosynthesis and lipogenesis, respectively; thus, our findings provide an additional link between the oxidative PPP and lipogenesis through Ru-5-P-dependent inhibition of LKB1-AMPK signalling.",
+          "kept": true,
+          "new_index": 3
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1686997,
+          "title": "6-phosphogluconate dehydrogenase links oxidative PPP, lipogenesis and tumor growth by inhibiting LKB1-AMPK signaling",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The oxidative pentose phosphate pathway (PPP) contributes to tumour growth, but the precise contribution of 6-phosphogluconate dehydrogenase (6PGD), the third enzyme in this pathway, to tumorigenesis remains unclear."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We found that suppression of 6PGD decreased lipogenesis and RNA biosynthesis and elevated ROS levels in cancer cells, attenuating cell proliferation and tumour growth."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "6PGD-mediated production of ribulose-5-phosphate (Ru-5-P) inhibits AMPK activation by disrupting the active LKB1 complex, thereby activating acetyl-CoA carboxylase 1 and lipogenesis."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Ru-5-P and NADPH are thought to be precursors in RNA biosynthesis and lipogenesis, respectively; thus, our findings provide an additional link between the oxidative PPP and lipogenesis through Ru-5-P-dependent inhibition of LKB1-AMPK signalling."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Moreover, we identified and developed 6PGD inhibitors, physcion and its derivative S3, that effectively inhibited 6PGD, cancer cell proliferation and tumour growth in nude mice xenografts without obvious toxicity, suggesting that 6PGD could be an anticancer target."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Inhibiting glucose-6-phospate dehydrogenase improves lipogenesis by deactivating LKB1-AMPK signaling.",
+      "evidence": [
+        {
+          "doc_id": 1686997,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 1,
+          "sentence": "We found that suppression of 6PGD decreased lipogenesis and RNA biosynthesis and elevated ROS levels in cancer cells, attenuating cell proliferation and tumour growth.",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 1686997,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 2,
+          "sentence": "6PGD-mediated production of ribulose-5-phosphate (Ru-5-P) inhibits AMPK activation by disrupting the active LKB1 complex, thereby activating acetyl-CoA carboxylase 1 and lipogenesis.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 1686997,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 3,
+          "sentence": "Ru-5-P and NADPH are thought to be precursors in RNA biosynthesis and lipogenesis, respectively; thus, our findings provide an additional link between the oxidative PPP and lipogenesis through Ru-5-P-dependent inhibition of LKB1-AMPK signalling.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1686997,
+          "title": "6-phosphogluconate dehydrogenase links oxidative PPP, lipogenesis and tumor growth by inhibiting LKB1-AMPK signaling",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The oxidative pentose phosphate pathway (PPP) contributes to tumour growth, but the precise contribution of 6-phosphogluconate dehydrogenase (6PGD), the third enzyme in this pathway, to tumorigenesis remains unclear."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We found that suppression of 6PGD decreased lipogenesis and RNA biosynthesis and elevated ROS levels in cancer cells, attenuating cell proliferation and tumour growth."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "6PGD-mediated production of ribulose-5-phosphate (Ru-5-P) inhibits AMPK activation by disrupting the active LKB1 complex, thereby activating acetyl-CoA carboxylase 1 and lipogenesis."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Moreover, we identified and developed 6PGD inhibitors, physcion and its derivative S3, that effectively inhibited 6PGD, cancer cell proliferation and tumour growth in nude mice xenografts without obvious toxicity, suggesting that 6PGD could be an anticancer target."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 1686997,
+          "original_index": 3,
+          "sentence": "Ru-5-P and NADPH are thought to be precursors in RNA biosynthesis and lipogenesis, respectively; thus, our findings provide an additional link between the oxidative PPP and lipogenesis through Ru-5-P-dependent inhibition of LKB1-AMPK signalling.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Inhibiting glucose-6-phospate dehydrogenase improves lipogenesis by deactivating LKB1-AMPK signaling.",
+      "evidence": [
+        {
+          "doc_id": 1686997,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 1,
+          "sentence": "We found that suppression of 6PGD decreased lipogenesis and RNA biosynthesis and elevated ROS levels in cancer cells, attenuating cell proliferation and tumour growth.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 1686997,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 2,
+          "sentence": "6PGD-mediated production of ribulose-5-phosphate (Ru-5-P) inhibits AMPK activation by disrupting the active LKB1 complex, thereby activating acetyl-CoA carboxylase 1 and lipogenesis.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 1686997,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 3,
+          "sentence": "Ru-5-P and NADPH are thought to be precursors in RNA biosynthesis and lipogenesis, respectively; thus, our findings provide an additional link between the oxidative PPP and lipogenesis through Ru-5-P-dependent inhibition of LKB1-AMPK signalling.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1686997,
+          "title": "6-phosphogluconate dehydrogenase links oxidative PPP, lipogenesis and tumor growth by inhibiting LKB1-AMPK signaling",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The oxidative pentose phosphate pathway (PPP) contributes to tumour growth, but the precise contribution of 6-phosphogluconate dehydrogenase (6PGD), the third enzyme in this pathway, to tumorigenesis remains unclear."
+            },
+            {
+              "new_index": 1,
+              "original_index": 4,
+              "sentence": "Moreover, we identified and developed 6PGD inhibitors, physcion and its derivative S3, that effectively inhibited 6PGD, cancer cell proliferation and tumour growth in nude mice xenografts without obvious toxicity, suggesting that 6PGD could be an anticancer target."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 1686997,
+          "original_index": 1,
+          "sentence": "We found that suppression of 6PGD decreased lipogenesis and RNA biosynthesis and elevated ROS levels in cancer cells, attenuating cell proliferation and tumour growth.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 1686997,
+          "original_index": 2,
+          "sentence": "6PGD-mediated production of ribulose-5-phosphate (Ru-5-P) inhibits AMPK activation by disrupting the active LKB1 complex, thereby activating acetyl-CoA carboxylase 1 and lipogenesis.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 1686997,
+          "original_index": 3,
+          "sentence": "Ru-5-P and NADPH are thought to be precursors in RNA biosynthesis and lipogenesis, respectively; thus, our findings provide an additional link between the oxidative PPP and lipogenesis through Ru-5-P-dependent inhibition of LKB1-AMPK signalling.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

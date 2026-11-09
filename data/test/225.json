@@ -1,0 +1,35 @@
+{
+  "id": 225,
+  "origin": "train_more",
+  "claim": "Cancer-associated fibroblasts (CAFs) have no known interaction with cancer cells in the formation and activation of CAFs.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 6944800,
+      "title": "Microenvironmental regulation of tumor progression and metastasis",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Cancers develop in complex tissue environments, which they depend on for sustained growth, invasion and metastasis."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Unlike tumor cells, stromal cell types within the tumor microenvironment (TME) are genetically stable and thus represent an attractive therapeutic target with reduced risk of resistance and tumor recurrence."
+        },
+        {
+          "original_index": 2,
+          "sentence": "However, specifically disrupting the pro-tumorigenic TME is a challenging undertaking, as the TME has diverse capacities to induce both beneficial and adverse consequences for tumorigenesis."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Furthermore, many studies have shown that the microenvironment is capable of normalizing tumor cells, suggesting that re-education of stromal cells, rather than targeted ablation per se, may be an effective strategy for treating cancer."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Here we discuss the paradoxical roles of the TME during specific stages of cancer progression and metastasis, as well as recent therapeutic attempts to re-educate stromal cells within the TME to have anti-tumorigenic effects."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

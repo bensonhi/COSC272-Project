@@ -1,0 +1,63 @@
+{
+  "id": 470,
+  "origin": "train_more",
+  "claim": "Glioblastoma multiforme (GBM) is characterized by extensive invasion, rapid growth, necrosis, and angiogenesis.",
+  "evidence": [
+    {
+      "doc_id": 12685434,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 2,
+      "sentence": "These include glioblastoma multiforme (GBM), which is characterized by independent but interrelated features of extensive invasion into normal brain parenchyma, rapid growth, necrosis, and angiogenesis."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 12685434,
+      "title": "Guanylate binding protein 1 is a novel effector of EGFR-driven invasion in glioblastoma",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Although GBP1 (guanylate binding protein 1) was among the first interferon-inducible proteins identified, its function is still largely unknown."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Epidermal growth factor receptor (EGFR) activation by amplification or mutation is one of the most frequent genetic lesions in a variety of human tumors."
+        },
+        {
+          "original_index": 2,
+          "sentence": "These include glioblastoma multiforme (GBM), which is characterized by independent but interrelated features of extensive invasion into normal brain parenchyma, rapid growth, necrosis, and angiogenesis."
+        },
+        {
+          "original_index": 3,
+          "sentence": "In this study, we show that EGFR activation promoted GBP1 expression in GBM cell lines through a signaling pathway involving Src and p38 mitogen-activated protein kinase."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Moreover, we identified YY1 (Yin Yang 1) as the downstream transcriptional regulator regulating EGFR-driven GBP1 expression."
+        },
+        {
+          "original_index": 5,
+          "sentence": "GBP1 was required for EGFR-mediated MMP1 (matrix metalloproteinase 1) expression and glioma cell invasion in vitro."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Although deregulation of GBP1 expression did not affect glioma cell proliferation, overexpression of GBP1 enhanced glioma cell invasion through MMP1 induction, which required its C-terminal helical domain and was independent of its GTPase activity."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Reducing GBP1 levels by RNA interference in invasive GBM cells also markedly inhibited their ability to infiltrate the brain parenchyma of mice."
+        },
+        {
+          "original_index": 8,
+          "sentence": "GBP1 expression was high and positively correlated with EGFR expression in human GBM tumors and cell lines, particularly those of the neural subtype."
+        },
+        {
+          "original_index": 9,
+          "sentence": "Together, these findings establish GBP1 as a previously unknown link between EGFR activity and MMP1 expression and nominate it as a novel potential therapeutic target for inhibiting GBM invasion."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

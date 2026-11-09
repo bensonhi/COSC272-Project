@@ -1,0 +1,53 @@
+{
+  "id": 1183,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The TRaF1/C5 rs10818488 allele polymorphism regulates the neighboring C5 gene.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 1967017,
+          "title": "A Candidate Gene Approach Identifies the TRAF1/C5 Region as a Risk Factor for Rheumatoid Arthritis",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Correction for:    Kurreeman FAS, Padyukov L, Marques RB, Schrodi SJ, Seddighzadeh M, et al. (2007)"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "A Candidate Gene Approach Identifies the TRAF1/C5 Region as a Risk Factor for Rheumatoid Arthritis."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "PLoS Med 4(9): e278."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "doi:10.1371/journal.pmed.0040278    In Table 1, the allele ratio in column eight (Allele Ratiosb: Cases, Controls) refers to allele A: allele B and not allele1:allele2 as described in footnote b, with Allele A being the Susceptibility Allele as denoted in column seven.    "
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "The footnote should read:    bNumber of alleles were compared in cases versus controls: allele A: allele B cases, allele A: allele B controls."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Allele A refers to the susceptibility alleles as given in column seven."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

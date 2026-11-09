@@ -1,0 +1,53 @@
+{
+  "id": 363,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "EG7 tumors can be killed by systemic oxaliplatin primed CD8+ T cells from the tumor-draining lymph node cells.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 5386514,
+          "title": "Activation of the NLRP3 inflammasome in dendritic cells induces IL-1β–dependent adaptive immunity against tumors",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The therapeutic efficacy of anticancer chemotherapies may depend on dendritic cells (DCs), which present antigens from dying cancer cells to prime tumor-specific interferon-γ (IFN-γ)–producing T lymphocytes."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here we show that dying tumor cells release ATP, which then acts on P2X7 purinergic receptors from DCs and triggers the NOD-like receptor family, pyrin domain containing-3 protein (NLRP3)-dependent caspase-1 activation complex ('inflammasome'), allowing for the secretion of interleukin-1β (IL-1β)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "The priming of IFN-γ–producing CD8+ T cells by dying tumor cells fails in the absence of a functional IL-1 receptor 1 and in Nlpr3-deficient (Nlrp3−/−) or caspase-1–deficient (Casp-1−/−) mice unless exogenous IL-1β is provided."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Accordingly, anticancer chemotherapy turned out to be inefficient against tumors established in purinergic receptor P2rx7−/− or Nlrp3−/− or Casp1−/− hosts."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Anthracycline-treated individuals with breast cancer carrying a loss-of-function allele of P2RX7 developed metastatic disease more rapidly than individuals bearing the normal allele."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "These results indicate that the NLRP3 inflammasome links the innate and adaptive immune responses against dying tumor cells."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

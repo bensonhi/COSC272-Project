@@ -1,0 +1,507 @@
+{
+  "id": 921,
+  "origin": "dev",
+  "n_groups": 4,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Participating in six months of physical activity improves cognitive functioning.",
+      "evidence": [
+        {
+          "doc_id": 1642727,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "RESULTS In an intent-to-treat analysis, participants in the intervention group improved 0.26 points (95% confidence interval, -0.89 to 0.54) and those in the usual care group deteriorated 1.04 points (95% confidence interval, 0.32 to 1.82) on the ADAS-Cog at the end of the intervention.",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 1642727,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "The absolute difference of the outcome measure between the intervention and control groups was -1.3 points (95% confidence interval,-2.38 to -0.22) at the end of the intervention.",
+          "kept": true,
+          "new_index": 10
+        },
+        {
+          "doc_id": 1642727,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 13,
+          "sentence": "CONCLUSIONS In this study of adults with subjective memory impairment, a 6-month program of physical activity provided a modest improvement in cognition over an 18-month follow-up period.   \n",
+          "kept": true,
+          "new_index": 13
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1642727,
+          "title": "Effect of physical activity on cognitive function in older adults at risk for Alzheimer disease: a randomized trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Many observational studies have shown that physical activity reduces the risk of cognitive decline; however, evidence from randomized trials is lacking.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To determine whether physical activity reduces the rate of cognitive decline among older adults at risk.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN AND SETTING Randomized controlled trial of a 24-week physical activity intervention conducted between 2004 and 2007 in metropolitan Perth, Western Australia."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Assessors of cognitive function were blinded to group membership.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "PARTICIPANTS We recruited volunteers who reported memory problems but did not meet criteria for dementia."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Three hundred eleven individuals aged 50 years or older were screened for eligibility, 89 were not eligible, and 52 refused to participate."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "A total of 170 participants were randomized and 138 participants completed the 18-month assessment.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "INTERVENTION Participants were randomly allocated to an education and usual care group or to a 24-week home-based program of physical activity.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "MAIN OUTCOME MEASURE Change in Alzheimer Disease Assessment Scale-Cognitive Subscale (ADAS-Cog) scores (possible range, 0-70) over 18 months.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "RESULTS In an intent-to-treat analysis, participants in the intervention group improved 0.26 points (95% confidence interval, -0.89 to 0.54) and those in the usual care group deteriorated 1.04 points (95% confidence interval, 0.32 to 1.82) on the ADAS-Cog at the end of the intervention."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "The absolute difference of the outcome measure between the intervention and control groups was -1.3 points (95% confidence interval,-2.38 to -0.22) at the end of the intervention."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "At 18 months, participants in the intervention group improved 0.73 points (95% confidence interval, -1.27 to 0.03) on the ADAS-Cog, and those in the usual care group improved 0.04 points (95% confidence interval, -0.46 to 0.88)."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "Word list delayed recall and Clinical Dementia Rating sum of boxes improved modestly as well, whereas word list total immediate recall, digit symbol coding, verbal fluency, Beck depression score, and Medical Outcomes 36-Item Short-Form physical and mental component summaries did not change significantly.   \n"
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "CONCLUSIONS In this study of adults with subjective memory impairment, a 6-month program of physical activity provided a modest improvement in cognition over an 18-month follow-up period.   \n"
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "TRIAL REGISTRATION anzctr.org.au Identifier: ACTRN12605000136606."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Participating in six months of physical activity improves cognitive functioning.",
+      "evidence": [
+        {
+          "doc_id": 1642727,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "RESULTS In an intent-to-treat analysis, participants in the intervention group improved 0.26 points (95% confidence interval, -0.89 to 0.54) and those in the usual care group deteriorated 1.04 points (95% confidence interval, 0.32 to 1.82) on the ADAS-Cog at the end of the intervention.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 1642727,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "The absolute difference of the outcome measure between the intervention and control groups was -1.3 points (95% confidence interval,-2.38 to -0.22) at the end of the intervention.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 1642727,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 13,
+          "sentence": "CONCLUSIONS In this study of adults with subjective memory impairment, a 6-month program of physical activity provided a modest improvement in cognition over an 18-month follow-up period.   \n",
+          "kept": true,
+          "new_index": 10
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1642727,
+          "title": "Effect of physical activity on cognitive function in older adults at risk for Alzheimer disease: a randomized trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Many observational studies have shown that physical activity reduces the risk of cognitive decline; however, evidence from randomized trials is lacking.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To determine whether physical activity reduces the rate of cognitive decline among older adults at risk.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN AND SETTING Randomized controlled trial of a 24-week physical activity intervention conducted between 2004 and 2007 in metropolitan Perth, Western Australia."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Assessors of cognitive function were blinded to group membership.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "PARTICIPANTS We recruited volunteers who reported memory problems but did not meet criteria for dementia."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "A total of 170 participants were randomized and 138 participants completed the 18-month assessment.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "MAIN OUTCOME MEASURE Change in Alzheimer Disease Assessment Scale-Cognitive Subscale (ADAS-Cog) scores (possible range, 0-70) over 18 months.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "The absolute difference of the outcome measure between the intervention and control groups was -1.3 points (95% confidence interval,-2.38 to -0.22) at the end of the intervention."
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "At 18 months, participants in the intervention group improved 0.73 points (95% confidence interval, -1.27 to 0.03) on the ADAS-Cog, and those in the usual care group improved 0.04 points (95% confidence interval, -0.46 to 0.88)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 12,
+              "sentence": "Word list delayed recall and Clinical Dementia Rating sum of boxes improved modestly as well, whereas word list total immediate recall, digit symbol coding, verbal fluency, Beck depression score, and Medical Outcomes 36-Item Short-Form physical and mental component summaries did not change significantly.   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 13,
+              "sentence": "CONCLUSIONS In this study of adults with subjective memory impairment, a 6-month program of physical activity provided a modest improvement in cognition over an 18-month follow-up period.   \n"
+            },
+            {
+              "new_index": 11,
+              "original_index": 14,
+              "sentence": "TRIAL REGISTRATION anzctr.org.au Identifier: ACTRN12605000136606."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 1642727,
+          "original_index": 5,
+          "sentence": "Three hundred eleven individuals aged 50 years or older were screened for eligibility, 89 were not eligible, and 52 refused to participate.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 1642727,
+          "original_index": 7,
+          "sentence": "INTERVENTION Participants were randomly allocated to an education and usual care group or to a 24-week home-based program of physical activity.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 1642727,
+          "original_index": 9,
+          "sentence": "RESULTS In an intent-to-treat analysis, participants in the intervention group improved 0.26 points (95% confidence interval, -0.89 to 0.54) and those in the usual care group deteriorated 1.04 points (95% confidence interval, 0.32 to 1.82) on the ADAS-Cog at the end of the intervention.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g1",
+        "g0"
+      ],
+      "claim": "Participating in six months of physical activity improves cognitive functioning.",
+      "evidence": [
+        {
+          "doc_id": 1642727,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "RESULTS In an intent-to-treat analysis, participants in the intervention group improved 0.26 points (95% confidence interval, -0.89 to 0.54) and those in the usual care group deteriorated 1.04 points (95% confidence interval, 0.32 to 1.82) on the ADAS-Cog at the end of the intervention.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 1642727,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "The absolute difference of the outcome measure between the intervention and control groups was -1.3 points (95% confidence interval,-2.38 to -0.22) at the end of the intervention.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 1642727,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 13,
+          "sentence": "CONCLUSIONS In this study of adults with subjective memory impairment, a 6-month program of physical activity provided a modest improvement in cognition over an 18-month follow-up period.   \n",
+          "kept": true,
+          "new_index": 9
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1642727,
+          "title": "Effect of physical activity on cognitive function in older adults at risk for Alzheimer disease: a randomized trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Many observational studies have shown that physical activity reduces the risk of cognitive decline; however, evidence from randomized trials is lacking.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "DESIGN AND SETTING Randomized controlled trial of a 24-week physical activity intervention conducted between 2004 and 2007 in metropolitan Perth, Western Australia."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Assessors of cognitive function were blinded to group membership.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "PARTICIPANTS We recruited volunteers who reported memory problems but did not meet criteria for dementia."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Three hundred eleven individuals aged 50 years or older were screened for eligibility, 89 were not eligible, and 52 refused to participate."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "A total of 170 participants were randomized and 138 participants completed the 18-month assessment.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "INTERVENTION Participants were randomly allocated to an education and usual care group or to a 24-week home-based program of physical activity.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "MAIN OUTCOME MEASURE Change in Alzheimer Disease Assessment Scale-Cognitive Subscale (ADAS-Cog) scores (possible range, 0-70) over 18 months.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 12,
+              "sentence": "Word list delayed recall and Clinical Dementia Rating sum of boxes improved modestly as well, whereas word list total immediate recall, digit symbol coding, verbal fluency, Beck depression score, and Medical Outcomes 36-Item Short-Form physical and mental component summaries did not change significantly.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 13,
+              "sentence": "CONCLUSIONS In this study of adults with subjective memory impairment, a 6-month program of physical activity provided a modest improvement in cognition over an 18-month follow-up period.   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 14,
+              "sentence": "TRIAL REGISTRATION anzctr.org.au Identifier: ACTRN12605000136606."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 1642727,
+          "original_index": 1,
+          "sentence": "OBJECTIVE To determine whether physical activity reduces the rate of cognitive decline among older adults at risk.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 1642727,
+          "original_index": 9,
+          "sentence": "RESULTS In an intent-to-treat analysis, participants in the intervention group improved 0.26 points (95% confidence interval, -0.89 to 0.54) and those in the usual care group deteriorated 1.04 points (95% confidence interval, 0.32 to 1.82) on the ADAS-Cog at the end of the intervention.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 1642727,
+          "original_index": 10,
+          "sentence": "The absolute difference of the outcome measure between the intervention and control groups was -1.3 points (95% confidence interval,-2.38 to -0.22) at the end of the intervention.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 1642727,
+          "original_index": 11,
+          "sentence": "At 18 months, participants in the intervention group improved 0.73 points (95% confidence interval, -1.27 to 0.03) on the ADAS-Cog, and those in the usual care group improved 0.04 points (95% confidence interval, -0.46 to 0.88).",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2"
+      ],
+      "claim": "Participating in six months of physical activity improves cognitive functioning.",
+      "evidence": [
+        {
+          "doc_id": 1642727,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "RESULTS In an intent-to-treat analysis, participants in the intervention group improved 0.26 points (95% confidence interval, -0.89 to 0.54) and those in the usual care group deteriorated 1.04 points (95% confidence interval, 0.32 to 1.82) on the ADAS-Cog at the end of the intervention.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 1642727,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "The absolute difference of the outcome measure between the intervention and control groups was -1.3 points (95% confidence interval,-2.38 to -0.22) at the end of the intervention.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 1642727,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 13,
+          "sentence": "CONCLUSIONS In this study of adults with subjective memory impairment, a 6-month program of physical activity provided a modest improvement in cognition over an 18-month follow-up period.   \n",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1642727,
+          "title": "Effect of physical activity on cognitive function in older adults at risk for Alzheimer disease: a randomized trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Many observational studies have shown that physical activity reduces the risk of cognitive decline; however, evidence from randomized trials is lacking.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To determine whether physical activity reduces the rate of cognitive decline among older adults at risk.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN AND SETTING Randomized controlled trial of a 24-week physical activity intervention conducted between 2004 and 2007 in metropolitan Perth, Western Australia."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Assessors of cognitive function were blinded to group membership.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "PARTICIPANTS We recruited volunteers who reported memory problems but did not meet criteria for dementia."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Three hundred eleven individuals aged 50 years or older were screened for eligibility, 89 were not eligible, and 52 refused to participate."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "INTERVENTION Participants were randomly allocated to an education and usual care group or to a 24-week home-based program of physical activity.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 11,
+              "sentence": "At 18 months, participants in the intervention group improved 0.73 points (95% confidence interval, -1.27 to 0.03) on the ADAS-Cog, and those in the usual care group improved 0.04 points (95% confidence interval, -0.46 to 0.88)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 12,
+              "sentence": "Word list delayed recall and Clinical Dementia Rating sum of boxes improved modestly as well, whereas word list total immediate recall, digit symbol coding, verbal fluency, Beck depression score, and Medical Outcomes 36-Item Short-Form physical and mental component summaries did not change significantly.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 14,
+              "sentence": "TRIAL REGISTRATION anzctr.org.au Identifier: ACTRN12605000136606."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 1642727,
+          "original_index": 6,
+          "sentence": "A total of 170 participants were randomized and 138 participants completed the 18-month assessment.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 1642727,
+          "original_index": 8,
+          "sentence": "MAIN OUTCOME MEASURE Change in Alzheimer Disease Assessment Scale-Cognitive Subscale (ADAS-Cog) scores (possible range, 0-70) over 18 months.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 1642727,
+          "original_index": 9,
+          "sentence": "RESULTS In an intent-to-treat analysis, participants in the intervention group improved 0.26 points (95% confidence interval, -0.89 to 0.54) and those in the usual care group deteriorated 1.04 points (95% confidence interval, 0.32 to 1.82) on the ADAS-Cog at the end of the intervention.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 1642727,
+          "original_index": 10,
+          "sentence": "The absolute difference of the outcome measure between the intervention and control groups was -1.3 points (95% confidence interval,-2.38 to -0.22) at the end of the intervention.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 1642727,
+          "original_index": 13,
+          "sentence": "CONCLUSIONS In this study of adults with subjective memory impairment, a 6-month program of physical activity provided a modest improvement in cognition over an 18-month follow-up period.   \n",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

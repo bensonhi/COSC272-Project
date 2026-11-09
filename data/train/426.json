@@ -1,0 +1,103 @@
+{
+  "id": 426,
+  "origin": "train_more",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Forkhead 0 (fox0) transcription factors are involved in apoptosis.",
+      "evidence": [
+        {
+          "doc_id": 16728949,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "The forkhead O (FoxO) family of transcription factors participates in diverse physiologic processes, including induction of cell-cycle arrest, stress resistance, differentiation, apoptosis, and metabolism.",
+          "kept": true,
+          "new_index": 0
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 16728949,
+          "title": "Cell Stem Cell Review FoxO Transcription Factors and Stem Cell Homeostasis: Insights from the Hematopoietic System",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The forkhead O (FoxO) family of transcription factors participates in diverse physiologic processes, including induction of cell-cycle arrest, stress resistance, differentiation, apoptosis, and metabolism."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Several recent studies indicate that FoxO-dependent signaling is required for long-term regenerative potential of the hematopoietic stem cell (HSC) compartment through regulation of HSC response to physiologic oxidative stress, quiescence, and survival."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "These observations link FoxO function in mammalian systems with the evolutionarily conserved role of FoxO in promotion of stress resistance and longevity in lower phylogenetic systems."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Furthermore, these findings have implications for aging in higher organisms and in malignant stem cell biology, and suggest that FoxOs may play an important role in the maintenance and integrity of stem cell compartments in a broad spectrum of tissues."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Forkhead 0 (fox0) transcription factors are involved in apoptosis.",
+      "evidence": [
+        {
+          "doc_id": 16728949,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "The forkhead O (FoxO) family of transcription factors participates in diverse physiologic processes, including induction of cell-cycle arrest, stress resistance, differentiation, apoptosis, and metabolism.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 16728949,
+          "title": "Cell Stem Cell Review FoxO Transcription Factors and Stem Cell Homeostasis: Insights from the Hematopoietic System",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "Several recent studies indicate that FoxO-dependent signaling is required for long-term regenerative potential of the hematopoietic stem cell (HSC) compartment through regulation of HSC response to physiologic oxidative stress, quiescence, and survival."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "These observations link FoxO function in mammalian systems with the evolutionarily conserved role of FoxO in promotion of stress resistance and longevity in lower phylogenetic systems."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Furthermore, these findings have implications for aging in higher organisms and in malignant stem cell biology, and suggest that FoxOs may play an important role in the maintenance and integrity of stem cell compartments in a broad spectrum of tissues."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 16728949,
+          "original_index": 0,
+          "sentence": "The forkhead O (FoxO) family of transcription factors participates in diverse physiologic processes, including induction of cell-cycle arrest, stress resistance, differentiation, apoptosis, and metabolism.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

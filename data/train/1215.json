@@ -1,0 +1,63 @@
+{
+  "id": 1215,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The effect of Lipopolysaccharides on kidney barrier function is dependent on inflammation levels.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 16355392,
+          "title": "Modification of kidney barrier function by the urokinase receptor",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Podocyte dysfunction, represented by foot process effacement and proteinuria, is often the starting point for progressive kidney disease."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Therapies aimed at the cellular level of the disease are currently not available."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here we show that induction of urokinase receptor (uPAR) signaling in podocytes leads to foot process effacement and urinary protein loss via a mechanism that includes lipid-dependent activation of αvβ3 integrin."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Mice lacking uPAR (Plaur−/−) are protected from lipopolysaccharide (LPS)-mediated proteinuria but develop disease after expression of a constitutively active β3 integrin."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Gene transfer studies reveal a prerequisite for uPAR expression in podocytes, but not in endothelial cells, for the development of LPS-mediated proteinuria."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Mechanistically, uPAR is required to activate αvβ3 integrin in podocytes, promoting cell motility and activation of the small GTPases Cdc42 and Rac1."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Blockade of αvβ3 integrin reduces podocyte motility in vitro and lowers proteinuria in mice."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Our findings show a physiological role for uPAR signaling in the regulation of kidney permeability."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

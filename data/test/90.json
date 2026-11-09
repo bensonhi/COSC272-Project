@@ -1,0 +1,43 @@
+{
+  "id": 90,
+  "origin": "train_more",
+  "claim": "Adult tissue-resident macrophages stem from the embryonal yolk sac and fetal liver.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 22406695,
+      "title": "Origin and functions of tissue macrophages.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Macrophages are distributed in tissues throughout the body and contribute to both homeostasis and disease."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Recently, it has become evident that most adult tissue macrophages originate during embryonic development and not from circulating monocytes."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Each tissue has its own composition of embryonically derived and adult-derived macrophages, but it is unclear whether macrophages of distinct origins are functionally interchangeable or have unique roles at steady state."
+        },
+        {
+          "original_index": 3,
+          "sentence": "This new understanding also prompts reconsideration of the function of circulating monocytes."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Classical Ly6c(hi) monocytes patrol the extravascular space in resting organs, and Ly6c(lo) nonclassical monocytes patrol the vasculature."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Inflammation triggers monocytes to differentiate into macrophages, but whether resident and newly recruited macrophages possess similar functions during inflammation is unclear."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Here, we define the tools used for identifying the complex origin of tissue macrophages and discuss the relative contributions of tissue niche versus ontological origin to the regulation of macrophage functions during steady state and inflammation."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

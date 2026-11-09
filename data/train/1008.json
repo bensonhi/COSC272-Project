@@ -1,0 +1,48 @@
+{
+  "id": 1008,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "RUNX is not expressed in skin tissue.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 2547636,
+          "title": "Human epidermal stem cell function is regulated by circadian oscillations.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Human skin copes with harmful environmental factors that are circadian in nature, yet how circadian rhythms modulate the function of human epidermal stem cells is mostly unknown."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here we show that in human epidermal stem cells and their differentiated counterparts, core clock genes peak in a successive and phased manner, establishing distinct temporal intervals during the 24 hr day period."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Each of these successive clock waves is associated with a peak in the expression of subsets of transcripts that temporally segregate the predisposition of epidermal stem cells to respond to cues that regulate their proliferation or differentiation, such as TGFβ and calcium."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Accordingly, circadian arrhythmia profoundly affects stem cell function in culture and in vivo."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We hypothesize that this intricate mechanism ensures homeostasis by providing epidermal stem cells with environmentally relevant temporal functional cues during the course of the day and that its perturbation may contribute to aging and carcinogenesis."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

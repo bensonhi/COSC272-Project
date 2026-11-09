@@ -1,0 +1,63 @@
+{
+  "id": 739,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "MT binding domain drives amyloid structure formation.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 4446814,
+          "title": "Cryo-EM structures of Tau filaments from Alzheimer’s disease brain",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Alzheimer's disease is the most common neurodegenerative disease, and there are no mechanism-based therapies."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The disease is defined by the presence of abundant neurofibrillary lesions and neuritic plaques in the cerebral cortex."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Neurofibrillary lesions comprise paired helical and straight tau filaments, whereas tau filaments with different morphologies characterize other neurodegenerative diseases."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "No high-resolution structures of tau filaments are available."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Here we present cryo-electron microscopy (cryo-EM) maps at 3.4-3.5 Å resolution and corresponding atomic models of paired helical and straight filaments from the brain of an individual with Alzheimer's disease."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Filament cores are made of two identical protofilaments comprising residues 306-378 of tau protein, which adopt a combined cross-β/β-helix structure and define the seed for tau aggregation."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Paired helical and straight filaments differ in their inter-protofilament packing, showing that they are ultrastructural polymorphs."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "These findings demonstrate that cryo-EM allows atomic characterization of amyloid filaments from patient-derived material, and pave the way for investigation of a range of neurodegenerative diseases."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

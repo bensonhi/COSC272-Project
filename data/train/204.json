@@ -1,0 +1,48 @@
+{
+  "id": 204,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "CDK6 shows impaired binding to loss-of-function variants of p18 INK4C.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 7898952,
+          "title": "Feedback Circuit among INK4 Tumor Suppressors Constrains Human Glioblastoma Development",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "We have developed a nonheuristic genome topography scan (GTS) algorithm to characterize the patterns of genomic alterations in human glioblastoma (GBM), identifying frequent p18(INK4C) and p16(INK4A) codeletion."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Functional reconstitution of p18(INK4C) in GBM cells null for both p16(INK4A) and p18(INK4C) resulted in impaired cell-cycle progression and tumorigenic potential."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Conversely, RNAi-mediated depletion of p18(INK4C) in p16(INK4A)-deficient primary astrocytes or established GBM cells enhanced tumorigenicity in vitro and in vivo."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Furthermore, acute suppression of p16(INK4A) in primary astrocytes induced a concomitant increase in p18(INK4C)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Together, these findings uncover a feedback regulatory circuit in the astrocytic lineage and demonstrate a bona fide tumor suppressor role for p18(INK4C) in human GBM wherein it functions cooperatively with other INK4 family members to constrain inappropriate proliferation."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

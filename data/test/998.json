@@ -1,0 +1,55 @@
+{
+  "id": 998,
+  "origin": "train_more",
+  "claim": "Pyridostatin prevents double-strand breaks accumulation.",
+  "evidence": [
+    {
+      "doc_id": 16472469,
+      "group_id": "g0",
+      "evidence_label": "CONTRADICT",
+      "original_index": 5,
+      "sentence": "Remarkably, PDS reduces proliferation of HR-defective cells by inducing DSB accumulation, checkpoint activation, and deregulated G2/M progression and by enhancing the replication defect intrinsic to HR deficiency."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 16472469,
+      "title": "Targeting BRCA1 and BRCA2 Deficiencies with G-Quadruplex-Interacting Compounds",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "G-quadruplex (G4)-forming genomic sequences, including telomeres, represent natural replication fork barriers."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Stalled replication forks can be stabilized and restarted by homologous recombination (HR), which also repairs DNA double-strand breaks (DSBs) arising at collapsed forks."
+        },
+        {
+          "original_index": 2,
+          "sentence": "We have previously shown that HR facilitates telomere replication."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Here, we demonstrate that the replication efficiency of guanine-rich (G-rich) telomeric repeats is decreased significantly in cells lacking HR."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Treatment with the G4-stabilizing compound pyridostatin (PDS) increases telomere fragility in BRCA2-deficient cells, suggesting that G4 formation drives telomere instability."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Remarkably, PDS reduces proliferation of HR-defective cells by inducing DSB accumulation, checkpoint activation, and deregulated G2/M progression and by enhancing the replication defect intrinsic to HR deficiency."
+        },
+        {
+          "original_index": 6,
+          "sentence": "PDS toxicity extends to HR-defective cells that have acquired olaparib resistance through loss of 53BP1 or REV7."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Altogether, these results highlight the therapeutic potential of G4-stabilizing drugs to selectively eliminate HR-compromised cells and tumors, including those resistant to PARP inhibition."
+        }
+      ]
+    }
+  ],
+  "label": "CONTRADICT"
+}

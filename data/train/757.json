@@ -1,0 +1,38 @@
+{
+  "id": 757,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Many transmembrane receptors transmit signals by long-range conformational changes in the association of alpha-helices across the plasma membrane.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 17123657,
+          "title": "Dynamic Helix Interactions in Transmembrane Signaling",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Studying how protein transmembrane domains transmit signals across membranes is beset by unique challenges."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here, we discuss the circumstances that have led to success and reflect on what has been learned from these examples."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Such efforts suggest that some of the most interesting properties of transmembrane helix interactions may be the least amenable to study by current techniques."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

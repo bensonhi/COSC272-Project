@@ -1,0 +1,303 @@
+{
+  "id": 308,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "DUSP4 downregulation deactivates the Ras-ERK pathway",
+      "evidence": [
+        {
+          "doc_id": 7821634,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 4,
+          "sentence": "Low concentrations of dual specificity protein phosphatase 4 (DUSP4), an ERK phosphatase, correlated with high post-NAC tumor cell proliferation and with basal-like breast cancer (BLBC) status.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 7821634,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 5,
+          "sentence": "BLBC had higher DUSP4 promoter methylation and gene expression patterns of Ras-ERK pathway activation relative to other breast cancer subtypes.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 7821634,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Thus, DUSP4 downregulation activates the Ras-ERK pathway in BLBC, resulting in an attenuated response to anti-cancer chemotherapy.",
+          "kept": true,
+          "new_index": 9
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 7821634,
+          "title": "Profiling of residual breast cancers after neoadjuvant chemotherapy identifies DUSP4 deficiency as a mechanism of drug resistance",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Neoadjuvant chemotherapy (NAC) induces a pathological complete response (pCR) in ∼30% of patients with breast cancer."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "However, many patients have residual cancer after chemotherapy, which correlates with a higher risk of metastatic recurrence and poorer outcome than those who achieve a pCR."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We hypothesized that molecular profiling of tumors after NAC would identify genes associated with drug resistance."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Digital transcript counting was used to profile surgically resected breast cancers after NAC."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Low concentrations of dual specificity protein phosphatase 4 (DUSP4), an ERK phosphatase, correlated with high post-NAC tumor cell proliferation and with basal-like breast cancer (BLBC) status."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "BLBC had higher DUSP4 promoter methylation and gene expression patterns of Ras-ERK pathway activation relative to other breast cancer subtypes."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "DUSP4 overexpression increased chemotherapy-induced apoptosis, whereas DUSP4 depletion dampened the response to chemotherapy."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Reduced DUSP4 expression in primary tumors after NAC was associated with treatment-refractory high Ki-67 scores and shorter recurrence-free survival."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Finally, inhibition of mitogen-activated protein kinase kinase (MEK) synergized with docetaxel treatment in BLBC xenografts."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Thus, DUSP4 downregulation activates the Ras-ERK pathway in BLBC, resulting in an attenuated response to anti-cancer chemotherapy."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "DUSP4 downregulation deactivates the Ras-ERK pathway",
+      "evidence": [
+        {
+          "doc_id": 7821634,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 4,
+          "sentence": "Low concentrations of dual specificity protein phosphatase 4 (DUSP4), an ERK phosphatase, correlated with high post-NAC tumor cell proliferation and with basal-like breast cancer (BLBC) status.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 7821634,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 5,
+          "sentence": "BLBC had higher DUSP4 promoter methylation and gene expression patterns of Ras-ERK pathway activation relative to other breast cancer subtypes.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 7821634,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Thus, DUSP4 downregulation activates the Ras-ERK pathway in BLBC, resulting in an attenuated response to anti-cancer chemotherapy.",
+          "kept": true,
+          "new_index": 6
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 7821634,
+          "title": "Profiling of residual breast cancers after neoadjuvant chemotherapy identifies DUSP4 deficiency as a mechanism of drug resistance",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "However, many patients have residual cancer after chemotherapy, which correlates with a higher risk of metastatic recurrence and poorer outcome than those who achieve a pCR."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "We hypothesized that molecular profiling of tumors after NAC would identify genes associated with drug resistance."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Digital transcript counting was used to profile surgically resected breast cancers after NAC."
+            },
+            {
+              "new_index": 3,
+              "original_index": 6,
+              "sentence": "DUSP4 overexpression increased chemotherapy-induced apoptosis, whereas DUSP4 depletion dampened the response to chemotherapy."
+            },
+            {
+              "new_index": 4,
+              "original_index": 7,
+              "sentence": "Reduced DUSP4 expression in primary tumors after NAC was associated with treatment-refractory high Ki-67 scores and shorter recurrence-free survival."
+            },
+            {
+              "new_index": 5,
+              "original_index": 8,
+              "sentence": "Finally, inhibition of mitogen-activated protein kinase kinase (MEK) synergized with docetaxel treatment in BLBC xenografts."
+            },
+            {
+              "new_index": 6,
+              "original_index": 9,
+              "sentence": "Thus, DUSP4 downregulation activates the Ras-ERK pathway in BLBC, resulting in an attenuated response to anti-cancer chemotherapy."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 7821634,
+          "original_index": 0,
+          "sentence": "Neoadjuvant chemotherapy (NAC) induces a pathological complete response (pCR) in ∼30% of patients with breast cancer.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 7821634,
+          "original_index": 4,
+          "sentence": "Low concentrations of dual specificity protein phosphatase 4 (DUSP4), an ERK phosphatase, correlated with high post-NAC tumor cell proliferation and with basal-like breast cancer (BLBC) status.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 7821634,
+          "original_index": 5,
+          "sentence": "BLBC had higher DUSP4 promoter methylation and gene expression patterns of Ras-ERK pathway activation relative to other breast cancer subtypes.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "DUSP4 downregulation deactivates the Ras-ERK pathway",
+      "evidence": [
+        {
+          "doc_id": 7821634,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 4,
+          "sentence": "Low concentrations of dual specificity protein phosphatase 4 (DUSP4), an ERK phosphatase, correlated with high post-NAC tumor cell proliferation and with basal-like breast cancer (BLBC) status.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 7821634,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 5,
+          "sentence": "BLBC had higher DUSP4 promoter methylation and gene expression patterns of Ras-ERK pathway activation relative to other breast cancer subtypes.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 7821634,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Thus, DUSP4 downregulation activates the Ras-ERK pathway in BLBC, resulting in an attenuated response to anti-cancer chemotherapy.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 7821634,
+          "title": "Profiling of residual breast cancers after neoadjuvant chemotherapy identifies DUSP4 deficiency as a mechanism of drug resistance",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Neoadjuvant chemotherapy (NAC) induces a pathological complete response (pCR) in ∼30% of patients with breast cancer."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "However, many patients have residual cancer after chemotherapy, which correlates with a higher risk of metastatic recurrence and poorer outcome than those who achieve a pCR."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We hypothesized that molecular profiling of tumors after NAC would identify genes associated with drug resistance."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Digital transcript counting was used to profile surgically resected breast cancers after NAC."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "DUSP4 overexpression increased chemotherapy-induced apoptosis, whereas DUSP4 depletion dampened the response to chemotherapy."
+            },
+            {
+              "new_index": 5,
+              "original_index": 8,
+              "sentence": "Finally, inhibition of mitogen-activated protein kinase kinase (MEK) synergized with docetaxel treatment in BLBC xenografts."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 7821634,
+          "original_index": 4,
+          "sentence": "Low concentrations of dual specificity protein phosphatase 4 (DUSP4), an ERK phosphatase, correlated with high post-NAC tumor cell proliferation and with basal-like breast cancer (BLBC) status.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 7821634,
+          "original_index": 5,
+          "sentence": "BLBC had higher DUSP4 promoter methylation and gene expression patterns of Ras-ERK pathway activation relative to other breast cancer subtypes.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 7821634,
+          "original_index": 7,
+          "sentence": "Reduced DUSP4 expression in primary tumors after NAC was associated with treatment-refractory high Ki-67 scores and shorter recurrence-free survival.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 7821634,
+          "original_index": 9,
+          "sentence": "Thus, DUSP4 downregulation activates the Ras-ERK pathway in BLBC, resulting in an attenuated response to anti-cancer chemotherapy.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

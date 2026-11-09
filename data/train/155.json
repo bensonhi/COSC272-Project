@@ -1,0 +1,214 @@
+{
+  "id": 155,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "BCL-2 activation antagonizes the apoptotic effects of c-Myc.",
+      "evidence": [
+        {
+          "doc_id": 37549932,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Eliminating BCL-2 yielded rapid loss of leukemic cells and significantly prolonged survival, formally validating BCL-2 as a rational target for cancer therapy.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 37549932,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 4,
+          "sentence": "Loss of this single molecule resulted in cell death, despite or perhaps attributable to the presence of other oncogenic events.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 37549932,
+          "title": "Antiapoptotic BCL-2 is required for maintenance of a model leukemia.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Resistance to apoptosis, often achieved by the overexpression of antiapoptotic proteins, is common and perhaps required in the genesis of cancer."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "However, it remains uncertain whether apoptotic defects are essential for tumor maintenance."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "To test this, we generated mice expressing a conditional BCL-2 gene and constitutive c-myc that develop lymphoblastic leukemia."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Eliminating BCL-2 yielded rapid loss of leukemic cells and significantly prolonged survival, formally validating BCL-2 as a rational target for cancer therapy."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Loss of this single molecule resulted in cell death, despite or perhaps attributable to the presence of other oncogenic events."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "This suggests a generalizable model in which aberrations inherent to cancer generate tonic death signals that would otherwise kill the cell if not opposed by a requisite apoptotic defect(s)."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "BCL-2 activation antagonizes the apoptotic effects of c-Myc.",
+      "evidence": [
+        {
+          "doc_id": 37549932,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Eliminating BCL-2 yielded rapid loss of leukemic cells and significantly prolonged survival, formally validating BCL-2 as a rational target for cancer therapy.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 37549932,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 4,
+          "sentence": "Loss of this single molecule resulted in cell death, despite or perhaps attributable to the presence of other oncogenic events.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 37549932,
+          "title": "Antiapoptotic BCL-2 is required for maintenance of a model leukemia.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Resistance to apoptosis, often achieved by the overexpression of antiapoptotic proteins, is common and perhaps required in the genesis of cancer."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "To test this, we generated mice expressing a conditional BCL-2 gene and constitutive c-myc that develop lymphoblastic leukemia."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Eliminating BCL-2 yielded rapid loss of leukemic cells and significantly prolonged survival, formally validating BCL-2 as a rational target for cancer therapy."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "This suggests a generalizable model in which aberrations inherent to cancer generate tonic death signals that would otherwise kill the cell if not opposed by a requisite apoptotic defect(s)."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 37549932,
+          "original_index": 1,
+          "sentence": "However, it remains uncertain whether apoptotic defects are essential for tumor maintenance.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 37549932,
+          "original_index": 4,
+          "sentence": "Loss of this single molecule resulted in cell death, despite or perhaps attributable to the presence of other oncogenic events.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "BCL-2 activation antagonizes the apoptotic effects of c-Myc.",
+      "evidence": [
+        {
+          "doc_id": 37549932,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Eliminating BCL-2 yielded rapid loss of leukemic cells and significantly prolonged survival, formally validating BCL-2 as a rational target for cancer therapy.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 37549932,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 4,
+          "sentence": "Loss of this single molecule resulted in cell death, despite or perhaps attributable to the presence of other oncogenic events.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 37549932,
+          "title": "Antiapoptotic BCL-2 is required for maintenance of a model leukemia.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Resistance to apoptosis, often achieved by the overexpression of antiapoptotic proteins, is common and perhaps required in the genesis of cancer."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "However, it remains uncertain whether apoptotic defects are essential for tumor maintenance."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "To test this, we generated mice expressing a conditional BCL-2 gene and constitutive c-myc that develop lymphoblastic leukemia."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 37549932,
+          "original_index": 3,
+          "sentence": "Eliminating BCL-2 yielded rapid loss of leukemic cells and significantly prolonged survival, formally validating BCL-2 as a rational target for cancer therapy.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 37549932,
+          "original_index": 4,
+          "sentence": "Loss of this single molecule resulted in cell death, despite or perhaps attributable to the presence of other oncogenic events.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 37549932,
+          "original_index": 5,
+          "sentence": "This suggests a generalizable model in which aberrations inherent to cancer generate tonic death signals that would otherwise kill the cell if not opposed by a requisite apoptotic defect(s).",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

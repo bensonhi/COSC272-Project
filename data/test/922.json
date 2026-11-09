@@ -1,0 +1,70 @@
+{
+  "id": 922,
+  "origin": "dev",
+  "claim": "Patients in stable partnerships have a faster progression from HIV to AIDS.",
+  "evidence": [
+    {
+      "doc_id": 17077004,
+      "group_id": "g0",
+      "evidence_label": "CONTRADICT",
+      "original_index": 7,
+      "sentence": "In an analysis stratified by previous antiretroviral therapy and clinical stage when starting HAART (US Centers for Disease Control and Prevention group A, B, or C), the adjusted hazard ratio for progression to AIDS or death was 0.79 (95% confidence interval 0.63 to 0.98) for participants with a stable partnership compared with those without."
+    },
+    {
+      "doc_id": 17077004,
+      "group_id": "g1",
+      "evidence_label": "CONTRADICT",
+      "original_index": 9,
+      "sentence": "CONCLUSIONS A stable partnership is associated with a slower rate of progression to AIDS or death in HIV infected patients receiving HAART."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 17077004,
+      "title": "Stable partnership and progression to AIDS or death in HIV infected patients receiving highly active antiretroviral therapy: Swiss HIV cohort study.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "OBJECTIVES To explore the association between a stable partnership and clinical outcome in HIV infected patients receiving highly active antiretroviral therapy (HAART).   \n"
+        },
+        {
+          "original_index": 1,
+          "sentence": "DESIGN Prospective cohort study of adults with HIV (Swiss HIV cohort study).   \n"
+        },
+        {
+          "original_index": 2,
+          "sentence": "SETTING Seven outpatient clinics throughout Switzerland.   \n"
+        },
+        {
+          "original_index": 3,
+          "sentence": "PARTICIPANTS The 3736 patients in the cohort who started HAART before 2002 (median age 36 years, 29% female, median follow up 3.6 years).   \n"
+        },
+        {
+          "original_index": 4,
+          "sentence": "MAIN OUTCOME MEASURES Time to AIDS or death (primary endpoint), death alone, increases in CD4 cell count of at least 50 and 100 above baseline, optimal viral suppression (a viral load below 400 copies/ml), and viral rebound.   \n"
+        },
+        {
+          "original_index": 5,
+          "sentence": "RESULTS During follow up 2985 (80%) participants reported a stable partnership on at least one occasion."
+        },
+        {
+          "original_index": 6,
+          "sentence": "When starting HAART, 52% (545/1042) of participants reported a stable partnership; after five years of follow up 46% (190/412) of participants reported a stable partnership."
+        },
+        {
+          "original_index": 7,
+          "sentence": "In an analysis stratified by previous antiretroviral therapy and clinical stage when starting HAART (US Centers for Disease Control and Prevention group A, B, or C), the adjusted hazard ratio for progression to AIDS or death was 0.79 (95% confidence interval 0.63 to 0.98) for participants with a stable partnership compared with those without."
+        },
+        {
+          "original_index": 8,
+          "sentence": "Adjusted hazards ratios for other endpoints were 0.59 (0.44 to 0.79) for progression to death, 1.15 (1.06 to 1.24) for an increase in CD4 cells of 100 counts/microl or more, and 1.06 (0.98 to 1.14) for optimal viral suppression.   \n"
+        },
+        {
+          "original_index": 9,
+          "sentence": "CONCLUSIONS A stable partnership is associated with a slower rate of progression to AIDS or death in HIV infected patients receiving HAART."
+        }
+      ]
+    }
+  ],
+  "label": "CONTRADICT"
+}

@@ -1,0 +1,51 @@
+{
+  "id": 1026,
+  "origin": "train_more",
+  "claim": "Reduced phosphorylation of PP2A increases HDAC4 dephosphorylation by enhancing PP2A-HDAC4 interaction.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 3113630,
+      "title": "Nuclear accumulation of HDAC4 in ATM deficiency promotes neurodegeneration in ataxia-telangiectasia",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Ataxia telangiectasia is a neurodegenerative disease caused by mutation of the Atm gene."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Here we report that ataxia telangiectasia mutated (ATM) deficiency causes nuclear accumulation of histone deacetylase 4 (HDAC4) in neurons and promotes neurodegeneration."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Nuclear HDAC4 binds to chromatin, as well as to myocyte enhancer factor 2A (MEF2A) and cAMP-responsive element binding protein (CREB), leading to histone deacetylation and altered neuronal gene expression."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Blocking either HDAC4 activity or its nuclear accumulation blunts these neurodegenerative changes and rescues several behavioral abnormalities of ATM-deficient mice."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Full rescue of the neurodegeneration, however, also requires the presence of HDAC4 in the cytoplasm, suggesting that the ataxia telangiectasia phenotype results both from a loss of cytoplasmic HDAC4 as well as its nuclear accumulation."
+        },
+        {
+          "original_index": 5,
+          "sentence": "To remain cytoplasmic, HDAC4 must be phosphorylated."
+        },
+        {
+          "original_index": 6,
+          "sentence": "The activity of the HDAC4 phosphatase, protein phosphatase 2A (PP2A), is downregulated by ATM-mediated phosphorylation."
+        },
+        {
+          "original_index": 7,
+          "sentence": "In ATM deficiency, enhanced PP2A activity leads to HDAC4 dephosphorylation and the nuclear accumulation of HDAC4."
+        },
+        {
+          "original_index": 8,
+          "sentence": "Our results define a crucial role of the cellular localization of HDAC4 in the events leading to ataxia telangiectasia neurodegeneration."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

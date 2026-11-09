@@ -1,0 +1,144 @@
+{
+  "id": 100,
+  "origin": "dev",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "All hematopoietic stem cells segregate their chromosomes randomly.",
+      "evidence": [
+        {
+          "doc_id": 4381486,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Sequential administration of 5-chloro-2-deoxyuridine and 5-iodo-2-deoxyuridine indicated that all HSCs segregate their chromosomes randomly.",
+          "kept": true,
+          "new_index": 5
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4381486,
+          "title": "Haematopoietic stem cells do not asymmetrically segregate chromosomes or retain BrdU",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Stem cells are proposed to segregate chromosomes asymmetrically during self-renewing divisions so that older (‘immortal’) DNA strands are retained in daughter stem cells whereas newly synthesized strands segregate to differentiating cells."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Stem cells are also proposed to retain DNA labels, such as 5-bromo-2-deoxyuridine (BrdU), either because they segregate chromosomes asymmetrically or because they divide slowly."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "However, the purity of stem cells among BrdU-label-retaining cells has not been documented in any tissue, and the ‘immortal strand hypothesis’ has not been tested in a system with definitive stem cell markers."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Here we tested these hypotheses in haematopoietic stem cells (HSCs), which can be highly purified using well characterized markers."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We administered BrdU to newborn mice, mice treated with cyclophosphamide and granulocyte colony-stimulating factor, and normal adult mice for 4 to 10 days, followed by 70 days without BrdU. In each case, less than 6% of HSCs retained BrdU and less than 0.5% of all BrdU-retaining haematopoietic cells were HSCs, revealing that BrdU has poor specificity and poor sensitivity as an HSC marker."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Sequential administration of 5-chloro-2-deoxyuridine and 5-iodo-2-deoxyuridine indicated that all HSCs segregate their chromosomes randomly."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Division of individual HSCs in culture revealed no asymmetric segregation of the label."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Thus, HSCs cannot be identified on the basis of BrdU-label retention and do not retain older DNA strands during division, indicating that these are not general properties of stem cells."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "All hematopoietic stem cells segregate their chromosomes randomly.",
+      "evidence": [
+        {
+          "doc_id": 4381486,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Sequential administration of 5-chloro-2-deoxyuridine and 5-iodo-2-deoxyuridine indicated that all HSCs segregate their chromosomes randomly.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4381486,
+          "title": "Haematopoietic stem cells do not asymmetrically segregate chromosomes or retain BrdU",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Stem cells are proposed to segregate chromosomes asymmetrically during self-renewing divisions so that older (‘immortal’) DNA strands are retained in daughter stem cells whereas newly synthesized strands segregate to differentiating cells."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Stem cells are also proposed to retain DNA labels, such as 5-bromo-2-deoxyuridine (BrdU), either because they segregate chromosomes asymmetrically or because they divide slowly."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "However, the purity of stem cells among BrdU-label-retaining cells has not been documented in any tissue, and the ‘immortal strand hypothesis’ has not been tested in a system with definitive stem cell markers."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "We administered BrdU to newborn mice, mice treated with cyclophosphamide and granulocyte colony-stimulating factor, and normal adult mice for 4 to 10 days, followed by 70 days without BrdU. In each case, less than 6% of HSCs retained BrdU and less than 0.5% of all BrdU-retaining haematopoietic cells were HSCs, revealing that BrdU has poor specificity and poor sensitivity as an HSC marker."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Division of individual HSCs in culture revealed no asymmetric segregation of the label."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Thus, HSCs cannot be identified on the basis of BrdU-label retention and do not retain older DNA strands during division, indicating that these are not general properties of stem cells."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 4381486,
+          "original_index": 3,
+          "sentence": "Here we tested these hypotheses in haematopoietic stem cells (HSCs), which can be highly purified using well characterized markers.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4381486,
+          "original_index": 5,
+          "sentence": "Sequential administration of 5-chloro-2-deoxyuridine and 5-iodo-2-deoxyuridine indicated that all HSCs segregate their chromosomes randomly.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

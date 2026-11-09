@@ -1,0 +1,154 @@
+{
+  "id": 553,
+  "origin": "train_more",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "IgA plasma cells that are specific for transglutaminase 2 are scarce in the duodenal mucosa of celiac disease patients when the disease is active.",
+      "evidence": [
+        {
+          "doc_id": 1471041,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 3,
+          "sentence": "We found that TG2-specific plasma cells are markedly expanded within the duodenal mucosa in individuals with active celiac disease.",
+          "kept": true,
+          "new_index": 3
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1471041,
+          "title": "High abundance of plasma cells secreting transglutaminase 2–specific IgA autoantibodies with limited somatic hypermutation in celiac disease intestinal lesions",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Celiac disease is an immune-mediated disorder in which mucosal autoantibodies to the enzyme transglutaminase 2 (TG2) are generated in response to the exogenous antigen gluten in individuals who express human leukocyte antigen HLA-DQ2 or HLA-DQ8 (ref."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "3)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We assessed in a comprehensive and nonbiased manner the IgA anti-TG2 response by expression cloning of the antibody repertoire of ex vivo–isolated intestinal antibody-secreting cells (ASCs)."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We found that TG2-specific plasma cells are markedly expanded within the duodenal mucosa in individuals with active celiac disease."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "TG2-specific antibodies were of high affinity yet showed little adaptation by somatic mutations."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Unlike infection-induced peripheral blood plasmablasts, the TG2-specific ASCs had not recently proliferated and were not short-lived ex vivo."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Altogether, these observations demonstrate that there is a germline repertoire with high affinity for TG2 that may favor massive generation of autoreactive B cells."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "TG2-specific antibodies did not block enzymatic activity and served as substrates for TG2-mediated crosslinking when expressed as IgD or IgM but not as IgA1 or IgG1."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "This could result in preferential recruitment of plasma cells from naive IgD- and IgM-expressing B cells, thus possibly explaining why the antibody response to TG2 bears signs of a primary immune response despite the disease chronicity."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "IgA plasma cells that are specific for transglutaminase 2 are scarce in the duodenal mucosa of celiac disease patients when the disease is active.",
+      "evidence": [
+        {
+          "doc_id": 1471041,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 3,
+          "sentence": "We found that TG2-specific plasma cells are markedly expanded within the duodenal mucosa in individuals with active celiac disease.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1471041,
+          "title": "High abundance of plasma cells secreting transglutaminase 2–specific IgA autoantibodies with limited somatic hypermutation in celiac disease intestinal lesions",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Celiac disease is an immune-mediated disorder in which mucosal autoantibodies to the enzyme transglutaminase 2 (TG2) are generated in response to the exogenous antigen gluten in individuals who express human leukocyte antigen HLA-DQ2 or HLA-DQ8 (ref."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "3)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We assessed in a comprehensive and nonbiased manner the IgA anti-TG2 response by expression cloning of the antibody repertoire of ex vivo–isolated intestinal antibody-secreting cells (ASCs)."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "TG2-specific antibodies were of high affinity yet showed little adaptation by somatic mutations."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Unlike infection-induced peripheral blood plasmablasts, the TG2-specific ASCs had not recently proliferated and were not short-lived ex vivo."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Altogether, these observations demonstrate that there is a germline repertoire with high affinity for TG2 that may favor massive generation of autoreactive B cells."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "This could result in preferential recruitment of plasma cells from naive IgD- and IgM-expressing B cells, thus possibly explaining why the antibody response to TG2 bears signs of a primary immune response despite the disease chronicity."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 1471041,
+          "original_index": 3,
+          "sentence": "We found that TG2-specific plasma cells are markedly expanded within the duodenal mucosa in individuals with active celiac disease.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 1471041,
+          "original_index": 7,
+          "sentence": "TG2-specific antibodies did not block enzymatic activity and served as substrates for TG2-mediated crosslinking when expressed as IgD or IgM but not as IgA1 or IgG1.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

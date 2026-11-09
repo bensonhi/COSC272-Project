@@ -1,0 +1,43 @@
+{
+  "id": 357,
+  "origin": "train_more",
+  "claim": "During non-homologous end joining, the ligation step is not as tolerant of disrepairs and other distortions when joining 3' of strand breaks as compared to 5' strand breaks.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 18111172,
+      "title": "The fidelity of the ligation step determines how ends are resolved during Nonhomologous end joining",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Nonhomologous end joining (NHEJ) can effectively resolve chromosome breaks despite diverse end structures; however, it is unclear how the steps employed for resolution are determined."
+        },
+        {
+          "original_index": 1,
+          "sentence": "We sought to address this question by analysing cellular NHEJ of ends with systematically mispaired and damaged termini."
+        },
+        {
+          "original_index": 2,
+          "sentence": "We show NHEJ is uniquely proficient at bypassing subtle terminal mispairs and radiomimetic damage by direct ligation."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Nevertheless, bypass ability varies widely, with increases in mispair severity gradually reducing bypass products from 85 to 6%."
+        },
+        {
+          "original_index": 4,
+          "sentence": "End-processing by nucleases and polymerases is increased to compensate, although paths with the fewest number of steps to generate a substrate suitable for ligation are favoured."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Thus, both the frequency and nature of end processing are tailored to meet the needs of the ligation step."
+        },
+        {
+          "original_index": 6,
+          "sentence": "We propose a model where the ligase organizes all steps during NHEJ within the stable paired-end complex to limit end processing and associated errors."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

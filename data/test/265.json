@@ -1,0 +1,65 @@
+{
+  "id": 265,
+  "origin": "train_more",
+  "claim": "Clathrin stabilizes the spindle fiber apparatus during mitosis.",
+  "evidence": [
+    {
+      "doc_id": 2033917,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 2,
+      "sentence": "Here, we show that clathrin stabilizes fibres of the mitotic spindle to aid congression of chromosomes."
+    },
+    {
+      "doc_id": 2033917,
+      "group_id": "g1",
+      "evidence_label": "SUPPORT",
+      "original_index": 4,
+      "sentence": "Depletion of clathrin heavy chain using RNA interference prolonged mitosis; kinetochore fibres were destabilized, leading to defective congression of chromosomes to the metaphase plate and persistent activation of the spindle checkpoint."
+    },
+    {
+      "doc_id": 2033917,
+      "group_id": "g2",
+      "evidence_label": "SUPPORT",
+      "original_index": 5,
+      "sentence": "Normal mitosis was rescued by clathrin triskelia but not the N-terminal domain of clathrin heavy chain, indicating that stabilization of kinetochore fibres was dependent on the unique structure of clathrin."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 2033917,
+      "title": "Clathrin is required for the function of the mitotic spindle",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Clathrin has an established function in the generation of vesicles that transfer membrane and proteins around the cell."
+        },
+        {
+          "original_index": 1,
+          "sentence": "The formation of clathrin-coated vesicles occurs continuously in non-dividing cells, but is shut down during mitosis, when clathrin concentrates at the spindle apparatus."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Here, we show that clathrin stabilizes fibres of the mitotic spindle to aid congression of chromosomes."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Clathrin bound to the spindle directly by the amino-terminal domain of clathrin heavy chain."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Depletion of clathrin heavy chain using RNA interference prolonged mitosis; kinetochore fibres were destabilized, leading to defective congression of chromosomes to the metaphase plate and persistent activation of the spindle checkpoint."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Normal mitosis was rescued by clathrin triskelia but not the N-terminal domain of clathrin heavy chain, indicating that stabilization of kinetochore fibres was dependent on the unique structure of clathrin."
+        },
+        {
+          "original_index": 6,
+          "sentence": "The importance of clathrin for normal mitosis may be relevant to understanding human cancers that involve gene fusions of clathrin heavy chain."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

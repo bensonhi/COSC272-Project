@@ -1,0 +1,175 @@
+{
+  "id": 631,
+  "origin": "train_more",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Inhibiting HDAC6 increases survival of mice with ARID1A mutated tumors.",
+      "evidence": [
+        {
+          "doc_id": 5468807,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Inhibition of HDAC6 activity using a clinically applicable small-molecule inhibitor significantly improved the survival of mice bearing ARID1A-mutated tumours.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 5468807,
+          "title": "ARID1A-mutated ovarian cancers depend on HDAC6 activity",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "ARID1A, encoding a subunit of the SWI/SNF chromatin-remodelling complex, is the most frequently mutated epigenetic regulator across all human cancers."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "ARID1A and TP53 mutations are typically mutually exclusive."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Therapeutic approaches that correlate with this genetic characteristic remain to be explored."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Here, we show that HDAC6 activity is essential in ARID1A-mutated ovarian cancers."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Inhibition of HDAC6 activity using a clinically applicable small-molecule inhibitor significantly improved the survival of mice bearing ARID1A-mutated tumours."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "This correlated with the suppression of growth and dissemination of ARID1A-mutated, but not wild-type, tumours."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "The dependence on HDAC6 activity in ARID1A-mutated cells correlated with a direct transcriptional repression of HDAC6 by ARID1A."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "HDAC6 inhibition selectively promoted apoptosis of ARID1A-mutated cells."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "HDAC6 directly deacetylates Lys120 of p53, a pro-apoptotic post-translational modification."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Thus, ARID1A mutation inactivates the apoptosis-promoting function of p53 by upregulating HDAC6."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Together, these results indicate that pharmacological inhibition of HDAC6 is a therapeutic strategy for ARID1A-mutated cancers."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Inhibiting HDAC6 increases survival of mice with ARID1A mutated tumors.",
+      "evidence": [
+        {
+          "doc_id": 5468807,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Inhibition of HDAC6 activity using a clinically applicable small-molecule inhibitor significantly improved the survival of mice bearing ARID1A-mutated tumours.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 5468807,
+          "title": "ARID1A-mutated ovarian cancers depend on HDAC6 activity",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "ARID1A, encoding a subunit of the SWI/SNF chromatin-remodelling complex, is the most frequently mutated epigenetic regulator across all human cancers."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "ARID1A and TP53 mutations are typically mutually exclusive."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Here, we show that HDAC6 activity is essential in ARID1A-mutated ovarian cancers."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "This correlated with the suppression of growth and dissemination of ARID1A-mutated, but not wild-type, tumours."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "The dependence on HDAC6 activity in ARID1A-mutated cells correlated with a direct transcriptional repression of HDAC6 by ARID1A."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "HDAC6 inhibition selectively promoted apoptosis of ARID1A-mutated cells."
+            },
+            {
+              "new_index": 6,
+              "original_index": 9,
+              "sentence": "Thus, ARID1A mutation inactivates the apoptosis-promoting function of p53 by upregulating HDAC6."
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "Together, these results indicate that pharmacological inhibition of HDAC6 is a therapeutic strategy for ARID1A-mutated cancers."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 5468807,
+          "original_index": 2,
+          "sentence": "Therapeutic approaches that correlate with this genetic characteristic remain to be explored.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 5468807,
+          "original_index": 4,
+          "sentence": "Inhibition of HDAC6 activity using a clinically applicable small-molecule inhibitor significantly improved the survival of mice bearing ARID1A-mutated tumours.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 5468807,
+          "original_index": 8,
+          "sentence": "HDAC6 directly deacetylates Lys120 of p53, a pro-apoptotic post-translational modification.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

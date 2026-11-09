@@ -1,0 +1,69 @@
+{
+  "id": 205,
+  "origin": "train_more",
+  "claim": "CDK6 shows improved binding to loss-of-function variants of p18 INK4C.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 7898952,
+      "title": "Feedback Circuit among INK4 Tumor Suppressors Constrains Human Glioblastoma Development",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "We have developed a nonheuristic genome topography scan (GTS) algorithm to characterize the patterns of genomic alterations in human glioblastoma (GBM), identifying frequent p18(INK4C) and p16(INK4A) codeletion."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Functional reconstitution of p18(INK4C) in GBM cells null for both p16(INK4A) and p18(INK4C) resulted in impaired cell-cycle progression and tumorigenic potential."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Conversely, RNAi-mediated depletion of p18(INK4C) in p16(INK4A)-deficient primary astrocytes or established GBM cells enhanced tumorigenicity in vitro and in vivo."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Furthermore, acute suppression of p16(INK4A) in primary astrocytes induced a concomitant increase in p18(INK4C)."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Together, these findings uncover a feedback regulatory circuit in the astrocytic lineage and demonstrate a bona fide tumor suppressor role for p18(INK4C) in human GBM wherein it functions cooperatively with other INK4 family members to constrain inappropriate proliferation."
+        }
+      ]
+    },
+    {
+      "doc_id": 470625,
+      "title": "Identification of p18 INK4c as a tumor suppressor gene in glioblastoma multiforme.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Genomic alterations leading to aberrant activation of cyclin/cyclin-dependent kinase (cdk) complexes drive the pathogenesis of many common human tumor types."
+        },
+        {
+          "original_index": 1,
+          "sentence": "In the case of glioblastoma multiforme (GBM), these alterations are most commonly due to homozygous deletion of p16(INK4a) and less commonly due to genomic amplifications of individual genes encoding cyclins or cdks."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Here, we describe deletion of the p18(INK4c) cdk inhibitor as a novel genetic alteration driving the pathogenesis of GBM."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Deletions of p18(INK4c) often occurred in tumors also harboring homozygous deletions of p16(INK4a)."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Expression of p18(INK4c) was completely absent in 43% of GBM primary tumors studied by immunohistochemistry."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Lentiviral reconstitution of p18(INK4c) expression at physiologic levels in p18(INK4c)-deficient but not p18(INK4c)-proficient GBM cells led to senescence-like G(1) cell cycle arrest."
+        },
+        {
+          "original_index": 6,
+          "sentence": "These studies identify p18(INK4c) as a GBM tumor suppressor gene, revealing an additional mechanism leading to aberrant activation of cyclin/cdk complexes in this terrible malignancy."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

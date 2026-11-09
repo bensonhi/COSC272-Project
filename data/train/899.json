@@ -1,0 +1,109 @@
+{
+  "id": 899,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Oxidative DNA damage inhibits STING signalling.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 13106686,
+          "title": "Oxidative damage of DNA confers resistance to cytosolic nuclease TREX1 degradation and potentiates STING-dependent immune sensing.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Immune sensing of DNA is critical for antiviral immunity but can also trigger autoimmune diseases such as lupus erythematosus (LE)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here we have provided evidence for the involvement of a damage-associated DNA modification in the detection of cytosolic DNA."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "The oxidized base 8-hydroxyguanosine (8-OHG), a marker of oxidative damage in DNA, potentiated cytosolic immune recognition by decreasing its susceptibility to 3' repair exonuclease 1 (TREX1)-mediated degradation."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Oxidizative modifications arose physiologically in pathogen DNA during lysosomal reactive oxygen species (ROS) exposure, as well as in neutrophil extracellular trap (NET) DNA during the oxidative burst."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "8-OHG was also abundant in UV-exposed skin lesions of LE patients and colocalized with type I interferon (IFN)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Injection of oxidized DNA in the skin of lupus-prone mice induced lesions that closely matched respective lesions in patients."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Thus, oxidized DNA represents a prototypic damage-associated molecular pattern (DAMP) with important implications for infection, sterile inflammation, and autoimmunity."
+            }
+          ]
+        },
+        {
+          "doc_id": 5572127,
+          "title": "Atm-deficient mice exhibit increased sensitivity to dextran sulfate sodium-induced colitis characterized by elevated DNA damage and persistent immune activation.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The role of ataxia telangiectasia mutated (ATM), a DNA double-strand break recognition and response protein, in inflammation and inflammatory diseases is unclear."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We have previously shown that high levels of systemic DNA damage are induced by intestinal inflammation in wild-type mice."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "To determine the effect of Atm deficiency in inflammation, we induced experimental colitis in Atm(-/-), Atm(+/-), and wild-type mice via dextran sulfate sodium (DSS) administration."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Atm(-/-) mice had higher disease activity indices and rates of mortality compared with heterozygous and wild-type mice."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Systemic DNA damage and immune response were characterized in peripheral blood throughout and after three cycles of treatment."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Atm(-/-) mice showed increased sensitivity to levels of DNA strand breaks in peripheral leukocytes, as well as micronucleus formation in erythroblasts, compared with heterozygous and wild-type mice, especially during remission periods and after the end of treatment."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Markers of reactive oxygen and nitrogen species-mediated damage, including 8-oxoguanine and nitrotyrosine, were present both in the distal colon and in peripheral leukocytes, with Atm(-/-) mice manifesting more 8-oxoguanine formation than wild-type mice."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Atm(-/-) mice showed greater upregulation of inflammatory cytokines and significantly higher percentages of activated CD69+ and CD44+ T cells in the peripheral blood throughout treatment."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "ATM, therefore, may be a critical immunoregulatory factor dampening the deleterious effects of chronic DSS-induced inflammation, necessary for systemic genomic stability and homeostasis of the gut epithelial barrier."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

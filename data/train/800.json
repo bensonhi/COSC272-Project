@@ -1,0 +1,38 @@
+{
+  "id": 800,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Modifying the epigenome in the brain affects the normal human aging process by affecting certain genes related to neurogenesis.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 22543403,
+          "title": "Epigenetic mechanisms in neurological disease",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The exploration of brain epigenomes, which consist of various types of DNA methylation and covalent histone modifications, is providing new and unprecedented insights into the mechanisms of neural development, neurological disease and aging."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Traditionally, chromatin defects in the brain were considered static lesions of early development that occurred in the context of rare genetic syndromes, but it is now clear that mutations and maladaptations of the epigenetic machinery cover a much wider continuum that includes adult-onset neurodegenerative disease."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here, we describe how recent advances in neuroepigenetics have contributed to an improved mechanistic understanding of developmental and degenerative brain disorders, and we discuss how they could influence the development of future therapies for these conditions."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

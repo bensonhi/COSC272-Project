@@ -1,0 +1,134 @@
+{
+  "id": 1138,
+  "origin": "train_more",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "TRAP+ osteoclasts regulate mature osteoblast maintenance.",
+      "evidence": [
+        {
+          "doc_id": 6796297,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Mice with depletion of PDGF-BB in the tartrate-resistant acid phosphatase–positive cell lineage show significantly lower trabecular and cortical bone mass, serum and bone marrow PDGF-BB concentrations, and fewer CD31hiEmcnhi vessels compared to wild-type mice.",
+          "kept": true,
+          "new_index": 3
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6796297,
+          "title": "PDGF-BB secreted by preosteoclasts induces angiogenesis during coupling with osteogenesis",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Osteogenesis during bone modeling and remodeling is coupled with angiogenesis."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "A recent study showed that a specific vessel subtype, strongly positive for CD31 and endomucin (CD31hiEmcnhi), couples angiogenesis and osteogenesis."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here, we found that platelet-derived growth factor-BB (PDGF-BB) secreted by preosteoclasts induces CD31hiEmcnhi vessel formation during bone modeling and remodeling."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Mice with depletion of PDGF-BB in the tartrate-resistant acid phosphatase–positive cell lineage show significantly lower trabecular and cortical bone mass, serum and bone marrow PDGF-BB concentrations, and fewer CD31hiEmcnhi vessels compared to wild-type mice."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "In the ovariectomy (OVX)-induced osteoporotic mouse model, serum and bone marrow levels of PDGF-BB and numbers of CD31hiEmcnhi vessels are significantly lower compared to sham-operated controls."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Treatment with exogenous PDGF-BB or inhibition of cathepsin K to increase the number of preosteoclasts, and thus the endogenous levels of PDGF-BB, increases CD31hiEmcnhi vessel number and stimulates bone formation in OVX mice."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Thus, pharmacotherapies that increase PDGF-BB secretion from preosteoclasts offer a new therapeutic target for treating osteoporosis by promoting angiogenesis and thus bone formation."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "TRAP+ osteoclasts regulate mature osteoblast maintenance.",
+      "evidence": [
+        {
+          "doc_id": 6796297,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Mice with depletion of PDGF-BB in the tartrate-resistant acid phosphatase–positive cell lineage show significantly lower trabecular and cortical bone mass, serum and bone marrow PDGF-BB concentrations, and fewer CD31hiEmcnhi vessels compared to wild-type mice.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6796297,
+          "title": "PDGF-BB secreted by preosteoclasts induces angiogenesis during coupling with osteogenesis",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Osteogenesis during bone modeling and remodeling is coupled with angiogenesis."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "A recent study showed that a specific vessel subtype, strongly positive for CD31 and endomucin (CD31hiEmcnhi), couples angiogenesis and osteogenesis."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here, we found that platelet-derived growth factor-BB (PDGF-BB) secreted by preosteoclasts induces CD31hiEmcnhi vessel formation during bone modeling and remodeling."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "In the ovariectomy (OVX)-induced osteoporotic mouse model, serum and bone marrow levels of PDGF-BB and numbers of CD31hiEmcnhi vessels are significantly lower compared to sham-operated controls."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Thus, pharmacotherapies that increase PDGF-BB secretion from preosteoclasts offer a new therapeutic target for treating osteoporosis by promoting angiogenesis and thus bone formation."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6796297,
+          "original_index": 3,
+          "sentence": "Mice with depletion of PDGF-BB in the tartrate-resistant acid phosphatase–positive cell lineage show significantly lower trabecular and cortical bone mass, serum and bone marrow PDGF-BB concentrations, and fewer CD31hiEmcnhi vessels compared to wild-type mice.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 6796297,
+          "original_index": 5,
+          "sentence": "Treatment with exogenous PDGF-BB or inhibition of cathepsin K to increase the number of preosteoclasts, and thus the endogenous levels of PDGF-BB, increases CD31hiEmcnhi vessel number and stimulates bone formation in OVX mice.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

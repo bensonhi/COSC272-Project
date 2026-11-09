@@ -1,0 +1,43 @@
+{
+  "id": 410,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Febrile seizures increase the threshold for development of epilepsy.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 14924526,
+          "title": "Febrile seizures in the developing brain result in persistent modification of neuronal excitability in limbic circuits",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Febrile (fever-induced) seizures affect 3–5% of infants and young children."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Despite the high incidence of febrile seizures, their contribution to the development of epilepsy later in life has remained controversial."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Combining a new rat model of complex febrile seizures and patch clamp techniques, we determined that hyperthermia-induced seizures in the immature rat cause a selective presynaptic increase in inhibitory synaptic transmission in the hippocampus that lasts into adulthood."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "The long-lasting nature of these potent alterations in synaptic communication after febrile seizures does not support the prevalent view of the 'benign' nature of early-life febrile convulsions."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

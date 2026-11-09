@@ -1,0 +1,274 @@
+{
+  "id": 113,
+  "origin": "dev",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Angiotensin converting enzyme inhibitors are associated with increased risk for functional renal insufficiency.",
+      "evidence": [
+        {
+          "doc_id": 6157837,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Although ACE inhibitor therapy usually improves renal blood flow (RBF) and sodium excretion rates in CHF and reduces the rate of progressive renal injury in chronic renal disease, its use can also be associated with a syndrome of “functional renal insufficiency” and/or hyperkalemia.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 6157837,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Understanding the pathophysiological mechanisms and the common risk factors for ACE inhibitor–induced functional ARF is critical, because preventive strategies for ARF exist, and if effectively used, they may permit use of these compounds in a less restricted fashion.  ",
+          "kept": true,
+          "new_index": 7
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6157837,
+          "title": "Renal considerations in angiotensin converting enzyme inhibitor therapy: a statement for healthcare professionals from the Council on the Kidney in Cardiovascular Disease and the Council for High Blood Pressure Research of the American Heart Association.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Angiotensin converting enzyme (ACE) inhibitors are now one of the most frequently used classes of antihypertensive drugs."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Beyond their utility in the management of hypertension, their use has been extended to the long-term management of patients with congestive heart failure (CHF), as well as diabetic and nondiabetic nephropathies."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Although ACE inhibitor therapy usually improves renal blood flow (RBF) and sodium excretion rates in CHF and reduces the rate of progressive renal injury in chronic renal disease, its use can also be associated with a syndrome of “functional renal insufficiency” and/or hyperkalemia."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "This form of acute renal failure (ARF) most commonly develops shortly after initiation of ACE inhibitor therapy but can be observed after months or years of therapy, even in the absence of prior ill effects."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "ARF is most likely to occur when renal perfusion pressure cannot be sustained because of substantial decreases in mean arterial pressure (MAP) or when glomerular filtration rate (GFR) is highly angiotensin II (Ang II) dependent."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Conditions that predict an adverse hemodynamic effect of ACE inhibitors in patients with CHF are preexisting hypotension and low cardiac filling pressures."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "The GFR is especially dependent on Ang II during extracellular fluid (ECF) volume depletion, high-grade bilateral renal artery stenosis, or stenosis of a dominant or single kidney, as in a renal transplant recipient."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Understanding the pathophysiological mechanisms and the common risk factors for ACE inhibitor–induced functional ARF is critical, because preventive strategies for ARF exist, and if effectively used, they may permit use of these compounds in a less restricted fashion.  "
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Under normal physiological conditions, renal autoregulation adjusts renal vascular resistance, so that RBF and GFR remain constant over a wide range of MAPs.1 The intrinsic renal autoregulation mechanism is adjusted by Ang II and the sympathetic nervous system."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "When renal perfusion pressure falls (as in …"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Angiotensin converting enzyme inhibitors are associated with increased risk for functional renal insufficiency.",
+      "evidence": [
+        {
+          "doc_id": 6157837,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Although ACE inhibitor therapy usually improves renal blood flow (RBF) and sodium excretion rates in CHF and reduces the rate of progressive renal injury in chronic renal disease, its use can also be associated with a syndrome of “functional renal insufficiency” and/or hyperkalemia.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6157837,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Understanding the pathophysiological mechanisms and the common risk factors for ACE inhibitor–induced functional ARF is critical, because preventive strategies for ARF exist, and if effectively used, they may permit use of these compounds in a less restricted fashion.  ",
+          "kept": true,
+          "new_index": 5
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6157837,
+          "title": "Renal considerations in angiotensin converting enzyme inhibitor therapy: a statement for healthcare professionals from the Council on the Kidney in Cardiovascular Disease and the Council for High Blood Pressure Research of the American Heart Association.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Angiotensin converting enzyme (ACE) inhibitors are now one of the most frequently used classes of antihypertensive drugs."
+            },
+            {
+              "new_index": 1,
+              "original_index": 3,
+              "sentence": "This form of acute renal failure (ARF) most commonly develops shortly after initiation of ACE inhibitor therapy but can be observed after months or years of therapy, even in the absence of prior ill effects."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "ARF is most likely to occur when renal perfusion pressure cannot be sustained because of substantial decreases in mean arterial pressure (MAP) or when glomerular filtration rate (GFR) is highly angiotensin II (Ang II) dependent."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Conditions that predict an adverse hemodynamic effect of ACE inhibitors in patients with CHF are preexisting hypotension and low cardiac filling pressures."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "The GFR is especially dependent on Ang II during extracellular fluid (ECF) volume depletion, high-grade bilateral renal artery stenosis, or stenosis of a dominant or single kidney, as in a renal transplant recipient."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Understanding the pathophysiological mechanisms and the common risk factors for ACE inhibitor–induced functional ARF is critical, because preventive strategies for ARF exist, and if effectively used, they may permit use of these compounds in a less restricted fashion.  "
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "Under normal physiological conditions, renal autoregulation adjusts renal vascular resistance, so that RBF and GFR remain constant over a wide range of MAPs.1 The intrinsic renal autoregulation mechanism is adjusted by Ang II and the sympathetic nervous system."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "When renal perfusion pressure falls (as in …"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6157837,
+          "original_index": 1,
+          "sentence": "Beyond their utility in the management of hypertension, their use has been extended to the long-term management of patients with congestive heart failure (CHF), as well as diabetic and nondiabetic nephropathies.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 6157837,
+          "original_index": 2,
+          "sentence": "Although ACE inhibitor therapy usually improves renal blood flow (RBF) and sodium excretion rates in CHF and reduces the rate of progressive renal injury in chronic renal disease, its use can also be associated with a syndrome of “functional renal insufficiency” and/or hyperkalemia.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Angiotensin converting enzyme inhibitors are associated with increased risk for functional renal insufficiency.",
+      "evidence": [
+        {
+          "doc_id": 6157837,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Although ACE inhibitor therapy usually improves renal blood flow (RBF) and sodium excretion rates in CHF and reduces the rate of progressive renal injury in chronic renal disease, its use can also be associated with a syndrome of “functional renal insufficiency” and/or hyperkalemia.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 6157837,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Understanding the pathophysiological mechanisms and the common risk factors for ACE inhibitor–induced functional ARF is critical, because preventive strategies for ARF exist, and if effectively used, they may permit use of these compounds in a less restricted fashion.  ",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6157837,
+          "title": "Renal considerations in angiotensin converting enzyme inhibitor therapy: a statement for healthcare professionals from the Council on the Kidney in Cardiovascular Disease and the Council for High Blood Pressure Research of the American Heart Association.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Angiotensin converting enzyme (ACE) inhibitors are now one of the most frequently used classes of antihypertensive drugs."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Beyond their utility in the management of hypertension, their use has been extended to the long-term management of patients with congestive heart failure (CHF), as well as diabetic and nondiabetic nephropathies."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "This form of acute renal failure (ARF) most commonly develops shortly after initiation of ACE inhibitor therapy but can be observed after months or years of therapy, even in the absence of prior ill effects."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "ARF is most likely to occur when renal perfusion pressure cannot be sustained because of substantial decreases in mean arterial pressure (MAP) or when glomerular filtration rate (GFR) is highly angiotensin II (Ang II) dependent."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "The GFR is especially dependent on Ang II during extracellular fluid (ECF) volume depletion, high-grade bilateral renal artery stenosis, or stenosis of a dominant or single kidney, as in a renal transplant recipient."
+            },
+            {
+              "new_index": 5,
+              "original_index": 8,
+              "sentence": "Under normal physiological conditions, renal autoregulation adjusts renal vascular resistance, so that RBF and GFR remain constant over a wide range of MAPs.1 The intrinsic renal autoregulation mechanism is adjusted by Ang II and the sympathetic nervous system."
+            },
+            {
+              "new_index": 6,
+              "original_index": 9,
+              "sentence": "When renal perfusion pressure falls (as in …"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6157837,
+          "original_index": 2,
+          "sentence": "Although ACE inhibitor therapy usually improves renal blood flow (RBF) and sodium excretion rates in CHF and reduces the rate of progressive renal injury in chronic renal disease, its use can also be associated with a syndrome of “functional renal insufficiency” and/or hyperkalemia.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 6157837,
+          "original_index": 5,
+          "sentence": "Conditions that predict an adverse hemodynamic effect of ACE inhibitors in patients with CHF are preexisting hypotension and low cardiac filling pressures.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 6157837,
+          "original_index": 7,
+          "sentence": "Understanding the pathophysiological mechanisms and the common risk factors for ACE inhibitor–induced functional ARF is critical, because preventive strategies for ARF exist, and if effectively used, they may permit use of these compounds in a less restricted fashion.  ",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": 1387,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "eRNAs influence is linked to senescence, aging, and carcinogenesis.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 9669099,
+          "title": "eRNAs are required for p53-dependent enhancer activity and gene transcription.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Binding within or nearby target genes involved in cell proliferation and survival enables the p53 tumor suppressor gene to regulate their transcription and cell-cycle progression."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Using genome-wide chromatin-binding profiles, we describe binding of p53 also to regions located distantly from any known p53 target gene."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Interestingly, many of these regions possess conserved p53-binding sites and all known hallmarks of enhancer regions."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We demonstrate that these p53-bound enhancer regions (p53BERs) indeed contain enhancer activity and interact intrachromosomally with multiple neighboring genes to convey long-distance p53-dependent transcription regulation."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Furthermore, p53BERs produce, in a p53-dependent manner, enhancer RNAs (eRNAs) that are required for efficient transcriptional enhancement of interacting target genes and induction of a p53-dependent cell-cycle arrest."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Thus, our results ascribe transcription enhancement activity to p53 with the capacity to regulate multiple genes from a single genomic binding site."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Moreover, eRNA production from p53BERs is required for efficient p53 transcription enhancement."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

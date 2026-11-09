@@ -1,0 +1,74 @@
+{
+  "id": 1114,
+  "origin": "train_more",
+  "claim": "Surfactin producing cells and exopolymer producing cells cooperate to generate \"Van Gogh\" bundles that have sliding abilities on specialized media.",
+  "evidence": [
+    {
+      "doc_id": 12824568,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 6,
+      "sentence": "The formation of van Gogh bundles depends critically on the synergistic interaction of surfactin-producing and matrix-producing cells."
+    },
+    {
+      "doc_id": 12824568,
+      "group_id": "g1",
+      "evidence_label": "SUPPORT",
+      "original_index": 7,
+      "sentence": "We propose that surfactin-producing cells reduce the friction between cells and their substrate, thereby facilitating matrix-producing cells to form bundles."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 12824568,
+      "title": "From Cell Differentiation to Cell Collectives: Bacillus subtilis Uses Division of Labor to Migrate",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "The organization of cells, emerging from cell-cell interactions, can give rise to collective properties."
+        },
+        {
+          "original_index": 1,
+          "sentence": "These properties are adaptive when together cells can face environmental challenges that they separately cannot."
+        },
+        {
+          "original_index": 2,
+          "sentence": "One particular challenge that is important for microorganisms is migration."
+        },
+        {
+          "original_index": 3,
+          "sentence": "In this study, we show how flagellum-independent migration is driven by the division of labor of two cell types that appear during Bacillus subtilis sliding motility."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Cell collectives organize themselves into bundles (called \"van Gogh bundles\") of tightly aligned cell chains that form filamentous loops at the colony edge."
+        },
+        {
+          "original_index": 5,
+          "sentence": "We show, by time-course microscopy, that these loops migrate by pushing themselves away from the colony."
+        },
+        {
+          "original_index": 6,
+          "sentence": "The formation of van Gogh bundles depends critically on the synergistic interaction of surfactin-producing and matrix-producing cells."
+        },
+        {
+          "original_index": 7,
+          "sentence": "We propose that surfactin-producing cells reduce the friction between cells and their substrate, thereby facilitating matrix-producing cells to form bundles."
+        },
+        {
+          "original_index": 8,
+          "sentence": "The folding properties of these bundles determine the rate of colony expansion."
+        },
+        {
+          "original_index": 9,
+          "sentence": "Our study illustrates how the simple organization of cells within a community can yield a strong ecological advantage."
+        },
+        {
+          "original_index": 10,
+          "sentence": "This is a key factor underlying the diverse origins of multicellularity."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

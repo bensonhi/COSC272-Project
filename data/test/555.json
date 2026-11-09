@@ -1,0 +1,47 @@
+{
+  "id": 555,
+  "origin": "train_more",
+  "claim": "Immune complex triggered cell death leads to extracellular release of nuclear DNA.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 1049501,
+      "title": "Neutrophil extracellular traps enriched in oxidized mitochondrial DNA are interferogenic and contribute to lupus-like disease",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Neutrophil extracellular traps (NETs) are implicated in autoimmunity, but how they are generated and their roles in sterile inflammation remain unclear."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Ribonucleoprotein immune complexes (RNP ICs), inducers of NETosis, require mitochondrial reactive oxygen species (ROS) for maximal NET stimulation."
+        },
+        {
+          "original_index": 2,
+          "sentence": "After RNP IC stimulation of neutrophils, mitochondria become hypopolarized and translocate to the cell surface."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Extracellular release of oxidized mitochondrial DNA is proinflammatory in vitro, and when this DNA is injected into mice, it stimulates type I interferon (IFN) signaling through a pathway dependent on the DNA sensor STING."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Mitochondrial ROS are also necessary for spontaneous NETosis of low-density granulocytes from individuals with systemic lupus erythematosus."
+        },
+        {
+          "original_index": 5,
+          "sentence": "This was also observed in individuals with chronic granulomatous disease, who lack NADPH oxidase activity but still develop autoimmunity and type I IFN signatures."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Mitochondrial ROS inhibition in vivo reduces disease severity and type I IFN responses in a mouse model of lupus."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Together, these findings highlight a role for mitochondria in the generation not only of NETs but also of pro-inflammatory oxidized mitochondrial DNA in autoimmune diseases."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

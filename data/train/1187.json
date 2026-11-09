@@ -1,0 +1,154 @@
+{
+  "id": 1187,
+  "origin": "dev",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The YAP1 and TEAD complex tanslocates into the nucleus where it interacts with transcription factors and DNA-binding proteins that modulate target gene transcription.",
+      "evidence": [
+        {
+          "doc_id": 52873726,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "YAP/TAZ are transcription co-activators that regulate gene expression primarily through interaction with the TEA domain DNA-binding family of transcription factors (TEAD).",
+          "kept": true,
+          "new_index": 3
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 52873726,
+          "title": "Regulation of Hippo pathway transcription factor TEAD by p38 MAPK-induced cytoplasmic translocation",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The Hippo pathway controls organ size and tissue homeostasis, with deregulation leading to cancer."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The core Hippo components in mammals are composed of the upstream serine/threonine kinases Mst1/2, MAPK4Ks and Lats1/2."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Inactivation of these upstream kinases leads to dephosphorylation, stabilization, nuclear translocation and thus activation of the major functional transducers of the Hippo pathway, YAP and its paralogue TAZ."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "YAP/TAZ are transcription co-activators that regulate gene expression primarily through interaction with the TEA domain DNA-binding family of transcription factors (TEAD)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "The current paradigm for regulation of this pathway centres on phosphorylation-dependent nucleocytoplasmic shuttling of YAP/TAZ through a complex network of upstream components."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "However, unlike other transcription factors, such as SMAD, NF-κB, NFAT and STAT, the regulation of TEAD nucleocytoplasmic shuttling has been largely overlooked."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "In the present study, we show that environmental stress promotes TEAD cytoplasmic translocation via p38 MAPK in a Hippo-independent manner."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Importantly, stress-induced TEAD inhibition predominates YAP-activating signals and selectively suppresses YAP-driven cancer cell growth."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Our data reveal a mechanism governing TEAD nucleocytoplasmic shuttling and show that TEAD localization is a critical determinant of Hippo signalling output."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "The YAP1 and TEAD complex tanslocates into the nucleus where it interacts with transcription factors and DNA-binding proteins that modulate target gene transcription.",
+      "evidence": [
+        {
+          "doc_id": 52873726,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "YAP/TAZ are transcription co-activators that regulate gene expression primarily through interaction with the TEA domain DNA-binding family of transcription factors (TEAD).",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 52873726,
+          "title": "Regulation of Hippo pathway transcription factor TEAD by p38 MAPK-induced cytoplasmic translocation",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The Hippo pathway controls organ size and tissue homeostasis, with deregulation leading to cancer."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The core Hippo components in mammals are composed of the upstream serine/threonine kinases Mst1/2, MAPK4Ks and Lats1/2."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Inactivation of these upstream kinases leads to dephosphorylation, stabilization, nuclear translocation and thus activation of the major functional transducers of the Hippo pathway, YAP and its paralogue TAZ."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "However, unlike other transcription factors, such as SMAD, NF-κB, NFAT and STAT, the regulation of TEAD nucleocytoplasmic shuttling has been largely overlooked."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "In the present study, we show that environmental stress promotes TEAD cytoplasmic translocation via p38 MAPK in a Hippo-independent manner."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Importantly, stress-induced TEAD inhibition predominates YAP-activating signals and selectively suppresses YAP-driven cancer cell growth."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "Our data reveal a mechanism governing TEAD nucleocytoplasmic shuttling and show that TEAD localization is a critical determinant of Hippo signalling output."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 52873726,
+          "original_index": 3,
+          "sentence": "YAP/TAZ are transcription co-activators that regulate gene expression primarily through interaction with the TEA domain DNA-binding family of transcription factors (TEAD).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 52873726,
+          "original_index": 4,
+          "sentence": "The current paradigm for regulation of this pathway centres on phosphorylation-dependent nucleocytoplasmic shuttling of YAP/TAZ through a complex network of upstream components.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

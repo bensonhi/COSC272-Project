@@ -1,0 +1,154 @@
+{
+  "id": 1273,
+  "origin": "dev",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The sliding activity of kinesin-8 protein Kip3 promotes bipolar spindle assembly.",
+      "evidence": [
+        {
+          "doc_id": 11041152,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "In conjunction with Cin8, a kinesin-5 family member, the sliding activity of Kip3 promotes bipolar spindle assembly and the maintenance of genome stability.",
+          "kept": true,
+          "new_index": 5
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 11041152,
+          "title": "Microtubule sliding activity of a kinesin-8 promotes spindle assembly and spindle length control",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Molecular motors play critical roles in the formation of mitotic spindles, either through controlling the stability of individual microtubules, or by crosslinking and sliding microtubule arrays."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Kinesin-8 motors are best known for their regulatory roles in controlling microtubule dynamics."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "They contain microtubule-destabilizing activities, and restrict spindle length in a wide variety of cell types and organisms."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Here, we report an antiparallel microtubule-sliding activity of the budding yeast kinesin-8, Kip3."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "The in vivo importance of this sliding activity was established through the identification of complementary Kip3 mutants that separate the sliding activity and microtubule-destabilizing activity."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "In conjunction with Cin8, a kinesin-5 family member, the sliding activity of Kip3 promotes bipolar spindle assembly and the maintenance of genome stability."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "We propose a slide-disassemble model where the sliding and destabilizing activity of Kip3 balance during pre-anaphase."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "This facilitates normal spindle assembly."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "However, the destabilizing activity of Kip3 dominates in late anaphase, inhibiting spindle elongation and ultimately promoting spindle disassembly."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "The sliding activity of kinesin-8 protein Kip3 promotes bipolar spindle assembly.",
+      "evidence": [
+        {
+          "doc_id": 11041152,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "In conjunction with Cin8, a kinesin-5 family member, the sliding activity of Kip3 promotes bipolar spindle assembly and the maintenance of genome stability.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 11041152,
+          "title": "Microtubule sliding activity of a kinesin-8 promotes spindle assembly and spindle length control",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Molecular motors play critical roles in the formation of mitotic spindles, either through controlling the stability of individual microtubules, or by crosslinking and sliding microtubule arrays."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "They contain microtubule-destabilizing activities, and restrict spindle length in a wide variety of cell types and organisms."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Here, we report an antiparallel microtubule-sliding activity of the budding yeast kinesin-8, Kip3."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "The in vivo importance of this sliding activity was established through the identification of complementary Kip3 mutants that separate the sliding activity and microtubule-destabilizing activity."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "We propose a slide-disassemble model where the sliding and destabilizing activity of Kip3 balance during pre-anaphase."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "This facilitates normal spindle assembly."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "However, the destabilizing activity of Kip3 dominates in late anaphase, inhibiting spindle elongation and ultimately promoting spindle disassembly."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 11041152,
+          "original_index": 1,
+          "sentence": "Kinesin-8 motors are best known for their regulatory roles in controlling microtubule dynamics.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 11041152,
+          "original_index": 5,
+          "sentence": "In conjunction with Cin8, a kinesin-5 family member, the sliding activity of Kip3 promotes bipolar spindle assembly and the maintenance of genome stability.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

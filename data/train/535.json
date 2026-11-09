@@ -1,0 +1,133 @@
+{
+  "id": 535,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Hypertension is frequently observed in type 1 diabetes patients.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 39368721,
+          "title": "Glucose tolerance and blood pressure: long term follow up in middle aged men.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE to investigate the role of glucose tolerance in the development of hypertension.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Retrospective analysis of the results of a health check up in a group of clinically healthy middle aged men in the late 1960s (median year 1968)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "The subjects were invited to enter into a primary prevention trial for cardiovascular disease in 1974, when they underwent clinical examination for risk factors."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "The trial was completed in 1979, when the men were re-examined."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Follow up was in 1986.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "SETTING Institute of Occupational Health, Helsinki, Finland and second department of medicine, University of Helsinki.   "
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "SUBJECTS In all, 3490 men born during 1919-34 participated in a health check up in the late 1960s."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "In 1974, 1815 of these men who were clinically healthy were entered into a primary prevention trial for cardiovascular disease."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "On clinical examination 1222 of the men were considered at high risk of cardiovascular disease."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Of these, 612 received an intervention and were excluded from the study."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "A total of 593 men were without risk factors."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "The study comprised all of the men who did not have an intervention (n = 1203)."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "In 1979, 1120 men were re-examined, and in 1986 945 men attended follow up."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "There were two groups for analysis: one comprising all subjects and the other comprising only men who were normotensive in 1968 and for whom complete information was available.   \n"
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "INTERVENTIONS By 1979, 103 men were taking antihypertensive drugs, and by 1986, 131 were taking antihypertensive drugs and 12 were taking drugs for hyperglycaemia.   \n"
+            },
+            {
+              "new_index": 15,
+              "original_index": 15,
+              "sentence": "MAIN OUTCOME MEASURES Blood glucose concentration one hour after a glucose load, blood pressure, and body weight were measured in 1968, 1974, and 1979."
+            },
+            {
+              "new_index": 16,
+              "original_index": 16,
+              "sentence": "In 1986 blood pressure and body weight were recorded.   \n"
+            },
+            {
+              "new_index": 17,
+              "original_index": 17,
+              "sentence": "RESULTS Men who were hypertensive in 1986 had significantly higher blood pressures (p less than 0.0001) and (after adjustment for body mass index and alcohol intake) significantly higher blood glucose concentrations one hour after a glucose load at all examinations than those who were normotensive in 1986."
+            },
+            {
+              "new_index": 18,
+              "original_index": 18,
+              "sentence": "Regression analysis showed that the higher the blood glucose concentration after a glucose load in 1968 the higher the blood pressure during the following years."
+            },
+            {
+              "new_index": 19,
+              "original_index": 19,
+              "sentence": "Those men between the second and third tertiles of blood glucose concentration in 1968 had a significantly higher risk of developing hypertension (odds ratio 1.71, 95% confidence interval 1.05 to 2.77) compared with those below the first tertile.   \n"
+            },
+            {
+              "new_index": 20,
+              "original_index": 20,
+              "sentence": "CONCLUSION In this study men who developed hypertension tended to have shown an increased intolerance to glucose up to 18 years before the clinical manifestation of their disorder."
+            },
+            {
+              "new_index": 21,
+              "original_index": 21,
+              "sentence": "Blood glucose concentration one hour after a glucose load was an independent predictor of future hypertension."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

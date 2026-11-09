@@ -1,0 +1,83 @@
+{
+  "id": 989,
+  "origin": "train_more",
+  "claim": "Pure neural progenitor cell (NPC) populations can only be obtained from cell cultures that undergo passaging, filtration, or other isolation and cell sorting methods.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 9988425,
+      "title": "Niche-Independent Symmetrical Self-Renewal of a Mammalian Tissue Stem Cell",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Pluripotent mouse embryonic stem (ES) cells multiply in simple monoculture by symmetrical divisions."
+        },
+        {
+          "original_index": 1,
+          "sentence": "In vivo, however, stem cells are generally thought to depend on specialised cellular microenvironments and to undergo predominantly asymmetric divisions."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Ex vivo expansion of pure populations of tissue stem cells has proven elusive."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Neural progenitor cells are propagated in combination with differentiating progeny in floating clusters called neurospheres."
+        },
+        {
+          "original_index": 4,
+          "sentence": "The proportion of stem cells in neurospheres is low, however, and they cannot be directly observed or interrogated."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Here we demonstrate that the complex neurosphere environment is dispensable for stem cell maintenance, and that the combination of fibroblast growth factor 2 (FGF-2) and epidermal growth factor (EGF) is sufficient for derivation and continuous expansion by symmetrical division of pure cultures of neural stem (NS) cells."
+        },
+        {
+          "original_index": 6,
+          "sentence": "NS cells were derived first from mouse ES cells."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Neural lineage induction was followed by growth factor addition in basal culture media."
+        },
+        {
+          "original_index": 8,
+          "sentence": "In the presence of only EGF and FGF-2, resulting NS cells proliferate continuously, are diploid, and clonogenic."
+        },
+        {
+          "original_index": 9,
+          "sentence": "After prolonged expansion, they remain able to differentiate efficiently into neurons and astrocytes in vitro and upon transplantation into the adult brain."
+        },
+        {
+          "original_index": 10,
+          "sentence": "Colonies generated from single NS cells all produce neurons upon growth factor withdrawal."
+        },
+        {
+          "original_index": 11,
+          "sentence": "NS cells uniformly express morphological, cell biological, and molecular features of radial glia, developmental precursors of neurons and glia."
+        },
+        {
+          "original_index": 12,
+          "sentence": "Consistent with this profile, adherent NS cell lines can readily be established from foetal mouse brain."
+        },
+        {
+          "original_index": 13,
+          "sentence": "Similar NS cells can be generated from human ES cells and human foetal brain."
+        },
+        {
+          "original_index": 14,
+          "sentence": "The extrinsic factors EGF plus FGF-2 are sufficient to sustain pure symmetrical self-renewing divisions of NS cells."
+        },
+        {
+          "original_index": 15,
+          "sentence": "The resultant cultures constitute the first known example of tissue-specific stem cells that can be propagated without accompanying differentiation."
+        },
+        {
+          "original_index": 16,
+          "sentence": "These homogenous cultures will enable delineation of molecular mechanisms that define a tissue-specific stem cell and allow direct comparison with pluripotent ES cells."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

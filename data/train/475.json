@@ -1,0 +1,144 @@
+{
+  "id": 475,
+  "origin": "dev",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Glycolysis is one of the primary glycometabolic pathways in cells.",
+      "evidence": [
+        {
+          "doc_id": 18678095,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "We demonstrate that glycolysis provides ATP for the FAT of vesicles.",
+          "kept": true,
+          "new_index": 1
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 18678095,
+          "title": "Vesicular Glycolysis Provides On-Board Energy for Fast Axonal Transport",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Fast axonal transport (FAT) requires consistent energy over long distances to fuel the molecular motors that transport vesicles."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We demonstrate that glycolysis provides ATP for the FAT of vesicles."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Although inhibiting ATP production from mitochondria did not affect vesicles motility, pharmacological or genetic inhibition of the glycolytic enzyme GAPDH reduced transport in cultured neurons and in Drosophila larvae."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "GAPDH localizes on vesicles via a huntingtin-dependent mechanism and is transported on fast-moving vesicles within axons."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Purified motile vesicles showed GAPDH enzymatic activity and produced ATP."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Finally, we show that vesicular GAPDH is necessary and sufficient to provide on-board energy for fast vesicular transport."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Although detaching GAPDH from vesicles reduced transport, targeting GAPDH to vesicles was sufficient to promote FAT in GAPDH deficient neurons."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "This specifically localized glycolytic machinery may supply constant energy, independent of mitochondria, for the processive movement of vesicles over long distances in axons."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Glycolysis is one of the primary glycometabolic pathways in cells.",
+      "evidence": [
+        {
+          "doc_id": 18678095,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "We demonstrate that glycolysis provides ATP for the FAT of vesicles.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 18678095,
+          "title": "Vesicular Glycolysis Provides On-Board Energy for Fast Axonal Transport",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Fast axonal transport (FAT) requires consistent energy over long distances to fuel the molecular motors that transport vesicles."
+            },
+            {
+              "new_index": 1,
+              "original_index": 3,
+              "sentence": "GAPDH localizes on vesicles via a huntingtin-dependent mechanism and is transported on fast-moving vesicles within axons."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Purified motile vesicles showed GAPDH enzymatic activity and produced ATP."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Finally, we show that vesicular GAPDH is necessary and sufficient to provide on-board energy for fast vesicular transport."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Although detaching GAPDH from vesicles reduced transport, targeting GAPDH to vesicles was sufficient to promote FAT in GAPDH deficient neurons."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "This specifically localized glycolytic machinery may supply constant energy, independent of mitochondria, for the processive movement of vesicles over long distances in axons."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 18678095,
+          "original_index": 1,
+          "sentence": "We demonstrate that glycolysis provides ATP for the FAT of vesicles.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 18678095,
+          "original_index": 2,
+          "sentence": "Although inhibiting ATP production from mitochondria did not affect vesicles motility, pharmacological or genetic inhibition of the glycolytic enzyme GAPDH reduced transport in cultured neurons and in Drosophila larvae.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

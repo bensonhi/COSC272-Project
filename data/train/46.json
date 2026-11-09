@@ -1,0 +1,197 @@
+{
+  "id": 46,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "A single nucleotide variant the gene DGKK is strongly associated with increased risk of hypospadias.",
+      "evidence": [
+        {
+          "doc_id": 380526,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Individual genotyping of two SNPs (rs1934179 and rs7063116) in DGKK, encoding diacylglycerol kinase κ, produced compelling evidence for association with hypospadias in the discovery sample (allele-specific odds ratio (OR) = 2.5, P = 2.5 × 10−11 and OR = 2.3, P = 2.9 × 10−9, respectively) and in the Dutch (OR = 3.9, P = 2.4 × 10−5 and OR = 3.8, P = 3.4 × 10−5) and Swedish (OR = 2.5, P = 2.6 × 10−8 and OR = 2.2, P = 2.7 × 10−6) replication samples.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 380526,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 4,
+          "sentence": "We propose DGKK as a major risk gene for hypospadias.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 380526,
+          "title": "Common variants in DGKK are strongly associated with risk of hypospadias",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Hypospadias is a common congenital malformation of the male external genitalia."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We performed a genome-wide association study using pooled DNA from 436 individuals with hypospadias (cases) and 494 controls of European descent and selected the highest ranked SNPs for individual genotyping in the discovery sample, an additional Dutch sample of 133 cases and their parents, and a Swedish series of 266 cases and 402 controls."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Individual genotyping of two SNPs (rs1934179 and rs7063116) in DGKK, encoding diacylglycerol kinase κ, produced compelling evidence for association with hypospadias in the discovery sample (allele-specific odds ratio (OR) = 2.5, P = 2.5 × 10−11 and OR = 2.3, P = 2.9 × 10−9, respectively) and in the Dutch (OR = 3.9, P = 2.4 × 10−5 and OR = 3.8, P = 3.4 × 10−5) and Swedish (OR = 2.5, P = 2.6 × 10−8 and OR = 2.2, P = 2.7 × 10−6) replication samples."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Expression studies showed expression of DGKK in preputial tissue of cases and controls, which was lower in carriers of the risk allele of rs1934179 (P = 0.047)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We propose DGKK as a major risk gene for hypospadias."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "A single nucleotide variant the gene DGKK is strongly associated with increased risk of hypospadias.",
+      "evidence": [
+        {
+          "doc_id": 380526,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Individual genotyping of two SNPs (rs1934179 and rs7063116) in DGKK, encoding diacylglycerol kinase κ, produced compelling evidence for association with hypospadias in the discovery sample (allele-specific odds ratio (OR) = 2.5, P = 2.5 × 10−11 and OR = 2.3, P = 2.9 × 10−9, respectively) and in the Dutch (OR = 3.9, P = 2.4 × 10−5 and OR = 3.8, P = 3.4 × 10−5) and Swedish (OR = 2.5, P = 2.6 × 10−8 and OR = 2.2, P = 2.7 × 10−6) replication samples.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 380526,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 4,
+          "sentence": "We propose DGKK as a major risk gene for hypospadias.",
+          "kept": true,
+          "new_index": 3
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 380526,
+          "title": "Common variants in DGKK are strongly associated with risk of hypospadias",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Hypospadias is a common congenital malformation of the male external genitalia."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We performed a genome-wide association study using pooled DNA from 436 individuals with hypospadias (cases) and 494 controls of European descent and selected the highest ranked SNPs for individual genotyping in the discovery sample, an additional Dutch sample of 133 cases and their parents, and a Swedish series of 266 cases and 402 controls."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Expression studies showed expression of DGKK in preputial tissue of cases and controls, which was lower in carriers of the risk allele of rs1934179 (P = 0.047)."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "We propose DGKK as a major risk gene for hypospadias."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 380526,
+          "original_index": 2,
+          "sentence": "Individual genotyping of two SNPs (rs1934179 and rs7063116) in DGKK, encoding diacylglycerol kinase κ, produced compelling evidence for association with hypospadias in the discovery sample (allele-specific odds ratio (OR) = 2.5, P = 2.5 × 10−11 and OR = 2.3, P = 2.9 × 10−9, respectively) and in the Dutch (OR = 3.9, P = 2.4 × 10−5 and OR = 3.8, P = 3.4 × 10−5) and Swedish (OR = 2.5, P = 2.6 × 10−8 and OR = 2.2, P = 2.7 × 10−6) replication samples.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "A single nucleotide variant the gene DGKK is strongly associated with increased risk of hypospadias.",
+      "evidence": [
+        {
+          "doc_id": 380526,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Individual genotyping of two SNPs (rs1934179 and rs7063116) in DGKK, encoding diacylglycerol kinase κ, produced compelling evidence for association with hypospadias in the discovery sample (allele-specific odds ratio (OR) = 2.5, P = 2.5 × 10−11 and OR = 2.3, P = 2.9 × 10−9, respectively) and in the Dutch (OR = 3.9, P = 2.4 × 10−5 and OR = 3.8, P = 3.4 × 10−5) and Swedish (OR = 2.5, P = 2.6 × 10−8 and OR = 2.2, P = 2.7 × 10−6) replication samples.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 380526,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 4,
+          "sentence": "We propose DGKK as a major risk gene for hypospadias.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 380526,
+          "title": "Common variants in DGKK are strongly associated with risk of hypospadias",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Hypospadias is a common congenital malformation of the male external genitalia."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We performed a genome-wide association study using pooled DNA from 436 individuals with hypospadias (cases) and 494 controls of European descent and selected the highest ranked SNPs for individual genotyping in the discovery sample, an additional Dutch sample of 133 cases and their parents, and a Swedish series of 266 cases and 402 controls."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Expression studies showed expression of DGKK in preputial tissue of cases and controls, which was lower in carriers of the risk allele of rs1934179 (P = 0.047)."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 380526,
+          "original_index": 2,
+          "sentence": "Individual genotyping of two SNPs (rs1934179 and rs7063116) in DGKK, encoding diacylglycerol kinase κ, produced compelling evidence for association with hypospadias in the discovery sample (allele-specific odds ratio (OR) = 2.5, P = 2.5 × 10−11 and OR = 2.3, P = 2.9 × 10−9, respectively) and in the Dutch (OR = 3.9, P = 2.4 × 10−5 and OR = 3.8, P = 3.4 × 10−5) and Swedish (OR = 2.5, P = 2.6 × 10−8 and OR = 2.2, P = 2.7 × 10−6) replication samples.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 380526,
+          "original_index": 4,
+          "sentence": "We propose DGKK as a major risk gene for hypospadias.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": 376,
+  "origin": "train_more",
+  "claim": "Eliminating the last sporadic cases of malaria requires considerable funding.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 22401061,
+      "title": "Costs and financial feasibility of malaria elimination",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "The marginal costs and benefits of converting malaria programmes from a control to an elimination goal are central to strategic decisions, but empirical evidence is scarce."
+        },
+        {
+          "original_index": 1,
+          "sentence": "We present a conceptual framework to assess the economics of elimination and analyse a central component of that framework-potential short-term to medium-term financial savings."
+        },
+        {
+          "original_index": 2,
+          "sentence": "After a review that showed a dearth of existing evidence, the net present value of elimination in five sites was calculated and compared with effective control."
+        },
+        {
+          "original_index": 3,
+          "sentence": "The probability that elimination would be cost-saving over 50 years ranged from 0% to 42%, with only one site achieving cost-savings in the base case."
+        },
+        {
+          "original_index": 4,
+          "sentence": "These findings show that financial savings should not be a primary rationale for elimination, but that elimination might still be a worthy investment if total benefits are sufficient to outweigh marginal costs."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Robust research into these elimination benefits is urgently needed."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

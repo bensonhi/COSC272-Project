@@ -1,0 +1,450 @@
+{
+  "id": 666,
+  "origin": "train_more",
+  "n_groups": 5,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Kir7.1 modulates channel activity by the G protein-coupled melanocortin-4 receptor (MC4R) in the paraventricular nucleus of the hypothalamus.",
+      "evidence": [
+        {
+          "doc_id": 4469125,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Here we show that, in mice, regulation of firing activity of neurons from the paraventricular nucleus of the hypothalamus (PVN) by α-MSH and AgRP can be mediated independently of Gαs signalling by ligand-induced coupling of MC4R to closure of inwardly rectifying potassium channel, Kir7.1.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 4469125,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 3,
+          "sentence": "Furthermore, AgRP is a biased agonist that hyperpolarizes neurons by binding to MC4R and opening Kir7.1, independently of its inhibition of α-MSH binding.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 4469125,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 4,
+          "sentence": "Consequently, Kir7.1 signalling appears to be central to melanocortin-mediated regulation of energy homeostasis within the PVN.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 4469125,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "Coupling of MC4R to Kir7.1 may explain unusual aspects of the control of energy homeostasis by melanocortin signalling, including the gene dosage effect of MC4R and the sustained effects of AgRP on food intake.",
+          "kept": true,
+          "new_index": 5
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4469125,
+          "title": "G-protein-independent coupling of MC4R to Kir7.1 in hypothalamic neurons",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The regulated release of anorexigenic α-melanocyte stimulating hormone (α-MSH) and orexigenic Agouti-related protein (AgRP) from discrete hypothalamic arcuate neurons onto common target sites in the central nervous system has a fundamental role in the regulation of energy homeostasis."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Both peptides bind with high affinity to the melanocortin-4 receptor (MC4R); existing data show that α-MSH is an agonist that couples the receptor to the Gαs signalling pathway, while AgRP binds competitively to block α-MSH binding and blocks the constitutive activity mediated by the ligand-mimetic amino-terminal domain of the receptor."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here we show that, in mice, regulation of firing activity of neurons from the paraventricular nucleus of the hypothalamus (PVN) by α-MSH and AgRP can be mediated independently of Gαs signalling by ligand-induced coupling of MC4R to closure of inwardly rectifying potassium channel, Kir7.1."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Furthermore, AgRP is a biased agonist that hyperpolarizes neurons by binding to MC4R and opening Kir7.1, independently of its inhibition of α-MSH binding."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Consequently, Kir7.1 signalling appears to be central to melanocortin-mediated regulation of energy homeostasis within the PVN."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Coupling of MC4R to Kir7.1 may explain unusual aspects of the control of energy homeostasis by melanocortin signalling, including the gene dosage effect of MC4R and the sustained effects of AgRP on food intake."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Kir7.1 modulates channel activity by the G protein-coupled melanocortin-4 receptor (MC4R) in the paraventricular nucleus of the hypothalamus.",
+      "evidence": [
+        {
+          "doc_id": 4469125,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Here we show that, in mice, regulation of firing activity of neurons from the paraventricular nucleus of the hypothalamus (PVN) by α-MSH and AgRP can be mediated independently of Gαs signalling by ligand-induced coupling of MC4R to closure of inwardly rectifying potassium channel, Kir7.1.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4469125,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 3,
+          "sentence": "Furthermore, AgRP is a biased agonist that hyperpolarizes neurons by binding to MC4R and opening Kir7.1, independently of its inhibition of α-MSH binding.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 4469125,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 4,
+          "sentence": "Consequently, Kir7.1 signalling appears to be central to melanocortin-mediated regulation of energy homeostasis within the PVN.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 4469125,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "Coupling of MC4R to Kir7.1 may explain unusual aspects of the control of energy homeostasis by melanocortin signalling, including the gene dosage effect of MC4R and the sustained effects of AgRP on food intake.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4469125,
+          "title": "G-protein-independent coupling of MC4R to Kir7.1 in hypothalamic neurons",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The regulated release of anorexigenic α-melanocyte stimulating hormone (α-MSH) and orexigenic Agouti-related protein (AgRP) from discrete hypothalamic arcuate neurons onto common target sites in the central nervous system has a fundamental role in the regulation of energy homeostasis."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Both peptides bind with high affinity to the melanocortin-4 receptor (MC4R); existing data show that α-MSH is an agonist that couples the receptor to the Gαs signalling pathway, while AgRP binds competitively to block α-MSH binding and blocks the constitutive activity mediated by the ligand-mimetic amino-terminal domain of the receptor."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Furthermore, AgRP is a biased agonist that hyperpolarizes neurons by binding to MC4R and opening Kir7.1, independently of its inhibition of α-MSH binding."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Consequently, Kir7.1 signalling appears to be central to melanocortin-mediated regulation of energy homeostasis within the PVN."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Coupling of MC4R to Kir7.1 may explain unusual aspects of the control of energy homeostasis by melanocortin signalling, including the gene dosage effect of MC4R and the sustained effects of AgRP on food intake."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 4469125,
+          "original_index": 2,
+          "sentence": "Here we show that, in mice, regulation of firing activity of neurons from the paraventricular nucleus of the hypothalamus (PVN) by α-MSH and AgRP can be mediated independently of Gαs signalling by ligand-induced coupling of MC4R to closure of inwardly rectifying potassium channel, Kir7.1.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g2",
+        "g3"
+      ],
+      "claim": "Kir7.1 modulates channel activity by the G protein-coupled melanocortin-4 receptor (MC4R) in the paraventricular nucleus of the hypothalamus.",
+      "evidence": [
+        {
+          "doc_id": 4469125,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Here we show that, in mice, regulation of firing activity of neurons from the paraventricular nucleus of the hypothalamus (PVN) by α-MSH and AgRP can be mediated independently of Gαs signalling by ligand-induced coupling of MC4R to closure of inwardly rectifying potassium channel, Kir7.1.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 4469125,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 3,
+          "sentence": "Furthermore, AgRP is a biased agonist that hyperpolarizes neurons by binding to MC4R and opening Kir7.1, independently of its inhibition of α-MSH binding.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 4469125,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 4,
+          "sentence": "Consequently, Kir7.1 signalling appears to be central to melanocortin-mediated regulation of energy homeostasis within the PVN.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4469125,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "Coupling of MC4R to Kir7.1 may explain unusual aspects of the control of energy homeostasis by melanocortin signalling, including the gene dosage effect of MC4R and the sustained effects of AgRP on food intake.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4469125,
+          "title": "G-protein-independent coupling of MC4R to Kir7.1 in hypothalamic neurons",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The regulated release of anorexigenic α-melanocyte stimulating hormone (α-MSH) and orexigenic Agouti-related protein (AgRP) from discrete hypothalamic arcuate neurons onto common target sites in the central nervous system has a fundamental role in the regulation of energy homeostasis."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Both peptides bind with high affinity to the melanocortin-4 receptor (MC4R); existing data show that α-MSH is an agonist that couples the receptor to the Gαs signalling pathway, while AgRP binds competitively to block α-MSH binding and blocks the constitutive activity mediated by the ligand-mimetic amino-terminal domain of the receptor."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here we show that, in mice, regulation of firing activity of neurons from the paraventricular nucleus of the hypothalamus (PVN) by α-MSH and AgRP can be mediated independently of Gαs signalling by ligand-induced coupling of MC4R to closure of inwardly rectifying potassium channel, Kir7.1."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Furthermore, AgRP is a biased agonist that hyperpolarizes neurons by binding to MC4R and opening Kir7.1, independently of its inhibition of α-MSH binding."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 4469125,
+          "original_index": 4,
+          "sentence": "Consequently, Kir7.1 signalling appears to be central to melanocortin-mediated regulation of energy homeostasis within the PVN.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 4469125,
+          "original_index": 5,
+          "sentence": "Coupling of MC4R to Kir7.1 may explain unusual aspects of the control of energy homeostasis by melanocortin signalling, including the gene dosage effect of MC4R and the sustained effects of AgRP on food intake.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_3_groups",
+      "dropped_group_ids": [
+        "g2",
+        "g3",
+        "g0"
+      ],
+      "claim": "Kir7.1 modulates channel activity by the G protein-coupled melanocortin-4 receptor (MC4R) in the paraventricular nucleus of the hypothalamus.",
+      "evidence": [
+        {
+          "doc_id": 4469125,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Here we show that, in mice, regulation of firing activity of neurons from the paraventricular nucleus of the hypothalamus (PVN) by α-MSH and AgRP can be mediated independently of Gαs signalling by ligand-induced coupling of MC4R to closure of inwardly rectifying potassium channel, Kir7.1.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4469125,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 3,
+          "sentence": "Furthermore, AgRP is a biased agonist that hyperpolarizes neurons by binding to MC4R and opening Kir7.1, independently of its inhibition of α-MSH binding.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 4469125,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 4,
+          "sentence": "Consequently, Kir7.1 signalling appears to be central to melanocortin-mediated regulation of energy homeostasis within the PVN.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4469125,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "Coupling of MC4R to Kir7.1 may explain unusual aspects of the control of energy homeostasis by melanocortin signalling, including the gene dosage effect of MC4R and the sustained effects of AgRP on food intake.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4469125,
+          "title": "G-protein-independent coupling of MC4R to Kir7.1 in hypothalamic neurons",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The regulated release of anorexigenic α-melanocyte stimulating hormone (α-MSH) and orexigenic Agouti-related protein (AgRP) from discrete hypothalamic arcuate neurons onto common target sites in the central nervous system has a fundamental role in the regulation of energy homeostasis."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Both peptides bind with high affinity to the melanocortin-4 receptor (MC4R); existing data show that α-MSH is an agonist that couples the receptor to the Gαs signalling pathway, while AgRP binds competitively to block α-MSH binding and blocks the constitutive activity mediated by the ligand-mimetic amino-terminal domain of the receptor."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Furthermore, AgRP is a biased agonist that hyperpolarizes neurons by binding to MC4R and opening Kir7.1, independently of its inhibition of α-MSH binding."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 4469125,
+          "original_index": 2,
+          "sentence": "Here we show that, in mice, regulation of firing activity of neurons from the paraventricular nucleus of the hypothalamus (PVN) by α-MSH and AgRP can be mediated independently of Gαs signalling by ligand-induced coupling of MC4R to closure of inwardly rectifying potassium channel, Kir7.1.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 4469125,
+          "original_index": 4,
+          "sentence": "Consequently, Kir7.1 signalling appears to be central to melanocortin-mediated regulation of energy homeostasis within the PVN.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 4469125,
+          "original_index": 5,
+          "sentence": "Coupling of MC4R to Kir7.1 may explain unusual aspects of the control of energy homeostasis by melanocortin signalling, including the gene dosage effect of MC4R and the sustained effects of AgRP on food intake.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2",
+        "g3"
+      ],
+      "claim": "Kir7.1 modulates channel activity by the G protein-coupled melanocortin-4 receptor (MC4R) in the paraventricular nucleus of the hypothalamus.",
+      "evidence": [
+        {
+          "doc_id": 4469125,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Here we show that, in mice, regulation of firing activity of neurons from the paraventricular nucleus of the hypothalamus (PVN) by α-MSH and AgRP can be mediated independently of Gαs signalling by ligand-induced coupling of MC4R to closure of inwardly rectifying potassium channel, Kir7.1.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4469125,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 3,
+          "sentence": "Furthermore, AgRP is a biased agonist that hyperpolarizes neurons by binding to MC4R and opening Kir7.1, independently of its inhibition of α-MSH binding.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4469125,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 4,
+          "sentence": "Consequently, Kir7.1 signalling appears to be central to melanocortin-mediated regulation of energy homeostasis within the PVN.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4469125,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "Coupling of MC4R to Kir7.1 may explain unusual aspects of the control of energy homeostasis by melanocortin signalling, including the gene dosage effect of MC4R and the sustained effects of AgRP on food intake.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4469125,
+          "title": "G-protein-independent coupling of MC4R to Kir7.1 in hypothalamic neurons",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The regulated release of anorexigenic α-melanocyte stimulating hormone (α-MSH) and orexigenic Agouti-related protein (AgRP) from discrete hypothalamic arcuate neurons onto common target sites in the central nervous system has a fundamental role in the regulation of energy homeostasis."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Both peptides bind with high affinity to the melanocortin-4 receptor (MC4R); existing data show that α-MSH is an agonist that couples the receptor to the Gαs signalling pathway, while AgRP binds competitively to block α-MSH binding and blocks the constitutive activity mediated by the ligand-mimetic amino-terminal domain of the receptor."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 4469125,
+          "original_index": 2,
+          "sentence": "Here we show that, in mice, regulation of firing activity of neurons from the paraventricular nucleus of the hypothalamus (PVN) by α-MSH and AgRP can be mediated independently of Gαs signalling by ligand-induced coupling of MC4R to closure of inwardly rectifying potassium channel, Kir7.1.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 4469125,
+          "original_index": 3,
+          "sentence": "Furthermore, AgRP is a biased agonist that hyperpolarizes neurons by binding to MC4R and opening Kir7.1, independently of its inhibition of α-MSH binding.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 4469125,
+          "original_index": 4,
+          "sentence": "Consequently, Kir7.1 signalling appears to be central to melanocortin-mediated regulation of energy homeostasis within the PVN.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 4469125,
+          "original_index": 5,
+          "sentence": "Coupling of MC4R to Kir7.1 may explain unusual aspects of the control of energy homeostasis by melanocortin signalling, including the gene dosage effect of MC4R and the sustained effects of AgRP on food intake.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

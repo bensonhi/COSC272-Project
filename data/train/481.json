@@ -1,0 +1,48 @@
+{
+  "id": 481,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Guanine nucleotide dissociation inhibitor (Rho-GDI) interacts with the p75 NTR death domain",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 14706752,
+          "title": "Gamma-Secretase Represents a Therapeutic Target for the Treatment of Invasive Glioma Mediated by the p75 Neurotrophin Receptor",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The multifunctional signaling protein p75 neurotrophin receptor (p75(NTR)) is a central regulator and major contributor to the highly invasive nature of malignant gliomas."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here, we show that neurotrophin-dependent regulated intramembrane proteolysis (RIP) of p75(NTR) is required for p75(NTR)-mediated glioma invasion, and identify a previously unnamed process for targeted glioma therapy."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Expression of cleavage-resistant chimeras of p75(NTR) or treatment of animals bearing p75(NTR)-positive intracranial tumors with clinically applicable gamma-secretase inhibitors resulted in dramatically decreased glioma invasion and prolonged survival."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Importantly, proteolytic processing of p75(NTR) was observed in p75(NTR)-positive patient tumor specimens and brain tumor initiating cells."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "This work highlights the importance of p75(NTR) as a therapeutic target, suggesting that gamma-secretase inhibitors may have direct clinical application for the treatment of malignant glioma."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": 45,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "A mutation in HNF4A leads to an increased risk of diabetes by the age of 14 years.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 56893404,
+          "title": "Macrosomia and Hyperinsulinaemic Hypoglycaemia in Patients with Heterozygous Mutations in the HNF4A Gene",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Background  Macrosomia is associated with considerable neonatal and maternal morbidity."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Factors that predict macrosomia are poorly understood."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "The increased rate of macrosomia in the offspring of pregnant women with diabetes and in congenital hyperinsulinaemia is mediated by increased foetal insulin secretion."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We assessed the in utero and neonatal role of two key regulators of pancreatic insulin secretion by studying birthweight and the incidence of neonatal hypoglycaemia in patients with heterozygous mutations in the maturity-onset diabetes of the young (MODY) genes HNF4A (encoding HNF-4α) and HNF1A/TCF1 (encoding HNF-1α), and the effect of pancreatic deletion of Hnf4a on foetal and neonatal insulin secretion in mice."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

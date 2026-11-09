@@ -1,0 +1,1312 @@
+{
+  "id": 141,
+  "origin": "dev",
+  "n_groups": 7,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Auditory entrainment is strengthened when people see congruent visual and auditory information.",
+      "evidence": [
+        {
+          "doc_id": 14437255,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "UNLABELLED Congruent audiovisual speech enhances our ability to comprehend a speaker, even in noise-free conditions.",
+          "kept": true,
+          "new_index": 0
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "When incongruent auditory and visual information is presented concurrently, it can hinder a listener's perception and even cause him or her to perceive information that was not presented in either modality.",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "We demonstrate that the cortical representation of the speech envelope is enhanced by the presentation of congruent audiovisual speech in noise-free conditions.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Finally, our data suggest that neural entrainment to the speech envelope is inhibited when the auditory and visual streams are incongruent both temporally and contextually.   ",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "SIGNIFICANCE STATEMENT Seeing a speaker's face as he or she talks can greatly help in understanding what the speaker is saying.",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT",
+          "original_index": 13,
+          "sentence": "Specifically, we show that the brain's representation of auditory speech is enhanced when the accompanying visual speech signal shares the same timing.",
+          "kept": true,
+          "new_index": 13
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6955746,
+          "title": "Auditory Cortex Tracks Both Auditory and Visual Stimulus Dynamics Using Low-Frequency Neuronal Phase Modulation",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Integrating information across sensory domains to construct a unified representation of multi-sensory signals is a fundamental characteristic of perception in ecological contexts."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "One provocative hypothesis deriving from neurophysiology suggests that there exists early and direct cross-modal phase modulation."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We provide evidence, based on magnetoencephalography (MEG) recordings from participants viewing audiovisual movies, that low-frequency neuronal information lies at the basis of the synergistic coordination of information across auditory and visual streams."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "In particular, the phase of the 2-7 Hz delta and theta band responses carries robust (in single trials) and usable information (for parsing the temporal structure) about stimulus dynamics in both sensory modalities concurrently."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "These experiments are the first to show in humans that a particular cortical mechanism, delta-theta phase modulation across early sensory areas, plays an important \"active\" role in continuously tracking naturalistic audio-visual streams, carrying dynamic multi-sensory information, and reflecting cross-sensory interaction in real time."
+            }
+          ]
+        },
+        {
+          "doc_id": 14437255,
+          "title": "Congruent Visual Speech Enhances Cortical Entrainment to Continuous Auditory Speech in Noise-Free Conditions.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "UNLABELLED Congruent audiovisual speech enhances our ability to comprehend a speaker, even in noise-free conditions."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "When incongruent auditory and visual information is presented concurrently, it can hinder a listener's perception and even cause him or her to perceive information that was not presented in either modality."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Efforts to investigate the neural basis of these effects have often focused on the special case of discrete audiovisual syllables that are spatially and temporally congruent, with less work done on the case of natural, continuous speech."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Recent electrophysiological studies have demonstrated that cortical response measures to continuous auditory speech can be easily obtained using multivariate analysis methods."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Here, we apply such methods to the case of audiovisual speech and, importantly, present a novel framework for indexing multisensory integration in the context of continuous speech."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Specifically, we examine how the temporal and contextual congruency of ongoing audiovisual speech affects the cortical encoding of the speech envelope in humans using electroencephalography."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "We demonstrate that the cortical representation of the speech envelope is enhanced by the presentation of congruent audiovisual speech in noise-free conditions."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Furthermore, we show that this is likely attributable to the contribution of neural generators that are not particularly active during unimodal stimulation and that it is most prominent at the temporal scale corresponding to syllabic rate (2-6 Hz)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Finally, our data suggest that neural entrainment to the speech envelope is inhibited when the auditory and visual streams are incongruent both temporally and contextually.   "
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "SIGNIFICANCE STATEMENT Seeing a speaker's face as he or she talks can greatly help in understanding what the speaker is saying."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "This is because the speaker's facial movements relay information about what the speaker is saying, but also, importantly, when the speaker is saying it."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Studying how the brain uses this timing relationship to combine information from continuous auditory and visual speech has traditionally been methodologically difficult."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "Here we introduce a new approach for doing this using relatively inexpensive and noninvasive scalp recordings."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "Specifically, we show that the brain's representation of auditory speech is enhanced when the accompanying visual speech signal shares the same timing."
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "Furthermore, we show that this enhancement is most pronounced at a time scale that corresponds to mean syllable length."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g4"
+      ],
+      "claim": "Auditory entrainment is strengthened when people see congruent visual and auditory information.",
+      "evidence": [
+        {
+          "doc_id": 14437255,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "UNLABELLED Congruent audiovisual speech enhances our ability to comprehend a speaker, even in noise-free conditions.",
+          "kept": true,
+          "new_index": 0
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "When incongruent auditory and visual information is presented concurrently, it can hinder a listener's perception and even cause him or her to perceive information that was not presented in either modality.",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "We demonstrate that the cortical representation of the speech envelope is enhanced by the presentation of congruent audiovisual speech in noise-free conditions.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Finally, our data suggest that neural entrainment to the speech envelope is inhibited when the auditory and visual streams are incongruent both temporally and contextually.   ",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "SIGNIFICANCE STATEMENT Seeing a speaker's face as he or she talks can greatly help in understanding what the speaker is saying.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT",
+          "original_index": 13,
+          "sentence": "Specifically, we show that the brain's representation of auditory speech is enhanced when the accompanying visual speech signal shares the same timing.",
+          "kept": true,
+          "new_index": 11
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6955746,
+          "title": "Auditory Cortex Tracks Both Auditory and Visual Stimulus Dynamics Using Low-Frequency Neuronal Phase Modulation",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Integrating information across sensory domains to construct a unified representation of multi-sensory signals is a fundamental characteristic of perception in ecological contexts."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "One provocative hypothesis deriving from neurophysiology suggests that there exists early and direct cross-modal phase modulation."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "In particular, the phase of the 2-7 Hz delta and theta band responses carries robust (in single trials) and usable information (for parsing the temporal structure) about stimulus dynamics in both sensory modalities concurrently."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "These experiments are the first to show in humans that a particular cortical mechanism, delta-theta phase modulation across early sensory areas, plays an important \"active\" role in continuously tracking naturalistic audio-visual streams, carrying dynamic multi-sensory information, and reflecting cross-sensory interaction in real time."
+            }
+          ]
+        },
+        {
+          "doc_id": 14437255,
+          "title": "Congruent Visual Speech Enhances Cortical Entrainment to Continuous Auditory Speech in Noise-Free Conditions.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "UNLABELLED Congruent audiovisual speech enhances our ability to comprehend a speaker, even in noise-free conditions."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "When incongruent auditory and visual information is presented concurrently, it can hinder a listener's perception and even cause him or her to perceive information that was not presented in either modality."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Efforts to investigate the neural basis of these effects have often focused on the special case of discrete audiovisual syllables that are spatially and temporally congruent, with less work done on the case of natural, continuous speech."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Here, we apply such methods to the case of audiovisual speech and, importantly, present a novel framework for indexing multisensory integration in the context of continuous speech."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Specifically, we examine how the temporal and contextual congruency of ongoing audiovisual speech affects the cortical encoding of the speech envelope in humans using electroencephalography."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "We demonstrate that the cortical representation of the speech envelope is enhanced by the presentation of congruent audiovisual speech in noise-free conditions."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "Furthermore, we show that this is likely attributable to the contribution of neural generators that are not particularly active during unimodal stimulation and that it is most prominent at the temporal scale corresponding to syllabic rate (2-6 Hz)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "Finally, our data suggest that neural entrainment to the speech envelope is inhibited when the auditory and visual streams are incongruent both temporally and contextually.   "
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "This is because the speaker's facial movements relay information about what the speaker is saying, but also, importantly, when the speaker is saying it."
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "Studying how the brain uses this timing relationship to combine information from continuous auditory and visual speech has traditionally been methodologically difficult."
+            },
+            {
+              "new_index": 10,
+              "original_index": 12,
+              "sentence": "Here we introduce a new approach for doing this using relatively inexpensive and noninvasive scalp recordings."
+            },
+            {
+              "new_index": 11,
+              "original_index": 13,
+              "sentence": "Specifically, we show that the brain's representation of auditory speech is enhanced when the accompanying visual speech signal shares the same timing."
+            },
+            {
+              "new_index": 12,
+              "original_index": 14,
+              "sentence": "Furthermore, we show that this enhancement is most pronounced at a time scale that corresponds to mean syllable length."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6955746,
+          "original_index": 2,
+          "sentence": "We provide evidence, based on magnetoencephalography (MEG) recordings from participants viewing audiovisual movies, that low-frequency neuronal information lies at the basis of the synergistic coordination of information across auditory and visual streams.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 3,
+          "sentence": "Recent electrophysiological studies have demonstrated that cortical response measures to continuous auditory speech can be easily obtained using multivariate analysis methods.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 9,
+          "sentence": "SIGNIFICANCE STATEMENT Seeing a speaker's face as he or she talks can greatly help in understanding what the speaker is saying.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g5",
+        "g4"
+      ],
+      "claim": "Auditory entrainment is strengthened when people see congruent visual and auditory information.",
+      "evidence": [
+        {
+          "doc_id": 14437255,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "UNLABELLED Congruent audiovisual speech enhances our ability to comprehend a speaker, even in noise-free conditions.",
+          "kept": true,
+          "new_index": 0
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "When incongruent auditory and visual information is presented concurrently, it can hinder a listener's perception and even cause him or her to perceive information that was not presented in either modality.",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "We demonstrate that the cortical representation of the speech envelope is enhanced by the presentation of congruent audiovisual speech in noise-free conditions.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Finally, our data suggest that neural entrainment to the speech envelope is inhibited when the auditory and visual streams are incongruent both temporally and contextually.   ",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "SIGNIFICANCE STATEMENT Seeing a speaker's face as he or she talks can greatly help in understanding what the speaker is saying.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT",
+          "original_index": 13,
+          "sentence": "Specifically, we show that the brain's representation of auditory speech is enhanced when the accompanying visual speech signal shares the same timing.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6955746,
+          "title": "Auditory Cortex Tracks Both Auditory and Visual Stimulus Dynamics Using Low-Frequency Neuronal Phase Modulation",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Integrating information across sensory domains to construct a unified representation of multi-sensory signals is a fundamental characteristic of perception in ecological contexts."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "One provocative hypothesis deriving from neurophysiology suggests that there exists early and direct cross-modal phase modulation."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We provide evidence, based on magnetoencephalography (MEG) recordings from participants viewing audiovisual movies, that low-frequency neuronal information lies at the basis of the synergistic coordination of information across auditory and visual streams."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "These experiments are the first to show in humans that a particular cortical mechanism, delta-theta phase modulation across early sensory areas, plays an important \"active\" role in continuously tracking naturalistic audio-visual streams, carrying dynamic multi-sensory information, and reflecting cross-sensory interaction in real time."
+            }
+          ]
+        },
+        {
+          "doc_id": 14437255,
+          "title": "Congruent Visual Speech Enhances Cortical Entrainment to Continuous Auditory Speech in Noise-Free Conditions.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "UNLABELLED Congruent audiovisual speech enhances our ability to comprehend a speaker, even in noise-free conditions."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "When incongruent auditory and visual information is presented concurrently, it can hinder a listener's perception and even cause him or her to perceive information that was not presented in either modality."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Efforts to investigate the neural basis of these effects have often focused on the special case of discrete audiovisual syllables that are spatially and temporally congruent, with less work done on the case of natural, continuous speech."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Recent electrophysiological studies have demonstrated that cortical response measures to continuous auditory speech can be easily obtained using multivariate analysis methods."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Here, we apply such methods to the case of audiovisual speech and, importantly, present a novel framework for indexing multisensory integration in the context of continuous speech."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Specifically, we examine how the temporal and contextual congruency of ongoing audiovisual speech affects the cortical encoding of the speech envelope in humans using electroencephalography."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "We demonstrate that the cortical representation of the speech envelope is enhanced by the presentation of congruent audiovisual speech in noise-free conditions."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Furthermore, we show that this is likely attributable to the contribution of neural generators that are not particularly active during unimodal stimulation and that it is most prominent at the temporal scale corresponding to syllabic rate (2-6 Hz)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Finally, our data suggest that neural entrainment to the speech envelope is inhibited when the auditory and visual streams are incongruent both temporally and contextually.   "
+            },
+            {
+              "new_index": 9,
+              "original_index": 10,
+              "sentence": "This is because the speaker's facial movements relay information about what the speaker is saying, but also, importantly, when the speaker is saying it."
+            },
+            {
+              "new_index": 10,
+              "original_index": 11,
+              "sentence": "Studying how the brain uses this timing relationship to combine information from continuous auditory and visual speech has traditionally been methodologically difficult."
+            },
+            {
+              "new_index": 11,
+              "original_index": 12,
+              "sentence": "Here we introduce a new approach for doing this using relatively inexpensive and noninvasive scalp recordings."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6955746,
+          "original_index": 3,
+          "sentence": "In particular, the phase of the 2-7 Hz delta and theta band responses carries robust (in single trials) and usable information (for parsing the temporal structure) about stimulus dynamics in both sensory modalities concurrently.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 9,
+          "sentence": "SIGNIFICANCE STATEMENT Seeing a speaker's face as he or she talks can greatly help in understanding what the speaker is saying.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 13,
+          "sentence": "Specifically, we show that the brain's representation of auditory speech is enhanced when the accompanying visual speech signal shares the same timing.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 14,
+          "sentence": "Furthermore, we show that this enhancement is most pronounced at a time scale that corresponds to mean syllable length.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_3_groups",
+      "dropped_group_ids": [
+        "g5",
+        "g2",
+        "g0"
+      ],
+      "claim": "Auditory entrainment is strengthened when people see congruent visual and auditory information.",
+      "evidence": [
+        {
+          "doc_id": 14437255,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "UNLABELLED Congruent audiovisual speech enhances our ability to comprehend a speaker, even in noise-free conditions.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "When incongruent auditory and visual information is presented concurrently, it can hinder a listener's perception and even cause him or her to perceive information that was not presented in either modality.",
+          "kept": true,
+          "new_index": 0
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "We demonstrate that the cortical representation of the speech envelope is enhanced by the presentation of congruent audiovisual speech in noise-free conditions.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Finally, our data suggest that neural entrainment to the speech envelope is inhibited when the auditory and visual streams are incongruent both temporally and contextually.   ",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "SIGNIFICANCE STATEMENT Seeing a speaker's face as he or she talks can greatly help in understanding what the speaker is saying.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT",
+          "original_index": 13,
+          "sentence": "Specifically, we show that the brain's representation of auditory speech is enhanced when the accompanying visual speech signal shares the same timing.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6955746,
+          "title": "Auditory Cortex Tracks Both Auditory and Visual Stimulus Dynamics Using Low-Frequency Neuronal Phase Modulation",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Integrating information across sensory domains to construct a unified representation of multi-sensory signals is a fundamental characteristic of perception in ecological contexts."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "We provide evidence, based on magnetoencephalography (MEG) recordings from participants viewing audiovisual movies, that low-frequency neuronal information lies at the basis of the synergistic coordination of information across auditory and visual streams."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "In particular, the phase of the 2-7 Hz delta and theta band responses carries robust (in single trials) and usable information (for parsing the temporal structure) about stimulus dynamics in both sensory modalities concurrently."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "These experiments are the first to show in humans that a particular cortical mechanism, delta-theta phase modulation across early sensory areas, plays an important \"active\" role in continuously tracking naturalistic audio-visual streams, carrying dynamic multi-sensory information, and reflecting cross-sensory interaction in real time."
+            }
+          ]
+        },
+        {
+          "doc_id": 14437255,
+          "title": "Congruent Visual Speech Enhances Cortical Entrainment to Continuous Auditory Speech in Noise-Free Conditions.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "When incongruent auditory and visual information is presented concurrently, it can hinder a listener's perception and even cause him or her to perceive information that was not presented in either modality."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Efforts to investigate the neural basis of these effects have often focused on the special case of discrete audiovisual syllables that are spatially and temporally congruent, with less work done on the case of natural, continuous speech."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Recent electrophysiological studies have demonstrated that cortical response measures to continuous auditory speech can be easily obtained using multivariate analysis methods."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Here, we apply such methods to the case of audiovisual speech and, importantly, present a novel framework for indexing multisensory integration in the context of continuous speech."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Specifically, we examine how the temporal and contextual congruency of ongoing audiovisual speech affects the cortical encoding of the speech envelope in humans using electroencephalography."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Furthermore, we show that this is likely attributable to the contribution of neural generators that are not particularly active during unimodal stimulation and that it is most prominent at the temporal scale corresponding to syllabic rate (2-6 Hz)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "Finally, our data suggest that neural entrainment to the speech envelope is inhibited when the auditory and visual streams are incongruent both temporally and contextually.   "
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "SIGNIFICANCE STATEMENT Seeing a speaker's face as he or she talks can greatly help in understanding what the speaker is saying."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "This is because the speaker's facial movements relay information about what the speaker is saying, but also, importantly, when the speaker is saying it."
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "Studying how the brain uses this timing relationship to combine information from continuous auditory and visual speech has traditionally been methodologically difficult."
+            },
+            {
+              "new_index": 10,
+              "original_index": 12,
+              "sentence": "Here we introduce a new approach for doing this using relatively inexpensive and noninvasive scalp recordings."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6955746,
+          "original_index": 1,
+          "sentence": "One provocative hypothesis deriving from neurophysiology suggests that there exists early and direct cross-modal phase modulation.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 0,
+          "sentence": "UNLABELLED Congruent audiovisual speech enhances our ability to comprehend a speaker, even in noise-free conditions.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 6,
+          "sentence": "We demonstrate that the cortical representation of the speech envelope is enhanced by the presentation of congruent audiovisual speech in noise-free conditions.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 13,
+          "sentence": "Specifically, we show that the brain's representation of auditory speech is enhanced when the accompanying visual speech signal shares the same timing.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 14,
+          "sentence": "Furthermore, we show that this enhancement is most pronounced at a time scale that corresponds to mean syllable length.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_4_groups",
+      "dropped_group_ids": [
+        "g3",
+        "g4",
+        "g5",
+        "g1"
+      ],
+      "claim": "Auditory entrainment is strengthened when people see congruent visual and auditory information.",
+      "evidence": [
+        {
+          "doc_id": 14437255,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "UNLABELLED Congruent audiovisual speech enhances our ability to comprehend a speaker, even in noise-free conditions.",
+          "kept": true,
+          "new_index": 0
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "When incongruent auditory and visual information is presented concurrently, it can hinder a listener's perception and even cause him or her to perceive information that was not presented in either modality.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "We demonstrate that the cortical representation of the speech envelope is enhanced by the presentation of congruent audiovisual speech in noise-free conditions.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Finally, our data suggest that neural entrainment to the speech envelope is inhibited when the auditory and visual streams are incongruent both temporally and contextually.   ",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "SIGNIFICANCE STATEMENT Seeing a speaker's face as he or she talks can greatly help in understanding what the speaker is saying.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT",
+          "original_index": 13,
+          "sentence": "Specifically, we show that the brain's representation of auditory speech is enhanced when the accompanying visual speech signal shares the same timing.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6955746,
+          "title": "Auditory Cortex Tracks Both Auditory and Visual Stimulus Dynamics Using Low-Frequency Neuronal Phase Modulation",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Integrating information across sensory domains to construct a unified representation of multi-sensory signals is a fundamental characteristic of perception in ecological contexts."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "One provocative hypothesis deriving from neurophysiology suggests that there exists early and direct cross-modal phase modulation."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We provide evidence, based on magnetoencephalography (MEG) recordings from participants viewing audiovisual movies, that low-frequency neuronal information lies at the basis of the synergistic coordination of information across auditory and visual streams."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "These experiments are the first to show in humans that a particular cortical mechanism, delta-theta phase modulation across early sensory areas, plays an important \"active\" role in continuously tracking naturalistic audio-visual streams, carrying dynamic multi-sensory information, and reflecting cross-sensory interaction in real time."
+            }
+          ]
+        },
+        {
+          "doc_id": 14437255,
+          "title": "Congruent Visual Speech Enhances Cortical Entrainment to Continuous Auditory Speech in Noise-Free Conditions.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "UNLABELLED Congruent audiovisual speech enhances our ability to comprehend a speaker, even in noise-free conditions."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Efforts to investigate the neural basis of these effects have often focused on the special case of discrete audiovisual syllables that are spatially and temporally congruent, with less work done on the case of natural, continuous speech."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Here, we apply such methods to the case of audiovisual speech and, importantly, present a novel framework for indexing multisensory integration in the context of continuous speech."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Specifically, we examine how the temporal and contextual congruency of ongoing audiovisual speech affects the cortical encoding of the speech envelope in humans using electroencephalography."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "We demonstrate that the cortical representation of the speech envelope is enhanced by the presentation of congruent audiovisual speech in noise-free conditions."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Furthermore, we show that this is likely attributable to the contribution of neural generators that are not particularly active during unimodal stimulation and that it is most prominent at the temporal scale corresponding to syllabic rate (2-6 Hz)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 10,
+              "sentence": "This is because the speaker's facial movements relay information about what the speaker is saying, but also, importantly, when the speaker is saying it."
+            },
+            {
+              "new_index": 7,
+              "original_index": 11,
+              "sentence": "Studying how the brain uses this timing relationship to combine information from continuous auditory and visual speech has traditionally been methodologically difficult."
+            },
+            {
+              "new_index": 8,
+              "original_index": 12,
+              "sentence": "Here we introduce a new approach for doing this using relatively inexpensive and noninvasive scalp recordings."
+            },
+            {
+              "new_index": 9,
+              "original_index": 14,
+              "sentence": "Furthermore, we show that this enhancement is most pronounced at a time scale that corresponds to mean syllable length."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6955746,
+          "original_index": 3,
+          "sentence": "In particular, the phase of the 2-7 Hz delta and theta band responses carries robust (in single trials) and usable information (for parsing the temporal structure) about stimulus dynamics in both sensory modalities concurrently.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 1,
+          "sentence": "When incongruent auditory and visual information is presented concurrently, it can hinder a listener's perception and even cause him or her to perceive information that was not presented in either modality.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 3,
+          "sentence": "Recent electrophysiological studies have demonstrated that cortical response measures to continuous auditory speech can be easily obtained using multivariate analysis methods.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 8,
+          "sentence": "Finally, our data suggest that neural entrainment to the speech envelope is inhibited when the auditory and visual streams are incongruent both temporally and contextually.   ",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 9,
+          "sentence": "SIGNIFICANCE STATEMENT Seeing a speaker's face as he or she talks can greatly help in understanding what the speaker is saying.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 13,
+          "sentence": "Specifically, we show that the brain's representation of auditory speech is enhanced when the accompanying visual speech signal shares the same timing.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_5_groups",
+      "dropped_group_ids": [
+        "g1",
+        "g2",
+        "g0",
+        "g4",
+        "g5"
+      ],
+      "claim": "Auditory entrainment is strengthened when people see congruent visual and auditory information.",
+      "evidence": [
+        {
+          "doc_id": 14437255,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "UNLABELLED Congruent audiovisual speech enhances our ability to comprehend a speaker, even in noise-free conditions.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "When incongruent auditory and visual information is presented concurrently, it can hinder a listener's perception and even cause him or her to perceive information that was not presented in either modality.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "We demonstrate that the cortical representation of the speech envelope is enhanced by the presentation of congruent audiovisual speech in noise-free conditions.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Finally, our data suggest that neural entrainment to the speech envelope is inhibited when the auditory and visual streams are incongruent both temporally and contextually.   ",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "SIGNIFICANCE STATEMENT Seeing a speaker's face as he or she talks can greatly help in understanding what the speaker is saying.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT",
+          "original_index": 13,
+          "sentence": "Specifically, we show that the brain's representation of auditory speech is enhanced when the accompanying visual speech signal shares the same timing.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6955746,
+          "title": "Auditory Cortex Tracks Both Auditory and Visual Stimulus Dynamics Using Low-Frequency Neuronal Phase Modulation",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Integrating information across sensory domains to construct a unified representation of multi-sensory signals is a fundamental characteristic of perception in ecological contexts."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "One provocative hypothesis deriving from neurophysiology suggests that there exists early and direct cross-modal phase modulation."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We provide evidence, based on magnetoencephalography (MEG) recordings from participants viewing audiovisual movies, that low-frequency neuronal information lies at the basis of the synergistic coordination of information across auditory and visual streams."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "These experiments are the first to show in humans that a particular cortical mechanism, delta-theta phase modulation across early sensory areas, plays an important \"active\" role in continuously tracking naturalistic audio-visual streams, carrying dynamic multi-sensory information, and reflecting cross-sensory interaction in real time."
+            }
+          ]
+        },
+        {
+          "doc_id": 14437255,
+          "title": "Congruent Visual Speech Enhances Cortical Entrainment to Continuous Auditory Speech in Noise-Free Conditions.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 2,
+              "sentence": "Efforts to investigate the neural basis of these effects have often focused on the special case of discrete audiovisual syllables that are spatially and temporally congruent, with less work done on the case of natural, continuous speech."
+            },
+            {
+              "new_index": 1,
+              "original_index": 3,
+              "sentence": "Recent electrophysiological studies have demonstrated that cortical response measures to continuous auditory speech can be easily obtained using multivariate analysis methods."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Here, we apply such methods to the case of audiovisual speech and, importantly, present a novel framework for indexing multisensory integration in the context of continuous speech."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Specifically, we examine how the temporal and contextual congruency of ongoing audiovisual speech affects the cortical encoding of the speech envelope in humans using electroencephalography."
+            },
+            {
+              "new_index": 4,
+              "original_index": 7,
+              "sentence": "Furthermore, we show that this is likely attributable to the contribution of neural generators that are not particularly active during unimodal stimulation and that it is most prominent at the temporal scale corresponding to syllabic rate (2-6 Hz)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 8,
+              "sentence": "Finally, our data suggest that neural entrainment to the speech envelope is inhibited when the auditory and visual streams are incongruent both temporally and contextually.   "
+            },
+            {
+              "new_index": 6,
+              "original_index": 10,
+              "sentence": "This is because the speaker's facial movements relay information about what the speaker is saying, but also, importantly, when the speaker is saying it."
+            },
+            {
+              "new_index": 7,
+              "original_index": 11,
+              "sentence": "Studying how the brain uses this timing relationship to combine information from continuous auditory and visual speech has traditionally been methodologically difficult."
+            },
+            {
+              "new_index": 8,
+              "original_index": 14,
+              "sentence": "Furthermore, we show that this enhancement is most pronounced at a time scale that corresponds to mean syllable length."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6955746,
+          "original_index": 3,
+          "sentence": "In particular, the phase of the 2-7 Hz delta and theta band responses carries robust (in single trials) and usable information (for parsing the temporal structure) about stimulus dynamics in both sensory modalities concurrently.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 0,
+          "sentence": "UNLABELLED Congruent audiovisual speech enhances our ability to comprehend a speaker, even in noise-free conditions.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 1,
+          "sentence": "When incongruent auditory and visual information is presented concurrently, it can hinder a listener's perception and even cause him or her to perceive information that was not presented in either modality.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 6,
+          "sentence": "We demonstrate that the cortical representation of the speech envelope is enhanced by the presentation of congruent audiovisual speech in noise-free conditions.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 9,
+          "sentence": "SIGNIFICANCE STATEMENT Seeing a speaker's face as he or she talks can greatly help in understanding what the speaker is saying.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 12,
+          "sentence": "Here we introduce a new approach for doing this using relatively inexpensive and noninvasive scalp recordings.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 13,
+          "sentence": "Specifically, we show that the brain's representation of auditory speech is enhanced when the accompanying visual speech signal shares the same timing.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "claim": "Auditory entrainment is strengthened when people see congruent visual and auditory information.",
+      "evidence": [
+        {
+          "doc_id": 14437255,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "UNLABELLED Congruent audiovisual speech enhances our ability to comprehend a speaker, even in noise-free conditions.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "When incongruent auditory and visual information is presented concurrently, it can hinder a listener's perception and even cause him or her to perceive information that was not presented in either modality.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "We demonstrate that the cortical representation of the speech envelope is enhanced by the presentation of congruent audiovisual speech in noise-free conditions.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Finally, our data suggest that neural entrainment to the speech envelope is inhibited when the auditory and visual streams are incongruent both temporally and contextually.   ",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "SIGNIFICANCE STATEMENT Seeing a speaker's face as he or she talks can greatly help in understanding what the speaker is saying.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 14437255,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT",
+          "original_index": 13,
+          "sentence": "Specifically, we show that the brain's representation of auditory speech is enhanced when the accompanying visual speech signal shares the same timing.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 6955746,
+          "title": "Auditory Cortex Tracks Both Auditory and Visual Stimulus Dynamics Using Low-Frequency Neuronal Phase Modulation",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Integrating information across sensory domains to construct a unified representation of multi-sensory signals is a fundamental characteristic of perception in ecological contexts."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "One provocative hypothesis deriving from neurophysiology suggests that there exists early and direct cross-modal phase modulation."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We provide evidence, based on magnetoencephalography (MEG) recordings from participants viewing audiovisual movies, that low-frequency neuronal information lies at the basis of the synergistic coordination of information across auditory and visual streams."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "These experiments are the first to show in humans that a particular cortical mechanism, delta-theta phase modulation across early sensory areas, plays an important \"active\" role in continuously tracking naturalistic audio-visual streams, carrying dynamic multi-sensory information, and reflecting cross-sensory interaction in real time."
+            }
+          ]
+        },
+        {
+          "doc_id": 14437255,
+          "title": "Congruent Visual Speech Enhances Cortical Entrainment to Continuous Auditory Speech in Noise-Free Conditions.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 2,
+              "sentence": "Efforts to investigate the neural basis of these effects have often focused on the special case of discrete audiovisual syllables that are spatially and temporally congruent, with less work done on the case of natural, continuous speech."
+            },
+            {
+              "new_index": 1,
+              "original_index": 3,
+              "sentence": "Recent electrophysiological studies have demonstrated that cortical response measures to continuous auditory speech can be easily obtained using multivariate analysis methods."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Here, we apply such methods to the case of audiovisual speech and, importantly, present a novel framework for indexing multisensory integration in the context of continuous speech."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Specifically, we examine how the temporal and contextual congruency of ongoing audiovisual speech affects the cortical encoding of the speech envelope in humans using electroencephalography."
+            },
+            {
+              "new_index": 4,
+              "original_index": 10,
+              "sentence": "This is because the speaker's facial movements relay information about what the speaker is saying, but also, importantly, when the speaker is saying it."
+            },
+            {
+              "new_index": 5,
+              "original_index": 11,
+              "sentence": "Studying how the brain uses this timing relationship to combine information from continuous auditory and visual speech has traditionally been methodologically difficult."
+            },
+            {
+              "new_index": 6,
+              "original_index": 12,
+              "sentence": "Here we introduce a new approach for doing this using relatively inexpensive and noninvasive scalp recordings."
+            },
+            {
+              "new_index": 7,
+              "original_index": 14,
+              "sentence": "Furthermore, we show that this enhancement is most pronounced at a time scale that corresponds to mean syllable length."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 6955746,
+          "original_index": 3,
+          "sentence": "In particular, the phase of the 2-7 Hz delta and theta band responses carries robust (in single trials) and usable information (for parsing the temporal structure) about stimulus dynamics in both sensory modalities concurrently.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 0,
+          "sentence": "UNLABELLED Congruent audiovisual speech enhances our ability to comprehend a speaker, even in noise-free conditions.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 1,
+          "sentence": "When incongruent auditory and visual information is presented concurrently, it can hinder a listener's perception and even cause him or her to perceive information that was not presented in either modality.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 6,
+          "sentence": "We demonstrate that the cortical representation of the speech envelope is enhanced by the presentation of congruent audiovisual speech in noise-free conditions.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 7,
+          "sentence": "Furthermore, we show that this is likely attributable to the contribution of neural generators that are not particularly active during unimodal stimulation and that it is most prominent at the temporal scale corresponding to syllabic rate (2-6 Hz).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 8,
+          "sentence": "Finally, our data suggest that neural entrainment to the speech envelope is inhibited when the auditory and visual streams are incongruent both temporally and contextually.   ",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 9,
+          "sentence": "SIGNIFICANCE STATEMENT Seeing a speaker's face as he or she talks can greatly help in understanding what the speaker is saying.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 14437255,
+          "original_index": 13,
+          "sentence": "Specifically, we show that the brain's representation of auditory speech is enhanced when the accompanying visual speech signal shares the same timing.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": 1325,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Treatment with the EC uptake inhibitor AM404 resulted in a dose-dependent decrease in the expression of immobility.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 40476126,
+          "title": "Functional role of high-affinity anandamide transport, as revealed by selective inhibition.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Anandamide, an endogenous ligand for central cannabinoid receptors, is released from neurons on depolarization and rapidly inactivated."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Anandamide inactivation is not completely understood, but it may occur by transport into cells or by enzymatic hydrolysis."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "The compound N-(4-hydroxyphenyl)arachidonylamide (AM404) was shown to inhibit high-affinity anandamide accumulation in rat neurons and astrocytes in vitro, an indication that this accumulation resulted from carrier-mediated transport."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Although AM404 did not activate cannabinoid receptors or inhibit anandamide hydrolysis, it enhanced receptor-mediated anandamide responses in vitro and in vivo."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "The data indicate that carrier-mediated transport may be essential for termination of the biological effects of anandamide, and may represent a potential drug target."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

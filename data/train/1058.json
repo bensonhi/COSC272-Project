@@ -1,0 +1,93 @@
+{
+  "id": 1058,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Roughly 55% of women with chronic pelvic pain have no underlying pathology.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 13027590,
+          "title": "Laparoscopic uterosacral nerve ablation for alleviating chronic pelvic pain: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Chronic pelvic pain is a common condition with a major effect on health-related quality of life, work productivity, and health care use."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Operative interruption of nerve trunks in the uterosacral ligaments by laparoscopic uterosacral nerve ablation (LUNA) is a treatment option for patients with chronic pelvic pain.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To assess the effectiveness of LUNA in patients with chronic pelvic pain.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Randomized controlled trial of 487 women with chronic pelvic pain lasting longer than 6 months without or with minimal endometriosis, adhesions, or pelvic inflammatory disease, who were recruited to the study by consultant gynecological surgeons from 18 UK hospitals between February 1998 and December 2005."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Follow-up was conducted by questionnaires mailed at 3 and 6 months and at 1, 2, 3, and 5 years.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "INTERVENTION Bilateral LUNA or laparoscopy without pelvic denervation (no LUNA); participants were blinded to the treatment allocation.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "MAIN OUTCOME MEASURES"
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "The primary outcome was pain, which was assessed by a visual analogue scale."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Data concerning the 3 types of pain (noncyclical pain, dysmenorrhea, and dyspareunia) were analyzed separately as was the worst pain level experienced from any of these 3 types of pain."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "The secondary outcome was health-related quality of life, which was measured using a generic instrument (EuroQoL EQ-5D and EQ-VAS).   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "RESULTS After a median follow-up of 69 months, there were no significant differences reported on the visual analogue pain scales for the worst pain (mean difference between the LUNA group and the no LUNA group, -0.04 cm [95% confidence interval {CI}, -0.33 to 0.25 cm]; P = .80), noncyclical pain (-0.11 cm [95% CI, -0.50 to 0.29 cm]; P = .60), dysmenorrhea (-0.09 cm [95% CI, -0.49 to 0.30 cm]; P = .60), or dyspareunia (0.18 cm [95% CI, -0.22 to 0.62 cm]; P = .40)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "No differences were observed between the LUNA group and the no LUNA group for quality of life.   \n"
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "CONCLUSION Among women with chronic pelvic pain, LUNA did not result in improvements in pain, dysmenorrhea, dyspareunia, or quality of life compared with laparoscopy without pelvic denervation.   \n"
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "TRIAL REGISTRATION controlled-trials.com Identifier: ISRCTN41196151."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

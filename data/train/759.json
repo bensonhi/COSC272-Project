@@ -1,0 +1,225 @@
+{
+  "id": 759,
+  "origin": "dev",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Mathematical models predict that using Artemisinin-based combination therapy over nongametocytocidal drugs have a dramatic impact in reducing malaria transmission.",
+      "evidence": [
+        {
+          "doc_id": 1805641,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 13,
+          "sentence": "An efficacious antimalarial regimen with no specific gametocytocidal properties but a long prophylactic time was estimated to be more effective at reducing transmission than a short-acting ACT in the highest-transmission setting.   \n",
+          "kept": true,
+          "new_index": 13
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1805641,
+          "title": "Modelling the Impact of Artemisinin Combination Therapy and Long-Acting Treatments on Malaria Transmission Intensity",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Artemisinin derivatives used in recently introduced combination therapies (ACTs) for Plasmodium falciparum malaria significantly lower patient infectiousness and have the potential to reduce population-level transmission of the parasite."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "With the increased interest in malaria elimination, understanding the impact on transmission of ACT and other antimalarial drugs with different pharmacodynamics becomes a key issue."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "This study estimates the reduction in transmission that may be achieved by introducing different types of treatment for symptomatic P. falciparum malaria in endemic areas.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "METHODS AND FINDINGS We developed a mathematical model to predict the potential impact on transmission outcomes of introducing ACT as first-line treatment for uncomplicated malaria in six areas of varying transmission intensity in Tanzania."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We also estimated the impact that could be achieved by antimalarials with different efficacy, prophylactic time, and gametocytocidal effects."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Rates of treatment, asymptomatic infection, and symptomatic infection in the six study areas were estimated using the model together with data from a cross-sectional survey of 5,667 individuals conducted prior to policy change from sulfadoxine-pyrimethamine to ACT."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "The effects of ACT and other drug types on gametocytaemia and infectiousness to mosquitoes were independently estimated from clinical trial data."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Predicted percentage reductions in prevalence of infection and incidence of clinical episodes achieved by ACT were highest in the areas with low initial transmission."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "A 53% reduction in prevalence of infection was seen if 100% of current treatment was switched to ACT in the area where baseline slide-prevalence of parasitaemia was lowest (3.7%), compared to an 11% reduction in the highest-transmission setting (baseline slide prevalence = 57.1%)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Estimated percentage reductions in incidence of clinical episodes were similar."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "The absolute size of the public health impact, however, was greater in the highest-transmission area, with 54 clinical episodes per 100 persons per year averted compared to five per 100 persons per year in the lowest-transmission area."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "High coverage was important."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "Reducing presumptive treatment through improved diagnosis substantially reduced the number of treatment courses required per clinical episode averted in the lower-transmission settings although there was some loss of overall impact on transmission."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "An efficacious antimalarial regimen with no specific gametocytocidal properties but a long prophylactic time was estimated to be more effective at reducing transmission than a short-acting ACT in the highest-transmission setting.   \n"
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "CONCLUSIONS Our results suggest that ACTs have the potential for transmission reductions approaching those achieved by insecticide-treated nets in lower-transmission settings."
+            },
+            {
+              "new_index": 15,
+              "original_index": 15,
+              "sentence": "ACT partner drugs and nonartemisinin regimens with longer prophylactic times could result in a larger impact in higher-transmission settings, although their long term benefit must be evaluated in relation to the risk of development of parasite resistance."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Mathematical models predict that using Artemisinin-based combination therapy over nongametocytocidal drugs have a dramatic impact in reducing malaria transmission.",
+      "evidence": [
+        {
+          "doc_id": 1805641,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 13,
+          "sentence": "An efficacious antimalarial regimen with no specific gametocytocidal properties but a long prophylactic time was estimated to be more effective at reducing transmission than a short-acting ACT in the highest-transmission setting.   \n",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1805641,
+          "title": "Modelling the Impact of Artemisinin Combination Therapy and Long-Acting Treatments on Malaria Transmission Intensity",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Artemisinin derivatives used in recently introduced combination therapies (ACTs) for Plasmodium falciparum malaria significantly lower patient infectiousness and have the potential to reduce population-level transmission of the parasite."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "With the increased interest in malaria elimination, understanding the impact on transmission of ACT and other antimalarial drugs with different pharmacodynamics becomes a key issue."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "This study estimates the reduction in transmission that may be achieved by introducing different types of treatment for symptomatic P. falciparum malaria in endemic areas.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "METHODS AND FINDINGS We developed a mathematical model to predict the potential impact on transmission outcomes of introducing ACT as first-line treatment for uncomplicated malaria in six areas of varying transmission intensity in Tanzania."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We also estimated the impact that could be achieved by antimalarials with different efficacy, prophylactic time, and gametocytocidal effects."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Rates of treatment, asymptomatic infection, and symptomatic infection in the six study areas were estimated using the model together with data from a cross-sectional survey of 5,667 individuals conducted prior to policy change from sulfadoxine-pyrimethamine to ACT."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "Predicted percentage reductions in prevalence of infection and incidence of clinical episodes achieved by ACT were highest in the areas with low initial transmission."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "A 53% reduction in prevalence of infection was seen if 100% of current treatment was switched to ACT in the area where baseline slide-prevalence of parasitaemia was lowest (3.7%), compared to an 11% reduction in the highest-transmission setting (baseline slide prevalence = 57.1%)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 9,
+              "sentence": "Estimated percentage reductions in incidence of clinical episodes were similar."
+            },
+            {
+              "new_index": 9,
+              "original_index": 10,
+              "sentence": "The absolute size of the public health impact, however, was greater in the highest-transmission area, with 54 clinical episodes per 100 persons per year averted compared to five per 100 persons per year in the lowest-transmission area."
+            },
+            {
+              "new_index": 10,
+              "original_index": 11,
+              "sentence": "High coverage was important."
+            },
+            {
+              "new_index": 11,
+              "original_index": 14,
+              "sentence": "CONCLUSIONS Our results suggest that ACTs have the potential for transmission reductions approaching those achieved by insecticide-treated nets in lower-transmission settings."
+            },
+            {
+              "new_index": 12,
+              "original_index": 15,
+              "sentence": "ACT partner drugs and nonartemisinin regimens with longer prophylactic times could result in a larger impact in higher-transmission settings, although their long term benefit must be evaluated in relation to the risk of development of parasite resistance."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 1805641,
+          "original_index": 6,
+          "sentence": "The effects of ACT and other drug types on gametocytaemia and infectiousness to mosquitoes were independently estimated from clinical trial data.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 1805641,
+          "original_index": 12,
+          "sentence": "Reducing presumptive treatment through improved diagnosis substantially reduced the number of treatment courses required per clinical episode averted in the lower-transmission settings although there was some loss of overall impact on transmission.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 1805641,
+          "original_index": 13,
+          "sentence": "An efficacious antimalarial regimen with no specific gametocytocidal properties but a long prophylactic time was estimated to be more effective at reducing transmission than a short-acting ACT in the highest-transmission setting.   \n",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

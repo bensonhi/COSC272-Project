@@ -1,0 +1,164 @@
+{
+  "id": 279,
+  "origin": "dev",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Commelina yellow mottle virus' (ComYMV) genome consists of 7489 baise pairs.",
+      "evidence": [
+        {
+          "doc_id": 14376683,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Analysis of the genome sequence indicates that the genome is 7489 bp in size and that the transcribed strand contains three open reading frames capable of encoding proteins of 23, 15 and 216 kd.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 14376683,
+          "title": "Properties of Commelina yellow mottle virus's complete DNA sequence, genomic discontinuities and transcript suggest that it is a pararetrovirus.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The non-enveloped bacilliform viruses are the second group of plant viruses known to possess a genome consisting of circular double-stranded DNA."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We have characterized the viral transcript and determined the complete sequence of the genome of Commelina mellow mottle virus (CoYMV), a member of this group."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Analysis of the viral transcript indicates that the virus encodes a single terminally-redundant genome-length plus 120 nucleotide transcript."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "A fraction of the transcripts is polyadenylated, although the majority of the transcript is not polyadenylated."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Analysis of the genome sequence indicates that the genome is 7489 bp in size and that the transcribed strand contains three open reading frames capable of encoding proteins of 23, 15 and 216 kd."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "The function of the 25 and 15 kd proteins is unknown."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Similarities between the 216 kd polypeptide and the cauliflower mosaic virus coat protein and protease/reverse transcriptase polyprotein suggest that the 216 kd polypeptide is a polyprotein that is proteolytically processed to yield the virion coat protein, a protease, and replicase (reverse transcriptase and ribonuclease H)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Each strand of the CoYMV genome is interrupted by site-specific discontinuities."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "The locations of the 5'-ends of these discontinuities, and the presence and location of a region on the CoYMV transcript capable of annealing with the 3'-end of cytosolic initiator methionine tRNA are consistent with replication by reverse transcription."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "We have demonstrated that a construct containing 1.3 CoYMV genomes is infective when introduced into Commelina diffusa, the host for CoYMV, using Agrobacterium-mediated infection."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Commelina yellow mottle virus' (ComYMV) genome consists of 7489 baise pairs.",
+      "evidence": [
+        {
+          "doc_id": 14376683,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Analysis of the genome sequence indicates that the genome is 7489 bp in size and that the transcribed strand contains three open reading frames capable of encoding proteins of 23, 15 and 216 kd.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 14376683,
+          "title": "Properties of Commelina yellow mottle virus's complete DNA sequence, genomic discontinuities and transcript suggest that it is a pararetrovirus.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "We have characterized the viral transcript and determined the complete sequence of the genome of Commelina mellow mottle virus (CoYMV), a member of this group."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Analysis of the viral transcript indicates that the virus encodes a single terminally-redundant genome-length plus 120 nucleotide transcript."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "A fraction of the transcripts is polyadenylated, although the majority of the transcript is not polyadenylated."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "The function of the 25 and 15 kd proteins is unknown."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Similarities between the 216 kd polypeptide and the cauliflower mosaic virus coat protein and protease/reverse transcriptase polyprotein suggest that the 216 kd polypeptide is a polyprotein that is proteolytically processed to yield the virion coat protein, a protease, and replicase (reverse transcriptase and ribonuclease H)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Each strand of the CoYMV genome is interrupted by site-specific discontinuities."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "The locations of the 5'-ends of these discontinuities, and the presence and location of a region on the CoYMV transcript capable of annealing with the 3'-end of cytosolic initiator methionine tRNA are consistent with replication by reverse transcription."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "We have demonstrated that a construct containing 1.3 CoYMV genomes is infective when introduced into Commelina diffusa, the host for CoYMV, using Agrobacterium-mediated infection."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 14376683,
+          "original_index": 0,
+          "sentence": "The non-enveloped bacilliform viruses are the second group of plant viruses known to possess a genome consisting of circular double-stranded DNA.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 14376683,
+          "original_index": 4,
+          "sentence": "Analysis of the genome sequence indicates that the genome is 7489 bp in size and that the transcribed strand contains three open reading frames capable of encoding proteins of 23, 15 and 216 kd.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

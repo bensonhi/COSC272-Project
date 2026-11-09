@@ -1,0 +1,48 @@
+{
+  "id": 350,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Discrimination between the initiator and elongation tRNAs depends on the translation initiation factor IF3.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 16927286,
+          "title": "Large-Scale Movements of IF3 and tRNA during Bacterial Translation Initiation",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "In bacterial translational initiation, three initiation factors (IFs 1-3) enable the selection of initiator tRNA and the start codon in the P site of the 30S ribosomal subunit."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here, we report 11 single-particle cryo-electron microscopy (cryoEM) reconstructions of the complex of bacterial 30S subunit with initiator tRNA, mRNA, and IFs 1-3, representing different steps along the initiation pathway."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "IF1 provides key anchoring points for IF2 and IF3, thereby enhancing their activities."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "IF2 positions a domain in an extended conformation appropriate for capturing the formylmethionyl moiety charged on tRNA."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "IF3 and tRNA undergo large conformational changes to facilitate the accommodation of the formylmethionyl-tRNA (fMet-tRNA(fMet)) into the P site for start codon recognition."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

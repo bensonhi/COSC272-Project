@@ -1,0 +1,97 @@
+{
+  "id": 1157,
+  "origin": "train_more",
+  "claim": "The DESMOND program demonstrates no significant impact on biochemical outcomes.",
+  "evidence": [
+    {
+      "doc_id": 12584053,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 9,
+      "sentence": "After adjusting for baseline and cluster the difference was not significant (difference -0.02, 95% confidence interval -0.22 to 0.17)."
+    },
+    {
+      "doc_id": 12584053,
+      "group_id": "g1",
+      "evidence_label": "SUPPORT",
+      "original_index": 10,
+      "sentence": "The groups did not differ for the other biomedical and lifestyle outcomes and drug use."
+    },
+    {
+      "doc_id": 12584053,
+      "group_id": "g2",
+      "evidence_label": "SUPPORT",
+      "original_index": 13,
+      "sentence": "CONCLUSION A single programme for people with newly diagnosed type 2 diabetes mellitus showed no difference in biomedical or lifestyle outcomes at three years although there were sustained improvements in some illness beliefs.   \n"
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 12584053,
+      "title": "Effectiveness of a diabetes education and self management programme (DESMOND) for people with newly diagnosed type 2 diabetes mellitus: three year follow-up of a cluster randomised controlled trial in primary care",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "OBJECTIVE To measure whether the benefits of a single education and self management structured programme for people with newly diagnosed type 2 diabetes mellitus are sustained at three years.   \n"
+        },
+        {
+          "original_index": 1,
+          "sentence": "DESIGN Three year follow-up of a multicentre cluster randomised controlled trial in primary care, with randomisation at practice level.   \n"
+        },
+        {
+          "original_index": 2,
+          "sentence": "SETTING 207 general practices in 13 primary care sites in the United Kingdom.   \n"
+        },
+        {
+          "original_index": 3,
+          "sentence": "PARTICIPANTS 731 of the 824 participants included in the original trial were eligible for follow-up."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Biomedical data were collected on 604 (82.6%) and questionnaire data on 513 (70.1%) participants.   \n"
+        },
+        {
+          "original_index": 5,
+          "sentence": "INTERVENTION A structured group education programme for six hours delivered in the community by two trained healthcare professional educators compared with usual care.   \n"
+        },
+        {
+          "original_index": 6,
+          "sentence": "MAIN OUTCOME MEASURES The primary outcome was glycated haemoglobin (HbA(1c)) levels."
+        },
+        {
+          "original_index": 7,
+          "sentence": "The secondary outcomes were blood pressure, weight, blood lipid levels, smoking status, physical activity, quality of life, beliefs about illness, depression, emotional impact of diabetes, and drug use at three years.   \n"
+        },
+        {
+          "original_index": 8,
+          "sentence": "RESULTS HbA(1c) levels at three years had decreased in both groups."
+        },
+        {
+          "original_index": 9,
+          "sentence": "After adjusting for baseline and cluster the difference was not significant (difference -0.02, 95% confidence interval -0.22 to 0.17)."
+        },
+        {
+          "original_index": 10,
+          "sentence": "The groups did not differ for the other biomedical and lifestyle outcomes and drug use."
+        },
+        {
+          "original_index": 11,
+          "sentence": "The significant benefits in the intervention group across four out of five health beliefs seen at 12 months were sustained at three years (P<0.01)."
+        },
+        {
+          "original_index": 12,
+          "sentence": "Depression scores and quality of life did not differ at three years.   \n"
+        },
+        {
+          "original_index": 13,
+          "sentence": "CONCLUSION A single programme for people with newly diagnosed type 2 diabetes mellitus showed no difference in biomedical or lifestyle outcomes at three years although there were sustained improvements in some illness beliefs.   \n"
+        },
+        {
+          "original_index": 14,
+          "sentence": "TRIAL REGISTRATION Current Controlled Trials ISRCTN17844016."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

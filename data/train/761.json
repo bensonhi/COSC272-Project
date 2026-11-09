@@ -1,0 +1,88 @@
+{
+  "id": 761,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "MeCP2 influences the synaptic maturation of neurons.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 10009203,
+          "title": "Structural Homeostasis: Compensatory Adjustments of Dendritic Arbor Geometry in Response to Variations of Synaptic Input ",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "As the nervous system develops, there is an inherent variability in the connections formed between differentiating neurons."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Despite this variability, neural circuits form that are functional and remarkably robust."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "One way in which neurons deal with variability in their inputs is through compensatory, homeostatic changes in their electrical properties."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Here, we show that neurons also make compensatory adjustments to their structure."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We analysed the development of dendrites on an identified central neuron (aCC) in the late Drosophila embryo at the stage when it receives its first connections and first becomes electrically active."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "At the same time, we charted the distribution of presynaptic sites on the developing postsynaptic arbor."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Genetic manipulations of the presynaptic partners demonstrate that the postsynaptic dendritic arbor adjusts its growth to compensate for changes in the activity and density of synaptic sites."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Blocking the synthesis or evoked release of presynaptic neurotransmitter results in greater dendritic extension."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Conversely, an increase in the density of presynaptic release sites induces a reduction in the extent of the dendritic arbor."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "These growth adjustments occur locally in the arbor and are the result of the promotion or inhibition of growth of neurites in the proximity of presynaptic sites."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "We provide evidence that suggest a role for the postsynaptic activity state of protein kinase A in mediating this structural adjustment, which modifies dendritic growth in response to synaptic activity."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "These findings suggest that the dendritic arbor, at least during early stages of connectivity, behaves as a homeostatic device that adjusts its size and geometry to the level and the distribution of input received."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "The growing arbor thus counterbalances naturally occurring variations in synaptic density and activity so as to ensure that an appropriate level of input is achieved."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

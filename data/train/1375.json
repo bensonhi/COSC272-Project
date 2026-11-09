@@ -1,0 +1,73 @@
+{
+  "id": 1375,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Weighed food records (WFR) result in poor completion since they're costly to run and impose high participant burden.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 21993510,
+          "title": "Accuracy of weighed dietary records in studies of diet and health.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To provide an independent evaluation of seven day weighed dietary records, which are currently accepted as the most accurate technique for assessing habitual dietary intake in studies investigating the links between diet and health.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Subjects who had previously participated in the Northern Ireland diet and health study were reselected by stratified random sampling to represent the range of energy intakes in the study as assessed by the seven day weighed dietary record.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "SETTING Northern Ireland.   "
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "SUBJECTS 31 Free living adults (16 men and 15 women).   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURES Energy intake as measured by the seven day weighed dietary record and total energy expenditure estimated concurrently by the doubly labelled water technique.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "RESULTS Average recorded energy intakes were significantly lower than measured expenditure in the group overall (9.66 MJ/day v 12.15 MJ/day, 95% confidence interval 1.45 to 3.53 MJ/day)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Among those in the upper third of energy intakes the mean (SE) ratio of intake to expenditure was close to 1.0, indicating accurate records (men 1.01 (0.11), women 0.96 (0.08]."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "In the middle and lower thirds the ratios for men were only 0.74 (0.05) and 0.70 (0.07) respectively and for women 0.89 (0.07) and 0.61 (0.07).   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "CONCLUSIONS These results show a serious bias in reporting habitual energy intake."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "If substantiated they may have wide implications for the interpretation of many nutritional studies."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

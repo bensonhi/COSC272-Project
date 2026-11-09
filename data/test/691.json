@@ -1,0 +1,43 @@
+{
+  "id": 691,
+  "origin": "dev",
+  "claim": "Leukemia associated Rho guanine nucleotide-exchange factor represses RhoA in response to SRC activation.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 10991183,
+      "title": "The Rho GEFs LARG and GEF-H1 regulate the mechanical response to force on integrins",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "How individual cells respond to mechanical forces is of considerable interest to biologists as force affects many aspects of cell behaviour."
+        },
+        {
+          "original_index": 1,
+          "sentence": "The application of force on integrins triggers cytoskeletal rearrangements and growth of the associated adhesion complex, resulting in increased cellular stiffness, also known as reinforcement."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Although RhoA has been shown to play a role during reinforcement, the molecular mechanisms that regulate its activity are unknown."
+        },
+        {
+          "original_index": 3,
+          "sentence": "By combining biochemical and biophysical approaches, we identified two guanine nucleotide exchange factors (GEFs), LARG and GEF-H1, as key molecules that regulate the cellular adaptation to force."
+        },
+        {
+          "original_index": 4,
+          "sentence": "We show that stimulation of integrins with tensional force triggers activation of these two GEFs and their recruitment to adhesion complexes."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Surprisingly, activation of LARG and GEF-H1 involves distinct signalling pathways."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Our results reveal that LARG is activated by the Src family tyrosine kinase Fyn, whereas GEF-H1 catalytic activity is enhanced by ERK downstream of a signalling cascade that includes FAK and Ras."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

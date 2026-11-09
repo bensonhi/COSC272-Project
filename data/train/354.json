@@ -1,0 +1,58 @@
+{
+  "id": 354,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Downregulation and mislocalization of Scribble prevents cell transformation and mammary tumorigenesis.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 8774475,
+          "title": "Deregulation of Scribble Promotes Mammary Tumorigenesis and Reveals a Role for Cell Polarity in Carcinoma",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Loss of cell polarity proteins such as Scribble induces neoplasia in Drosophila by promoting uncontrolled proliferation."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "In mammals, the role that polarity proteins play during tumorigenesis is not well understood."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here, we demonstrate that depletion of Scribble in mammary epithelia disrupts cell polarity, blocks three-dimensional morphogenesis, inhibits apoptosis, and induces dysplasia in vivo that progress to tumors after long latency."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Loss of Scribble cooperates with oncogenes such as c-myc to transform epithelial cells and induce tumors in vivo by blocking activation of an apoptosis pathway."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Like depletion, mislocalization of Scribble from cell-cell junction was sufficient to promote cell transformation."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Interestingly, spontaneous mammary tumors in mice and humans possess both downregulated and mislocalized Scribble."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Thus, we demonstrate that scribble inhibits breast cancer formation and that deregulation of polarity pathways promotes dysplastic and neoplastic growth in mammals by disrupting morphogenesis and inhibiting cell death."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 73,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Activator-inhibitor pairs are provided ventrally by Xrl-sizzled.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 6076903,
+          "title": "Regulation of ADMP and BMP2/4/7 at Opposite Embryonic Poles Generates a Self-Regulating Morphogenetic Field",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Embryos have the ability to self-regulate and regenerate normal structures after being sectioned in half."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "How is such a morphogenetic field established?"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We discovered that quadruple knockdown of ADMP and BMP2/4/7 in Xenopus embryos eliminates self-regulation, causing ubiquitous neural induction throughout the ectoderm."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "ADMP transcription in the Spemann organizer is activated at low BMP levels."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "When ventral BMP2/4/7 signals are depleted, Admp expression increases, allowing for self-regulation."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "ADMP has BMP-like activity and signals via the ALK-2 receptor."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "It is unable to signal dorsally because of inhibition by Chordin."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "The ventral BMP antagonists Sizzled and Bambi further refine the pattern."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "By transplanting dorsal or ventral wild-type grafts into ADMP/BMP2/4/7-depleted hosts, we demonstrate that both poles serve as signaling centers that can induce histotypic differentiation over considerable distances."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "We conclude that dorsal and ventral BMP signals and their extracellular antagonists expressed under opposing transcriptional regulation provide a molecular mechanism for embryonic self-regulation."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

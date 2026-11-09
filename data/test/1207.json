@@ -1,0 +1,43 @@
+{
+  "id": 1207,
+  "origin": "dev",
+  "claim": "The composition of myosin-II isoform switches from the polarizable B isoform to the more homogenous A isoform during hematopoietic differentiation.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 18909530,
+      "title": "Contractile forces sustain and polarize hematopoiesis from stem and progenitor cells.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Self-renewal and differentiation of stem cells depend on asymmetric division and polarized motility processes that in other cell types are modulated by nonmuscle myosin-II (MII) forces and matrix mechanics."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Here, mass spectrometry-calibrated intracellular flow cytometry of human hematopoiesis reveals MIIB to be a major isoform that is strongly polarized in hematopoietic stem cells and progenitors (HSC/Ps) and thereby downregulated in differentiated cells via asymmetric division."
+        },
+        {
+          "original_index": 2,
+          "sentence": "MIIA is constitutive and activated by dephosphorylation during cytokine-triggered differentiation of cells grown on stiff, endosteum-like matrix, but not soft, marrow-like matrix."
+        },
+        {
+          "original_index": 3,
+          "sentence": "In vivo, MIIB is required for generation of blood, while MIIA is required for sustained HSC/P engraftment."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Reversible inhibition of both isoforms in culture with blebbistatin enriches for long-term hematopoietic multilineage reconstituting cells by 5-fold or more as assessed in vivo."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Megakaryocytes also become more polyploid, producing 4-fold more platelets."
+        },
+        {
+          "original_index": 6,
+          "sentence": "MII is thus a multifunctional node in polarized division and niche sensing."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

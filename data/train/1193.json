@@ -1,0 +1,58 @@
+{
+  "id": 1193,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The appearance of brown-like or beige cells primarily occurs in visceral fat, not subcutaneous fat.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 20532591,
+          "title": "Tracking adipogenesis during white adipose tissue development, expansion and regeneration",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "White adipose tissue displays high plasticity."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We developed a system for the inducible, permanent labeling of mature adipocytes that we called the AdipoChaser mouse."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We monitored adipogenesis during development, high-fat diet (HFD) feeding and cold exposure."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "During cold-induced 'browning' of subcutaneous fat, most 'beige' adipocytes stem from de novo–differentiated adipocytes."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "During HFD feeding, epididymal fat initiates adipogenesis after 4 weeks, whereas subcutaneous fat undergoes hypertrophy for a period of up to 12 weeks."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Gonadal fat develops postnatally, whereas subcutaneous fat develops between embryonic days 14 and 18."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Our results highlight the extensive differences in adipogenic potential in various fat depots."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

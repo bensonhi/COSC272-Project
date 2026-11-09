@@ -1,0 +1,143 @@
+{
+  "id": 255,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Chlamydia trachomatis is most prevalent in the UK among individuals in their 50s and 60s.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 5850219,
+          "title": "Prevalence, risk factors, and uptake of interventions for sexually transmitted infections in Britain: findings from the National Surveys of Sexual Attitudes and Lifestyles (Natsal)",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Population-based estimates of prevalence, risk distribution, and intervention uptake inform delivery of control programmes for sexually transmitted infections (STIs)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We undertook the third National Survey of Sexual Attitudes and Lifestyles (Natsal-3) after implementation of national sexual health strategies, and describe the epidemiology of four STIs in Britain (England, Scotland, and Wales) and the uptake of interventions.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS Between Sept 6, 2010 and Aug 31, 2012"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": ", we did a probability sample survey of 15,162 women and men aged 16-74 years in Britain."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Participants were interviewed with computer-assisted face-to-face and self-completion questionnaires."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Urine from a sample of participants aged 16-44 years who reported at least one sexual partner over the lifetime was tested for the presence of Chlamydia trachomatis, type-specific human papillomavirus (HPV), Neisseria gonorrhoeae, and HIV antibody."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "We describe age-specific and sex-specific prevalences of infection and intervention uptake, in relation to demographic and behavioural factors, and explore changes since Natsal-1 (1990-91) and Natsal-2 (1999-2001).   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "FINDINGS Of 8047 eligible participants invited to provide a urine sample, 4828 (60%) agreed."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "We excluded 278 samples, leaving 4550 (94%) participants with STI test results."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Chlamydia prevalence was 1·5% (95% CI 1·1-2·0) in women and 1·1% (0·7-1·6) in men."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Prevalences in individuals aged 16-24 years were 3·1% (2·2-4·3) in women and 2·3% (1·5-3·4) in men."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Area-level deprivation and higher numbers of partners, especially without use of condoms, were risk factors."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "However, 60·4% (45·5-73·7) of chlamydia in women and 43·3% (25·9-62·5) in men was in individuals who had had one partner in the past year."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "Among sexually active 16-24-year-olds, 54·2% (51·4-56·9) of women and 34·6% (31·8-37·4) of men reported testing for chlamydia in the past year, with testing higher in those with more partners."
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "High-risk HPV was detected in 15·9% (14·4-17·5) of women, similar to in Natsal-2."
+            },
+            {
+              "new_index": 15,
+              "original_index": 15,
+              "sentence": "Coverage of HPV catch-up vaccination was 61·5% (58·2-64·7)."
+            },
+            {
+              "new_index": 16,
+              "original_index": 16,
+              "sentence": "Prevalence of HPV types 16 and 18 in women aged 18-20 years was lower in Natsal-3 than Natsal-2 (5·8% [3·9-8·6] vs 11·3% [6·8-18·2]; age-adjusted odds ratio 0·44 [0·21-0·94])."
+            },
+            {
+              "new_index": 17,
+              "original_index": 17,
+              "sentence": "Gonorrhoea (<0·1% prevalence in women and men) and HIV (0·1% prevalence in women and 0·2% in men) were uncommon and restricted to participants with recognised high-risk factors."
+            },
+            {
+              "new_index": 18,
+              "original_index": 18,
+              "sentence": "Since Natsal-2, substantial increases were noted in attendance at sexual health clinics (from 6·7% to 21·4% in women and from 7·7% to 19·6% in men) and HIV testing (from 8·7% to 27·6% in women and from 9·2% to 16·9% in men) in the past 5 years.   \n"
+            },
+            {
+              "new_index": 19,
+              "original_index": 19,
+              "sentence": "INTERPRETATION STIs were distributed heterogeneously, requiring general and infection-specific interventions."
+            },
+            {
+              "new_index": 20,
+              "original_index": 20,
+              "sentence": "Increases in testing and attendance at sexual health clinics, especially in people at highest risk, are encouraging."
+            },
+            {
+              "new_index": 21,
+              "original_index": 21,
+              "sentence": "However, STIs persist both in individuals accessing and those not accessing services."
+            },
+            {
+              "new_index": 22,
+              "original_index": 22,
+              "sentence": "Our findings provide empirical evidence to inform future sexual health interventions and services.   \n"
+            },
+            {
+              "new_index": 23,
+              "original_index": 23,
+              "sentence": "FUNDING Grants from the UK Medical Research Council and the Wellcome Trust, with support from the Economic and Social Research Council and the Department of Health."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "id": 137,
+  "origin": "dev",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Asymptomatic visual impairment screening in elderly populations does not lead to improved vision.",
+      "evidence": [
+        {
+          "doc_id": 26016929,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "The inclusion of a visual screening component in the assessment did not result in improvements in self reported visual problems (pooled odds ratio 1.04:95% confidence interval 0.89 to 1.22).",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 26016929,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "CONCLUSIONS Screening of asymptomatic older people in the community is not justified on present evidence.",
+          "kept": true,
+          "new_index": 9
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 26016929,
+          "title": "Effectiveness of screening older people for impaired vision in community setting: systematic review of evidence from randomised controlled trials.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To assess whether population screening for impaired vision among older people in the community leads to improvements in vision.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Systematic review of randomised controlled trials of population screening in the community that included any assessment of vision or visual function with at least 6 months' follow up.   "
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "SUBJECTS Adults aged 65 or over.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "MAIN OUTCOME MEASURE Proportions with visual impairment in intervention and control groups with any method of assessing visual impairment.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "RESULTS There were no trials that primarily assessed visual screening."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Outcome data on vision were available for 3494 people in five trials of multiphasic assessment."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "All the trials used self reported measures for vision impairment, both as screening tools and as outcome measures."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "The inclusion of a visual screening component in the assessment did not result in improvements in self reported visual problems (pooled odds ratio 1.04:95% confidence interval 0.89 to 1.22)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "A small reduction (11%) in the number of older people with self reported visual problems cannot be excluded.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "CONCLUSIONS Screening of asymptomatic older people in the community is not justified on present evidence."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Visual impairment in this age group can usually be reduced with treatment."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "It is unclear why no benefit was seen."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "Further work is needed to clarify what interventions are appropriate for older people with unreported impairment of vision."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Asymptomatic visual impairment screening in elderly populations does not lead to improved vision.",
+      "evidence": [
+        {
+          "doc_id": 26016929,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "The inclusion of a visual screening component in the assessment did not result in improvements in self reported visual problems (pooled odds ratio 1.04:95% confidence interval 0.89 to 1.22).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 26016929,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "CONCLUSIONS Screening of asymptomatic older people in the community is not justified on present evidence.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 26016929,
+          "title": "Effectiveness of screening older people for impaired vision in community setting: systematic review of evidence from randomised controlled trials.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To assess whether population screening for impaired vision among older people in the community leads to improvements in vision.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Systematic review of randomised controlled trials of population screening in the community that included any assessment of vision or visual function with at least 6 months' follow up.   "
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "SUBJECTS Adults aged 65 or over.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "RESULTS There were no trials that primarily assessed visual screening."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Outcome data on vision were available for 3494 people in five trials of multiphasic assessment."
+            },
+            {
+              "new_index": 5,
+              "original_index": 8,
+              "sentence": "A small reduction (11%) in the number of older people with self reported visual problems cannot be excluded.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 10,
+              "sentence": "Visual impairment in this age group can usually be reduced with treatment."
+            },
+            {
+              "new_index": 7,
+              "original_index": 11,
+              "sentence": "It is unclear why no benefit was seen."
+            },
+            {
+              "new_index": 8,
+              "original_index": 12,
+              "sentence": "Further work is needed to clarify what interventions are appropriate for older people with unreported impairment of vision."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 26016929,
+          "original_index": 3,
+          "sentence": "MAIN OUTCOME MEASURE Proportions with visual impairment in intervention and control groups with any method of assessing visual impairment.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 26016929,
+          "original_index": 6,
+          "sentence": "All the trials used self reported measures for vision impairment, both as screening tools and as outcome measures.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 26016929,
+          "original_index": 7,
+          "sentence": "The inclusion of a visual screening component in the assessment did not result in improvements in self reported visual problems (pooled odds ratio 1.04:95% confidence interval 0.89 to 1.22).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 26016929,
+          "original_index": 9,
+          "sentence": "CONCLUSIONS Screening of asymptomatic older people in the community is not justified on present evidence.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "id": 643,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Insulin effects appetite via ventral tegmental neurons.",
+      "evidence": [
+        {
+          "doc_id": 15535511,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 2,
+          "sentence": "IR inactivation in Th-expressing cells of mice resulted in increased body weight, increased fat mass, and hyperphagia.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 15535511,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "While insulin acutely stimulated firing frequency in 50% of dopaminergic VTA/SN neurons, this response was abolished in IR(ΔTh) mice.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 15535511,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Taken together, these data provide in vivo evidence for a critical role of insulin signaling in catecholaminergic neurons to control food intake and energy homeostasis.",
+          "kept": true,
+          "new_index": 5
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15535511,
+          "title": "Role for insulin signaling in catecholaminergic neurons in control of energy homeostasis.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Dopaminergic midbrain neurons integrate signals on food palatability and food-associated reward into the complex control of energy homeostasis."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "To define the role of insulin receptor (IR) signaling in this circuitry, we inactivated IR signaling in tyrosine hydroxylase (Th)-expressing cells of mice (IR(ΔTh))."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "IR inactivation in Th-expressing cells of mice resulted in increased body weight, increased fat mass, and hyperphagia."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "While insulin acutely stimulated firing frequency in 50% of dopaminergic VTA/SN neurons, this response was abolished in IR(ΔTh) mice."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Moreover, these mice exhibited an altered response to cocaine under food-restricted conditions."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Taken together, these data provide in vivo evidence for a critical role of insulin signaling in catecholaminergic neurons to control food intake and energy homeostasis."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Insulin effects appetite via ventral tegmental neurons.",
+      "evidence": [
+        {
+          "doc_id": 15535511,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 2,
+          "sentence": "IR inactivation in Th-expressing cells of mice resulted in increased body weight, increased fat mass, and hyperphagia.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 15535511,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "While insulin acutely stimulated firing frequency in 50% of dopaminergic VTA/SN neurons, this response was abolished in IR(ΔTh) mice.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 15535511,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Taken together, these data provide in vivo evidence for a critical role of insulin signaling in catecholaminergic neurons to control food intake and energy homeostasis.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15535511,
+          "title": "Role for insulin signaling in catecholaminergic neurons in control of energy homeostasis.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Dopaminergic midbrain neurons integrate signals on food palatability and food-associated reward into the complex control of energy homeostasis."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "To define the role of insulin receptor (IR) signaling in this circuitry, we inactivated IR signaling in tyrosine hydroxylase (Th)-expressing cells of mice (IR(ΔTh))."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "While insulin acutely stimulated firing frequency in 50% of dopaminergic VTA/SN neurons, this response was abolished in IR(ΔTh) mice."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Moreover, these mice exhibited an altered response to cocaine under food-restricted conditions."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Taken together, these data provide in vivo evidence for a critical role of insulin signaling in catecholaminergic neurons to control food intake and energy homeostasis."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 15535511,
+          "original_index": 2,
+          "sentence": "IR inactivation in Th-expressing cells of mice resulted in increased body weight, increased fat mass, and hyperphagia.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Insulin effects appetite via ventral tegmental neurons.",
+      "evidence": [
+        {
+          "doc_id": 15535511,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 2,
+          "sentence": "IR inactivation in Th-expressing cells of mice resulted in increased body weight, increased fat mass, and hyperphagia.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 15535511,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "While insulin acutely stimulated firing frequency in 50% of dopaminergic VTA/SN neurons, this response was abolished in IR(ΔTh) mice.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 15535511,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Taken together, these data provide in vivo evidence for a critical role of insulin signaling in catecholaminergic neurons to control food intake and energy homeostasis.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15535511,
+          "title": "Role for insulin signaling in catecholaminergic neurons in control of energy homeostasis.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Dopaminergic midbrain neurons integrate signals on food palatability and food-associated reward into the complex control of energy homeostasis."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "To define the role of insulin receptor (IR) signaling in this circuitry, we inactivated IR signaling in tyrosine hydroxylase (Th)-expressing cells of mice (IR(ΔTh))."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Moreover, these mice exhibited an altered response to cocaine under food-restricted conditions."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 15535511,
+          "original_index": 2,
+          "sentence": "IR inactivation in Th-expressing cells of mice resulted in increased body weight, increased fat mass, and hyperphagia.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 15535511,
+          "original_index": 3,
+          "sentence": "While insulin acutely stimulated firing frequency in 50% of dopaminergic VTA/SN neurons, this response was abolished in IR(ΔTh) mice.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 15535511,
+          "original_index": 5,
+          "sentence": "Taken together, these data provide in vivo evidence for a critical role of insulin signaling in catecholaminergic neurons to control food intake and energy homeostasis.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

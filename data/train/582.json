@@ -1,0 +1,98 @@
+{
+  "id": 582,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "In rhesus macaques, daily subcutaneous injections of emtricitabine are ineffective at protecting against rectally transmitted simian-human immunodeficiency virus.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 14260013,
+          "title": "Prevention of Rectal SHIV Transmission in Macaques by Daily or Intermittent Prophylaxis with Emtricitabine and Tenofovir ",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND In the absence of an effective vaccine, HIV continues to spread globally, emphasizing the need for novel strategies to limit its transmission."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Pre-exposure prophylaxis (PrEP) with antiretroviral drugs could prove to be an effective intervention strategy if highly efficacious and cost-effective PrEP modalities are identified."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We evaluated daily and intermittent PrEP regimens of increasing antiviral activity in a macaque model that closely resembles human transmission.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "METHODS AND FINDINGS We used a repeat-exposure macaque model with 14 weekly rectal virus challenges."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Three drug treatments were given once daily, each to a different group of six rhesus macaques."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Group 1 was treated subcutaneously with a human-equivalent dose of emtricitabine (FTC), group 2 received orally the human-equivalent dosing of both FTC and tenofovir-disoproxil fumarate (TDF), and group 3 received subcutaneously a similar dosing of FTC and a higher dose of tenofovir."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "A fourth group of six rhesus macaques (group 4) received intermittently a PrEP regimen similar to group 3 only 2 h before and 24 h after each weekly virus challenge."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Results were compared to 18 control macaques that did not receive any drug treatment."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "The risk of infection in macaques treated in groups 1 and 2 was 3.8- and 7.8-fold lower than in untreated macaques (p = 0.02 and p = 0.008, respectively)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "All six macaques in group 3 were protected."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Breakthrough infections had blunted acute viremias; drug resistance was seen in two of six animals."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "All six animals in group 4 that received intermittent PrEP were protected.   \n"
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "CONCLUSIONS This model suggests that single drugs for daily PrEP can be protective but a combination of antiretroviral drugs may be required to increase the level of protection."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "Short but potent intermittent PrEP can provide protection comparable to that of daily PrEP in this SHIV/macaque model."
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "These findings support PrEP trials for HIV prevention in humans and identify promising PrEP modalities."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

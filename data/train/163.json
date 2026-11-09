@@ -1,0 +1,321 @@
+{
+  "id": 163,
+  "origin": "dev",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Bariatric surgery has a positive impact on mental health.",
+      "evidence": [
+        {
+          "doc_id": 18872233,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Bariatric surgery was, however, consistently associated with postoperative decreases in the prevalence of depression (7 studies; 8%-74% decrease) and the severity of depressive symptoms (6 studies; 40%-70% decrease).   \n",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 18872233,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 12,
+          "sentence": "Moderate-quality evidence supports an association between bariatric surgery and lower rates of depression postoperatively.",
+          "kept": true,
+          "new_index": 12
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 18872233,
+          "title": "Mental Health Conditions Among Patients Seeking and Undergoing Bariatric Surgery: A Meta-analysis.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "IMPORTANCE Bariatric surgery is associated with sustained weight loss and improved physical health status for severely obese individuals."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Mental health conditions may be common among patients seeking bariatric surgery; however, the prevalence of these conditions and whether they are associated with postoperative outcomes remains unknown.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To determine the prevalence of mental health conditions among bariatric surgery candidates and recipients, to evaluate the association between preoperative mental health conditions and health outcomes following bariatric surgery, and to evaluate the association between surgery and the clinical course of mental health conditions.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DATA SOURCES We searched PubMed, MEDLINE on OVID, and PsycINFO for studies published between January 1988 and November 2015."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Study quality was assessed using an adapted tool for risk of bias; quality of evidence was rated based on GRADE (Grading of Recommendations Assessment, Development and Evaluation) criteria.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "FINDINGS We identified 68 publications meeting inclusion criteria: 59 reporting the prevalence of preoperative mental health conditions (65,363 patients) and 27 reporting associations between preoperative mental health conditions and postoperative outcomes (50,182 patients)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Among patients seeking and undergoing bariatric surgery, the most common mental health conditions, based on random-effects estimates of prevalence, were depression (19% [95% CI, 14%-25%]) and binge eating disorder (17% [95% CI, 13%-21%])."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "There was conflicting evidence regarding the association between preoperative mental health conditions and postoperative weight loss."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Neither depression nor binge eating disorder was consistently associated with differences in weight outcomes."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Bariatric surgery was, however, consistently associated with postoperative decreases in the prevalence of depression (7 studies; 8%-74% decrease) and the severity of depressive symptoms (6 studies; 40%-70% decrease).   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "CONCLUSIONS AND RELEVANCE Mental health conditions are common among bariatric surgery patients-in particular, depression and binge eating disorder."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "There is inconsistent evidence regarding the association between preoperative mental health conditions and postoperative weight loss."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "Moderate-quality evidence supports an association between bariatric surgery and lower rates of depression postoperatively."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Bariatric surgery has a positive impact on mental health.",
+      "evidence": [
+        {
+          "doc_id": 18872233,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Bariatric surgery was, however, consistently associated with postoperative decreases in the prevalence of depression (7 studies; 8%-74% decrease) and the severity of depressive symptoms (6 studies; 40%-70% decrease).   \n",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 18872233,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 12,
+          "sentence": "Moderate-quality evidence supports an association between bariatric surgery and lower rates of depression postoperatively.",
+          "kept": true,
+          "new_index": 9
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 18872233,
+          "title": "Mental Health Conditions Among Patients Seeking and Undergoing Bariatric Surgery: A Meta-analysis.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "IMPORTANCE Bariatric surgery is associated with sustained weight loss and improved physical health status for severely obese individuals."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Mental health conditions may be common among patients seeking bariatric surgery; however, the prevalence of these conditions and whether they are associated with postoperative outcomes remains unknown.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To determine the prevalence of mental health conditions among bariatric surgery candidates and recipients, to evaluate the association between preoperative mental health conditions and health outcomes following bariatric surgery, and to evaluate the association between surgery and the clinical course of mental health conditions.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DATA SOURCES We searched PubMed, MEDLINE on OVID, and PsycINFO for studies published between January 1988 and November 2015."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Study quality was assessed using an adapted tool for risk of bias; quality of evidence was rated based on GRADE (Grading of Recommendations Assessment, Development and Evaluation) criteria.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "FINDINGS We identified 68 publications meeting inclusion criteria: 59 reporting the prevalence of preoperative mental health conditions (65,363 patients) and 27 reporting associations between preoperative mental health conditions and postoperative outcomes (50,182 patients)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Among patients seeking and undergoing bariatric surgery, the most common mental health conditions, based on random-effects estimates of prevalence, were depression (19% [95% CI, 14%-25%]) and binge eating disorder (17% [95% CI, 13%-21%])."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "There was conflicting evidence regarding the association between preoperative mental health conditions and postoperative weight loss."
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "There is inconsistent evidence regarding the association between preoperative mental health conditions and postoperative weight loss."
+            },
+            {
+              "new_index": 9,
+              "original_index": 12,
+              "sentence": "Moderate-quality evidence supports an association between bariatric surgery and lower rates of depression postoperatively."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 18872233,
+          "original_index": 8,
+          "sentence": "Neither depression nor binge eating disorder was consistently associated with differences in weight outcomes.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 18872233,
+          "original_index": 9,
+          "sentence": "Bariatric surgery was, however, consistently associated with postoperative decreases in the prevalence of depression (7 studies; 8%-74% decrease) and the severity of depressive symptoms (6 studies; 40%-70% decrease).   \n",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 18872233,
+          "original_index": 10,
+          "sentence": "CONCLUSIONS AND RELEVANCE Mental health conditions are common among bariatric surgery patients-in particular, depression and binge eating disorder.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Bariatric surgery has a positive impact on mental health.",
+      "evidence": [
+        {
+          "doc_id": 18872233,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Bariatric surgery was, however, consistently associated with postoperative decreases in the prevalence of depression (7 studies; 8%-74% decrease) and the severity of depressive symptoms (6 studies; 40%-70% decrease).   \n",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 18872233,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 12,
+          "sentence": "Moderate-quality evidence supports an association between bariatric surgery and lower rates of depression postoperatively.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 18872233,
+          "title": "Mental Health Conditions Among Patients Seeking and Undergoing Bariatric Surgery: A Meta-analysis.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "IMPORTANCE Bariatric surgery is associated with sustained weight loss and improved physical health status for severely obese individuals."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Mental health conditions may be common among patients seeking bariatric surgery; however, the prevalence of these conditions and whether they are associated with postoperative outcomes remains unknown.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To determine the prevalence of mental health conditions among bariatric surgery candidates and recipients, to evaluate the association between preoperative mental health conditions and health outcomes following bariatric surgery, and to evaluate the association between surgery and the clinical course of mental health conditions.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DATA SOURCES We searched PubMed, MEDLINE on OVID, and PsycINFO for studies published between January 1988 and November 2015."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Study quality was assessed using an adapted tool for risk of bias; quality of evidence was rated based on GRADE (Grading of Recommendations Assessment, Development and Evaluation) criteria.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "FINDINGS We identified 68 publications meeting inclusion criteria: 59 reporting the prevalence of preoperative mental health conditions (65,363 patients) and 27 reporting associations between preoperative mental health conditions and postoperative outcomes (50,182 patients)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Among patients seeking and undergoing bariatric surgery, the most common mental health conditions, based on random-effects estimates of prevalence, were depression (19% [95% CI, 14%-25%]) and binge eating disorder (17% [95% CI, 13%-21%])."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "Neither depression nor binge eating disorder was consistently associated with differences in weight outcomes."
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "There is inconsistent evidence regarding the association between preoperative mental health conditions and postoperative weight loss."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 18872233,
+          "original_index": 7,
+          "sentence": "There was conflicting evidence regarding the association between preoperative mental health conditions and postoperative weight loss.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 18872233,
+          "original_index": 9,
+          "sentence": "Bariatric surgery was, however, consistently associated with postoperative decreases in the prevalence of depression (7 studies; 8%-74% decrease) and the severity of depressive symptoms (6 studies; 40%-70% decrease).   \n",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 18872233,
+          "original_index": 10,
+          "sentence": "CONCLUSIONS AND RELEVANCE Mental health conditions are common among bariatric surgery patients-in particular, depression and binge eating disorder.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 18872233,
+          "original_index": 12,
+          "sentence": "Moderate-quality evidence supports an association between bariatric surgery and lower rates of depression postoperatively.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

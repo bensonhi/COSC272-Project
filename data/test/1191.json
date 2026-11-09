@@ -1,0 +1,35 @@
+{
+  "id": 1191,
+  "origin": "dev",
+  "claim": "The amount of publicly available DNA data doubles every 10 years.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 30655442,
+      "title": "The EMBL nucleotide sequence database.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "The EMBL Nucleotide Sequence Database (http://www.ebi.ac.uk/embl. html ) constitutes Europe's primary nucleotide sequence resource."
+        },
+        {
+          "original_index": 1,
+          "sentence": "DNA and RNA sequences are directly submitted from researchers and genome sequencing groups and collected from the scientific literature and patent applications (Fig. 1)."
+        },
+        {
+          "original_index": 2,
+          "sentence": "In collaboration with DDBJ and GenBank the database is produced, maintained and distributed at the European Bioinformatics Institute."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Database releases are produced quarterly and are distributed on CD-ROM."
+        },
+        {
+          "original_index": 4,
+          "sentence": "EBI's network services allow access to the most up-to-date data collection via Internet and World Wide Web interface, providing database searching and sequence similarity facilities plus access to a large number of additional databases."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

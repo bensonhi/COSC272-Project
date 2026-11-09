@@ -1,0 +1,274 @@
+{
+  "id": 1248,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The peak incidence of fractures occurs during pubertal growth spurt in early adolescents.",
+      "evidence": [
+        {
+          "doc_id": 7209559,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "CONTEXT The incidence of distal forearm fractures in children peaks around the time of the pubertal growth spurt, possibly because physical activity increases at the time of a transient deficit in cortical bone mass due to the increased calcium demand during maximal skeletal growth.",
+          "kept": true,
+          "new_index": 0
+        },
+        {
+          "doc_id": 7209559,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "The peak incidence and greatest increase occurred between ages 11 and 14 years in boys and 8 and 11 years in girls.   \n",
+          "kept": true,
+          "new_index": 7
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 7209559,
+          "title": "Incidence of childhood distal forearm fractures over 30 years: a population-based study.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT The incidence of distal forearm fractures in children peaks around the time of the pubertal growth spurt, possibly because physical activity increases at the time of a transient deficit in cortical bone mass due to the increased calcium demand during maximal skeletal growth."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Changes in physical activity or diet may therefore influence risk of forearm fracture.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To determine whether there has been a change in the incidence of distal forearm fractures in children in recent years.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DESIGN, SETTING, AND PATIENTS Population-based study among Rochester, Minn, residents younger than 35 years with distal forearm fractures in 1969-1971, 1979-1981, 1989-1991, and 1999-2001.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURE Estimated incidence of distal forearm fractures in 4 time periods.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "RESULTS Comparably age- and sex-adjusted annual incidence rates per 100 000 increased from 263.3 (95% confidence interval [CI], 231.1-295.4) in 1969-1971 to 322.3 (95% CI, 285.3-359.4) in 1979-1981 and to 399.8 (95% CI, 361.0-438.6) in 1989-1991 before leveling off at 372.9 (95% CI, 339.1-406.7) in 1999-2001."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Age-adjusted incidence rates per 100 000 were 32% greater among male residents in 1999-2001 compared with 1969-1971 (409.4 [95% CI, 359.9-459.0] vs 309.4 [95% CI, 259.3-359.5]; P =.01) and 56% greater among female residents in the same time periods (334.3 [95% CI, 288.6-380.1] vs 214.6 [95% CI, 174.9-254.4]; P<.001)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "The peak incidence and greatest increase occurred between ages 11 and 14 years in boys and 8 and 11 years in girls.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "CONCLUSIONS There has been a statistically significant increase in the incidence of distal forearm fractures in children and adolescents, but whether this is due to changing patterns of physical activity, decreased bone acquisition due to poor calcium intake, or both is unclear at present."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Given the large number of childhood fractures, however, studies are needed to define the cause(s) of this increase."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "The peak incidence of fractures occurs during pubertal growth spurt in early adolescents.",
+      "evidence": [
+        {
+          "doc_id": 7209559,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "CONTEXT The incidence of distal forearm fractures in children peaks around the time of the pubertal growth spurt, possibly because physical activity increases at the time of a transient deficit in cortical bone mass due to the increased calcium demand during maximal skeletal growth.",
+          "kept": true,
+          "new_index": 0
+        },
+        {
+          "doc_id": 7209559,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "The peak incidence and greatest increase occurred between ages 11 and 14 years in boys and 8 and 11 years in girls.   \n",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 7209559,
+          "title": "Incidence of childhood distal forearm fractures over 30 years: a population-based study.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT The incidence of distal forearm fractures in children peaks around the time of the pubertal growth spurt, possibly because physical activity increases at the time of a transient deficit in cortical bone mass due to the increased calcium demand during maximal skeletal growth."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Changes in physical activity or diet may therefore influence risk of forearm fracture.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To determine whether there has been a change in the incidence of distal forearm fractures in children in recent years.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURE Estimated incidence of distal forearm fractures in 4 time periods.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "RESULTS Comparably age- and sex-adjusted annual incidence rates per 100 000 increased from 263.3 (95% confidence interval [CI], 231.1-295.4) in 1969-1971 to 322.3 (95% CI, 285.3-359.4) in 1979-1981 and to 399.8 (95% CI, 361.0-438.6) in 1989-1991 before leveling off at 372.9 (95% CI, 339.1-406.7) in 1999-2001."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Age-adjusted incidence rates per 100 000 were 32% greater among male residents in 1999-2001 compared with 1969-1971 (409.4 [95% CI, 359.9-459.0] vs 309.4 [95% CI, 259.3-359.5]; P =.01) and 56% greater among female residents in the same time periods (334.3 [95% CI, 288.6-380.1] vs 214.6 [95% CI, 174.9-254.4]; P<.001)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "CONCLUSIONS There has been a statistically significant increase in the incidence of distal forearm fractures in children and adolescents, but whether this is due to changing patterns of physical activity, decreased bone acquisition due to poor calcium intake, or both is unclear at present."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Given the large number of childhood fractures, however, studies are needed to define the cause(s) of this increase."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 7209559,
+          "original_index": 3,
+          "sentence": "DESIGN, SETTING, AND PATIENTS Population-based study among Rochester, Minn, residents younger than 35 years with distal forearm fractures in 1969-1971, 1979-1981, 1989-1991, and 1999-2001.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 7209559,
+          "original_index": 7,
+          "sentence": "The peak incidence and greatest increase occurred between ages 11 and 14 years in boys and 8 and 11 years in girls.   \n",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "The peak incidence of fractures occurs during pubertal growth spurt in early adolescents.",
+      "evidence": [
+        {
+          "doc_id": 7209559,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "CONTEXT The incidence of distal forearm fractures in children peaks around the time of the pubertal growth spurt, possibly because physical activity increases at the time of a transient deficit in cortical bone mass due to the increased calcium demand during maximal skeletal growth.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 7209559,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "The peak incidence and greatest increase occurred between ages 11 and 14 years in boys and 8 and 11 years in girls.   \n",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 7209559,
+          "title": "Incidence of childhood distal forearm fractures over 30 years: a population-based study.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "Changes in physical activity or diet may therefore influence risk of forearm fracture.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 3,
+              "sentence": "DESIGN, SETTING, AND PATIENTS Population-based study among Rochester, Minn, residents younger than 35 years with distal forearm fractures in 1969-1971, 1979-1981, 1989-1991, and 1999-2001.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURE Estimated incidence of distal forearm fractures in 4 time periods.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "RESULTS Comparably age- and sex-adjusted annual incidence rates per 100 000 increased from 263.3 (95% confidence interval [CI], 231.1-295.4) in 1969-1971 to 322.3 (95% CI, 285.3-359.4) in 1979-1981 and to 399.8 (95% CI, 361.0-438.6) in 1989-1991 before leveling off at 372.9 (95% CI, 339.1-406.7) in 1999-2001."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Age-adjusted incidence rates per 100 000 were 32% greater among male residents in 1999-2001 compared with 1969-1971 (409.4 [95% CI, 359.9-459.0] vs 309.4 [95% CI, 259.3-359.5]; P =.01) and 56% greater among female residents in the same time periods (334.3 [95% CI, 288.6-380.1] vs 214.6 [95% CI, 174.9-254.4]; P<.001)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 8,
+              "sentence": "CONCLUSIONS There has been a statistically significant increase in the incidence of distal forearm fractures in children and adolescents, but whether this is due to changing patterns of physical activity, decreased bone acquisition due to poor calcium intake, or both is unclear at present."
+            },
+            {
+              "new_index": 6,
+              "original_index": 9,
+              "sentence": "Given the large number of childhood fractures, however, studies are needed to define the cause(s) of this increase."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 7209559,
+          "original_index": 0,
+          "sentence": "CONTEXT The incidence of distal forearm fractures in children peaks around the time of the pubertal growth spurt, possibly because physical activity increases at the time of a transient deficit in cortical bone mass due to the increased calcium demand during maximal skeletal growth.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 7209559,
+          "original_index": 2,
+          "sentence": "OBJECTIVE To determine whether there has been a change in the incidence of distal forearm fractures in children in recent years.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 7209559,
+          "original_index": 7,
+          "sentence": "The peak incidence and greatest increase occurred between ages 11 and 14 years in boys and 8 and 11 years in girls.   \n",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 174,
+  "origin": "train_more",
+  "claim": "Beta-band coherence is diminished for visible stimuli over invisible stimuli.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 1710116,
+      "title": "Converging Intracranial Markers of Conscious Access",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "We compared conscious and nonconscious processing of briefly flashed words using a visual masking procedure while recording intracranial electroencephalogram (iEEG) in ten patients."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Nonconscious processing of masked words was observed in multiple cortical areas, mostly within an early time window (<300 ms), accompanied by induced gamma-band activity, but without coherent long-distance neural activity, suggesting a quickly dissipating feedforward wave."
+        },
+        {
+          "original_index": 2,
+          "sentence": "In contrast, conscious processing of unmasked words was characterized by the convergence of four distinct neurophysiological markers: sustained voltage changes, particularly in prefrontal cortex, large increases in spectral power in the gamma band, increases in long-distance phase synchrony in the beta range, and increases in long-range Granger causality."
+        },
+        {
+          "original_index": 3,
+          "sentence": "We argue that all of those measures provide distinct windows into the same distributed state of conscious processing."
+        },
+        {
+          "original_index": 4,
+          "sentence": "These results have a direct impact on current theoretical discussions concerning the neural correlates of conscious access."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

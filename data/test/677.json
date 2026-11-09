@@ -1,0 +1,51 @@
+{
+  "id": 677,
+  "origin": "train_more",
+  "claim": "LRBA promotes CTLA - 4 recycling.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 857189,
+      "title": "Autosomal dominant immune dysregulation syndrome in humans with CTLA4 mutations",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "The protein cytotoxic T lymphocyte antigen-4 (CTLA-4) is an essential negative regulator of immune responses, and its loss causes fatal autoimmunity in mice."
+        },
+        {
+          "original_index": 1,
+          "sentence": "We studied a large family in which five individuals presented with a complex, autosomal dominant immune dysregulation syndrome characterized by hypogammaglobulinemia, recurrent infections and multiple autoimmune clinical features."
+        },
+        {
+          "original_index": 2,
+          "sentence": "We identified a heterozygous nonsense mutation in exon 1 of CTLA4."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Screening of 71 unrelated patients with comparable clinical phenotypes identified five additional families (nine individuals) with previously undescribed splice site and missense mutations in CTLA4."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Clinical penetrance was incomplete (eight adults of a total of 19 genetically proven CTLA4 mutation carriers were considered unaffected)."
+        },
+        {
+          "original_index": 5,
+          "sentence": "However, CTLA-4 protein expression was decreased in regulatory T cells (Treg cells) in both patients and carriers with CTLA4 mutations."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Whereas Treg cells were generally present at elevated numbers in these individuals, their suppressive function, CTLA-4 ligand binding and transendocytosis of CD80 were impaired."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Mutations in CTLA4 were also associated with decreased circulating B cell numbers."
+        },
+        {
+          "original_index": 8,
+          "sentence": "Taken together, mutations in CTLA4 resulting in CTLA-4 haploinsufficiency or impaired ligand binding result in disrupted T and B cell homeostasis and a complex immune dysregulation syndrome."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

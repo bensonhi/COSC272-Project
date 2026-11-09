@@ -1,0 +1,428 @@
+{
+  "id": 791,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Migraine with aura is associated with ischemic stroke.",
+      "evidence": [
+        {
+          "doc_id": 15984735,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 11,
+          "sentence": "Additional analyses indicated a significantly higher risk among people who had migraine with aura (2.16, 1.53 to 3.03) compared with people who had migraine without aura (1.23, 0.90 to 1.69; meta-regression for aura status P=0.02).",
+          "kept": true,
+          "new_index": 11
+        },
+        {
+          "doc_id": 15984735,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 16,
+          "sentence": "CONCLUSION Migraine is associated with a twofold increased risk of ischaemic stroke, which is only apparent among people who have migraine with aura.",
+          "kept": true,
+          "new_index": 16
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15984735,
+          "title": "Migraine and cardiovascular disease: systematic review and meta-analysis.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To evaluate the association between migraine and cardiovascular disease, including stroke, myocardial infarction, and death due to cardiovascular disease.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Systematic review and meta-analysis.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DATA SOURCES Electronic databases (PubMed, Embase, Cochrane Library) and reference lists of included studies and reviews published until January 2009."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Selection criteria Case-control and cohort studies investigating the association between any migraine or specific migraine subtypes and cardiovascular disease."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Review methods Two investigators independently assessed eligibility of identified studies in a two step approach."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Disagreements were resolved by consensus."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Studies were grouped according to a priori categories on migraine and cardiovascular disease.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "DATA EXTRACTION Two investigators extracted data."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Pooled relative risks and 95% confidence intervals were calculated.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "RESULTS Studies were heterogeneous for participant characteristics and definition of cardiovascular disease."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Nine studies investigated the association between any migraine and ischaemic stroke (pooled relative risk 1.73, 95% confidence interval 1.31 to 2.29)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Additional analyses indicated a significantly higher risk among people who had migraine with aura (2.16, 1.53 to 3.03) compared with people who had migraine without aura (1.23, 0.90 to 1.69; meta-regression for aura status P=0.02)."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "Furthermore, results suggested a greater risk among women (2.08, 1.13 to 3.84) compared with men (1.37, 0.89 to 2.11)."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "Age less than 45 years, smoking, and oral contraceptive use further increased the risk."
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "Eight studies investigated the association between migraine and myocardial infarction (1.12, 0.95 to 1.32) and five between migraine and death due to cardiovascular disease (1.03, 0.79 to 1.34)."
+            },
+            {
+              "new_index": 15,
+              "original_index": 15,
+              "sentence": "Only one study investigated the association between women who had migraine with aura and myocardial infarction and death due to cardiovascular disease, showing a twofold increased risk.   \n"
+            },
+            {
+              "new_index": 16,
+              "original_index": 16,
+              "sentence": "CONCLUSION Migraine is associated with a twofold increased risk of ischaemic stroke, which is only apparent among people who have migraine with aura."
+            },
+            {
+              "new_index": 17,
+              "original_index": 17,
+              "sentence": "Our results also suggest a higher risk among women and risk was further magnified for people with migraine who were aged less than 45, smokers, and women who used oral contraceptives."
+            },
+            {
+              "new_index": 18,
+              "original_index": 18,
+              "sentence": "We did not find an overall association between any migraine and myocardial infarction or death due to cardiovascular disease."
+            },
+            {
+              "new_index": 19,
+              "original_index": 19,
+              "sentence": "Too few studies are available to reliably evaluate the impact of modifying factors, such as migraine aura, on these associations."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Migraine with aura is associated with ischemic stroke.",
+      "evidence": [
+        {
+          "doc_id": 15984735,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 11,
+          "sentence": "Additional analyses indicated a significantly higher risk among people who had migraine with aura (2.16, 1.53 to 3.03) compared with people who had migraine without aura (1.23, 0.90 to 1.69; meta-regression for aura status P=0.02).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 15984735,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 16,
+          "sentence": "CONCLUSION Migraine is associated with a twofold increased risk of ischaemic stroke, which is only apparent among people who have migraine with aura.",
+          "kept": true,
+          "new_index": 12
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15984735,
+          "title": "Migraine and cardiovascular disease: systematic review and meta-analysis.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To evaluate the association between migraine and cardiovascular disease, including stroke, myocardial infarction, and death due to cardiovascular disease.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 3,
+              "sentence": "Selection criteria Case-control and cohort studies investigating the association between any migraine or specific migraine subtypes and cardiovascular disease."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Review methods Two investigators independently assessed eligibility of identified studies in a two step approach."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Disagreements were resolved by consensus."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Studies were grouped according to a priori categories on migraine and cardiovascular disease.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "DATA EXTRACTION Two investigators extracted data."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "Pooled relative risks and 95% confidence intervals were calculated.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "Nine studies investigated the association between any migraine and ischaemic stroke (pooled relative risk 1.73, 95% confidence interval 1.31 to 2.29)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 12,
+              "sentence": "Furthermore, results suggested a greater risk among women (2.08, 1.13 to 3.84) compared with men (1.37, 0.89 to 2.11)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 13,
+              "sentence": "Age less than 45 years, smoking, and oral contraceptive use further increased the risk."
+            },
+            {
+              "new_index": 10,
+              "original_index": 14,
+              "sentence": "Eight studies investigated the association between migraine and myocardial infarction (1.12, 0.95 to 1.32) and five between migraine and death due to cardiovascular disease (1.03, 0.79 to 1.34)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 15,
+              "sentence": "Only one study investigated the association between women who had migraine with aura and myocardial infarction and death due to cardiovascular disease, showing a twofold increased risk.   \n"
+            },
+            {
+              "new_index": 12,
+              "original_index": 16,
+              "sentence": "CONCLUSION Migraine is associated with a twofold increased risk of ischaemic stroke, which is only apparent among people who have migraine with aura."
+            },
+            {
+              "new_index": 13,
+              "original_index": 17,
+              "sentence": "Our results also suggest a higher risk among women and risk was further magnified for people with migraine who were aged less than 45, smokers, and women who used oral contraceptives."
+            },
+            {
+              "new_index": 14,
+              "original_index": 18,
+              "sentence": "We did not find an overall association between any migraine and myocardial infarction or death due to cardiovascular disease."
+            },
+            {
+              "new_index": 15,
+              "original_index": 19,
+              "sentence": "Too few studies are available to reliably evaluate the impact of modifying factors, such as migraine aura, on these associations."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 15984735,
+          "original_index": 1,
+          "sentence": "DESIGN Systematic review and meta-analysis.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 15984735,
+          "original_index": 2,
+          "sentence": "DATA SOURCES Electronic databases (PubMed, Embase, Cochrane Library) and reference lists of included studies and reviews published until January 2009.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 15984735,
+          "original_index": 9,
+          "sentence": "RESULTS Studies were heterogeneous for participant characteristics and definition of cardiovascular disease.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 15984735,
+          "original_index": 11,
+          "sentence": "Additional analyses indicated a significantly higher risk among people who had migraine with aura (2.16, 1.53 to 3.03) compared with people who had migraine without aura (1.23, 0.90 to 1.69; meta-regression for aura status P=0.02).",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Migraine with aura is associated with ischemic stroke.",
+      "evidence": [
+        {
+          "doc_id": 15984735,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 11,
+          "sentence": "Additional analyses indicated a significantly higher risk among people who had migraine with aura (2.16, 1.53 to 3.03) compared with people who had migraine without aura (1.23, 0.90 to 1.69; meta-regression for aura status P=0.02).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 15984735,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 16,
+          "sentence": "CONCLUSION Migraine is associated with a twofold increased risk of ischaemic stroke, which is only apparent among people who have migraine with aura.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15984735,
+          "title": "Migraine and cardiovascular disease: systematic review and meta-analysis.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To evaluate the association between migraine and cardiovascular disease, including stroke, myocardial infarction, and death due to cardiovascular disease.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Systematic review and meta-analysis.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DATA SOURCES Electronic databases (PubMed, Embase, Cochrane Library) and reference lists of included studies and reviews published until January 2009."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Selection criteria Case-control and cohort studies investigating the association between any migraine or specific migraine subtypes and cardiovascular disease."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Review methods Two investigators independently assessed eligibility of identified studies in a two step approach."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Disagreements were resolved by consensus."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "DATA EXTRACTION Two investigators extracted data."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "Pooled relative risks and 95% confidence intervals were calculated.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "Nine studies investigated the association between any migraine and ischaemic stroke (pooled relative risk 1.73, 95% confidence interval 1.31 to 2.29)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 12,
+              "sentence": "Furthermore, results suggested a greater risk among women (2.08, 1.13 to 3.84) compared with men (1.37, 0.89 to 2.11)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 13,
+              "sentence": "Age less than 45 years, smoking, and oral contraceptive use further increased the risk."
+            },
+            {
+              "new_index": 11,
+              "original_index": 14,
+              "sentence": "Eight studies investigated the association between migraine and myocardial infarction (1.12, 0.95 to 1.32) and five between migraine and death due to cardiovascular disease (1.03, 0.79 to 1.34)."
+            },
+            {
+              "new_index": 12,
+              "original_index": 15,
+              "sentence": "Only one study investigated the association between women who had migraine with aura and myocardial infarction and death due to cardiovascular disease, showing a twofold increased risk.   \n"
+            },
+            {
+              "new_index": 13,
+              "original_index": 17,
+              "sentence": "Our results also suggest a higher risk among women and risk was further magnified for people with migraine who were aged less than 45, smokers, and women who used oral contraceptives."
+            },
+            {
+              "new_index": 14,
+              "original_index": 19,
+              "sentence": "Too few studies are available to reliably evaluate the impact of modifying factors, such as migraine aura, on these associations."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 15984735,
+          "original_index": 6,
+          "sentence": "Studies were grouped according to a priori categories on migraine and cardiovascular disease.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 15984735,
+          "original_index": 9,
+          "sentence": "RESULTS Studies were heterogeneous for participant characteristics and definition of cardiovascular disease.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 15984735,
+          "original_index": 11,
+          "sentence": "Additional analyses indicated a significantly higher risk among people who had migraine with aura (2.16, 1.53 to 3.03) compared with people who had migraine without aura (1.23, 0.90 to 1.69; meta-regression for aura status P=0.02).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 15984735,
+          "original_index": 16,
+          "sentence": "CONCLUSION Migraine is associated with a twofold increased risk of ischaemic stroke, which is only apparent among people who have migraine with aura.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 15984735,
+          "original_index": 18,
+          "sentence": "We did not find an overall association between any migraine and myocardial infarction or death due to cardiovascular disease.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

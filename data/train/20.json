@@ -1,0 +1,58 @@
+{
+  "id": 20,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "7-day-old adult Caenorhabditis elegans exhibit approximately 75% of the learning capacity seen in 1-day old adults.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 3202143,
+          "title": "Insulin Signaling and Dietary Restriction Differentially Influence the Decline of Learning and Memory with Age",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Of all the age-related declines, memory loss is one of the most devastating."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "While conditions that increase longevity have been identified, the effects of these longevity-promoting factors on learning and memory are unknown."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here we show that the C. elegans Insulin/IGF-1 receptor mutant daf-2 improves memory performance early in adulthood and maintains learning ability better with age but, surprisingly, demonstrates no extension in long-term memory with age."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "By contrast, eat-2 mutants, a model of Dietary Restriction (DR), exhibit impaired long-term memory in young adulthood but maintain this level of memory longer with age."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We find that crh-1, the C. elegans homolog of the CREB transcription factor, is required for long-term associative memory, but not for learning or short-term memory."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "The expression of crh-1 declines with age and differs in the longevity mutants, and CREB expression and activity correlate with memory performance."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Our results suggest that specific longevity treatments have acute and long-term effects on cognitive functions that decline with age through their regulation of rate-limiting genes required for learning and memory."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

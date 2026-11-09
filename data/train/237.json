@@ -1,0 +1,93 @@
+{
+  "id": 237,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Cells lacking clpC have a defect in sporulation efficiency in Bacillus subtilis.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 4942718,
+          "title": "High-Throughput Genetic Screens Identify a Large and Diverse Collection of New Sporulation Genes in Bacillus subtilis",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The differentiation of the bacterium Bacillus subtilis into a dormant spore is among the most well-characterized developmental pathways in biology."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Classical genetic screens performed over the past half century identified scores of factors involved in every step of this morphological process."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "More recently, transcriptional profiling uncovered additional sporulation-induced genes required for successful spore development."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Here, we used transposon-sequencing (Tn-seq) to assess whether there were any sporulation genes left to be discovered."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Our screen identified 133 out of the 148 genes with known sporulation defects."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Surprisingly, we discovered 24 additional genes that had not been previously implicated in spore formation."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "To investigate their functions, we used fluorescence microscopy to survey early, middle, and late stages of differentiation of null mutants from the B. subtilis ordered knockout collection."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "This analysis identified mutants that are delayed in the initiation of sporulation, defective in membrane remodeling, and impaired in spore maturation."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Several mutants had novel sporulation phenotypes."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "We performed in-depth characterization of two new factors that participate in cell-cell signaling pathways during sporulation."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "One (SpoIIT) functions in the activation of σE in the mother cell; the other (SpoIIIL) is required for σG activity in the forespore."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Our analysis also revealed that as many as 36 sporulation-induced genes with no previously reported mutant phenotypes are required for timely spore maturation."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "Finally, we discovered a large set of transposon insertions that trigger premature initiation of sporulation."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "Our results highlight the power of Tn-seq for the discovery of new genes and novel pathways in sporulation and, combined with the recently completed null mutant collection, open the door for similar screens in other, less well-characterized processes."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

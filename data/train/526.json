@@ -1,0 +1,48 @@
+{
+  "id": 526,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Homozygous deletion of murine Sbds gene from osterix-expressing mesenchymal stem and progenitor cells (MPCs) induces oxidative stress.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 3863543,
+          "title": "Mesenchymal Inflammation Drives Genotoxic Stress in Hematopoietic Stem Cells and Predicts Disease Evolution in Human Pre-leukemia.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Mesenchymal niche cells may drive tissue failure and malignant transformation in the hematopoietic system, but the underlying molecular mechanisms and relevance to human disease remain poorly defined."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here, we show that perturbation of mesenchymal cells in a mouse model of the pre-leukemic disorder Shwachman-Diamond syndrome (SDS) induces mitochondrial dysfunction, oxidative stress, and activation of DNA damage responses in hematopoietic stem and progenitor cells."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Massive parallel RNA sequencing of highly purified mesenchymal cells in the SDS mouse model and a range of human pre-leukemic syndromes identified p53-S100A8/9-TLR inflammatory signaling as a common driving mechanism of genotoxic stress."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Transcriptional activation of this signaling axis in the mesenchymal niche predicted leukemic evolution and progression-free survival in myelodysplastic syndrome (MDS), the principal leukemia predisposition syndrome."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Collectively, our findings identify mesenchymal niche-induced genotoxic stress in heterotypic stem and progenitor cells through inflammatory signaling as a targetable determinant of disease outcome in human pre-leukemia."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

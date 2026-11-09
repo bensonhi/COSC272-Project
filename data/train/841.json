@@ -1,0 +1,404 @@
+{
+  "id": 841,
+  "origin": "train_more",
+  "n_groups": 4,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Natriuretic peptides protect against diabetes.",
+      "evidence": [
+        {
+          "doc_id": 15663829,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "In participants of our case-cohort study who were free of T2D and cardiovascular disease at baseline, we observed a 21% (95% CI 3%-36%) decreased risk of incident T2D per one standard deviation (SD) higher log-transformed NT-pro-BNP levels in analysis adjusted for age, sex, body mass index, systolic blood pressure, smoking, family history of T2D, history of hypertension, and levels of triglycerides, high-density lipoprotein cholesterol, and low-density lipoprotein cholesterol.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 15663829,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "The association between rs198389 and T2D observed in case-control studies (odds ratio = 0.94 per C allele, 95% CI 0.91-0.97) was similar to that expected (0.96, 0.93-0.98) based on the pooled estimate for the log-NT-pro-BNP level to T2D association derived from a meta-analysis of our study and published data (hazard ratio = 0.82 per SD, 0.74-0.90) and the difference in NT-pro-BNP levels (0.22 SD, 0.15-0.29) per C allele of rs198389.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 15663829,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "CONCLUSIONS Our results provide evidence for a potential causal role of the BNP system in the aetiology of T2D.",
+          "kept": true,
+          "new_index": 7
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15663829,
+          "title": "Mendelian Randomization Study of B-Type Natriuretic Peptide and Type 2 Diabetes: Evidence of Causal Association from Population Studies",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Genetic and epidemiological evidence suggests an inverse association between B-type natriuretic peptide (BNP) levels in blood and risk of type 2 diabetes (T2D), but the prospective association of BNP with T2D is uncertain, and it is unclear whether the association is confounded.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "METHODS AND FINDINGS We analysed the association between levels of the N-terminal fragment of pro-BNP (NT-pro-BNP) in blood and risk of incident T2D in a prospective case-cohort study and genotyped the variant rs198389 within the BNP locus in three T2D case-control studies."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We combined our results with existing data in a meta-analysis of 11 case-control studies."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Using a Mendelian randomization approach, we compared the observed association between rs198389 and T2D to that expected from the NT-pro-BNP level to T2D association and the NT-pro-BNP difference per C allele of rs198389."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "In participants of our case-cohort study who were free of T2D and cardiovascular disease at baseline, we observed a 21% (95% CI 3%-36%) decreased risk of incident T2D per one standard deviation (SD) higher log-transformed NT-pro-BNP levels in analysis adjusted for age, sex, body mass index, systolic blood pressure, smoking, family history of T2D, history of hypertension, and levels of triglycerides, high-density lipoprotein cholesterol, and low-density lipoprotein cholesterol."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "The association between rs198389 and T2D observed in case-control studies (odds ratio = 0.94 per C allele, 95% CI 0.91-0.97) was similar to that expected (0.96, 0.93-0.98) based on the pooled estimate for the log-NT-pro-BNP level to T2D association derived from a meta-analysis of our study and published data (hazard ratio = 0.82 per SD, 0.74-0.90) and the difference in NT-pro-BNP levels (0.22 SD, 0.15-0.29) per C allele of rs198389."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "No significant associations were observed between the rs198389 genotype and potential confounders.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "CONCLUSIONS Our results provide evidence for a potential causal role of the BNP system in the aetiology of T2D."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Further studies are needed to investigate the mechanisms underlying this association and possibilities for preventive interventions."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Please see later in the article for the Editors' Summary."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Natriuretic peptides protect against diabetes.",
+      "evidence": [
+        {
+          "doc_id": 15663829,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "In participants of our case-cohort study who were free of T2D and cardiovascular disease at baseline, we observed a 21% (95% CI 3%-36%) decreased risk of incident T2D per one standard deviation (SD) higher log-transformed NT-pro-BNP levels in analysis adjusted for age, sex, body mass index, systolic blood pressure, smoking, family history of T2D, history of hypertension, and levels of triglycerides, high-density lipoprotein cholesterol, and low-density lipoprotein cholesterol.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 15663829,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "The association between rs198389 and T2D observed in case-control studies (odds ratio = 0.94 per C allele, 95% CI 0.91-0.97) was similar to that expected (0.96, 0.93-0.98) based on the pooled estimate for the log-NT-pro-BNP level to T2D association derived from a meta-analysis of our study and published data (hazard ratio = 0.82 per SD, 0.74-0.90) and the difference in NT-pro-BNP levels (0.22 SD, 0.15-0.29) per C allele of rs198389.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 15663829,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "CONCLUSIONS Our results provide evidence for a potential causal role of the BNP system in the aetiology of T2D.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15663829,
+          "title": "Mendelian Randomization Study of B-Type Natriuretic Peptide and Type 2 Diabetes: Evidence of Causal Association from Population Studies",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Genetic and epidemiological evidence suggests an inverse association between B-type natriuretic peptide (BNP) levels in blood and risk of type 2 diabetes (T2D), but the prospective association of BNP with T2D is uncertain, and it is unclear whether the association is confounded.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "METHODS AND FINDINGS We analysed the association between levels of the N-terminal fragment of pro-BNP (NT-pro-BNP) in blood and risk of incident T2D in a prospective case-cohort study and genotyped the variant rs198389 within the BNP locus in three T2D case-control studies."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We combined our results with existing data in a meta-analysis of 11 case-control studies."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Using a Mendelian randomization approach, we compared the observed association between rs198389 and T2D to that expected from the NT-pro-BNP level to T2D association and the NT-pro-BNP difference per C allele of rs198389."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "In participants of our case-cohort study who were free of T2D and cardiovascular disease at baseline, we observed a 21% (95% CI 3%-36%) decreased risk of incident T2D per one standard deviation (SD) higher log-transformed NT-pro-BNP levels in analysis adjusted for age, sex, body mass index, systolic blood pressure, smoking, family history of T2D, history of hypertension, and levels of triglycerides, high-density lipoprotein cholesterol, and low-density lipoprotein cholesterol."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "The association between rs198389 and T2D observed in case-control studies (odds ratio = 0.94 per C allele, 95% CI 0.91-0.97) was similar to that expected (0.96, 0.93-0.98) based on the pooled estimate for the log-NT-pro-BNP level to T2D association derived from a meta-analysis of our study and published data (hazard ratio = 0.82 per SD, 0.74-0.90) and the difference in NT-pro-BNP levels (0.22 SD, 0.15-0.29) per C allele of rs198389."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "No significant associations were observed between the rs198389 genotype and potential confounders.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Please see later in the article for the Editors' Summary."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 15663829,
+          "original_index": 7,
+          "sentence": "CONCLUSIONS Our results provide evidence for a potential causal role of the BNP system in the aetiology of T2D.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 15663829,
+          "original_index": 8,
+          "sentence": "Further studies are needed to investigate the mechanisms underlying this association and possibilities for preventive interventions.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g1",
+        "g0"
+      ],
+      "claim": "Natriuretic peptides protect against diabetes.",
+      "evidence": [
+        {
+          "doc_id": 15663829,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "In participants of our case-cohort study who were free of T2D and cardiovascular disease at baseline, we observed a 21% (95% CI 3%-36%) decreased risk of incident T2D per one standard deviation (SD) higher log-transformed NT-pro-BNP levels in analysis adjusted for age, sex, body mass index, systolic blood pressure, smoking, family history of T2D, history of hypertension, and levels of triglycerides, high-density lipoprotein cholesterol, and low-density lipoprotein cholesterol.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 15663829,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "The association between rs198389 and T2D observed in case-control studies (odds ratio = 0.94 per C allele, 95% CI 0.91-0.97) was similar to that expected (0.96, 0.93-0.98) based on the pooled estimate for the log-NT-pro-BNP level to T2D association derived from a meta-analysis of our study and published data (hazard ratio = 0.82 per SD, 0.74-0.90) and the difference in NT-pro-BNP levels (0.22 SD, 0.15-0.29) per C allele of rs198389.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 15663829,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "CONCLUSIONS Our results provide evidence for a potential causal role of the BNP system in the aetiology of T2D.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15663829,
+          "title": "Mendelian Randomization Study of B-Type Natriuretic Peptide and Type 2 Diabetes: Evidence of Causal Association from Population Studies",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Genetic and epidemiological evidence suggests an inverse association between B-type natriuretic peptide (BNP) levels in blood and risk of type 2 diabetes (T2D), but the prospective association of BNP with T2D is uncertain, and it is unclear whether the association is confounded.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "METHODS AND FINDINGS We analysed the association between levels of the N-terminal fragment of pro-BNP (NT-pro-BNP) in blood and risk of incident T2D in a prospective case-cohort study and genotyped the variant rs198389 within the BNP locus in three T2D case-control studies."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We combined our results with existing data in a meta-analysis of 11 case-control studies."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Using a Mendelian randomization approach, we compared the observed association between rs198389 and T2D to that expected from the NT-pro-BNP level to T2D association and the NT-pro-BNP difference per C allele of rs198389."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "The association between rs198389 and T2D observed in case-control studies (odds ratio = 0.94 per C allele, 95% CI 0.91-0.97) was similar to that expected (0.96, 0.93-0.98) based on the pooled estimate for the log-NT-pro-BNP level to T2D association derived from a meta-analysis of our study and published data (hazard ratio = 0.82 per SD, 0.74-0.90) and the difference in NT-pro-BNP levels (0.22 SD, 0.15-0.29) per C allele of rs198389."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "No significant associations were observed between the rs198389 genotype and potential confounders.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 9,
+              "sentence": "Please see later in the article for the Editors' Summary."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 15663829,
+          "original_index": 4,
+          "sentence": "In participants of our case-cohort study who were free of T2D and cardiovascular disease at baseline, we observed a 21% (95% CI 3%-36%) decreased risk of incident T2D per one standard deviation (SD) higher log-transformed NT-pro-BNP levels in analysis adjusted for age, sex, body mass index, systolic blood pressure, smoking, family history of T2D, history of hypertension, and levels of triglycerides, high-density lipoprotein cholesterol, and low-density lipoprotein cholesterol.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 15663829,
+          "original_index": 7,
+          "sentence": "CONCLUSIONS Our results provide evidence for a potential causal role of the BNP system in the aetiology of T2D.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 15663829,
+          "original_index": 8,
+          "sentence": "Further studies are needed to investigate the mechanisms underlying this association and possibilities for preventive interventions.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2"
+      ],
+      "claim": "Natriuretic peptides protect against diabetes.",
+      "evidence": [
+        {
+          "doc_id": 15663829,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "In participants of our case-cohort study who were free of T2D and cardiovascular disease at baseline, we observed a 21% (95% CI 3%-36%) decreased risk of incident T2D per one standard deviation (SD) higher log-transformed NT-pro-BNP levels in analysis adjusted for age, sex, body mass index, systolic blood pressure, smoking, family history of T2D, history of hypertension, and levels of triglycerides, high-density lipoprotein cholesterol, and low-density lipoprotein cholesterol.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 15663829,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "The association between rs198389 and T2D observed in case-control studies (odds ratio = 0.94 per C allele, 95% CI 0.91-0.97) was similar to that expected (0.96, 0.93-0.98) based on the pooled estimate for the log-NT-pro-BNP level to T2D association derived from a meta-analysis of our study and published data (hazard ratio = 0.82 per SD, 0.74-0.90) and the difference in NT-pro-BNP levels (0.22 SD, 0.15-0.29) per C allele of rs198389.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 15663829,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "CONCLUSIONS Our results provide evidence for a potential causal role of the BNP system in the aetiology of T2D.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15663829,
+          "title": "Mendelian Randomization Study of B-Type Natriuretic Peptide and Type 2 Diabetes: Evidence of Causal Association from Population Studies",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Genetic and epidemiological evidence suggests an inverse association between B-type natriuretic peptide (BNP) levels in blood and risk of type 2 diabetes (T2D), but the prospective association of BNP with T2D is uncertain, and it is unclear whether the association is confounded.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "METHODS AND FINDINGS We analysed the association between levels of the N-terminal fragment of pro-BNP (NT-pro-BNP) in blood and risk of incident T2D in a prospective case-cohort study and genotyped the variant rs198389 within the BNP locus in three T2D case-control studies."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Using a Mendelian randomization approach, we compared the observed association between rs198389 and T2D to that expected from the NT-pro-BNP level to T2D association and the NT-pro-BNP difference per C allele of rs198389."
+            },
+            {
+              "new_index": 3,
+              "original_index": 6,
+              "sentence": "No significant associations were observed between the rs198389 genotype and potential confounders.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 8,
+              "sentence": "Further studies are needed to investigate the mechanisms underlying this association and possibilities for preventive interventions."
+            },
+            {
+              "new_index": 5,
+              "original_index": 9,
+              "sentence": "Please see later in the article for the Editors' Summary."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 15663829,
+          "original_index": 2,
+          "sentence": "We combined our results with existing data in a meta-analysis of 11 case-control studies.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 15663829,
+          "original_index": 4,
+          "sentence": "In participants of our case-cohort study who were free of T2D and cardiovascular disease at baseline, we observed a 21% (95% CI 3%-36%) decreased risk of incident T2D per one standard deviation (SD) higher log-transformed NT-pro-BNP levels in analysis adjusted for age, sex, body mass index, systolic blood pressure, smoking, family history of T2D, history of hypertension, and levels of triglycerides, high-density lipoprotein cholesterol, and low-density lipoprotein cholesterol.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 15663829,
+          "original_index": 5,
+          "sentence": "The association between rs198389 and T2D observed in case-control studies (odds ratio = 0.94 per C allele, 95% CI 0.91-0.97) was similar to that expected (0.96, 0.93-0.98) based on the pooled estimate for the log-NT-pro-BNP level to T2D association derived from a meta-analysis of our study and published data (hazard ratio = 0.82 per SD, 0.74-0.90) and the difference in NT-pro-BNP levels (0.22 SD, 0.15-0.29) per C allele of rs198389.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 15663829,
+          "original_index": 7,
+          "sentence": "CONCLUSIONS Our results provide evidence for a potential causal role of the BNP system in the aetiology of T2D.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

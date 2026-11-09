@@ -1,0 +1,195 @@
+{
+  "id": 1297,
+  "origin": "train_more",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "There was an estimated 30 million cases of pneumonia in young children worldwide in 2010.",
+      "evidence": [
+        {
+          "doc_id": 9167230,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "FINDINGS We identified 89 eligible studies and estimated that in 2010, 11·9 million (95% CI 10·3-13·9 million) episodes of severe and 3·0 million (2·1-4·2 million) episodes of very severe ALRI resulted in hospital admissions in young children worldwide.",
+          "kept": true,
+          "new_index": 5
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 9167230,
+          "title": "Global and regional burden of hospital admissions for severe acute lower respiratory infections in young children in 2010: a systematic analysis",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND The annual number of hospital admissions and in-hospital deaths due to severe acute lower respiratory infections (ALRI) in young children worldwide is unknown."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We aimed to estimate the incidence of admissions and deaths for such infections in children younger than 5 years in 2010.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS We estimated the incidence of admissions for severe and very severe ALRI in children younger than 5 years, stratified by age and region, with data from a systematic review of studies published between Jan 1, 1990, and March 31, 2012, and from 28 unpublished population-based studies."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We applied these incidence estimates to population estimates for 2010, to calculate the global and regional burden in children admitted with severe ALRI in that year."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We estimated in-hospital mortality due to severe and very severe ALRI by combining incidence estimates with case fatality ratios from hospital-based studies.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "FINDINGS We identified 89 eligible studies and estimated that in 2010, 11·9 million (95% CI 10·3-13·9 million) episodes of severe and 3·0 million (2·1-4·2 million) episodes of very severe ALRI resulted in hospital admissions in young children worldwide."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Incidence was higher in boys than in girls, the sex disparity being greatest in South Asian studies."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "On the basis of data from 37 hospital studies reporting case fatality ratios for severe ALRI, we estimated that roughly 265,000 (95% CI 160,000-450,000) in-hospital deaths took place in young children, with 99% of these deaths in developing countries."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Therefore, the data suggest that although 62% of children with severe ALRI are treated in hospitals, 81% of deaths happen outside hospitals.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "INTERPRETATION Severe ALRI is a substantial burden on health services worldwide and a major cause of hospital referral and admission in young children."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Improved hospital access and reduced inequities, such as those related to sex and rural status, could substantially decrease mortality related to such infection."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Community-based management of severe disease could be an important complementary strategy to reduce pneumonia mortality and health inequities.   \n"
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "FUNDING WHO."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "There was an estimated 30 million cases of pneumonia in young children worldwide in 2010.",
+      "evidence": [
+        {
+          "doc_id": 9167230,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "FINDINGS We identified 89 eligible studies and estimated that in 2010, 11·9 million (95% CI 10·3-13·9 million) episodes of severe and 3·0 million (2·1-4·2 million) episodes of very severe ALRI resulted in hospital admissions in young children worldwide.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 9167230,
+          "title": "Global and regional burden of hospital admissions for severe acute lower respiratory infections in young children in 2010: a systematic analysis",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND The annual number of hospital admissions and in-hospital deaths due to severe acute lower respiratory infections (ALRI) in young children worldwide is unknown."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We aimed to estimate the incidence of admissions and deaths for such infections in children younger than 5 years in 2010.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS We estimated the incidence of admissions for severe and very severe ALRI in children younger than 5 years, stratified by age and region, with data from a systematic review of studies published between Jan 1, 1990, and March 31, 2012, and from 28 unpublished population-based studies."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We applied these incidence estimates to population estimates for 2010, to calculate the global and regional burden in children admitted with severe ALRI in that year."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Incidence was higher in boys than in girls, the sex disparity being greatest in South Asian studies."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "On the basis of data from 37 hospital studies reporting case fatality ratios for severe ALRI, we estimated that roughly 265,000 (95% CI 160,000-450,000) in-hospital deaths took place in young children, with 99% of these deaths in developing countries."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "Therefore, the data suggest that although 62% of children with severe ALRI are treated in hospitals, 81% of deaths happen outside hospitals.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "INTERPRETATION Severe ALRI is a substantial burden on health services worldwide and a major cause of hospital referral and admission in young children."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "Improved hospital access and reduced inequities, such as those related to sex and rural status, could substantially decrease mortality related to such infection."
+            },
+            {
+              "new_index": 9,
+              "original_index": 12,
+              "sentence": "FUNDING WHO."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 9167230,
+          "original_index": 4,
+          "sentence": "We estimated in-hospital mortality due to severe and very severe ALRI by combining incidence estimates with case fatality ratios from hospital-based studies.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 9167230,
+          "original_index": 5,
+          "sentence": "FINDINGS We identified 89 eligible studies and estimated that in 2010, 11·9 million (95% CI 10·3-13·9 million) episodes of severe and 3·0 million (2·1-4·2 million) episodes of very severe ALRI resulted in hospital admissions in young children worldwide.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 9167230,
+          "original_index": 11,
+          "sentence": "Community-based management of severe disease could be an important complementary strategy to reduce pneumonia mortality and health inequities.   \n",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

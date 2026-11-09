@@ -1,0 +1,53 @@
+{
+  "id": 651,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Interferon stimulated genes (ISGs) Irf1, Irg1, Ifi27, and Rsad2 encourage West Nile virus replication in cortical neurons.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 9433958,
+          "title": "Differential innate immune response programs in neuronal subtypes determine susceptibility to infection in the brain by positive stranded RNA viruses",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Although susceptibility of neurons in the brain to microbial infection is a major determinant of clinical outcome, little is known about the molecular factors governing this vulnerability."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here we show that two types of neurons from distinct brain regions showed differential permissivity to replication of several positive-stranded RNA viruses."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Granule cell neurons of the cerebellum and cortical neurons from the cerebral cortex have unique innate immune programs that confer differential susceptibility to viral infection ex vivo and in vivo."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "By transducing cortical neurons with genes that were expressed more highly in granule cell neurons, we identified three interferon-stimulated genes (ISGs; Ifi27, Irg1 and Rsad2 (also known as Viperin)) that mediated the antiviral effects against different neurotropic viruses."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Moreover, we found that the epigenetic state and microRNA (miRNA)-mediated regulation of ISGs correlates with enhanced antiviral response in granule cell neurons."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Thus, neurons from evolutionarily distinct brain regions have unique innate immune signatures, which probably contribute to their relative permissiveness to infection."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

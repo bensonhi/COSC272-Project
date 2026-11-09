@@ -1,0 +1,94 @@
+{
+  "id": 89,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Adult tissue-resident macrophages stem from the embryonal yolk sac and fetal liver.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 7521113,
+          "title": "Fate mapping reveals origins and dynamics of monocytes and tissue macrophages under homeostasis.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Mononuclear phagocytes, including monocytes, macrophages, and dendritic cells, contribute to tissue integrity as well as to innate and adaptive immune defense."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Emerging evidence for labor division indicates that manipulation of these cells could bear therapeutic potential."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "However, specific ontogenies of individual populations and the overall functional organization of this cellular network are not well defined."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Here we report a fate-mapping study of the murine monocyte and macrophage compartment taking advantage of constitutive and conditional CX(3)CR1 promoter-driven Cre recombinase expression."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We have demonstrated that major tissue-resident macrophage populations, including liver Kupffer cells and lung alveolar, splenic, and peritoneal macrophages, are established prior to birth and maintain themselves subsequently during adulthood independent of replenishment by blood monocytes."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Furthermore, we have established that short-lived Ly6C(+) monocytes constitute obligatory steady-state precursors of blood-resident Ly6C(-) cells and that the abundance of Ly6C(+) blood monocytes dynamically controls the circulation lifespan of their progeny."
+            }
+          ]
+        },
+        {
+          "doc_id": 22406695,
+          "title": "Origin and functions of tissue macrophages.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Macrophages are distributed in tissues throughout the body and contribute to both homeostasis and disease."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Recently, it has become evident that most adult tissue macrophages originate during embryonic development and not from circulating monocytes."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Each tissue has its own composition of embryonically derived and adult-derived macrophages, but it is unclear whether macrophages of distinct origins are functionally interchangeable or have unique roles at steady state."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "This new understanding also prompts reconsideration of the function of circulating monocytes."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Classical Ly6c(hi) monocytes patrol the extravascular space in resting organs, and Ly6c(lo) nonclassical monocytes patrol the vasculature."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Inflammation triggers monocytes to differentiate into macrophages, but whether resident and newly recruited macrophages possess similar functions during inflammation is unclear."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Here, we define the tools used for identifying the complex origin of tissue macrophages and discuss the relative contributions of tissue niche versus ontological origin to the regulation of macrophage functions during steady state and inflammation."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

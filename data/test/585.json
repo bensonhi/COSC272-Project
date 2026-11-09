@@ -1,0 +1,39 @@
+{
+  "id": 585,
+  "origin": "train_more",
+  "claim": "In the UK, drowning affects boys and girls equally.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 42291761,
+      "title": "Preventing deaths by drowning in children in the United Kingdom: have we made progress in 10 years? Population based incidence study.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Detailed information on drowning in children is not routinely collected by offices of national statistics."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Few studies have been carried out in the United Kingdom, and none has been done on British children abroad.  "
+        },
+        {
+          "original_index": 2,
+          "sentence": "In 1988-9, two of the authors (AMK and JRS) combined information from national statistical offices, police forces (Royal Life Saving Society), and from a press cutting service (Royal Society for Prevention of Accidents) for a detailed analysis of deaths by drowning in children.1, 2, 3 This analysis found that 149 children had drowned in the United Kingdom during 1998-9."
+        },
+        {
+          "original_index": 3,
+          "sentence": "It also identified a safety agenda, which focused on young children in garden ponds and pools and on older children swimming without supervision.  "
+        },
+        {
+          "original_index": 4,
+          "sentence": "Over the past 10 years there have been initiatives on children's safety in water, particularly swimming."
+        },
+        {
+          "original_index": 5,
+          "sentence": "We obtained similar information for 1998-9 to identify changes that have …"
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

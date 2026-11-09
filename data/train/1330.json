@@ -1,0 +1,43 @@
+{
+  "id": 1330,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Tumor development occurs in conjunction with suppression of pro-inflammatory cytokines.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 14075252,
+          "title": "Paraneoplastic thrombocytosis: the secrets of tumor self-promotion.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Paraneoplastic thrombocytosis is associated with many solid tumors and often correlates with reduced survival."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Recent studies suggest that a pathogenic feed back loop may be operative between platelets and tumor cells, with reciprocal interactions between tumor growth/metastasis and thrombocytosis/platelet activation."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Specific molecular pathways have been identified in which tumors can stimulate platelet production and activation; activated platelets can, in turn, promote tumor growth and metastasis."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Taken together, these findings provide exciting new potential targets for therapeutic intervention."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

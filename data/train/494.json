@@ -1,0 +1,108 @@
+{
+  "id": 494,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "HSCT-T dosage may not be diagnostic if the onset of symptoms occurs less than 3 hours before AMI.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 34873974,
+          "title": "Diagnostic accuracy of single baseline measurement of Elecsys Troponin T high-sensitive assay for diagnosis of acute myocardial infarction in emergency department: systematic review and meta-analysis",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To obtain summary estimates of the accuracy of a single baseline measurement of the Elecsys Troponin T high-sensitive assay (Roche Diagnostics) for the diagnosis of acute myocardial infarction in patients presenting to the emergency department.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Systematic review and meta-analysis of diagnostic test accuracy studies.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DATA SOURCES Medline, Embase, and other relevant electronic databases were searched for papers published between January 2006 and December 2013.   "
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "STUDY SELECTION Studies were included if they evaluated the diagnostic accuracy of a single baseline measurement of Elecsys Troponin T high-sensitive assay for the diagnosis of acute myocardial infarction in patients presenting to the emergency department with suspected acute coronary syndrome.   "
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "STUDY APPRAISAL AND DATA SYNTHESIS The first author screened all titles and abstracts identified through the searches and selected all potentially relevant papers."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "The screening of the full texts, the data extraction, and the methodological quality assessment, using the adapted QUADAS-2 tool, were conducted independently by two reviewers with disagreements being resolved through discussion or arbitration."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "If appropriate, meta-analysis was conducted using the hierarchical bivariate model.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "RESULTS Twenty three studies reported the performance of the evaluated assay at presentation."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "The results for 14 ng/L and 3-5 ng/L cut-off values were pooled separately."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "At 14 ng/L (20 papers), the summary sensitivity was 89.5% (95% confidence interval 86.3% to 92.1%) and the summary specificity was 77.1% (68.7% to 83.7%)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "At 3-5 ng/L (six papers), the summary sensitivity was 97.4% (94.9% to 98.7%) and the summary specificity was 42.4% (31.2% to 54.5%)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "This means that if 21 of 100 consecutive patients have the target condition (21%, the median prevalence across the studies), 2 (95% confidence interval 2 to 3) of 21 patients with acute myocardial infarction will be missed (false negatives) if 14 ng/L is used as a cut-off value and 18 (13 to 25) of 79 patients without acute myocardial infarction will test positive (false positives)."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "If the 3-5 ng/L cut-off value is used, <1 (0 to 1) patient with acute myocardial infarction will be missed and 46 (36 to 54) patients without acute myocardial infarction will test positive.   \n"
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "CONCLUSIONS The results indicate that a single baseline measurement of the Elecsys Troponin T high-sensitive assay could be used to rule out acute myocardial infarction if lower cut-off values such as 3 ng/L or 5 ng/L are used."
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "However, this method should be part of a comprehensive triage strategy and may not be appropriate for patients who present less than three hours after symptom onset."
+            },
+            {
+              "new_index": 15,
+              "original_index": 15,
+              "sentence": "Care must also be exercised because of the higher imprecision of the evaluated assay and the greater effect of lot-to-lot reagent variation at low troponin concentrations.   "
+            },
+            {
+              "new_index": 16,
+              "original_index": 16,
+              "sentence": "SYSTEMATIC REVIEW REGISTRATION PROSPERO registration number CRD42013003926."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

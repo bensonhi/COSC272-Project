@@ -1,0 +1,88 @@
+{
+  "id": 1186,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The World Health Organization's (WHO) data collection process is biased downward by unequal selection of larger outbreaks.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 7485455,
+          "title": "Using Routine Surveillance Data to Estimate the Epidemic Potential of Emerging Zoonoses: Application to the Emergence of US Swine Origin Influenza A H3N2v Virus",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Prior to emergence in human populations, zoonoses such as SARS cause occasional infections in human populations exposed to reservoir species."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The risk of widespread epidemics in humans can be assessed by monitoring the reproduction number R (average number of persons infected by a human case)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "However, until now, estimating R required detailed outbreak investigations of human clusters, for which resources and expertise are not always available."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Additionally, existing methods do not correct for important selection and under-ascertainment biases."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Here, we present simple estimation methods that overcome many of these limitations.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "METHODS AND FINDINGS Our approach is based on a parsimonious mathematical model of disease transmission and only requires data collected through routine surveillance and standard case investigations."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "We apply it to assess the transmissibility of swine-origin influenza A H3N2v-M virus in the US, Nipah virus in Malaysia and Bangladesh, and also present a non-zoonotic example (cholera in the Dominican Republic)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Estimation is based on two simple summary statistics, the proportion infected by the natural reservoir among detected cases (G) and among the subset of the first detected cases in each cluster (F)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "If detection of a case does not affect detection of other cases from the same cluster, we find that R can be estimated by 1-G; otherwise R can be estimated by 1-F when the case detection rate is low."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "In more general cases, bounds on R can still be derived.   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "CONCLUSIONS We have developed a simple approach with limited data requirements that enables robust assessment of the risks posed by emerging zoonoses."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "We illustrate this by deriving transmissibility estimates for the H3N2v-M virus, an important step in evaluating the possible pandemic threat posed by this virus."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "Please see later in the article for the Editors' Summary."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

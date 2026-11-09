@@ -1,0 +1,134 @@
+{
+  "id": 216,
+  "origin": "dev",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "CX3CR1 on the Th2 cells impairs T cell survival",
+      "evidence": [
+        {
+          "doc_id": 21366394,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 4,
+          "sentence": "We found that CX3CR1 signaling promoted T(H)2 survival in the inflamed lungs, and injection of B cell leukemia/lymphoma-2 protein (BCl-2)-transduced CX3CR1-deficient T(H)2 cells into CX3CR1-deficient mice restored asthma.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 21366394,
+          "title": "CX3CR1 is required for airway inflammation by promoting T helper cell survival and maintenance in inflamed lung",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Allergic asthma is a T helper type 2 (T(H)2)-dominated disease of the lung."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "In people with asthma, a fraction of CD4(+) T cells express the CX3CL1 receptor, CX3CR1, and CX3CL1 expression is increased in airway smooth muscle, lung endothelium and epithelium upon allergen challenge."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here we found that untreated CX3CR1-deficient mice or wild-type (WT) mice treated with CX3CR1-blocking reagents show reduced lung disease upon allergen sensitization and challenge."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Transfer of WT CD4(+) T cells into CX3CR1-deficient mice restored the cardinal features of asthma, and CX3CR1-blocking reagents prevented airway inflammation in CX3CR1-deficient recipients injected with WT T(H)2 cells."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We found that CX3CR1 signaling promoted T(H)2 survival in the inflamed lungs, and injection of B cell leukemia/lymphoma-2 protein (BCl-2)-transduced CX3CR1-deficient T(H)2 cells into CX3CR1-deficient mice restored asthma."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "CX3CR1-induced survival was also observed for T(H)1 cells upon airway inflammation but not under homeostatic conditions or upon peripheral inflammation."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Therefore, CX3CR1 and CX3CL1 may represent attractive therapeutic targets in asthma."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "CX3CR1 on the Th2 cells impairs T cell survival",
+      "evidence": [
+        {
+          "doc_id": 21366394,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 4,
+          "sentence": "We found that CX3CR1 signaling promoted T(H)2 survival in the inflamed lungs, and injection of B cell leukemia/lymphoma-2 protein (BCl-2)-transduced CX3CR1-deficient T(H)2 cells into CX3CR1-deficient mice restored asthma.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 21366394,
+          "title": "CX3CR1 is required for airway inflammation by promoting T helper cell survival and maintenance in inflamed lung",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Allergic asthma is a T helper type 2 (T(H)2)-dominated disease of the lung."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "In people with asthma, a fraction of CD4(+) T cells express the CX3CL1 receptor, CX3CR1, and CX3CL1 expression is increased in airway smooth muscle, lung endothelium and epithelium upon allergen challenge."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here we found that untreated CX3CR1-deficient mice or wild-type (WT) mice treated with CX3CR1-blocking reagents show reduced lung disease upon allergen sensitization and challenge."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Transfer of WT CD4(+) T cells into CX3CR1-deficient mice restored the cardinal features of asthma, and CX3CR1-blocking reagents prevented airway inflammation in CX3CR1-deficient recipients injected with WT T(H)2 cells."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "CX3CR1-induced survival was also observed for T(H)1 cells upon airway inflammation but not under homeostatic conditions or upon peripheral inflammation."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 21366394,
+          "original_index": 4,
+          "sentence": "We found that CX3CR1 signaling promoted T(H)2 survival in the inflamed lungs, and injection of B cell leukemia/lymphoma-2 protein (BCl-2)-transduced CX3CR1-deficient T(H)2 cells into CX3CR1-deficient mice restored asthma.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 21366394,
+          "original_index": 6,
+          "sentence": "Therefore, CX3CR1 and CX3CL1 may represent attractive therapeutic targets in asthma.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

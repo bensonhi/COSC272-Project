@@ -1,0 +1,53 @@
+{
+  "id": 1166,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The H2A-H2B eviction defect is compensated for by other histone chaperone(s).",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 9889151,
+          "title": "FACT Disrupts Nucleosome Structure by Binding H2A-H2B with Conserved Peptide Motifs.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "FACT, a heterodimer of Spt16 and Pob3, is an essential histone chaperone."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We show that the H2A-H2B binding activity that is central to FACT function resides in short acidic regions near the C termini of each subunit."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Mutations throughout these regions affect binding and cause correlated phenotypes that range from mild to lethal, with the largest individual contributions unexpectedly coming from an aromatic residue and a nearby carboxylate residue within each domain."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Spt16 and Pob3 bind overlapping sites on H2A-H2B, and Spt16-Pob3 heterodimers simultaneously bind two H2A-H2B dimers, the same stoichiometry as the components of a nucleosome."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "An Spt16:H2A-H2B crystal structure explains the biochemical and genetic data, provides a model for Pob3 binding, and implies a mechanism for FACT reorganization that we confirm biochemically."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Moreover, unexpected similarity to binding of ANP32E and Swr1 with H2A.Z-H2B reveals that diverse H2A-H2B chaperones use common mechanisms of histone binding and regulating nucleosome functions."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

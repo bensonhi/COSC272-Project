@@ -1,0 +1,259 @@
+{
+  "id": 734,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "MEK inhibitors are effective treatments in RAS-driven mouse models of cancer.",
+      "evidence": [
+        {
+          "doc_id": 4961038,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "However, when NVP-BEZ235 was combined with a mitogen-activated protein kinase kinase (MEK) inhibitor, ARRY-142886, there was marked synergy in shrinking these Kras-mutant cancers.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 4961038,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "These in vivo studies suggest that inhibitors of the PI3K-mTOR pathway may be active in cancers with PIK3CA mutations and, when combined with MEK inhibitors, may effectively treat KRAS mutated lung cancers.",
+          "kept": true,
+          "new_index": 8
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4961038,
+          "title": "Effective Use of PI3K and MEK Inhibitors to Treat Mutant K-Ras G12D and PIK3CA H1047R Murine Lung Cancers",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Somatic mutations that activate phosphoinositide 3-kinase (PI3K) have been identified in the p110-alpha catalytic subunit (encoded by PIK3CA)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "They are most frequently observed in two hotspots: the helical domain (E545K and E542K) and the kinase domain (H1047R)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Although the p110-alpha mutants are transforming in vitro, their oncogenic potential has not been assessed in genetically engineered mouse models."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Furthermore, clinical trials with PI3K inhibitors have recently been initiated, and it is unknown if their efficacy will be restricted to specific, genetically defined malignancies."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "In this study, we engineered a mouse model of lung adenocarcinomas initiated and maintained by expression of p110-alpha H1047R."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Treatment of these tumors with NVP-BEZ235, a dual pan-PI3K and mammalian target of rapamycin (mTOR) inhibitor in clinical development, led to marked tumor regression as shown by positron emission tomography-computed tomography, magnetic resonance imaging and microscopic examination."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "In contrast, mouse lung cancers driven by mutant Kras did not substantially respond to single-agent NVP-BEZ235."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "However, when NVP-BEZ235 was combined with a mitogen-activated protein kinase kinase (MEK) inhibitor, ARRY-142886, there was marked synergy in shrinking these Kras-mutant cancers."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "These in vivo studies suggest that inhibitors of the PI3K-mTOR pathway may be active in cancers with PIK3CA mutations and, when combined with MEK inhibitors, may effectively treat KRAS mutated lung cancers."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "MEK inhibitors are effective treatments in RAS-driven mouse models of cancer.",
+      "evidence": [
+        {
+          "doc_id": 4961038,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "However, when NVP-BEZ235 was combined with a mitogen-activated protein kinase kinase (MEK) inhibitor, ARRY-142886, there was marked synergy in shrinking these Kras-mutant cancers.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4961038,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "These in vivo studies suggest that inhibitors of the PI3K-mTOR pathway may be active in cancers with PIK3CA mutations and, when combined with MEK inhibitors, may effectively treat KRAS mutated lung cancers.",
+          "kept": true,
+          "new_index": 6
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4961038,
+          "title": "Effective Use of PI3K and MEK Inhibitors to Treat Mutant K-Ras G12D and PIK3CA H1047R Murine Lung Cancers",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Somatic mutations that activate phosphoinositide 3-kinase (PI3K) have been identified in the p110-alpha catalytic subunit (encoded by PIK3CA)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "They are most frequently observed in two hotspots: the helical domain (E545K and E542K) and the kinase domain (H1047R)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Although the p110-alpha mutants are transforming in vitro, their oncogenic potential has not been assessed in genetically engineered mouse models."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Furthermore, clinical trials with PI3K inhibitors have recently been initiated, and it is unknown if their efficacy will be restricted to specific, genetically defined malignancies."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "In this study, we engineered a mouse model of lung adenocarcinomas initiated and maintained by expression of p110-alpha H1047R."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Treatment of these tumors with NVP-BEZ235, a dual pan-PI3K and mammalian target of rapamycin (mTOR) inhibitor in clinical development, led to marked tumor regression as shown by positron emission tomography-computed tomography, magnetic resonance imaging and microscopic examination."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "These in vivo studies suggest that inhibitors of the PI3K-mTOR pathway may be active in cancers with PIK3CA mutations and, when combined with MEK inhibitors, may effectively treat KRAS mutated lung cancers."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 4961038,
+          "original_index": 6,
+          "sentence": "In contrast, mouse lung cancers driven by mutant Kras did not substantially respond to single-agent NVP-BEZ235.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4961038,
+          "original_index": 7,
+          "sentence": "However, when NVP-BEZ235 was combined with a mitogen-activated protein kinase kinase (MEK) inhibitor, ARRY-142886, there was marked synergy in shrinking these Kras-mutant cancers.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "MEK inhibitors are effective treatments in RAS-driven mouse models of cancer.",
+      "evidence": [
+        {
+          "doc_id": 4961038,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "However, when NVP-BEZ235 was combined with a mitogen-activated protein kinase kinase (MEK) inhibitor, ARRY-142886, there was marked synergy in shrinking these Kras-mutant cancers.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4961038,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "These in vivo studies suggest that inhibitors of the PI3K-mTOR pathway may be active in cancers with PIK3CA mutations and, when combined with MEK inhibitors, may effectively treat KRAS mutated lung cancers.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4961038,
+          "title": "Effective Use of PI3K and MEK Inhibitors to Treat Mutant K-Ras G12D and PIK3CA H1047R Murine Lung Cancers",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Somatic mutations that activate phosphoinositide 3-kinase (PI3K) have been identified in the p110-alpha catalytic subunit (encoded by PIK3CA)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "They are most frequently observed in two hotspots: the helical domain (E545K and E542K) and the kinase domain (H1047R)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Although the p110-alpha mutants are transforming in vitro, their oncogenic potential has not been assessed in genetically engineered mouse models."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Furthermore, clinical trials with PI3K inhibitors have recently been initiated, and it is unknown if their efficacy will be restricted to specific, genetically defined malignancies."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "In this study, we engineered a mouse model of lung adenocarcinomas initiated and maintained by expression of p110-alpha H1047R."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Treatment of these tumors with NVP-BEZ235, a dual pan-PI3K and mammalian target of rapamycin (mTOR) inhibitor in clinical development, led to marked tumor regression as shown by positron emission tomography-computed tomography, magnetic resonance imaging and microscopic examination."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 4961038,
+          "original_index": 6,
+          "sentence": "In contrast, mouse lung cancers driven by mutant Kras did not substantially respond to single-agent NVP-BEZ235.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4961038,
+          "original_index": 7,
+          "sentence": "However, when NVP-BEZ235 was combined with a mitogen-activated protein kinase kinase (MEK) inhibitor, ARRY-142886, there was marked synergy in shrinking these Kras-mutant cancers.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 4961038,
+          "original_index": 8,
+          "sentence": "These in vivo studies suggest that inhibitors of the PI3K-mTOR pathway may be active in cancers with PIK3CA mutations and, when combined with MEK inhibitors, may effectively treat KRAS mutated lung cancers.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

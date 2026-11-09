@@ -1,0 +1,47 @@
+{
+  "id": 422,
+  "origin": "train_more",
+  "claim": "Flexible molecules experience less steric hindrance in the tumor microenviroment than rigid molecules.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 11172205,
+      "title": "Quantum dots spectrally distinguish multiple species within the tumor milieu in vivo",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "A solid tumor is an organ composed of cancer and host cells embedded in an extracellular matrix and nourished by blood vessels."
+        },
+        {
+          "original_index": 1,
+          "sentence": "A prerequisite to understanding tumor pathophysiology is the ability to distinguish and monitor each component in dynamic studies."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Standard fluorophores hamper simultaneous intravital imaging of these components."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Here, we used multiphoton microscopy techniques and transgenic mice that expressed green fluorescent protein, and combined them with the use of quantum dot preparations."
+        },
+        {
+          "original_index": 4,
+          "sentence": "We show that these fluorescent semiconductor nanocrystals can be customized to concurrently image and differentiate tumor vessels from both the perivascular cells and the matrix."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Moreover, we used them to measure the ability of particles of different sizes to access the tumor."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Finally, we successfully monitored the recruitment of quantum dot–labeled bone marrow–derived precursor cells to the tumor vasculature."
+        },
+        {
+          "original_index": 7,
+          "sentence": "These examples show the versatility of quantum dots for studying tumor pathophysiology and creating avenues for treatment."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

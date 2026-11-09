@@ -1,0 +1,39 @@
+{
+  "id": 942,
+  "origin": "train_more",
+  "claim": "Phase information is useful for predicting donor-recipient matches in organ transplantation.",
+  "evidence": [
+    {
+      "doc_id": 11527199,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 3,
+      "sentence": "Genes that influence transplantation outcome could be identified by using linkage disequilibrium (LD)-mapping approaches, if the extended MHC haplotypes of the unrelated donor and recipient could be defined."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 11527199,
+      "title": "MHC Haplotype Matching for Unrelated Hematopoietic Cell Transplantation",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Background  Current criteria for the selection of unrelated donors for hematopoietic cell transplantation (HCT) include matching for the alleles of each human leukocyte antigen (HLA) locus within the major histocompatibility complex (MHC)."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Graft-versus-host disease (GVHD), however, remains a significant and potentially life-threatening complication even after HLA-identical unrelated HCT."
+        },
+        {
+          "original_index": 2,
+          "sentence": "The MHC harbors more than 400 genes, but the total number of transplantation antigens is unknown."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Genes that influence transplantation outcome could be identified by using linkage disequilibrium (LD)-mapping approaches, if the extended MHC haplotypes of the unrelated donor and recipient could be defined."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

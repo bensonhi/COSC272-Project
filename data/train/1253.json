@@ -1,0 +1,63 @@
+{
+  "id": 1253,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The predominant localization of Linc00173 is in mononuclear macrophage nuclei.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 3321943,
+          "title": "The non-coding RNA landscape of human hematopoiesis and leukemia",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Non-coding RNAs have emerged as crucial regulators of gene expression and cell fate decisions."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "However, their expression patterns and regulatory functions during normal and malignant human hematopoiesis are incompletely understood."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here we present a comprehensive resource defining the non-coding RNA landscape of the human hematopoietic system."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Based on highly specific non-coding RNA expression portraits per blood cell population, we identify unique fingerprint non-coding RNAs-such as LINC00173 in granulocytes-and assign these to critical regulatory circuits involved in blood homeostasis."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Following the incorporation of acute myeloid leukemia samples into the landscape, we further uncover prognostically relevant non-coding RNA stem cell signatures shared between acute myeloid leukemia blasts and healthy hematopoietic stem cells."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Our findings highlight the importance of the non-coding transcriptome in the formation and maintenance of the human blood hierarchy."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "While micro-RNAs are known regulators of haematopoiesis and leukemogenesis, the role of long non-coding RNAs is less clear."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Here the authors provide a non-coding RNA expression landscape of the human hematopoietic system, highlighting their role in the formation and maintenance of the human blood hierarchy."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

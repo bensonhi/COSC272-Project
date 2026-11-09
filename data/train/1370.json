@@ -1,0 +1,321 @@
+{
+  "id": 1370,
+  "origin": "dev",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Vitamin D deficiency is unrelated to birth weight.",
+      "evidence": [
+        {
+          "doc_id": 2425364,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "Pregnant women with low serum 25-OHD levels had an increased risk of bacterial vaginosis and low birthweight infants but not delivery by caesarean section.   \n",
+          "kept": true,
+          "new_index": 10
+        },
+        {
+          "doc_id": 2425364,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 12,
+          "sentence": "Pregnant women with low 25-OHD levels had an increased risk of bacterial vaginosis and lower birth weight infants, but not delivery by caesarean section.",
+          "kept": true,
+          "new_index": 12
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 2425364,
+          "title": "Association between maternal serum 25-hydroxyvitamin D level and pregnancy and neonatal outcomes: systematic review and meta-analysis of observational studies.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To assess the effect of 25-hydroxyvitamin D (25-OHD) levels on pregnancy outcomes and birth variables.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Systematic review and meta-analysis.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DATA SOURCES Medline (1966 to August 2012), PubMed (2008 to August 2012), Embase (1980 to August 2012), CINAHL (1981 to August 2012), the Cochrane database of systematic reviews, and the Cochrane database of registered clinical trials.   "
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "STUDY SELECTION Studies reporting on the association between serum 25-OHD levels during pregnancy and the outcomes of interest (pre-eclampsia, gestational diabetes, bacterial vaginosis, caesarean section, small for gestational age infants, birth weight, birth length, and head circumference).   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "DATA EXTRACTION Two authors independently extracted data from original research articles, including key indicators of study quality."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We pooled the most adjusted odds ratios and weighted mean differences."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Associations were tested in subgroups representing different patient characteristics and study quality.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "RESULTS 3357 studies were identified and reviewed for eligibility."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "31 eligible studies were included in the final analysis."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Insufficient serum levels of 25-OHD were associated with gestational diabetes (pooled odds ratio 1.49, 95% confidence interval 1.18 to 1.89), pre-eclampsia (1.79, 1.25 to 2.58), and small for gestational age infants (1.85, 1.52 to 2.26)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Pregnant women with low serum 25-OHD levels had an increased risk of bacterial vaginosis and low birthweight infants but not delivery by caesarean section.   \n"
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "CONCLUSION Vitamin D insufficiency is associated with an increased risk of gestational diabetes, pre-eclampsia, and small for gestational age infants."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "Pregnant women with low 25-OHD levels had an increased risk of bacterial vaginosis and lower birth weight infants, but not delivery by caesarean section."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Vitamin D deficiency is unrelated to birth weight.",
+      "evidence": [
+        {
+          "doc_id": 2425364,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "Pregnant women with low serum 25-OHD levels had an increased risk of bacterial vaginosis and low birthweight infants but not delivery by caesarean section.   \n",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 2425364,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 12,
+          "sentence": "Pregnant women with low 25-OHD levels had an increased risk of bacterial vaginosis and lower birth weight infants, but not delivery by caesarean section.",
+          "kept": true,
+          "new_index": 9
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 2425364,
+          "title": "Association between maternal serum 25-hydroxyvitamin D level and pregnancy and neonatal outcomes: systematic review and meta-analysis of observational studies.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To assess the effect of 25-hydroxyvitamin D (25-OHD) levels on pregnancy outcomes and birth variables.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Systematic review and meta-analysis.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DATA SOURCES Medline (1966 to August 2012), PubMed (2008 to August 2012), Embase (1980 to August 2012), CINAHL (1981 to August 2012), the Cochrane database of systematic reviews, and the Cochrane database of registered clinical trials.   "
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "STUDY SELECTION Studies reporting on the association between serum 25-OHD levels during pregnancy and the outcomes of interest (pre-eclampsia, gestational diabetes, bacterial vaginosis, caesarean section, small for gestational age infants, birth weight, birth length, and head circumference).   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "DATA EXTRACTION Two authors independently extracted data from original research articles, including key indicators of study quality."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We pooled the most adjusted odds ratios and weighted mean differences."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "RESULTS 3357 studies were identified and reviewed for eligibility."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Insufficient serum levels of 25-OHD were associated with gestational diabetes (pooled odds ratio 1.49, 95% confidence interval 1.18 to 1.89), pre-eclampsia (1.79, 1.25 to 2.58), and small for gestational age infants (1.85, 1.52 to 2.26)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "CONCLUSION Vitamin D insufficiency is associated with an increased risk of gestational diabetes, pre-eclampsia, and small for gestational age infants."
+            },
+            {
+              "new_index": 9,
+              "original_index": 12,
+              "sentence": "Pregnant women with low 25-OHD levels had an increased risk of bacterial vaginosis and lower birth weight infants, but not delivery by caesarean section."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 2425364,
+          "original_index": 6,
+          "sentence": "Associations were tested in subgroups representing different patient characteristics and study quality.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 2425364,
+          "original_index": 8,
+          "sentence": "31 eligible studies were included in the final analysis.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 2425364,
+          "original_index": 10,
+          "sentence": "Pregnant women with low serum 25-OHD levels had an increased risk of bacterial vaginosis and low birthweight infants but not delivery by caesarean section.   \n",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Vitamin D deficiency is unrelated to birth weight.",
+      "evidence": [
+        {
+          "doc_id": 2425364,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "Pregnant women with low serum 25-OHD levels had an increased risk of bacterial vaginosis and low birthweight infants but not delivery by caesarean section.   \n",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 2425364,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 12,
+          "sentence": "Pregnant women with low 25-OHD levels had an increased risk of bacterial vaginosis and lower birth weight infants, but not delivery by caesarean section.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 2425364,
+          "title": "Association between maternal serum 25-hydroxyvitamin D level and pregnancy and neonatal outcomes: systematic review and meta-analysis of observational studies.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To assess the effect of 25-hydroxyvitamin D (25-OHD) levels on pregnancy outcomes and birth variables.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Systematic review and meta-analysis.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DATA SOURCES Medline (1966 to August 2012), PubMed (2008 to August 2012), Embase (1980 to August 2012), CINAHL (1981 to August 2012), the Cochrane database of systematic reviews, and the Cochrane database of registered clinical trials.   "
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "STUDY SELECTION Studies reporting on the association between serum 25-OHD levels during pregnancy and the outcomes of interest (pre-eclampsia, gestational diabetes, bacterial vaginosis, caesarean section, small for gestational age infants, birth weight, birth length, and head circumference).   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "We pooled the most adjusted odds ratios and weighted mean differences."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Associations were tested in subgroups representing different patient characteristics and study quality.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "31 eligible studies were included in the final analysis."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Insufficient serum levels of 25-OHD were associated with gestational diabetes (pooled odds ratio 1.49, 95% confidence interval 1.18 to 1.89), pre-eclampsia (1.79, 1.25 to 2.58), and small for gestational age infants (1.85, 1.52 to 2.26)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "CONCLUSION Vitamin D insufficiency is associated with an increased risk of gestational diabetes, pre-eclampsia, and small for gestational age infants."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 2425364,
+          "original_index": 4,
+          "sentence": "DATA EXTRACTION Two authors independently extracted data from original research articles, including key indicators of study quality.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 2425364,
+          "original_index": 7,
+          "sentence": "RESULTS 3357 studies were identified and reviewed for eligibility.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 2425364,
+          "original_index": 10,
+          "sentence": "Pregnant women with low serum 25-OHD levels had an increased risk of bacterial vaginosis and low birthweight infants but not delivery by caesarean section.   \n",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 2425364,
+          "original_index": 12,
+          "sentence": "Pregnant women with low 25-OHD levels had an increased risk of bacterial vaginosis and lower birth weight infants, but not delivery by caesarean section.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

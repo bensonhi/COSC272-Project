@@ -1,0 +1,51 @@
+{
+  "id": 1102,
+  "origin": "train_more",
+  "claim": "Stiff substrates inhibit mesodermal differentiation by degrading beta-catenin in an integrin-dependent manner.",
+  "evidence": [
+    {
+      "doc_id": 3874000,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 5,
+      "sentence": "By contrast, on a stiff hydrogel matrix, hESCs show elevated integrin-dependent GSK3 and Src activity that promotes β-catenin degradation and inhibits differentiation."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 3874000,
+      "title": "Tissue Mechanics Orchestrate Wnt-Dependent Human Embryonic Stem Cell Differentiation.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Regenerative medicine is predicated on understanding the mechanisms regulating development and applying these conditions to direct stem cell fate."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Embryogenesis is guided by cell-cell and cell-matrix interactions, but it is unclear how these physical cues influence stem cells in culture."
+        },
+        {
+          "original_index": 2,
+          "sentence": "We used human embryonic stem cells (hESCs) to examine whether mechanical features of the extracellular microenvironment could differentially modulate mesoderm specification."
+        },
+        {
+          "original_index": 3,
+          "sentence": "We found that, on a hydrogel-based compliant matrix, hESCs accumulate β-catenin at cell-cell adhesions and show enhanced Wnt-dependent mesoderm differentiation."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Mechanistically, Src-driven ubiquitination of E-cadherin by Cbl-like ubiquitin ligase releases P120-catenin to facilitate transcriptional activity of β-catenin, which initiates and reinforces mesoderm differentiation."
+        },
+        {
+          "original_index": 5,
+          "sentence": "By contrast, on a stiff hydrogel matrix, hESCs show elevated integrin-dependent GSK3 and Src activity that promotes β-catenin degradation and inhibits differentiation."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Thus, we found that mechanical features of the microenvironmental matrix influence tissue-specific differentiation of hESCs by altering the cellular response to morphogens."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

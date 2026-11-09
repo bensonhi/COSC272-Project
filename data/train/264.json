@@ -1,0 +1,231 @@
+{
+  "id": 264,
+  "origin": "train_more",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Citrullinated proteins externalized in neutrophil extracellular traps act indirectly to perpetuate the inflammatory cycle via induction of autoantibodies.",
+      "evidence": [
+        {
+          "doc_id": 11328820,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Indeed, during NETosis, neutrophils externalized the citrullinated autoantigens implicated in RA pathogenesis, and anti-citrullinated vimentin antibodies potently induced NET formation.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 11328820,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Moreover, the inflammatory cytokines interleukin-17A (IL-17A) and tumor necrosis factor-α (TNF-α) induced NETosis in RA neutrophils.",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 11328820,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "In turn, NETs significantly augmented inflammatory responses in RA and OA synovial fibroblasts, including induction of IL-6, IL-8, chemokines, and adhesion molecules.",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 11328820,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "These observations implicate accelerated NETosis in RA pathogenesis, through externalization of citrullinated autoantigens and immunostimulatory molecules that may promote aberrant adaptive and innate immune responses in the joint and in the periphery, and perpetuate pathogenic mechanisms in this disease.",
+          "kept": true,
+          "new_index": 10
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 11328820,
+          "title": "NETs are a source of citrullinated autoantigens and stimulate inflammatory responses in rheumatoid arthritis.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The early events leading to the development of rheumatoid arthritis (RA) remain unclear, but formation of autoantibodies to citrullinated protein antigens (ACPAs) is considered a key pathogenic event."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Neutrophils isolated from patients with various autoimmune diseases display enhanced neutrophil extracellular trap (NET) formation, a phenomenon that exposes autoantigens in the context of immunostimulatory molecules."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We investigated whether aberrant NETosis occurs in RA, determined its triggers, and examined its deleterious inflammatory consequences."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Enhanced NETosis was observed in circulating and RA synovial fluid neutrophils compared to neutrophils from healthy controls and from patients with osteoarthritis (OA)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Further, netting neutrophils infiltrated RA synovial tissue, rheumatoid nodules, and skin."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "NETosis correlated with ACPA presence and levels and with systemic inflammatory markers."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "RA sera and immunoglobulin fractions from RA patients with high levels of ACPA and/or rheumatoid factor significantly enhanced NETosis, and the NETs induced by these autoantibodies displayed distinct protein content."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Indeed, during NETosis, neutrophils externalized the citrullinated autoantigens implicated in RA pathogenesis, and anti-citrullinated vimentin antibodies potently induced NET formation."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Moreover, the inflammatory cytokines interleukin-17A (IL-17A) and tumor necrosis factor-α (TNF-α) induced NETosis in RA neutrophils."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "In turn, NETs significantly augmented inflammatory responses in RA and OA synovial fibroblasts, including induction of IL-6, IL-8, chemokines, and adhesion molecules."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "These observations implicate accelerated NETosis in RA pathogenesis, through externalization of citrullinated autoantigens and immunostimulatory molecules that may promote aberrant adaptive and innate immune responses in the joint and in the periphery, and perpetuate pathogenic mechanisms in this disease."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Citrullinated proteins externalized in neutrophil extracellular traps act indirectly to perpetuate the inflammatory cycle via induction of autoantibodies.",
+      "evidence": [
+        {
+          "doc_id": 11328820,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Indeed, during NETosis, neutrophils externalized the citrullinated autoantigens implicated in RA pathogenesis, and anti-citrullinated vimentin antibodies potently induced NET formation.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 11328820,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Moreover, the inflammatory cytokines interleukin-17A (IL-17A) and tumor necrosis factor-α (TNF-α) induced NETosis in RA neutrophils.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 11328820,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "In turn, NETs significantly augmented inflammatory responses in RA and OA synovial fibroblasts, including induction of IL-6, IL-8, chemokines, and adhesion molecules.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 11328820,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "These observations implicate accelerated NETosis in RA pathogenesis, through externalization of citrullinated autoantigens and immunostimulatory molecules that may promote aberrant adaptive and innate immune responses in the joint and in the periphery, and perpetuate pathogenic mechanisms in this disease.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 11328820,
+          "title": "NETs are a source of citrullinated autoantigens and stimulate inflammatory responses in rheumatoid arthritis.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The early events leading to the development of rheumatoid arthritis (RA) remain unclear, but formation of autoantibodies to citrullinated protein antigens (ACPAs) is considered a key pathogenic event."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Neutrophils isolated from patients with various autoimmune diseases display enhanced neutrophil extracellular trap (NET) formation, a phenomenon that exposes autoantigens in the context of immunostimulatory molecules."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We investigated whether aberrant NETosis occurs in RA, determined its triggers, and examined its deleterious inflammatory consequences."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Further, netting neutrophils infiltrated RA synovial tissue, rheumatoid nodules, and skin."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "NETosis correlated with ACPA presence and levels and with systemic inflammatory markers."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "RA sera and immunoglobulin fractions from RA patients with high levels of ACPA and/or rheumatoid factor significantly enhanced NETosis, and the NETs induced by these autoantibodies displayed distinct protein content."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 11328820,
+          "original_index": 3,
+          "sentence": "Enhanced NETosis was observed in circulating and RA synovial fluid neutrophils compared to neutrophils from healthy controls and from patients with osteoarthritis (OA).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 11328820,
+          "original_index": 7,
+          "sentence": "Indeed, during NETosis, neutrophils externalized the citrullinated autoantigens implicated in RA pathogenesis, and anti-citrullinated vimentin antibodies potently induced NET formation.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 11328820,
+          "original_index": 8,
+          "sentence": "Moreover, the inflammatory cytokines interleukin-17A (IL-17A) and tumor necrosis factor-α (TNF-α) induced NETosis in RA neutrophils.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 11328820,
+          "original_index": 9,
+          "sentence": "In turn, NETs significantly augmented inflammatory responses in RA and OA synovial fibroblasts, including induction of IL-6, IL-8, chemokines, and adhesion molecules.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 11328820,
+          "original_index": 10,
+          "sentence": "These observations implicate accelerated NETosis in RA pathogenesis, through externalization of citrullinated autoantigens and immunostimulatory molecules that may promote aberrant adaptive and innate immune responses in the joint and in the periphery, and perpetuate pathogenic mechanisms in this disease.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

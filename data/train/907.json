@@ -1,0 +1,38 @@
+{
+  "id": 907,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "PGE 2 promotes intestinal tumor growth by altering the expression of tumor suppressing and DNA repair genes.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 6923961,
+          "title": "Prostaglandin E2 promotes intestinal tumor growth via DNA methylation",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Although aberrant DNA methylation is considered to be one of the key ways by which tumor-suppressor and DNA-repair genes are silenced during tumor initiation and progression, the mechanisms underlying DNA methylation alterations in cancer remain unclear."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here we show that prostaglandin E(2) (PGE(2)) silences certain tumor-suppressor and DNA-repair genes through DNA methylation to promote tumor growth."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "These findings uncover a previously unrecognized role for PGE(2) in the promotion of tumor progression."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

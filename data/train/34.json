@@ -1,0 +1,554 @@
+{
+  "id": 34,
+  "origin": "train_more",
+  "n_groups": 5,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "A deficiency of folate increases blood levels of homocysteine.",
+      "evidence": [
+        {
+          "doc_id": 11705328,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "RESULTS Median serum homocysteine level decreased with increasing folic acid dosage, to a maximum at 0.8 mg of folic acid per day, when the homocysteine reduction (placebo adjusted) was 2.7 micromol/L (23%), similar to the known effect of folic acid dosages of 1 mg/d and above.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 11705328,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "The higher a person's initial serum homocysteine level, the greater was the response to folic acid, but there were statistically significant reductions regardless of the initial level.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 11705328,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "CONCLUSIONS A dosage of folic acid of 0.8 mg/d appears necessary to achieve the maximum reduction in serum homocysteine level across the range of homocysteine levels in the population.",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 11705328,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 9,
+          "sentence": "Current US food fortification levels will achieve only a small proportion of the achievable homocysteine reduction.",
+          "kept": true,
+          "new_index": 9
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 11705328,
+          "title": "Randomized trial of folic acid supplementation and serum homocysteine levels.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Lowering serum homocysteine levels with folic acid is expected to reduce mortality from ischemic heart disease."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Homocysteine reduction is known to be maximal at a folic acid dosage of 1 mg/d, but the effect of lower doses (relevant to food fortification) is unclear.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS We randomized 151 patients with ischemic heart disease to 1 of 5 dosages of folic acid (0.2, 0.4, 0.6, 0.8, and 1.0 mg/d) or placebo."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Fasting blood samples for serum homocysteine and serum folate analysis were taken initially, after 3 months of supplementation, and 3 months after folic acid use was discontinued.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "RESULTS Median serum homocysteine level decreased with increasing folic acid dosage, to a maximum at 0.8 mg of folic acid per day, when the homocysteine reduction (placebo adjusted) was 2.7 micromol/L (23%), similar to the known effect of folic acid dosages of 1 mg/d and above."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "The higher a person's initial serum homocysteine level, the greater was the response to folic acid, but there were statistically significant reductions regardless of the initial level."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Serum folate level increased approximately linearly (5.5 nmol/L for every 0.1 mg of folic acid)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Within-person fluctuations over time in serum homocysteine levels, measured in the placebo group, were large compared with the effect of folic acid, indicating that monitoring of the reduction in an individual is impractical.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "CONCLUSIONS A dosage of folic acid of 0.8 mg/d appears necessary to achieve the maximum reduction in serum homocysteine level across the range of homocysteine levels in the population."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Current US food fortification levels will achieve only a small proportion of the achievable homocysteine reduction."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "A deficiency of folate increases blood levels of homocysteine.",
+      "evidence": [
+        {
+          "doc_id": 11705328,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "RESULTS Median serum homocysteine level decreased with increasing folic acid dosage, to a maximum at 0.8 mg of folic acid per day, when the homocysteine reduction (placebo adjusted) was 2.7 micromol/L (23%), similar to the known effect of folic acid dosages of 1 mg/d and above.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 11705328,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "The higher a person's initial serum homocysteine level, the greater was the response to folic acid, but there were statistically significant reductions regardless of the initial level.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 11705328,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "CONCLUSIONS A dosage of folic acid of 0.8 mg/d appears necessary to achieve the maximum reduction in serum homocysteine level across the range of homocysteine levels in the population.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 11705328,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 9,
+          "sentence": "Current US food fortification levels will achieve only a small proportion of the achievable homocysteine reduction.",
+          "kept": true,
+          "new_index": 7
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 11705328,
+          "title": "Randomized trial of folic acid supplementation and serum homocysteine levels.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Lowering serum homocysteine levels with folic acid is expected to reduce mortality from ischemic heart disease."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Homocysteine reduction is known to be maximal at a folic acid dosage of 1 mg/d, but the effect of lower doses (relevant to food fortification) is unclear.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Fasting blood samples for serum homocysteine and serum folate analysis were taken initially, after 3 months of supplementation, and 3 months after folic acid use was discontinued.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "The higher a person's initial serum homocysteine level, the greater was the response to folic acid, but there were statistically significant reductions regardless of the initial level."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Serum folate level increased approximately linearly (5.5 nmol/L for every 0.1 mg of folic acid)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Within-person fluctuations over time in serum homocysteine levels, measured in the placebo group, were large compared with the effect of folic acid, indicating that monitoring of the reduction in an individual is impractical.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "CONCLUSIONS A dosage of folic acid of 0.8 mg/d appears necessary to achieve the maximum reduction in serum homocysteine level across the range of homocysteine levels in the population."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Current US food fortification levels will achieve only a small proportion of the achievable homocysteine reduction."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 11705328,
+          "original_index": 2,
+          "sentence": "METHODS We randomized 151 patients with ischemic heart disease to 1 of 5 dosages of folic acid (0.2, 0.4, 0.6, 0.8, and 1.0 mg/d) or placebo.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 11705328,
+          "original_index": 4,
+          "sentence": "RESULTS Median serum homocysteine level decreased with increasing folic acid dosage, to a maximum at 0.8 mg of folic acid per day, when the homocysteine reduction (placebo adjusted) was 2.7 micromol/L (23%), similar to the known effect of folic acid dosages of 1 mg/d and above.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g0",
+        "g2"
+      ],
+      "claim": "A deficiency of folate increases blood levels of homocysteine.",
+      "evidence": [
+        {
+          "doc_id": 11705328,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "RESULTS Median serum homocysteine level decreased with increasing folic acid dosage, to a maximum at 0.8 mg of folic acid per day, when the homocysteine reduction (placebo adjusted) was 2.7 micromol/L (23%), similar to the known effect of folic acid dosages of 1 mg/d and above.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 11705328,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "The higher a person's initial serum homocysteine level, the greater was the response to folic acid, but there were statistically significant reductions regardless of the initial level.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 11705328,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "CONCLUSIONS A dosage of folic acid of 0.8 mg/d appears necessary to achieve the maximum reduction in serum homocysteine level across the range of homocysteine levels in the population.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 11705328,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 9,
+          "sentence": "Current US food fortification levels will achieve only a small proportion of the achievable homocysteine reduction.",
+          "kept": true,
+          "new_index": 6
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 11705328,
+          "title": "Randomized trial of folic acid supplementation and serum homocysteine levels.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "Homocysteine reduction is known to be maximal at a folic acid dosage of 1 mg/d, but the effect of lower doses (relevant to food fortification) is unclear.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "METHODS We randomized 151 patients with ischemic heart disease to 1 of 5 dosages of folic acid (0.2, 0.4, 0.6, 0.8, and 1.0 mg/d) or placebo."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Fasting blood samples for serum homocysteine and serum folate analysis were taken initially, after 3 months of supplementation, and 3 months after folic acid use was discontinued.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "The higher a person's initial serum homocysteine level, the greater was the response to folic acid, but there were statistically significant reductions regardless of the initial level."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Serum folate level increased approximately linearly (5.5 nmol/L for every 0.1 mg of folic acid)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Within-person fluctuations over time in serum homocysteine levels, measured in the placebo group, were large compared with the effect of folic acid, indicating that monitoring of the reduction in an individual is impractical.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 9,
+              "sentence": "Current US food fortification levels will achieve only a small proportion of the achievable homocysteine reduction."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 11705328,
+          "original_index": 0,
+          "sentence": "BACKGROUND Lowering serum homocysteine levels with folic acid is expected to reduce mortality from ischemic heart disease.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 11705328,
+          "original_index": 4,
+          "sentence": "RESULTS Median serum homocysteine level decreased with increasing folic acid dosage, to a maximum at 0.8 mg of folic acid per day, when the homocysteine reduction (placebo adjusted) was 2.7 micromol/L (23%), similar to the known effect of folic acid dosages of 1 mg/d and above.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 11705328,
+          "original_index": 8,
+          "sentence": "CONCLUSIONS A dosage of folic acid of 0.8 mg/d appears necessary to achieve the maximum reduction in serum homocysteine level across the range of homocysteine levels in the population.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_3_groups",
+      "dropped_group_ids": [
+        "g2",
+        "g0",
+        "g1"
+      ],
+      "claim": "A deficiency of folate increases blood levels of homocysteine.",
+      "evidence": [
+        {
+          "doc_id": 11705328,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "RESULTS Median serum homocysteine level decreased with increasing folic acid dosage, to a maximum at 0.8 mg of folic acid per day, when the homocysteine reduction (placebo adjusted) was 2.7 micromol/L (23%), similar to the known effect of folic acid dosages of 1 mg/d and above.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 11705328,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "The higher a person's initial serum homocysteine level, the greater was the response to folic acid, but there were statistically significant reductions regardless of the initial level.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 11705328,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "CONCLUSIONS A dosage of folic acid of 0.8 mg/d appears necessary to achieve the maximum reduction in serum homocysteine level across the range of homocysteine levels in the population.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 11705328,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 9,
+          "sentence": "Current US food fortification levels will achieve only a small proportion of the achievable homocysteine reduction.",
+          "kept": true,
+          "new_index": 5
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 11705328,
+          "title": "Randomized trial of folic acid supplementation and serum homocysteine levels.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Lowering serum homocysteine levels with folic acid is expected to reduce mortality from ischemic heart disease."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Homocysteine reduction is known to be maximal at a folic acid dosage of 1 mg/d, but the effect of lower doses (relevant to food fortification) is unclear.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Fasting blood samples for serum homocysteine and serum folate analysis were taken initially, after 3 months of supplementation, and 3 months after folic acid use was discontinued.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 6,
+              "sentence": "Serum folate level increased approximately linearly (5.5 nmol/L for every 0.1 mg of folic acid)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 7,
+              "sentence": "Within-person fluctuations over time in serum homocysteine levels, measured in the placebo group, were large compared with the effect of folic acid, indicating that monitoring of the reduction in an individual is impractical.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 9,
+              "sentence": "Current US food fortification levels will achieve only a small proportion of the achievable homocysteine reduction."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 11705328,
+          "original_index": 2,
+          "sentence": "METHODS We randomized 151 patients with ischemic heart disease to 1 of 5 dosages of folic acid (0.2, 0.4, 0.6, 0.8, and 1.0 mg/d) or placebo.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 11705328,
+          "original_index": 4,
+          "sentence": "RESULTS Median serum homocysteine level decreased with increasing folic acid dosage, to a maximum at 0.8 mg of folic acid per day, when the homocysteine reduction (placebo adjusted) was 2.7 micromol/L (23%), similar to the known effect of folic acid dosages of 1 mg/d and above.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 11705328,
+          "original_index": 5,
+          "sentence": "The higher a person's initial serum homocysteine level, the greater was the response to folic acid, but there were statistically significant reductions regardless of the initial level.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 11705328,
+          "original_index": 8,
+          "sentence": "CONCLUSIONS A dosage of folic acid of 0.8 mg/d appears necessary to achieve the maximum reduction in serum homocysteine level across the range of homocysteine levels in the population.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2",
+        "g3"
+      ],
+      "claim": "A deficiency of folate increases blood levels of homocysteine.",
+      "evidence": [
+        {
+          "doc_id": 11705328,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "RESULTS Median serum homocysteine level decreased with increasing folic acid dosage, to a maximum at 0.8 mg of folic acid per day, when the homocysteine reduction (placebo adjusted) was 2.7 micromol/L (23%), similar to the known effect of folic acid dosages of 1 mg/d and above.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 11705328,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "The higher a person's initial serum homocysteine level, the greater was the response to folic acid, but there were statistically significant reductions regardless of the initial level.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 11705328,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "CONCLUSIONS A dosage of folic acid of 0.8 mg/d appears necessary to achieve the maximum reduction in serum homocysteine level across the range of homocysteine levels in the population.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 11705328,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 9,
+          "sentence": "Current US food fortification levels will achieve only a small proportion of the achievable homocysteine reduction.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 11705328,
+          "title": "Randomized trial of folic acid supplementation and serum homocysteine levels.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Lowering serum homocysteine levels with folic acid is expected to reduce mortality from ischemic heart disease."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Homocysteine reduction is known to be maximal at a folic acid dosage of 1 mg/d, but the effect of lower doses (relevant to food fortification) is unclear.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS We randomized 151 patients with ischemic heart disease to 1 of 5 dosages of folic acid (0.2, 0.4, 0.6, 0.8, and 1.0 mg/d) or placebo."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Fasting blood samples for serum homocysteine and serum folate analysis were taken initially, after 3 months of supplementation, and 3 months after folic acid use was discontinued.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 7,
+              "sentence": "Within-person fluctuations over time in serum homocysteine levels, measured in the placebo group, were large compared with the effect of folic acid, indicating that monitoring of the reduction in an individual is impractical.   \n"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 11705328,
+          "original_index": 4,
+          "sentence": "RESULTS Median serum homocysteine level decreased with increasing folic acid dosage, to a maximum at 0.8 mg of folic acid per day, when the homocysteine reduction (placebo adjusted) was 2.7 micromol/L (23%), similar to the known effect of folic acid dosages of 1 mg/d and above.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 11705328,
+          "original_index": 5,
+          "sentence": "The higher a person's initial serum homocysteine level, the greater was the response to folic acid, but there were statistically significant reductions regardless of the initial level.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 11705328,
+          "original_index": 6,
+          "sentence": "Serum folate level increased approximately linearly (5.5 nmol/L for every 0.1 mg of folic acid).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 11705328,
+          "original_index": 8,
+          "sentence": "CONCLUSIONS A dosage of folic acid of 0.8 mg/d appears necessary to achieve the maximum reduction in serum homocysteine level across the range of homocysteine levels in the population.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 11705328,
+          "original_index": 9,
+          "sentence": "Current US food fortification levels will achieve only a small proportion of the achievable homocysteine reduction.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "id": 501,
+  "origin": "dev",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Headaches are not correlated with cognitive impairment.",
+      "evidence": [
+        {
+          "doc_id": 17930286,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 12,
+          "sentence": "Evidence was lacking for cognitive impairment for any headache type with or without brain lesions.   \n",
+          "kept": true,
+          "new_index": 12
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 17930286,
+          "title": "Headache, migraine, and structural brain lesions and function: population based Epidemiology of Vascular Ageing-MRI study",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To evaluate the association of overall and specific headaches with volume of white matter hyperintensities, brain infarcts, and cognition.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Population based, cross sectional study.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "SETTING Epidemiology of Vascular Ageing study, Nantes, France.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "PARTICIPANTS 780 participants (mean age 69, 58.5% women) with detailed headache assessment.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURES Brain scans were evaluated for volume of white matter hyperintensities (by fully automated imaging processing) and for classification of infarcts (by visual reading with a standardised assessment grid)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Cognitive function was assessed by a battery of tests including the mini-mental state examination.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "RESULTS 163 (20.9%) participants reported a history of severe headache and 116 had migraine, of whom 17 (14.7%) reported aura symptoms."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "An association was found between any history of severe headache and increasing volume of white matter hyperintensities."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "The adjusted odds ratio of being in the highest third for total volume of white matter hyperintensities was 2.0 (95% confidence interval 1.3 to 3.1, P for trend 0.002) for participants with any history of severe headache when compared with participants without severe headache being in the lowest third."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "The association pattern was similar for all headache types."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Migraine with aura was the only headache type strongly associated with volume of deep white matter hyperintensities (highest third odds ratio 12.4, 1.6 to 99.4, P for trend 0.005) and with brain infarcts (3.4, 1.2 to 9.3)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "The location of infarcts was predominantly outside the cerebellum and brain stem."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "Evidence was lacking for cognitive impairment for any headache type with or without brain lesions.   \n"
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "CONCLUSIONS In this population based study, any history of severe headache was associated with an increased volume of white matter hyperintensities."
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "Migraine with aura was the only headache type associated with brain infarcts."
+            },
+            {
+              "new_index": 15,
+              "original_index": 15,
+              "sentence": "Evidence that headache of any type by itself or in combination with brain lesions was associated with cognitive impairment was lacking."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Headaches are not correlated with cognitive impairment.",
+      "evidence": [
+        {
+          "doc_id": 17930286,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 12,
+          "sentence": "Evidence was lacking for cognitive impairment for any headache type with or without brain lesions.   \n",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 17930286,
+          "title": "Headache, migraine, and structural brain lesions and function: population based Epidemiology of Vascular Ageing-MRI study",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To evaluate the association of overall and specific headaches with volume of white matter hyperintensities, brain infarcts, and cognition.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Population based, cross sectional study.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "SETTING Epidemiology of Vascular Ageing study, Nantes, France.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "PARTICIPANTS 780 participants (mean age 69, 58.5% women) with detailed headache assessment.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Cognitive function was assessed by a battery of tests including the mini-mental state examination.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "RESULTS 163 (20.9%) participants reported a history of severe headache and 116 had migraine, of whom 17 (14.7%) reported aura symptoms."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "An association was found between any history of severe headache and increasing volume of white matter hyperintensities."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "The adjusted odds ratio of being in the highest third for total volume of white matter hyperintensities was 2.0 (95% confidence interval 1.3 to 3.1, P for trend 0.002) for participants with any history of severe headache when compared with participants without severe headache being in the lowest third."
+            },
+            {
+              "new_index": 8,
+              "original_index": 9,
+              "sentence": "The association pattern was similar for all headache types."
+            },
+            {
+              "new_index": 9,
+              "original_index": 10,
+              "sentence": "Migraine with aura was the only headache type strongly associated with volume of deep white matter hyperintensities (highest third odds ratio 12.4, 1.6 to 99.4, P for trend 0.005) and with brain infarcts (3.4, 1.2 to 9.3)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 11,
+              "sentence": "The location of infarcts was predominantly outside the cerebellum and brain stem."
+            },
+            {
+              "new_index": 11,
+              "original_index": 13,
+              "sentence": "CONCLUSIONS In this population based study, any history of severe headache was associated with an increased volume of white matter hyperintensities."
+            },
+            {
+              "new_index": 12,
+              "original_index": 15,
+              "sentence": "Evidence that headache of any type by itself or in combination with brain lesions was associated with cognitive impairment was lacking."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 17930286,
+          "original_index": 4,
+          "sentence": "MAIN OUTCOME MEASURES Brain scans were evaluated for volume of white matter hyperintensities (by fully automated imaging processing) and for classification of infarcts (by visual reading with a standardised assessment grid).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 17930286,
+          "original_index": 12,
+          "sentence": "Evidence was lacking for cognitive impairment for any headache type with or without brain lesions.   \n",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 17930286,
+          "original_index": 14,
+          "sentence": "Migraine with aura was the only headache type associated with brain infarcts.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

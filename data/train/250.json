@@ -1,0 +1,344 @@
+{
+  "id": 250,
+  "origin": "train_more",
+  "n_groups": 4,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Chenodeoxycholic acid treatment decreases brown adipose tissue activity.",
+      "evidence": [
+        {
+          "doc_id": 1568684,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 3,
+          "sentence": "Treatment of 12 healthy female subjects with CDCA for 2 days resulted in increased BAT activity.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 1568684,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 5,
+          "sentence": "In vitro treatment of primary human brown adipocytes derived with CDCA or specific TGR5 agonists increased mitochondrial uncoupling and D2 expression, an effect that was absent in human primary white adipocytes.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 1568684,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 6,
+          "sentence": "These findings identify bile acids as a target to activate BAT in humans.",
+          "kept": true,
+          "new_index": 6
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1568684,
+          "title": "The Bile Acid Chenodeoxycholic Acid Increases Human Brown Adipose Tissue Activity.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The interest in brown adipose tissue (BAT) as a target to combat metabolic disease has recently been renewed with the discovery of functional BAT in humans."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "In rodents, BAT can be activated by bile acids, which activate type 2 iodothyronine deiodinase (D2) in BAT via the G-coupled protein receptor TGR5, resulting in increased oxygen consumption and energy expenditure."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here we examined the effects of oral supplementation of the bile acid chenodeoxycholic acid (CDCA) on human BAT activity."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Treatment of 12 healthy female subjects with CDCA for 2 days resulted in increased BAT activity."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Whole-body energy expenditure was also increased upon CDCA treatment."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "In vitro treatment of primary human brown adipocytes derived with CDCA or specific TGR5 agonists increased mitochondrial uncoupling and D2 expression, an effect that was absent in human primary white adipocytes."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "These findings identify bile acids as a target to activate BAT in humans."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Chenodeoxycholic acid treatment decreases brown adipose tissue activity.",
+      "evidence": [
+        {
+          "doc_id": 1568684,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 3,
+          "sentence": "Treatment of 12 healthy female subjects with CDCA for 2 days resulted in increased BAT activity.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 1568684,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 5,
+          "sentence": "In vitro treatment of primary human brown adipocytes derived with CDCA or specific TGR5 agonists increased mitochondrial uncoupling and D2 expression, an effect that was absent in human primary white adipocytes.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 1568684,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 6,
+          "sentence": "These findings identify bile acids as a target to activate BAT in humans.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1568684,
+          "title": "The Bile Acid Chenodeoxycholic Acid Increases Human Brown Adipose Tissue Activity.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The interest in brown adipose tissue (BAT) as a target to combat metabolic disease has recently been renewed with the discovery of functional BAT in humans."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "In rodents, BAT can be activated by bile acids, which activate type 2 iodothyronine deiodinase (D2) in BAT via the G-coupled protein receptor TGR5, resulting in increased oxygen consumption and energy expenditure."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Whole-body energy expenditure was also increased upon CDCA treatment."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "In vitro treatment of primary human brown adipocytes derived with CDCA or specific TGR5 agonists increased mitochondrial uncoupling and D2 expression, an effect that was absent in human primary white adipocytes."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "These findings identify bile acids as a target to activate BAT in humans."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 1568684,
+          "original_index": 2,
+          "sentence": "Here we examined the effects of oral supplementation of the bile acid chenodeoxycholic acid (CDCA) on human BAT activity.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 1568684,
+          "original_index": 3,
+          "sentence": "Treatment of 12 healthy female subjects with CDCA for 2 days resulted in increased BAT activity.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g2",
+        "g0"
+      ],
+      "claim": "Chenodeoxycholic acid treatment decreases brown adipose tissue activity.",
+      "evidence": [
+        {
+          "doc_id": 1568684,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 3,
+          "sentence": "Treatment of 12 healthy female subjects with CDCA for 2 days resulted in increased BAT activity.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 1568684,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 5,
+          "sentence": "In vitro treatment of primary human brown adipocytes derived with CDCA or specific TGR5 agonists increased mitochondrial uncoupling and D2 expression, an effect that was absent in human primary white adipocytes.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 1568684,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 6,
+          "sentence": "These findings identify bile acids as a target to activate BAT in humans.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1568684,
+          "title": "The Bile Acid Chenodeoxycholic Acid Increases Human Brown Adipose Tissue Activity.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The interest in brown adipose tissue (BAT) as a target to combat metabolic disease has recently been renewed with the discovery of functional BAT in humans."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "In rodents, BAT can be activated by bile acids, which activate type 2 iodothyronine deiodinase (D2) in BAT via the G-coupled protein receptor TGR5, resulting in increased oxygen consumption and energy expenditure."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Whole-body energy expenditure was also increased upon CDCA treatment."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "In vitro treatment of primary human brown adipocytes derived with CDCA or specific TGR5 agonists increased mitochondrial uncoupling and D2 expression, an effect that was absent in human primary white adipocytes."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 1568684,
+          "original_index": 2,
+          "sentence": "Here we examined the effects of oral supplementation of the bile acid chenodeoxycholic acid (CDCA) on human BAT activity.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 1568684,
+          "original_index": 3,
+          "sentence": "Treatment of 12 healthy female subjects with CDCA for 2 days resulted in increased BAT activity.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 1568684,
+          "original_index": 6,
+          "sentence": "These findings identify bile acids as a target to activate BAT in humans.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2"
+      ],
+      "claim": "Chenodeoxycholic acid treatment decreases brown adipose tissue activity.",
+      "evidence": [
+        {
+          "doc_id": 1568684,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 3,
+          "sentence": "Treatment of 12 healthy female subjects with CDCA for 2 days resulted in increased BAT activity.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 1568684,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 5,
+          "sentence": "In vitro treatment of primary human brown adipocytes derived with CDCA or specific TGR5 agonists increased mitochondrial uncoupling and D2 expression, an effect that was absent in human primary white adipocytes.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 1568684,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 6,
+          "sentence": "These findings identify bile acids as a target to activate BAT in humans.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1568684,
+          "title": "The Bile Acid Chenodeoxycholic Acid Increases Human Brown Adipose Tissue Activity.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The interest in brown adipose tissue (BAT) as a target to combat metabolic disease has recently been renewed with the discovery of functional BAT in humans."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "In rodents, BAT can be activated by bile acids, which activate type 2 iodothyronine deiodinase (D2) in BAT via the G-coupled protein receptor TGR5, resulting in increased oxygen consumption and energy expenditure."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here we examined the effects of oral supplementation of the bile acid chenodeoxycholic acid (CDCA) on human BAT activity."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 1568684,
+          "original_index": 3,
+          "sentence": "Treatment of 12 healthy female subjects with CDCA for 2 days resulted in increased BAT activity.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 1568684,
+          "original_index": 4,
+          "sentence": "Whole-body energy expenditure was also increased upon CDCA treatment.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 1568684,
+          "original_index": 5,
+          "sentence": "In vitro treatment of primary human brown adipocytes derived with CDCA or specific TGR5 agonists increased mitochondrial uncoupling and D2 expression, an effect that was absent in human primary white adipocytes.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 1568684,
+          "original_index": 6,
+          "sentence": "These findings identify bile acids as a target to activate BAT in humans.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

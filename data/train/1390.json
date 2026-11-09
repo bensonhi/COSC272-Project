@@ -1,0 +1,154 @@
+{
+  "id": 1390,
+  "origin": "train_more",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "mcm 5 s 2 U is required for proper decoding of NNR codons in eukaryotes.",
+      "evidence": [
+        {
+          "doc_id": 2890952,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "The wobble modification in tRNAs, 5-methoxycarbonylmethyl-2-thiouridine (mcm(5)s(2)U), is required for the proper decoding of NNR codons in eukaryotes.",
+          "kept": true,
+          "new_index": 0
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 2890952,
+          "title": "Mechanistic characterization of the sulfur-relay system for eukaryotic 2-thiouridine biogenesis at tRNA wobble positions",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The wobble modification in tRNAs, 5-methoxycarbonylmethyl-2-thiouridine (mcm(5)s(2)U), is required for the proper decoding of NNR codons in eukaryotes."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The 2-thio group confers conformational rigidity of mcm(5)s(2)U by largely fixing the C3'-endo ribose puckering, ensuring stable and accurate codon-anticodon pairing."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We have identified five genes in Saccharomyces cerevisiae, YIL008w (URM1), YHR111w (UBA4), YOR251c (TUM1), YNL119w (NCS2) and YGL211w (NCS6), that are required for 2-thiolation of mcm(5)s(2)U. An in vitro sulfur transfer experiment revealed that Tum1p stimulated the cysteine desulfurase of Nfs1p, and accepted persulfide sulfurs from Nfs1p."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "URM1 is a ubiquitin-related modifier, and UBA4 is an E1-like enzyme involved in protein urmylation."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "The carboxy-terminus of Urm1p was activated as an acyl-adenylate (-COAMP), then thiocarboxylated (-COSH) by Uba4p."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "The activated thiocarboxylate can be utilized in the subsequent reactions for 2-thiouridine formation, mediated by Ncs2p/Ncs6p."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "We could successfully reconstitute the 2-thiouridine formation in vitro using recombinant proteins."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "This study revealed that 2-thiouridine formation shares a pathway and chemical reactions with protein urmylation."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "The sulfur-flow of eukaryotic 2-thiouridine formation is distinct mechanism from the bacterial sulfur-relay system which is based on the persulfide chemistry."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "mcm 5 s 2 U is required for proper decoding of NNR codons in eukaryotes.",
+      "evidence": [
+        {
+          "doc_id": 2890952,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "The wobble modification in tRNAs, 5-methoxycarbonylmethyl-2-thiouridine (mcm(5)s(2)U), is required for the proper decoding of NNR codons in eukaryotes.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 2890952,
+          "title": "Mechanistic characterization of the sulfur-relay system for eukaryotic 2-thiouridine biogenesis at tRNA wobble positions",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "The 2-thio group confers conformational rigidity of mcm(5)s(2)U by largely fixing the C3'-endo ribose puckering, ensuring stable and accurate codon-anticodon pairing."
+            },
+            {
+              "new_index": 1,
+              "original_index": 3,
+              "sentence": "URM1 is a ubiquitin-related modifier, and UBA4 is an E1-like enzyme involved in protein urmylation."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "The carboxy-terminus of Urm1p was activated as an acyl-adenylate (-COAMP), then thiocarboxylated (-COSH) by Uba4p."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "The activated thiocarboxylate can be utilized in the subsequent reactions for 2-thiouridine formation, mediated by Ncs2p/Ncs6p."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "We could successfully reconstitute the 2-thiouridine formation in vitro using recombinant proteins."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "This study revealed that 2-thiouridine formation shares a pathway and chemical reactions with protein urmylation."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "The sulfur-flow of eukaryotic 2-thiouridine formation is distinct mechanism from the bacterial sulfur-relay system which is based on the persulfide chemistry."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 2890952,
+          "original_index": 0,
+          "sentence": "The wobble modification in tRNAs, 5-methoxycarbonylmethyl-2-thiouridine (mcm(5)s(2)U), is required for the proper decoding of NNR codons in eukaryotes.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 2890952,
+          "original_index": 2,
+          "sentence": "We have identified five genes in Saccharomyces cerevisiae, YIL008w (URM1), YHR111w (UBA4), YOR251c (TUM1), YNL119w (NCS2) and YGL211w (NCS6), that are required for 2-thiolation of mcm(5)s(2)U. An in vitro sulfur transfer experiment revealed that Tum1p stimulated the cysteine desulfurase of Nfs1p, and accepted persulfide sulfurs from Nfs1p.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

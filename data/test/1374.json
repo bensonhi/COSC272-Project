@@ -1,0 +1,55 @@
+{
+  "id": 1374,
+  "origin": "train_more",
+  "claim": "Weighed food records (WFR) result in high completion since they're cheap to run and impose low participant burden.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 21993510,
+      "title": "Accuracy of weighed dietary records in studies of diet and health.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "OBJECTIVE To provide an independent evaluation of seven day weighed dietary records, which are currently accepted as the most accurate technique for assessing habitual dietary intake in studies investigating the links between diet and health.   \n"
+        },
+        {
+          "original_index": 1,
+          "sentence": "DESIGN Subjects who had previously participated in the Northern Ireland diet and health study were reselected by stratified random sampling to represent the range of energy intakes in the study as assessed by the seven day weighed dietary record.   \n"
+        },
+        {
+          "original_index": 2,
+          "sentence": "SETTING Northern Ireland.   "
+        },
+        {
+          "original_index": 3,
+          "sentence": "SUBJECTS 31 Free living adults (16 men and 15 women).   \n"
+        },
+        {
+          "original_index": 4,
+          "sentence": "MAIN OUTCOME MEASURES Energy intake as measured by the seven day weighed dietary record and total energy expenditure estimated concurrently by the doubly labelled water technique.   \n"
+        },
+        {
+          "original_index": 5,
+          "sentence": "RESULTS Average recorded energy intakes were significantly lower than measured expenditure in the group overall (9.66 MJ/day v 12.15 MJ/day, 95% confidence interval 1.45 to 3.53 MJ/day)."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Among those in the upper third of energy intakes the mean (SE) ratio of intake to expenditure was close to 1.0, indicating accurate records (men 1.01 (0.11), women 0.96 (0.08]."
+        },
+        {
+          "original_index": 7,
+          "sentence": "In the middle and lower thirds the ratios for men were only 0.74 (0.05) and 0.70 (0.07) respectively and for women 0.89 (0.07) and 0.61 (0.07).   \n"
+        },
+        {
+          "original_index": 8,
+          "sentence": "CONCLUSIONS These results show a serious bias in reporting habitual energy intake."
+        },
+        {
+          "original_index": 9,
+          "sentence": "If substantiated they may have wide implications for the interpretation of many nutritional studies."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

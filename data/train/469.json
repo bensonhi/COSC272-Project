@@ -1,0 +1,332 @@
+{
+  "id": 469,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Glial calcium waves influence seizures.",
+      "evidence": [
+        {
+          "doc_id": 1410197,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "We found that a Ca2+ elevation in astrocytes correlates with both the initial development and the maintenance of a focal, seizure-like discharge.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 1410197,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 9,
+          "sentence": "Selective inhibition or stimulation of astrocyte Ca2+ signalling blocked or enhanced, respectively, ictal discharges, but did not affect interictal discharge generation.",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 1410197,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "Our data reveal that neurons engage astrocytes in a recurrent excitatory loop (possibly involving gliotransmission) that promotes seizure ignition and sustains the ictal discharge.",
+          "kept": true,
+          "new_index": 10
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1410197,
+          "title": "An Excitatory Loop with Astrocytes Contributes to Drive Neurons to Seizure Threshold",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Seizures in focal epilepsies are sustained by a highly synchronous neuronal discharge that arises at restricted brain sites and subsequently spreads to large portions of the brain."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Despite intense experimental research in this field, the earlier cellular events that initiate and sustain a focal seizure are still not well defined."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Their identification is central to understand the pathophysiology of focal epilepsies and to develop new pharmacological therapies for drug-resistant forms of epilepsy."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "The prominent involvement of astrocytes in ictogenesis was recently proposed."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We test here whether a cooperation between astrocytes and neurons is a prerequisite to support ictal (seizure-like) and interictal epileptiform events."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Simultaneous patch-clamp recording and Ca2+ imaging techniques were performed in a new in vitro model of focal seizures induced by local applications of N-methyl-D-aspartic acid (NMDA) in rat entorhinal cortex slices."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "We found that a Ca2+ elevation in astrocytes correlates with both the initial development and the maintenance of a focal, seizure-like discharge."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "A delayed astrocyte activation during ictal discharges was also observed in other models (including the whole in vitro isolated guinea pig brain) in which the site of generation of seizure activity cannot be precisely monitored."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "In contrast, interictal discharges were not associated with Ca2+ changes in astrocytes."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Selective inhibition or stimulation of astrocyte Ca2+ signalling blocked or enhanced, respectively, ictal discharges, but did not affect interictal discharge generation."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Our data reveal that neurons engage astrocytes in a recurrent excitatory loop (possibly involving gliotransmission) that promotes seizure ignition and sustains the ictal discharge."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "This neuron-astrocyte interaction may represent a novel target to develop effective therapeutic strategies to control seizures."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Glial calcium waves influence seizures.",
+      "evidence": [
+        {
+          "doc_id": 1410197,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "We found that a Ca2+ elevation in astrocytes correlates with both the initial development and the maintenance of a focal, seizure-like discharge.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 1410197,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 9,
+          "sentence": "Selective inhibition or stimulation of astrocyte Ca2+ signalling blocked or enhanced, respectively, ictal discharges, but did not affect interictal discharge generation.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 1410197,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "Our data reveal that neurons engage astrocytes in a recurrent excitatory loop (possibly involving gliotransmission) that promotes seizure ignition and sustains the ictal discharge.",
+          "kept": true,
+          "new_index": 8
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1410197,
+          "title": "An Excitatory Loop with Astrocytes Contributes to Drive Neurons to Seizure Threshold",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "Despite intense experimental research in this field, the earlier cellular events that initiate and sustain a focal seizure are still not well defined."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Their identification is central to understand the pathophysiology of focal epilepsies and to develop new pharmacological therapies for drug-resistant forms of epilepsy."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "The prominent involvement of astrocytes in ictogenesis was recently proposed."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "We test here whether a cooperation between astrocytes and neurons is a prerequisite to support ictal (seizure-like) and interictal epileptiform events."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Simultaneous patch-clamp recording and Ca2+ imaging techniques were performed in a new in vitro model of focal seizures induced by local applications of N-methyl-D-aspartic acid (NMDA) in rat entorhinal cortex slices."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "We found that a Ca2+ elevation in astrocytes correlates with both the initial development and the maintenance of a focal, seizure-like discharge."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "A delayed astrocyte activation during ictal discharges was also observed in other models (including the whole in vitro isolated guinea pig brain) in which the site of generation of seizure activity cannot be precisely monitored."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "In contrast, interictal discharges were not associated with Ca2+ changes in astrocytes."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "Our data reveal that neurons engage astrocytes in a recurrent excitatory loop (possibly involving gliotransmission) that promotes seizure ignition and sustains the ictal discharge."
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "This neuron-astrocyte interaction may represent a novel target to develop effective therapeutic strategies to control seizures."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 1410197,
+          "original_index": 0,
+          "sentence": "Seizures in focal epilepsies are sustained by a highly synchronous neuronal discharge that arises at restricted brain sites and subsequently spreads to large portions of the brain.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 1410197,
+          "original_index": 9,
+          "sentence": "Selective inhibition or stimulation of astrocyte Ca2+ signalling blocked or enhanced, respectively, ictal discharges, but did not affect interictal discharge generation.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Glial calcium waves influence seizures.",
+      "evidence": [
+        {
+          "doc_id": 1410197,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "We found that a Ca2+ elevation in astrocytes correlates with both the initial development and the maintenance of a focal, seizure-like discharge.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 1410197,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 9,
+          "sentence": "Selective inhibition or stimulation of astrocyte Ca2+ signalling blocked or enhanced, respectively, ictal discharges, but did not affect interictal discharge generation.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 1410197,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "Our data reveal that neurons engage astrocytes in a recurrent excitatory loop (possibly involving gliotransmission) that promotes seizure ignition and sustains the ictal discharge.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1410197,
+          "title": "An Excitatory Loop with Astrocytes Contributes to Drive Neurons to Seizure Threshold",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Seizures in focal epilepsies are sustained by a highly synchronous neuronal discharge that arises at restricted brain sites and subsequently spreads to large portions of the brain."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Despite intense experimental research in this field, the earlier cellular events that initiate and sustain a focal seizure are still not well defined."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Their identification is central to understand the pathophysiology of focal epilepsies and to develop new pharmacological therapies for drug-resistant forms of epilepsy."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "The prominent involvement of astrocytes in ictogenesis was recently proposed."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We test here whether a cooperation between astrocytes and neurons is a prerequisite to support ictal (seizure-like) and interictal epileptiform events."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "A delayed astrocyte activation during ictal discharges was also observed in other models (including the whole in vitro isolated guinea pig brain) in which the site of generation of seizure activity cannot be precisely monitored."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "In contrast, interictal discharges were not associated with Ca2+ changes in astrocytes."
+            },
+            {
+              "new_index": 7,
+              "original_index": 11,
+              "sentence": "This neuron-astrocyte interaction may represent a novel target to develop effective therapeutic strategies to control seizures."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 1410197,
+          "original_index": 5,
+          "sentence": "Simultaneous patch-clamp recording and Ca2+ imaging techniques were performed in a new in vitro model of focal seizures induced by local applications of N-methyl-D-aspartic acid (NMDA) in rat entorhinal cortex slices.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 1410197,
+          "original_index": 6,
+          "sentence": "We found that a Ca2+ elevation in astrocytes correlates with both the initial development and the maintenance of a focal, seizure-like discharge.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 1410197,
+          "original_index": 9,
+          "sentence": "Selective inhibition or stimulation of astrocyte Ca2+ signalling blocked or enhanced, respectively, ictal discharges, but did not affect interictal discharge generation.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 1410197,
+          "original_index": 10,
+          "sentence": "Our data reveal that neurons engage astrocytes in a recurrent excitatory loop (possibly involving gliotransmission) that promotes seizure ignition and sustains the ictal discharge.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

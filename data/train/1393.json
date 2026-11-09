@@ -1,0 +1,103 @@
+{
+  "id": 1393,
+  "origin": "train_more",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "miRNAs enforce homeostasis by suppressing low-level ''leaky'' transcription.",
+      "evidence": [
+        {
+          "doc_id": 12440953,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "Increasing evidence suggests that, among their roles as posttranscriptional repressors of gene expression, microRNAs (miRNAs) help to confer robustness to biological processes by reinforcing transcriptional programs and attenuating aberrant transcripts, and they may in some network contexts help suppress random fluctuations in transcript copy number.",
+          "kept": true,
+          "new_index": 1
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 12440953,
+          "title": "Roles for MicroRNAs in Conferring Robustness to Biological Processes",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Biological systems use a variety of mechanisms to maintain their functions in the face of environmental and genetic perturbations."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Increasing evidence suggests that, among their roles as posttranscriptional repressors of gene expression, microRNAs (miRNAs) help to confer robustness to biological processes by reinforcing transcriptional programs and attenuating aberrant transcripts, and they may in some network contexts help suppress random fluctuations in transcript copy number."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "These activities have important consequences for normal development and physiology, disease, and evolution."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Here, we will discuss examples and principles of miRNAs that contribute to robustness in animal systems."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "miRNAs enforce homeostasis by suppressing low-level ''leaky'' transcription.",
+      "evidence": [
+        {
+          "doc_id": 12440953,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "Increasing evidence suggests that, among their roles as posttranscriptional repressors of gene expression, microRNAs (miRNAs) help to confer robustness to biological processes by reinforcing transcriptional programs and attenuating aberrant transcripts, and they may in some network contexts help suppress random fluctuations in transcript copy number.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 12440953,
+          "title": "Roles for MicroRNAs in Conferring Robustness to Biological Processes",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Biological systems use a variety of mechanisms to maintain their functions in the face of environmental and genetic perturbations."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "These activities have important consequences for normal development and physiology, disease, and evolution."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Here, we will discuss examples and principles of miRNAs that contribute to robustness in animal systems."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 12440953,
+          "original_index": 1,
+          "sentence": "Increasing evidence suggests that, among their roles as posttranscriptional repressors of gene expression, microRNAs (miRNAs) help to confer robustness to biological processes by reinforcing transcriptional programs and attenuating aberrant transcripts, and they may in some network contexts help suppress random fluctuations in transcript copy number.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

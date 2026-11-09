@@ -1,0 +1,144 @@
+{
+  "id": 1262,
+  "origin": "dev",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The repair of Cas9-induced double strand breaks in human DNA is error-prone.",
+      "evidence": [
+        {
+          "doc_id": 44172171,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Furthermore, repair of the DSBs tends to be error prone.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 44172171,
+          "title": "Kinetics and Fidelity of the Repair of Cas9-Induced Double-Strand DNA Breaks",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The RNA-guided DNA endonuclease Cas9 is a powerful tool for genome editing."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Little is known about the kinetics and fidelity of the double-strand break (DSB) repair process that follows a Cas9 cutting event in living cells."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here, we developed a strategy to measure the kinetics of DSB repair for single loci in human cells."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Quantitative modeling of repaired DNA in time series after Cas9 activation reveals variable and often slow repair rates, with half-life times up to ∼10 hr."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Furthermore, repair of the DSBs tends to be error prone."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Both classical and microhomology-mediated end joining pathways contribute to the erroneous repair."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Estimation of their individual rate constants indicates that the balance between these two pathways changes over time and can be altered by additional ionizing radiation."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Our approach provides quantitative insights into DSB repair kinetics and fidelity in single loci and indicates that Cas9-induced DSBs are repaired in an unusual manner."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "The repair of Cas9-induced double strand breaks in human DNA is error-prone.",
+      "evidence": [
+        {
+          "doc_id": 44172171,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Furthermore, repair of the DSBs tends to be error prone.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 44172171,
+          "title": "Kinetics and Fidelity of the Repair of Cas9-Induced Double-Strand DNA Breaks",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The RNA-guided DNA endonuclease Cas9 is a powerful tool for genome editing."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Little is known about the kinetics and fidelity of the double-strand break (DSB) repair process that follows a Cas9 cutting event in living cells."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Quantitative modeling of repaired DNA in time series after Cas9 activation reveals variable and often slow repair rates, with half-life times up to ∼10 hr."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Both classical and microhomology-mediated end joining pathways contribute to the erroneous repair."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Estimation of their individual rate constants indicates that the balance between these two pathways changes over time and can be altered by additional ionizing radiation."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Our approach provides quantitative insights into DSB repair kinetics and fidelity in single loci and indicates that Cas9-induced DSBs are repaired in an unusual manner."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 44172171,
+          "original_index": 2,
+          "sentence": "Here, we developed a strategy to measure the kinetics of DSB repair for single loci in human cells.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 44172171,
+          "original_index": 4,
+          "sentence": "Furthermore, repair of the DSBs tends to be error prone.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

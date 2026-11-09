@@ -1,0 +1,58 @@
+{
+  "id": 478,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Golli-deficient T-cells prefer to differentiate into an anergic phenotype in the adaptive immune response when there are increased levels of Ca2+ in the cytosol.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 14767844,
+          "title": "Golli protein negatively regulates store depletion-induced calcium influx in T cells.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Calcium influx is crucial for T cell activation and differentiation."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The detailed regulation of this process remains unclear."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We report here that golli protein, an alternatively spliced product of the myelin basic protein gene, plays a critical role in regulating calcium influx in T cells."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Golli-deficient T cells were hyperproliferative and showed enhanced calcium entry upon T cell receptor stimulation."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We further found that golli regulates calcium influx in T cells through the inhibition of the store depletion-induced calcium influx."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Mutation of the myristoylation site on golli disrupted its association with the plasma membrane and reversed its inhibitory action on Ca2+ influx, indicating that membrane association of golli was essential for its inhibitory action."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "These results indicate that golli functions in a unique way to regulate T cell activation through a mechanism involving the modulation of the calcium homeostasis."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

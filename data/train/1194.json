@@ -1,0 +1,58 @@
+{
+  "id": 1194,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The arm density of TatAd complexes is due to structural rearrangements within Class1 TatAd complexes such as the 'charge zipper mechanism'.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 11419230,
+          "title": "Folding and Self-Assembly of the TatA Translocation Pore Based on a Charge Zipper Mechanism",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "We propose a concept for the folding and self-assembly of the pore-forming TatA complex from the Twin-arginine translocase and of other membrane proteins based on electrostatic \"charge zippers."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "\""
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Each subunit of TatA consists of a transmembrane segment, an amphiphilic helix (APH), and a C-terminal densely charged region (DCR)."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "The sequence of charges in the DCR is complementary to the charge pattern on the APH, suggesting that the protein can be \"zipped up\" by a ladder of seven salt bridges."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "The length of the resulting hairpin matches the lipid bilayer thickness, hence a transmembrane pore could self-assemble via intra- and intermolecular salt bridges."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "The steric feasibility was rationalized by molecular dynamics simulations, and experimental evidence was obtained by monitoring the monomer-oligomer equilibrium of specific charge mutants."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Similar \"charge zippers\" are proposed for other membrane-associated proteins, e.g., the biofilm-inducing peptide TisB, the human antimicrobial peptide dermcidin, and the pestiviral E(RNS) protein."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

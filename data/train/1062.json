@@ -1,0 +1,185 @@
+{
+  "id": 1062,
+  "origin": "dev",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "S-nitrosylated GAPDH physiologically transnitrosylates histone deacetylases.",
+      "evidence": [
+        {
+          "doc_id": 20381484,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "Here, we show that SNO-GAPDH physiologically transnitrosylates nuclear proteins, including the deacetylating enzyme sirtuin-1 (SIRT1), histone deacetylase-2 (HDAC2) and DNA-activated protein kinase (DNA-PK).",
+          "kept": true,
+          "new_index": 10
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 20381484,
+          "title": "GAPDH Mediates Nitrosylation of Nuclear Proteins",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "S-nitrosylation of proteins by nitric oxide is a major mode of signalling in cells."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "S-nitrosylation can mediate the regulation of a range of proteins, including prominent nuclear proteins, such as HDAC2 (ref."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "2) and PARP1 (ref."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "3)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "The high reactivity of the nitric oxide group with protein thiols, but the selective nature of nitrosylation within the cell, implies the existence of targeting mechanisms."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Specificity of nitric oxide signalling is often achieved by the binding of nitric oxide synthase (NOS) to target proteins, either directly or through scaffolding proteins such as PSD-95 (ref."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "5) and CAPON."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "As the three principal isoforms of NOS--neuronal NOS (nNOS), endothelial NOS (eNOS) and inducible NOS (iNOS)--are primarily non-nuclear, the mechanisms by which nuclear proteins are selectively nitrosylated have been elusive."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Glyceraldehyde-3-phosphate dehydrogenase (GAPDH) is physiologically nitrosylated at its Cys 150 residue."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Nitrosylated GAPDH (SNO-GAPDH) binds to Siah1, which possesses a nuclear localization signal, and is transported to the nucleus."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Here, we show that SNO-GAPDH physiologically transnitrosylates nuclear proteins, including the deacetylating enzyme sirtuin-1 (SIRT1), histone deacetylase-2 (HDAC2) and DNA-activated protein kinase (DNA-PK)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Our findings reveal a novel mechanism for targeted nitrosylation of nuclear proteins and suggest that protein-protein transfer of nitric oxide groups may be a general mechanism in cellular signal transduction."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "S-nitrosylated GAPDH physiologically transnitrosylates histone deacetylases.",
+      "evidence": [
+        {
+          "doc_id": 20381484,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "Here, we show that SNO-GAPDH physiologically transnitrosylates nuclear proteins, including the deacetylating enzyme sirtuin-1 (SIRT1), histone deacetylase-2 (HDAC2) and DNA-activated protein kinase (DNA-PK).",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 20381484,
+          "title": "GAPDH Mediates Nitrosylation of Nuclear Proteins",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "S-nitrosylation of proteins by nitric oxide is a major mode of signalling in cells."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "S-nitrosylation can mediate the regulation of a range of proteins, including prominent nuclear proteins, such as HDAC2 (ref."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "2) and PARP1 (ref."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "3)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Specificity of nitric oxide signalling is often achieved by the binding of nitric oxide synthase (NOS) to target proteins, either directly or through scaffolding proteins such as PSD-95 (ref."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "As the three principal isoforms of NOS--neuronal NOS (nNOS), endothelial NOS (eNOS) and inducible NOS (iNOS)--are primarily non-nuclear, the mechanisms by which nuclear proteins are selectively nitrosylated have been elusive."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "Glyceraldehyde-3-phosphate dehydrogenase (GAPDH) is physiologically nitrosylated at its Cys 150 residue."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Nitrosylated GAPDH (SNO-GAPDH) binds to Siah1, which possesses a nuclear localization signal, and is transported to the nucleus."
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "Our findings reveal a novel mechanism for targeted nitrosylation of nuclear proteins and suggest that protein-protein transfer of nitric oxide groups may be a general mechanism in cellular signal transduction."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 20381484,
+          "original_index": 4,
+          "sentence": "The high reactivity of the nitric oxide group with protein thiols, but the selective nature of nitrosylation within the cell, implies the existence of targeting mechanisms.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 20381484,
+          "original_index": 6,
+          "sentence": "5) and CAPON.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 20381484,
+          "original_index": 10,
+          "sentence": "Here, we show that SNO-GAPDH physiologically transnitrosylates nuclear proteins, including the deacetylating enzyme sirtuin-1 (SIRT1), histone deacetylase-2 (HDAC2) and DNA-activated protein kinase (DNA-PK).",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

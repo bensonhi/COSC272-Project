@@ -1,0 +1,51 @@
+{
+  "id": 613,
+  "origin": "dev",
+  "claim": "Increased microtubule acetylation repairs LRRK2 Roc-COR domain mutation induced locomotor deficits.",
+  "evidence": [
+    {
+      "doc_id": 9638032,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 4,
+      "sentence": "In vitro, increasing microtubule acetylation using deacetylase inhibitors or the tubulin acetylase αTAT1 prevents association of mutant LRRK2 with microtubules, and the deacetylase inhibitor trichostatin A (TSA) restores axonal transport."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 9638032,
+      "title": "Increasing microtubule acetylation rescues axonal transport and locomotor deficits caused by LRRK2 Roc-COR domain mutations",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Leucine-rich repeat kinase 2 (LRRK2) mutations are the most common genetic cause of Parkinson's disease."
+        },
+        {
+          "original_index": 1,
+          "sentence": "LRRK2 is a multifunctional protein affecting many cellular processes and has been described to bind microtubules."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Defective microtubule-based axonal transport is hypothesized to contribute to Parkinson's disease, but whether LRRK2 mutations affect this process to mediate pathogenesis is not known."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Here we find that LRRK2 containing pathogenic Roc-COR domain mutations (R1441C, Y1699C) preferentially associates with deacetylated microtubules, and inhibits axonal transport in primary neurons and in Drosophila, causing locomotor deficits in vivo."
+        },
+        {
+          "original_index": 4,
+          "sentence": "In vitro, increasing microtubule acetylation using deacetylase inhibitors or the tubulin acetylase αTAT1 prevents association of mutant LRRK2 with microtubules, and the deacetylase inhibitor trichostatin A (TSA) restores axonal transport."
+        },
+        {
+          "original_index": 5,
+          "sentence": "In vivo knockdown of the deacetylases HDAC6 and Sirt2, or administration of TSA rescues both axonal transport and locomotor behavior."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Thus, this study reveals a pathogenic mechanism and a potential intervention for Parkinson's disease."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

@@ -1,0 +1,58 @@
+{
+  "id": 1074,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Sequence conservation in gene regulatory regions between species is a high-accuracy predictor of conserved functionality.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 14658685,
+          "title": "Enhancer Evolution across 20 Mammalian Species",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The mammalian radiation has corresponded with rapid changes in noncoding regions of the genome, but we lack a comprehensive understanding of regulatory evolution in mammals."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here, we track the evolution of promoters and enhancers active in liver across 20 mammalian species from six diverse orders by profiling genomic enrichment of H3K27 acetylation and H3K4 trimethylation."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We report that rapid evolution of enhancers is a universal feature of mammalian genomes."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Most of the recently evolved enhancers arise from ancestral DNA exaptation, rather than lineage-specific expansions of repeat elements."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "In contrast, almost all liver promoters are partially or fully conserved across these species."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Our data further reveal that recently evolved enhancers can be associated with genes under positive selection, demonstrating the power of this approach for annotating regulatory adaptations in genomic sequences."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "These results provide important insight into the functional genetics underpinning mammalian regulatory evolution."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

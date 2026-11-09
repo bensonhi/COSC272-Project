@@ -1,0 +1,97 @@
+{
+  "id": 1055,
+  "origin": "train_more",
+  "claim": "Risk-adjusted mortality rates are similar in teaching and non-teaching hospitals.",
+  "evidence": [
+    {
+      "doc_id": 13906581,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 6,
+      "sentence": "Synthesis of the available adjusted estimates on mortality yielded a summary relative risk of 0.96 (95% confidence interval [CI], 0.93–1.00) for teaching versus nonteaching healthcare structures and 1.04 (95% CI, 0.99–1.10) for minor teaching versus nonteaching ones."
+    },
+    {
+      "doc_id": 13906581,
+      "group_id": "g1",
+      "evidence_label": "SUPPORT",
+      "original_index": 13,
+      "sentence": "Conclusions  The available data are limited by their nonrandomized design, but overall they do not suggest that a healthcare facility's teaching status on its own markedly improves or worsens patient outcomes."
+    },
+    {
+      "doc_id": 13906581,
+      "group_id": "g2",
+      "evidence_label": "SUPPORT_more",
+      "original_index": 9,
+      "sentence": "No differences were seen in the 14 studies fully adjusting for volume/experience, severity, and comorbidity (relative risk 1.01)."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 13906581,
+      "title": "Patient Outcomes with Teaching Versus Nonteaching Healthcare: A Systematic Review",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Background  Extensive debate exists in the healthcare community over whether outcomes of medical care at teaching hospitals and other healthcare units are better or worse than those at the respective nonteaching ones."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Thus, our goal was to systematically evaluate the evidence pertaining to this question.      "
+        },
+        {
+          "original_index": 2,
+          "sentence": "Methods and Findings  We reviewed all studies that compared teaching versus nonteaching healthcare structures for mortality or any other patient outcome, regardless of health condition."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Studies were retrieved from PubMed, contact with experts, and literature cross-referencing."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Data were extracted on setting, patients, data sources, author affiliations, definition of compared groups, types of diagnoses considered, adjusting covariates, and estimates of effect for mortality and for each other outcome."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Overall, 132 eligible studies were identified, including 93 on mortality and 61 on other eligible outcomes (22 addressed both)."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Synthesis of the available adjusted estimates on mortality yielded a summary relative risk of 0.96 (95% confidence interval [CI], 0.93–1.00) for teaching versus nonteaching healthcare structures and 1.04 (95% CI, 0.99–1.10) for minor teaching versus nonteaching ones."
+        },
+        {
+          "original_index": 7,
+          "sentence": "There was considerable heterogeneity between studies (I2 = 72% for the main analysis)."
+        },
+        {
+          "original_index": 8,
+          "sentence": "Results were similar in studies using clinical and those using administrative databases."
+        },
+        {
+          "original_index": 9,
+          "sentence": "No differences were seen in the 14 studies fully adjusting for volume/experience, severity, and comorbidity (relative risk 1.01)."
+        },
+        {
+          "original_index": 10,
+          "sentence": "Smaller studies did not differ in their results from larger studies."
+        },
+        {
+          "original_index": 11,
+          "sentence": "Differences were seen for some diagnoses (e.g., significantly better survival for breast cancer and cerebrovascular accidents in teaching hospitals and significantly better survival from cholecystectomy in nonteaching hospitals), but these were small in magnitude."
+        },
+        {
+          "original_index": 12,
+          "sentence": "Other outcomes were diverse, but typically teaching healthcare structures did not do better than nonteaching ones.      "
+        },
+        {
+          "original_index": 13,
+          "sentence": "Conclusions  The available data are limited by their nonrandomized design, but overall they do not suggest that a healthcare facility's teaching status on its own markedly improves or worsens patient outcomes."
+        },
+        {
+          "original_index": 14,
+          "sentence": "Differences for specific diseases cannot be excluded, but are likely to be small."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

@@ -1,0 +1,229 @@
+{
+  "id": 177,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Binding of p53 to enhancer regions (p53BERs) regulates the activity of p53 transcription and cell cycle arrest through the production of p53-dependent eRNAs.",
+      "evidence": [
+        {
+          "doc_id": 9669099,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Furthermore, p53BERs produce, in a p53-dependent manner, enhancer RNAs (eRNAs) that are required for efficient transcriptional enhancement of interacting target genes and induction of a p53-dependent cell-cycle arrest.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 9669099,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "Moreover, eRNA production from p53BERs is required for efficient p53 transcription enhancement.",
+          "kept": true,
+          "new_index": 6
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 9669099,
+          "title": "eRNAs are required for p53-dependent enhancer activity and gene transcription.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Binding within or nearby target genes involved in cell proliferation and survival enables the p53 tumor suppressor gene to regulate their transcription and cell-cycle progression."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Using genome-wide chromatin-binding profiles, we describe binding of p53 also to regions located distantly from any known p53 target gene."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Interestingly, many of these regions possess conserved p53-binding sites and all known hallmarks of enhancer regions."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We demonstrate that these p53-bound enhancer regions (p53BERs) indeed contain enhancer activity and interact intrachromosomally with multiple neighboring genes to convey long-distance p53-dependent transcription regulation."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Furthermore, p53BERs produce, in a p53-dependent manner, enhancer RNAs (eRNAs) that are required for efficient transcriptional enhancement of interacting target genes and induction of a p53-dependent cell-cycle arrest."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Thus, our results ascribe transcription enhancement activity to p53 with the capacity to regulate multiple genes from a single genomic binding site."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Moreover, eRNA production from p53BERs is required for efficient p53 transcription enhancement."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Binding of p53 to enhancer regions (p53BERs) regulates the activity of p53 transcription and cell cycle arrest through the production of p53-dependent eRNAs.",
+      "evidence": [
+        {
+          "doc_id": 9669099,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Furthermore, p53BERs produce, in a p53-dependent manner, enhancer RNAs (eRNAs) that are required for efficient transcriptional enhancement of interacting target genes and induction of a p53-dependent cell-cycle arrest.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 9669099,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "Moreover, eRNA production from p53BERs is required for efficient p53 transcription enhancement.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 9669099,
+          "title": "eRNAs are required for p53-dependent enhancer activity and gene transcription.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Binding within or nearby target genes involved in cell proliferation and survival enables the p53 tumor suppressor gene to regulate their transcription and cell-cycle progression."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Using genome-wide chromatin-binding profiles, we describe binding of p53 also to regions located distantly from any known p53 target gene."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "We demonstrate that these p53-bound enhancer regions (p53BERs) indeed contain enhancer activity and interact intrachromosomally with multiple neighboring genes to convey long-distance p53-dependent transcription regulation."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Furthermore, p53BERs produce, in a p53-dependent manner, enhancer RNAs (eRNAs) that are required for efficient transcriptional enhancement of interacting target genes and induction of a p53-dependent cell-cycle arrest."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Thus, our results ascribe transcription enhancement activity to p53 with the capacity to regulate multiple genes from a single genomic binding site."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 9669099,
+          "original_index": 2,
+          "sentence": "Interestingly, many of these regions possess conserved p53-binding sites and all known hallmarks of enhancer regions.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 9669099,
+          "original_index": 6,
+          "sentence": "Moreover, eRNA production from p53BERs is required for efficient p53 transcription enhancement.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Binding of p53 to enhancer regions (p53BERs) regulates the activity of p53 transcription and cell cycle arrest through the production of p53-dependent eRNAs.",
+      "evidence": [
+        {
+          "doc_id": 9669099,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Furthermore, p53BERs produce, in a p53-dependent manner, enhancer RNAs (eRNAs) that are required for efficient transcriptional enhancement of interacting target genes and induction of a p53-dependent cell-cycle arrest.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 9669099,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "Moreover, eRNA production from p53BERs is required for efficient p53 transcription enhancement.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 9669099,
+          "title": "eRNAs are required for p53-dependent enhancer activity and gene transcription.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Binding within or nearby target genes involved in cell proliferation and survival enables the p53 tumor suppressor gene to regulate their transcription and cell-cycle progression."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Using genome-wide chromatin-binding profiles, we describe binding of p53 also to regions located distantly from any known p53 target gene."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Interestingly, many of these regions possess conserved p53-binding sites and all known hallmarks of enhancer regions."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Thus, our results ascribe transcription enhancement activity to p53 with the capacity to regulate multiple genes from a single genomic binding site."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 9669099,
+          "original_index": 3,
+          "sentence": "We demonstrate that these p53-bound enhancer regions (p53BERs) indeed contain enhancer activity and interact intrachromosomally with multiple neighboring genes to convey long-distance p53-dependent transcription regulation.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 9669099,
+          "original_index": 4,
+          "sentence": "Furthermore, p53BERs produce, in a p53-dependent manner, enhancer RNAs (eRNAs) that are required for efficient transcriptional enhancement of interacting target genes and induction of a p53-dependent cell-cycle arrest.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 9669099,
+          "original_index": 6,
+          "sentence": "Moreover, eRNA production from p53BERs is required for efficient p53 transcription enhancement.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

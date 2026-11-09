@@ -1,0 +1,53 @@
+{
+  "id": 799,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Moderate consumption of candy and chocolate reduces the risk of cardiovascular disease (CVD).",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 5293024,
+          "title": "Life is sweet: candy consumption and longevity.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Our attitude towards candy—“if it tastes that good, it can't be healthy”—betrays society's puritanical stance towards pleasure."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Candy has been blamed for various ills, including hyperactivity in children; however, clinical trials have not supported this.1  Candy—sugar confectionery and chocolate—is not a recent invention: the ancient Arabs, Chinese, and Egyptians candied fruits and nuts in honey, and the Aztecs made a chocolate drink from the bean of the cacao tree."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Today, Americans gratify themselves with, on average, 5.4 kg of sugar candy and 6.5 kg of chocolate per person annually.2  Since candy has existed for centuries, we surmised that it cannot be totally unhealthy."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We decided to investigate whether candy consumption was associated with longevity.  "
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Subjects were from the Harvard alumni health study, an ongoing study of men entering Harvard University as undergraduates between 1916 and 1950."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We included 7841 men, free of cardiovascular disease and cancer, who responded to a health survey …"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

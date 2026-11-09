@@ -1,0 +1,113 @@
+{
+  "id": 1052,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Rising temperatures caused by global warming increases risk of dengue fever transmission.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 18816720,
+          "title": "Spatial and Temporal Clustering of Dengue Virus Transmission in Thai Villages",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Transmission of dengue viruses (DENV), the leading cause of arboviral disease worldwide, is known to vary through time and space, likely owing to a combination of factors related to the human host, virus, mosquito vector, and environment."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "An improved understanding of variation in transmission patterns is fundamental to conducting surveillance and implementing disease prevention strategies."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "To test the hypothesis that DENV transmission is spatially and temporally focal, we compared geographic and temporal characteristics within Thai villages where DENV are and are not being actively transmitted.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "METHODS AND FINDINGS Cluster investigations were conducted within 100 m of homes where febrile index children with (positive clusters) and without (negative clusters) acute dengue lived during two seasons of peak DENV transmission."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Data on human infection and mosquito infection/density were examined to precisely (1) define the spatial and temporal dimensions of DENV transmission, (2) correlate these factors with variation in DENV transmission, and (3) determine the burden of inapparent and symptomatic infections."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Among 556 village children enrolled as neighbors of 12 dengue-positive and 22 dengue-negative index cases, all 27 DENV infections (4.9% of enrollees) occurred in positive clusters (p < 0.01; attributable risk [AR] = 10.4 per 100; 95% confidence interval 1-19.8 per 100]."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "In positive clusters, 12.4% of enrollees became infected in a 15-d period and DENV infections were aggregated centrally near homes of index cases."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "As only 1 of 217 pairs of serologic specimens tested in positive clusters revealed a recent DENV infection that occurred prior to cluster initiation, we attribute the observed DENV transmission subsequent to cluster investigation to recent DENV transmission activity."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Of the 1,022 female adult Ae."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "aegypti collected, all eight (0.8%) dengue-infected mosquitoes came from houses in positive clusters; none from control clusters or schools."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Distinguishing features between positive and negative clusters were greater availability of piped water in negative clusters (p < 0.01) and greater number of Ae."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "aegypti pupae per person in positive clusters (p = 0.04)."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "During primarily DENV-4 transmission seasons, the ratio of inapparent to symptomatic infections was nearly 1:1 among child enrollees."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "Study limitations included inability to sample all children and mosquitoes within each cluster and our reliance on serologic rather than virologic evidence of interval infections in enrollees given restrictions on the frequency of blood collections in children.   \n"
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "CONCLUSIONS Our data reveal the remarkably focal nature of DENV transmission within a hyperendemic rural area of Thailand."
+            },
+            {
+              "new_index": 15,
+              "original_index": 15,
+              "sentence": "These data suggest that active school-based dengue case detection prompting local spraying could contain recent virus introductions and reduce the longitudinal risk of virus spread within rural areas."
+            },
+            {
+              "new_index": 16,
+              "original_index": 16,
+              "sentence": "Our results should prompt future cluster studies to explore how host immune and behavioral aspects may impact DENV transmission and prevention strategies."
+            },
+            {
+              "new_index": 17,
+              "original_index": 17,
+              "sentence": "Cluster methodology could serve as a useful research tool for investigation of other temporally and spatially clustered infectious diseases."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

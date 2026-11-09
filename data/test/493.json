@@ -1,0 +1,35 @@
+{
+  "id": 493,
+  "origin": "train_more",
+  "claim": "HOXB4 is a highly expressed component of cellular secretome from fetal liver cell populations.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 19583924,
+      "title": "Angiopoietin-like proteins stimulate ex vivo expansion of hematopoietic stem cells",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Successful ex vivo expansion of hematopoietic stem cells (HSCs) would greatly benefit the treatment of disease and the understanding of crucial questions of stem cell biology."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Here we show, using microarray studies, that the HSC-supportive mouse fetal liver CD3+ cells specifically express the proteins angiopoietin-like 2 (Angptl2) and angiopoietin-like 3 (Angptl3)."
+        },
+        {
+          "original_index": 2,
+          "sentence": "We observed a 24- or 30-fold net expansion of long-term HSCs by reconstitution analysis when we cultured highly enriched HSCs for 10 days in the presence of Angptl2 or Angptl3 together with saturating levels of other growth factors."
+        },
+        {
+          "original_index": 3,
+          "sentence": "The coiled-coil domain of Angptl2 was capable of stimulating expansion of HSCs."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Furthermore, angiopoietin-like 5, angiopoietin-like 7 and microfibril-associated glycoprotein 4 also supported expansion of HSCs in culture."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

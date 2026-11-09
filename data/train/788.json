@@ -1,0 +1,144 @@
+{
+  "id": 788,
+  "origin": "train_more",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Microcin J25 inhibits nucleoside triphosphate (NTP) binding.",
+      "evidence": [
+        {
+          "doc_id": 4740447,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "Biochemical results indicate that inhibition of transcription occurs at the level of NTP uptake or NTP binding by RNAP.",
+          "kept": true,
+          "new_index": 1
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4740447,
+          "title": "Antibacterial peptide microcin J25 inhibits transcription by binding within and obstructing the RNA polymerase secondary channel.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The antibacterial peptide microcin J25 (MccJ25) inhibits transcription by bacterial RNA polymerase (RNAP)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Biochemical results indicate that inhibition of transcription occurs at the level of NTP uptake or NTP binding by RNAP."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Genetic results indicate that inhibition of transcription requires an extensive determinant, comprising more than 50 amino acid residues, within the RNAP secondary channel (also known as the \"NTP-uptake channel\" or \"pore\")."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Biophysical results indicate that inhibition of transcription involves binding of MccJ25 within the RNAP secondary channel."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Molecular modeling indicates that binding of MccJ25 within the RNAP secondary channel obstructs the RNAP secondary channel."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We conclude that MccJ25 inhibits transcription by binding within and obstructing the RNAP secondary channel--acting essentially as a \"cork in a bottle."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "\""
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Obstruction of the RNAP secondary channel represents an attractive target for drug discovery."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Microcin J25 inhibits nucleoside triphosphate (NTP) binding.",
+      "evidence": [
+        {
+          "doc_id": 4740447,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "Biochemical results indicate that inhibition of transcription occurs at the level of NTP uptake or NTP binding by RNAP.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4740447,
+          "title": "Antibacterial peptide microcin J25 inhibits transcription by binding within and obstructing the RNA polymerase secondary channel.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 2,
+              "sentence": "Genetic results indicate that inhibition of transcription requires an extensive determinant, comprising more than 50 amino acid residues, within the RNAP secondary channel (also known as the \"NTP-uptake channel\" or \"pore\")."
+            },
+            {
+              "new_index": 1,
+              "original_index": 3,
+              "sentence": "Biophysical results indicate that inhibition of transcription involves binding of MccJ25 within the RNAP secondary channel."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Molecular modeling indicates that binding of MccJ25 within the RNAP secondary channel obstructs the RNAP secondary channel."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "We conclude that MccJ25 inhibits transcription by binding within and obstructing the RNAP secondary channel--acting essentially as a \"cork in a bottle."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "\""
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Obstruction of the RNAP secondary channel represents an attractive target for drug discovery."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 4740447,
+          "original_index": 0,
+          "sentence": "The antibacterial peptide microcin J25 (MccJ25) inhibits transcription by bacterial RNA polymerase (RNAP).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4740447,
+          "original_index": 1,
+          "sentence": "Biochemical results indicate that inhibition of transcription occurs at the level of NTP uptake or NTP binding by RNAP.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": 730,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Lysine histone demethylase inhibitor JIB 04 is inactive against KDM5A.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 13400643,
+          "title": "A small molecule modulates Jumonji histone demethylase activity and selectively inhibits cancer growth",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The pharmacological inhibition of general transcriptional regulators has the potential to block growth through targeting multiple tumorigenic signalling pathways simultaneously."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here, using an innovative cell-based screen, we identify a structurally unique small molecule (named JIB-04) that specifically inhibits the activity of the Jumonji family of histone demethylases in vitro, in cancer cells, and in tumours in vivo."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Unlike known inhibitors, JIB-04 is not a competitive inhibitor of α-ketoglutarate."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "In cancer, but not in patient-matched normal cells, JIB-04 alters a subset of transcriptional pathways and blocks viability."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "In mice, JIB-04 reduces tumour burden and prolongs survival."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Importantly, we find that patients with breast tumours that overexpress Jumonji demethylases have significantly lower survival."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Thus, JIB-04, a novel inhibitor of Jumonji demethylases in vitro and in vivo, constitutes a unique potential therapeutic and research tool against cancer, and validates the use of unbiased cellular screens to discover chemical modulators with disease relevance."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

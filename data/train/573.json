@@ -1,0 +1,53 @@
+{
+  "id": 573,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "In domesticated populations of Saccharomyces cerevisiae, segmental aneuploidy is very common.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 10300888,
+          "title": "Domestication and Divergence of Saccharomyces cerevisiae Beer Yeasts",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Whereas domestication of livestock, pets, and crops is well documented, it is still unclear to what extent microbes associated with the production of food have also undergone human selection and where the plethora of industrial strains originates from."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here, we present the genomes and phenomes of 157 industrial Saccharomyces cerevisiae yeasts."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Our analyses reveal that today's industrial yeasts can be divided into five sublineages that are genetically and phenotypically separated from wild strains and originate from only a few ancestors through complex patterns of domestication and local divergence."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Large-scale phenotyping and genome analysis further show strong industry-specific selection for stress tolerance, sugar utilization, and flavor production, while the sexual cycle and other phenotypes related to survival in nature show decay, particularly in beer yeasts."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Together, these results shed light on the origins, evolutionary history, and phenotypic diversity of industrial yeasts and provide a resource for further selection of superior strains."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "PAPERCLIP."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

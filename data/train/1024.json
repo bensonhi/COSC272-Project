@@ -1,0 +1,124 @@
+{
+  "id": 1024,
+  "origin": "dev",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Recurrent mutations occur frequently within CTCF anchor sites adjacent to oncogenes.",
+      "evidence": [
+        {
+          "doc_id": 5373138,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "The CTCF anchor regions we identified are conserved across species, influence gene expression, and are a frequent site of mutations in cancer cells, underscoring their functional importance in cellular regulation.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 5373138,
+          "title": "3D Chromosome Regulatory Landscape of Human Pluripotent Cells.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "In this study, we describe the 3D chromosome regulatory landscape of human naive and primed embryonic stem cells."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "To devise this map, we identified transcriptional enhancers and insulators in these cells and placed them within the context of cohesin-associated CTCF-CTCF loops using cohesin ChIA-PET data."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "The CTCF-CTCF loops we identified form a chromosomal framework of insulated neighborhoods, which in turn form topologically associating domains (TADs) that are largely preserved during the transition between the naive and primed states."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Regulatory changes in enhancer-promoter interactions occur within insulated neighborhoods during cell state transition."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "The CTCF anchor regions we identified are conserved across species, influence gene expression, and are a frequent site of mutations in cancer cells, underscoring their functional importance in cellular regulation."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "These 3D regulatory maps of human pluripotent cells therefore provide a foundation for future interrogation of the relationships between chromosome structure and gene control in development and disease."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Recurrent mutations occur frequently within CTCF anchor sites adjacent to oncogenes.",
+      "evidence": [
+        {
+          "doc_id": 5373138,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "The CTCF anchor regions we identified are conserved across species, influence gene expression, and are a frequent site of mutations in cancer cells, underscoring their functional importance in cellular regulation.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 5373138,
+          "title": "3D Chromosome Regulatory Landscape of Human Pluripotent Cells.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "In this study, we describe the 3D chromosome regulatory landscape of human naive and primed embryonic stem cells."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "To devise this map, we identified transcriptional enhancers and insulators in these cells and placed them within the context of cohesin-associated CTCF-CTCF loops using cohesin ChIA-PET data."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "The CTCF-CTCF loops we identified form a chromosomal framework of insulated neighborhoods, which in turn form topologically associating domains (TADs) that are largely preserved during the transition between the naive and primed states."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Regulatory changes in enhancer-promoter interactions occur within insulated neighborhoods during cell state transition."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 5373138,
+          "original_index": 4,
+          "sentence": "The CTCF anchor regions we identified are conserved across species, influence gene expression, and are a frequent site of mutations in cancer cells, underscoring their functional importance in cellular regulation.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 5373138,
+          "original_index": 5,
+          "sentence": "These 3D regulatory maps of human pluripotent cells therefore provide a foundation for future interrogation of the relationships between chromosome structure and gene control in development and disease.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

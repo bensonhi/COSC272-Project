@@ -1,0 +1,134 @@
+{
+  "id": 482,
+  "origin": "train_more",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Guanine nucleotide exchange factors (GEFs) mediate RhoA activation in response to tensional forces on fibronectin-binding integrins.",
+      "evidence": [
+        {
+          "doc_id": 10991183,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "By combining biochemical and biophysical approaches, we identified two guanine nucleotide exchange factors (GEFs), LARG and GEF-H1, as key molecules that regulate the cellular adaptation to force.",
+          "kept": true,
+          "new_index": 3
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 10991183,
+          "title": "The Rho GEFs LARG and GEF-H1 regulate the mechanical response to force on integrins",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "How individual cells respond to mechanical forces is of considerable interest to biologists as force affects many aspects of cell behaviour."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The application of force on integrins triggers cytoskeletal rearrangements and growth of the associated adhesion complex, resulting in increased cellular stiffness, also known as reinforcement."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Although RhoA has been shown to play a role during reinforcement, the molecular mechanisms that regulate its activity are unknown."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "By combining biochemical and biophysical approaches, we identified two guanine nucleotide exchange factors (GEFs), LARG and GEF-H1, as key molecules that regulate the cellular adaptation to force."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We show that stimulation of integrins with tensional force triggers activation of these two GEFs and their recruitment to adhesion complexes."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Surprisingly, activation of LARG and GEF-H1 involves distinct signalling pathways."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Our results reveal that LARG is activated by the Src family tyrosine kinase Fyn, whereas GEF-H1 catalytic activity is enhanced by ERK downstream of a signalling cascade that includes FAK and Ras."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Guanine nucleotide exchange factors (GEFs) mediate RhoA activation in response to tensional forces on fibronectin-binding integrins.",
+      "evidence": [
+        {
+          "doc_id": 10991183,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "By combining biochemical and biophysical approaches, we identified two guanine nucleotide exchange factors (GEFs), LARG and GEF-H1, as key molecules that regulate the cellular adaptation to force.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 10991183,
+          "title": "The Rho GEFs LARG and GEF-H1 regulate the mechanical response to force on integrins",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "How individual cells respond to mechanical forces is of considerable interest to biologists as force affects many aspects of cell behaviour."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The application of force on integrins triggers cytoskeletal rearrangements and growth of the associated adhesion complex, resulting in increased cellular stiffness, also known as reinforcement."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Although RhoA has been shown to play a role during reinforcement, the molecular mechanisms that regulate its activity are unknown."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "We show that stimulation of integrins with tensional force triggers activation of these two GEFs and their recruitment to adhesion complexes."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Our results reveal that LARG is activated by the Src family tyrosine kinase Fyn, whereas GEF-H1 catalytic activity is enhanced by ERK downstream of a signalling cascade that includes FAK and Ras."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 10991183,
+          "original_index": 3,
+          "sentence": "By combining biochemical and biophysical approaches, we identified two guanine nucleotide exchange factors (GEFs), LARG and GEF-H1, as key molecules that regulate the cellular adaptation to force.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 10991183,
+          "original_index": 5,
+          "sentence": "Surprisingly, activation of LARG and GEF-H1 involves distinct signalling pathways.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

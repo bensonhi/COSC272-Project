@@ -1,0 +1,43 @@
+{
+  "id": 572,
+  "origin": "train_more",
+  "claim": "In chronic viral infections or tumors, peptides that selectively inhibit PTPRS can be utilized to boost insufficient activity of pDCs.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 4447055,
+      "title": "Modulation of the proteoglycan receptor PTPσ promotes recovery after spinal cord injury",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Contusive spinal cord injury leads to a variety of disabilities owing to limited neuronal regeneration and functional plasticity."
+        },
+        {
+          "original_index": 1,
+          "sentence": "It is well established that an upregulation of glial-derived chondroitin sulphate proteoglycans (CSPGs) within the glial scar and perineuronal net creates a barrier to axonal regrowth and sprouting."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Protein tyrosine phosphatase σ (PTPσ), along with its sister phosphatase leukocyte common antigen-related (LAR) and the nogo receptors 1 and 3 (NgR), have recently been identified as receptors for the inhibitory glycosylated side chains of CSPGs."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Here we find in rats that PTPσ has a critical role in converting growth cones into a dystrophic state by tightly stabilizing them within CSPG-rich substrates."
+        },
+        {
+          "original_index": 4,
+          "sentence": "We generated a membrane-permeable peptide mimetic of the PTPσ wedge domain that binds to PTPσ and relieves CSPG-mediated inhibition."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Systemic delivery of this peptide over weeks restored substantial serotonergic innervation to the spinal cord below the level of injury and facilitated functional recovery of both locomotor and urinary systems."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Our results add a new layer of understanding to the critical role of PTPσ in mediating the growth-inhibited state of neurons due to CSPGs within the injured adult spinal cord."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

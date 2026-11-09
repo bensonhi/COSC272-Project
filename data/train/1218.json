@@ -1,0 +1,63 @@
+{
+  "id": 1218,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The first MBT repeat of the four malignant brain tumor (4MBT) domain of Drosophila's Sfmbt and of the orthologous mammalian L3MBTL2 is required for the interaction with the spacer region of Drosophila's Pleiohomeotic (Pho) or its human ortholog YY1.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 15635366,
+          "title": "The polycomb group protein L3mbtl2 assembles an atypical PRC1-family complex that is essential in pluripotent stem cells and early development.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "L3mbtl2 has been implicated in transcriptional repression and chromatin compaction but its biological function has not been defined."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here we show that disruption of L3mbtl2 results in embryonic lethality with failure of gastrulation."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "This correlates with compromised proliferation and abnormal differentiation of L3mbtl2(-/-) embryonic stem (ES) cells."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "L3mbtl2 regulates genes by recruiting a Polycomb Repressive Complex1 (PRC1)-related complex, resembling the previously described E2F6-complex, and including G9A, Hdac1, and Ring1b."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "The presence of L3mbtl2 at target genes is associated with H3K9 dimethylation, low histone acetylation, and H2AK119 ubiquitination, but the latter is neither dependent on L3mbtl2 nor sufficient for repression."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Genome-wide studies revealed that the L3mbtl2-dependent complex predominantly regulates genes not bound by canonical PRC1 and PRC2."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "However, some developmental regulators are repressed by the combined activity of all three complexes."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Together, we have uncovered a highly selective, essential role for an atypical PRC1-family complex in ES cells and early development."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

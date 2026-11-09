@@ -1,0 +1,53 @@
+{
+  "id": 551,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "ITAM phosphorylation prevents the transfer of the T cell receptor (TCR) signal from the echo-domain to the cytoplasmic tail of the T cell receptor (TCR).",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 33499189,
+          "title": "Full activation of the T cell receptor requires both clustering and conformational changes at CD3.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "T cell receptor (TCR-CD3) triggering involves both receptor clustering and conformational changes at the cytoplasmic tails of the CD3 subunits."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The mechanism by which TCRalphabeta ligand binding confers conformational changes to CD3 is unknown."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "By using well-defined ligands, we showed that induction of the conformational change requires both multivalent engagement and the mobility restriction of the TCR-CD3 imposed by the plasma membrane."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "The conformational change is elicited by cooperative rearrangements of two TCR-CD3 complexes and does not require accompanying changes in the structure of the TCRalphabeta ectodomains."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "This conformational change at CD3 reverts upon ligand dissociation and is required for T cell activation."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Thus, our permissive geometry model provides a molecular mechanism that rationalizes how the information of ligand binding to TCRalphabeta is transmitted to the CD3 subunits and to the intracellular signaling machinery."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": 325,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Deletion of ATM and Rad3 related protein is not predictive of acute tissue loss.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 40349336,
+          "title": "Deletion of the developmentally essential gene ATR in adult mice leads to age-related phenotypes and stem cell loss.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Developmental abnormalities, cancer, and premature aging each have been linked to defects in the DNA damage response (DDR)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Mutations in the ATR checkpoint regulator cause developmental defects in mice (pregastrulation lethality) and humans (Seckel syndrome)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here we show that eliminating ATR in adult mice leads to defects in tissue homeostasis and the rapid appearance of age-related phenotypes, such as hair graying, alopecia, kyphosis, osteoporosis, thymic involution, fibrosis, and other abnormalities."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Histological and genetic analyses indicate that ATR deletion causes acute cellular loss in tissues in which continuous cell proliferation is required for maintenance."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Importantly, thymic involution, alopecia, and hair graying in ATR knockout mice were associated with dramatic reductions in tissue-specific stem and progenitor cells and exhaustion of tissue renewal and homeostatic capacity."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "In aggregate, these studies suggest that reduced regenerative capacity in adults via deletion of a developmentally essential DDR gene is sufficient to cause the premature appearance of age-related phenotypes."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

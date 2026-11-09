@@ -1,0 +1,229 @@
+{
+  "id": 201,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "CD28 signals regulate trafficking of murine auto-reactive T cells into target tissues.",
+      "evidence": [
+        {
+          "doc_id": 2462673,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Here, we demonstrate that the CD28 co-stimulatory pathway regulates the trafficking of self-reactive Ctla4(-/-) T cells to tissues.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 2462673,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Concurrent ablation of the CD28-activated Tec family kinase ITK does not block spontaneous T cell activation but instead causes self-reactive Ctla4(-/-) T cells to accumulate in secondary lymphoid organs.",
+          "kept": true,
+          "new_index": 3
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 2462673,
+          "title": "CD28 and ITK signals regulate autoreactive T cell trafficking",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Activation of self-reactive T cells and their trafficking to target tissues leads to autoimmune organ destruction."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Mice lacking the co-inhibitory receptor cytotoxic T lymphocyte antigen-4 (CTLA-4) develop fatal autoimmunity characterized by lymphocytic infiltration into nonlymphoid tissues."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here, we demonstrate that the CD28 co-stimulatory pathway regulates the trafficking of self-reactive Ctla4(-/-) T cells to tissues."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Concurrent ablation of the CD28-activated Tec family kinase ITK does not block spontaneous T cell activation but instead causes self-reactive Ctla4(-/-) T cells to accumulate in secondary lymphoid organs."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Despite excessive spontaneous T cell activation and proliferation in lymphoid organs, Itk(-/-); Ctla4(-/-) mice are otherwise healthy, mount antiviral immune responses and exhibit a long lifespan."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We propose that ITK specifically licenses autoreactive T cells to enter tissues to mount destructive immune responses."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Notably, ITK inhibitors mimic the null mutant phenotype and also prevent pancreatic islet infiltration by diabetogenic T cells in mouse models of type 1 diabetes, highlighting their potential utility for the treatment of human autoimmune disorders."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "CD28 signals regulate trafficking of murine auto-reactive T cells into target tissues.",
+      "evidence": [
+        {
+          "doc_id": 2462673,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Here, we demonstrate that the CD28 co-stimulatory pathway regulates the trafficking of self-reactive Ctla4(-/-) T cells to tissues.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 2462673,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Concurrent ablation of the CD28-activated Tec family kinase ITK does not block spontaneous T cell activation but instead causes self-reactive Ctla4(-/-) T cells to accumulate in secondary lymphoid organs.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 2462673,
+          "title": "CD28 and ITK signals regulate autoreactive T cell trafficking",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Activation of self-reactive T cells and their trafficking to target tissues leads to autoimmune organ destruction."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Mice lacking the co-inhibitory receptor cytotoxic T lymphocyte antigen-4 (CTLA-4) develop fatal autoimmunity characterized by lymphocytic infiltration into nonlymphoid tissues."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here, we demonstrate that the CD28 co-stimulatory pathway regulates the trafficking of self-reactive Ctla4(-/-) T cells to tissues."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "We propose that ITK specifically licenses autoreactive T cells to enter tissues to mount destructive immune responses."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Notably, ITK inhibitors mimic the null mutant phenotype and also prevent pancreatic islet infiltration by diabetogenic T cells in mouse models of type 1 diabetes, highlighting their potential utility for the treatment of human autoimmune disorders."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 2462673,
+          "original_index": 3,
+          "sentence": "Concurrent ablation of the CD28-activated Tec family kinase ITK does not block spontaneous T cell activation but instead causes self-reactive Ctla4(-/-) T cells to accumulate in secondary lymphoid organs.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 2462673,
+          "original_index": 4,
+          "sentence": "Despite excessive spontaneous T cell activation and proliferation in lymphoid organs, Itk(-/-); Ctla4(-/-) mice are otherwise healthy, mount antiviral immune responses and exhibit a long lifespan.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "CD28 signals regulate trafficking of murine auto-reactive T cells into target tissues.",
+      "evidence": [
+        {
+          "doc_id": 2462673,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Here, we demonstrate that the CD28 co-stimulatory pathway regulates the trafficking of self-reactive Ctla4(-/-) T cells to tissues.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 2462673,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Concurrent ablation of the CD28-activated Tec family kinase ITK does not block spontaneous T cell activation but instead causes self-reactive Ctla4(-/-) T cells to accumulate in secondary lymphoid organs.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 2462673,
+          "title": "CD28 and ITK signals regulate autoreactive T cell trafficking",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Activation of self-reactive T cells and their trafficking to target tissues leads to autoimmune organ destruction."
+            },
+            {
+              "new_index": 1,
+              "original_index": 4,
+              "sentence": "Despite excessive spontaneous T cell activation and proliferation in lymphoid organs, Itk(-/-); Ctla4(-/-) mice are otherwise healthy, mount antiviral immune responses and exhibit a long lifespan."
+            },
+            {
+              "new_index": 2,
+              "original_index": 5,
+              "sentence": "We propose that ITK specifically licenses autoreactive T cells to enter tissues to mount destructive immune responses."
+            },
+            {
+              "new_index": 3,
+              "original_index": 6,
+              "sentence": "Notably, ITK inhibitors mimic the null mutant phenotype and also prevent pancreatic islet infiltration by diabetogenic T cells in mouse models of type 1 diabetes, highlighting their potential utility for the treatment of human autoimmune disorders."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 2462673,
+          "original_index": 1,
+          "sentence": "Mice lacking the co-inhibitory receptor cytotoxic T lymphocyte antigen-4 (CTLA-4) develop fatal autoimmunity characterized by lymphocytic infiltration into nonlymphoid tissues.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 2462673,
+          "original_index": 2,
+          "sentence": "Here, we demonstrate that the CD28 co-stimulatory pathway regulates the trafficking of self-reactive Ctla4(-/-) T cells to tissues.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 2462673,
+          "original_index": 3,
+          "sentence": "Concurrent ablation of the CD28-activated Tec family kinase ITK does not block spontaneous T cell activation but instead causes self-reactive Ctla4(-/-) T cells to accumulate in secondary lymphoid organs.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

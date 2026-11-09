@@ -1,0 +1,366 @@
+{
+  "id": 272,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Combination nicotine replacement therapies with varenicline or bupropion are more effective after 12 weeks of reatment compared to varenicline monotherapy.",
+      "evidence": [
+        {
+          "doc_id": 11614737,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "RESULTS At 12 weeks, 53.0% of the combination therapy group achieved prolonged smoking abstinence and 56.2% achieved 7-day point-prevalence smoking abstinence compared with 43.2% and 48.6% in varenicline monotherapy (odds ratio [OR], 1.49; 95% CI, 1.05-2.12; P = .03 and OR, 1.36; 95% CI, 0.95-1.93; P = .09, respectively).",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 11614737,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 12,
+          "sentence": "CONCLUSIONS AND RELEVANCE Among cigarette smokers, combined use of varenicline and bupropion, compared with varenicline alone, increased prolonged abstinence but not 7-day point prevalence at 12 and 26 weeks.",
+          "kept": true,
+          "new_index": 12
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 11614737,
+          "title": "Combination varenicline and bupropion SR for tobacco-dependence treatment in cigarette smokers: a randomized trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "IMPORTANCE Combining pharmacotherapies for tobacco-dependence treatment may increase smoking abstinence.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To determine efficacy and safety of varenicline and bupropion sustained-release (SR; combination therapy) compared with varenicline (monotherapy) in cigarette smokers.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Randomized, blinded, placebo-controlled multicenter clinical trial with a 12-week treatment period and follow-up through week 52 conducted between October 2009 and April 2013 at 3 midwestern clinical research sites."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Five hundred six adult (≥18 years) cigarette smokers were randomly assigned and 315 (62%) completed the study.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "INTERVENTIONS Twelve weeks of varenicline and bupropion SR or varenicline and placebo.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "MAIN OUTCOMES AND MEASURES Primary outcome was abstinence rates at week 12, defined as prolonged (no smoking from 2 weeks after the target quit date) abstinence and 7-day point-prevalence (no smoking past 7 days) abstinence."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Secondary outcomes were prolonged and point-prevalence smoking abstinence rates at weeks 26 and 52."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Outcomes were biochemically confirmed.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "RESULTS At 12 weeks, 53.0% of the combination therapy group achieved prolonged smoking abstinence and 56.2% achieved 7-day point-prevalence smoking abstinence compared with 43.2% and 48.6% in varenicline monotherapy (odds ratio [OR], 1.49; 95% CI, 1.05-2.12; P = .03 and OR, 1.36; 95% CI, 0.95-1.93; P = .09, respectively)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "At 26 weeks, 36.6% of the combination therapy group achieved prolonged and 38.2% achieved 7-day point-prevalence smoking abstinence compared with 27.6% and 31.9% in varenicline monotherapy (OR, 1.52; 95% CI, 1.04-2.22; P = .03 and OR, 1.32; 95% CI, 0.91-1.91; P = .14, respectively)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "At 52 weeks, 30.9% of the combination therapy group achieved prolonged and 36.6% achieved 7-day point-prevalence smoking abstinence compared with 24.5% and 29.2% in varenicline monotherapy (OR, 1.39; 95% CI, 0.93-2.07; P = .11 and OR, 1.40; 95% CI, 0.96-2.05; P = .08, respectively)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Participants receiving combination therapy reported more anxiety (7.2% vs 3.1%; P = .04) and depressive symptoms (3.6% vs 0.8%; P = .03).   \n"
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "CONCLUSIONS AND RELEVANCE Among cigarette smokers, combined use of varenicline and bupropion, compared with varenicline alone, increased prolonged abstinence but not 7-day point prevalence at 12 and 26 weeks."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "Neither outcome was significantly different at 52 weeks."
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "Further research is required to determine the role of combination therapy in smoking cessation.   \n"
+            },
+            {
+              "new_index": 15,
+              "original_index": 15,
+              "sentence": "TRIAL REGISTRATION clinicaltrials.gov Identifier: http://clinicaltrials.gov/show/NCT00935818."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Combination nicotine replacement therapies with varenicline or bupropion are more effective after 12 weeks of reatment compared to varenicline monotherapy.",
+      "evidence": [
+        {
+          "doc_id": 11614737,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "RESULTS At 12 weeks, 53.0% of the combination therapy group achieved prolonged smoking abstinence and 56.2% achieved 7-day point-prevalence smoking abstinence compared with 43.2% and 48.6% in varenicline monotherapy (odds ratio [OR], 1.49; 95% CI, 1.05-2.12; P = .03 and OR, 1.36; 95% CI, 0.95-1.93; P = .09, respectively).",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 11614737,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 12,
+          "sentence": "CONCLUSIONS AND RELEVANCE Among cigarette smokers, combined use of varenicline and bupropion, compared with varenicline alone, increased prolonged abstinence but not 7-day point prevalence at 12 and 26 weeks.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 11614737,
+          "title": "Combination varenicline and bupropion SR for tobacco-dependence treatment in cigarette smokers: a randomized trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "IMPORTANCE Combining pharmacotherapies for tobacco-dependence treatment may increase smoking abstinence.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To determine efficacy and safety of varenicline and bupropion sustained-release (SR; combination therapy) compared with varenicline (monotherapy) in cigarette smokers.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Randomized, blinded, placebo-controlled multicenter clinical trial with a 12-week treatment period and follow-up through week 52 conducted between October 2009 and April 2013 at 3 midwestern clinical research sites."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Five hundred six adult (≥18 years) cigarette smokers were randomly assigned and 315 (62%) completed the study.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "INTERVENTIONS Twelve weeks of varenicline and bupropion SR or varenicline and placebo.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "MAIN OUTCOMES AND MEASURES Primary outcome was abstinence rates at week 12, defined as prolonged (no smoking from 2 weeks after the target quit date) abstinence and 7-day point-prevalence (no smoking past 7 days) abstinence."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Secondary outcomes were prolonged and point-prevalence smoking abstinence rates at weeks 26 and 52."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Outcomes were biochemically confirmed.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "RESULTS At 12 weeks, 53.0% of the combination therapy group achieved prolonged smoking abstinence and 56.2% achieved 7-day point-prevalence smoking abstinence compared with 43.2% and 48.6% in varenicline monotherapy (odds ratio [OR], 1.49; 95% CI, 1.05-2.12; P = .03 and OR, 1.36; 95% CI, 0.95-1.93; P = .09, respectively)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "At 26 weeks, 36.6% of the combination therapy group achieved prolonged and 38.2% achieved 7-day point-prevalence smoking abstinence compared with 27.6% and 31.9% in varenicline monotherapy (OR, 1.52; 95% CI, 1.04-2.22; P = .03 and OR, 1.32; 95% CI, 0.91-1.91; P = .14, respectively)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 13,
+              "sentence": "Neither outcome was significantly different at 52 weeks."
+            },
+            {
+              "new_index": 11,
+              "original_index": 14,
+              "sentence": "Further research is required to determine the role of combination therapy in smoking cessation.   \n"
+            },
+            {
+              "new_index": 12,
+              "original_index": 15,
+              "sentence": "TRIAL REGISTRATION clinicaltrials.gov Identifier: http://clinicaltrials.gov/show/NCT00935818."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 11614737,
+          "original_index": 10,
+          "sentence": "At 52 weeks, 30.9% of the combination therapy group achieved prolonged and 36.6% achieved 7-day point-prevalence smoking abstinence compared with 24.5% and 29.2% in varenicline monotherapy (OR, 1.39; 95% CI, 0.93-2.07; P = .11 and OR, 1.40; 95% CI, 0.96-2.05; P = .08, respectively).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 11614737,
+          "original_index": 11,
+          "sentence": "Participants receiving combination therapy reported more anxiety (7.2% vs 3.1%; P = .04) and depressive symptoms (3.6% vs 0.8%; P = .03).   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 11614737,
+          "original_index": 12,
+          "sentence": "CONCLUSIONS AND RELEVANCE Among cigarette smokers, combined use of varenicline and bupropion, compared with varenicline alone, increased prolonged abstinence but not 7-day point prevalence at 12 and 26 weeks.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Combination nicotine replacement therapies with varenicline or bupropion are more effective after 12 weeks of reatment compared to varenicline monotherapy.",
+      "evidence": [
+        {
+          "doc_id": 11614737,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "RESULTS At 12 weeks, 53.0% of the combination therapy group achieved prolonged smoking abstinence and 56.2% achieved 7-day point-prevalence smoking abstinence compared with 43.2% and 48.6% in varenicline monotherapy (odds ratio [OR], 1.49; 95% CI, 1.05-2.12; P = .03 and OR, 1.36; 95% CI, 0.95-1.93; P = .09, respectively).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 11614737,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 12,
+          "sentence": "CONCLUSIONS AND RELEVANCE Among cigarette smokers, combined use of varenicline and bupropion, compared with varenicline alone, increased prolonged abstinence but not 7-day point prevalence at 12 and 26 weeks.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 11614737,
+          "title": "Combination varenicline and bupropion SR for tobacco-dependence treatment in cigarette smokers: a randomized trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "IMPORTANCE Combining pharmacotherapies for tobacco-dependence treatment may increase smoking abstinence.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To determine efficacy and safety of varenicline and bupropion sustained-release (SR; combination therapy) compared with varenicline (monotherapy) in cigarette smokers.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Randomized, blinded, placebo-controlled multicenter clinical trial with a 12-week treatment period and follow-up through week 52 conducted between October 2009 and April 2013 at 3 midwestern clinical research sites."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Five hundred six adult (≥18 years) cigarette smokers were randomly assigned and 315 (62%) completed the study.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "INTERVENTIONS Twelve weeks of varenicline and bupropion SR or varenicline and placebo.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "MAIN OUTCOMES AND MEASURES Primary outcome was abstinence rates at week 12, defined as prolonged (no smoking from 2 weeks after the target quit date) abstinence and 7-day point-prevalence (no smoking past 7 days) abstinence."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Secondary outcomes were prolonged and point-prevalence smoking abstinence rates at weeks 26 and 52."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "At 26 weeks, 36.6% of the combination therapy group achieved prolonged and 38.2% achieved 7-day point-prevalence smoking abstinence compared with 27.6% and 31.9% in varenicline monotherapy (OR, 1.52; 95% CI, 1.04-2.22; P = .03 and OR, 1.32; 95% CI, 0.91-1.91; P = .14, respectively)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "At 52 weeks, 30.9% of the combination therapy group achieved prolonged and 36.6% achieved 7-day point-prevalence smoking abstinence compared with 24.5% and 29.2% in varenicline monotherapy (OR, 1.39; 95% CI, 0.93-2.07; P = .11 and OR, 1.40; 95% CI, 0.96-2.05; P = .08, respectively)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "Participants receiving combination therapy reported more anxiety (7.2% vs 3.1%; P = .04) and depressive symptoms (3.6% vs 0.8%; P = .03).   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 13,
+              "sentence": "Neither outcome was significantly different at 52 weeks."
+            },
+            {
+              "new_index": 11,
+              "original_index": 14,
+              "sentence": "Further research is required to determine the role of combination therapy in smoking cessation.   \n"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 11614737,
+          "original_index": 7,
+          "sentence": "Outcomes were biochemically confirmed.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 11614737,
+          "original_index": 8,
+          "sentence": "RESULTS At 12 weeks, 53.0% of the combination therapy group achieved prolonged smoking abstinence and 56.2% achieved 7-day point-prevalence smoking abstinence compared with 43.2% and 48.6% in varenicline monotherapy (odds ratio [OR], 1.49; 95% CI, 1.05-2.12; P = .03 and OR, 1.36; 95% CI, 0.95-1.93; P = .09, respectively).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 11614737,
+          "original_index": 12,
+          "sentence": "CONCLUSIONS AND RELEVANCE Among cigarette smokers, combined use of varenicline and bupropion, compared with varenicline alone, increased prolonged abstinence but not 7-day point prevalence at 12 and 26 weeks.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 11614737,
+          "original_index": 15,
+          "sentence": "TRIAL REGISTRATION clinicaltrials.gov Identifier: http://clinicaltrials.gov/show/NCT00935818.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

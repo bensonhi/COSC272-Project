@@ -1,0 +1,508 @@
+{
+  "id": 1274,
+  "origin": "dev",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The tip of the inner tube of the toxic type VI secretion system (T6SS) antibacterial effector in Escherichia coli (E. coli) carries toxic effector proteins.",
+      "evidence": [
+        {
+          "doc_id": 4406819,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Here we report that proteins from the PAAR (proline-alanine-alanine-arginine) repeat superfamily form a sharp conical extension on the VgrG spike, which is further involved in attaching effector domains to the spike.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 4406819,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "The crystal structures of two PAAR-repeat proteins bound to VgrG-like partners show that these proteins sharpen the tip of the T6SS spike complex.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 4406819,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Our results indicate a new model of the T6SS organelle in which the VgrG-PAAR spike complex is decorated with multiple effectors that are delivered simultaneously into target cells in a single contraction-driven translocation event.",
+          "kept": true,
+          "new_index": 7
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 12428814,
+          "title": "Haemolysin coregulated protein is an exported receptor and chaperone of type VI secretion substrates.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Secretion systems require high-fidelity mechanisms to discriminate substrates among the vast cytoplasmic pool of proteins."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Factors mediating substrate recognition by the type VI secretion system (T6SS) of Gram-negative bacteria, a widespread pathway that translocates effector proteins into target bacterial cells, have not been defined."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We report that haemolysin coregulated protein (Hcp), a ring-shaped hexamer secreted by all characterized T6SSs, binds specifically to cognate effector molecules."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Electron microscopy analysis of an Hcp-effector complex from Pseudomonas aeruginosa revealed the effector bound to the inner surface of Hcp."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Further studies demonstrated that interaction with the Hcp pore is a general requirement for secretion of diverse effectors encompassing several enzymatic classes."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Though previous models depict Hcp as a static conduit, our data indicate it is a chaperone and receptor of substrates."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "These unique functions of a secreted protein highlight fundamental differences between the export mechanism of T6 and other characterized secretory pathways."
+            }
+          ]
+        },
+        {
+          "doc_id": 27731651,
+          "title": "A view to a kill: the bacterial type VI secretion system.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The bacterial type VI secretion system (T6SS) is an organelle that is structurally and mechanistically analogous to an intracellular membrane-attached contractile phage tail."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Recent studies determined that a rapid conformational change in the structure of a sheath protein complex propels T6SS spike and tube components along with antibacterial and antieukaryotic effectors out of predatory T6SS(+) cells and into prey cells."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "The contracted organelle is then recycled in an ATP-dependent process."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "T6SS is regulated at transcriptional and posttranslational levels, the latter involving detection of membrane perturbation in some species."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "In addition to directly targeting eukaryotic cells, the T6SS can also target other bacteria coinfecting a mammalian host, highlighting the importance of the T6SS not only for bacterial survival in environmental ecosystems, but also in the context of infection and disease."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "This review highlights these and other advances in our understanding of the structure, mechanical function, assembly, and regulation of the T6SS."
+            }
+          ]
+        },
+        {
+          "doc_id": 4406819,
+          "title": "PAAR-repeat proteins sharpen and diversify the Type VI secretion system spike",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The bacterial type VI secretion system (T6SS) is a large multicomponent, dynamic macromolecular machine that has an important role in the ecology of many Gram-negative bacteria."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "T6SS is responsible for translocation of a wide range of toxic effector molecules, allowing predatory cells to kill both prokaryotic as well as eukaryotic prey cells."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "The T6SS organelle is functionally analogous to contractile tails of bacteriophages and is thought to attack cells by initially penetrating them with a trimeric protein complex called the VgrG spike."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Neither the exact protein composition of the T6SS organelle nor the mechanisms of effector selection and delivery are known."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Here we report that proteins from the PAAR (proline-alanine-alanine-arginine) repeat superfamily form a sharp conical extension on the VgrG spike, which is further involved in attaching effector domains to the spike."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "The crystal structures of two PAAR-repeat proteins bound to VgrG-like partners show that these proteins sharpen the tip of the T6SS spike complex."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "We demonstrate that PAAR proteins are essential for T6SS-mediated secretion and target cell killing by Vibrio cholerae and Acinetobacter baylyi."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Our results indicate a new model of the T6SS organelle in which the VgrG-PAAR spike complex is decorated with multiple effectors that are delivered simultaneously into target cells in a single contraction-driven translocation event."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "The tip of the inner tube of the toxic type VI secretion system (T6SS) antibacterial effector in Escherichia coli (E. coli) carries toxic effector proteins.",
+      "evidence": [
+        {
+          "doc_id": 4406819,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Here we report that proteins from the PAAR (proline-alanine-alanine-arginine) repeat superfamily form a sharp conical extension on the VgrG spike, which is further involved in attaching effector domains to the spike.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4406819,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "The crystal structures of two PAAR-repeat proteins bound to VgrG-like partners show that these proteins sharpen the tip of the T6SS spike complex.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4406819,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Our results indicate a new model of the T6SS organelle in which the VgrG-PAAR spike complex is decorated with multiple effectors that are delivered simultaneously into target cells in a single contraction-driven translocation event.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 12428814,
+          "title": "Haemolysin coregulated protein is an exported receptor and chaperone of type VI secretion substrates.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Secretion systems require high-fidelity mechanisms to discriminate substrates among the vast cytoplasmic pool of proteins."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Factors mediating substrate recognition by the type VI secretion system (T6SS) of Gram-negative bacteria, a widespread pathway that translocates effector proteins into target bacterial cells, have not been defined."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We report that haemolysin coregulated protein (Hcp), a ring-shaped hexamer secreted by all characterized T6SSs, binds specifically to cognate effector molecules."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Electron microscopy analysis of an Hcp-effector complex from Pseudomonas aeruginosa revealed the effector bound to the inner surface of Hcp."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Further studies demonstrated that interaction with the Hcp pore is a general requirement for secretion of diverse effectors encompassing several enzymatic classes."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "These unique functions of a secreted protein highlight fundamental differences between the export mechanism of T6 and other characterized secretory pathways."
+            }
+          ]
+        },
+        {
+          "doc_id": 27731651,
+          "title": "A view to a kill: the bacterial type VI secretion system.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The bacterial type VI secretion system (T6SS) is an organelle that is structurally and mechanistically analogous to an intracellular membrane-attached contractile phage tail."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "The contracted organelle is then recycled in an ATP-dependent process."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "T6SS is regulated at transcriptional and posttranslational levels, the latter involving detection of membrane perturbation in some species."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "In addition to directly targeting eukaryotic cells, the T6SS can also target other bacteria coinfecting a mammalian host, highlighting the importance of the T6SS not only for bacterial survival in environmental ecosystems, but also in the context of infection and disease."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "This review highlights these and other advances in our understanding of the structure, mechanical function, assembly, and regulation of the T6SS."
+            }
+          ]
+        },
+        {
+          "doc_id": 4406819,
+          "title": "PAAR-repeat proteins sharpen and diversify the Type VI secretion system spike",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "T6SS is responsible for translocation of a wide range of toxic effector molecules, allowing predatory cells to kill both prokaryotic as well as eukaryotic prey cells."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "The T6SS organelle is functionally analogous to contractile tails of bacteriophages and is thought to attack cells by initially penetrating them with a trimeric protein complex called the VgrG spike."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Neither the exact protein composition of the T6SS organelle nor the mechanisms of effector selection and delivery are known."
+            },
+            {
+              "new_index": 3,
+              "original_index": 6,
+              "sentence": "We demonstrate that PAAR proteins are essential for T6SS-mediated secretion and target cell killing by Vibrio cholerae and Acinetobacter baylyi."
+            },
+            {
+              "new_index": 4,
+              "original_index": 7,
+              "sentence": "Our results indicate a new model of the T6SS organelle in which the VgrG-PAAR spike complex is decorated with multiple effectors that are delivered simultaneously into target cells in a single contraction-driven translocation event."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 12428814,
+          "original_index": 5,
+          "sentence": "Though previous models depict Hcp as a static conduit, our data indicate it is a chaperone and receptor of substrates.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 27731651,
+          "original_index": 1,
+          "sentence": "Recent studies determined that a rapid conformational change in the structure of a sheath protein complex propels T6SS spike and tube components along with antibacterial and antieukaryotic effectors out of predatory T6SS(+) cells and into prey cells.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4406819,
+          "original_index": 0,
+          "sentence": "The bacterial type VI secretion system (T6SS) is a large multicomponent, dynamic macromolecular machine that has an important role in the ecology of many Gram-negative bacteria.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4406819,
+          "original_index": 4,
+          "sentence": "Here we report that proteins from the PAAR (proline-alanine-alanine-arginine) repeat superfamily form a sharp conical extension on the VgrG spike, which is further involved in attaching effector domains to the spike.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 4406819,
+          "original_index": 5,
+          "sentence": "The crystal structures of two PAAR-repeat proteins bound to VgrG-like partners show that these proteins sharpen the tip of the T6SS spike complex.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "The tip of the inner tube of the toxic type VI secretion system (T6SS) antibacterial effector in Escherichia coli (E. coli) carries toxic effector proteins.",
+      "evidence": [
+        {
+          "doc_id": 4406819,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Here we report that proteins from the PAAR (proline-alanine-alanine-arginine) repeat superfamily form a sharp conical extension on the VgrG spike, which is further involved in attaching effector domains to the spike.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4406819,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "The crystal structures of two PAAR-repeat proteins bound to VgrG-like partners show that these proteins sharpen the tip of the T6SS spike complex.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4406819,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Our results indicate a new model of the T6SS organelle in which the VgrG-PAAR spike complex is decorated with multiple effectors that are delivered simultaneously into target cells in a single contraction-driven translocation event.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 12428814,
+          "title": "Haemolysin coregulated protein is an exported receptor and chaperone of type VI secretion substrates.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Secretion systems require high-fidelity mechanisms to discriminate substrates among the vast cytoplasmic pool of proteins."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Factors mediating substrate recognition by the type VI secretion system (T6SS) of Gram-negative bacteria, a widespread pathway that translocates effector proteins into target bacterial cells, have not been defined."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Electron microscopy analysis of an Hcp-effector complex from Pseudomonas aeruginosa revealed the effector bound to the inner surface of Hcp."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Further studies demonstrated that interaction with the Hcp pore is a general requirement for secretion of diverse effectors encompassing several enzymatic classes."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Though previous models depict Hcp as a static conduit, our data indicate it is a chaperone and receptor of substrates."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "These unique functions of a secreted protein highlight fundamental differences between the export mechanism of T6 and other characterized secretory pathways."
+            }
+          ]
+        },
+        {
+          "doc_id": 27731651,
+          "title": "A view to a kill: the bacterial type VI secretion system.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The bacterial type VI secretion system (T6SS) is an organelle that is structurally and mechanistically analogous to an intracellular membrane-attached contractile phage tail."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Recent studies determined that a rapid conformational change in the structure of a sheath protein complex propels T6SS spike and tube components along with antibacterial and antieukaryotic effectors out of predatory T6SS(+) cells and into prey cells."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "The contracted organelle is then recycled in an ATP-dependent process."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "In addition to directly targeting eukaryotic cells, the T6SS can also target other bacteria coinfecting a mammalian host, highlighting the importance of the T6SS not only for bacterial survival in environmental ecosystems, but also in the context of infection and disease."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "This review highlights these and other advances in our understanding of the structure, mechanical function, assembly, and regulation of the T6SS."
+            }
+          ]
+        },
+        {
+          "doc_id": 4406819,
+          "title": "PAAR-repeat proteins sharpen and diversify the Type VI secretion system spike",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The bacterial type VI secretion system (T6SS) is a large multicomponent, dynamic macromolecular machine that has an important role in the ecology of many Gram-negative bacteria."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "The T6SS organelle is functionally analogous to contractile tails of bacteriophages and is thought to attack cells by initially penetrating them with a trimeric protein complex called the VgrG spike."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Neither the exact protein composition of the T6SS organelle nor the mechanisms of effector selection and delivery are known."
+            },
+            {
+              "new_index": 3,
+              "original_index": 6,
+              "sentence": "We demonstrate that PAAR proteins are essential for T6SS-mediated secretion and target cell killing by Vibrio cholerae and Acinetobacter baylyi."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 12428814,
+          "original_index": 2,
+          "sentence": "We report that haemolysin coregulated protein (Hcp), a ring-shaped hexamer secreted by all characterized T6SSs, binds specifically to cognate effector molecules.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 27731651,
+          "original_index": 3,
+          "sentence": "T6SS is regulated at transcriptional and posttranslational levels, the latter involving detection of membrane perturbation in some species.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4406819,
+          "original_index": 1,
+          "sentence": "T6SS is responsible for translocation of a wide range of toxic effector molecules, allowing predatory cells to kill both prokaryotic as well as eukaryotic prey cells.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4406819,
+          "original_index": 4,
+          "sentence": "Here we report that proteins from the PAAR (proline-alanine-alanine-arginine) repeat superfamily form a sharp conical extension on the VgrG spike, which is further involved in attaching effector domains to the spike.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 4406819,
+          "original_index": 5,
+          "sentence": "The crystal structures of two PAAR-repeat proteins bound to VgrG-like partners show that these proteins sharpen the tip of the T6SS spike complex.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 4406819,
+          "original_index": 7,
+          "sentence": "Our results indicate a new model of the T6SS organelle in which the VgrG-PAAR spike complex is decorated with multiple effectors that are delivered simultaneously into target cells in a single contraction-driven translocation event.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

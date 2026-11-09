@@ -1,0 +1,164 @@
+{
+  "id": 208,
+  "origin": "dev",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "CHEK2 is not associated with breast cancer.",
+      "evidence": [
+        {
+          "doc_id": 13519661,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "We genotyped these six tagSNPs in 1,577 postmenopausal breast cancer cases and 1,513 population controls, but found no convincing association between any common CHEK2 haplotype and breast cancer risk.",
+          "kept": true,
+          "new_index": 7
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13519661,
+          "title": "Linkage Disequilibrium Mapping of       CHEK2: Common Variation and Breast Cancer Risk     ",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Background Checkpoint kinase 2 (CHEK2) averts cancer development by promoting cell cycle arrest and activating DNA repair in genetically damaged cells."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Previous investigation has established a role for the CHEK2 gene in breast cancer aetiology, but studies have largely been limited to the rare 1100delC mutation."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Whether common polymorphisms in this gene influence breast cancer risk remains unknown."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "In this study, we aimed to assess the importance of common CHEK2 variants on population risk for breast cancer by capturing the majority of diversity in the gene using haplotype tagging single nucleotide polymorphisms (tagSNPs)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Methods and Findings We analyzed 14 common SNPs spanning 52 kilobases (kb) of the CHEK2 gene in 92 Swedish women."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Coverage evaluation indicated that these typed SNPs would efficiently convey association signal also from untyped SNPs in the same region."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Six of the 14 SNPs predicted well both the haplotypic and single SNP variations within CHEK2."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "We genotyped these six tagSNPs in 1,577 postmenopausal breast cancer cases and 1,513 population controls, but found no convincing association between any common CHEK2 haplotype and breast cancer risk."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "The 1100delC mutation was rare in our Swedish population—0.7% in cases and 0.4% in controls— with a corresponding odds ratio for carriers versus noncarriers of 2.26 (95% confidence interval, 0.99–5.15)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Estimates of the population frequency and the odds ratio of 1100delC indicate that our sample is representative of a Northern European population."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "CHEK2 is not associated with breast cancer.",
+      "evidence": [
+        {
+          "doc_id": 13519661,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "We genotyped these six tagSNPs in 1,577 postmenopausal breast cancer cases and 1,513 population controls, but found no convincing association between any common CHEK2 haplotype and breast cancer risk.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13519661,
+          "title": "Linkage Disequilibrium Mapping of       CHEK2: Common Variation and Breast Cancer Risk     ",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "Previous investigation has established a role for the CHEK2 gene in breast cancer aetiology, but studies have largely been limited to the rare 1100delC mutation."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Whether common polymorphisms in this gene influence breast cancer risk remains unknown."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "In this study, we aimed to assess the importance of common CHEK2 variants on population risk for breast cancer by capturing the majority of diversity in the gene using haplotype tagging single nucleotide polymorphisms (tagSNPs)."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Methods and Findings We analyzed 14 common SNPs spanning 52 kilobases (kb) of the CHEK2 gene in 92 Swedish women."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Coverage evaluation indicated that these typed SNPs would efficiently convey association signal also from untyped SNPs in the same region."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Six of the 14 SNPs predicted well both the haplotypic and single SNP variations within CHEK2."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "The 1100delC mutation was rare in our Swedish population—0.7% in cases and 0.4% in controls— with a corresponding odds ratio for carriers versus noncarriers of 2.26 (95% confidence interval, 0.99–5.15)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Estimates of the population frequency and the odds ratio of 1100delC indicate that our sample is representative of a Northern European population."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 13519661,
+          "original_index": 0,
+          "sentence": "Background Checkpoint kinase 2 (CHEK2) averts cancer development by promoting cell cycle arrest and activating DNA repair in genetically damaged cells.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 13519661,
+          "original_index": 7,
+          "sentence": "We genotyped these six tagSNPs in 1,577 postmenopausal breast cancer cases and 1,513 population controls, but found no convincing association between any common CHEK2 haplotype and breast cancer risk.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

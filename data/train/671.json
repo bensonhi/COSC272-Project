@@ -1,0 +1,144 @@
+{
+  "id": 671,
+  "origin": "train_more",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Knockout proximal tubule-specific deletion of the BMP receptor Alk3 causes fibrosis.",
+      "evidence": [
+        {
+          "doc_id": 5573975,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "We also found that its deletion in the tubular epithelium leads to enhanced TGF-β1-Smad family member 3 (Smad3) signaling, epithelial damage and fibrosis, suggesting a protective role for Alk3-mediated signaling in the kidney.",
+          "kept": true,
+          "new_index": 2
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 5573975,
+          "title": "Activin–like kinase–3 activity is important for kidney regeneration and reversal of fibrosis",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Molecules associated with the transforming growth factor β (TGF-β) superfamily, such as bone morphogenic proteins (BMPs) and TGF-β, are key regulators of inflammation, apoptosis and cellular transitions."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here we show that the BMP receptor activin-like kinase 3 (Alk3) is elevated early in diseased kidneys after injury."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We also found that its deletion in the tubular epithelium leads to enhanced TGF-β1-Smad family member 3 (Smad3) signaling, epithelial damage and fibrosis, suggesting a protective role for Alk3-mediated signaling in the kidney."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "A structure-function analysis of the BMP-Alk3-BMP receptor, type 2 (BMPR2) ligand-receptor complex, along with synthetic organic chemistry, led us to construct a library of small peptide agonists of BMP signaling that function through the Alk3 receptor."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "One such peptide agonist, THR-123, suppressed inflammation, apoptosis and the epithelial-to-mesenchymal transition program and reversed established fibrosis in five mouse models of acute and chronic renal injury."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "THR-123 acts specifically through Alk3 signaling, as mice with a targeted deletion for Alk3 in their tubular epithelium did not respond to therapy with THR-123."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Combining THR-123 and the angiotensin-converting enzyme inhibitor captopril had an additive therapeutic benefit in controlling renal fibrosis."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Our studies show that BMP signaling agonists constitute a new line of therapeutic agents with potential utility in the clinic to induce regeneration, repair and reverse established fibrosis."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Knockout proximal tubule-specific deletion of the BMP receptor Alk3 causes fibrosis.",
+      "evidence": [
+        {
+          "doc_id": 5573975,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "We also found that its deletion in the tubular epithelium leads to enhanced TGF-β1-Smad family member 3 (Smad3) signaling, epithelial damage and fibrosis, suggesting a protective role for Alk3-mediated signaling in the kidney.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 5573975,
+          "title": "Activin–like kinase–3 activity is important for kidney regeneration and reversal of fibrosis",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Molecules associated with the transforming growth factor β (TGF-β) superfamily, such as bone morphogenic proteins (BMPs) and TGF-β, are key regulators of inflammation, apoptosis and cellular transitions."
+            },
+            {
+              "new_index": 1,
+              "original_index": 3,
+              "sentence": "A structure-function analysis of the BMP-Alk3-BMP receptor, type 2 (BMPR2) ligand-receptor complex, along with synthetic organic chemistry, led us to construct a library of small peptide agonists of BMP signaling that function through the Alk3 receptor."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "One such peptide agonist, THR-123, suppressed inflammation, apoptosis and the epithelial-to-mesenchymal transition program and reversed established fibrosis in five mouse models of acute and chronic renal injury."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "THR-123 acts specifically through Alk3 signaling, as mice with a targeted deletion for Alk3 in their tubular epithelium did not respond to therapy with THR-123."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Combining THR-123 and the angiotensin-converting enzyme inhibitor captopril had an additive therapeutic benefit in controlling renal fibrosis."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Our studies show that BMP signaling agonists constitute a new line of therapeutic agents with potential utility in the clinic to induce regeneration, repair and reverse established fibrosis."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 5573975,
+          "original_index": 1,
+          "sentence": "Here we show that the BMP receptor activin-like kinase 3 (Alk3) is elevated early in diseased kidneys after injury.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 5573975,
+          "original_index": 2,
+          "sentence": "We also found that its deletion in the tubular epithelium leads to enhanced TGF-β1-Smad family member 3 (Smad3) signaling, epithelial damage and fibrosis, suggesting a protective role for Alk3-mediated signaling in the kidney.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,683 @@
+{
+  "id": 515,
+  "origin": "train_more",
+  "n_groups": 5,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "High levels of CRP lead to a higher risk of exacerbations in chronic obstructive pulmonary disease (COPD).",
+      "evidence": [
+        {
+          "doc_id": 29564505,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "In the first year of follow-up, multivariable-adjusted odds ratios for having frequent exacerbations were 1.2 (95% CI, 0.7-2.2; 17 events/1000 person-years) for individuals with 1 high biomarker, 1.7 (95% CI, 0.9-3.2; 32 events/1000 person-years) for individuals with 2 high biomarkers, and 3.7 (95% CI, 1.9-7.4; 81 events/1000 person-years) for individuals with 3 high biomarkers compared with individuals who had no elevated biomarkers (9 events/1000 person-years; trend: P = 2 × 10(-5)).",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 29564505,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 9,
+          "sentence": "Corresponding hazard ratios using maximum follow-up time were 1.4 (95% CI, 1.1-1.8), 1.6 (95% CI, 1.3-2.2), and 2.5 (95% CI, 1.8-3.4), respectively (trend: P = 1 × 10(-8)).",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 29564505,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 12,
+          "sentence": "The highest 5-year absolute risks of having frequent exacerbations in those with 3 high biomarkers (vs no high biomarkers) were 62% (vs 24%) for those with Global Initiative for Chronic Obstructive Lung Disease (GOLD) grades C-D (n = 558), 98% (vs 64%) in those with a history of frequent exacerbations (n = 127), and 52% (vs 15%) for those with GOLD grades 3-4 (n = 465).   \n",
+          "kept": true,
+          "new_index": 12
+        },
+        {
+          "doc_id": 29564505,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 13,
+          "sentence": "CONCLUSIONS AND RELEVANCE Simultaneously elevated levels of CRP and fibrinogen and leukocyte count in individuals with COPD were associated with increased risk of having exacerbations, even in those with milder COPD and in those without previous exacerbations.",
+          "kept": true,
+          "new_index": 13
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 29564505,
+          "title": "Inflammatory biomarkers and exacerbations in chronic obstructive pulmonary disease.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "IMPORTANCE Exacerbations of respiratory symptoms in chronic obstructive pulmonary disease (COPD) have profound and long-lasting adverse effects on patients.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To test the hypothesis that elevated levels of inflammatory biomarkers in individuals with stable COPD are associated with an increased risk of having exacerbations.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Prospective cohort study examining 61,650 participants with spirometry measurements from the Copenhagen City Heart Study (2001-2003) and the Copenhagen General Population Study (2003-2008)."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Of these, 6574 had COPD, defined as a ratio between forced expiratory volume in 1 second (FEV1) and forced vital capacity below 0.7.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOMES AND MEASURES Baseline levels of C-reactive protein (CRP) and fibrinogen and leukocyte count were measured in participants at a time when they were not experiencing symptoms of exacerbations."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Exacerbations were recorded and defined as short-course treatment with oral corticosteroids alone or in combination with an antibiotic or as a hospital admission due to COPD."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Levels of CRP and fibrinogen and leukocyte count were defined as high or low according to cut points of 3 mg/L, 14 μmol/L, and 9 ×10(9)/L, respectively.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "RESULTS During follow-up, 3083 exacerbations were recorded (mean, 0.5/participant)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "In the first year of follow-up, multivariable-adjusted odds ratios for having frequent exacerbations were 1.2 (95% CI, 0.7-2.2; 17 events/1000 person-years) for individuals with 1 high biomarker, 1.7 (95% CI, 0.9-3.2; 32 events/1000 person-years) for individuals with 2 high biomarkers, and 3.7 (95% CI, 1.9-7.4; 81 events/1000 person-years) for individuals with 3 high biomarkers compared with individuals who had no elevated biomarkers (9 events/1000 person-years; trend: P = 2 × 10(-5))."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Corresponding hazard ratios using maximum follow-up time were 1.4 (95% CI, 1.1-1.8), 1.6 (95% CI, 1.3-2.2), and 2.5 (95% CI, 1.8-3.4), respectively (trend: P = 1 × 10(-8))."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "The addition of inflammatory biomarkers to a basic model including age, sex, FEV1 percent predicted, smoking, use of any inhaled medication, body mass index, history of previous exacerbations, and time since most recent prior exacerbation improved the C statistics from 0.71 to 0.73 (comparison: P = 9 × 10(-5))."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Relative risks were consistent in those with milder COPD, in those with no history of frequent exacerbations, and in the 2 studies separately."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "The highest 5-year absolute risks of having frequent exacerbations in those with 3 high biomarkers (vs no high biomarkers) were 62% (vs 24%) for those with Global Initiative for Chronic Obstructive Lung Disease (GOLD) grades C-D (n = 558), 98% (vs 64%) in those with a history of frequent exacerbations (n = 127), and 52% (vs 15%) for those with GOLD grades 3-4 (n = 465).   \n"
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "CONCLUSIONS AND RELEVANCE Simultaneously elevated levels of CRP and fibrinogen and leukocyte count in individuals with COPD were associated with increased risk of having exacerbations, even in those with milder COPD and in those without previous exacerbations."
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "Further investigation is needed to determine the clinical value of these biomarkers for risk stratification."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g2"
+      ],
+      "claim": "High levels of CRP lead to a higher risk of exacerbations in chronic obstructive pulmonary disease (COPD).",
+      "evidence": [
+        {
+          "doc_id": 29564505,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "In the first year of follow-up, multivariable-adjusted odds ratios for having frequent exacerbations were 1.2 (95% CI, 0.7-2.2; 17 events/1000 person-years) for individuals with 1 high biomarker, 1.7 (95% CI, 0.9-3.2; 32 events/1000 person-years) for individuals with 2 high biomarkers, and 3.7 (95% CI, 1.9-7.4; 81 events/1000 person-years) for individuals with 3 high biomarkers compared with individuals who had no elevated biomarkers (9 events/1000 person-years; trend: P = 2 × 10(-5)).",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 29564505,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 9,
+          "sentence": "Corresponding hazard ratios using maximum follow-up time were 1.4 (95% CI, 1.1-1.8), 1.6 (95% CI, 1.3-2.2), and 2.5 (95% CI, 1.8-3.4), respectively (trend: P = 1 × 10(-8)).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 29564505,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 12,
+          "sentence": "The highest 5-year absolute risks of having frequent exacerbations in those with 3 high biomarkers (vs no high biomarkers) were 62% (vs 24%) for those with Global Initiative for Chronic Obstructive Lung Disease (GOLD) grades C-D (n = 558), 98% (vs 64%) in those with a history of frequent exacerbations (n = 127), and 52% (vs 15%) for those with GOLD grades 3-4 (n = 465).   \n",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 29564505,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 13,
+          "sentence": "CONCLUSIONS AND RELEVANCE Simultaneously elevated levels of CRP and fibrinogen and leukocyte count in individuals with COPD were associated with increased risk of having exacerbations, even in those with milder COPD and in those without previous exacerbations.",
+          "kept": true,
+          "new_index": 10
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 29564505,
+          "title": "Inflammatory biomarkers and exacerbations in chronic obstructive pulmonary disease.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "IMPORTANCE Exacerbations of respiratory symptoms in chronic obstructive pulmonary disease (COPD) have profound and long-lasting adverse effects on patients.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To test the hypothesis that elevated levels of inflammatory biomarkers in individuals with stable COPD are associated with an increased risk of having exacerbations.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Prospective cohort study examining 61,650 participants with spirometry measurements from the Copenhagen City Heart Study (2001-2003) and the Copenhagen General Population Study (2003-2008)."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Of these, 6574 had COPD, defined as a ratio between forced expiratory volume in 1 second (FEV1) and forced vital capacity below 0.7.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Exacerbations were recorded and defined as short-course treatment with oral corticosteroids alone or in combination with an antibiotic or as a hospital admission due to COPD."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "RESULTS During follow-up, 3083 exacerbations were recorded (mean, 0.5/participant)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "In the first year of follow-up, multivariable-adjusted odds ratios for having frequent exacerbations were 1.2 (95% CI, 0.7-2.2; 17 events/1000 person-years) for individuals with 1 high biomarker, 1.7 (95% CI, 0.9-3.2; 32 events/1000 person-years) for individuals with 2 high biomarkers, and 3.7 (95% CI, 1.9-7.4; 81 events/1000 person-years) for individuals with 3 high biomarkers compared with individuals who had no elevated biomarkers (9 events/1000 person-years; trend: P = 2 × 10(-5))."
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "The addition of inflammatory biomarkers to a basic model including age, sex, FEV1 percent predicted, smoking, use of any inhaled medication, body mass index, history of previous exacerbations, and time since most recent prior exacerbation improved the C statistics from 0.71 to 0.73 (comparison: P = 9 × 10(-5))."
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "Relative risks were consistent in those with milder COPD, in those with no history of frequent exacerbations, and in the 2 studies separately."
+            },
+            {
+              "new_index": 9,
+              "original_index": 12,
+              "sentence": "The highest 5-year absolute risks of having frequent exacerbations in those with 3 high biomarkers (vs no high biomarkers) were 62% (vs 24%) for those with Global Initiative for Chronic Obstructive Lung Disease (GOLD) grades C-D (n = 558), 98% (vs 64%) in those with a history of frequent exacerbations (n = 127), and 52% (vs 15%) for those with GOLD grades 3-4 (n = 465).   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 13,
+              "sentence": "CONCLUSIONS AND RELEVANCE Simultaneously elevated levels of CRP and fibrinogen and leukocyte count in individuals with COPD were associated with increased risk of having exacerbations, even in those with milder COPD and in those without previous exacerbations."
+            },
+            {
+              "new_index": 11,
+              "original_index": 14,
+              "sentence": "Further investigation is needed to determine the clinical value of these biomarkers for risk stratification."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 29564505,
+          "original_index": 4,
+          "sentence": "MAIN OUTCOMES AND MEASURES Baseline levels of C-reactive protein (CRP) and fibrinogen and leukocyte count were measured in participants at a time when they were not experiencing symptoms of exacerbations.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 29564505,
+          "original_index": 6,
+          "sentence": "Levels of CRP and fibrinogen and leukocyte count were defined as high or low according to cut points of 3 mg/L, 14 μmol/L, and 9 ×10(9)/L, respectively.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 29564505,
+          "original_index": 9,
+          "sentence": "Corresponding hazard ratios using maximum follow-up time were 1.4 (95% CI, 1.1-1.8), 1.6 (95% CI, 1.3-2.2), and 2.5 (95% CI, 1.8-3.4), respectively (trend: P = 1 × 10(-8)).",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g1",
+        "g0"
+      ],
+      "claim": "High levels of CRP lead to a higher risk of exacerbations in chronic obstructive pulmonary disease (COPD).",
+      "evidence": [
+        {
+          "doc_id": 29564505,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "In the first year of follow-up, multivariable-adjusted odds ratios for having frequent exacerbations were 1.2 (95% CI, 0.7-2.2; 17 events/1000 person-years) for individuals with 1 high biomarker, 1.7 (95% CI, 0.9-3.2; 32 events/1000 person-years) for individuals with 2 high biomarkers, and 3.7 (95% CI, 1.9-7.4; 81 events/1000 person-years) for individuals with 3 high biomarkers compared with individuals who had no elevated biomarkers (9 events/1000 person-years; trend: P = 2 × 10(-5)).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 29564505,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 9,
+          "sentence": "Corresponding hazard ratios using maximum follow-up time were 1.4 (95% CI, 1.1-1.8), 1.6 (95% CI, 1.3-2.2), and 2.5 (95% CI, 1.8-3.4), respectively (trend: P = 1 × 10(-8)).",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 29564505,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 12,
+          "sentence": "The highest 5-year absolute risks of having frequent exacerbations in those with 3 high biomarkers (vs no high biomarkers) were 62% (vs 24%) for those with Global Initiative for Chronic Obstructive Lung Disease (GOLD) grades C-D (n = 558), 98% (vs 64%) in those with a history of frequent exacerbations (n = 127), and 52% (vs 15%) for those with GOLD grades 3-4 (n = 465).   \n",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 29564505,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 13,
+          "sentence": "CONCLUSIONS AND RELEVANCE Simultaneously elevated levels of CRP and fibrinogen and leukocyte count in individuals with COPD were associated with increased risk of having exacerbations, even in those with milder COPD and in those without previous exacerbations.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 29564505,
+          "title": "Inflammatory biomarkers and exacerbations in chronic obstructive pulmonary disease.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To test the hypothesis that elevated levels of inflammatory biomarkers in individuals with stable COPD are associated with an increased risk of having exacerbations.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Prospective cohort study examining 61,650 participants with spirometry measurements from the Copenhagen City Heart Study (2001-2003) and the Copenhagen General Population Study (2003-2008)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Of these, 6574 had COPD, defined as a ratio between forced expiratory volume in 1 second (FEV1) and forced vital capacity below 0.7.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOMES AND MEASURES Baseline levels of C-reactive protein (CRP) and fibrinogen and leukocyte count were measured in participants at a time when they were not experiencing symptoms of exacerbations."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Exacerbations were recorded and defined as short-course treatment with oral corticosteroids alone or in combination with an antibiotic or as a hospital admission due to COPD."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Levels of CRP and fibrinogen and leukocyte count were defined as high or low according to cut points of 3 mg/L, 14 μmol/L, and 9 ×10(9)/L, respectively.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 9,
+              "sentence": "Corresponding hazard ratios using maximum follow-up time were 1.4 (95% CI, 1.1-1.8), 1.6 (95% CI, 1.3-2.2), and 2.5 (95% CI, 1.8-3.4), respectively (trend: P = 1 × 10(-8))."
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "The addition of inflammatory biomarkers to a basic model including age, sex, FEV1 percent predicted, smoking, use of any inhaled medication, body mass index, history of previous exacerbations, and time since most recent prior exacerbation improved the C statistics from 0.71 to 0.73 (comparison: P = 9 × 10(-5))."
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "Relative risks were consistent in those with milder COPD, in those with no history of frequent exacerbations, and in the 2 studies separately."
+            },
+            {
+              "new_index": 9,
+              "original_index": 12,
+              "sentence": "The highest 5-year absolute risks of having frequent exacerbations in those with 3 high biomarkers (vs no high biomarkers) were 62% (vs 24%) for those with Global Initiative for Chronic Obstructive Lung Disease (GOLD) grades C-D (n = 558), 98% (vs 64%) in those with a history of frequent exacerbations (n = 127), and 52% (vs 15%) for those with GOLD grades 3-4 (n = 465).   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 14,
+              "sentence": "Further investigation is needed to determine the clinical value of these biomarkers for risk stratification."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 29564505,
+          "original_index": 0,
+          "sentence": "IMPORTANCE Exacerbations of respiratory symptoms in chronic obstructive pulmonary disease (COPD) have profound and long-lasting adverse effects on patients.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 29564505,
+          "original_index": 7,
+          "sentence": "RESULTS During follow-up, 3083 exacerbations were recorded (mean, 0.5/participant).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 29564505,
+          "original_index": 8,
+          "sentence": "In the first year of follow-up, multivariable-adjusted odds ratios for having frequent exacerbations were 1.2 (95% CI, 0.7-2.2; 17 events/1000 person-years) for individuals with 1 high biomarker, 1.7 (95% CI, 0.9-3.2; 32 events/1000 person-years) for individuals with 2 high biomarkers, and 3.7 (95% CI, 1.9-7.4; 81 events/1000 person-years) for individuals with 3 high biomarkers compared with individuals who had no elevated biomarkers (9 events/1000 person-years; trend: P = 2 × 10(-5)).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 29564505,
+          "original_index": 13,
+          "sentence": "CONCLUSIONS AND RELEVANCE Simultaneously elevated levels of CRP and fibrinogen and leukocyte count in individuals with COPD were associated with increased risk of having exacerbations, even in those with milder COPD and in those without previous exacerbations.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_3_groups",
+      "dropped_group_ids": [
+        "g3",
+        "g2",
+        "g0"
+      ],
+      "claim": "High levels of CRP lead to a higher risk of exacerbations in chronic obstructive pulmonary disease (COPD).",
+      "evidence": [
+        {
+          "doc_id": 29564505,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "In the first year of follow-up, multivariable-adjusted odds ratios for having frequent exacerbations were 1.2 (95% CI, 0.7-2.2; 17 events/1000 person-years) for individuals with 1 high biomarker, 1.7 (95% CI, 0.9-3.2; 32 events/1000 person-years) for individuals with 2 high biomarkers, and 3.7 (95% CI, 1.9-7.4; 81 events/1000 person-years) for individuals with 3 high biomarkers compared with individuals who had no elevated biomarkers (9 events/1000 person-years; trend: P = 2 × 10(-5)).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 29564505,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 9,
+          "sentence": "Corresponding hazard ratios using maximum follow-up time were 1.4 (95% CI, 1.1-1.8), 1.6 (95% CI, 1.3-2.2), and 2.5 (95% CI, 1.8-3.4), respectively (trend: P = 1 × 10(-8)).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 29564505,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 12,
+          "sentence": "The highest 5-year absolute risks of having frequent exacerbations in those with 3 high biomarkers (vs no high biomarkers) were 62% (vs 24%) for those with Global Initiative for Chronic Obstructive Lung Disease (GOLD) grades C-D (n = 558), 98% (vs 64%) in those with a history of frequent exacerbations (n = 127), and 52% (vs 15%) for those with GOLD grades 3-4 (n = 465).   \n",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 29564505,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 13,
+          "sentence": "CONCLUSIONS AND RELEVANCE Simultaneously elevated levels of CRP and fibrinogen and leukocyte count in individuals with COPD were associated with increased risk of having exacerbations, even in those with milder COPD and in those without previous exacerbations.",
+          "kept": true,
+          "new_index": 8
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 29564505,
+          "title": "Inflammatory biomarkers and exacerbations in chronic obstructive pulmonary disease.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "IMPORTANCE Exacerbations of respiratory symptoms in chronic obstructive pulmonary disease (COPD) have profound and long-lasting adverse effects on patients.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To test the hypothesis that elevated levels of inflammatory biomarkers in individuals with stable COPD are associated with an increased risk of having exacerbations.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Prospective cohort study examining 61,650 participants with spirometry measurements from the Copenhagen City Heart Study (2001-2003) and the Copenhagen General Population Study (2003-2008)."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Exacerbations were recorded and defined as short-course treatment with oral corticosteroids alone or in combination with an antibiotic or as a hospital admission due to COPD."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Levels of CRP and fibrinogen and leukocyte count were defined as high or low according to cut points of 3 mg/L, 14 μmol/L, and 9 ×10(9)/L, respectively.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "RESULTS During follow-up, 3083 exacerbations were recorded (mean, 0.5/participant)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 10,
+              "sentence": "The addition of inflammatory biomarkers to a basic model including age, sex, FEV1 percent predicted, smoking, use of any inhaled medication, body mass index, history of previous exacerbations, and time since most recent prior exacerbation improved the C statistics from 0.71 to 0.73 (comparison: P = 9 × 10(-5))."
+            },
+            {
+              "new_index": 7,
+              "original_index": 11,
+              "sentence": "Relative risks were consistent in those with milder COPD, in those with no history of frequent exacerbations, and in the 2 studies separately."
+            },
+            {
+              "new_index": 8,
+              "original_index": 13,
+              "sentence": "CONCLUSIONS AND RELEVANCE Simultaneously elevated levels of CRP and fibrinogen and leukocyte count in individuals with COPD were associated with increased risk of having exacerbations, even in those with milder COPD and in those without previous exacerbations."
+            },
+            {
+              "new_index": 9,
+              "original_index": 14,
+              "sentence": "Further investigation is needed to determine the clinical value of these biomarkers for risk stratification."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 29564505,
+          "original_index": 3,
+          "sentence": "Of these, 6574 had COPD, defined as a ratio between forced expiratory volume in 1 second (FEV1) and forced vital capacity below 0.7.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 29564505,
+          "original_index": 4,
+          "sentence": "MAIN OUTCOMES AND MEASURES Baseline levels of C-reactive protein (CRP) and fibrinogen and leukocyte count were measured in participants at a time when they were not experiencing symptoms of exacerbations.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 29564505,
+          "original_index": 8,
+          "sentence": "In the first year of follow-up, multivariable-adjusted odds ratios for having frequent exacerbations were 1.2 (95% CI, 0.7-2.2; 17 events/1000 person-years) for individuals with 1 high biomarker, 1.7 (95% CI, 0.9-3.2; 32 events/1000 person-years) for individuals with 2 high biomarkers, and 3.7 (95% CI, 1.9-7.4; 81 events/1000 person-years) for individuals with 3 high biomarkers compared with individuals who had no elevated biomarkers (9 events/1000 person-years; trend: P = 2 × 10(-5)).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 29564505,
+          "original_index": 9,
+          "sentence": "Corresponding hazard ratios using maximum follow-up time were 1.4 (95% CI, 1.1-1.8), 1.6 (95% CI, 1.3-2.2), and 2.5 (95% CI, 1.8-3.4), respectively (trend: P = 1 × 10(-8)).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 29564505,
+          "original_index": 12,
+          "sentence": "The highest 5-year absolute risks of having frequent exacerbations in those with 3 high biomarkers (vs no high biomarkers) were 62% (vs 24%) for those with Global Initiative for Chronic Obstructive Lung Disease (GOLD) grades C-D (n = 558), 98% (vs 64%) in those with a history of frequent exacerbations (n = 127), and 52% (vs 15%) for those with GOLD grades 3-4 (n = 465).   \n",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2",
+        "g3"
+      ],
+      "claim": "High levels of CRP lead to a higher risk of exacerbations in chronic obstructive pulmonary disease (COPD).",
+      "evidence": [
+        {
+          "doc_id": 29564505,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "In the first year of follow-up, multivariable-adjusted odds ratios for having frequent exacerbations were 1.2 (95% CI, 0.7-2.2; 17 events/1000 person-years) for individuals with 1 high biomarker, 1.7 (95% CI, 0.9-3.2; 32 events/1000 person-years) for individuals with 2 high biomarkers, and 3.7 (95% CI, 1.9-7.4; 81 events/1000 person-years) for individuals with 3 high biomarkers compared with individuals who had no elevated biomarkers (9 events/1000 person-years; trend: P = 2 × 10(-5)).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 29564505,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 9,
+          "sentence": "Corresponding hazard ratios using maximum follow-up time were 1.4 (95% CI, 1.1-1.8), 1.6 (95% CI, 1.3-2.2), and 2.5 (95% CI, 1.8-3.4), respectively (trend: P = 1 × 10(-8)).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 29564505,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 12,
+          "sentence": "The highest 5-year absolute risks of having frequent exacerbations in those with 3 high biomarkers (vs no high biomarkers) were 62% (vs 24%) for those with Global Initiative for Chronic Obstructive Lung Disease (GOLD) grades C-D (n = 558), 98% (vs 64%) in those with a history of frequent exacerbations (n = 127), and 52% (vs 15%) for those with GOLD grades 3-4 (n = 465).   \n",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 29564505,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 13,
+          "sentence": "CONCLUSIONS AND RELEVANCE Simultaneously elevated levels of CRP and fibrinogen and leukocyte count in individuals with COPD were associated with increased risk of having exacerbations, even in those with milder COPD and in those without previous exacerbations.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 29564505,
+          "title": "Inflammatory biomarkers and exacerbations in chronic obstructive pulmonary disease.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "IMPORTANCE Exacerbations of respiratory symptoms in chronic obstructive pulmonary disease (COPD) have profound and long-lasting adverse effects on patients.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Prospective cohort study examining 61,650 participants with spirometry measurements from the Copenhagen City Heart Study (2001-2003) and the Copenhagen General Population Study (2003-2008)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Of these, 6574 had COPD, defined as a ratio between forced expiratory volume in 1 second (FEV1) and forced vital capacity below 0.7.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOMES AND MEASURES Baseline levels of C-reactive protein (CRP) and fibrinogen and leukocyte count were measured in participants at a time when they were not experiencing symptoms of exacerbations."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Exacerbations were recorded and defined as short-course treatment with oral corticosteroids alone or in combination with an antibiotic or as a hospital admission due to COPD."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Levels of CRP and fibrinogen and leukocyte count were defined as high or low according to cut points of 3 mg/L, 14 μmol/L, and 9 ×10(9)/L, respectively.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "RESULTS During follow-up, 3083 exacerbations were recorded (mean, 0.5/participant)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 11,
+              "sentence": "Relative risks were consistent in those with milder COPD, in those with no history of frequent exacerbations, and in the 2 studies separately."
+            },
+            {
+              "new_index": 8,
+              "original_index": 14,
+              "sentence": "Further investigation is needed to determine the clinical value of these biomarkers for risk stratification."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 29564505,
+          "original_index": 1,
+          "sentence": "OBJECTIVE To test the hypothesis that elevated levels of inflammatory biomarkers in individuals with stable COPD are associated with an increased risk of having exacerbations.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 29564505,
+          "original_index": 8,
+          "sentence": "In the first year of follow-up, multivariable-adjusted odds ratios for having frequent exacerbations were 1.2 (95% CI, 0.7-2.2; 17 events/1000 person-years) for individuals with 1 high biomarker, 1.7 (95% CI, 0.9-3.2; 32 events/1000 person-years) for individuals with 2 high biomarkers, and 3.7 (95% CI, 1.9-7.4; 81 events/1000 person-years) for individuals with 3 high biomarkers compared with individuals who had no elevated biomarkers (9 events/1000 person-years; trend: P = 2 × 10(-5)).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 29564505,
+          "original_index": 9,
+          "sentence": "Corresponding hazard ratios using maximum follow-up time were 1.4 (95% CI, 1.1-1.8), 1.6 (95% CI, 1.3-2.2), and 2.5 (95% CI, 1.8-3.4), respectively (trend: P = 1 × 10(-8)).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 29564505,
+          "original_index": 10,
+          "sentence": "The addition of inflammatory biomarkers to a basic model including age, sex, FEV1 percent predicted, smoking, use of any inhaled medication, body mass index, history of previous exacerbations, and time since most recent prior exacerbation improved the C statistics from 0.71 to 0.73 (comparison: P = 9 × 10(-5)).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 29564505,
+          "original_index": 12,
+          "sentence": "The highest 5-year absolute risks of having frequent exacerbations in those with 3 high biomarkers (vs no high biomarkers) were 62% (vs 24%) for those with Global Initiative for Chronic Obstructive Lung Disease (GOLD) grades C-D (n = 558), 98% (vs 64%) in those with a history of frequent exacerbations (n = 127), and 52% (vs 15%) for those with GOLD grades 3-4 (n = 465).   \n",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 29564505,
+          "original_index": 13,
+          "sentence": "CONCLUSIONS AND RELEVANCE Simultaneously elevated levels of CRP and fibrinogen and leukocyte count in individuals with COPD were associated with increased risk of having exacerbations, even in those with milder COPD and in those without previous exacerbations.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

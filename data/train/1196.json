@@ -1,0 +1,73 @@
+{
+  "id": 1196,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The availability of safe places to study is effective at decreasing homelessness.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 25649714,
+          "title": "Mental health problems of homeless children and families: longitudinal study.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To establish the mental health needs of homeless children and families before and after rehousing.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Cross sectional, longitudinal study.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "SETTING City of Birmingham.   "
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "SUBJECTS 58 rehoused families with 103 children aged 2-16 years and 21 comparison families of low socioeconomic status in stable housing, with 54 children.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURES Children's mental health problems and level of communication; mothers' mental health problems and social support one year after rehousing.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "RESULTS Mental health problems remained significantly higher in rehoused mothers and their children than in the comparison group (mothers 26% v 5%, P = 0.04; children 39% v 11%, P = 0.0003)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Homeless mothers continued to have significantly less social support at follow up."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Mothers with a history of abuse and poor social integration were more likely to have children with persistent mental health problems.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "CONCLUSIONS Homeless families have a high level of complex needs that cannot be met by conventional health services and arrangements."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Local strategies for rapid rehousing into permanent accommodation, effective social support and health care for parents and children, and protection from violence and intimidation should be developed and implemented."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

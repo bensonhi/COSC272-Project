@@ -1,0 +1,73 @@
+{
+  "id": 616,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Increased mobility of retrotransposons does not lead to mutation and higher tumorigenesis rates.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 18670,
+          "title": "The DNA Methylome of Human Peripheral Blood Mononuclear Cells",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "DNA methylation plays an important role in biological processes in human health and disease."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Recent technological advances allow unbiased whole-genome DNA methylation (methylome) analysis to be carried out on human cells."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Using whole-genome bisulfite sequencing at 24.7-fold coverage (12.3-fold per strand), we report a comprehensive (92.62%) methylome and analysis of the unique sequences in human peripheral blood mononuclear cells (PBMC) from the same Asian individual whose genome was deciphered in the YH project."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "PBMC constitute an important source for clinical blood tests world-wide."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We found that 68.4% of CpG sites and <0.2% of non-CpG sites were methylated, demonstrating that non-CpG cytosine methylation is minor in human PBMC."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Analysis of the PBMC methylome revealed a rich epigenomic landscape for 20 distinct genomic features, including regulatory, protein-coding, non-coding, RNA-coding, and repeat sequences."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Integration of our methylome data with the YH genome sequence enabled a first comprehensive assessment of allele-specific methylation (ASM) between the two haploid methylomes of any individual and allowed the identification of 599 haploid differentially methylated regions (hDMRs) covering 287 genes."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Of these, 76 genes had hDMRs within 2 kb of their transcriptional start sites of which >80% displayed allele-specific expression (ASE)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "These data demonstrate that ASM is a recurrent phenomenon and is highly correlated with ASE in human PBMCs."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Together with recently reported similar studies, our study provides a comprehensive resource for future epigenomic research and confirms new sequencing technology as a paradigm for large-scale epigenomics studies."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

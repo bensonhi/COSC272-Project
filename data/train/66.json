@@ -1,0 +1,103 @@
+{
+  "id": 66,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "AZT given with ribavirin increases anemia.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 14806256,
+          "title": "Hepatotoxicity associated with antiretroviral therapy in adults infected with human immunodeficiency virus and the role of hepatitis C or B virus infection.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Use of antiretroviral drugs, including protease inhibitors, for treatment of human immunodeficiency virus (HIV) infection has been anecdotally associated with hepatotoxicity, particularly in persons coinfected with hepatitis C or B virus.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVES To ascertain if incidence of severe hepatotoxicity during antiretroviral therapy is similar for all antiretroviral drug combinations, and to define the role of chronic viral hepatitis in its development.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN Prospective cohort study.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "SETTING University-based urban HIV clinic.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "PATIENTS A total of 298 patients who were prescribed new antiretroviral therapies between January 1996 and January 1998, 211 (71%) of whom received protease inhibitors as part of combination therapy (median follow-up, 182 days) and 87 (29%) of whom received dual nucleoside analog regimens (median follow-up, 167 days)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Chronic hepatitis C and B virus infection was present in 154 (52%) and 8 (2.7%) patients, respectively.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "MAIN OUTCOME MEASURE Severe hepatotoxicity, defined as a grade 3 or 4 change in levels of serum alanine aminotransferase and aspartate aminotransferase, evaluated before and during therapy.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "RESULTS Severe hepatotoxicity was observed in 31 (10.4%) of 298 patients (95% confidence interval [CI], 7.2%-14.4%)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Ritonavir use was associated with a higher incidence of toxicity (30%; 95% CI, 17.9% -44.6%)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "However, no significant difference was detected in hepatotoxicity incidence in other treatment groups, ie, nucleoside analogs (5.7%; 95% CI, 1.2%-12.9%), nelfinavir (5.9%; 95% CI, 1.2%-16.2%), saquinavir (5.9%; 95% CI, 0.15%-28.7%), and indinavir(6.8%; 95% CI, 3.0%-13.1 %)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Although chronicviral hepatitis was associated with an increased risk of severe hepatotoxicity among patients prescribed nonritonavir regimens (relative risk, 3.7; 95% CI, 1.0-11.8), most patients with chronic hepatitis C or B virus infection (88%) did not experience significant toxic effects."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Rate of severe toxicity with use of any protease inhibitor in patients with hepatitis C infection was 12.2% (13/107; 95% CI, 6.6%-19.9%)."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "In multivariate logistic regression, only ritonavir (adjusted odds ratio [AOR], 8.6; 95% CI, 3.0-24.6) and a CD4 cell count increase of more than 0.05 x 10(9)/L (AOR, 3.6; 95% CI, 1.0-12.9) were associated with severe hepatotoxicity."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "No irreversible outcomes were seen in patients with severe hepatotoxicity.   \n"
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "CONCLUSIONS Our data indicate that use of ritonavir may increase risk of severe hepatotoxicity."
+            },
+            {
+              "new_index": 15,
+              "original_index": 15,
+              "sentence": "Although hepatotoxicity may be more common in persons with chronic viral hepatitis, these data do not support withholding protease inhibitor therapy from persons coinfected with hepatitis B or C virus."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

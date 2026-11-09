@@ -1,0 +1,69 @@
+{
+  "id": 969,
+  "origin": "train_more",
+  "claim": "PrimPol degrades short DNA replication intermediates on the leading strand during DNA replication.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 19356271,
+      "title": "hPrimpol1/CCDC111 is a human DNA primase-polymerase required for the maintenance of genome integrity.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Prim-pol is a recently identified DNA primase-polymerase belonging to the archaeao-eukaryotic primase (AEP) superfamily."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Here, we characterize a previously unrecognized prim-pol in human cells, which we designate hPrimpol1 (human primase-polymerase 1)."
+        },
+        {
+          "original_index": 2,
+          "sentence": "hPrimpol1 possesses primase and DNA polymerase activities in vitro, interacts directly with RPA1 and is recruited to sites of DNA damage and stalled replication forks in an RPA1-dependent manner."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Cells depleted of hPrimpol1 display increased spontaneous DNA damage and defects in the restart of stalled replication forks."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Both RPA1 binding and the primase activity of hPrimpol1 are required for its cellular function during DNA replication."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Our results indicate that hPrimpol1 is a novel factor involved in the response to DNA replication stress."
+        }
+      ]
+    },
+    {
+      "doc_id": 17368516,
+      "title": "PrimPol, an Archaic Primase/Polymerase Operating in Human Cells",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "We describe a second primase in human cells, PrimPol, which has the ability to start DNA chains with deoxynucleotides unlike regular primases, which use exclusively ribonucleotides."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Moreover, PrimPol is also a DNA polymerase tailored to bypass the most common oxidative lesions in DNA, such as abasic sites and 8-oxoguanine."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Subcellular fractionation and immunodetection studies indicated that PrimPol is present in both nuclear and mitochondrial DNA compartments."
+        },
+        {
+          "original_index": 3,
+          "sentence": "PrimPol activity is detectable in mitochondrial lysates from human and mouse cells but is absent from mitochondria derived from PRIMPOL knockout mice."
+        },
+        {
+          "original_index": 4,
+          "sentence": "PRIMPOL gene silencing or ablation in human and mouse cells impaired mitochondrial DNA replication."
+        },
+        {
+          "original_index": 5,
+          "sentence": "On the basis of the synergy observed with replicative DNA polymerases Polγ and Polε, PrimPol is proposed to facilitate replication fork progression by acting as a translesion DNA polymerase or as a specific DNA primase reinitiating downstream of lesions that block synthesis during both mitochondrial and nuclear DNA replication."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

@@ -1,0 +1,53 @@
+{
+  "id": 364,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "EGR2 is important to myelination of the peripheral nervous system.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 1550937,
+          "title": "The Transcription Factors Egr2 and Egr3 Are Essential for the Control of Inflammation and Antigen-Induced Proliferation of B and T Cells",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Lymphocytes provide optimal responses against pathogens with minimal inflammatory pathology."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "However, the intrinsic mechanisms regulating these responses are unknown."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here, we report that deletion of both transcription factors Egr2 and Egr3 in lymphocytes resulted in a lethal autoimmune syndrome with excessive serum proinflammatory cytokines but also impaired antigen receptor-induced proliferation of B and T cells."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Egr2- and Egr3-defective B and T cells had hyperactive signal transducer and activator of transcription-1 (STAT1) and STAT3 while antigen receptor-induced activation of transcription factor AP-1 was severely impaired."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We discovered that Egr2 and/or Egr3 directly induced expression of suppressor of cytokine signaling-1 (SOCS1) and SOCS3, inhibitors of STAT1 and STAT3, and also blocked the function of Batf, an AP-1 inhibitor, in B and T cells."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Thus, Egr2 and Egr3 regulate B and T cell function in adaptive immune responses and homeostasis by promoting antigen receptor signaling and controlling inflammation."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

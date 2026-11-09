@@ -1,0 +1,547 @@
+{
+  "id": 453,
+  "origin": "train_more",
+  "n_groups": 4,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "General exercise therapy is more effective than rotator cuff exercises in reducing pain and improving function of the shoulder.",
+      "evidence": [
+        {
+          "doc_id": 4200695,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 11,
+          "sentence": "There was a significantly greater improvement in the Constant-Murley score in the specific exercise group than in the control exercise group (24 points (95% confidence interval 19 to 28.0) v 9 points (5 to 13); mean difference between group: 15 points (8.5 to 20.6)).",
+          "kept": true,
+          "new_index": 11
+        },
+        {
+          "doc_id": 4200695,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 12,
+          "sentence": "Significantly more patients in the specific exercise group reported successful outcome (defined as large improvement or recovered) in the patients' global assessment of change because of treatment: 69% (35/51) v 24% (11/46); odds ratio 7.6, 3.1 to 18.9; P<0.001.",
+          "kept": true,
+          "new_index": 12
+        },
+        {
+          "doc_id": 4200695,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 13,
+          "sentence": "A significantly lower proportion of patients in the specific exercise group subsequently chose to undergo surgery: 20% (10/51) v 63% (29/46); odds ratio 7.7, 3.1 to 19.4; P<0.001).   \n",
+          "kept": true,
+          "new_index": 13
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4200695,
+          "title": "Effect of specific exercise strategy on need for surgery in patients with subacromial impingement syndrome: randomised controlled study",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To evaluate if a specific exercise strategy, targeting the rotator cuff and scapula stabilisers, improves shoulder function and pain more than unspecific exercises in patients with subacromial impingement syndrome, thereby decreasing the need for arthroscopic subacromial decompression.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Randomised, participant and single assessor blinded, controlled study.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "SETTING Department of orthopaedics in a Swedish university hospital.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "PARTICIPANTS 102 patients with long standing (over six months) persistent subacromial impingement syndrome in whom earlier conservative treatment had failed, recruited through orthopaedic specialists.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "INTERVENTIONS The specific exercise strategy consisted of strengthening eccentric exercises for the rotator cuff and concentric/eccentric exercises for the scapula stabilisers in combination with manual mobilisation."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "The control exercise programme consisted of unspecific movement exercises for the neck and shoulder."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Patients in both groups received five to six individual guided treatment sessions during 12 weeks."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "In between these supervised sessions the participants performed home exercises once or twice a day for 12 weeks.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "MAIN OUTCOME MEASURES The primary outcome was the Constant-Murley shoulder assessment score evaluating shoulder function and pain."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Secondary outcomes were patients' global impression of change because of treatment and decision regarding surgery.   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "RESULTS Most (97, 95%) participants completed the 12 week study."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "There was a significantly greater improvement in the Constant-Murley score in the specific exercise group than in the control exercise group (24 points (95% confidence interval 19 to 28.0) v 9 points (5 to 13); mean difference between group: 15 points (8.5 to 20.6))."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "Significantly more patients in the specific exercise group reported successful outcome (defined as large improvement or recovered) in the patients' global assessment of change because of treatment: 69% (35/51) v 24% (11/46); odds ratio 7.6, 3.1 to 18.9; P<0.001."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "A significantly lower proportion of patients in the specific exercise group subsequently chose to undergo surgery: 20% (10/51) v 63% (29/46); odds ratio 7.7, 3.1 to 19.4; P<0.001).   \n"
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "CONCLUSION A specific exercise strategy, focusing on strengthening eccentric exercises for the rotator cuff and concentric/eccentric exercises for the scapula stabilisers, is effective in reducing pain and improving shoulder function in patients with persistent subacromial impingement syndrome."
+            },
+            {
+              "new_index": 15,
+              "original_index": 15,
+              "sentence": "By extension, this exercise strategy reduces the need for arthroscopic subacromial decompression within the three month timeframe used in the study.   \n"
+            },
+            {
+              "new_index": 16,
+              "original_index": 16,
+              "sentence": "TRIAL REGISTRATION Clinical trials NCT01037673."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "General exercise therapy is more effective than rotator cuff exercises in reducing pain and improving function of the shoulder.",
+      "evidence": [
+        {
+          "doc_id": 4200695,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 11,
+          "sentence": "There was a significantly greater improvement in the Constant-Murley score in the specific exercise group than in the control exercise group (24 points (95% confidence interval 19 to 28.0) v 9 points (5 to 13); mean difference between group: 15 points (8.5 to 20.6)).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4200695,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 12,
+          "sentence": "Significantly more patients in the specific exercise group reported successful outcome (defined as large improvement or recovered) in the patients' global assessment of change because of treatment: 69% (35/51) v 24% (11/46); odds ratio 7.6, 3.1 to 18.9; P<0.001.",
+          "kept": true,
+          "new_index": 10
+        },
+        {
+          "doc_id": 4200695,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 13,
+          "sentence": "A significantly lower proportion of patients in the specific exercise group subsequently chose to undergo surgery: 20% (10/51) v 63% (29/46); odds ratio 7.7, 3.1 to 19.4; P<0.001).   \n",
+          "kept": true,
+          "new_index": 11
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4200695,
+          "title": "Effect of specific exercise strategy on need for surgery in patients with subacromial impingement syndrome: randomised controlled study",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To evaluate if a specific exercise strategy, targeting the rotator cuff and scapula stabilisers, improves shoulder function and pain more than unspecific exercises in patients with subacromial impingement syndrome, thereby decreasing the need for arthroscopic subacromial decompression.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Randomised, participant and single assessor blinded, controlled study.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "SETTING Department of orthopaedics in a Swedish university hospital.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "PARTICIPANTS 102 patients with long standing (over six months) persistent subacromial impingement syndrome in whom earlier conservative treatment had failed, recruited through orthopaedic specialists.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "INTERVENTIONS The specific exercise strategy consisted of strengthening eccentric exercises for the rotator cuff and concentric/eccentric exercises for the scapula stabilisers in combination with manual mobilisation."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "The control exercise programme consisted of unspecific movement exercises for the neck and shoulder."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Patients in both groups received five to six individual guided treatment sessions during 12 weeks."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "In between these supervised sessions the participants performed home exercises once or twice a day for 12 weeks.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 9,
+              "sentence": "Secondary outcomes were patients' global impression of change because of treatment and decision regarding surgery.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 10,
+              "sentence": "RESULTS Most (97, 95%) participants completed the 12 week study."
+            },
+            {
+              "new_index": 10,
+              "original_index": 12,
+              "sentence": "Significantly more patients in the specific exercise group reported successful outcome (defined as large improvement or recovered) in the patients' global assessment of change because of treatment: 69% (35/51) v 24% (11/46); odds ratio 7.6, 3.1 to 18.9; P<0.001."
+            },
+            {
+              "new_index": 11,
+              "original_index": 13,
+              "sentence": "A significantly lower proportion of patients in the specific exercise group subsequently chose to undergo surgery: 20% (10/51) v 63% (29/46); odds ratio 7.7, 3.1 to 19.4; P<0.001).   \n"
+            },
+            {
+              "new_index": 12,
+              "original_index": 14,
+              "sentence": "CONCLUSION A specific exercise strategy, focusing on strengthening eccentric exercises for the rotator cuff and concentric/eccentric exercises for the scapula stabilisers, is effective in reducing pain and improving shoulder function in patients with persistent subacromial impingement syndrome."
+            },
+            {
+              "new_index": 13,
+              "original_index": 15,
+              "sentence": "By extension, this exercise strategy reduces the need for arthroscopic subacromial decompression within the three month timeframe used in the study.   \n"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 4200695,
+          "original_index": 8,
+          "sentence": "MAIN OUTCOME MEASURES The primary outcome was the Constant-Murley shoulder assessment score evaluating shoulder function and pain.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4200695,
+          "original_index": 11,
+          "sentence": "There was a significantly greater improvement in the Constant-Murley score in the specific exercise group than in the control exercise group (24 points (95% confidence interval 19 to 28.0) v 9 points (5 to 13); mean difference between group: 15 points (8.5 to 20.6)).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 4200695,
+          "original_index": 16,
+          "sentence": "TRIAL REGISTRATION Clinical trials NCT01037673.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g1",
+        "g2"
+      ],
+      "claim": "General exercise therapy is more effective than rotator cuff exercises in reducing pain and improving function of the shoulder.",
+      "evidence": [
+        {
+          "doc_id": 4200695,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 11,
+          "sentence": "There was a significantly greater improvement in the Constant-Murley score in the specific exercise group than in the control exercise group (24 points (95% confidence interval 19 to 28.0) v 9 points (5 to 13); mean difference between group: 15 points (8.5 to 20.6)).",
+          "kept": true,
+          "new_index": 10
+        },
+        {
+          "doc_id": 4200695,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 12,
+          "sentence": "Significantly more patients in the specific exercise group reported successful outcome (defined as large improvement or recovered) in the patients' global assessment of change because of treatment: 69% (35/51) v 24% (11/46); odds ratio 7.6, 3.1 to 18.9; P<0.001.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4200695,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 13,
+          "sentence": "A significantly lower proportion of patients in the specific exercise group subsequently chose to undergo surgery: 20% (10/51) v 63% (29/46); odds ratio 7.7, 3.1 to 19.4; P<0.001).   \n",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4200695,
+          "title": "Effect of specific exercise strategy on need for surgery in patients with subacromial impingement syndrome: randomised controlled study",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To evaluate if a specific exercise strategy, targeting the rotator cuff and scapula stabilisers, improves shoulder function and pain more than unspecific exercises in patients with subacromial impingement syndrome, thereby decreasing the need for arthroscopic subacromial decompression.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Randomised, participant and single assessor blinded, controlled study.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "SETTING Department of orthopaedics in a Swedish university hospital.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "PARTICIPANTS 102 patients with long standing (over six months) persistent subacromial impingement syndrome in whom earlier conservative treatment had failed, recruited through orthopaedic specialists.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "INTERVENTIONS The specific exercise strategy consisted of strengthening eccentric exercises for the rotator cuff and concentric/eccentric exercises for the scapula stabilisers in combination with manual mobilisation."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "The control exercise programme consisted of unspecific movement exercises for the neck and shoulder."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Patients in both groups received five to six individual guided treatment sessions during 12 weeks."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "In between these supervised sessions the participants performed home exercises once or twice a day for 12 weeks.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 9,
+              "sentence": "Secondary outcomes were patients' global impression of change because of treatment and decision regarding surgery.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 10,
+              "sentence": "RESULTS Most (97, 95%) participants completed the 12 week study."
+            },
+            {
+              "new_index": 10,
+              "original_index": 11,
+              "sentence": "There was a significantly greater improvement in the Constant-Murley score in the specific exercise group than in the control exercise group (24 points (95% confidence interval 19 to 28.0) v 9 points (5 to 13); mean difference between group: 15 points (8.5 to 20.6))."
+            },
+            {
+              "new_index": 11,
+              "original_index": 15,
+              "sentence": "By extension, this exercise strategy reduces the need for arthroscopic subacromial decompression within the three month timeframe used in the study.   \n"
+            },
+            {
+              "new_index": 12,
+              "original_index": 16,
+              "sentence": "TRIAL REGISTRATION Clinical trials NCT01037673."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 4200695,
+          "original_index": 8,
+          "sentence": "MAIN OUTCOME MEASURES The primary outcome was the Constant-Murley shoulder assessment score evaluating shoulder function and pain.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4200695,
+          "original_index": 12,
+          "sentence": "Significantly more patients in the specific exercise group reported successful outcome (defined as large improvement or recovered) in the patients' global assessment of change because of treatment: 69% (35/51) v 24% (11/46); odds ratio 7.6, 3.1 to 18.9; P<0.001.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 4200695,
+          "original_index": 13,
+          "sentence": "A significantly lower proportion of patients in the specific exercise group subsequently chose to undergo surgery: 20% (10/51) v 63% (29/46); odds ratio 7.7, 3.1 to 19.4; P<0.001).   \n",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 4200695,
+          "original_index": 14,
+          "sentence": "CONCLUSION A specific exercise strategy, focusing on strengthening eccentric exercises for the rotator cuff and concentric/eccentric exercises for the scapula stabilisers, is effective in reducing pain and improving shoulder function in patients with persistent subacromial impingement syndrome.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2"
+      ],
+      "claim": "General exercise therapy is more effective than rotator cuff exercises in reducing pain and improving function of the shoulder.",
+      "evidence": [
+        {
+          "doc_id": 4200695,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 11,
+          "sentence": "There was a significantly greater improvement in the Constant-Murley score in the specific exercise group than in the control exercise group (24 points (95% confidence interval 19 to 28.0) v 9 points (5 to 13); mean difference between group: 15 points (8.5 to 20.6)).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4200695,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 12,
+          "sentence": "Significantly more patients in the specific exercise group reported successful outcome (defined as large improvement or recovered) in the patients' global assessment of change because of treatment: 69% (35/51) v 24% (11/46); odds ratio 7.6, 3.1 to 18.9; P<0.001.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4200695,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 13,
+          "sentence": "A significantly lower proportion of patients in the specific exercise group subsequently chose to undergo surgery: 20% (10/51) v 63% (29/46); odds ratio 7.7, 3.1 to 19.4; P<0.001).   \n",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4200695,
+          "title": "Effect of specific exercise strategy on need for surgery in patients with subacromial impingement syndrome: randomised controlled study",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To evaluate if a specific exercise strategy, targeting the rotator cuff and scapula stabilisers, improves shoulder function and pain more than unspecific exercises in patients with subacromial impingement syndrome, thereby decreasing the need for arthroscopic subacromial decompression.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Randomised, participant and single assessor blinded, controlled study.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "SETTING Department of orthopaedics in a Swedish university hospital.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "The control exercise programme consisted of unspecific movement exercises for the neck and shoulder."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Patients in both groups received five to six individual guided treatment sessions during 12 weeks."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "In between these supervised sessions the participants performed home exercises once or twice a day for 12 weeks.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "MAIN OUTCOME MEASURES The primary outcome was the Constant-Murley shoulder assessment score evaluating shoulder function and pain."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Secondary outcomes were patients' global impression of change because of treatment and decision regarding surgery.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "RESULTS Most (97, 95%) participants completed the 12 week study."
+            },
+            {
+              "new_index": 9,
+              "original_index": 14,
+              "sentence": "CONCLUSION A specific exercise strategy, focusing on strengthening eccentric exercises for the rotator cuff and concentric/eccentric exercises for the scapula stabilisers, is effective in reducing pain and improving shoulder function in patients with persistent subacromial impingement syndrome."
+            },
+            {
+              "new_index": 10,
+              "original_index": 15,
+              "sentence": "By extension, this exercise strategy reduces the need for arthroscopic subacromial decompression within the three month timeframe used in the study.   \n"
+            },
+            {
+              "new_index": 11,
+              "original_index": 16,
+              "sentence": "TRIAL REGISTRATION Clinical trials NCT01037673."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 4200695,
+          "original_index": 3,
+          "sentence": "PARTICIPANTS 102 patients with long standing (over six months) persistent subacromial impingement syndrome in whom earlier conservative treatment had failed, recruited through orthopaedic specialists.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4200695,
+          "original_index": 4,
+          "sentence": "INTERVENTIONS The specific exercise strategy consisted of strengthening eccentric exercises for the rotator cuff and concentric/eccentric exercises for the scapula stabilisers in combination with manual mobilisation.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4200695,
+          "original_index": 11,
+          "sentence": "There was a significantly greater improvement in the Constant-Murley score in the specific exercise group than in the control exercise group (24 points (95% confidence interval 19 to 28.0) v 9 points (5 to 13); mean difference between group: 15 points (8.5 to 20.6)).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 4200695,
+          "original_index": 12,
+          "sentence": "Significantly more patients in the specific exercise group reported successful outcome (defined as large improvement or recovered) in the patients' global assessment of change because of treatment: 69% (35/51) v 24% (11/46); odds ratio 7.6, 3.1 to 18.9; P<0.001.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 4200695,
+          "original_index": 13,
+          "sentence": "A significantly lower proportion of patients in the specific exercise group subsequently chose to undergo surgery: 20% (10/51) v 63% (29/46); odds ratio 7.7, 3.1 to 19.4; P<0.001).   \n",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

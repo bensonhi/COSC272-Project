@@ -1,0 +1,58 @@
+{
+  "id": 1209,
+  "origin": "train_more",
+  "claim": "The deamination of cytidine to uridine on the minus strand of viral DNA can inactivate the viral genome by inducing G-to-A mutations.",
+  "evidence": [
+    {
+      "doc_id": 4347374,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 3,
+      "sentence": "APOBEC3G is closely related to APOBEC1, the central component of an RNA-editing complex that deaminates a cytosine residue in apoB messenger RNA."
+    },
+    {
+      "doc_id": 4347374,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 5,
+      "sentence": "Here, we demonstrate that it does, as APOBEC3G exerts its antiviral effect during reverse transcription to trigger G-to-A hypermutation in the nascent retroviral DNA."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 4347374,
+      "title": "Broad antiretroviral defence by human APOBEC3G through lethal editing of nascent reverse transcripts",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Viral replication usually requires that innate intracellular lines of defence be overcome, a task usually accomplished by specialized viral gene products."
+        },
+        {
+          "original_index": 1,
+          "sentence": "The virion infectivity factor (Vif) protein of human immunodeficiency virus (HIV) is required during the late stages of viral production to counter the antiviral activity of APOBEC3G (apolipoprotein B mRNA-editing enzyme, catalytic polypeptide-like 3G; also known as CEM15), a protein expressed notably in human T lymphocytes."
+        },
+        {
+          "original_index": 2,
+          "sentence": "When produced in the presence of APOBEC3G, vif-defective virus is non-infectious."
+        },
+        {
+          "original_index": 3,
+          "sentence": "APOBEC3G is closely related to APOBEC1, the central component of an RNA-editing complex that deaminates a cytosine residue in apoB messenger RNA."
+        },
+        {
+          "original_index": 4,
+          "sentence": "APOBEC family members also have potent DNA mutator activity through dC deamination; however, whether the editing potential of APOBEC3G has any relevance to HIV inhibition is unknown."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Here, we demonstrate that it does, as APOBEC3G exerts its antiviral effect during reverse transcription to trigger G-to-A hypermutation in the nascent retroviral DNA."
+        },
+        {
+          "original_index": 6,
+          "sentence": "We also find that APOBEC3G can act on a broad range of retroviruses in addition to HIV, suggesting that hypermutation by editing is a general innate defence mechanism against this important group of pathogens."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

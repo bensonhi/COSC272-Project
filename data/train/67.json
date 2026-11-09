@@ -1,0 +1,244 @@
+{
+  "id": 67,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Activated Cdk5 phosphorylates the ATM protein in response to DNA damage.",
+      "evidence": [
+        {
+          "doc_id": 21295300,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Here we show that Cdk5 (cyclin-dependent kinase 5), activated by DNA damage, directly phosphorylates ATM at Ser 794 in post-mitotic neurons.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 21295300,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Thus, activation of Cdk5 by DNA damage serves as a critical signal to initiate the ATM response and regulate ATM-dependent cellular processes.",
+          "kept": true,
+          "new_index": 7
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 21295300,
+          "title": "Phosphorylation of ATM by Cdk5 mediates DNA damage signaling and regulates neuronal death",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The phosphatidylinositol-3-kinase-like kinase ATM (ataxia-telangiectasia mutated) has a central role in coordinating DNA damage responses, including cell-cycle checkpoint control, DNA repair and apoptosis."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Mutations of ATM cause a spectrum of defects ranging from neurodegeneration to cancer predisposition."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "However, the mechanism by which DNA damage activates ATM is poorly understood."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Here we show that Cdk5 (cyclin-dependent kinase 5), activated by DNA damage, directly phosphorylates ATM at Ser 794 in post-mitotic neurons."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Phosphorylation at Ser 794 precedes, and is required for, ATM autophosphorylation at Ser 1981, and activates ATM kinase activity."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "The Cdk5-ATM signal regulates phosphorylation and function of the ATM targets p53 and H2AX."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Interruption of the Cdk5-ATM pathway attenuates DNA-damage-induced neuronal cell cycle re-entry and expression of the p53 targets PUMA and Bax, protecting neurons from death."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Thus, activation of Cdk5 by DNA damage serves as a critical signal to initiate the ATM response and regulate ATM-dependent cellular processes."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Activated Cdk5 phosphorylates the ATM protein in response to DNA damage.",
+      "evidence": [
+        {
+          "doc_id": 21295300,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Here we show that Cdk5 (cyclin-dependent kinase 5), activated by DNA damage, directly phosphorylates ATM at Ser 794 in post-mitotic neurons.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 21295300,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Thus, activation of Cdk5 by DNA damage serves as a critical signal to initiate the ATM response and regulate ATM-dependent cellular processes.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 21295300,
+          "title": "Phosphorylation of ATM by Cdk5 mediates DNA damage signaling and regulates neuronal death",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "Mutations of ATM cause a spectrum of defects ranging from neurodegeneration to cancer predisposition."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "However, the mechanism by which DNA damage activates ATM is poorly understood."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Here we show that Cdk5 (cyclin-dependent kinase 5), activated by DNA damage, directly phosphorylates ATM at Ser 794 in post-mitotic neurons."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Phosphorylation at Ser 794 precedes, and is required for, ATM autophosphorylation at Ser 1981, and activates ATM kinase activity."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "The Cdk5-ATM signal regulates phosphorylation and function of the ATM targets p53 and H2AX."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Interruption of the Cdk5-ATM pathway attenuates DNA-damage-induced neuronal cell cycle re-entry and expression of the p53 targets PUMA and Bax, protecting neurons from death."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 21295300,
+          "original_index": 0,
+          "sentence": "The phosphatidylinositol-3-kinase-like kinase ATM (ataxia-telangiectasia mutated) has a central role in coordinating DNA damage responses, including cell-cycle checkpoint control, DNA repair and apoptosis.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 21295300,
+          "original_index": 7,
+          "sentence": "Thus, activation of Cdk5 by DNA damage serves as a critical signal to initiate the ATM response and regulate ATM-dependent cellular processes.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Activated Cdk5 phosphorylates the ATM protein in response to DNA damage.",
+      "evidence": [
+        {
+          "doc_id": 21295300,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Here we show that Cdk5 (cyclin-dependent kinase 5), activated by DNA damage, directly phosphorylates ATM at Ser 794 in post-mitotic neurons.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 21295300,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Thus, activation of Cdk5 by DNA damage serves as a critical signal to initiate the ATM response and regulate ATM-dependent cellular processes.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 21295300,
+          "title": "Phosphorylation of ATM by Cdk5 mediates DNA damage signaling and regulates neuronal death",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The phosphatidylinositol-3-kinase-like kinase ATM (ataxia-telangiectasia mutated) has a central role in coordinating DNA damage responses, including cell-cycle checkpoint control, DNA repair and apoptosis."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Mutations of ATM cause a spectrum of defects ranging from neurodegeneration to cancer predisposition."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Phosphorylation at Ser 794 precedes, and is required for, ATM autophosphorylation at Ser 1981, and activates ATM kinase activity."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "The Cdk5-ATM signal regulates phosphorylation and function of the ATM targets p53 and H2AX."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Interruption of the Cdk5-ATM pathway attenuates DNA-damage-induced neuronal cell cycle re-entry and expression of the p53 targets PUMA and Bax, protecting neurons from death."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 21295300,
+          "original_index": 2,
+          "sentence": "However, the mechanism by which DNA damage activates ATM is poorly understood.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 21295300,
+          "original_index": 3,
+          "sentence": "Here we show that Cdk5 (cyclin-dependent kinase 5), activated by DNA damage, directly phosphorylates ATM at Ser 794 in post-mitotic neurons.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 21295300,
+          "original_index": 7,
+          "sentence": "Thus, activation of Cdk5 by DNA damage serves as a critical signal to initiate the ATM response and regulate ATM-dependent cellular processes.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

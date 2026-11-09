@@ -1,0 +1,54 @@
+{
+  "id": 860,
+  "origin": "train_more",
+  "claim": "Normal granulomas form in the absence of TNF in Zebrafish.",
+  "evidence": [
+    {
+      "doc_id": 16066726,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 4,
+      "sentence": "In the absence of TNF, intracellular bacterial growth and granuloma formation were accelerated and was followed by necrotic death of overladen macrophages and granuloma breakdown."
+    },
+    {
+      "doc_id": 16066726,
+      "group_id": "g1",
+      "evidence_label": "SUPPORT",
+      "original_index": 5,
+      "sentence": "Thus, TNF is not required for tuberculous granuloma formation, but maintains granuloma integrity indirectly by restricting mycobacterial growth within macrophages and preventing their necrosis."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 16066726,
+      "title": "Tumor necrosis factor signaling mediates resistance to mycobacteria by inhibiting bacterial growth and macrophage death.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Tumor necrosis factor (TNF), a key effector in controlling tuberculosis, is thought to exert protection by directing formation of granulomas, organized aggregates of macrophages and other immune cells."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Loss of TNF signaling causes progression of tuberculosis in humans, and the increased mortality of Mycobacterium tuberculosis-infected mice is associated with disorganized necrotic granulomas, although the precise roles of TNF signaling preceding this endpoint remain undefined."
+        },
+        {
+          "original_index": 2,
+          "sentence": "We monitored transparent Mycobacterium marinum-infected zebrafish live to conduct a stepwise dissection of how TNF signaling operates in mycobacterial pathogenesis."
+        },
+        {
+          "original_index": 3,
+          "sentence": "We found that loss of TNF signaling caused increased mortality even when only innate immunity was operant."
+        },
+        {
+          "original_index": 4,
+          "sentence": "In the absence of TNF, intracellular bacterial growth and granuloma formation were accelerated and was followed by necrotic death of overladen macrophages and granuloma breakdown."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Thus, TNF is not required for tuberculous granuloma formation, but maintains granuloma integrity indirectly by restricting mycobacterial growth within macrophages and preventing their necrosis."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

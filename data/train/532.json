@@ -1,0 +1,629 @@
+{
+  "id": 532,
+  "origin": "dev",
+  "n_groups": 5,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Hyperfibrinogenemia decreases rates of femoropopliteal bypass thrombosis.",
+      "evidence": [
+        {
+          "doc_id": 12991445,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 5,
+          "sentence": "RESULTS Markers for smoking (blood carboxyhaemoglobin concentration (p less than 0.05) and plasma thiocyanate concentration (p less than 0.01) and plasma concentrations of fibrinogen (p less than 0.001) and apolipoproteins AI (p less than 0.04) and (a) (p less than 0.05) were significantly higher in patients with occluded grafts.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 12991445,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Patency was significantly higher by life table analysis in patients with a plasma fibrinogen concentration below the median than in those with a concentration above (90% v 57%, p less than 0.0002).",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 12991445,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Plasma fibrinogen concentration was the most important variable predicting graft occlusion, followed by smoking markers.",
+          "kept": true,
+          "new_index": 11
+        },
+        {
+          "doc_id": 12991445,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT",
+          "original_index": 12,
+          "sentence": "A more forceful approach is needed to stop patients smoking; therapeutic measures to improve patency of vein grafts should focus on decreasing plasma fibrinogen concentration rather than serum cholesterol concentration.",
+          "kept": true,
+          "new_index": 12
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 12991445,
+          "title": "Influence of smoking and plasma factors on patency of femoropopliteal vein grafts.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To determine the effects of smoking, plasma lipids, lipoproteins, apolipoproteins, and fibrinogen on the patency of saphenous vein femoropopliteal bypass grafts at one year.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Prospective study of patients with saphenous vein femoropopliteal bypass grafts entered into a multicentre trial.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "SETTING Surgical wards, outpatient clinics, and home visits coordinated by two tertiary referral centres in London and Birmingham.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "PATIENTS 157 Patients (mean age 66.6 (SD 8.2) years), 113 with patent grafts and 44 with occluded grafts one year after bypass.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURE Cumulative percentage patency at one year.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "RESULTS Markers for smoking (blood carboxyhaemoglobin concentration (p less than 0.05) and plasma thiocyanate concentration (p less than 0.01) and plasma concentrations of fibrinogen (p less than 0.001) and apolipoproteins AI (p less than 0.04) and (a) (p less than 0.05) were significantly higher in patients with occluded grafts."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Serum cholesterol concentrations were significantly higher in patients with grafts that remained patent one year after bypass (p less than 0.005)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Analysis of the smoking markers indicated that a quarter of patients (40) were untruthful in their claims to have stopped smoking."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Based on smoking markers, patency of grafts in smokers was significantly lower at one year by life table analysis than in non-smokers (63% v 84%, p less than 0.02)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Patency was significantly higher by life table analysis in patients with a plasma fibrinogen concentration below the median than in those with a concentration above (90% v 57%, p less than 0.0002)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Surprisingly, increased plasma low density lipoprotein cholesterol concentration was significantly associated with improved patency at one year (85%) at values above the median compared with patency (only 68%) at values in the lower half of the range (p less than 0.02).   \n"
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "CONCLUSIONS Plasma fibrinogen concentration was the most important variable predicting graft occlusion, followed by smoking markers."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "A more forceful approach is needed to stop patients smoking; therapeutic measures to improve patency of vein grafts should focus on decreasing plasma fibrinogen concentration rather than serum cholesterol concentration."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Hyperfibrinogenemia decreases rates of femoropopliteal bypass thrombosis.",
+      "evidence": [
+        {
+          "doc_id": 12991445,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 5,
+          "sentence": "RESULTS Markers for smoking (blood carboxyhaemoglobin concentration (p less than 0.05) and plasma thiocyanate concentration (p less than 0.01) and plasma concentrations of fibrinogen (p less than 0.001) and apolipoproteins AI (p less than 0.04) and (a) (p less than 0.05) were significantly higher in patients with occluded grafts.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 12991445,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Patency was significantly higher by life table analysis in patients with a plasma fibrinogen concentration below the median than in those with a concentration above (90% v 57%, p less than 0.0002).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 12991445,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Plasma fibrinogen concentration was the most important variable predicting graft occlusion, followed by smoking markers.",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 12991445,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT",
+          "original_index": 12,
+          "sentence": "A more forceful approach is needed to stop patients smoking; therapeutic measures to improve patency of vein grafts should focus on decreasing plasma fibrinogen concentration rather than serum cholesterol concentration.",
+          "kept": true,
+          "new_index": 10
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 12991445,
+          "title": "Influence of smoking and plasma factors on patency of femoropopliteal vein grafts.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To determine the effects of smoking, plasma lipids, lipoproteins, apolipoproteins, and fibrinogen on the patency of saphenous vein femoropopliteal bypass grafts at one year.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Prospective study of patients with saphenous vein femoropopliteal bypass grafts entered into a multicentre trial.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "SETTING Surgical wards, outpatient clinics, and home visits coordinated by two tertiary referral centres in London and Birmingham.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURE Cumulative percentage patency at one year.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "RESULTS Markers for smoking (blood carboxyhaemoglobin concentration (p less than 0.05) and plasma thiocyanate concentration (p less than 0.01) and plasma concentrations of fibrinogen (p less than 0.001) and apolipoproteins AI (p less than 0.04) and (a) (p less than 0.05) were significantly higher in patients with occluded grafts."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Serum cholesterol concentrations were significantly higher in patients with grafts that remained patent one year after bypass (p less than 0.005)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "Analysis of the smoking markers indicated that a quarter of patients (40) were untruthful in their claims to have stopped smoking."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "Based on smoking markers, patency of grafts in smokers was significantly lower at one year by life table analysis than in non-smokers (63% v 84%, p less than 0.02)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "Surprisingly, increased plasma low density lipoprotein cholesterol concentration was significantly associated with improved patency at one year (85%) at values above the median compared with patency (only 68%) at values in the lower half of the range (p less than 0.02).   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "CONCLUSIONS Plasma fibrinogen concentration was the most important variable predicting graft occlusion, followed by smoking markers."
+            },
+            {
+              "new_index": 10,
+              "original_index": 12,
+              "sentence": "A more forceful approach is needed to stop patients smoking; therapeutic measures to improve patency of vein grafts should focus on decreasing plasma fibrinogen concentration rather than serum cholesterol concentration."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 12991445,
+          "original_index": 3,
+          "sentence": "PATIENTS 157 Patients (mean age 66.6 (SD 8.2) years), 113 with patent grafts and 44 with occluded grafts one year after bypass.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 12991445,
+          "original_index": 9,
+          "sentence": "Patency was significantly higher by life table analysis in patients with a plasma fibrinogen concentration below the median than in those with a concentration above (90% v 57%, p less than 0.0002).",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g3",
+        "g2"
+      ],
+      "claim": "Hyperfibrinogenemia decreases rates of femoropopliteal bypass thrombosis.",
+      "evidence": [
+        {
+          "doc_id": 12991445,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 5,
+          "sentence": "RESULTS Markers for smoking (blood carboxyhaemoglobin concentration (p less than 0.05) and plasma thiocyanate concentration (p less than 0.01) and plasma concentrations of fibrinogen (p less than 0.001) and apolipoproteins AI (p less than 0.04) and (a) (p less than 0.05) were significantly higher in patients with occluded grafts.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 12991445,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Patency was significantly higher by life table analysis in patients with a plasma fibrinogen concentration below the median than in those with a concentration above (90% v 57%, p less than 0.0002).",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 12991445,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Plasma fibrinogen concentration was the most important variable predicting graft occlusion, followed by smoking markers.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 12991445,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT",
+          "original_index": 12,
+          "sentence": "A more forceful approach is needed to stop patients smoking; therapeutic measures to improve patency of vein grafts should focus on decreasing plasma fibrinogen concentration rather than serum cholesterol concentration.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 12991445,
+          "title": "Influence of smoking and plasma factors on patency of femoropopliteal vein grafts.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "DESIGN Prospective study of patients with saphenous vein femoropopliteal bypass grafts entered into a multicentre trial.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "SETTING Surgical wards, outpatient clinics, and home visits coordinated by two tertiary referral centres in London and Birmingham.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "PATIENTS 157 Patients (mean age 66.6 (SD 8.2) years), 113 with patent grafts and 44 with occluded grafts one year after bypass.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURE Cumulative percentage patency at one year.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "RESULTS Markers for smoking (blood carboxyhaemoglobin concentration (p less than 0.05) and plasma thiocyanate concentration (p less than 0.01) and plasma concentrations of fibrinogen (p less than 0.001) and apolipoproteins AI (p less than 0.04) and (a) (p less than 0.05) were significantly higher in patients with occluded grafts."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Serum cholesterol concentrations were significantly higher in patients with grafts that remained patent one year after bypass (p less than 0.005)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "Analysis of the smoking markers indicated that a quarter of patients (40) were untruthful in their claims to have stopped smoking."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "Based on smoking markers, patency of grafts in smokers was significantly lower at one year by life table analysis than in non-smokers (63% v 84%, p less than 0.02)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 9,
+              "sentence": "Patency was significantly higher by life table analysis in patients with a plasma fibrinogen concentration below the median than in those with a concentration above (90% v 57%, p less than 0.0002)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 10,
+              "sentence": "Surprisingly, increased plasma low density lipoprotein cholesterol concentration was significantly associated with improved patency at one year (85%) at values above the median compared with patency (only 68%) at values in the lower half of the range (p less than 0.02).   \n"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 12991445,
+          "original_index": 0,
+          "sentence": "OBJECTIVE To determine the effects of smoking, plasma lipids, lipoproteins, apolipoproteins, and fibrinogen on the patency of saphenous vein femoropopliteal bypass grafts at one year.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 12991445,
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Plasma fibrinogen concentration was the most important variable predicting graft occlusion, followed by smoking markers.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 12991445,
+          "original_index": 12,
+          "sentence": "A more forceful approach is needed to stop patients smoking; therapeutic measures to improve patency of vein grafts should focus on decreasing plasma fibrinogen concentration rather than serum cholesterol concentration.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_3_groups",
+      "dropped_group_ids": [
+        "g2",
+        "g0",
+        "g3"
+      ],
+      "claim": "Hyperfibrinogenemia decreases rates of femoropopliteal bypass thrombosis.",
+      "evidence": [
+        {
+          "doc_id": 12991445,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 5,
+          "sentence": "RESULTS Markers for smoking (blood carboxyhaemoglobin concentration (p less than 0.05) and plasma thiocyanate concentration (p less than 0.01) and plasma concentrations of fibrinogen (p less than 0.001) and apolipoproteins AI (p less than 0.04) and (a) (p less than 0.05) were significantly higher in patients with occluded grafts.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 12991445,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Patency was significantly higher by life table analysis in patients with a plasma fibrinogen concentration below the median than in those with a concentration above (90% v 57%, p less than 0.0002).",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 12991445,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Plasma fibrinogen concentration was the most important variable predicting graft occlusion, followed by smoking markers.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 12991445,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT",
+          "original_index": 12,
+          "sentence": "A more forceful approach is needed to stop patients smoking; therapeutic measures to improve patency of vein grafts should focus on decreasing plasma fibrinogen concentration rather than serum cholesterol concentration.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 12991445,
+          "title": "Influence of smoking and plasma factors on patency of femoropopliteal vein grafts.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To determine the effects of smoking, plasma lipids, lipoproteins, apolipoproteins, and fibrinogen on the patency of saphenous vein femoropopliteal bypass grafts at one year.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Prospective study of patients with saphenous vein femoropopliteal bypass grafts entered into a multicentre trial.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "SETTING Surgical wards, outpatient clinics, and home visits coordinated by two tertiary referral centres in London and Birmingham.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "PATIENTS 157 Patients (mean age 66.6 (SD 8.2) years), 113 with patent grafts and 44 with occluded grafts one year after bypass.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURE Cumulative percentage patency at one year.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Serum cholesterol concentrations were significantly higher in patients with grafts that remained patent one year after bypass (p less than 0.005)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "Based on smoking markers, patency of grafts in smokers was significantly lower at one year by life table analysis than in non-smokers (63% v 84%, p less than 0.02)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Patency was significantly higher by life table analysis in patients with a plasma fibrinogen concentration below the median than in those with a concentration above (90% v 57%, p less than 0.0002)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "Surprisingly, increased plasma low density lipoprotein cholesterol concentration was significantly associated with improved patency at one year (85%) at values above the median compared with patency (only 68%) at values in the lower half of the range (p less than 0.02).   \n"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 12991445,
+          "original_index": 5,
+          "sentence": "RESULTS Markers for smoking (blood carboxyhaemoglobin concentration (p less than 0.05) and plasma thiocyanate concentration (p less than 0.01) and plasma concentrations of fibrinogen (p less than 0.001) and apolipoproteins AI (p less than 0.04) and (a) (p less than 0.05) were significantly higher in patients with occluded grafts.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 12991445,
+          "original_index": 7,
+          "sentence": "Analysis of the smoking markers indicated that a quarter of patients (40) were untruthful in their claims to have stopped smoking.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 12991445,
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Plasma fibrinogen concentration was the most important variable predicting graft occlusion, followed by smoking markers.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 12991445,
+          "original_index": 12,
+          "sentence": "A more forceful approach is needed to stop patients smoking; therapeutic measures to improve patency of vein grafts should focus on decreasing plasma fibrinogen concentration rather than serum cholesterol concentration.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2",
+        "g3"
+      ],
+      "claim": "Hyperfibrinogenemia decreases rates of femoropopliteal bypass thrombosis.",
+      "evidence": [
+        {
+          "doc_id": 12991445,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 5,
+          "sentence": "RESULTS Markers for smoking (blood carboxyhaemoglobin concentration (p less than 0.05) and plasma thiocyanate concentration (p less than 0.01) and plasma concentrations of fibrinogen (p less than 0.001) and apolipoproteins AI (p less than 0.04) and (a) (p less than 0.05) were significantly higher in patients with occluded grafts.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 12991445,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Patency was significantly higher by life table analysis in patients with a plasma fibrinogen concentration below the median than in those with a concentration above (90% v 57%, p less than 0.0002).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 12991445,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Plasma fibrinogen concentration was the most important variable predicting graft occlusion, followed by smoking markers.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 12991445,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT",
+          "original_index": 12,
+          "sentence": "A more forceful approach is needed to stop patients smoking; therapeutic measures to improve patency of vein grafts should focus on decreasing plasma fibrinogen concentration rather than serum cholesterol concentration.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 12991445,
+          "title": "Influence of smoking and plasma factors on patency of femoropopliteal vein grafts.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To determine the effects of smoking, plasma lipids, lipoproteins, apolipoproteins, and fibrinogen on the patency of saphenous vein femoropopliteal bypass grafts at one year.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Prospective study of patients with saphenous vein femoropopliteal bypass grafts entered into a multicentre trial.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "SETTING Surgical wards, outpatient clinics, and home visits coordinated by two tertiary referral centres in London and Birmingham.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "PATIENTS 157 Patients (mean age 66.6 (SD 8.2) years), 113 with patent grafts and 44 with occluded grafts one year after bypass.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURE Cumulative percentage patency at one year.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Analysis of the smoking markers indicated that a quarter of patients (40) were untruthful in their claims to have stopped smoking."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "Based on smoking markers, patency of grafts in smokers was significantly lower at one year by life table analysis than in non-smokers (63% v 84%, p less than 0.02)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "Surprisingly, increased plasma low density lipoprotein cholesterol concentration was significantly associated with improved patency at one year (85%) at values above the median compared with patency (only 68%) at values in the lower half of the range (p less than 0.02).   \n"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 12991445,
+          "original_index": 5,
+          "sentence": "RESULTS Markers for smoking (blood carboxyhaemoglobin concentration (p less than 0.05) and plasma thiocyanate concentration (p less than 0.01) and plasma concentrations of fibrinogen (p less than 0.001) and apolipoproteins AI (p less than 0.04) and (a) (p less than 0.05) were significantly higher in patients with occluded grafts.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 12991445,
+          "original_index": 6,
+          "sentence": "Serum cholesterol concentrations were significantly higher in patients with grafts that remained patent one year after bypass (p less than 0.005).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 12991445,
+          "original_index": 9,
+          "sentence": "Patency was significantly higher by life table analysis in patients with a plasma fibrinogen concentration below the median than in those with a concentration above (90% v 57%, p less than 0.0002).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 12991445,
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Plasma fibrinogen concentration was the most important variable predicting graft occlusion, followed by smoking markers.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 12991445,
+          "original_index": 12,
+          "sentence": "A more forceful approach is needed to stop patients smoking; therapeutic measures to improve patency of vein grafts should focus on decreasing plasma fibrinogen concentration rather than serum cholesterol concentration.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

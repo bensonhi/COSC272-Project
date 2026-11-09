@@ -1,0 +1,80 @@
+{
+  "id": 661,
+  "origin": "train_more",
+  "claim": "JMJD6 catalyzes the hydroxylation of C-terminal lysine and supresses transcriptional activity.",
+  "evidence": [
+    {
+      "doc_id": 37204802,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 3,
+      "sentence": "We demonstrated that JMJD6 acts as an α-ketoglutarate- and Fe(II)-dependent lysyl hydroxylase to catalyze p53 hydroxylation."
+    },
+    {
+      "doc_id": 37204802,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 4,
+      "sentence": "We found that p53 indeed exists as a hydroxylated protein in vivo and that the hydroxylation occurs mainly on lysine 382 of p53."
+    },
+    {
+      "doc_id": 37204802,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 6,
+      "sentence": "Depletion of JMJD6 enhances p53 transcriptional activity, arrests cells in the G1 phase, promotes cell apoptosis, and sensitizes cells to DNA damaging agent-induced cell death."
+    },
+    {
+      "doc_id": 37204802,
+      "group_id": "g1",
+      "evidence_label": "SUPPORT_more",
+      "original_index": 5,
+      "sentence": "We showed that JMJD6 antagonizes p53 acetylation, promotes the association of p53 with its negative regulator MDMX, and represses transcriptional activity of p53."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 37204802,
+      "title": "JMJD6 Promotes Colon Carcinogenesis through Negative Regulation of p53 by Hydroxylation",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Jumonji domain-containing 6 (JMJD6) is a member of the Jumonji C domain-containing family of proteins."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Compared to other members of the family, the cellular activity of JMJD6 is still not clearly defined and its biological function is still largely unexplored."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Here we report that JMJD6 is physically associated with the tumor suppressor p53."
+        },
+        {
+          "original_index": 3,
+          "sentence": "We demonstrated that JMJD6 acts as an α-ketoglutarate- and Fe(II)-dependent lysyl hydroxylase to catalyze p53 hydroxylation."
+        },
+        {
+          "original_index": 4,
+          "sentence": "We found that p53 indeed exists as a hydroxylated protein in vivo and that the hydroxylation occurs mainly on lysine 382 of p53."
+        },
+        {
+          "original_index": 5,
+          "sentence": "We showed that JMJD6 antagonizes p53 acetylation, promotes the association of p53 with its negative regulator MDMX, and represses transcriptional activity of p53."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Depletion of JMJD6 enhances p53 transcriptional activity, arrests cells in the G1 phase, promotes cell apoptosis, and sensitizes cells to DNA damaging agent-induced cell death."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Importantly, knockdown of JMJD6 represses p53-dependent colon cell proliferation and tumorigenesis in vivo, and significantly, the expression of JMJD6 is markedly up-regulated in various types of human cancer especially in colon cancer, and high nuclear JMJD6 protein is strongly correlated with aggressive clinical behaviors of colon adenocarcinomas."
+        },
+        {
+          "original_index": 8,
+          "sentence": "Our results reveal a novel posttranslational modification for p53 and support the pursuit of JMJD6 as a potential biomarker for colon cancer aggressiveness and a potential target for colon cancer intervention."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

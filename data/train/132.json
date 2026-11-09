@@ -1,0 +1,48 @@
+{
+  "id": 132,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Aspirin inhibits the production of PGE2.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 7975937,
+          "title": "Cyclooxygenase-Dependent Tumor Growth through Evasion of Immunity",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The mechanisms by which melanoma and other cancer cells evade anti-tumor immunity remain incompletely understood."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here, we show that the growth of tumors formed by mutant Braf(V600E) mouse melanoma cells in an immunocompetent host requires their production of prostaglandin E2, which suppresses immunity and fuels tumor-promoting inflammation."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Genetic ablation of cyclooxygenases (COX) or prostaglandin E synthases in Braf(V600E) mouse melanoma cells, as well as in Nras(G12D) melanoma or in breast or colorectal cancer cells, renders them susceptible to immune control and provokes a shift in the tumor inflammatory profile toward classic anti-cancer immune pathways."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "This mouse COX-dependent inflammatory signature is remarkably conserved in human cutaneous melanoma biopsies, arguing for COX activity as a driver of immune suppression across species."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Pre-clinical data demonstrate that inhibition of COX synergizes with anti-PD-1 blockade in inducing eradication of tumors, implying that COX inhibitors could be useful adjuvants for immune-based therapies in cancer patients."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

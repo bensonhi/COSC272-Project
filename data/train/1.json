@@ -1,0 +1,43 @@
+{
+  "id": 1,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "0-dimensional biomaterials show inductive properties.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 31715818,
+          "title": "New opportunities: the use of nanotechnologies to manipulate and track stem cells.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Nanotechnologies are emerging platforms that could be useful in measuring, understanding, and manipulating stem cells."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Examples include magnetic nanoparticles and quantum dots for stem cell labeling and in vivo tracking; nanoparticles, carbon nanotubes, and polyplexes for the intracellular delivery of genes/oligonucleotides and protein/peptides; and engineered nanometer-scale scaffolds for stem cell differentiation and transplantation."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "This review examines the use of nanotechnologies for stem cell tracking, differentiation, and transplantation."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We further discuss their utility and the potential concerns regarding their cytotoxicity."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

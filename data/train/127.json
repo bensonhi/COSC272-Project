@@ -1,0 +1,58 @@
+{
+  "id": 127,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Arginine 90 in p150n is important for interaction with EB1.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 21598000,
+          "title": "Structural basis for the activation of microtubule assembly by the EB1 and p150Glued complex.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Plus-end tracking proteins, such as EB1 and the dynein/dynactin complex, regulate microtubule dynamics."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "These proteins are thought to stabilize microtubules by forming a plus-end complex at microtubule growing ends with ill-defined mechanisms."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here we report the crystal structure of two plus-end complex components, the carboxy-terminal dimerization domain of EB1 and the microtubule binding (CAP-Gly) domain of the dynactin subunit p150Glued."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Each molecule of the EB1 dimer contains two helices forming a conserved four-helix bundle, while also providing p150Glued binding sites in its flexible tail region."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Combining crystallography, NMR, and mutational analyses, our studies reveal the critical interacting elements of both EB1 and p150Glued, whose mutation alters microtubule polymerization activity."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Moreover, removal of the key flexible tail from EB1 activates microtubule assembly by EB1 alone, suggesting that the flexible tail negatively regulates EB1 activity."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "We, therefore, propose that EB1 possesses an auto-inhibited conformation, which is relieved by p150Glued as an allosteric activator."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": 463,
+  "origin": "train_more",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Genomic aberrations of metastases provide information for targeted therapy.",
+      "evidence": [
+        {
+          "doc_id": 19736671,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Mouse tumors that mimic the genetic heterogeneity of human cancers can aid our understanding of the clonal evolution of metastasis and provide a realistic model for the testing of novel therapies.",
+          "kept": true,
+          "new_index": 5
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 19736671,
+          "title": "Evolution of metastasis revealed by mutational landscapes of chemically induced skin cancers",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Human tumors show a high level of genetic heterogeneity, but the processes that influence the timing and route of metastatic dissemination of the subclones are unknown."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here we have used whole-exome sequencing of 103 matched benign, malignant and metastatic skin tumors from genetically heterogeneous mice to demonstrate that most metastases disseminate synchronously from the primary tumor, supporting parallel rather than linear evolution as the predominant model of metastasis."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Shared mutations between primary carcinomas and their matched metastases have the distinct A-to-T signature of the initiating carcinogen dimethylbenzanthracene, but non-shared mutations are primarily G-to-T, a signature associated with oxidative stress."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "The existence of carcinomas that either did or did not metastasize in the same host animal suggests that there are tumor-intrinsic factors that influence metastatic seeding."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We also demonstrate the importance of germline polymorphisms in determining allele-specific mutations, and we identify somatic genetic alterations that are specifically related to initiation of carcinogenesis by Hras or Kras mutations."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Mouse tumors that mimic the genetic heterogeneity of human cancers can aid our understanding of the clonal evolution of metastasis and provide a realistic model for the testing of novel therapies."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Genomic aberrations of metastases provide information for targeted therapy.",
+      "evidence": [
+        {
+          "doc_id": 19736671,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Mouse tumors that mimic the genetic heterogeneity of human cancers can aid our understanding of the clonal evolution of metastasis and provide a realistic model for the testing of novel therapies.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 19736671,
+          "title": "Evolution of metastasis revealed by mutational landscapes of chemically induced skin cancers",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Human tumors show a high level of genetic heterogeneity, but the processes that influence the timing and route of metastatic dissemination of the subclones are unknown."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Shared mutations between primary carcinomas and their matched metastases have the distinct A-to-T signature of the initiating carcinogen dimethylbenzanthracene, but non-shared mutations are primarily G-to-T, a signature associated with oxidative stress."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "The existence of carcinomas that either did or did not metastasize in the same host animal suggests that there are tumor-intrinsic factors that influence metastatic seeding."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "We also demonstrate the importance of germline polymorphisms in determining allele-specific mutations, and we identify somatic genetic alterations that are specifically related to initiation of carcinogenesis by Hras or Kras mutations."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 19736671,
+          "original_index": 1,
+          "sentence": "Here we have used whole-exome sequencing of 103 matched benign, malignant and metastatic skin tumors from genetically heterogeneous mice to demonstrate that most metastases disseminate synchronously from the primary tumor, supporting parallel rather than linear evolution as the predominant model of metastasis.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 19736671,
+          "original_index": 5,
+          "sentence": "Mouse tumors that mimic the genetic heterogeneity of human cancers can aid our understanding of the clonal evolution of metastasis and provide a realistic model for the testing of novel therapies.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

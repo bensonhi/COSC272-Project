@@ -1,0 +1,48 @@
+{
+  "id": 939,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Persistor cells are one reason for incomplete responses to Tyrosine kinase inhibitor (TKI) therapy in cancer patients.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 26231129,
+          "title": "A framework for understanding and targeting residual disease in oncogene-driven solid cancers",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Molecular targeted therapy has the potential to dramatically improve survival in patients with cancer."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "However, complete and durable responses to targeted therapy are rare in individuals with advanced-stage solid cancers."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Even the most effective targeted therapies generally do not induce a complete tumor response, resulting in residual disease and tumor progression that limits patient survival."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We discuss the emerging need to more fully understand the molecular basis of residual disease as a prelude to designing therapeutic strategies to minimize or eliminate residual disease so that we can move from temporary to chronic control of disease, or a cure, for patients with advanced-stage solid cancers."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Ultimately, we propose a shift from the current reactive paradigm of analyzing and treating acquired drug resistance to a pre-emptive paradigm of defining the mechanisms that result in residual disease, to target and limit this disease reservoir."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

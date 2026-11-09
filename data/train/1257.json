@@ -1,0 +1,118 @@
+{
+  "id": 1257,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The proportion of people with visual difficulty is two times higher in low-income countries than in high-income countries.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 581832,
+          "title": "Global, regional, and national disability-adjusted life-years (DALYs) for 315 diseases and injuries and healthy life expectancy (HALE), 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Healthy life expectancy (HALE) and disability-adjusted life-years (DALYs) provide summary measures of health across geographies and time that can inform assessments of epidemiological patterns and health system performance, help to prioritise investments in research and development, and monitor progress toward the Sustainable Development Goals (SDGs)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We aimed to provide updated HALE and DALYs for geographies worldwide and evaluate how disease burden changes with development.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS We used results from the Global Burden of Diseases, Injuries, and Risk Factors Study 2015 (GBD 2015) for all-cause mortality, cause-specific mortality, and non-fatal disease burden to derive HALE and DALYs by sex for 195 countries and territories from 1990 to 2015."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We calculated DALYs by summing years of life lost (YLLs) and years of life lived with disability (YLDs) for each geography, age group, sex, and year."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We estimated HALE using the Sullivan method, which draws from age-specific death rates and YLDs per capita."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We then assessed how observed levels of DALYs and HALE differed from expected trends calculated with the Socio-demographic Index (SDI), a composite indicator constructed from measures of income per capita, average years of schooling, and total fertility rate.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "FINDINGS Total global DALYs remained largely unchanged from 1990 to 2015, with decreases in communicable, neonatal, maternal, and nutritional (Group 1) disease DALYs offset by increased DALYs due to non-communicable diseases (NCDs)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Much of this epidemiological transition was caused by changes in population growth and ageing, but it was accelerated by widespread improvements in SDI that also correlated strongly with the increasing importance of NCDs."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Both total DALYs and age-standardised DALY rates due to most Group 1 causes significantly decreased by 2015, and although total burden climbed for the majority of NCDs, age-standardised DALY rates due to NCDs declined."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Nonetheless, age-standardised DALY rates due to several high-burden NCDs (including osteoarthritis, drug use disorders, depression, diabetes, congenital birth defects, and skin, oral, and sense organ diseases) either increased or remained unchanged, leading to increases in their relative ranking in many geographies."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "From 2005 to 2015, HALE at birth increased by an average of 2·9 years (95% uncertainty interval 2·9-3·0) for men and 3·5 years (3·4-3·7) for women, while HALE at age 65 years improved by 0·85 years (0·78-0·92) and 1·2 years (1·1-1·3), respectively."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Rising SDI was associated with consistently higher HALE and a somewhat smaller proportion of life spent with functional health loss; however, rising SDI was related to increases in total disability."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "Many countries and territories in central America and eastern sub-Saharan Africa had increasingly lower rates of disease burden than expected given their SDI."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "At the same time, a subset of geographies recorded a growing gap between observed and expected levels of DALYs, a trend driven mainly by rising burden due to war, interpersonal violence, and various NCDs.   \n"
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "INTERPRETATION Health is improving globally, but this means more populations are spending more time with functional health loss, an absolute expansion of morbidity."
+            },
+            {
+              "new_index": 15,
+              "original_index": 15,
+              "sentence": "The proportion of life spent in ill health decreases somewhat with increasing SDI, a relative compression of morbidity, which supports continued efforts to elevate personal income, improve education, and limit fertility."
+            },
+            {
+              "new_index": 16,
+              "original_index": 16,
+              "sentence": "Our analysis of DALYs and HALE and their relationship to SDI represents a robust framework on which to benchmark geography-specific health performance and SDG progress."
+            },
+            {
+              "new_index": 17,
+              "original_index": 17,
+              "sentence": "Country-specific drivers of disease burden, particularly for causes with higher-than-expected DALYs, should inform financial and research investments, prevention efforts, health policies, and health system improvement initiatives for all countries along the development continuum.   \n"
+            },
+            {
+              "new_index": 18,
+              "original_index": 18,
+              "sentence": "FUNDING Bill & Melinda Gates Foundation."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

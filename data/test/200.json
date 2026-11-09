@@ -1,0 +1,47 @@
+{
+  "id": 200,
+  "origin": "train_more",
+  "claim": "CD28 initiates tonic signaling in conventional T cells, which causes an exhaustion phenotype and limited efficiency.",
+  "evidence": [
+    {
+      "doc_id": 18231807,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 4,
+      "sentence": "We further determine that CD28 costimulation augments, whereas 4-1BB costimulation reduces, exhaustion induced by persistent CAR signaling."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 18231807,
+      "title": "4-1BB Costimulation Ameliorates T Cell Exhaustion Induced by Tonic Signaling of Chimeric Antigen Receptors",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Chimeric antigen receptors (CARs) targeting CD19 have mediated dramatic antitumor responses in hematologic malignancies, but tumor regression has rarely occurred using CARs targeting other antigens."
+        },
+        {
+          "original_index": 1,
+          "sentence": "It remains unknown whether the impressive effects of CD19 CARs relate to greater susceptibility of hematologic malignancies to CAR therapies, or superior functionality of the CD19 CAR itself."
+        },
+        {
+          "original_index": 2,
+          "sentence": "We show that tonic CAR CD3-ζ phosphorylation, triggered by antigen-independent clustering of CAR single-chain variable fragments, can induce early exhaustion of CAR T cells that limits antitumor efficacy."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Such activation is present to varying degrees in all CARs studied, except the highly effective CD19 CAR."
+        },
+        {
+          "original_index": 4,
+          "sentence": "We further determine that CD28 costimulation augments, whereas 4-1BB costimulation reduces, exhaustion induced by persistent CAR signaling."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Our results provide biological explanations for the antitumor effects of CD19 CARs and for the observations that CD19 CAR T cells incorporating the 4-1BB costimulatory domain are more persistent than those incorporating CD28 in clinical trials."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

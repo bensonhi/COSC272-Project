@@ -1,0 +1,43 @@
+{
+  "id": 1397,
+  "origin": "train_more",
+  "claim": "p16INK4A degradation is  linked to an abnormal wound response caused by the microinvasive step of advanced Oral Potentially Malignant Lesions (OPMLs).",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 17717391,
+      "title": "Monitoring Tumorigenesis and Senescence In Vivo with a p16INK4a-Luciferase Model",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Monitoring cancer and aging in vivo remains experimentally challenging."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Here, we describe a luciferase knockin mouse (p16(LUC)), which faithfully reports expression of p16(INK4a), a tumor suppressor and aging biomarker."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Lifelong assessment of luminescence in p16(+/LUC) mice revealed an exponential increase with aging, which was highly variable in a cohort of contemporaneously housed, syngeneic mice."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Expression of p16(INK4a) with aging did not predict cancer development, suggesting that the accumulation of senescent cells is not a principal determinant of cancer-related death."
+        },
+        {
+          "original_index": 4,
+          "sentence": "In 14 of 14 tested tumor models, expression of p16(LUC) was focally activated by early neoplastic events, enabling visualization of tumors with sensitivity exceeding other imaging modalities."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Activation of p16(INK4a) was noted in the emerging neoplasm and surrounding stromal cells."
+        },
+        {
+          "original_index": 6,
+          "sentence": "This work suggests that p16(INK4a) activation is a characteristic of all emerging cancers, making the p16(LUC) allele a sensitive, unbiased reporter of neoplastic transformation."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

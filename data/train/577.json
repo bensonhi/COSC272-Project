@@ -1,0 +1,48 @@
+{
+  "id": 577,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "In mice, P. chabaudi parasites are able to proliferate faster early in infection when inoculated at lower numbers than when inoculated at high numbers.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 5289038,
+          "title": "Partitioning regulatory mechanisms of within-host malaria dynamics using the effective propagation number.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Immune clearance and resource limitation (via red blood cell depletion) shape the peaks and troughs of malaria parasitemia, which in turn affect disease severity and transmission."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Quantitatively partitioning the relative roles of these effects through time is challenging."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Using data from rodent malaria, we estimated the effective propagation number, which reflects the relative importance of contrasting within-host control mechanisms through time and is sensitive to the inoculating parasite dose."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Our analysis showed that the capacity of innate responses to restrict initial parasite growth saturates with parasite dose and that experimentally enhanced innate immunity can affect parasite density indirectly via resource depletion."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Such a statistical approach offers a tool to improve targeting of drugs or vaccines for human therapy by revealing the dynamics and interactions of within-host regulatory mechanisms."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

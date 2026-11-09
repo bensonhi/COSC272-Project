@@ -1,0 +1,306 @@
+{
+  "id": 386,
+  "origin": "dev",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Errors in peripheral IV drug administration are most common during bolus administration and multiple-step medicine preparations.",
+      "evidence": [
+        {
+          "doc_id": 16495649,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Most errors occurred when giving bolus doses or making up drugs that required multiple step preparation.   \n",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 16495649,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 11,
+          "sentence": "A combination of reducing the amount of preparation on the ward, training, and technology to administer slow bolus doses would probably have the greatest effect on error rates.",
+          "kept": true,
+          "new_index": 11
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 16495649,
+          "title": "Ethnographic study of incidence and severity of intravenous drug errors.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVES To determine the incidence and clinical importance of errors in the preparation and administration of intravenous drugs and the stages of the process in which errors occur.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Prospective ethnographic study using disguised observation.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "PARTICIPANTS Nurses who prepared and administered intravenous drugs.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "SETTING 10 wards in a teaching and non-teaching hospital in the United Kingdom.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURES Number, type, and clinical importance of errors.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "RESULTS 249 errors were identified."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "At least one error occurred in 212 out of 430 intravenous drug doses (49%, 95% confidence interval 45% to 54%)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Three doses (1%) had potentially severe errors, 126 (29%) potentially moderate errors, and 83 (19%) potentially minor errors."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Most errors occurred when giving bolus doses or making up drugs that required multiple step preparation.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "CONCLUSIONS The rate of intravenous drug errors was high."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Although most errors would cause only short term adverse effects, a few could have been serious."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "A combination of reducing the amount of preparation on the ward, training, and technology to administer slow bolus doses would probably have the greatest effect on error rates."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Errors in peripheral IV drug administration are most common during bolus administration and multiple-step medicine preparations.",
+      "evidence": [
+        {
+          "doc_id": 16495649,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Most errors occurred when giving bolus doses or making up drugs that required multiple step preparation.   \n",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 16495649,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 11,
+          "sentence": "A combination of reducing the amount of preparation on the ward, training, and technology to administer slow bolus doses would probably have the greatest effect on error rates.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 16495649,
+          "title": "Ethnographic study of incidence and severity of intravenous drug errors.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVES To determine the incidence and clinical importance of errors in the preparation and administration of intravenous drugs and the stages of the process in which errors occur.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Prospective ethnographic study using disguised observation.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "PARTICIPANTS Nurses who prepared and administered intravenous drugs.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURES Number, type, and clinical importance of errors.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "RESULTS 249 errors were identified."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "At least one error occurred in 212 out of 430 intravenous drug doses (49%, 95% confidence interval 45% to 54%)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "Three doses (1%) had potentially severe errors, 126 (29%) potentially moderate errors, and 83 (19%) potentially minor errors."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "Most errors occurred when giving bolus doses or making up drugs that required multiple step preparation.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 9,
+              "sentence": "CONCLUSIONS The rate of intravenous drug errors was high."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 16495649,
+          "original_index": 3,
+          "sentence": "SETTING 10 wards in a teaching and non-teaching hospital in the United Kingdom.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 16495649,
+          "original_index": 10,
+          "sentence": "Although most errors would cause only short term adverse effects, a few could have been serious.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 16495649,
+          "original_index": 11,
+          "sentence": "A combination of reducing the amount of preparation on the ward, training, and technology to administer slow bolus doses would probably have the greatest effect on error rates.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Errors in peripheral IV drug administration are most common during bolus administration and multiple-step medicine preparations.",
+      "evidence": [
+        {
+          "doc_id": 16495649,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Most errors occurred when giving bolus doses or making up drugs that required multiple step preparation.   \n",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 16495649,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 11,
+          "sentence": "A combination of reducing the amount of preparation on the ward, training, and technology to administer slow bolus doses would probably have the greatest effect on error rates.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 16495649,
+          "title": "Ethnographic study of incidence and severity of intravenous drug errors.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVES To determine the incidence and clinical importance of errors in the preparation and administration of intravenous drugs and the stages of the process in which errors occur.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Prospective ethnographic study using disguised observation.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "PARTICIPANTS Nurses who prepared and administered intravenous drugs.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURES Number, type, and clinical importance of errors.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "RESULTS 249 errors were identified."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "At least one error occurred in 212 out of 430 intravenous drug doses (49%, 95% confidence interval 45% to 54%)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "Three doses (1%) had potentially severe errors, 126 (29%) potentially moderate errors, and 83 (19%) potentially minor errors."
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "Although most errors would cause only short term adverse effects, a few could have been serious."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 16495649,
+          "original_index": 3,
+          "sentence": "SETTING 10 wards in a teaching and non-teaching hospital in the United Kingdom.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 16495649,
+          "original_index": 8,
+          "sentence": "Most errors occurred when giving bolus doses or making up drugs that required multiple step preparation.   \n",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 16495649,
+          "original_index": 9,
+          "sentence": "CONCLUSIONS The rate of intravenous drug errors was high.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 16495649,
+          "original_index": 11,
+          "sentence": "A combination of reducing the amount of preparation on the ward, training, and technology to administer slow bolus doses would probably have the greatest effect on error rates.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

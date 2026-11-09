@@ -1,0 +1,73 @@
+{
+  "id": 1111,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Sudden death can occur in patients with complex ventricular arrhythmias.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 1686881,
+          "title": "Myocardial muscarinic receptor upregulation and normal response to isoproterenol in denervated hearts by familial amyloid polyneuropathy.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Patients with familial amyloid polyneuropathy, a rare hereditary form of amyloidosis, have progressive autonomic neuropathy."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The disease usually does not induce heart failure but is associated with sudden death, conduction disturbances, and an increased risk of complications during anesthesia."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Although cardiac sympathetic denervation has been clearly demonstrated, the postsynaptic status of the cardiac autonomic nervous system remains unelucidated.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "METHODS AND RESULTS Twenty-one patients were studied (age, 39+/-11 years; normal coronary arteries; left ventricular ejection fraction 68+/-9%)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "To evaluate the density and affinity constants of myocardial muscarinic receptors, PET with (11)C-MQNB (methylquinuclidinyl benzilate), a specific hydrophilic antagonist, was used."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Cardiac beta-receptor functional efficiency was studied by the heart rate (HR) response to intravenous infusion of isoproterenol (5 minutes after 2 mg of atropine, 5, 10, and 15 ng/kg per minute during 5 minutes per step)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "The mean muscarinic receptor density was higher in patients than in control subjects (B'(max), 35.5+/-8.9 versus 26.1+/-6.7 pmol/mL, P=0.003), without change in receptor affinity."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "The increase in HR after injection of atropine as well as of MQNB was lower in patients compared with control subjects despite a similar basal HR (DeltaHR after atropine, 11+/-21% versus 62+/-17%; P<0.001), consistent with parasympathetic denervation."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Incremental infusion of isoproterenol induced a similar increase in HR in patients and control subjects.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "CONCLUSIONS Cardiac autonomic denervation in familial amyloid polyneuropathy results in an upregulation of myocardial muscarinic receptors but without change in cardiac beta-receptor responsiveness to catecholamines."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

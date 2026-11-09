@@ -1,0 +1,182 @@
+{
+  "id": 483,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "H.pylori-mediated gastric cancer occurs due to the accumulation of mutations in host epithelial cells.",
+      "evidence": [
+        {
+          "doc_id": 22703082,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "H. pylori–mediated upregulation of AID resulted in the accumulation of nucleotide alterations in the TP53 tumor suppressor gene in gastric cells in vitro.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 22703082,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Our findings provide evidence that aberrant AID expression caused by H. pylori infection might be a mechanism of mutation accumulation in the gastric mucosa during H. pylori–associated gastric carcinogenesis.",
+          "kept": true,
+          "new_index": 3
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 22703082,
+          "title": "Helicobacter pylori infection triggers aberrant expression of activation-induced cytidine deaminase in gastric epithelium",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Infection with Helicobacter pylori (H. pylori) is a risk factor for the development of gastric cancer."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here we show that infection of gastric epithelial cells with 'cag' pathogenicity island (cagPAI)-positive H. pylori induced aberrant expression of activation-induced cytidine deaminase (AID), a member of the cytidine-deaminase family that acts as a DNA- and RNA-editing enzyme, via the IκB kinase–dependent nuclear factor-κB activation pathway."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "H. pylori–mediated upregulation of AID resulted in the accumulation of nucleotide alterations in the TP53 tumor suppressor gene in gastric cells in vitro."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Our findings provide evidence that aberrant AID expression caused by H. pylori infection might be a mechanism of mutation accumulation in the gastric mucosa during H. pylori–associated gastric carcinogenesis."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "H.pylori-mediated gastric cancer occurs due to the accumulation of mutations in host epithelial cells.",
+      "evidence": [
+        {
+          "doc_id": 22703082,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "H. pylori–mediated upregulation of AID resulted in the accumulation of nucleotide alterations in the TP53 tumor suppressor gene in gastric cells in vitro.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 22703082,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Our findings provide evidence that aberrant AID expression caused by H. pylori infection might be a mechanism of mutation accumulation in the gastric mucosa during H. pylori–associated gastric carcinogenesis.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 22703082,
+          "title": "Helicobacter pylori infection triggers aberrant expression of activation-induced cytidine deaminase in gastric epithelium",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Infection with Helicobacter pylori (H. pylori) is a risk factor for the development of gastric cancer."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here we show that infection of gastric epithelial cells with 'cag' pathogenicity island (cagPAI)-positive H. pylori induced aberrant expression of activation-induced cytidine deaminase (AID), a member of the cytidine-deaminase family that acts as a DNA- and RNA-editing enzyme, via the IκB kinase–dependent nuclear factor-κB activation pathway."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "H. pylori–mediated upregulation of AID resulted in the accumulation of nucleotide alterations in the TP53 tumor suppressor gene in gastric cells in vitro."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 22703082,
+          "original_index": 3,
+          "sentence": "Our findings provide evidence that aberrant AID expression caused by H. pylori infection might be a mechanism of mutation accumulation in the gastric mucosa during H. pylori–associated gastric carcinogenesis.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "H.pylori-mediated gastric cancer occurs due to the accumulation of mutations in host epithelial cells.",
+      "evidence": [
+        {
+          "doc_id": 22703082,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "H. pylori–mediated upregulation of AID resulted in the accumulation of nucleotide alterations in the TP53 tumor suppressor gene in gastric cells in vitro.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22703082,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Our findings provide evidence that aberrant AID expression caused by H. pylori infection might be a mechanism of mutation accumulation in the gastric mucosa during H. pylori–associated gastric carcinogenesis.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 22703082,
+          "title": "Helicobacter pylori infection triggers aberrant expression of activation-induced cytidine deaminase in gastric epithelium",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Infection with Helicobacter pylori (H. pylori) is a risk factor for the development of gastric cancer."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here we show that infection of gastric epithelial cells with 'cag' pathogenicity island (cagPAI)-positive H. pylori induced aberrant expression of activation-induced cytidine deaminase (AID), a member of the cytidine-deaminase family that acts as a DNA- and RNA-editing enzyme, via the IκB kinase–dependent nuclear factor-κB activation pathway."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 22703082,
+          "original_index": 2,
+          "sentence": "H. pylori–mediated upregulation of AID resulted in the accumulation of nucleotide alterations in the TP53 tumor suppressor gene in gastric cells in vitro.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22703082,
+          "original_index": 3,
+          "sentence": "Our findings provide evidence that aberrant AID expression caused by H. pylori infection might be a mechanism of mutation accumulation in the gastric mucosa during H. pylori–associated gastric carcinogenesis.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

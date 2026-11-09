@@ -1,0 +1,108 @@
+{
+  "id": 785,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Microarray results from culture-amplified mixtures of serotypes correlate poorly with microarray results from uncultured mixtures.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 12471115,
+          "title": "The PneuCarriage Project: A Multi-Centre Comparative Study to Identify the Best Serotyping Methods for Examining Pneumococcal Carriage in Vaccine Evaluation Studies",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND The pneumococcus is a diverse pathogen whose primary niche is the nasopharynx."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Over 90 different serotypes exist, and nasopharyngeal carriage of multiple serotypes is common."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Understanding pneumococcal carriage is essential for evaluating the impact of pneumococcal vaccines."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Traditional serotyping methods are cumbersome and insufficient for detecting multiple serotype carriage, and there are few data comparing the new methods that have been developed over the past decade."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We established the PneuCarriage project, a large, international multi-centre study dedicated to the identification of the best pneumococcal serotyping methods for carriage studies.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "METHODS AND FINDINGS Reference sample sets were distributed to 15 research groups for blinded testing."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Twenty pneumococcal serotyping methods were used to test 81 laboratory-prepared (spiked) samples."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "The five top-performing methods were used to test 260 nasopharyngeal (field) samples collected from children in six high-burden countries."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Sensitivity and positive predictive value (PPV) were determined for the test methods and the reference method (traditional serotyping of >100 colonies from each sample)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "For the alternate serotyping methods, the overall sensitivity ranged from 1% to 99% (reference method 98%), and PPV from 8% to 100% (reference method 100%), when testing the spiked samples."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Fifteen methods had ≥70% sensitivity to detect the dominant (major) serotype, whilst only eight methods had ≥70% sensitivity to detect minor serotypes."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "For the field samples, the overall sensitivity ranged from 74.2% to 95.8% (reference method 93.8%), and PPV from 82.2% to 96.4% (reference method 99.6%)."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "The microarray had the highest sensitivity (95.8%) and high PPV (93.7%)."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "The major limitation of this study is that not all of the available alternative serotyping methods were included.   \n"
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "CONCLUSIONS Most methods were able to detect the dominant serotype in a sample, but many performed poorly in detecting the minor serotype populations."
+            },
+            {
+              "new_index": 15,
+              "original_index": 15,
+              "sentence": "Microarray with a culture amplification step was the top-performing method."
+            },
+            {
+              "new_index": 16,
+              "original_index": 16,
+              "sentence": "Results from this comprehensive evaluation will inform future vaccine evaluation and impact studies, particularly in low-income settings, where pneumococcal disease burden remains high."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

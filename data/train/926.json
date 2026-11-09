@@ -1,0 +1,546 @@
+{
+  "id": 926,
+  "origin": "train_more",
+  "n_groups": 4,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Patients with common epithelial cancers  are more likely to have an emergency event as their first hospital admission if they live in resource-deprived areas.",
+      "evidence": [
+        {
+          "doc_id": 16390264,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "RESULTS Patients from deprived areas, older people, and women were more likely to be admitted as emergencies.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 16390264,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "For example, the adjusted odds ratio for patients with breast cancer in the least compared with most deprived fifth of deprivation was 0.63 (95% confidence interval 0.60 to 0.66) and the adjusted odds ratio for patients with lung cancer aged 80-89 compared with those aged 50-59 was 3.13 (2.93 to 3.34).",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 16390264,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "There were some improvements in disparities between age groups but not for patients living in deprived areas over time.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 16390264,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "For example, 67.4% (3529/5237) of patients in the most deprived fifth of deprivation had anterior resection for rectal cancer compared with 75.5% (4497/5959) of patients in the least deprived fifth (1.34, 1.22 to 1.47).",
+          "kept": true,
+          "new_index": 10
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 16390264,
+          "title": "Social variations in access to hospital care for patients with colorectal, breast, and lung cancer between 1999 and 2006: retrospective analysis of hospital episode statistics",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVES To determine the extent to which type of hospital admission (emergency compared with elective) and surgical procedure varied by socioeconomic circumstances, age, sex, and year of admission for colorectal, breast, and lung cancer.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Repeated cross sectional study with data from individual patients, 1 April 1999 to 31 March 2006.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "SETTING Hospital episode statistics (HES) dataset.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "PARTICIPANTS 564 821 patients aged 50 and over admitted with a diagnosis of colorectal, breast, or lung cancer.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURES Proportion of patients admitted as emergencies, and the proportion receiving the recommended surgical treatment.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "RESULTS Patients from deprived areas, older people, and women were more likely to be admitted as emergencies."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "For example, the adjusted odds ratio for patients with breast cancer in the least compared with most deprived fifth of deprivation was 0.63 (95% confidence interval 0.60 to 0.66) and the adjusted odds ratio for patients with lung cancer aged 80-89 compared with those aged 50-59 was 3.13 (2.93 to 3.34)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "There were some improvements in disparities between age groups but not for patients living in deprived areas over time."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Patients from deprived areas were less likely to receive preferred procedures for rectal, breast, and lung cancer."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "These findings did not improve with time."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "For example, 67.4% (3529/5237) of patients in the most deprived fifth of deprivation had anterior resection for rectal cancer compared with 75.5% (4497/5959) of patients in the least deprived fifth (1.34, 1.22 to 1.47)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Over half (54.0%, 11 256/20 849) of patients in the most deprived fifth of deprivation had breast conserving surgery compared with 63.7% (18 445/28 960) of patients in the least deprived fifth (1.21, 1.16 to 1.26)."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "Men were less likely than women to undergo anterior resection and lung cancer resection and older people were less likely to receive breast conserving surgery and lung cancer resection."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "For example, the adjusted odds ratio for lung cancer patients aged 80-89 compared with those aged 50-59 was 0.52 (0.46 to 0.59)."
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "Conclusions Despite the implementation of the NHS Cancer Plan, social factors still strongly influence access to and the provision of care."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Patients with common epithelial cancers  are more likely to have an emergency event as their first hospital admission if they live in resource-deprived areas.",
+      "evidence": [
+        {
+          "doc_id": 16390264,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "RESULTS Patients from deprived areas, older people, and women were more likely to be admitted as emergencies.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 16390264,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "For example, the adjusted odds ratio for patients with breast cancer in the least compared with most deprived fifth of deprivation was 0.63 (95% confidence interval 0.60 to 0.66) and the adjusted odds ratio for patients with lung cancer aged 80-89 compared with those aged 50-59 was 3.13 (2.93 to 3.34).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 16390264,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "There were some improvements in disparities between age groups but not for patients living in deprived areas over time.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 16390264,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "For example, 67.4% (3529/5237) of patients in the most deprived fifth of deprivation had anterior resection for rectal cancer compared with 75.5% (4497/5959) of patients in the least deprived fifth (1.34, 1.22 to 1.47).",
+          "kept": true,
+          "new_index": 7
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 16390264,
+          "title": "Social variations in access to hospital care for patients with colorectal, breast, and lung cancer between 1999 and 2006: retrospective analysis of hospital episode statistics",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVES To determine the extent to which type of hospital admission (emergency compared with elective) and surgical procedure varied by socioeconomic circumstances, age, sex, and year of admission for colorectal, breast, and lung cancer.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Repeated cross sectional study with data from individual patients, 1 April 1999 to 31 March 2006.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "SETTING Hospital episode statistics (HES) dataset.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURES Proportion of patients admitted as emergencies, and the proportion receiving the recommended surgical treatment.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "RESULTS Patients from deprived areas, older people, and women were more likely to be admitted as emergencies."
+            },
+            {
+              "new_index": 5,
+              "original_index": 8,
+              "sentence": "Patients from deprived areas were less likely to receive preferred procedures for rectal, breast, and lung cancer."
+            },
+            {
+              "new_index": 6,
+              "original_index": 9,
+              "sentence": "These findings did not improve with time."
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "For example, 67.4% (3529/5237) of patients in the most deprived fifth of deprivation had anterior resection for rectal cancer compared with 75.5% (4497/5959) of patients in the least deprived fifth (1.34, 1.22 to 1.47)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "Over half (54.0%, 11 256/20 849) of patients in the most deprived fifth of deprivation had breast conserving surgery compared with 63.7% (18 445/28 960) of patients in the least deprived fifth (1.21, 1.16 to 1.26)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 12,
+              "sentence": "Men were less likely than women to undergo anterior resection and lung cancer resection and older people were less likely to receive breast conserving surgery and lung cancer resection."
+            },
+            {
+              "new_index": 10,
+              "original_index": 14,
+              "sentence": "Conclusions Despite the implementation of the NHS Cancer Plan, social factors still strongly influence access to and the provision of care."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 16390264,
+          "original_index": 3,
+          "sentence": "PARTICIPANTS 564 821 patients aged 50 and over admitted with a diagnosis of colorectal, breast, or lung cancer.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 16390264,
+          "original_index": 6,
+          "sentence": "For example, the adjusted odds ratio for patients with breast cancer in the least compared with most deprived fifth of deprivation was 0.63 (95% confidence interval 0.60 to 0.66) and the adjusted odds ratio for patients with lung cancer aged 80-89 compared with those aged 50-59 was 3.13 (2.93 to 3.34).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 16390264,
+          "original_index": 7,
+          "sentence": "There were some improvements in disparities between age groups but not for patients living in deprived areas over time.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 16390264,
+          "original_index": 13,
+          "sentence": "For example, the adjusted odds ratio for lung cancer patients aged 80-89 compared with those aged 50-59 was 0.52 (0.46 to 0.59).",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g2",
+        "g0"
+      ],
+      "claim": "Patients with common epithelial cancers  are more likely to have an emergency event as their first hospital admission if they live in resource-deprived areas.",
+      "evidence": [
+        {
+          "doc_id": 16390264,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "RESULTS Patients from deprived areas, older people, and women were more likely to be admitted as emergencies.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 16390264,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "For example, the adjusted odds ratio for patients with breast cancer in the least compared with most deprived fifth of deprivation was 0.63 (95% confidence interval 0.60 to 0.66) and the adjusted odds ratio for patients with lung cancer aged 80-89 compared with those aged 50-59 was 3.13 (2.93 to 3.34).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 16390264,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "There were some improvements in disparities between age groups but not for patients living in deprived areas over time.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 16390264,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "For example, 67.4% (3529/5237) of patients in the most deprived fifth of deprivation had anterior resection for rectal cancer compared with 75.5% (4497/5959) of patients in the least deprived fifth (1.34, 1.22 to 1.47).",
+          "kept": true,
+          "new_index": 6
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 16390264,
+          "title": "Social variations in access to hospital care for patients with colorectal, breast, and lung cancer between 1999 and 2006: retrospective analysis of hospital episode statistics",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "DESIGN Repeated cross sectional study with data from individual patients, 1 April 1999 to 31 March 2006.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "SETTING Hospital episode statistics (HES) dataset.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "PARTICIPANTS 564 821 patients aged 50 and over admitted with a diagnosis of colorectal, breast, or lung cancer.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURES Proportion of patients admitted as emergencies, and the proportion receiving the recommended surgical treatment.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 8,
+              "sentence": "Patients from deprived areas were less likely to receive preferred procedures for rectal, breast, and lung cancer."
+            },
+            {
+              "new_index": 5,
+              "original_index": 9,
+              "sentence": "These findings did not improve with time."
+            },
+            {
+              "new_index": 6,
+              "original_index": 10,
+              "sentence": "For example, 67.4% (3529/5237) of patients in the most deprived fifth of deprivation had anterior resection for rectal cancer compared with 75.5% (4497/5959) of patients in the least deprived fifth (1.34, 1.22 to 1.47)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 11,
+              "sentence": "Over half (54.0%, 11 256/20 849) of patients in the most deprived fifth of deprivation had breast conserving surgery compared with 63.7% (18 445/28 960) of patients in the least deprived fifth (1.21, 1.16 to 1.26)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 12,
+              "sentence": "Men were less likely than women to undergo anterior resection and lung cancer resection and older people were less likely to receive breast conserving surgery and lung cancer resection."
+            },
+            {
+              "new_index": 9,
+              "original_index": 13,
+              "sentence": "For example, the adjusted odds ratio for lung cancer patients aged 80-89 compared with those aged 50-59 was 0.52 (0.46 to 0.59)."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 16390264,
+          "original_index": 0,
+          "sentence": "OBJECTIVES To determine the extent to which type of hospital admission (emergency compared with elective) and surgical procedure varied by socioeconomic circumstances, age, sex, and year of admission for colorectal, breast, and lung cancer.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 16390264,
+          "original_index": 5,
+          "sentence": "RESULTS Patients from deprived areas, older people, and women were more likely to be admitted as emergencies.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 16390264,
+          "original_index": 6,
+          "sentence": "For example, the adjusted odds ratio for patients with breast cancer in the least compared with most deprived fifth of deprivation was 0.63 (95% confidence interval 0.60 to 0.66) and the adjusted odds ratio for patients with lung cancer aged 80-89 compared with those aged 50-59 was 3.13 (2.93 to 3.34).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 16390264,
+          "original_index": 7,
+          "sentence": "There were some improvements in disparities between age groups but not for patients living in deprived areas over time.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 16390264,
+          "original_index": 14,
+          "sentence": "Conclusions Despite the implementation of the NHS Cancer Plan, social factors still strongly influence access to and the provision of care.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2"
+      ],
+      "claim": "Patients with common epithelial cancers  are more likely to have an emergency event as their first hospital admission if they live in resource-deprived areas.",
+      "evidence": [
+        {
+          "doc_id": 16390264,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "RESULTS Patients from deprived areas, older people, and women were more likely to be admitted as emergencies.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 16390264,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "For example, the adjusted odds ratio for patients with breast cancer in the least compared with most deprived fifth of deprivation was 0.63 (95% confidence interval 0.60 to 0.66) and the adjusted odds ratio for patients with lung cancer aged 80-89 compared with those aged 50-59 was 3.13 (2.93 to 3.34).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 16390264,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "There were some improvements in disparities between age groups but not for patients living in deprived areas over time.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 16390264,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "For example, 67.4% (3529/5237) of patients in the most deprived fifth of deprivation had anterior resection for rectal cancer compared with 75.5% (4497/5959) of patients in the least deprived fifth (1.34, 1.22 to 1.47).",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 16390264,
+          "title": "Social variations in access to hospital care for patients with colorectal, breast, and lung cancer between 1999 and 2006: retrospective analysis of hospital episode statistics",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVES To determine the extent to which type of hospital admission (emergency compared with elective) and surgical procedure varied by socioeconomic circumstances, age, sex, and year of admission for colorectal, breast, and lung cancer.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Repeated cross sectional study with data from individual patients, 1 April 1999 to 31 March 2006.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURES Proportion of patients admitted as emergencies, and the proportion receiving the recommended surgical treatment.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 8,
+              "sentence": "Patients from deprived areas were less likely to receive preferred procedures for rectal, breast, and lung cancer."
+            },
+            {
+              "new_index": 4,
+              "original_index": 9,
+              "sentence": "These findings did not improve with time."
+            },
+            {
+              "new_index": 5,
+              "original_index": 11,
+              "sentence": "Over half (54.0%, 11 256/20 849) of patients in the most deprived fifth of deprivation had breast conserving surgery compared with 63.7% (18 445/28 960) of patients in the least deprived fifth (1.21, 1.16 to 1.26)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 12,
+              "sentence": "Men were less likely than women to undergo anterior resection and lung cancer resection and older people were less likely to receive breast conserving surgery and lung cancer resection."
+            },
+            {
+              "new_index": 7,
+              "original_index": 13,
+              "sentence": "For example, the adjusted odds ratio for lung cancer patients aged 80-89 compared with those aged 50-59 was 0.52 (0.46 to 0.59)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 14,
+              "sentence": "Conclusions Despite the implementation of the NHS Cancer Plan, social factors still strongly influence access to and the provision of care."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 16390264,
+          "original_index": 2,
+          "sentence": "SETTING Hospital episode statistics (HES) dataset.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 16390264,
+          "original_index": 3,
+          "sentence": "PARTICIPANTS 564 821 patients aged 50 and over admitted with a diagnosis of colorectal, breast, or lung cancer.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 16390264,
+          "original_index": 5,
+          "sentence": "RESULTS Patients from deprived areas, older people, and women were more likely to be admitted as emergencies.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 16390264,
+          "original_index": 6,
+          "sentence": "For example, the adjusted odds ratio for patients with breast cancer in the least compared with most deprived fifth of deprivation was 0.63 (95% confidence interval 0.60 to 0.66) and the adjusted odds ratio for patients with lung cancer aged 80-89 compared with those aged 50-59 was 3.13 (2.93 to 3.34).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 16390264,
+          "original_index": 7,
+          "sentence": "There were some improvements in disparities between age groups but not for patients living in deprived areas over time.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 16390264,
+          "original_index": 10,
+          "sentence": "For example, 67.4% (3529/5237) of patients in the most deprived fifth of deprivation had anterior resection for rectal cancer compared with 75.5% (4497/5959) of patients in the least deprived fifth (1.34, 1.22 to 1.47).",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

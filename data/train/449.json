@@ -1,0 +1,134 @@
+{
+  "id": 449,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Gastric lavage is an effective treatment for acute paraquat poisoning.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 12209494,
+          "title": "Multiple-dose activated charcoal in acute self-poisoning: a randomised controlled trial",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND The case-fatality for intentional self-poisoning in the rural developing world is 10-50-fold higher than that in industrialised countries, mostly because of the use of highly toxic pesticides and plants."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We therefore aimed to assess whether routine treatment with multiple-dose activated charcoal, to interrupt enterovascular or enterohepatic circulations, offers benefit compared with no charcoal in such an environment.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS We did an open-label, parallel group, randomised, controlled trial of six 50 g doses of activated charcoal at 4-h intervals versus no charcoal versus one 50 g dose of activated charcoal in three Sri Lankan hospitals."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "4632 patients were randomised to receive no charcoal (n=1554), one dose of charcoal (n=1545), or six doses of charcoal (n=1533); outcomes were available for 4629 patients."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "2338 (51%) individuals had ingested pesticides, whereas 1647 (36%) had ingested yellow oleander (Thevetia peruviana) seeds."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Mortality was the primary outcome measure."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Analysis was by intention to treat."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "The trial is registered with controlled-trials.com as ISRCTN02920054.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "FINDINGS Mortality did not differ between the groups."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "97 (6.3%) of 1531 participants in the multiple-dose group died, compared with 105 (6.8%) of 1554 in the no charcoal group (adjusted odds ratio 0.96, 95% CI 0.70-1.33)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "No differences were noted for patients who took particular poisons, were severely ill on admission, or who presented early.   \n"
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "INTERPRETATION We cannot recommend the routine use of multiple-dose activated charcoal in rural Asia Pacific; although further studies of early charcoal administration might be useful, effective affordable treatments are urgently needed."
+            }
+          ]
+        },
+        {
+          "doc_id": 3430789,
+          "title": "Effect of activated charcoal hemoperfusion on renal function in patients with paraquat poisoning.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The present study retrospectively analyzed 19 patients diagnosed with paraquat (PQ) poisoning with the aim to investigate the effect of activated charcoal hemoperfusion on renal function and PQ elimination."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The results indicated that 7 patients died and 12 survived."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Non-oliguric renal failure occurred in all of the 7 patients who died."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Among the 12 surviving patients, 10 had normal renal function and 2 developed non-oliguric renal failure."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "There was a linear correlation between plasma and urine paraquat concentration prior to and during activated charcoal hemoperfusion."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "The equation parameters together with the correlation coefficient on admission were as follows: Y=0.5820+1.7348X (R2=0.678; F=35.768; P<0.0001)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "The equation parameters together with the correlation coefficient were as follows during activated charcoal hemoperfusion: Y=0.6827+1.2649X (R2=0.626; F=50.308; P<0.0001)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Therefore, it was concluded that in patients with normal renal function, the elimination kinetics of PQ by the kidneys were only associated with the plasma PQ concentration."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Activated charcoal hemoperfusion had little effect on avoiding acute kidney injury in patients with severe PQ poisoning."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

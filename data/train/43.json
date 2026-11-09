@@ -1,0 +1,53 @@
+{
+  "id": 43,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "A low percentage of hematopoietic progenitor cells are susceptible to HIV-1 infection ex vivo.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 7224723,
+          "title": "HIV–1 Infects Multipotent Progenitor Cells Causing Cell Death and Establishing Latent Cellular Reservoirs",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "HIV causes a chronic infection characterized by depletion of CD4(+) T lymphocytes and the development of opportunistic infections."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Despite drugs that inhibit viral spread, HIV infection has been difficult to cure because of uncharacterized reservoirs of infected cells that are resistant to highly active antiretroviral therapy (HAART) and the immune response."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here we used CD34(+) cells from infected people as well as in vitro studies of wild-type HIV to show infection and killing of CD34(+) multipotent hematopoietic progenitor cells (HPCs)."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "In some HPCs, we detected latent infection that stably persisted in cell culture until viral gene expression was activated by differentiation factors."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "A unique reporter HIV that directly detects latently infected cells in vitro confirmed the presence of distinct populations of active and latently infected HPCs."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "These findings have major implications for understanding HIV bone marrow pathology and the mechanisms by which HIV causes persistent infection."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

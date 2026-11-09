@@ -1,0 +1,63 @@
+{
+  "id": 300,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Cytosolic proteins bind to iron-responsive elements on mRNAs coding for DMT1. Cytosolic proteins bind to iron-responsive elements on mRNAs coding for proteins involved in iron uptake.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 3553087,
+          "title": "Mitochondrial iron chelation ameliorates cigarette-smoke induced bronchitis and emphysema in mice",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Chronic obstructive pulmonary disease (COPD) is linked to both cigarette smoking and genetic determinants."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We have previously identified iron-responsive element-binding protein 2 (IRP2) as an important COPD susceptibility gene and have shown that IRP2 protein is increased in the lungs of individuals with COPD."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here we demonstrate that mice deficient in Irp2 were protected from cigarette smoke (CS)-induced experimental COPD."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "By integrating RNA immunoprecipitation followed by sequencing (RIP-seq), RNA sequencing (RNA-seq), and gene expression and functional enrichment clustering analysis, we identified Irp2 as a regulator of mitochondrial function in the lungs of mice."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Irp2 increased mitochondrial iron loading and levels of cytochrome c oxidase (COX), which led to mitochondrial dysfunction and subsequent experimental COPD."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Frataxin-deficient mice, which had higher mitochondrial iron loading, showed impaired airway mucociliary clearance (MCC) and higher pulmonary inflammation at baseline, whereas mice deficient in the synthesis of cytochrome c oxidase, which have reduced COX, were protected from CS-induced pulmonary inflammation and impairment of MCC."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Mice treated with a mitochondrial iron chelator or mice fed a low-iron diet were protected from CS-induced COPD."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Mitochondrial iron chelation also alleviated CS-induced impairment of MCC, CS-induced pulmonary inflammation and CS-associated lung injury in mice with established COPD, suggesting a critical functional role and potential therapeutic intervention for the mitochondrial-iron axis in COPD."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

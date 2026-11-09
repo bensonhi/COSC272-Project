@@ -1,0 +1,423 @@
+{
+  "id": 1045,
+  "origin": "train_more",
+  "n_groups": 4,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Rhythmic expression of Cry1 translates directly into a circadian regulation of cAMP signaling in hepatic glucose metabolism.",
+      "evidence": [
+        {
+          "doc_id": 22500262,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Although the underlying mechanism is unclear, hepatic gluconeogenesis is also regulated by the circadian clock, which coordinates glucose metabolism with changes in the external environment.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 22500262,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Circadian control of gene expression is achieved by two transcriptional activators, Clock and Bmal1, which stimulate cryptochrome (Cry1 and Cry2) and Period (Per1, Per2 and Per3) repressors that feed back on Clock-Bmal1 activity.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 22500262,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Here we show that Creb activity during fasting is modulated by Cry1 and Cry2, which are rhythmically expressed in the liver.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 22500262,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Cry1 expression was elevated during the night-day transition, when it reduced fasting gluconeogenic gene expression by blocking glucagon-mediated increases in intracellular cAMP concentrations and in the protein kinase A-mediated phosphorylation of Creb.",
+          "kept": true,
+          "new_index": 5
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 22500262,
+          "title": "Cryptochrome Mediates Circadian Regulation of cAMP Signaling and Hepatic Gluconeogenesis",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "During fasting, mammals maintain normal glucose homeostasis by stimulating hepatic gluconeogenesis."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Elevations in circulating glucagon and epinephrine, two hormones that activate hepatic gluconeogenesis, trigger the cAMP-mediated phosphorylation of cAMP response element-binding protein (Creb) and dephosphorylation of the Creb-regulated transcription coactivator-2 (Crtc2)--two key transcriptional regulators of this process."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Although the underlying mechanism is unclear, hepatic gluconeogenesis is also regulated by the circadian clock, which coordinates glucose metabolism with changes in the external environment."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Circadian control of gene expression is achieved by two transcriptional activators, Clock and Bmal1, which stimulate cryptochrome (Cry1 and Cry2) and Period (Per1, Per2 and Per3) repressors that feed back on Clock-Bmal1 activity."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Here we show that Creb activity during fasting is modulated by Cry1 and Cry2, which are rhythmically expressed in the liver."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Cry1 expression was elevated during the night-day transition, when it reduced fasting gluconeogenic gene expression by blocking glucagon-mediated increases in intracellular cAMP concentrations and in the protein kinase A-mediated phosphorylation of Creb."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "In biochemical reconstitution studies, we found that Cry1 inhibited accumulation of cAMP in response to G protein-coupled receptor (GPCR) activation but not to forskolin, a direct activator of adenyl cyclase."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Cry proteins seemed to modulate GPCR activity directly through interaction with G(s)α."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "As hepatic overexpression of Cry1 lowered blood glucose concentrations and improved insulin sensitivity in insulin-resistant db/db mice, our results suggest that compounds that enhance cryptochrome activity may provide therapeutic benefit to individuals with type 2 diabetes."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Rhythmic expression of Cry1 translates directly into a circadian regulation of cAMP signaling in hepatic glucose metabolism.",
+      "evidence": [
+        {
+          "doc_id": 22500262,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Although the underlying mechanism is unclear, hepatic gluconeogenesis is also regulated by the circadian clock, which coordinates glucose metabolism with changes in the external environment.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22500262,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Circadian control of gene expression is achieved by two transcriptional activators, Clock and Bmal1, which stimulate cryptochrome (Cry1 and Cry2) and Period (Per1, Per2 and Per3) repressors that feed back on Clock-Bmal1 activity.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22500262,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Here we show that Creb activity during fasting is modulated by Cry1 and Cry2, which are rhythmically expressed in the liver.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 22500262,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Cry1 expression was elevated during the night-day transition, when it reduced fasting gluconeogenic gene expression by blocking glucagon-mediated increases in intracellular cAMP concentrations and in the protein kinase A-mediated phosphorylation of Creb.",
+          "kept": true,
+          "new_index": 3
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 22500262,
+          "title": "Cryptochrome Mediates Circadian Regulation of cAMP Signaling and Hepatic Gluconeogenesis",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "During fasting, mammals maintain normal glucose homeostasis by stimulating hepatic gluconeogenesis."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Elevations in circulating glucagon and epinephrine, two hormones that activate hepatic gluconeogenesis, trigger the cAMP-mediated phosphorylation of cAMP response element-binding protein (Creb) and dephosphorylation of the Creb-regulated transcription coactivator-2 (Crtc2)--two key transcriptional regulators of this process."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Here we show that Creb activity during fasting is modulated by Cry1 and Cry2, which are rhythmically expressed in the liver."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Cry1 expression was elevated during the night-day transition, when it reduced fasting gluconeogenic gene expression by blocking glucagon-mediated increases in intracellular cAMP concentrations and in the protein kinase A-mediated phosphorylation of Creb."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "In biochemical reconstitution studies, we found that Cry1 inhibited accumulation of cAMP in response to G protein-coupled receptor (GPCR) activation but not to forskolin, a direct activator of adenyl cyclase."
+            },
+            {
+              "new_index": 5,
+              "original_index": 8,
+              "sentence": "As hepatic overexpression of Cry1 lowered blood glucose concentrations and improved insulin sensitivity in insulin-resistant db/db mice, our results suggest that compounds that enhance cryptochrome activity may provide therapeutic benefit to individuals with type 2 diabetes."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 22500262,
+          "original_index": 2,
+          "sentence": "Although the underlying mechanism is unclear, hepatic gluconeogenesis is also regulated by the circadian clock, which coordinates glucose metabolism with changes in the external environment.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22500262,
+          "original_index": 3,
+          "sentence": "Circadian control of gene expression is achieved by two transcriptional activators, Clock and Bmal1, which stimulate cryptochrome (Cry1 and Cry2) and Period (Per1, Per2 and Per3) repressors that feed back on Clock-Bmal1 activity.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22500262,
+          "original_index": 7,
+          "sentence": "Cry proteins seemed to modulate GPCR activity directly through interaction with G(s)α.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g1",
+        "g0"
+      ],
+      "claim": "Rhythmic expression of Cry1 translates directly into a circadian regulation of cAMP signaling in hepatic glucose metabolism.",
+      "evidence": [
+        {
+          "doc_id": 22500262,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Although the underlying mechanism is unclear, hepatic gluconeogenesis is also regulated by the circadian clock, which coordinates glucose metabolism with changes in the external environment.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22500262,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Circadian control of gene expression is achieved by two transcriptional activators, Clock and Bmal1, which stimulate cryptochrome (Cry1 and Cry2) and Period (Per1, Per2 and Per3) repressors that feed back on Clock-Bmal1 activity.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22500262,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Here we show that Creb activity during fasting is modulated by Cry1 and Cry2, which are rhythmically expressed in the liver.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22500262,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Cry1 expression was elevated during the night-day transition, when it reduced fasting gluconeogenic gene expression by blocking glucagon-mediated increases in intracellular cAMP concentrations and in the protein kinase A-mediated phosphorylation of Creb.",
+          "kept": true,
+          "new_index": 1
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 22500262,
+          "title": "Cryptochrome Mediates Circadian Regulation of cAMP Signaling and Hepatic Gluconeogenesis",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "Elevations in circulating glucagon and epinephrine, two hormones that activate hepatic gluconeogenesis, trigger the cAMP-mediated phosphorylation of cAMP response element-binding protein (Creb) and dephosphorylation of the Creb-regulated transcription coactivator-2 (Crtc2)--two key transcriptional regulators of this process."
+            },
+            {
+              "new_index": 1,
+              "original_index": 5,
+              "sentence": "Cry1 expression was elevated during the night-day transition, when it reduced fasting gluconeogenic gene expression by blocking glucagon-mediated increases in intracellular cAMP concentrations and in the protein kinase A-mediated phosphorylation of Creb."
+            },
+            {
+              "new_index": 2,
+              "original_index": 6,
+              "sentence": "In biochemical reconstitution studies, we found that Cry1 inhibited accumulation of cAMP in response to G protein-coupled receptor (GPCR) activation but not to forskolin, a direct activator of adenyl cyclase."
+            },
+            {
+              "new_index": 3,
+              "original_index": 7,
+              "sentence": "Cry proteins seemed to modulate GPCR activity directly through interaction with G(s)α."
+            },
+            {
+              "new_index": 4,
+              "original_index": 8,
+              "sentence": "As hepatic overexpression of Cry1 lowered blood glucose concentrations and improved insulin sensitivity in insulin-resistant db/db mice, our results suggest that compounds that enhance cryptochrome activity may provide therapeutic benefit to individuals with type 2 diabetes."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 22500262,
+          "original_index": 0,
+          "sentence": "During fasting, mammals maintain normal glucose homeostasis by stimulating hepatic gluconeogenesis.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 22500262,
+          "original_index": 2,
+          "sentence": "Although the underlying mechanism is unclear, hepatic gluconeogenesis is also regulated by the circadian clock, which coordinates glucose metabolism with changes in the external environment.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22500262,
+          "original_index": 3,
+          "sentence": "Circadian control of gene expression is achieved by two transcriptional activators, Clock and Bmal1, which stimulate cryptochrome (Cry1 and Cry2) and Period (Per1, Per2 and Per3) repressors that feed back on Clock-Bmal1 activity.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22500262,
+          "original_index": 4,
+          "sentence": "Here we show that Creb activity during fasting is modulated by Cry1 and Cry2, which are rhythmically expressed in the liver.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2"
+      ],
+      "claim": "Rhythmic expression of Cry1 translates directly into a circadian regulation of cAMP signaling in hepatic glucose metabolism.",
+      "evidence": [
+        {
+          "doc_id": 22500262,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Although the underlying mechanism is unclear, hepatic gluconeogenesis is also regulated by the circadian clock, which coordinates glucose metabolism with changes in the external environment.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22500262,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Circadian control of gene expression is achieved by two transcriptional activators, Clock and Bmal1, which stimulate cryptochrome (Cry1 and Cry2) and Period (Per1, Per2 and Per3) repressors that feed back on Clock-Bmal1 activity.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22500262,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Here we show that Creb activity during fasting is modulated by Cry1 and Cry2, which are rhythmically expressed in the liver.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22500262,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Cry1 expression was elevated during the night-day transition, when it reduced fasting gluconeogenic gene expression by blocking glucagon-mediated increases in intracellular cAMP concentrations and in the protein kinase A-mediated phosphorylation of Creb.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 22500262,
+          "title": "Cryptochrome Mediates Circadian Regulation of cAMP Signaling and Hepatic Gluconeogenesis",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "During fasting, mammals maintain normal glucose homeostasis by stimulating hepatic gluconeogenesis."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Elevations in circulating glucagon and epinephrine, two hormones that activate hepatic gluconeogenesis, trigger the cAMP-mediated phosphorylation of cAMP response element-binding protein (Creb) and dephosphorylation of the Creb-regulated transcription coactivator-2 (Crtc2)--two key transcriptional regulators of this process."
+            },
+            {
+              "new_index": 2,
+              "original_index": 6,
+              "sentence": "In biochemical reconstitution studies, we found that Cry1 inhibited accumulation of cAMP in response to G protein-coupled receptor (GPCR) activation but not to forskolin, a direct activator of adenyl cyclase."
+            },
+            {
+              "new_index": 3,
+              "original_index": 7,
+              "sentence": "Cry proteins seemed to modulate GPCR activity directly through interaction with G(s)α."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 22500262,
+          "original_index": 2,
+          "sentence": "Although the underlying mechanism is unclear, hepatic gluconeogenesis is also regulated by the circadian clock, which coordinates glucose metabolism with changes in the external environment.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22500262,
+          "original_index": 3,
+          "sentence": "Circadian control of gene expression is achieved by two transcriptional activators, Clock and Bmal1, which stimulate cryptochrome (Cry1 and Cry2) and Period (Per1, Per2 and Per3) repressors that feed back on Clock-Bmal1 activity.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22500262,
+          "original_index": 4,
+          "sentence": "Here we show that Creb activity during fasting is modulated by Cry1 and Cry2, which are rhythmically expressed in the liver.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22500262,
+          "original_index": 5,
+          "sentence": "Cry1 expression was elevated during the night-day transition, when it reduced fasting gluconeogenic gene expression by blocking glucagon-mediated increases in intracellular cAMP concentrations and in the protein kinase A-mediated phosphorylation of Creb.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22500262,
+          "original_index": 8,
+          "sentence": "As hepatic overexpression of Cry1 lowered blood glucose concentrations and improved insulin sensitivity in insulin-resistant db/db mice, our results suggest that compounds that enhance cryptochrome activity may provide therapeutic benefit to individuals with type 2 diabetes.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

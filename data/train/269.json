@@ -1,0 +1,58 @@
+{
+  "id": 269,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Cold exposure reduces BAT recruitment.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 970012,
+          "title": "Cold Exposure Promotes Atherosclerotic Plaque Growth and Instability via UCP1-Dependent Lipolysis",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Molecular mechanisms underlying the cold-associated high cardiovascular risk remain unknown."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here, we show that the cold-triggered food-intake-independent lipolysis significantly increased plasma levels of small low-density lipoprotein (LDL) remnants, leading to accelerated development of atherosclerotic lesions in mice."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "In two genetic mouse knockout models (apolipoprotein E(-/-) [ApoE(-/-)] and LDL receptor(-/-) [Ldlr(-/-)] mice), persistent cold exposure stimulated atherosclerotic plaque growth by increasing lipid deposition."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Furthermore, marked increase of inflammatory cells and plaque-associated microvessels were detected in the cold-acclimated ApoE(-/-) and Ldlr(-/-) mice, leading to plaque instability."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Deletion of uncoupling protein 1 (UCP1), a key mitochondrial protein involved in thermogenesis in brown adipose tissue (BAT), in the ApoE(-/-) strain completely protected mice from the cold-induced atherosclerotic lesions."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Cold acclimation markedly reduced plasma levels of adiponectin, and systemic delivery of adiponectin protected ApoE(-/-) mice from plaque development."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "These findings provide mechanistic insights on low-temperature-associated cardiovascular risks."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

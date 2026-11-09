@@ -1,0 +1,94 @@
+{
+  "id": 1298,
+  "origin": "dev",
+  "claim": "Thigh-length graduated compression stockings (GCS) did not reduce deep vein thrombosis in patients admitted to hospital who are immobile because of acute stroke.",
+  "evidence": [
+    {
+      "doc_id": 11718220,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 11,
+      "sentence": "The primary outcome occurred in 126 (10.0%) patients allocated to thigh-length GCS and in 133 (10.5%) allocated to avoid GCS, resulting in a non-significant absolute reduction in risk of 0.5% (95% CI -1.9% to 2.9%)."
+    },
+    {
+      "doc_id": 11718220,
+      "group_id": "g1",
+      "evidence_label": "SUPPORT",
+      "original_index": 13,
+      "sentence": "INTERPRETATION These data do not lend support to the use of thigh-length GCS in patients admitted to hospital with acute stroke."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 11718220,
+      "title": "Effectiveness of thigh-length graduated compression stockings to reduce the risk of deep vein thrombosis after stroke (CLOTS trial 1): a multicentre, randomised controlled trial",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "BACKGROUND Deep vein thrombosis (DVT) and pulmonary embolism are common after stroke."
+        },
+        {
+          "original_index": 1,
+          "sentence": "In small trials of patients undergoing surgery, graduated compression stockings (GCS) reduce the risk of DVT."
+        },
+        {
+          "original_index": 2,
+          "sentence": "National stroke guidelines extrapolating from these trials recommend their use in patients with stroke despite insufficient evidence."
+        },
+        {
+          "original_index": 3,
+          "sentence": "We assessed the effectiveness of thigh-length GCS to reduce DVT after stroke.   \n"
+        },
+        {
+          "original_index": 4,
+          "sentence": "METHODS In this outcome-blinded, randomised controlled trial, 2518 patients who were admitted to hospital within 1 week of an acute stroke and who were immobile were enrolled from 64 centres in the UK, Italy, and Australia."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Patients were allocated via a central randomisation system to routine care plus thigh-length GCS (n=1256) or to routine care plus avoidance of GCS (n=1262)."
+        },
+        {
+          "original_index": 6,
+          "sentence": "A technician who was blinded to treatment allocation undertook compression Doppler ultrasound of both legs at about 7-10 days and, when practical, again at 25-30 days after enrolment."
+        },
+        {
+          "original_index": 7,
+          "sentence": "The primary outcome was the occurrence of symptomatic or asymptomatic DVT in the popliteal or femoral veins."
+        },
+        {
+          "original_index": 8,
+          "sentence": "Analyses were by intention to treat."
+        },
+        {
+          "original_index": 9,
+          "sentence": "This study is registered, number ISRCTN28163533.   \n"
+        },
+        {
+          "original_index": 10,
+          "sentence": "FINDINGS All patients were included in the analyses."
+        },
+        {
+          "original_index": 11,
+          "sentence": "The primary outcome occurred in 126 (10.0%) patients allocated to thigh-length GCS and in 133 (10.5%) allocated to avoid GCS, resulting in a non-significant absolute reduction in risk of 0.5% (95% CI -1.9% to 2.9%)."
+        },
+        {
+          "original_index": 12,
+          "sentence": "Skin breaks, ulcers, blisters, and skin necrosis were significantly more common in patients allocated to GCS than in those allocated to avoid their use (64 [5%] vs 16 [1%]; odds ratio 4.18, 95% CI 2.40-7.27).   \n"
+        },
+        {
+          "original_index": 13,
+          "sentence": "INTERPRETATION These data do not lend support to the use of thigh-length GCS in patients admitted to hospital with acute stroke."
+        },
+        {
+          "original_index": 14,
+          "sentence": "National guidelines for stroke might need to be revised on the basis of these results.   \n"
+        },
+        {
+          "original_index": 15,
+          "sentence": "FUNDING Medical Research Council (UK), Chief Scientist Office of Scottish Government, Chest Heart and Stroke Scotland, Tyco Healthcare (Covidien) USA, and UK Stroke Research Network."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

@@ -1,0 +1,487 @@
+{
+  "id": 12,
+  "origin": "train_more",
+  "n_groups": 4,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "40mg/day dosage of folic acid and 2mg/day dosage of vitamin B12 does not affect chronic kidney disease (CKD) progression.",
+      "evidence": [
+        {
+          "doc_id": 33409100,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "RESULTS Mean baseline homocysteine level was 24.0 micromol/L in the vitamin group and 24.2 micromol/L in the placebo group.",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 33409100,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 11,
+          "sentence": "In addition, the composite of MI, stroke, and amputations plus mortality (P = .85), time to dialysis (P = .38), and time to thrombosis in hemodialysis patients (P = .97) did not differ between the vitamin and placebo groups.   \n",
+          "kept": true,
+          "new_index": 11
+        },
+        {
+          "doc_id": 33409100,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 12,
+          "sentence": "CONCLUSION Treatment with high doses of folic acid and B vitamins did not improve survival or reduce the incidence of vascular disease in patients with advanced chronic kidney disease or end-stage renal disease.   \n",
+          "kept": true,
+          "new_index": 12
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 33409100,
+          "title": "Effect of homocysteine lowering on mortality and vascular disease in advanced chronic kidney disease and end-stage renal disease: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT High plasma homocysteine levels are a risk factor for mortality and vascular disease in observational studies of patients with chronic kidney disease."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Folic acid and B vitamins decrease homocysteine levels in this population but whether they lower mortality is unknown.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To determine whether high doses of folic acid and B vitamins administered daily reduce mortality in patients with chronic kidney disease.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Double-blind randomized controlled trial (2001-2006) in 36 US Department of Veterans Affairs medical centers."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Median follow-up was 3.2 years for 2056 participants aged 21 years or older with advanced chronic kidney disease (estimated creatinine clearance < or =30 mL/min) (n = 1305) or end-stage renal disease (n = 751) and high homocysteine levels (> or = 15 micromol/L).   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "INTERVENTION Participants received a daily capsule containing 40 mg of folic acid, 100 mg of pyridoxine hydrochloride (vitamin B6), and 2 mg of cyanocobalamin (vitamin B12) or a placebo.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "MAIN OUTCOME MEASURES The primary outcome was all-cause mortality."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Secondary outcomes included myocardial infarction (MI), stroke, amputation of all or part of a lower extremity, a composite of these 3 plus all-cause mortality, time to initiation of dialysis, and time to thrombosis of arteriovenous access in hemodialysis patients.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "RESULTS Mean baseline homocysteine level was 24.0 micromol/L in the vitamin group and 24.2 micromol/L in the placebo group."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "It was lowered 6.3 micromol/L (25.8%; P < .001) in the vitamin group and 0.4 micromol/L (1.7%; P = .14) in the placebo group at 3 months, but there was no significant effect on mortality (448 vitamin group deaths vs 436 placebo group deaths) (hazard ratio [HR], 1.04; 95% CI, 0.91-1.18)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "No significant effects were demonstrated for secondary outcomes or adverse events: there were 129 MIs in the vitamin group vs 150 for placebo (HR, 0.86; 95% CI, 0.67-1.08), 37 strokes in the vitamin group vs 41 for placebo (HR, 0.90; 95% CI, 0.58-1.40), and 60 amputations in the vitamin group vs 53 for placebo (HR, 1.14; 95% CI, 0.79-1.64)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "In addition, the composite of MI, stroke, and amputations plus mortality (P = .85), time to dialysis (P = .38), and time to thrombosis in hemodialysis patients (P = .97) did not differ between the vitamin and placebo groups.   \n"
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "CONCLUSION Treatment with high doses of folic acid and B vitamins did not improve survival or reduce the incidence of vascular disease in patients with advanced chronic kidney disease or end-stage renal disease.   \n"
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "TRIAL REGISTRATION clinicaltrials.gov Identifier: NCT00032435."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "40mg/day dosage of folic acid and 2mg/day dosage of vitamin B12 does not affect chronic kidney disease (CKD) progression.",
+      "evidence": [
+        {
+          "doc_id": 33409100,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "RESULTS Mean baseline homocysteine level was 24.0 micromol/L in the vitamin group and 24.2 micromol/L in the placebo group.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 33409100,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 11,
+          "sentence": "In addition, the composite of MI, stroke, and amputations plus mortality (P = .85), time to dialysis (P = .38), and time to thrombosis in hemodialysis patients (P = .97) did not differ between the vitamin and placebo groups.   \n",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 33409100,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 12,
+          "sentence": "CONCLUSION Treatment with high doses of folic acid and B vitamins did not improve survival or reduce the incidence of vascular disease in patients with advanced chronic kidney disease or end-stage renal disease.   \n",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 33409100,
+          "title": "Effect of homocysteine lowering on mortality and vascular disease in advanced chronic kidney disease and end-stage renal disease: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT High plasma homocysteine levels are a risk factor for mortality and vascular disease in observational studies of patients with chronic kidney disease."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To determine whether high doses of folic acid and B vitamins administered daily reduce mortality in patients with chronic kidney disease.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Median follow-up was 3.2 years for 2056 participants aged 21 years or older with advanced chronic kidney disease (estimated creatinine clearance < or =30 mL/min) (n = 1305) or end-stage renal disease (n = 751) and high homocysteine levels (> or = 15 micromol/L).   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "INTERVENTION Participants received a daily capsule containing 40 mg of folic acid, 100 mg of pyridoxine hydrochloride (vitamin B6), and 2 mg of cyanocobalamin (vitamin B12) or a placebo.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "MAIN OUTCOME MEASURES The primary outcome was all-cause mortality."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Secondary outcomes included myocardial infarction (MI), stroke, amputation of all or part of a lower extremity, a composite of these 3 plus all-cause mortality, time to initiation of dialysis, and time to thrombosis of arteriovenous access in hemodialysis patients.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "RESULTS Mean baseline homocysteine level was 24.0 micromol/L in the vitamin group and 24.2 micromol/L in the placebo group."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "It was lowered 6.3 micromol/L (25.8%; P < .001) in the vitamin group and 0.4 micromol/L (1.7%; P = .14) in the placebo group at 3 months, but there was no significant effect on mortality (448 vitamin group deaths vs 436 placebo group deaths) (hazard ratio [HR], 1.04; 95% CI, 0.91-1.18)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "No significant effects were demonstrated for secondary outcomes or adverse events: there were 129 MIs in the vitamin group vs 150 for placebo (HR, 0.86; 95% CI, 0.67-1.08), 37 strokes in the vitamin group vs 41 for placebo (HR, 0.90; 95% CI, 0.58-1.40), and 60 amputations in the vitamin group vs 53 for placebo (HR, 1.14; 95% CI, 0.79-1.64)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "In addition, the composite of MI, stroke, and amputations plus mortality (P = .85), time to dialysis (P = .38), and time to thrombosis in hemodialysis patients (P = .97) did not differ between the vitamin and placebo groups.   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 13,
+              "sentence": "TRIAL REGISTRATION clinicaltrials.gov Identifier: NCT00032435."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 33409100,
+          "original_index": 1,
+          "sentence": "Folic acid and B vitamins decrease homocysteine levels in this population but whether they lower mortality is unknown.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 33409100,
+          "original_index": 3,
+          "sentence": "DESIGN, SETTING, AND PARTICIPANTS Double-blind randomized controlled trial (2001-2006) in 36 US Department of Veterans Affairs medical centers.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 33409100,
+          "original_index": 12,
+          "sentence": "CONCLUSION Treatment with high doses of folic acid and B vitamins did not improve survival or reduce the incidence of vascular disease in patients with advanced chronic kidney disease or end-stage renal disease.   \n",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g2",
+        "g1"
+      ],
+      "claim": "40mg/day dosage of folic acid and 2mg/day dosage of vitamin B12 does not affect chronic kidney disease (CKD) progression.",
+      "evidence": [
+        {
+          "doc_id": 33409100,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "RESULTS Mean baseline homocysteine level was 24.0 micromol/L in the vitamin group and 24.2 micromol/L in the placebo group.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 33409100,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 11,
+          "sentence": "In addition, the composite of MI, stroke, and amputations plus mortality (P = .85), time to dialysis (P = .38), and time to thrombosis in hemodialysis patients (P = .97) did not differ between the vitamin and placebo groups.   \n",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 33409100,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 12,
+          "sentence": "CONCLUSION Treatment with high doses of folic acid and B vitamins did not improve survival or reduce the incidence of vascular disease in patients with advanced chronic kidney disease or end-stage renal disease.   \n",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 33409100,
+          "title": "Effect of homocysteine lowering on mortality and vascular disease in advanced chronic kidney disease and end-stage renal disease: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To determine whether high doses of folic acid and B vitamins administered daily reduce mortality in patients with chronic kidney disease.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 3,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Double-blind randomized controlled trial (2001-2006) in 36 US Department of Veterans Affairs medical centers."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Median follow-up was 3.2 years for 2056 participants aged 21 years or older with advanced chronic kidney disease (estimated creatinine clearance < or =30 mL/min) (n = 1305) or end-stage renal disease (n = 751) and high homocysteine levels (> or = 15 micromol/L).   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "INTERVENTION Participants received a daily capsule containing 40 mg of folic acid, 100 mg of pyridoxine hydrochloride (vitamin B6), and 2 mg of cyanocobalamin (vitamin B12) or a placebo.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "MAIN OUTCOME MEASURES The primary outcome was all-cause mortality."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Secondary outcomes included myocardial infarction (MI), stroke, amputation of all or part of a lower extremity, a composite of these 3 plus all-cause mortality, time to initiation of dialysis, and time to thrombosis of arteriovenous access in hemodialysis patients.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "RESULTS Mean baseline homocysteine level was 24.0 micromol/L in the vitamin group and 24.2 micromol/L in the placebo group."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "It was lowered 6.3 micromol/L (25.8%; P < .001) in the vitamin group and 0.4 micromol/L (1.7%; P = .14) in the placebo group at 3 months, but there was no significant effect on mortality (448 vitamin group deaths vs 436 placebo group deaths) (hazard ratio [HR], 1.04; 95% CI, 0.91-1.18)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "No significant effects were demonstrated for secondary outcomes or adverse events: there were 129 MIs in the vitamin group vs 150 for placebo (HR, 0.86; 95% CI, 0.67-1.08), 37 strokes in the vitamin group vs 41 for placebo (HR, 0.90; 95% CI, 0.58-1.40), and 60 amputations in the vitamin group vs 53 for placebo (HR, 1.14; 95% CI, 0.79-1.64)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 13,
+              "sentence": "TRIAL REGISTRATION clinicaltrials.gov Identifier: NCT00032435."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 33409100,
+          "original_index": 0,
+          "sentence": "CONTEXT High plasma homocysteine levels are a risk factor for mortality and vascular disease in observational studies of patients with chronic kidney disease.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 33409100,
+          "original_index": 1,
+          "sentence": "Folic acid and B vitamins decrease homocysteine levels in this population but whether they lower mortality is unknown.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 33409100,
+          "original_index": 11,
+          "sentence": "In addition, the composite of MI, stroke, and amputations plus mortality (P = .85), time to dialysis (P = .38), and time to thrombosis in hemodialysis patients (P = .97) did not differ between the vitamin and placebo groups.   \n",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 33409100,
+          "original_index": 12,
+          "sentence": "CONCLUSION Treatment with high doses of folic acid and B vitamins did not improve survival or reduce the incidence of vascular disease in patients with advanced chronic kidney disease or end-stage renal disease.   \n",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2"
+      ],
+      "claim": "40mg/day dosage of folic acid and 2mg/day dosage of vitamin B12 does not affect chronic kidney disease (CKD) progression.",
+      "evidence": [
+        {
+          "doc_id": 33409100,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "RESULTS Mean baseline homocysteine level was 24.0 micromol/L in the vitamin group and 24.2 micromol/L in the placebo group.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 33409100,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 11,
+          "sentence": "In addition, the composite of MI, stroke, and amputations plus mortality (P = .85), time to dialysis (P = .38), and time to thrombosis in hemodialysis patients (P = .97) did not differ between the vitamin and placebo groups.   \n",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 33409100,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 12,
+          "sentence": "CONCLUSION Treatment with high doses of folic acid and B vitamins did not improve survival or reduce the incidence of vascular disease in patients with advanced chronic kidney disease or end-stage renal disease.   \n",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 33409100,
+          "title": "Effect of homocysteine lowering on mortality and vascular disease in advanced chronic kidney disease and end-stage renal disease: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT High plasma homocysteine levels are a risk factor for mortality and vascular disease in observational studies of patients with chronic kidney disease."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Folic acid and B vitamins decrease homocysteine levels in this population but whether they lower mortality is unknown.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Double-blind randomized controlled trial (2001-2006) in 36 US Department of Veterans Affairs medical centers."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Median follow-up was 3.2 years for 2056 participants aged 21 years or older with advanced chronic kidney disease (estimated creatinine clearance < or =30 mL/min) (n = 1305) or end-stage renal disease (n = 751) and high homocysteine levels (> or = 15 micromol/L).   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "INTERVENTION Participants received a daily capsule containing 40 mg of folic acid, 100 mg of pyridoxine hydrochloride (vitamin B6), and 2 mg of cyanocobalamin (vitamin B12) or a placebo.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Secondary outcomes included myocardial infarction (MI), stroke, amputation of all or part of a lower extremity, a composite of these 3 plus all-cause mortality, time to initiation of dialysis, and time to thrombosis of arteriovenous access in hemodialysis patients.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 9,
+              "sentence": "It was lowered 6.3 micromol/L (25.8%; P < .001) in the vitamin group and 0.4 micromol/L (1.7%; P = .14) in the placebo group at 3 months, but there was no significant effect on mortality (448 vitamin group deaths vs 436 placebo group deaths) (hazard ratio [HR], 1.04; 95% CI, 0.91-1.18)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "No significant effects were demonstrated for secondary outcomes or adverse events: there were 129 MIs in the vitamin group vs 150 for placebo (HR, 0.86; 95% CI, 0.67-1.08), 37 strokes in the vitamin group vs 41 for placebo (HR, 0.90; 95% CI, 0.58-1.40), and 60 amputations in the vitamin group vs 53 for placebo (HR, 1.14; 95% CI, 0.79-1.64)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 13,
+              "sentence": "TRIAL REGISTRATION clinicaltrials.gov Identifier: NCT00032435."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 33409100,
+          "original_index": 2,
+          "sentence": "OBJECTIVE To determine whether high doses of folic acid and B vitamins administered daily reduce mortality in patients with chronic kidney disease.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 33409100,
+          "original_index": 6,
+          "sentence": "MAIN OUTCOME MEASURES The primary outcome was all-cause mortality.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 33409100,
+          "original_index": 8,
+          "sentence": "RESULTS Mean baseline homocysteine level was 24.0 micromol/L in the vitamin group and 24.2 micromol/L in the placebo group.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 33409100,
+          "original_index": 11,
+          "sentence": "In addition, the composite of MI, stroke, and amputations plus mortality (P = .85), time to dialysis (P = .38), and time to thrombosis in hemodialysis patients (P = .97) did not differ between the vitamin and placebo groups.   \n",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 33409100,
+          "original_index": 12,
+          "sentence": "CONCLUSION Treatment with high doses of folic acid and B vitamins did not improve survival or reduce the incidence of vascular disease in patients with advanced chronic kidney disease or end-stage renal disease.   \n",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": 997,
+  "origin": "train_more",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Pyridostatin induces double-strand breaks accumulation.",
+      "evidence": [
+        {
+          "doc_id": 16472469,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Remarkably, PDS reduces proliferation of HR-defective cells by inducing DSB accumulation, checkpoint activation, and deregulated G2/M progression and by enhancing the replication defect intrinsic to HR deficiency.",
+          "kept": true,
+          "new_index": 5
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 16472469,
+          "title": "Targeting BRCA1 and BRCA2 Deficiencies with G-Quadruplex-Interacting Compounds",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "G-quadruplex (G4)-forming genomic sequences, including telomeres, represent natural replication fork barriers."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Stalled replication forks can be stabilized and restarted by homologous recombination (HR), which also repairs DNA double-strand breaks (DSBs) arising at collapsed forks."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We have previously shown that HR facilitates telomere replication."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Here, we demonstrate that the replication efficiency of guanine-rich (G-rich) telomeric repeats is decreased significantly in cells lacking HR."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Treatment with the G4-stabilizing compound pyridostatin (PDS) increases telomere fragility in BRCA2-deficient cells, suggesting that G4 formation drives telomere instability."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Remarkably, PDS reduces proliferation of HR-defective cells by inducing DSB accumulation, checkpoint activation, and deregulated G2/M progression and by enhancing the replication defect intrinsic to HR deficiency."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "PDS toxicity extends to HR-defective cells that have acquired olaparib resistance through loss of 53BP1 or REV7."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Altogether, these results highlight the therapeutic potential of G4-stabilizing drugs to selectively eliminate HR-compromised cells and tumors, including those resistant to PARP inhibition."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Pyridostatin induces double-strand breaks accumulation.",
+      "evidence": [
+        {
+          "doc_id": 16472469,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Remarkably, PDS reduces proliferation of HR-defective cells by inducing DSB accumulation, checkpoint activation, and deregulated G2/M progression and by enhancing the replication defect intrinsic to HR deficiency.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 16472469,
+          "title": "Targeting BRCA1 and BRCA2 Deficiencies with G-Quadruplex-Interacting Compounds",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "Stalled replication forks can be stabilized and restarted by homologous recombination (HR), which also repairs DNA double-strand breaks (DSBs) arising at collapsed forks."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "We have previously shown that HR facilitates telomere replication."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Here, we demonstrate that the replication efficiency of guanine-rich (G-rich) telomeric repeats is decreased significantly in cells lacking HR."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Treatment with the G4-stabilizing compound pyridostatin (PDS) increases telomere fragility in BRCA2-deficient cells, suggesting that G4 formation drives telomere instability."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "PDS toxicity extends to HR-defective cells that have acquired olaparib resistance through loss of 53BP1 or REV7."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Altogether, these results highlight the therapeutic potential of G4-stabilizing drugs to selectively eliminate HR-compromised cells and tumors, including those resistant to PARP inhibition."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 16472469,
+          "original_index": 0,
+          "sentence": "G-quadruplex (G4)-forming genomic sequences, including telomeres, represent natural replication fork barriers.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 16472469,
+          "original_index": 5,
+          "sentence": "Remarkably, PDS reduces proliferation of HR-defective cells by inducing DSB accumulation, checkpoint activation, and deregulated G2/M progression and by enhancing the replication defect intrinsic to HR deficiency.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

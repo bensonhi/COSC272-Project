@@ -1,0 +1,384 @@
+{
+  "id": 740,
+  "origin": "train_more",
+  "n_groups": 4,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "MUC1-C activates the NF-κB p65 signaling pathway by interacting with IκB kinase ß.",
+      "evidence": [
+        {
+          "doc_id": 23078022,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 2,
+          "sentence": "This study demonstrates that overexpression of MUC1 in human carcinoma cells is associated with constitutive activation of NF-κB p65.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 23078022,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 4,
+          "sentence": "Interaction of MUC1 with both IKKβ and IKKγ is necessary for IKKβ activation, resulting in phosphorylation and degradation of IκBα.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 23078022,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "These findings indicate that MUC1 is important for physiological activation of IKKβ and that overexpression of MUC1, as found in human cancers, confers sustained induction of the IKKβ–NF-κB p65 pathway.",
+          "kept": true,
+          "new_index": 8
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 23078022,
+          "title": "MUC1 oncoprotein activates the IκB kinase β complex and constitutive NF-κB signalling",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Nuclear factor-κB (NF-κB) is constitutively activated in diverse human malignancies by mechanisms that are not understood."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The MUC1 oncoprotein is aberrantly overexpressed by most human carcinomas and, similarly to NF-κB, blocks apoptosis and induces transformation."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "This study demonstrates that overexpression of MUC1 in human carcinoma cells is associated with constitutive activation of NF-κB p65."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We show that MUC1 interacts with the high-molecular-weight IκB kinase (IKK) complex in vivo and that the MUC1 cytoplasmic domain binds directly to IKKβ and IKKγ."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Interaction of MUC1 with both IKKβ and IKKγ is necessary for IKKβ activation, resulting in phosphorylation and degradation of IκBα."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Studies in non-malignant epithelial cells show that MUC1 is recruited to the TNF-R1 complex and interacts with IKKβ–IKKγ in response to TNFα stimulation."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "TNFα-induced recruitment of MUC1 is dependent on TRADD and TRAF2, but not the death-domain kinase RIP1."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "In addition, MUC1-mediated activation of IKKβ is dependent on TAK1 and TAB2."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "These findings indicate that MUC1 is important for physiological activation of IKKβ and that overexpression of MUC1, as found in human cancers, confers sustained induction of the IKKβ–NF-κB p65 pathway."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "MUC1-C activates the NF-κB p65 signaling pathway by interacting with IκB kinase ß.",
+      "evidence": [
+        {
+          "doc_id": 23078022,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 2,
+          "sentence": "This study demonstrates that overexpression of MUC1 in human carcinoma cells is associated with constitutive activation of NF-κB p65.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 23078022,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 4,
+          "sentence": "Interaction of MUC1 with both IKKβ and IKKγ is necessary for IKKβ activation, resulting in phosphorylation and degradation of IκBα.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 23078022,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "These findings indicate that MUC1 is important for physiological activation of IKKβ and that overexpression of MUC1, as found in human cancers, confers sustained induction of the IKKβ–NF-κB p65 pathway.",
+          "kept": true,
+          "new_index": 6
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 23078022,
+          "title": "MUC1 oncoprotein activates the IκB kinase β complex and constitutive NF-κB signalling",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "The MUC1 oncoprotein is aberrantly overexpressed by most human carcinomas and, similarly to NF-κB, blocks apoptosis and induces transformation."
+            },
+            {
+              "new_index": 1,
+              "original_index": 3,
+              "sentence": "We show that MUC1 interacts with the high-molecular-weight IκB kinase (IKK) complex in vivo and that the MUC1 cytoplasmic domain binds directly to IKKβ and IKKγ."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Interaction of MUC1 with both IKKβ and IKKγ is necessary for IKKβ activation, resulting in phosphorylation and degradation of IκBα."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Studies in non-malignant epithelial cells show that MUC1 is recruited to the TNF-R1 complex and interacts with IKKβ–IKKγ in response to TNFα stimulation."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "TNFα-induced recruitment of MUC1 is dependent on TRADD and TRAF2, but not the death-domain kinase RIP1."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "In addition, MUC1-mediated activation of IKKβ is dependent on TAK1 and TAB2."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "These findings indicate that MUC1 is important for physiological activation of IKKβ and that overexpression of MUC1, as found in human cancers, confers sustained induction of the IKKβ–NF-κB p65 pathway."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 23078022,
+          "original_index": 0,
+          "sentence": "Nuclear factor-κB (NF-κB) is constitutively activated in diverse human malignancies by mechanisms that are not understood.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 23078022,
+          "original_index": 2,
+          "sentence": "This study demonstrates that overexpression of MUC1 in human carcinoma cells is associated with constitutive activation of NF-κB p65.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g2",
+        "g0"
+      ],
+      "claim": "MUC1-C activates the NF-κB p65 signaling pathway by interacting with IκB kinase ß.",
+      "evidence": [
+        {
+          "doc_id": 23078022,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 2,
+          "sentence": "This study demonstrates that overexpression of MUC1 in human carcinoma cells is associated with constitutive activation of NF-κB p65.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 23078022,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 4,
+          "sentence": "Interaction of MUC1 with both IKKβ and IKKγ is necessary for IKKβ activation, resulting in phosphorylation and degradation of IκBα.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 23078022,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "These findings indicate that MUC1 is important for physiological activation of IKKβ and that overexpression of MUC1, as found in human cancers, confers sustained induction of the IKKβ–NF-κB p65 pathway.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 23078022,
+          "title": "MUC1 oncoprotein activates the IκB kinase β complex and constitutive NF-κB signalling",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Nuclear factor-κB (NF-κB) is constitutively activated in diverse human malignancies by mechanisms that are not understood."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The MUC1 oncoprotein is aberrantly overexpressed by most human carcinomas and, similarly to NF-κB, blocks apoptosis and induces transformation."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "This study demonstrates that overexpression of MUC1 in human carcinoma cells is associated with constitutive activation of NF-κB p65."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We show that MUC1 interacts with the high-molecular-weight IκB kinase (IKK) complex in vivo and that the MUC1 cytoplasmic domain binds directly to IKKβ and IKKγ."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "TNFα-induced recruitment of MUC1 is dependent on TRADD and TRAF2, but not the death-domain kinase RIP1."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "In addition, MUC1-mediated activation of IKKβ is dependent on TAK1 and TAB2."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 23078022,
+          "original_index": 4,
+          "sentence": "Interaction of MUC1 with both IKKβ and IKKγ is necessary for IKKβ activation, resulting in phosphorylation and degradation of IκBα.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 23078022,
+          "original_index": 5,
+          "sentence": "Studies in non-malignant epithelial cells show that MUC1 is recruited to the TNF-R1 complex and interacts with IKKβ–IKKγ in response to TNFα stimulation.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 23078022,
+          "original_index": 8,
+          "sentence": "These findings indicate that MUC1 is important for physiological activation of IKKβ and that overexpression of MUC1, as found in human cancers, confers sustained induction of the IKKβ–NF-κB p65 pathway.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2"
+      ],
+      "claim": "MUC1-C activates the NF-κB p65 signaling pathway by interacting with IκB kinase ß.",
+      "evidence": [
+        {
+          "doc_id": 23078022,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 2,
+          "sentence": "This study demonstrates that overexpression of MUC1 in human carcinoma cells is associated with constitutive activation of NF-κB p65.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 23078022,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 4,
+          "sentence": "Interaction of MUC1 with both IKKβ and IKKγ is necessary for IKKβ activation, resulting in phosphorylation and degradation of IκBα.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 23078022,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "These findings indicate that MUC1 is important for physiological activation of IKKβ and that overexpression of MUC1, as found in human cancers, confers sustained induction of the IKKβ–NF-κB p65 pathway.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 23078022,
+          "title": "MUC1 oncoprotein activates the IκB kinase β complex and constitutive NF-κB signalling",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Nuclear factor-κB (NF-κB) is constitutively activated in diverse human malignancies by mechanisms that are not understood."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The MUC1 oncoprotein is aberrantly overexpressed by most human carcinomas and, similarly to NF-κB, blocks apoptosis and induces transformation."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "We show that MUC1 interacts with the high-molecular-weight IκB kinase (IKK) complex in vivo and that the MUC1 cytoplasmic domain binds directly to IKKβ and IKKγ."
+            },
+            {
+              "new_index": 3,
+              "original_index": 6,
+              "sentence": "TNFα-induced recruitment of MUC1 is dependent on TRADD and TRAF2, but not the death-domain kinase RIP1."
+            },
+            {
+              "new_index": 4,
+              "original_index": 7,
+              "sentence": "In addition, MUC1-mediated activation of IKKβ is dependent on TAK1 and TAB2."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 23078022,
+          "original_index": 2,
+          "sentence": "This study demonstrates that overexpression of MUC1 in human carcinoma cells is associated with constitutive activation of NF-κB p65.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 23078022,
+          "original_index": 4,
+          "sentence": "Interaction of MUC1 with both IKKβ and IKKγ is necessary for IKKβ activation, resulting in phosphorylation and degradation of IκBα.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 23078022,
+          "original_index": 5,
+          "sentence": "Studies in non-malignant epithelial cells show that MUC1 is recruited to the TNF-R1 complex and interacts with IKKβ–IKKγ in response to TNFα stimulation.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 23078022,
+          "original_index": 8,
+          "sentence": "These findings indicate that MUC1 is important for physiological activation of IKKβ and that overexpression of MUC1, as found in human cancers, confers sustained induction of the IKKβ–NF-κB p65 pathway.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

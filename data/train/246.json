@@ -1,0 +1,154 @@
+{
+  "id": 246,
+  "origin": "train_more",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Charcoal shows no benefit for acute paraquat poisoning.",
+      "evidence": [
+        {
+          "doc_id": 3430789,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Activated charcoal hemoperfusion had little effect on avoiding acute kidney injury in patients with severe PQ poisoning.",
+          "kept": true,
+          "new_index": 8
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 3430789,
+          "title": "Effect of activated charcoal hemoperfusion on renal function in patients with paraquat poisoning.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The present study retrospectively analyzed 19 patients diagnosed with paraquat (PQ) poisoning with the aim to investigate the effect of activated charcoal hemoperfusion on renal function and PQ elimination."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The results indicated that 7 patients died and 12 survived."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Non-oliguric renal failure occurred in all of the 7 patients who died."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Among the 12 surviving patients, 10 had normal renal function and 2 developed non-oliguric renal failure."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "There was a linear correlation between plasma and urine paraquat concentration prior to and during activated charcoal hemoperfusion."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "The equation parameters together with the correlation coefficient on admission were as follows: Y=0.5820+1.7348X (R2=0.678; F=35.768; P<0.0001)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "The equation parameters together with the correlation coefficient were as follows during activated charcoal hemoperfusion: Y=0.6827+1.2649X (R2=0.626; F=50.308; P<0.0001)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Therefore, it was concluded that in patients with normal renal function, the elimination kinetics of PQ by the kidneys were only associated with the plasma PQ concentration."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Activated charcoal hemoperfusion had little effect on avoiding acute kidney injury in patients with severe PQ poisoning."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Charcoal shows no benefit for acute paraquat poisoning.",
+      "evidence": [
+        {
+          "doc_id": 3430789,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Activated charcoal hemoperfusion had little effect on avoiding acute kidney injury in patients with severe PQ poisoning.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 3430789,
+          "title": "Effect of activated charcoal hemoperfusion on renal function in patients with paraquat poisoning.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The present study retrospectively analyzed 19 patients diagnosed with paraquat (PQ) poisoning with the aim to investigate the effect of activated charcoal hemoperfusion on renal function and PQ elimination."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The results indicated that 7 patients died and 12 survived."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Non-oliguric renal failure occurred in all of the 7 patients who died."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Among the 12 surviving patients, 10 had normal renal function and 2 developed non-oliguric renal failure."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "There was a linear correlation between plasma and urine paraquat concentration prior to and during activated charcoal hemoperfusion."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "The equation parameters together with the correlation coefficient were as follows during activated charcoal hemoperfusion: Y=0.6827+1.2649X (R2=0.626; F=50.308; P<0.0001)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "Therefore, it was concluded that in patients with normal renal function, the elimination kinetics of PQ by the kidneys were only associated with the plasma PQ concentration."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 3430789,
+          "original_index": 5,
+          "sentence": "The equation parameters together with the correlation coefficient on admission were as follows: Y=0.5820+1.7348X (R2=0.678; F=35.768; P<0.0001).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 3430789,
+          "original_index": 8,
+          "sentence": "Activated charcoal hemoperfusion had little effect on avoiding acute kidney injury in patients with severe PQ poisoning.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": 391,
+  "origin": "train_more",
+  "claim": "Ethanol stress increases the expression of SRL in bacteria.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 1148122,
+      "title": "Regulatory and metabolic rewiring during laboratory evolution of ethanol tolerance in E. coli",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Understanding the genetic basis of adaptation is a central problem in biology."
+        },
+        {
+          "original_index": 1,
+          "sentence": "However, revealing the underlying molecular mechanisms has been challenging as changes in fitness may result from perturbations to many pathways, any of which may contribute relatively little."
+        },
+        {
+          "original_index": 2,
+          "sentence": "We have developed a combined experimental/computational framework to address this problem and used it to understand the genetic basis of ethanol tolerance in Escherichia coli."
+        },
+        {
+          "original_index": 3,
+          "sentence": "We used fitness profiling to measure the consequences of single-locus perturbations in the context of ethanol exposure."
+        },
+        {
+          "original_index": 4,
+          "sentence": "A module-level computational analysis was then used to reveal the organization of the contributing loci into cellular processes and regulatory pathways (e.g. osmoregulation and cell-wall biogenesis) whose modifications significantly affect ethanol tolerance."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Strikingly, we discovered that a dominant component of adaptation involves metabolic rewiring that boosts intracellular ethanol degradation and assimilation."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Through phenotypic and metabolomic analysis of laboratory-evolved ethanol-tolerant strains, we investigated naturally accessible pathways of ethanol tolerance."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Remarkably, these laboratory-evolved strains, by and large, follow the same adaptive paths as inferred from our coarse-grained search of the fitness landscape."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

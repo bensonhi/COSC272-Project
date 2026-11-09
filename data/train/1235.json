@@ -1,0 +1,63 @@
+{
+  "id": 1235,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The morphology change from large white adipocytes to small brown adipocytes is a sign of decreased energy expenditure potential in white adipose tissue.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 17973161,
+          "title": "Human ‘brite / beige’ adipocytes develop from capillary networks and their implantation improves metabolic homeostasis in mice",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Uncoupling protein 1 (UCP1) is highly expressed in brown adipose tissue, where it generates heat by uncoupling electron transport from ATP production."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "UCP1 is also found outside classical brown adipose tissue depots, in adipocytes that are termed 'brite' (brown-in-white) or 'beige'."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "In humans, the presence of brite or beige (brite/beige) adipocytes is correlated with a lean, metabolically healthy phenotype, but whether a causal relationship exists is not clear."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Here we report that human brite/beige adipocyte progenitors proliferate in response to pro-angiogenic factors, in association with expanding capillary networks."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Adipocytes formed from these progenitors transform in response to adenylate cyclase activation from being UCP1 negative to being UCP1 positive, which is a defining feature of the beige/brite phenotype, while displaying uncoupled respiration."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "When implanted into normal chow-fed, or into high-fat diet (HFD)-fed, glucose-intolerant NOD-scid IL2rg(null) (NSG) mice, brite/beige adipocytes activated in vitro enhance systemic glucose tolerance."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "These adipocytes express neuroendocrine and secreted factors, including the pro-protein convertase PCSK1, which is strongly associated with human obesity."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Pro-angiogenic conditions therefore drive the proliferation of human beige/brite adipocyte progenitors, and activated beige/brite adipocytes can affect systemic glucose homeostasis, potentially through a neuroendocrine mechanism."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": 1046,
+  "origin": "train_more",
+  "claim": "Ribosomal protein (RP) expression is controlled in part by stress-activated regulators.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 418246,
+      "title": "Pathway connectivity and signaling coordination in the yeast stress-activated signaling network",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Stressed cells coordinate a multi-faceted response spanning many levels of physiology."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Yet knowledge of the complete stress-activated regulatory network as well as design principles for signal integration remains incomplete."
+        },
+        {
+          "original_index": 2,
+          "sentence": "We developed an experimental and computational approach to integrate available protein interaction data with gene fitness contributions, mutant transcriptome profiles, and phospho-proteome changes in cells responding to salt stress, to infer the salt-responsive signaling network in yeast."
+        },
+        {
+          "original_index": 3,
+          "sentence": "The inferred subnetwork presented many novel predictions by implicating new regulators, uncovering unrecognized crosstalk between known pathways, and pointing to previously unknown 'hubs' of signal integration."
+        },
+        {
+          "original_index": 4,
+          "sentence": "We exploited these predictions to show that Cdc14 phosphatase is a central hub in the network and that modification of RNA polymerase II coordinates induction of stress-defense genes with reduction of growth-related transcripts."
+        },
+        {
+          "original_index": 5,
+          "sentence": "We find that the orthologous human network is enriched for cancer-causing genes, underscoring the importance of the subnetwork's predictions in understanding stress biology."
+        }
+      ]
+    },
+    {
+      "doc_id": 4324278,
+      "title": "The TOR signalling pathway controls nuclear localization of nutrient-regulated transcription factors.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "The rapamycin-sensitive TOR signalling pathway in Saccharomyces cerevisiae activates a cell-growth program in response to nutrients such as nitrogen and carbon."
+        },
+        {
+          "original_index": 1,
+          "sentence": "The TOR1 and TOR2 kinases (TOR) control cytoplasmic protein synthesis and degradation through the conserved TAP42 protein."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Upon phosphorylation by TOR, TAP42 binds and possibly inhibits type 2A and type-2A-related phosphatases; however, the mechanism by which TOR controls nuclear events such as global repression of starvation-specific transcription is unknown."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Here we show that TOR prevents transcription of genes expressed upon nitrogen limitation by promoting the association of the GATA transcription factor GLN3 with the cytoplasmic protein URE2."
+        },
+        {
+          "original_index": 4,
+          "sentence": "The binding of GLN3 to URE2 requires TOR-dependent phosphorylation of GLN3."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Phosphorylation and cytoplasmic retention of GLN3 are also dependent on the TOR effector TAP42, and are antagonized by the type-2A-related phosphatase SIT4."
+        },
+        {
+          "original_index": 6,
+          "sentence": "TOR inhibits expression of carbon-source-regulated genes by stimulating the binding of the transcriptional activators MSN2 and MSN4 to the cytoplasmic 14-3-3 protein BMH2."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Thus, the TOR signalling pathway broadly controls nutrient metabolism by sequestering several transcription factors in the cytoplasm."
+        }
+      ]
+    },
+    {
+      "doc_id": 16712164,
+      "title": "Exploiting the yeast stress-activated signaling network to inform on stress biology and disease signaling",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Healthy cells utilize intricate systems to monitor their environment and mount robust responses in the event of cellular stress."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Whether stress arises from external insults or defects due to mutation and disease, cells must be able to respond precisely to mount the appropriate defenses."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Multi-faceted stress responses are generally coupled with arrest of growth and cell-cycle progression, which both limits the transmission of damaged materials and serves to reallocate limited cellular resources toward defense."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Therefore, stress defense versus rapid growth represent competing interests in the cell."
+        },
+        {
+          "original_index": 4,
+          "sentence": "How eukaryotic cells set the balance between defense versus proliferation, and in particular knowledge of the regulatory networks that control this decision, are poorly understood."
+        },
+        {
+          "original_index": 5,
+          "sentence": "In this perspective, we expand upon our recent work inferring the stress-activated signaling network in budding yeast, which captures pathways controlling stress defense and regulators of growth and cell-cycle progression."
+        },
+        {
+          "original_index": 6,
+          "sentence": "We highlight similarities between the yeast and mammalian stress responses and explore how stress-activated signaling networks in yeast can inform on signaling defects in human cancers."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

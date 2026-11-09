@@ -1,0 +1,55 @@
+{
+  "id": 1363,
+  "origin": "dev",
+  "claim": "Venules have a thinner or absent smooth layer compared to arterioles.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 8290953,
+      "title": "Scaffold-based three-dimensional human fibroblast culture provides a structural matrix that supports angiogenesis in infarcted heart tissue.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "BACKGROUND We have developed techniques to implant angiogenic patches onto the epicardium over regions of infarcted cardiac tissue to stimulate revascularization of the damaged tissue."
+        },
+        {
+          "original_index": 1,
+          "sentence": "These experiments used a scaffold-based 3D human dermal fibroblast culture (3DFC) as an epicardial patch."
+        },
+        {
+          "original_index": 2,
+          "sentence": "The 3DFC contains viable cells that secrete angiogenic growth factors and has previously been shown to stimulate angiogenic activity."
+        },
+        {
+          "original_index": 3,
+          "sentence": "The hypothesis tested was that a viable 3DFC cardiac patch would stimulate an angiogenic response within an area of infarcted cardiac tissue.   \n"
+        },
+        {
+          "original_index": 4,
+          "sentence": "METHODS AND RESULTS A coronary occlusion of a branch of the left anterior descending coronary artery was performed by thermal ligation in severe combined immunodeficient mice."
+        },
+        {
+          "original_index": 5,
+          "sentence": "3DFCs with or without viable cells were sized to the damaged area, implanted in replicate mice onto the epicardium at the site of tissue injury, and compared with animals that received infarct surgery but no implant."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Fourteen and 30 days after surgery, hearts were exposed and photographed, and tissue samples were prepared for histology and cytochemistry."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Fourteen and 30 days after surgery, the damaged myocardium receiving viable 3DFC exhibited a significantly greater angiogenic response (including arterioles, venules, and capillaries) than nonviable and untreated control groups.   \n"
+        },
+        {
+          "original_index": 8,
+          "sentence": "CONCLUSIONS In this animal model, viable 3DFC stimulates angiogenesis within a region of cardiac infarction and can augment a repair response in damaged tissue."
+        },
+        {
+          "original_index": 9,
+          "sentence": "Therefore, a potential use for 3DFC is the repair of myocardial tissue damaged by infarction."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

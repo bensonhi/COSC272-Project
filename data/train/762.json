@@ -1,0 +1,93 @@
+{
+  "id": 762,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Measuring routine outcomes is more beneficial to clinical practice than assessing treatment adherence.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 4695046,
+          "title": "Anxiety",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVES To examine the effect of routinely administered psychiatric questionnaires on the recognition, management, and outcome of psychiatric disorders in non-psychiatric settings.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DATA SOURCES Embase, Medline, PsycLIT, Cinahl, Cochrane Controlled Trials Register, and hand searches of key journals.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS A systematic review of randomised controlled trials of the administration and routine feedback of psychiatric screening and outcome questionnaires to clinicians in non-psychiatric settings."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Narrative overview of key design features and end points, together with a random effects quantitative synthesis of comparable studies.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASURES Recognition of psychiatric disorders after feedback of questionnaire results; interventions for psychiatric disorders; and outcome of psychiatric disorders.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "RESULTS Nine randomised studies were identified that examined the use of common psychiatric instruments in primary care and general hospital settings."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Studies compared the effect of the administration of these instruments followed by the feedback of the results to clinicians, with administration with no feedback."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Meta-analytic pooling was possible for four of these studies (2457 participants), which measured the effect of feedback on the recognition of depressive disorders."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Routine administration and feedback of scores for all patients (irrespective of score) did not increase the overall rate of recognition of mental disorders such as anxiety and depression (relative risk of detection of depression by clinician after feedback 0.95, 95% confidence interval 0.83 to 1.09)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Two studies showed that routine administration followed by selective feedback for only high scorers increased the rate of recognition of depression (relative risk of detection of depression after feedback 2.64, 1.62 to 4.31)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "This increased recognition, however, did not translate into an increased rate of intervention."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Overall, studies of routine administration of psychiatric measures did not show an effect on patient outcome.   \n"
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "CONCLUSIONS The routine measurement of outcome is a costly exercise."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "Little evidence shows that it is of benefit in improving psychosocial outcomes of those with psychiatric disorder managed in non-psychiatric settings."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

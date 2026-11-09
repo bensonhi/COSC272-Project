@@ -1,0 +1,51 @@
+{
+  "id": 189,
+  "origin": "train_more",
+  "claim": "Broadly HIV-1 Neutralizing Antibodies (bnAb) 10EB have no affinity for phospholipids.",
+  "evidence": [
+    {
+      "doc_id": 4421578,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 3,
+      "sentence": "In contrast to other neutralizing MPER antibodies, 10E8 did not bind phospholipids, was not autoreactive, and bound cell-surface envelope."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 4421578,
+      "title": "Broad and potent neutralization of HIV-1 by a gp41-specific human antibody",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Characterization of human monoclonal antibodies is providing considerable insight into mechanisms of broad HIV-1 neutralization."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Here we report an HIV-1 gp41 membrane-proximal external region (MPER)-specific antibody, named 10E8, which neutralizes ∼98% of tested viruses."
+        },
+        {
+          "original_index": 2,
+          "sentence": "An analysis of sera from 78 healthy HIV-1-infected donors demonstrated that 27% contained MPER-specific antibodies and 8% contained 10E8-like specificities."
+        },
+        {
+          "original_index": 3,
+          "sentence": "In contrast to other neutralizing MPER antibodies, 10E8 did not bind phospholipids, was not autoreactive, and bound cell-surface envelope."
+        },
+        {
+          "original_index": 4,
+          "sentence": "The structure of 10E8 in complex with the complete MPER revealed a site of vulnerability comprising a narrow stretch of highly conserved gp41-hydrophobic residues and a critical arginine or lysine just before the transmembrane region."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Analysis of resistant HIV-1 variants confirmed the importance of these residues for neutralization."
+        },
+        {
+          "original_index": 6,
+          "sentence": "The highly conserved MPER is a target of potent, non-self-reactive neutralizing antibodies, suggesting that HIV-1 vaccines should aim to induce antibodies to this region of HIV-1 envelope glycoprotein."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

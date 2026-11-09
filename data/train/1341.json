@@ -1,0 +1,360 @@
+{
+  "id": 1341,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Ultrasound guidance significantly reduces the number of traumatic procedures when attempting needle insertion.",
+      "evidence": [
+        {
+          "doc_id": 15482274,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Ultrasound imaging reduced the risk of failed procedures (risk ratio 0.21 (95% confidence interval 0.10 to 0.43), P<0.001).",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 15482274,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Risk reduction was similar when subgroup analysis was performed for lumbar punctures (risk ratio 0.19 (0.07 to 0.56), P=0.002) or epidural catheterisations (0.23 (0.09 to 0.60), P=0.003).",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 15482274,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Ultrasound imaging also significantly reduced the risk of traumatic procedures (risk ratio 0.27 (0.11 to 0.67), P=0.005), the number of insertion attempts (mean difference -0.44 (-0.64 to -0.24), P<0.001), and the number of needle redirections (mean difference -1.00 (-1.24 to -0.75), P<0.001).   \n",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 15482274,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "CONCLUSIONS Ultrasound imaging can reduce the risk of failed or traumatic lumbar punctures and epidural catheterisations, as well as the number of needle insertions and redirections.",
+          "kept": true,
+          "new_index": 10
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15482274,
+          "title": "Ultrasound imaging for lumbar punctures and epidural catheterisations: systematic review and meta-analysis.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To determine whether ultrasound imaging can reduce the risk of failed lumbar punctures or epidural catheterisations, when compared with standard palpation methods, and whether ultrasound imaging can reduce traumatic procedures, insertion attempts, and needle redirections.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Systematic review and meta-analysis of randomised controlled trials.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DATA SOURCES Ovid Medline, Embase, and Cochrane Central Register of Controlled Trials up to May 2012, without restriction by language or publication status.   "
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "REVIEW METHODS Randomised trials that compared ultrasound imaging with standard methods (no imaging) in the performance of a lumbar puncture or epidural catheterisation were identified.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "RESULTS 14 studies with a total of 1334 patients were included (674 patients assigned to the ultrasound group, 660 to the control group)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Five studies evaluated lumbar punctures and nine evaluated epidural catheterisations."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Six of 624 procedures conducted in the ultrasound group failed; 44 of 610 procedures in the control group failed."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Ultrasound imaging reduced the risk of failed procedures (risk ratio 0.21 (95% confidence interval 0.10 to 0.43), P<0.001)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Risk reduction was similar when subgroup analysis was performed for lumbar punctures (risk ratio 0.19 (0.07 to 0.56), P=0.002) or epidural catheterisations (0.23 (0.09 to 0.60), P=0.003)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Ultrasound imaging also significantly reduced the risk of traumatic procedures (risk ratio 0.27 (0.11 to 0.67), P=0.005), the number of insertion attempts (mean difference -0.44 (-0.64 to -0.24), P<0.001), and the number of needle redirections (mean difference -1.00 (-1.24 to -0.75), P<0.001).   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "CONCLUSIONS Ultrasound imaging can reduce the risk of failed or traumatic lumbar punctures and epidural catheterisations, as well as the number of needle insertions and redirections."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Ultrasound may be a useful adjunct for these procedures."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Ultrasound guidance significantly reduces the number of traumatic procedures when attempting needle insertion.",
+      "evidence": [
+        {
+          "doc_id": 15482274,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Ultrasound imaging reduced the risk of failed procedures (risk ratio 0.21 (95% confidence interval 0.10 to 0.43), P<0.001).",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 15482274,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Risk reduction was similar when subgroup analysis was performed for lumbar punctures (risk ratio 0.19 (0.07 to 0.56), P=0.002) or epidural catheterisations (0.23 (0.09 to 0.60), P=0.003).",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 15482274,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Ultrasound imaging also significantly reduced the risk of traumatic procedures (risk ratio 0.27 (0.11 to 0.67), P=0.005), the number of insertion attempts (mean difference -0.44 (-0.64 to -0.24), P<0.001), and the number of needle redirections (mean difference -1.00 (-1.24 to -0.75), P<0.001).   \n",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 15482274,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "CONCLUSIONS Ultrasound imaging can reduce the risk of failed or traumatic lumbar punctures and epidural catheterisations, as well as the number of needle insertions and redirections.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15482274,
+          "title": "Ultrasound imaging for lumbar punctures and epidural catheterisations: systematic review and meta-analysis.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To determine whether ultrasound imaging can reduce the risk of failed lumbar punctures or epidural catheterisations, when compared with standard palpation methods, and whether ultrasound imaging can reduce traumatic procedures, insertion attempts, and needle redirections.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Systematic review and meta-analysis of randomised controlled trials.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DATA SOURCES Ovid Medline, Embase, and Cochrane Central Register of Controlled Trials up to May 2012, without restriction by language or publication status.   "
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "REVIEW METHODS Randomised trials that compared ultrasound imaging with standard methods (no imaging) in the performance of a lumbar puncture or epidural catheterisation were identified.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Five studies evaluated lumbar punctures and nine evaluated epidural catheterisations."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Six of 624 procedures conducted in the ultrasound group failed; 44 of 610 procedures in the control group failed."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "Ultrasound imaging reduced the risk of failed procedures (risk ratio 0.21 (95% confidence interval 0.10 to 0.43), P<0.001)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "Risk reduction was similar when subgroup analysis was performed for lumbar punctures (risk ratio 0.19 (0.07 to 0.56), P=0.002) or epidural catheterisations (0.23 (0.09 to 0.60), P=0.003)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 9,
+              "sentence": "Ultrasound imaging also significantly reduced the risk of traumatic procedures (risk ratio 0.27 (0.11 to 0.67), P=0.005), the number of insertion attempts (mean difference -0.44 (-0.64 to -0.24), P<0.001), and the number of needle redirections (mean difference -1.00 (-1.24 to -0.75), P<0.001).   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "Ultrasound may be a useful adjunct for these procedures."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 15482274,
+          "original_index": 4,
+          "sentence": "RESULTS 14 studies with a total of 1334 patients were included (674 patients assigned to the ultrasound group, 660 to the control group).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 15482274,
+          "original_index": 10,
+          "sentence": "CONCLUSIONS Ultrasound imaging can reduce the risk of failed or traumatic lumbar punctures and epidural catheterisations, as well as the number of needle insertions and redirections.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Ultrasound guidance significantly reduces the number of traumatic procedures when attempting needle insertion.",
+      "evidence": [
+        {
+          "doc_id": 15482274,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Ultrasound imaging reduced the risk of failed procedures (risk ratio 0.21 (95% confidence interval 0.10 to 0.43), P<0.001).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 15482274,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Risk reduction was similar when subgroup analysis was performed for lumbar punctures (risk ratio 0.19 (0.07 to 0.56), P=0.002) or epidural catheterisations (0.23 (0.09 to 0.60), P=0.003).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 15482274,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Ultrasound imaging also significantly reduced the risk of traumatic procedures (risk ratio 0.27 (0.11 to 0.67), P=0.005), the number of insertion attempts (mean difference -0.44 (-0.64 to -0.24), P<0.001), and the number of needle redirections (mean difference -1.00 (-1.24 to -0.75), P<0.001).   \n",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 15482274,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "CONCLUSIONS Ultrasound imaging can reduce the risk of failed or traumatic lumbar punctures and epidural catheterisations, as well as the number of needle insertions and redirections.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15482274,
+          "title": "Ultrasound imaging for lumbar punctures and epidural catheterisations: systematic review and meta-analysis.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To determine whether ultrasound imaging can reduce the risk of failed lumbar punctures or epidural catheterisations, when compared with standard palpation methods, and whether ultrasound imaging can reduce traumatic procedures, insertion attempts, and needle redirections.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Systematic review and meta-analysis of randomised controlled trials.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "REVIEW METHODS Randomised trials that compared ultrasound imaging with standard methods (no imaging) in the performance of a lumbar puncture or epidural catheterisation were identified.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "RESULTS 14 studies with a total of 1334 patients were included (674 patients assigned to the ultrasound group, 660 to the control group)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Five studies evaluated lumbar punctures and nine evaluated epidural catheterisations."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Six of 624 procedures conducted in the ultrasound group failed; 44 of 610 procedures in the control group failed."
+            },
+            {
+              "new_index": 6,
+              "original_index": 11,
+              "sentence": "Ultrasound may be a useful adjunct for these procedures."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 15482274,
+          "original_index": 2,
+          "sentence": "DATA SOURCES Ovid Medline, Embase, and Cochrane Central Register of Controlled Trials up to May 2012, without restriction by language or publication status.   ",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 15482274,
+          "original_index": 7,
+          "sentence": "Ultrasound imaging reduced the risk of failed procedures (risk ratio 0.21 (95% confidence interval 0.10 to 0.43), P<0.001).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 15482274,
+          "original_index": 8,
+          "sentence": "Risk reduction was similar when subgroup analysis was performed for lumbar punctures (risk ratio 0.19 (0.07 to 0.56), P=0.002) or epidural catheterisations (0.23 (0.09 to 0.60), P=0.003).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 15482274,
+          "original_index": 9,
+          "sentence": "Ultrasound imaging also significantly reduced the risk of traumatic procedures (risk ratio 0.27 (0.11 to 0.67), P=0.005), the number of insertion attempts (mean difference -0.44 (-0.64 to -0.24), P<0.001), and the number of needle redirections (mean difference -1.00 (-1.24 to -0.75), P<0.001).   \n",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 15482274,
+          "original_index": 10,
+          "sentence": "CONCLUSIONS Ultrasound imaging can reduce the risk of failed or traumatic lumbar punctures and epidural catheterisations, as well as the number of needle insertions and redirections.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "id": 185,
+  "origin": "dev",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Breast cancer development is determined exclusively by genetic factors.",
+      "evidence": [
+        {
+          "doc_id": 18340282,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 2,
+          "sentence": "METHODS We tested gene-environment interactions in 7610 women who developed breast cancer and 10 196 controls without the disease, studying the effects of 12 polymorphisms (FGFR2-rs2981582, TNRC9-rs3803662, 2q35-rs13387042, MAP3K1-rs889312, 8q24-rs13281615, 2p-rs4666451, 5p12-rs981782, CASP8-rs1045485, LSP1-rs3817198, 5q-rs30099, TGFB1-rs1982073, and ATM-rs1800054) in relation to prospectively collected information about ten established environmental risk factors (age at menarche, parity, age at first birth, breastfeeding, menopausal status, age at menopause, use of hormone replacement therapy, body-mass index, height, and alcohol consumption).   \n",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 18340282,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 6,
+          "sentence": "INTERPRETATION Risks of breast cancer associated with low-penetrance susceptibility polymorphisms do not vary significantly with these ten established environmental risk factors.   \n",
+          "kept": true,
+          "new_index": 6
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 18340282,
+          "title": "Gene–environment interactions in 7610 women with breast cancer: prospective evidence from the Million Women Study",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Information is scarce about the combined effects on breast cancer incidence of low-penetrance genetic susceptibility polymorphisms and environmental factors (reproductive, behavioural, and anthropometric risk factors for breast cancer)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "To test for evidence of gene-environment interactions, we compared genotypic relative risks for breast cancer across the other risk factors in a large UK prospective study.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS We tested gene-environment interactions in 7610 women who developed breast cancer and 10 196 controls without the disease, studying the effects of 12 polymorphisms (FGFR2-rs2981582, TNRC9-rs3803662, 2q35-rs13387042, MAP3K1-rs889312, 8q24-rs13281615, 2p-rs4666451, 5p12-rs981782, CASP8-rs1045485, LSP1-rs3817198, 5q-rs30099, TGFB1-rs1982073, and ATM-rs1800054) in relation to prospectively collected information about ten established environmental risk factors (age at menarche, parity, age at first birth, breastfeeding, menopausal status, age at menopause, use of hormone replacement therapy, body-mass index, height, and alcohol consumption).   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "FINDINGS After allowance for multiple testing none of the 120 comparisons yielded significant evidence of a gene-environment interaction."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "By contrast with previous suggestions, there was little evidence that the genotypic relative risks were affected by use of hormone replacement therapy, either overall or for oestrogen-receptor-positive disease."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Only one of the 12 polymorphisms was correlated with any of the ten other risk factors: carriers of the high-risk C allele of MAP3K1-rs889312 were significantly shorter than non-carriers (mean height 162.4 cm [95% CI 162.1-162.7] vs 163.1 cm [162.9-163.2]; p=0.01 after allowance for multiple testing).   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "INTERPRETATION Risks of breast cancer associated with low-penetrance susceptibility polymorphisms do not vary significantly with these ten established environmental risk factors.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "FUNDING Cancer Research UK and the UK Medical Research Council."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Breast cancer development is determined exclusively by genetic factors.",
+      "evidence": [
+        {
+          "doc_id": 18340282,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 2,
+          "sentence": "METHODS We tested gene-environment interactions in 7610 women who developed breast cancer and 10 196 controls without the disease, studying the effects of 12 polymorphisms (FGFR2-rs2981582, TNRC9-rs3803662, 2q35-rs13387042, MAP3K1-rs889312, 8q24-rs13281615, 2p-rs4666451, 5p12-rs981782, CASP8-rs1045485, LSP1-rs3817198, 5q-rs30099, TGFB1-rs1982073, and ATM-rs1800054) in relation to prospectively collected information about ten established environmental risk factors (age at menarche, parity, age at first birth, breastfeeding, menopausal status, age at menopause, use of hormone replacement therapy, body-mass index, height, and alcohol consumption).   \n",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 18340282,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 6,
+          "sentence": "INTERPRETATION Risks of breast cancer associated with low-penetrance susceptibility polymorphisms do not vary significantly with these ten established environmental risk factors.   \n",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 18340282,
+          "title": "Gene–environment interactions in 7610 women with breast cancer: prospective evidence from the Million Women Study",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Information is scarce about the combined effects on breast cancer incidence of low-penetrance genetic susceptibility polymorphisms and environmental factors (reproductive, behavioural, and anthropometric risk factors for breast cancer)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "To test for evidence of gene-environment interactions, we compared genotypic relative risks for breast cancer across the other risk factors in a large UK prospective study.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS We tested gene-environment interactions in 7610 women who developed breast cancer and 10 196 controls without the disease, studying the effects of 12 polymorphisms (FGFR2-rs2981582, TNRC9-rs3803662, 2q35-rs13387042, MAP3K1-rs889312, 8q24-rs13281615, 2p-rs4666451, 5p12-rs981782, CASP8-rs1045485, LSP1-rs3817198, 5q-rs30099, TGFB1-rs1982073, and ATM-rs1800054) in relation to prospectively collected information about ten established environmental risk factors (age at menarche, parity, age at first birth, breastfeeding, menopausal status, age at menopause, use of hormone replacement therapy, body-mass index, height, and alcohol consumption).   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "FINDINGS After allowance for multiple testing none of the 120 comparisons yielded significant evidence of a gene-environment interaction."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Only one of the 12 polymorphisms was correlated with any of the ten other risk factors: carriers of the high-risk C allele of MAP3K1-rs889312 were significantly shorter than non-carriers (mean height 162.4 cm [95% CI 162.1-162.7] vs 163.1 cm [162.9-163.2]; p=0.01 after allowance for multiple testing).   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "FUNDING Cancer Research UK and the UK Medical Research Council."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 18340282,
+          "original_index": 4,
+          "sentence": "By contrast with previous suggestions, there was little evidence that the genotypic relative risks were affected by use of hormone replacement therapy, either overall or for oestrogen-receptor-positive disease.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 18340282,
+          "original_index": 6,
+          "sentence": "INTERPRETATION Risks of breast cancer associated with low-penetrance susceptibility polymorphisms do not vary significantly with these ten established environmental risk factors.   \n",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Breast cancer development is determined exclusively by genetic factors.",
+      "evidence": [
+        {
+          "doc_id": 18340282,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 2,
+          "sentence": "METHODS We tested gene-environment interactions in 7610 women who developed breast cancer and 10 196 controls without the disease, studying the effects of 12 polymorphisms (FGFR2-rs2981582, TNRC9-rs3803662, 2q35-rs13387042, MAP3K1-rs889312, 8q24-rs13281615, 2p-rs4666451, 5p12-rs981782, CASP8-rs1045485, LSP1-rs3817198, 5q-rs30099, TGFB1-rs1982073, and ATM-rs1800054) in relation to prospectively collected information about ten established environmental risk factors (age at menarche, parity, age at first birth, breastfeeding, menopausal status, age at menopause, use of hormone replacement therapy, body-mass index, height, and alcohol consumption).   \n",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 18340282,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 6,
+          "sentence": "INTERPRETATION Risks of breast cancer associated with low-penetrance susceptibility polymorphisms do not vary significantly with these ten established environmental risk factors.   \n",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 18340282,
+          "title": "Gene–environment interactions in 7610 women with breast cancer: prospective evidence from the Million Women Study",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Information is scarce about the combined effects on breast cancer incidence of low-penetrance genetic susceptibility polymorphisms and environmental factors (reproductive, behavioural, and anthropometric risk factors for breast cancer)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "To test for evidence of gene-environment interactions, we compared genotypic relative risks for breast cancer across the other risk factors in a large UK prospective study.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "FINDINGS After allowance for multiple testing none of the 120 comparisons yielded significant evidence of a gene-environment interaction."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Only one of the 12 polymorphisms was correlated with any of the ten other risk factors: carriers of the high-risk C allele of MAP3K1-rs889312 were significantly shorter than non-carriers (mean height 162.4 cm [95% CI 162.1-162.7] vs 163.1 cm [162.9-163.2]; p=0.01 after allowance for multiple testing).   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 7,
+              "sentence": "FUNDING Cancer Research UK and the UK Medical Research Council."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 18340282,
+          "original_index": 2,
+          "sentence": "METHODS We tested gene-environment interactions in 7610 women who developed breast cancer and 10 196 controls without the disease, studying the effects of 12 polymorphisms (FGFR2-rs2981582, TNRC9-rs3803662, 2q35-rs13387042, MAP3K1-rs889312, 8q24-rs13281615, 2p-rs4666451, 5p12-rs981782, CASP8-rs1045485, LSP1-rs3817198, 5q-rs30099, TGFB1-rs1982073, and ATM-rs1800054) in relation to prospectively collected information about ten established environmental risk factors (age at menarche, parity, age at first birth, breastfeeding, menopausal status, age at menopause, use of hormone replacement therapy, body-mass index, height, and alcohol consumption).   \n",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 18340282,
+          "original_index": 4,
+          "sentence": "By contrast with previous suggestions, there was little evidence that the genotypic relative risks were affected by use of hormone replacement therapy, either overall or for oestrogen-receptor-positive disease.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 18340282,
+          "original_index": 6,
+          "sentence": "INTERPRETATION Risks of breast cancer associated with low-penetrance susceptibility polymorphisms do not vary significantly with these ten established environmental risk factors.   \n",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

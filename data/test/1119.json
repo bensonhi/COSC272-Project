@@ -1,0 +1,189 @@
+{
+  "id": 1119,
+  "origin": "train_more",
+  "claim": "Sympathetic nerve activity is elevated throughout normal pregnancy.",
+  "evidence": [
+    {
+      "doc_id": 5323845,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 4,
+      "sentence": "The s-MSNA in NP (38+/-6.6 impulses/100 beats) was greater (P<0.05) than in NN women (19+/-1.8 impulses/100 beats) despite similar age and body weight but less than in PIH women (P<0.001) (146+/-23.5 impulses/100 beats)."
+    },
+    {
+      "doc_id": 5323845,
+      "group_id": "g1",
+      "evidence_label": "SUPPORT",
+      "original_index": 10,
+      "sentence": "The findings suggest that the moderate sympathetic hyperactivity during the latter months of normal pregnancy may help to return the arterial pressure to nonpregnant levels, although when the increase in activity is excessive, hypertension may ensue."
+    },
+    {
+      "doc_id": 18997216,
+      "group_id": "g2",
+      "evidence_label": "SUPPORT",
+      "original_index": 0,
+      "sentence": "Muscle sympathetic nerve activity is increased during normotensive pregnancy while mean arterial pressure is maintained or reduced, suggesting baroreflex resetting."
+    },
+    {
+      "doc_id": 18997216,
+      "group_id": "g3",
+      "evidence_label": "SUPPORT",
+      "original_index": 3,
+      "sentence": "Pregnant women had elevated baseline sympathetic burst incidence (43 ± 2 vs. 33 ± 2 bursts/100 heart beats, P = 0.01) and total sympathetic activity (1,811 ± 148 vs. 1,140 ± 55 au, P < 0.01) relative to controls."
+    },
+    {
+      "doc_id": 13907928,
+      "group_id": "g4",
+      "evidence_label": "SUPPORT",
+      "original_index": 3,
+      "sentence": "Sympathetic activation was greater across all 3 minutes of cold pressor stimulation in the pregnant women relative to the nonpregnant controls."
+    },
+    {
+      "doc_id": 13907928,
+      "group_id": "g5",
+      "evidence_label": "SUPPORT",
+      "original_index": 4,
+      "sentence": "Peak sympathoexcitation was also greater in pregnant than in nonpregnant women, whether expressed as sympathetic burst frequency (+17±13 versus +7±8 bursts/min, P=0.049), burst incidence (+17±9 versus +6±11 bursts/100 hb, P=0.03), or total activity (+950±660 versus +363±414 arbitrary units, P=0.04)."
+    },
+    {
+      "doc_id": 5323845,
+      "group_id": "g6",
+      "evidence_label": "SUPPORT_more",
+      "original_index": 9,
+      "sentence": "CONCLUSIONS Central sympathetic output was increased in women with normal pregnancy and was even greater in the hypertensive pregnant group."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 5323845,
+      "title": "Sympathetic neural mechanisms in normal and hypertensive pregnancy in humans.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "BACKGROUND Direct recordings from peripheral sympathetic nerves have shown an increased sympathetic drive in pregnancy-induced hypertension (PIH) and preeclampsia (PE)."
+        },
+        {
+          "original_index": 1,
+          "sentence": "It is unknown whether sympathetic drive is altered in normal pregnancy, when arterial blood pressure can be normal or relatively low."
+        },
+        {
+          "original_index": 2,
+          "sentence": "The aim of this study was to measure and compare peripheral sympathetic discharge, its vasoconstrictor effect and its baroreceptor control, during pregnancy and postpartum in women with normal pregnancy (NP) and PIH and in normotensive nonpregnant (NN) women.   \n"
+        },
+        {
+          "original_index": 3,
+          "sentence": "METHODS AND RESULTS Twenty-one women with NP, 18 women with PIH, and 21 NN women had muscle sympathetic nerve activity assessed from multiunit discharges (MSNA) and from single units with defined vasoconstrictor properties (s-MSNA)."
+        },
+        {
+          "original_index": 4,
+          "sentence": "The s-MSNA in NP (38+/-6.6 impulses/100 beats) was greater (P<0.05) than in NN women (19+/-1.8 impulses/100 beats) despite similar age and body weight but less than in PIH women (P<0.001) (146+/-23.5 impulses/100 beats)."
+        },
+        {
+          "original_index": 5,
+          "sentence": "MSNA followed a similar trend."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Cardiac baroreceptor reflex sensitivity (BRS) was impaired in NP and PIH women relative to NN."
+        },
+        {
+          "original_index": 7,
+          "sentence": "After delivery, sympathetic activity decreased to values similar to those obtained in NN, and there was an increase in BRS."
+        },
+        {
+          "original_index": 8,
+          "sentence": "In women with NP, the decrease in sympathetic output occurred despite an insignificant change in blood pressure.   \n"
+        },
+        {
+          "original_index": 9,
+          "sentence": "CONCLUSIONS Central sympathetic output was increased in women with normal pregnancy and was even greater in the hypertensive pregnant group."
+        },
+        {
+          "original_index": 10,
+          "sentence": "The findings suggest that the moderate sympathetic hyperactivity during the latter months of normal pregnancy may help to return the arterial pressure to nonpregnant levels, although when the increase in activity is excessive, hypertension may ensue."
+        }
+      ]
+    },
+    {
+      "doc_id": 18997216,
+      "title": "Sympathetic baroreflex gain in normotensive pregnant women.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Muscle sympathetic nerve activity is increased during normotensive pregnancy while mean arterial pressure is maintained or reduced, suggesting baroreflex resetting."
+        },
+        {
+          "original_index": 1,
+          "sentence": "We hypothesized spontaneous sympathetic baroreflex gain would be reduced in normotensive pregnant women relative to nonpregnant matched controls."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Integrated muscle sympathetic burst incidence and total sympathetic activity (microneurography), blood pressure (Finometer), and R-R interval (ECG) were assessed at rest in 11 pregnant women (33 ± 1 wk gestation, 31 ± 1 yr, prepregnancy BMI: 23.5 ± 0.9 kg/m(2)) and 11 nonpregnant controls (29 ± 1 yr; BMI: 25.2 ± 1.7 kg/m(2))."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Pregnant women had elevated baseline sympathetic burst incidence (43 ± 2 vs. 33 ± 2 bursts/100 heart beats, P = 0.01) and total sympathetic activity (1,811 ± 148 vs. 1,140 ± 55 au, P < 0.01) relative to controls."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Both mean (88 ± 3 vs. 91 ± 2 mmHg, P = 0.4) and diastolic (DBP) (72 ± 3 vs. 73 ± 2 mmHg, P = 0.7) pressures were similar between pregnant and nonpregnant women, respectively, indicating an upward resetting of the baroreflex set point with pregnancy."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Baroreflex gain, calculated as the linear relationship between sympathetic burst incidence and DBP, was reduced in pregnant women relative to controls (-3.7 ± 0.5 vs. -5.4 ± 0.5 bursts·100 heart beats(-1)·mmHg(-1), P = 0.03), as was baroreflex gain calculated with total sympathetic activity (-294 ± 24 vs. -210 ± 24 au·100 heart beats(-1)·mmHg(-1); P = 0.03)."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Cardiovagal baroreflex gain (sequence method) was not different between nonpregnant controls and pregnant women (49 ± 8 vs. 36 ± 8 ms/mmHg; P = 0.2)."
+        },
+        {
+          "original_index": 7,
+          "sentence": "However, sympathetic (burst incidence) and cardiovagal gains were negatively correlated in pregnant women (R = -0.7; P = 0.02)."
+        },
+        {
+          "original_index": 8,
+          "sentence": "Together, these data indicate that the influence of the sympathetic nervous system over arterial blood pressure is reduced in normotensive pregnancy, in terms of both long-term and beat-to-beat regulation of arterial pressure, likely through a baroreceptor-dependent mechanism."
+        }
+      ]
+    },
+    {
+      "doc_id": 13907928,
+      "title": "Regulation of sympathetic nerve activity during the cold pressor test in normotensive pregnant and nonpregnant women.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Baseline neurovascular transduction is reduced in normotensive pregnancy; however, little is known about changes to neurovascular transduction during periods of heightened sympathetic activation."
+        },
+        {
+          "original_index": 1,
+          "sentence": "We tested the hypothesis that, despite an exacerbated muscle sympathetic nerve activity (microneurography) response to cold pressor stimulation, the blunting of neurovascular transduction in normotensive pregnant women would result in similar changes in vascular resistance and mean arterial pressure (Finometer) relative to nonpregnant controls."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Baseline neurovascular transduction was reduced in pregnant women relative to controls when expressed as the quotient of both total resistance and mean arterial pressure and sympathetic burst frequency (0.32±0.07 versus 0.58±0.16 mm Hg/L/min/bursts/min, P<0.001 and 2.4±0.7 versus 3.6±0.8 mm Hg/bursts/min, P=0.001)."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Sympathetic activation was greater across all 3 minutes of cold pressor stimulation in the pregnant women relative to the nonpregnant controls."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Peak sympathoexcitation was also greater in pregnant than in nonpregnant women, whether expressed as sympathetic burst frequency (+17±13 versus +7±8 bursts/min, P=0.049), burst incidence (+17±9 versus +6±11 bursts/100 hb, P=0.03), or total activity (+950±660 versus +363±414 arbitrary units, P=0.04)."
+        },
+        {
+          "original_index": 5,
+          "sentence": "However, neurovascular transduction during peak cold pressor-induced sympathoexcitation remained blunted in pregnant women (0.25±0.11 versus 0.45±0.08 mm Hg/L/min/bursts/min, P<0.001 and 1.9±1.0 versus 3.2±0.9 mm Hg/bursts/min, P=0.006)."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Therefore, mean arterial pressure (93±21 versus 99±6 mm Hg, P=0.4) and total peripheral resistance (12±3 versus 14±3 mm Hg/L/min) were not different between pregnant and nonpregnant women during peak sympathoexcitation."
+        },
+        {
+          "original_index": 7,
+          "sentence": "These data indicate that the third trimester of normotensive pregnancy is associated with reductions in neurovascular transduction, which result in the dissociation of sympathetic outflow from hemodynamic outcomes, even during cold pressor-induced sympathoexcitation."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

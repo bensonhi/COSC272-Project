@@ -1,0 +1,46 @@
+{
+  "id": 570,
+  "origin": "train_more",
+  "claim": "In breast cancer, the loss of myoepithelial cells promotes the transition of ductal carcinoma in situ to invasive carcinoma.",
+  "evidence": [
+    {
+      "doc_id": 20333864,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 2,
+      "sentence": "Progression to invasion was promoted by fibroblasts and inhibited by normal myoepithelial cells."
+    },
+    {
+      "doc_id": 20333864,
+      "group_id": "g1",
+      "evidence_label": "SUPPORT",
+      "original_index": 3,
+      "sentence": "Molecular profiles of isolated luminal epithelial and myoepithelial cells identified an intricate interaction network involving TGFbeta, Hedgehog, cell adhesion, and p63 required for myoepithelial cell differentiation, the elimination of which resulted in loss of myoepithelial cells and progression to invasion."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 20333864,
+      "title": "Regulation of in situ to invasive breast carcinoma transition.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "The transition of ductal carcinoma in situ (DCIS) to invasive carcinoma is a poorly understood key event in breast tumor progression."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Here, we analyzed the role of myoepithelial cells and fibroblasts in the progression of in situ carcinomas using a model of human DCIS and primary breast tumors."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Progression to invasion was promoted by fibroblasts and inhibited by normal myoepithelial cells."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Molecular profiles of isolated luminal epithelial and myoepithelial cells identified an intricate interaction network involving TGFbeta, Hedgehog, cell adhesion, and p63 required for myoepithelial cell differentiation, the elimination of which resulted in loss of myoepithelial cells and progression to invasion."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

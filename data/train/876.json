@@ -1,0 +1,88 @@
+{
+  "id": 876,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Obesity raises life quality.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 195689316,
+          "title": "Body-mass index and cause-specific mortality in 900 000 adults: collaborative analyses of 57 prospective studies.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND The main associations of body-mass index (BMI) with overall and cause-specific mortality can best be assessed by long-term prospective follow-up of large numbers of people."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The Prospective Studies Collaboration aimed to investigate these associations by sharing data from many studies.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS Collaborative analyses were undertaken of baseline BMI versus mortality in 57 prospective studies with 894 576 participants, mostly in western Europe and North America (61% [n=541 452] male, mean recruitment age 46 [SD 11] years, median recruitment year 1979 [IQR 1975-85], mean BMI 25 [SD 4] kg/m(2))."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "The analyses were adjusted for age, sex, smoking status, and study."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "To limit reverse causality, the first 5 years of follow-up were excluded, leaving 66 552 deaths of known cause during a mean of 8 (SD 6) further years of follow-up (mean age at death 67 [SD 10] years): 30 416 vascular; 2070 diabetic, renal or hepatic; 22 592 neoplastic; 3770 respiratory; 7704 other.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "FINDINGS In both sexes, mortality was lowest at about 22.5-25 kg/m(2)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Above this range, positive associations were recorded for several specific causes and inverse associations for none, the absolute excess risks for higher BMI and smoking were roughly additive, and each 5 kg/m(2) higher BMI was on average associated with about 30% higher overall mortality (hazard ratio per 5 kg/m(2) [HR] 1.29 [95% CI 1.27-1.32]): 40% for vascular mortality (HR 1.41 [1.37-1.45]); 60-120% for diabetic, renal, and hepatic mortality (HRs 2.16 [1.89-2.46], 1.59 [1.27-1.99], and 1.82 [1.59-2.09], respectively); 10% for neoplastic mortality (HR 1.10 [1.06-1.15]); and 20% for respiratory and for all other mortality (HRs 1.20 [1.07-1.34] and 1.20 [1.16-1.25], respectively)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Below the range 22.5-25 kg/m(2), BMI was associated inversely with overall mortality, mainly because of strong inverse associations with respiratory disease and lung cancer."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "These inverse associations were much stronger for smokers than for non-smokers, despite cigarette consumption per smoker varying little with BMI.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "INTERPRETATION Although other anthropometric measures (eg, waist circumference, waist-to-hip ratio) could well add extra information to BMI, and BMI to them, BMI is in itself a strong predictor of overall mortality both above and below the apparent optimum of about 22.5-25 kg/m(2)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "The progressive excess mortality above this range is due mainly to vascular disease and is probably largely causal."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "At 30-35 kg/m(2), median survival is reduced by 2-4 years; at 40-45 kg/m(2), it is reduced by 8-10 years (which is comparable with the effects of smoking)."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "The definite excess mortality below 22.5 kg/m(2) is due mainly to smoking-related diseases, and is not fully explained."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

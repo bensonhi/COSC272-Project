@@ -1,0 +1,289 @@
+{
+  "id": 709,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Long chain polyunsaturated fatty acids supplementation is associated with lower rates of atopic eczema at 1 year.",
+      "evidence": [
+        {
+          "doc_id": 22442133,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "RESULTS No differences were seen in the overall percentage of infants with immunoglobulin E associated allergic disease between the n-3 LCPUFA and control groups (32/368 (9%) v 43/338 (13%); unadjusted relative risk 0.68, 95% confidence interval 0.43 to 1.05, P=0.08; adjusted relative risk 0.70, 0.45 to 1.09, P=0.12), although the percentage of infants diagnosed as having atopic eczema (that is, eczema with associated sensitisation) was lower in the n-3 LCPUFA group (26/368 (7%) v 39/338 (12%); unadjusted relative risk 0.61, 0.38 to 0.98, P=0.04; adjusted relative risk 0.64, 0.40 to 1.02, P=0.06).",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 22442133,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "CONCLUSION n-3 LCPUFA supplementation in pregnancy did not reduce the overall incidence of immunoglobulin E associated allergies in the first year of life, although atopic eczema and egg sensitisation were lower.",
+          "kept": true,
+          "new_index": 8
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 22442133,
+          "title": "Effect of n-3 long chain polyunsaturated fatty acid supplementation in pregnancy on infants’ allergies in first year of life: randomised controlled trial",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To determine whether dietary n-3 long chain polyunsaturated fatty acid (LCPUFA) supplementation of pregnant women with a fetus at high risk of allergic disease reduces immunoglobulin E associated eczema or food allergy at 1 year of age.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Follow-up of infants at high hereditary risk of allergic disease in the Docosahexaenoic Acid to Optimise Mother Infant Outcome (DOMInO) randomised controlled trial.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "SETTING Adelaide, South Australia.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "PARTICIPANTS 706 infants at high hereditary risk of developing allergic disease whose mothers were participating in the DOMInO trial.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "INTERVENTIONS The intervention group (n=368) was randomly allocated to receive fish oil capsules (providing 900 mg of n-3 LCPUFA daily) from 21 weeks' gestation until birth; the control group (n=338) received matched vegetable oil capsules without n-3 LCPUFA.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "MAIN OUTCOME MEASURE Immunoglobulin E associated allergic disease (eczema or food allergy with sensitisation) at 1 year of age.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "RESULTS No differences were seen in the overall percentage of infants with immunoglobulin E associated allergic disease between the n-3 LCPUFA and control groups (32/368 (9%) v 43/338 (13%); unadjusted relative risk 0.68, 95% confidence interval 0.43 to 1.05, P=0.08; adjusted relative risk 0.70, 0.45 to 1.09, P=0.12), although the percentage of infants diagnosed as having atopic eczema (that is, eczema with associated sensitisation) was lower in the n-3 LCPUFA group (26/368 (7%) v 39/338 (12%); unadjusted relative risk 0.61, 0.38 to 0.98, P=0.04; adjusted relative risk 0.64, 0.40 to 1.02, P=0.06)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Fewer infants were sensitised to egg in the n-3 LCPUFA group (34/368 (9%) v 52/338 (15%); unadjusted relative risk 0.61, 0.40 to 0.91, P=0.02; adjusted relative risk 0.62, 0.41 to 0.93, P=0.02), but no difference between groups in immunoglobulin E associated food allergy was seen.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "CONCLUSION n-3 LCPUFA supplementation in pregnancy did not reduce the overall incidence of immunoglobulin E associated allergies in the first year of life, although atopic eczema and egg sensitisation were lower."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Longer term follow-up is needed to determine if supplementation has an effect on respiratory allergic diseases and aeroallergen sensitisation in childhood.   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "TRIAL REGISTRATION Australian New Zealand Clinical Trials Registry ACTRN12610000735055 (DOMInO trial: ACTRN12605000569606)."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Long chain polyunsaturated fatty acids supplementation is associated with lower rates of atopic eczema at 1 year.",
+      "evidence": [
+        {
+          "doc_id": 22442133,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "RESULTS No differences were seen in the overall percentage of infants with immunoglobulin E associated allergic disease between the n-3 LCPUFA and control groups (32/368 (9%) v 43/338 (13%); unadjusted relative risk 0.68, 95% confidence interval 0.43 to 1.05, P=0.08; adjusted relative risk 0.70, 0.45 to 1.09, P=0.12), although the percentage of infants diagnosed as having atopic eczema (that is, eczema with associated sensitisation) was lower in the n-3 LCPUFA group (26/368 (7%) v 39/338 (12%); unadjusted relative risk 0.61, 0.38 to 0.98, P=0.04; adjusted relative risk 0.64, 0.40 to 1.02, P=0.06).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22442133,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "CONCLUSION n-3 LCPUFA supplementation in pregnancy did not reduce the overall incidence of immunoglobulin E associated allergies in the first year of life, although atopic eczema and egg sensitisation were lower.",
+          "kept": true,
+          "new_index": 6
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 22442133,
+          "title": "Effect of n-3 long chain polyunsaturated fatty acid supplementation in pregnancy on infants’ allergies in first year of life: randomised controlled trial",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To determine whether dietary n-3 long chain polyunsaturated fatty acid (LCPUFA) supplementation of pregnant women with a fetus at high risk of allergic disease reduces immunoglobulin E associated eczema or food allergy at 1 year of age.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "SETTING Adelaide, South Australia.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "PARTICIPANTS 706 infants at high hereditary risk of developing allergic disease whose mothers were participating in the DOMInO trial.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "INTERVENTIONS The intervention group (n=368) was randomly allocated to receive fish oil capsules (providing 900 mg of n-3 LCPUFA daily) from 21 weeks' gestation until birth; the control group (n=338) received matched vegetable oil capsules without n-3 LCPUFA.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "MAIN OUTCOME MEASURE Immunoglobulin E associated allergic disease (eczema or food allergy with sensitisation) at 1 year of age.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Fewer infants were sensitised to egg in the n-3 LCPUFA group (34/368 (9%) v 52/338 (15%); unadjusted relative risk 0.61, 0.40 to 0.91, P=0.02; adjusted relative risk 0.62, 0.41 to 0.93, P=0.02), but no difference between groups in immunoglobulin E associated food allergy was seen.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "CONCLUSION n-3 LCPUFA supplementation in pregnancy did not reduce the overall incidence of immunoglobulin E associated allergies in the first year of life, although atopic eczema and egg sensitisation were lower."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Longer term follow-up is needed to determine if supplementation has an effect on respiratory allergic diseases and aeroallergen sensitisation in childhood.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "TRIAL REGISTRATION Australian New Zealand Clinical Trials Registry ACTRN12610000735055 (DOMInO trial: ACTRN12605000569606)."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 22442133,
+          "original_index": 1,
+          "sentence": "DESIGN Follow-up of infants at high hereditary risk of allergic disease in the Docosahexaenoic Acid to Optimise Mother Infant Outcome (DOMInO) randomised controlled trial.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 22442133,
+          "original_index": 6,
+          "sentence": "RESULTS No differences were seen in the overall percentage of infants with immunoglobulin E associated allergic disease between the n-3 LCPUFA and control groups (32/368 (9%) v 43/338 (13%); unadjusted relative risk 0.68, 95% confidence interval 0.43 to 1.05, P=0.08; adjusted relative risk 0.70, 0.45 to 1.09, P=0.12), although the percentage of infants diagnosed as having atopic eczema (that is, eczema with associated sensitisation) was lower in the n-3 LCPUFA group (26/368 (7%) v 39/338 (12%); unadjusted relative risk 0.61, 0.38 to 0.98, P=0.04; adjusted relative risk 0.64, 0.40 to 1.02, P=0.06).",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Long chain polyunsaturated fatty acids supplementation is associated with lower rates of atopic eczema at 1 year.",
+      "evidence": [
+        {
+          "doc_id": 22442133,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "RESULTS No differences were seen in the overall percentage of infants with immunoglobulin E associated allergic disease between the n-3 LCPUFA and control groups (32/368 (9%) v 43/338 (13%); unadjusted relative risk 0.68, 95% confidence interval 0.43 to 1.05, P=0.08; adjusted relative risk 0.70, 0.45 to 1.09, P=0.12), although the percentage of infants diagnosed as having atopic eczema (that is, eczema with associated sensitisation) was lower in the n-3 LCPUFA group (26/368 (7%) v 39/338 (12%); unadjusted relative risk 0.61, 0.38 to 0.98, P=0.04; adjusted relative risk 0.64, 0.40 to 1.02, P=0.06).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 22442133,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "CONCLUSION n-3 LCPUFA supplementation in pregnancy did not reduce the overall incidence of immunoglobulin E associated allergies in the first year of life, although atopic eczema and egg sensitisation were lower.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 22442133,
+          "title": "Effect of n-3 long chain polyunsaturated fatty acid supplementation in pregnancy on infants’ allergies in first year of life: randomised controlled trial",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To determine whether dietary n-3 long chain polyunsaturated fatty acid (LCPUFA) supplementation of pregnant women with a fetus at high risk of allergic disease reduces immunoglobulin E associated eczema or food allergy at 1 year of age.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Follow-up of infants at high hereditary risk of allergic disease in the Docosahexaenoic Acid to Optimise Mother Infant Outcome (DOMInO) randomised controlled trial.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "SETTING Adelaide, South Australia.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "PARTICIPANTS 706 infants at high hereditary risk of developing allergic disease whose mothers were participating in the DOMInO trial.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "INTERVENTIONS The intervention group (n=368) was randomly allocated to receive fish oil capsules (providing 900 mg of n-3 LCPUFA daily) from 21 weeks' gestation until birth; the control group (n=338) received matched vegetable oil capsules without n-3 LCPUFA.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "MAIN OUTCOME MEASURE Immunoglobulin E associated allergic disease (eczema or food allergy with sensitisation) at 1 year of age.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "Fewer infants were sensitised to egg in the n-3 LCPUFA group (34/368 (9%) v 52/338 (15%); unadjusted relative risk 0.61, 0.40 to 0.91, P=0.02; adjusted relative risk 0.62, 0.41 to 0.93, P=0.02), but no difference between groups in immunoglobulin E associated food allergy was seen.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Longer term follow-up is needed to determine if supplementation has an effect on respiratory allergic diseases and aeroallergen sensitisation in childhood.   \n"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 22442133,
+          "original_index": 6,
+          "sentence": "RESULTS No differences were seen in the overall percentage of infants with immunoglobulin E associated allergic disease between the n-3 LCPUFA and control groups (32/368 (9%) v 43/338 (13%); unadjusted relative risk 0.68, 95% confidence interval 0.43 to 1.05, P=0.08; adjusted relative risk 0.70, 0.45 to 1.09, P=0.12), although the percentage of infants diagnosed as having atopic eczema (that is, eczema with associated sensitisation) was lower in the n-3 LCPUFA group (26/368 (7%) v 39/338 (12%); unadjusted relative risk 0.61, 0.38 to 0.98, P=0.04; adjusted relative risk 0.64, 0.40 to 1.02, P=0.06).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22442133,
+          "original_index": 8,
+          "sentence": "CONCLUSION n-3 LCPUFA supplementation in pregnancy did not reduce the overall incidence of immunoglobulin E associated allergies in the first year of life, although atopic eczema and egg sensitisation were lower.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 22442133,
+          "original_index": 10,
+          "sentence": "TRIAL REGISTRATION Australian New Zealand Clinical Trials Registry ACTRN12610000735055 (DOMInO trial: ACTRN12605000569606).",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

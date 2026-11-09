@@ -1,0 +1,424 @@
+{
+  "id": 375,
+  "origin": "train_more",
+  "n_groups": 4,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Elevated cell-free mitochondrial DNA levels are associated with mortality.",
+      "evidence": [
+        {
+          "doc_id": 1522647,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Medical ICU patients with an elevated mtDNA level (≥3,200 copies/µl plasma) had increased odds of dying within 28 d of ICU admission in both the BWH RoCI (odds ratio [OR] 7.5, 95% CI 3.6-15.8, p = 1×10(-7)) and ME ARDS (OR 8.4, 95% CI 2.9-24.2, p = 9×10(-5)) cohorts, while no evidence for association was noted in non-medical ICU patients.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 1522647,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "In the BWH RoCI cohort, those with an elevated mtDNA level had an increased risk of death, even in analyses limited to patients with sepsis or acute respiratory distress syndrome.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 1522647,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "CONCLUSIONS Increased mtDNA levels are associated with ICU mortality, and inclusion of mtDNA level improves risk prediction in medical ICU patients.",
+          "kept": true,
+          "new_index": 9
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1522647,
+          "title": "Circulating Mitochondrial DNA in Patients in the ICU as a Marker of Mortality: Derivation and Validation",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Mitochondrial DNA (mtDNA) is a critical activator of inflammation and the innate immune system."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "However, mtDNA level has not been tested for its role as a biomarker in the intensive care unit (ICU)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We hypothesized that circulating cell-free mtDNA levels would be associated with mortality and improve risk prediction in ICU patients.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "METHODS AND FINDINGS Analyses of mtDNA levels were performed on blood samples obtained from two prospective observational cohort studies of ICU patients (the Brigham and Women's Hospital Registry of Critical Illness [BWH RoCI, n = 200] and Molecular Epidemiology of Acute Respiratory Distress Syndrome [ME ARDS, n = 243])."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "mtDNA levels in plasma were assessed by measuring the copy number of the NADH dehydrogenase 1 gene using quantitative real-time PCR."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Medical ICU patients with an elevated mtDNA level (≥3,200 copies/µl plasma) had increased odds of dying within 28 d of ICU admission in both the BWH RoCI (odds ratio [OR] 7.5, 95% CI 3.6-15.8, p = 1×10(-7)) and ME ARDS (OR 8.4, 95% CI 2.9-24.2, p = 9×10(-5)) cohorts, while no evidence for association was noted in non-medical ICU patients."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "The addition of an elevated mtDNA level improved the net reclassification index (NRI) of 28-d mortality among medical ICU patients when added to clinical models in both the BWH RoCI (NRI 79%, standard error 14%, p<1×10(-4)) and ME ARDS (NRI 55%, standard error 20%, p = 0.007) cohorts."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "In the BWH RoCI cohort, those with an elevated mtDNA level had an increased risk of death, even in analyses limited to patients with sepsis or acute respiratory distress syndrome."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Study limitations include the lack of data elucidating the concise pathological roles of mtDNA in the patients, and the limited numbers of measurements for some of biomarkers.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "CONCLUSIONS Increased mtDNA levels are associated with ICU mortality, and inclusion of mtDNA level improves risk prediction in medical ICU patients."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Our data suggest that mtDNA could serve as a viable plasma biomarker in medical ICU patients."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Elevated cell-free mitochondrial DNA levels are associated with mortality.",
+      "evidence": [
+        {
+          "doc_id": 1522647,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Medical ICU patients with an elevated mtDNA level (≥3,200 copies/µl plasma) had increased odds of dying within 28 d of ICU admission in both the BWH RoCI (odds ratio [OR] 7.5, 95% CI 3.6-15.8, p = 1×10(-7)) and ME ARDS (OR 8.4, 95% CI 2.9-24.2, p = 9×10(-5)) cohorts, while no evidence for association was noted in non-medical ICU patients.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 1522647,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "In the BWH RoCI cohort, those with an elevated mtDNA level had an increased risk of death, even in analyses limited to patients with sepsis or acute respiratory distress syndrome.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 1522647,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "CONCLUSIONS Increased mtDNA levels are associated with ICU mortality, and inclusion of mtDNA level improves risk prediction in medical ICU patients.",
+          "kept": true,
+          "new_index": 7
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1522647,
+          "title": "Circulating Mitochondrial DNA in Patients in the ICU as a Marker of Mortality: Derivation and Validation",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "However, mtDNA level has not been tested for its role as a biomarker in the intensive care unit (ICU)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "We hypothesized that circulating cell-free mtDNA levels would be associated with mortality and improve risk prediction in ICU patients.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "METHODS AND FINDINGS Analyses of mtDNA levels were performed on blood samples obtained from two prospective observational cohort studies of ICU patients (the Brigham and Women's Hospital Registry of Critical Illness [BWH RoCI, n = 200] and Molecular Epidemiology of Acute Respiratory Distress Syndrome [ME ARDS, n = 243])."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "mtDNA levels in plasma were assessed by measuring the copy number of the NADH dehydrogenase 1 gene using quantitative real-time PCR."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Medical ICU patients with an elevated mtDNA level (≥3,200 copies/µl plasma) had increased odds of dying within 28 d of ICU admission in both the BWH RoCI (odds ratio [OR] 7.5, 95% CI 3.6-15.8, p = 1×10(-7)) and ME ARDS (OR 8.4, 95% CI 2.9-24.2, p = 9×10(-5)) cohorts, while no evidence for association was noted in non-medical ICU patients."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "The addition of an elevated mtDNA level improved the net reclassification index (NRI) of 28-d mortality among medical ICU patients when added to clinical models in both the BWH RoCI (NRI 79%, standard error 14%, p<1×10(-4)) and ME ARDS (NRI 55%, standard error 20%, p = 0.007) cohorts."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "Study limitations include the lack of data elucidating the concise pathological roles of mtDNA in the patients, and the limited numbers of measurements for some of biomarkers.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "CONCLUSIONS Increased mtDNA levels are associated with ICU mortality, and inclusion of mtDNA level improves risk prediction in medical ICU patients."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "Our data suggest that mtDNA could serve as a viable plasma biomarker in medical ICU patients."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 1522647,
+          "original_index": 0,
+          "sentence": "BACKGROUND Mitochondrial DNA (mtDNA) is a critical activator of inflammation and the innate immune system.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 1522647,
+          "original_index": 7,
+          "sentence": "In the BWH RoCI cohort, those with an elevated mtDNA level had an increased risk of death, even in analyses limited to patients with sepsis or acute respiratory distress syndrome.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g0",
+        "g2"
+      ],
+      "claim": "Elevated cell-free mitochondrial DNA levels are associated with mortality.",
+      "evidence": [
+        {
+          "doc_id": 1522647,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Medical ICU patients with an elevated mtDNA level (≥3,200 copies/µl plasma) had increased odds of dying within 28 d of ICU admission in both the BWH RoCI (odds ratio [OR] 7.5, 95% CI 3.6-15.8, p = 1×10(-7)) and ME ARDS (OR 8.4, 95% CI 2.9-24.2, p = 9×10(-5)) cohorts, while no evidence for association was noted in non-medical ICU patients.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 1522647,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "In the BWH RoCI cohort, those with an elevated mtDNA level had an increased risk of death, even in analyses limited to patients with sepsis or acute respiratory distress syndrome.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 1522647,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "CONCLUSIONS Increased mtDNA levels are associated with ICU mortality, and inclusion of mtDNA level improves risk prediction in medical ICU patients.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1522647,
+          "title": "Circulating Mitochondrial DNA in Patients in the ICU as a Marker of Mortality: Derivation and Validation",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Mitochondrial DNA (mtDNA) is a critical activator of inflammation and the innate immune system."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "However, mtDNA level has not been tested for its role as a biomarker in the intensive care unit (ICU)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We hypothesized that circulating cell-free mtDNA levels would be associated with mortality and improve risk prediction in ICU patients.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "METHODS AND FINDINGS Analyses of mtDNA levels were performed on blood samples obtained from two prospective observational cohort studies of ICU patients (the Brigham and Women's Hospital Registry of Critical Illness [BWH RoCI, n = 200] and Molecular Epidemiology of Acute Respiratory Distress Syndrome [ME ARDS, n = 243])."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "The addition of an elevated mtDNA level improved the net reclassification index (NRI) of 28-d mortality among medical ICU patients when added to clinical models in both the BWH RoCI (NRI 79%, standard error 14%, p<1×10(-4)) and ME ARDS (NRI 55%, standard error 20%, p = 0.007) cohorts."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "In the BWH RoCI cohort, those with an elevated mtDNA level had an increased risk of death, even in analyses limited to patients with sepsis or acute respiratory distress syndrome."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "Study limitations include the lack of data elucidating the concise pathological roles of mtDNA in the patients, and the limited numbers of measurements for some of biomarkers.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "Our data suggest that mtDNA could serve as a viable plasma biomarker in medical ICU patients."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 1522647,
+          "original_index": 4,
+          "sentence": "mtDNA levels in plasma were assessed by measuring the copy number of the NADH dehydrogenase 1 gene using quantitative real-time PCR.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 1522647,
+          "original_index": 5,
+          "sentence": "Medical ICU patients with an elevated mtDNA level (≥3,200 copies/µl plasma) had increased odds of dying within 28 d of ICU admission in both the BWH RoCI (odds ratio [OR] 7.5, 95% CI 3.6-15.8, p = 1×10(-7)) and ME ARDS (OR 8.4, 95% CI 2.9-24.2, p = 9×10(-5)) cohorts, while no evidence for association was noted in non-medical ICU patients.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 1522647,
+          "original_index": 9,
+          "sentence": "CONCLUSIONS Increased mtDNA levels are associated with ICU mortality, and inclusion of mtDNA level improves risk prediction in medical ICU patients.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2"
+      ],
+      "claim": "Elevated cell-free mitochondrial DNA levels are associated with mortality.",
+      "evidence": [
+        {
+          "doc_id": 1522647,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Medical ICU patients with an elevated mtDNA level (≥3,200 copies/µl plasma) had increased odds of dying within 28 d of ICU admission in both the BWH RoCI (odds ratio [OR] 7.5, 95% CI 3.6-15.8, p = 1×10(-7)) and ME ARDS (OR 8.4, 95% CI 2.9-24.2, p = 9×10(-5)) cohorts, while no evidence for association was noted in non-medical ICU patients.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 1522647,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "In the BWH RoCI cohort, those with an elevated mtDNA level had an increased risk of death, even in analyses limited to patients with sepsis or acute respiratory distress syndrome.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 1522647,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "CONCLUSIONS Increased mtDNA levels are associated with ICU mortality, and inclusion of mtDNA level improves risk prediction in medical ICU patients.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1522647,
+          "title": "Circulating Mitochondrial DNA in Patients in the ICU as a Marker of Mortality: Derivation and Validation",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Mitochondrial DNA (mtDNA) is a critical activator of inflammation and the innate immune system."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "However, mtDNA level has not been tested for its role as a biomarker in the intensive care unit (ICU)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We hypothesized that circulating cell-free mtDNA levels would be associated with mortality and improve risk prediction in ICU patients.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "mtDNA levels in plasma were assessed by measuring the copy number of the NADH dehydrogenase 1 gene using quantitative real-time PCR."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "The addition of an elevated mtDNA level improved the net reclassification index (NRI) of 28-d mortality among medical ICU patients when added to clinical models in both the BWH RoCI (NRI 79%, standard error 14%, p<1×10(-4)) and ME ARDS (NRI 55%, standard error 20%, p = 0.007) cohorts."
+            },
+            {
+              "new_index": 5,
+              "original_index": 8,
+              "sentence": "Study limitations include the lack of data elucidating the concise pathological roles of mtDNA in the patients, and the limited numbers of measurements for some of biomarkers.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 10,
+              "sentence": "Our data suggest that mtDNA could serve as a viable plasma biomarker in medical ICU patients."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 1522647,
+          "original_index": 3,
+          "sentence": "METHODS AND FINDINGS Analyses of mtDNA levels were performed on blood samples obtained from two prospective observational cohort studies of ICU patients (the Brigham and Women's Hospital Registry of Critical Illness [BWH RoCI, n = 200] and Molecular Epidemiology of Acute Respiratory Distress Syndrome [ME ARDS, n = 243]).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 1522647,
+          "original_index": 5,
+          "sentence": "Medical ICU patients with an elevated mtDNA level (≥3,200 copies/µl plasma) had increased odds of dying within 28 d of ICU admission in both the BWH RoCI (odds ratio [OR] 7.5, 95% CI 3.6-15.8, p = 1×10(-7)) and ME ARDS (OR 8.4, 95% CI 2.9-24.2, p = 9×10(-5)) cohorts, while no evidence for association was noted in non-medical ICU patients.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 1522647,
+          "original_index": 7,
+          "sentence": "In the BWH RoCI cohort, those with an elevated mtDNA level had an increased risk of death, even in analyses limited to patients with sepsis or acute respiratory distress syndrome.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 1522647,
+          "original_index": 9,
+          "sentence": "CONCLUSIONS Increased mtDNA levels are associated with ICU mortality, and inclusion of mtDNA level improves risk prediction in medical ICU patients.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

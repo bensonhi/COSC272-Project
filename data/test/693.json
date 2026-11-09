@@ -1,0 +1,81 @@
+{
+  "id": 693,
+  "origin": "dev",
+  "claim": "Leuko-reduced blood reduces infectious complications in red blood cell transfusion.",
+  "evidence": [
+    {
+      "doc_id": 24088502,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 8,
+      "sentence": "Compared with the control period, the adjusted odds of death following leukoreduction were reduced (odds ratio [OR], 0.87; 95% confidence interval [CI], 0.75-0.99), but serious nosocomial infections did not decrease (adjusted OR, 0.97; 95% CI, 0.87-1.09)."
+    },
+    {
+      "doc_id": 24088502,
+      "group_id": "g1",
+      "evidence_label": "SUPPORT",
+      "original_index": 9,
+      "sentence": "The frequency of posttransfusion fevers decreased significantly following leukoreduction (adjusted OR, 0.86; 95% CI, 0.79-0.94), as did antibiotic use (adjusted OR, 0.90; 95% CI, 0.82-0.99).   \n"
+    },
+    {
+      "doc_id": 24088502,
+      "group_id": "g2",
+      "evidence_label": "SUPPORT",
+      "original_index": 10,
+      "sentence": "CONCLUSION A national universal leukoreduction program is potentially associated with decreased mortality as well as decreased fever episodes and antibiotic use after red blood cell transfusion in high-risk patients."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 24088502,
+      "title": "Clinical outcomes following institution of the Canadian universal leukoreduction program for red blood cell transfusions.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "CONTEXT A number of countries have implemented a policy of universal leukoreduction of their blood supply, but the potential role of leukoreduction in decreasing postoperative mortality and infection is unclear.   \n"
+        },
+        {
+          "original_index": 1,
+          "sentence": "OBJECTIVE To evaluate clinical outcomes following adoption of a national universal prestorage leukoreduction program for blood transfusions.   \n"
+        },
+        {
+          "original_index": 2,
+          "sentence": "DESIGN, SETTING, AND POPULATION Retrospective before-and-after cohort study conducted from August 1998 to August 2000 in 23 academic and community hospitals throughout Canada, enrolling 14 786 patients who received red blood cell transfusions following cardiac surgery or repair of hip fracture, or who required intensive care following a surgical intervention or multiple trauma.   \n"
+        },
+        {
+          "original_index": 3,
+          "sentence": "INTERVENTION Universal prestorage leukoreduction program introduced by 2 Canadian blood agencies."
+        },
+        {
+          "original_index": 4,
+          "sentence": "A total of 6982 patients were enrolled during the control period and 7804 patients were enrolled following prestorage leukoreduction.   \n"
+        },
+        {
+          "original_index": 5,
+          "sentence": "MAIN OUTCOME MEASURES All-cause in-hospital mortality and serious nosocomial infections (pneumonia, bacteremia, septic shock, all surgical site infections) occurring after first transfusion and at least 2 days after index procedure or intensive care unit admission."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Secondary outcomes included rates of posttransfusion fever and antibiotic use.   \n"
+        },
+        {
+          "original_index": 7,
+          "sentence": "RESULTS Unadjusted in-hospital mortality rates were significantly lower following the introduction of leukoreduction compared with the control period (6.19% vs 7.03%, respectively; P =.04)."
+        },
+        {
+          "original_index": 8,
+          "sentence": "Compared with the control period, the adjusted odds of death following leukoreduction were reduced (odds ratio [OR], 0.87; 95% confidence interval [CI], 0.75-0.99), but serious nosocomial infections did not decrease (adjusted OR, 0.97; 95% CI, 0.87-1.09)."
+        },
+        {
+          "original_index": 9,
+          "sentence": "The frequency of posttransfusion fevers decreased significantly following leukoreduction (adjusted OR, 0.86; 95% CI, 0.79-0.94), as did antibiotic use (adjusted OR, 0.90; 95% CI, 0.82-0.99).   \n"
+        },
+        {
+          "original_index": 10,
+          "sentence": "CONCLUSION A national universal leukoreduction program is potentially associated with decreased mortality as well as decreased fever episodes and antibiotic use after red blood cell transfusion in high-risk patients."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

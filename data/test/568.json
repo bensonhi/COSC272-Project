@@ -1,0 +1,69 @@
+{
+  "id": 568,
+  "origin": "train_more",
+  "claim": "In a naive state, blocking Wingless-Int-1 secretion from mouse embryonic stem cells inhibits self-renewal of the mouse embryonic stem cells.",
+  "evidence": [
+    {
+      "doc_id": 23418635,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 5,
+      "sentence": "We show here that paracrine and autocrine Wnt signals are essential self-renewal factors for ESCs, and are required to inhibit their differentiation into EpiSCs."
+    },
+    {
+      "doc_id": 23418635,
+      "group_id": "g1",
+      "evidence_label": "SUPPORT",
+      "original_index": 6,
+      "sentence": "Moreover, we find that Wnt proteins in combination with the cytokine LIF are sufficient to support ESC self-renewal in the absence of any undefined factors, and support the derivation of new ESC lines, including ones from non-permissive mouse strains."
+    },
+    {
+      "doc_id": 23418635,
+      "group_id": "g2",
+      "evidence_label": "SUPPORT",
+      "original_index": 7,
+      "sentence": "Our results not only demonstrate that Wnt signals regulate the naive-to-primed pluripotency transition, but also identify Wnt as an essential and limiting ESC self-renewal factor."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 23418635,
+      "title": "Embryonic stem cells require Wnt proteins to prevent differentiation to epiblast stem cells",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Pluripotent stem cells exist in naive and primed states, epitomized by mouse embryonic stem cells (ESCs) and the developmentally more advanced epiblast stem cells (EpiSCs; ref. )."
+        },
+        {
+          "original_index": 1,
+          "sentence": "In the naive state of ESCs, the genome has an unusual open conformation and possesses a minimum of repressive epigenetic marks."
+        },
+        {
+          "original_index": 2,
+          "sentence": "In contrast, EpiSCs have activated the epigenetic machinery that supports differentiation towards the embryonic cell types."
+        },
+        {
+          "original_index": 3,
+          "sentence": "The transition from naive to primed pluripotency therefore represents a pivotal event in cellular differentiation."
+        },
+        {
+          "original_index": 4,
+          "sentence": "But the signals that control this fundamental differentiation step remain unclear."
+        },
+        {
+          "original_index": 5,
+          "sentence": "We show here that paracrine and autocrine Wnt signals are essential self-renewal factors for ESCs, and are required to inhibit their differentiation into EpiSCs."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Moreover, we find that Wnt proteins in combination with the cytokine LIF are sufficient to support ESC self-renewal in the absence of any undefined factors, and support the derivation of new ESC lines, including ones from non-permissive mouse strains."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Our results not only demonstrate that Wnt signals regulate the naive-to-primed pluripotency transition, but also identify Wnt as an essential and limiting ESC self-renewal factor."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

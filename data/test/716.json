@@ -1,0 +1,39 @@
+{
+  "id": 716,
+  "origin": "dev",
+  "claim": "Low expression of miR7a exerts a biological function in testis.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 18421962,
+      "title": "Assessing the ceRNA hypothesis with quantitative measurements of miRNA and target abundance.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Recent studies have reported that competitive endogenous RNAs (ceRNAs) can act as sponges for a microRNA (miRNA) through their binding sites and that changes in ceRNA abundances from individual genes can modulate the activity of miRNAs."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Consideration of this hypothesis would benefit from knowing the quantitative relationship between a miRNA and its endogenous target sites."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Here, we altered intracellular target site abundance through expression of an miR-122 target in hepatocytes and livers and analyzed the effects on miR-122 target genes."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Target repression was released in a threshold-like manner at high target site abundance (≥1.5 × 10(5) added target sites per cell), and this threshold was insensitive to the effective levels of the miRNA."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Furthermore, in response to extreme metabolic liver disease models, global target site abundance of hepatocytes did not change sufficiently to affect miRNA-mediated repression."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Thus, modulation of miRNA target abundance is unlikely to cause significant effects on gene expression and metabolism through a ceRNA effect."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

@@ -1,0 +1,504 @@
+{
+  "id": 111,
+  "origin": "train_more",
+  "n_groups": 5,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Androgenetic haploid mouse embryonic stem cells (ESCs) can be derived and genetically manipulated in vitro.",
+      "evidence": [
+        {
+          "doc_id": 13513790,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 3,
+          "sentence": "Here, we report the derivation of haESCs from androgenetic blastocysts.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 13513790,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Strikingly, live mice can be obtained upon injection of AG-haESCs into MII oocytes, and these mice bear haESC-carried genetic traits and develop into fertile adults.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 13513790,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "Furthermore, gene targeting via homologous recombination is feasible in the AG-haESCs.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 13513790,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Our results demonstrate that AG-haESCs can be used as a genetically tractable fertilization agent for the production of live animals via injection into oocytes.",
+          "kept": true,
+          "new_index": 7
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13513790,
+          "title": "Generation of Genetically Modified Mice by Oocyte Injection of Androgenetic Haploid Embryonic Stem Cells",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Haploid cells are amenable for genetic analysis."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Recent success in the derivation of mouse haploid embryonic stem cells (haESCs) via parthenogenesis has enabled genetic screening in mammalian cells."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "However, successful generation of live animals from these haESCs, which is needed to extend the genetic analysis to the organism level, has not been achieved."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Here, we report the derivation of haESCs from androgenetic blastocysts."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "These cells, designated as AG-haESCs, partially maintain paternal imprints, express classical ESC pluripotency markers, and contribute to various tissues, including the germline, upon injection into diploid blastocysts."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Strikingly, live mice can be obtained upon injection of AG-haESCs into MII oocytes, and these mice bear haESC-carried genetic traits and develop into fertile adults."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Furthermore, gene targeting via homologous recombination is feasible in the AG-haESCs."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Our results demonstrate that AG-haESCs can be used as a genetically tractable fertilization agent for the production of live animals via injection into oocytes."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g2"
+      ],
+      "claim": "Androgenetic haploid mouse embryonic stem cells (ESCs) can be derived and genetically manipulated in vitro.",
+      "evidence": [
+        {
+          "doc_id": 13513790,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 3,
+          "sentence": "Here, we report the derivation of haESCs from androgenetic blastocysts.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13513790,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Strikingly, live mice can be obtained upon injection of AG-haESCs into MII oocytes, and these mice bear haESC-carried genetic traits and develop into fertile adults.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 13513790,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "Furthermore, gene targeting via homologous recombination is feasible in the AG-haESCs.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 13513790,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Our results demonstrate that AG-haESCs can be used as a genetically tractable fertilization agent for the production of live animals via injection into oocytes.",
+          "kept": true,
+          "new_index": 5
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13513790,
+          "title": "Generation of Genetically Modified Mice by Oocyte Injection of Androgenetic Haploid Embryonic Stem Cells",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Haploid cells are amenable for genetic analysis."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "However, successful generation of live animals from these haESCs, which is needed to extend the genetic analysis to the organism level, has not been achieved."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "These cells, designated as AG-haESCs, partially maintain paternal imprints, express classical ESC pluripotency markers, and contribute to various tissues, including the germline, upon injection into diploid blastocysts."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Strikingly, live mice can be obtained upon injection of AG-haESCs into MII oocytes, and these mice bear haESC-carried genetic traits and develop into fertile adults."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Furthermore, gene targeting via homologous recombination is feasible in the AG-haESCs."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Our results demonstrate that AG-haESCs can be used as a genetically tractable fertilization agent for the production of live animals via injection into oocytes."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 13513790,
+          "original_index": 1,
+          "sentence": "Recent success in the derivation of mouse haploid embryonic stem cells (haESCs) via parthenogenesis has enabled genetic screening in mammalian cells.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 13513790,
+          "original_index": 3,
+          "sentence": "Here, we report the derivation of haESCs from androgenetic blastocysts.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g1",
+        "g0"
+      ],
+      "claim": "Androgenetic haploid mouse embryonic stem cells (ESCs) can be derived and genetically manipulated in vitro.",
+      "evidence": [
+        {
+          "doc_id": 13513790,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 3,
+          "sentence": "Here, we report the derivation of haESCs from androgenetic blastocysts.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 13513790,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Strikingly, live mice can be obtained upon injection of AG-haESCs into MII oocytes, and these mice bear haESC-carried genetic traits and develop into fertile adults.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13513790,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "Furthermore, gene targeting via homologous recombination is feasible in the AG-haESCs.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 13513790,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Our results demonstrate that AG-haESCs can be used as a genetically tractable fertilization agent for the production of live animals via injection into oocytes.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13513790,
+          "title": "Generation of Genetically Modified Mice by Oocyte Injection of Androgenetic Haploid Embryonic Stem Cells",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "Recent success in the derivation of mouse haploid embryonic stem cells (haESCs) via parthenogenesis has enabled genetic screening in mammalian cells."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "However, successful generation of live animals from these haESCs, which is needed to extend the genetic analysis to the organism level, has not been achieved."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Here, we report the derivation of haESCs from androgenetic blastocysts."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "These cells, designated as AG-haESCs, partially maintain paternal imprints, express classical ESC pluripotency markers, and contribute to various tissues, including the germline, upon injection into diploid blastocysts."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Furthermore, gene targeting via homologous recombination is feasible in the AG-haESCs."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 13513790,
+          "original_index": 0,
+          "sentence": "Haploid cells are amenable for genetic analysis.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 13513790,
+          "original_index": 5,
+          "sentence": "Strikingly, live mice can be obtained upon injection of AG-haESCs into MII oocytes, and these mice bear haESC-carried genetic traits and develop into fertile adults.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13513790,
+          "original_index": 7,
+          "sentence": "Our results demonstrate that AG-haESCs can be used as a genetically tractable fertilization agent for the production of live animals via injection into oocytes.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_3_groups",
+      "dropped_group_ids": [
+        "g3",
+        "g2",
+        "g0"
+      ],
+      "claim": "Androgenetic haploid mouse embryonic stem cells (ESCs) can be derived and genetically manipulated in vitro.",
+      "evidence": [
+        {
+          "doc_id": 13513790,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 3,
+          "sentence": "Here, we report the derivation of haESCs from androgenetic blastocysts.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13513790,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Strikingly, live mice can be obtained upon injection of AG-haESCs into MII oocytes, and these mice bear haESC-carried genetic traits and develop into fertile adults.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13513790,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "Furthermore, gene targeting via homologous recombination is feasible in the AG-haESCs.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13513790,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Our results demonstrate that AG-haESCs can be used as a genetically tractable fertilization agent for the production of live animals via injection into oocytes.",
+          "kept": true,
+          "new_index": 3
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13513790,
+          "title": "Generation of Genetically Modified Mice by Oocyte Injection of Androgenetic Haploid Embryonic Stem Cells",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Haploid cells are amenable for genetic analysis."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Recent success in the derivation of mouse haploid embryonic stem cells (haESCs) via parthenogenesis has enabled genetic screening in mammalian cells."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "These cells, designated as AG-haESCs, partially maintain paternal imprints, express classical ESC pluripotency markers, and contribute to various tissues, including the germline, upon injection into diploid blastocysts."
+            },
+            {
+              "new_index": 3,
+              "original_index": 7,
+              "sentence": "Our results demonstrate that AG-haESCs can be used as a genetically tractable fertilization agent for the production of live animals via injection into oocytes."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 13513790,
+          "original_index": 2,
+          "sentence": "However, successful generation of live animals from these haESCs, which is needed to extend the genetic analysis to the organism level, has not been achieved.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 13513790,
+          "original_index": 3,
+          "sentence": "Here, we report the derivation of haESCs from androgenetic blastocysts.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13513790,
+          "original_index": 5,
+          "sentence": "Strikingly, live mice can be obtained upon injection of AG-haESCs into MII oocytes, and these mice bear haESC-carried genetic traits and develop into fertile adults.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13513790,
+          "original_index": 6,
+          "sentence": "Furthermore, gene targeting via homologous recombination is feasible in the AG-haESCs.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2",
+        "g3"
+      ],
+      "claim": "Androgenetic haploid mouse embryonic stem cells (ESCs) can be derived and genetically manipulated in vitro.",
+      "evidence": [
+        {
+          "doc_id": 13513790,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 3,
+          "sentence": "Here, we report the derivation of haESCs from androgenetic blastocysts.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13513790,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Strikingly, live mice can be obtained upon injection of AG-haESCs into MII oocytes, and these mice bear haESC-carried genetic traits and develop into fertile adults.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13513790,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "Furthermore, gene targeting via homologous recombination is feasible in the AG-haESCs.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13513790,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Our results demonstrate that AG-haESCs can be used as a genetically tractable fertilization agent for the production of live animals via injection into oocytes.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13513790,
+          "title": "Generation of Genetically Modified Mice by Oocyte Injection of Androgenetic Haploid Embryonic Stem Cells",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Haploid cells are amenable for genetic analysis."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Recent success in the derivation of mouse haploid embryonic stem cells (haESCs) via parthenogenesis has enabled genetic screening in mammalian cells."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "However, successful generation of live animals from these haESCs, which is needed to extend the genetic analysis to the organism level, has not been achieved."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 13513790,
+          "original_index": 3,
+          "sentence": "Here, we report the derivation of haESCs from androgenetic blastocysts.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13513790,
+          "original_index": 4,
+          "sentence": "These cells, designated as AG-haESCs, partially maintain paternal imprints, express classical ESC pluripotency markers, and contribute to various tissues, including the germline, upon injection into diploid blastocysts.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 13513790,
+          "original_index": 5,
+          "sentence": "Strikingly, live mice can be obtained upon injection of AG-haESCs into MII oocytes, and these mice bear haESC-carried genetic traits and develop into fertile adults.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13513790,
+          "original_index": 6,
+          "sentence": "Furthermore, gene targeting via homologous recombination is feasible in the AG-haESCs.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13513790,
+          "original_index": 7,
+          "sentence": "Our results demonstrate that AG-haESCs can be used as a genetically tractable fertilization agent for the production of live animals via injection into oocytes.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

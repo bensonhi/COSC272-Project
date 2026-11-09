@@ -1,0 +1,39 @@
+{
+  "id": 574,
+  "origin": "train_more",
+  "claim": "In domesticated populations of Saccharomyces cerevisiae, segmental aneuploidy occurs infrequently.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 10300888,
+      "title": "Domestication and Divergence of Saccharomyces cerevisiae Beer Yeasts",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Whereas domestication of livestock, pets, and crops is well documented, it is still unclear to what extent microbes associated with the production of food have also undergone human selection and where the plethora of industrial strains originates from."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Here, we present the genomes and phenomes of 157 industrial Saccharomyces cerevisiae yeasts."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Our analyses reveal that today's industrial yeasts can be divided into five sublineages that are genetically and phenotypically separated from wild strains and originate from only a few ancestors through complex patterns of domestication and local divergence."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Large-scale phenotyping and genome analysis further show strong industry-specific selection for stress tolerance, sugar utilization, and flavor production, while the sexual cycle and other phenotypes related to survival in nature show decay, particularly in beer yeasts."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Together, these results shed light on the origins, evolutionary history, and phenotypic diversity of industrial yeasts and provide a resource for further selection of superior strains."
+        },
+        {
+          "original_index": 5,
+          "sentence": "PAPERCLIP."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

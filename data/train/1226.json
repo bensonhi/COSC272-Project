@@ -1,0 +1,53 @@
+{
+  "id": 1226,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The loss of the TET protein functions may have dire biological consequences, such as myeloid cancers.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 13777138,
+          "title": "Tet1 and Tet2 regulate 5-hydroxymethylcytosine production and cell lineage specification in mouse embryonic stem cells.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "TET family enzymes convert 5-methylcytosine (5mC) to 5-hydroxymethylcytosine (5hmC) in DNA."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here, we show that Tet1 and Tet2 are Oct4-regulated enzymes that together sustain 5hmC in mouse embryonic stem cells (ESCs) and are induced concomitantly with 5hmC during reprogramming of fibroblasts to induced pluripotent stem cells."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "ESCs depleted of Tet1 by RNAi show diminished expression of the Nodal antagonist Lefty1 and display hyperactive Nodal signaling and skewed differentiation into the endoderm-mesoderm lineage in embryoid bodies in vitro."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "In Fgf4- and heparin-supplemented culture conditions, Tet1-depleted ESCs activate the trophoblast stem cell lineage determinant Elf5 and can colonize the placenta in midgestation embryo chimeras."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Consistent with these findings, Tet1-depleted ESCs form aggressive hemorrhagic teratomas with increased endoderm, reduced neuroectoderm, and ectopic appearance of trophoblastic giant cells."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Thus, 5hmC is an epigenetic modification associated with the pluripotent state, and Tet1 functions to regulate the lineage differentiation potential of ESCs."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": 186,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "British female students are bullied more than British male students.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 16855829,
+          "title": "Bullying in school: are short pupils at risk? Questionnaire study in a cohort.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Bullying is still prevalent in schools and is clearly stressful for victims."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "1 2 It may also have undesirable consequences for bullies, with antisocial behaviour persisting into adulthood."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Victims are generally reported to be weaker than the bullies."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "2 3 This would suggest that very short pupils are more likely to be victims and less likely to be the aggressors."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "The Wessex growth study allowed us to examine the prevalence of bullying, as experienced or perpetrated by pupils of different heights.  "
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Ninety two short normal adolescents who had been below the third centile for height at school entry4 and 117 controls matched for age and sex completed a bullying questionnaire, derived from work by Whitney and Smith.5 There were no refusals or any significant differences in sex or social class between the groups."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Mean age (range) was 14.7 (13.4-15.7) years."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Mean height SD scores were: short pupils −1.90 (−3.53 to −0.01), controls 0.31 (−1.41 …"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

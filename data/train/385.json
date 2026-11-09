@@ -1,0 +1,217 @@
+{
+  "id": 385,
+  "origin": "dev",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Epigenetic modulating agents (EMAs) modulate antitumor immune response in a cancer model system.",
+      "evidence": [
+        {
+          "doc_id": 9955779,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Use of this combination treatment schema in mouse models of NSCLC reverses tumor immune evasion and modulates T cell exhaustion state towards memory and effector T cell phenotypes.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 9955779,
+          "title": "Epigenetic Therapy Ties MYC Depletion to Reversing Immune Evasion and Treating Lung Cancer",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Combining DNA-demethylating agents (DNA methyltransferase inhibitors [DNMTis]) with histone deacetylase inhibitors (HDACis) holds promise for enhancing cancer immune therapy."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Herein, pharmacologic and isoform specificity of HDACis are investigated to guide their addition to a DNMTi, thus devising a new, low-dose, sequential regimen that imparts a robust anti-tumor effect for non-small-cell lung cancer (NSCLC)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Using in-vitro-treated NSCLC cell lines, we elucidate an interferon α/β-based transcriptional program with accompanying upregulation of antigen presentation machinery, mediated in part through double-stranded RNA (dsRNA) induction."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "This is accompanied by suppression of MYC signaling and an increase in the T cell chemoattractant CCL5."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Use of this combination treatment schema in mouse models of NSCLC reverses tumor immune evasion and modulates T cell exhaustion state towards memory and effector T cell phenotypes."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Key correlative science metrics emerge for an upcoming clinical trial, testing enhancement of immune checkpoint therapy for NSCLC."
+            }
+          ]
+        },
+        {
+          "doc_id": 9767444,
+          "title": "Epigenetic therapy activates type I interferon signaling in murine ovarian cancer to reduce immunosuppression and tumor burden.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Ovarian cancer is the most lethal of all gynecological cancers, and there is an urgent unmet need to develop new therapies."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Epithelial ovarian cancer (EOC) is characterized by an immune suppressive microenvironment, and response of ovarian cancers to immune therapies has thus far been disappointing."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We now find, in a mouse model of EOC, that clinically relevant doses of DNA methyltransferase and histone deacetylase inhibitors (DNMTi and HDACi, respectively) reduce the immune suppressive microenvironment through type I IFN signaling and improve response to immune checkpoint therapy."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "These data indicate that the type I IFN response is required for effective in vivo antitumorigenic actions of the DNMTi 5-azacytidine (AZA)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Through type I IFN signaling, AZA increases the numbers of CD45+ immune cells and the percentage of active CD8+ T and natural killer (NK) cells in the tumor microenvironment, while reducing tumor burden and extending survival."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "AZA also increases viral defense gene expression in both tumor and immune cells, and reduces the percentage of macrophages and myeloid-derived suppressor cells in the tumor microenvironment."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "The addition of an HDACi to AZA enhances the modulation of the immune microenvironment, specifically increasing T and NK cell activation and reducing macrophages over AZA treatment alone, while further increasing the survival of the mice."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Finally, a triple combination of DNMTi/HDACi plus the immune checkpoint inhibitor α-PD-1 provides the best antitumor effect and longest overall survival, and may be an attractive candidate for future clinical trials in ovarian cancer."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Epigenetic modulating agents (EMAs) modulate antitumor immune response in a cancer model system.",
+      "evidence": [
+        {
+          "doc_id": 9955779,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Use of this combination treatment schema in mouse models of NSCLC reverses tumor immune evasion and modulates T cell exhaustion state towards memory and effector T cell phenotypes.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 9955779,
+          "title": "Epigenetic Therapy Ties MYC Depletion to Reversing Immune Evasion and Treating Lung Cancer",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Combining DNA-demethylating agents (DNA methyltransferase inhibitors [DNMTis]) with histone deacetylase inhibitors (HDACis) holds promise for enhancing cancer immune therapy."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Herein, pharmacologic and isoform specificity of HDACis are investigated to guide their addition to a DNMTi, thus devising a new, low-dose, sequential regimen that imparts a robust anti-tumor effect for non-small-cell lung cancer (NSCLC)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Using in-vitro-treated NSCLC cell lines, we elucidate an interferon α/β-based transcriptional program with accompanying upregulation of antigen presentation machinery, mediated in part through double-stranded RNA (dsRNA) induction."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Key correlative science metrics emerge for an upcoming clinical trial, testing enhancement of immune checkpoint therapy for NSCLC."
+            }
+          ]
+        },
+        {
+          "doc_id": 9767444,
+          "title": "Epigenetic therapy activates type I interferon signaling in murine ovarian cancer to reduce immunosuppression and tumor burden.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Ovarian cancer is the most lethal of all gynecological cancers, and there is an urgent unmet need to develop new therapies."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Epithelial ovarian cancer (EOC) is characterized by an immune suppressive microenvironment, and response of ovarian cancers to immune therapies has thus far been disappointing."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We now find, in a mouse model of EOC, that clinically relevant doses of DNA methyltransferase and histone deacetylase inhibitors (DNMTi and HDACi, respectively) reduce the immune suppressive microenvironment through type I IFN signaling and improve response to immune checkpoint therapy."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "These data indicate that the type I IFN response is required for effective in vivo antitumorigenic actions of the DNMTi 5-azacytidine (AZA)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Through type I IFN signaling, AZA increases the numbers of CD45+ immune cells and the percentage of active CD8+ T and natural killer (NK) cells in the tumor microenvironment, while reducing tumor burden and extending survival."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "AZA also increases viral defense gene expression in both tumor and immune cells, and reduces the percentage of macrophages and myeloid-derived suppressor cells in the tumor microenvironment."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "The addition of an HDACi to AZA enhances the modulation of the immune microenvironment, specifically increasing T and NK cell activation and reducing macrophages over AZA treatment alone, while further increasing the survival of the mice."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 9955779,
+          "original_index": 3,
+          "sentence": "This is accompanied by suppression of MYC signaling and an increase in the T cell chemoattractant CCL5.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 9955779,
+          "original_index": 4,
+          "sentence": "Use of this combination treatment schema in mouse models of NSCLC reverses tumor immune evasion and modulates T cell exhaustion state towards memory and effector T cell phenotypes.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 9767444,
+          "original_index": 7,
+          "sentence": "Finally, a triple combination of DNMTi/HDACi plus the immune checkpoint inhibitor α-PD-1 provides the best antitumor effect and longest overall survival, and may be an attractive candidate for future clinical trials in ovarian cancer.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

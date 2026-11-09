@@ -1,0 +1,144 @@
+{
+  "id": 1162,
+  "origin": "train_more",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The DdrB protein from Deinococcus radiodurans functions as a pentamer.",
+      "evidence": [
+        {
+          "doc_id": 15305881,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "DdrB forms a pentameric ring capable of binding single-stranded but not double-stranded DNA.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15305881,
+          "title": "The structure of DdrB from Deinococcus: a new fold for single-stranded DNA binding proteins",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Deinococcus spp. are renowned for their amazing ability to recover rapidly from severe genomic fragmentation as a result of exposure to extreme levels of ionizing radiation or desiccation."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Despite having been originally characterized over 50 years ago, the mechanism underlying this remarkable repair process is still poorly understood."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here, we report the 2.8 A structure of DdrB, a single-stranded DNA (ssDNA) binding protein unique to Deinococcus spp."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "that is crucial for recovery following DNA damage."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "DdrB forms a pentameric ring capable of binding single-stranded but not double-stranded DNA."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Unexpectedly, the crystal structure reveals that DdrB comprises a novel fold that is structurally and topologically distinct from all other single-stranded binding (SSB) proteins characterized to date."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "The need for a unique ssDNA binding function in response to severe damage, suggests a distinct role for DdrB which may encompass not only standard SSB protein function in protection of ssDNA, but also more specialized roles in protein recruitment or DNA architecture maintenance."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Possible mechanisms of DdrB action in damage recovery are discussed."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "The DdrB protein from Deinococcus radiodurans functions as a pentamer.",
+      "evidence": [
+        {
+          "doc_id": 15305881,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "DdrB forms a pentameric ring capable of binding single-stranded but not double-stranded DNA.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15305881,
+          "title": "The structure of DdrB from Deinococcus: a new fold for single-stranded DNA binding proteins",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Deinococcus spp. are renowned for their amazing ability to recover rapidly from severe genomic fragmentation as a result of exposure to extreme levels of ionizing radiation or desiccation."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Despite having been originally characterized over 50 years ago, the mechanism underlying this remarkable repair process is still poorly understood."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here, we report the 2.8 A structure of DdrB, a single-stranded DNA (ssDNA) binding protein unique to Deinococcus spp."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "that is crucial for recovery following DNA damage."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Unexpectedly, the crystal structure reveals that DdrB comprises a novel fold that is structurally and topologically distinct from all other single-stranded binding (SSB) proteins characterized to date."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Possible mechanisms of DdrB action in damage recovery are discussed."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 15305881,
+          "original_index": 4,
+          "sentence": "DdrB forms a pentameric ring capable of binding single-stranded but not double-stranded DNA.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 15305881,
+          "original_index": 6,
+          "sentence": "The need for a unique ssDNA binding function in response to severe damage, suggests a distinct role for DdrB which may encompass not only standard SSB protein function in protection of ssDNA, but also more specialized roles in protein recruitment or DNA architecture maintenance.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,844 @@
+{
+  "id": 61,
+  "origin": "train_more",
+  "n_groups": 6,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "ART substantially reduces infectiveness of HIV-positive people.",
+      "evidence": [
+        {
+          "doc_id": 13899137,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "For a scenario in which 80% of HIV-infected individuals start treatment on average 1 y after their CD4 count drops below 350 cells/µl and 85% remain on treatment after 3 y, the models projected that HIV incidence would be 35% to 54% lower 8 y after the introduction of ART, compared to a counterfactual scenario in which there is no ART.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 13899137,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "The number of person-years of ART per infection averted over 8 y ranged between 5.8 and 18.7.",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 13899137,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Considering the actual scale-up of ART in South Africa, seven models estimated that current HIV incidence is 17% to 32% lower than it would have been in the absence of ART.",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 13899137,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Mathematical models evaluating the impact of ART vary substantially in structure, complexity, and parameter choices, but all suggest that ART, at high levels of access and with high adherence, has the potential to substantially reduce new HIV infections.",
+          "kept": true,
+          "new_index": 11
+        },
+        {
+          "doc_id": 13899137,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 12,
+          "sentence": "There was broad agreement regarding the short-term epidemiologic impact of ambitious treatment scale-up, but more variation in longer term projections and in the efficiency with which treatment can reduce new infections.",
+          "kept": true,
+          "new_index": 12
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13899137,
+          "title": "HIV Treatment as Prevention: Systematic Comparison of Mathematical Models of the Potential Impact of Antiretroviral Therapy on HIV Incidence in South Africa",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Many mathematical models have investigated the impact of expanding access to antiretroviral therapy (ART) on new HIV infections."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Comparing results and conclusions across models is challenging because models have addressed slightly different questions and have reported different outcome metrics."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "This study compares the predictions of several mathematical models simulating the same ART intervention programmes to determine the extent to which models agree about the epidemiological impact of expanded ART.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "METHODS AND FINDINGS Twelve independent mathematical models evaluated a set of standardised ART intervention scenarios in South Africa and reported a common set of outputs."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Intervention scenarios systematically varied the CD4 count threshold for treatment eligibility, access to treatment, and programme retention."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "For a scenario in which 80% of HIV-infected individuals start treatment on average 1 y after their CD4 count drops below 350 cells/µl and 85% remain on treatment after 3 y, the models projected that HIV incidence would be 35% to 54% lower 8 y after the introduction of ART, compared to a counterfactual scenario in which there is no ART."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "More variation existed in the estimated long-term (38 y) reductions in incidence."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "The impact of optimistic interventions including immediate ART initiation varied widely across models, maintaining substantial uncertainty about the theoretical prospect for elimination of HIV from the population using ART alone over the next four decades."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "The number of person-years of ART per infection averted over 8 y ranged between 5.8 and 18.7."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Considering the actual scale-up of ART in South Africa, seven models estimated that current HIV incidence is 17% to 32% lower than it would have been in the absence of ART."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Differences between model assumptions about CD4 decline and HIV transmissibility over the course of infection explained only a modest amount of the variation in model results.   \n"
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "CONCLUSIONS Mathematical models evaluating the impact of ART vary substantially in structure, complexity, and parameter choices, but all suggest that ART, at high levels of access and with high adherence, has the potential to substantially reduce new HIV infections."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "There was broad agreement regarding the short-term epidemiologic impact of ambitious treatment scale-up, but more variation in longer term projections and in the efficiency with which treatment can reduce new infections."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "Differences between model predictions could not be explained by differences in model structure or parameterization that were hypothesized to affect intervention impact."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g4"
+      ],
+      "claim": "ART substantially reduces infectiveness of HIV-positive people.",
+      "evidence": [
+        {
+          "doc_id": 13899137,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "For a scenario in which 80% of HIV-infected individuals start treatment on average 1 y after their CD4 count drops below 350 cells/µl and 85% remain on treatment after 3 y, the models projected that HIV incidence would be 35% to 54% lower 8 y after the introduction of ART, compared to a counterfactual scenario in which there is no ART.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 13899137,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "The number of person-years of ART per infection averted over 8 y ranged between 5.8 and 18.7.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 13899137,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Considering the actual scale-up of ART in South Africa, seven models estimated that current HIV incidence is 17% to 32% lower than it would have been in the absence of ART.",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 13899137,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Mathematical models evaluating the impact of ART vary substantially in structure, complexity, and parameter choices, but all suggest that ART, at high levels of access and with high adherence, has the potential to substantially reduce new HIV infections.",
+          "kept": true,
+          "new_index": 10
+        },
+        {
+          "doc_id": 13899137,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 12,
+          "sentence": "There was broad agreement regarding the short-term epidemiologic impact of ambitious treatment scale-up, but more variation in longer term projections and in the efficiency with which treatment can reduce new infections.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13899137,
+          "title": "HIV Treatment as Prevention: Systematic Comparison of Mathematical Models of the Potential Impact of Antiretroviral Therapy on HIV Incidence in South Africa",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Many mathematical models have investigated the impact of expanding access to antiretroviral therapy (ART) on new HIV infections."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Comparing results and conclusions across models is challenging because models have addressed slightly different questions and have reported different outcome metrics."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "METHODS AND FINDINGS Twelve independent mathematical models evaluated a set of standardised ART intervention scenarios in South Africa and reported a common set of outputs."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Intervention scenarios systematically varied the CD4 count threshold for treatment eligibility, access to treatment, and programme retention."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "For a scenario in which 80% of HIV-infected individuals start treatment on average 1 y after their CD4 count drops below 350 cells/µl and 85% remain on treatment after 3 y, the models projected that HIV incidence would be 35% to 54% lower 8 y after the introduction of ART, compared to a counterfactual scenario in which there is no ART."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "More variation existed in the estimated long-term (38 y) reductions in incidence."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "The impact of optimistic interventions including immediate ART initiation varied widely across models, maintaining substantial uncertainty about the theoretical prospect for elimination of HIV from the population using ART alone over the next four decades."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "The number of person-years of ART per infection averted over 8 y ranged between 5.8 and 18.7."
+            },
+            {
+              "new_index": 8,
+              "original_index": 9,
+              "sentence": "Considering the actual scale-up of ART in South Africa, seven models estimated that current HIV incidence is 17% to 32% lower than it would have been in the absence of ART."
+            },
+            {
+              "new_index": 9,
+              "original_index": 10,
+              "sentence": "Differences between model assumptions about CD4 decline and HIV transmissibility over the course of infection explained only a modest amount of the variation in model results.   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 11,
+              "sentence": "CONCLUSIONS Mathematical models evaluating the impact of ART vary substantially in structure, complexity, and parameter choices, but all suggest that ART, at high levels of access and with high adherence, has the potential to substantially reduce new HIV infections."
+            },
+            {
+              "new_index": 11,
+              "original_index": 13,
+              "sentence": "Differences between model predictions could not be explained by differences in model structure or parameterization that were hypothesized to affect intervention impact."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 13899137,
+          "original_index": 2,
+          "sentence": "This study compares the predictions of several mathematical models simulating the same ART intervention programmes to determine the extent to which models agree about the epidemiological impact of expanded ART.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 13899137,
+          "original_index": 12,
+          "sentence": "There was broad agreement regarding the short-term epidemiologic impact of ambitious treatment scale-up, but more variation in longer term projections and in the efficiency with which treatment can reduce new infections.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g0",
+        "g2"
+      ],
+      "claim": "ART substantially reduces infectiveness of HIV-positive people.",
+      "evidence": [
+        {
+          "doc_id": 13899137,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "For a scenario in which 80% of HIV-infected individuals start treatment on average 1 y after their CD4 count drops below 350 cells/µl and 85% remain on treatment after 3 y, the models projected that HIV incidence would be 35% to 54% lower 8 y after the introduction of ART, compared to a counterfactual scenario in which there is no ART.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13899137,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "The number of person-years of ART per infection averted over 8 y ranged between 5.8 and 18.7.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 13899137,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Considering the actual scale-up of ART in South Africa, seven models estimated that current HIV incidence is 17% to 32% lower than it would have been in the absence of ART.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 13899137,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Mathematical models evaluating the impact of ART vary substantially in structure, complexity, and parameter choices, but all suggest that ART, at high levels of access and with high adherence, has the potential to substantially reduce new HIV infections.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13899137,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 12,
+          "sentence": "There was broad agreement regarding the short-term epidemiologic impact of ambitious treatment scale-up, but more variation in longer term projections and in the efficiency with which treatment can reduce new infections.",
+          "kept": true,
+          "new_index": 9
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13899137,
+          "title": "HIV Treatment as Prevention: Systematic Comparison of Mathematical Models of the Potential Impact of Antiretroviral Therapy on HIV Incidence in South Africa",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Many mathematical models have investigated the impact of expanding access to antiretroviral therapy (ART) on new HIV infections."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "This study compares the predictions of several mathematical models simulating the same ART intervention programmes to determine the extent to which models agree about the epidemiological impact of expanded ART.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "METHODS AND FINDINGS Twelve independent mathematical models evaluated a set of standardised ART intervention scenarios in South Africa and reported a common set of outputs."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Intervention scenarios systematically varied the CD4 count threshold for treatment eligibility, access to treatment, and programme retention."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "More variation existed in the estimated long-term (38 y) reductions in incidence."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "The impact of optimistic interventions including immediate ART initiation varied widely across models, maintaining substantial uncertainty about the theoretical prospect for elimination of HIV from the population using ART alone over the next four decades."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "The number of person-years of ART per infection averted over 8 y ranged between 5.8 and 18.7."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Considering the actual scale-up of ART in South Africa, seven models estimated that current HIV incidence is 17% to 32% lower than it would have been in the absence of ART."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "Differences between model assumptions about CD4 decline and HIV transmissibility over the course of infection explained only a modest amount of the variation in model results.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 12,
+              "sentence": "There was broad agreement regarding the short-term epidemiologic impact of ambitious treatment scale-up, but more variation in longer term projections and in the efficiency with which treatment can reduce new infections."
+            },
+            {
+              "new_index": 10,
+              "original_index": 13,
+              "sentence": "Differences between model predictions could not be explained by differences in model structure or parameterization that were hypothesized to affect intervention impact."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 13899137,
+          "original_index": 1,
+          "sentence": "Comparing results and conclusions across models is challenging because models have addressed slightly different questions and have reported different outcome metrics.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 13899137,
+          "original_index": 5,
+          "sentence": "For a scenario in which 80% of HIV-infected individuals start treatment on average 1 y after their CD4 count drops below 350 cells/µl and 85% remain on treatment after 3 y, the models projected that HIV incidence would be 35% to 54% lower 8 y after the introduction of ART, compared to a counterfactual scenario in which there is no ART.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13899137,
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Mathematical models evaluating the impact of ART vary substantially in structure, complexity, and parameter choices, but all suggest that ART, at high levels of access and with high adherence, has the potential to substantially reduce new HIV infections.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_3_groups",
+      "dropped_group_ids": [
+        "g1",
+        "g4",
+        "g3"
+      ],
+      "claim": "ART substantially reduces infectiveness of HIV-positive people.",
+      "evidence": [
+        {
+          "doc_id": 13899137,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "For a scenario in which 80% of HIV-infected individuals start treatment on average 1 y after their CD4 count drops below 350 cells/µl and 85% remain on treatment after 3 y, the models projected that HIV incidence would be 35% to 54% lower 8 y after the introduction of ART, compared to a counterfactual scenario in which there is no ART.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 13899137,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "The number of person-years of ART per infection averted over 8 y ranged between 5.8 and 18.7.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13899137,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Considering the actual scale-up of ART in South Africa, seven models estimated that current HIV incidence is 17% to 32% lower than it would have been in the absence of ART.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13899137,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Mathematical models evaluating the impact of ART vary substantially in structure, complexity, and parameter choices, but all suggest that ART, at high levels of access and with high adherence, has the potential to substantially reduce new HIV infections.",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 13899137,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 12,
+          "sentence": "There was broad agreement regarding the short-term epidemiologic impact of ambitious treatment scale-up, but more variation in longer term projections and in the efficiency with which treatment can reduce new infections.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13899137,
+          "title": "HIV Treatment as Prevention: Systematic Comparison of Mathematical Models of the Potential Impact of Antiretroviral Therapy on HIV Incidence in South Africa",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "Comparing results and conclusions across models is challenging because models have addressed slightly different questions and have reported different outcome metrics."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "This study compares the predictions of several mathematical models simulating the same ART intervention programmes to determine the extent to which models agree about the epidemiological impact of expanded ART.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "METHODS AND FINDINGS Twelve independent mathematical models evaluated a set of standardised ART intervention scenarios in South Africa and reported a common set of outputs."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Intervention scenarios systematically varied the CD4 count threshold for treatment eligibility, access to treatment, and programme retention."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "For a scenario in which 80% of HIV-infected individuals start treatment on average 1 y after their CD4 count drops below 350 cells/µl and 85% remain on treatment after 3 y, the models projected that HIV incidence would be 35% to 54% lower 8 y after the introduction of ART, compared to a counterfactual scenario in which there is no ART."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "More variation existed in the estimated long-term (38 y) reductions in incidence."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "The impact of optimistic interventions including immediate ART initiation varied widely across models, maintaining substantial uncertainty about the theoretical prospect for elimination of HIV from the population using ART alone over the next four decades."
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "Differences between model assumptions about CD4 decline and HIV transmissibility over the course of infection explained only a modest amount of the variation in model results.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "CONCLUSIONS Mathematical models evaluating the impact of ART vary substantially in structure, complexity, and parameter choices, but all suggest that ART, at high levels of access and with high adherence, has the potential to substantially reduce new HIV infections."
+            },
+            {
+              "new_index": 9,
+              "original_index": 13,
+              "sentence": "Differences between model predictions could not be explained by differences in model structure or parameterization that were hypothesized to affect intervention impact."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 13899137,
+          "original_index": 0,
+          "sentence": "BACKGROUND Many mathematical models have investigated the impact of expanding access to antiretroviral therapy (ART) on new HIV infections.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 13899137,
+          "original_index": 8,
+          "sentence": "The number of person-years of ART per infection averted over 8 y ranged between 5.8 and 18.7.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13899137,
+          "original_index": 9,
+          "sentence": "Considering the actual scale-up of ART in South Africa, seven models estimated that current HIV incidence is 17% to 32% lower than it would have been in the absence of ART.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13899137,
+          "original_index": 12,
+          "sentence": "There was broad agreement regarding the short-term epidemiologic impact of ambitious treatment scale-up, but more variation in longer term projections and in the efficiency with which treatment can reduce new infections.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_4_groups",
+      "dropped_group_ids": [
+        "g3",
+        "g0",
+        "g4",
+        "g1"
+      ],
+      "claim": "ART substantially reduces infectiveness of HIV-positive people.",
+      "evidence": [
+        {
+          "doc_id": 13899137,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "For a scenario in which 80% of HIV-infected individuals start treatment on average 1 y after their CD4 count drops below 350 cells/µl and 85% remain on treatment after 3 y, the models projected that HIV incidence would be 35% to 54% lower 8 y after the introduction of ART, compared to a counterfactual scenario in which there is no ART.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13899137,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "The number of person-years of ART per infection averted over 8 y ranged between 5.8 and 18.7.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13899137,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Considering the actual scale-up of ART in South Africa, seven models estimated that current HIV incidence is 17% to 32% lower than it would have been in the absence of ART.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13899137,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Mathematical models evaluating the impact of ART vary substantially in structure, complexity, and parameter choices, but all suggest that ART, at high levels of access and with high adherence, has the potential to substantially reduce new HIV infections.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 13899137,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 12,
+          "sentence": "There was broad agreement regarding the short-term epidemiologic impact of ambitious treatment scale-up, but more variation in longer term projections and in the efficiency with which treatment can reduce new infections.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13899137,
+          "title": "HIV Treatment as Prevention: Systematic Comparison of Mathematical Models of the Potential Impact of Antiretroviral Therapy on HIV Incidence in South Africa",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Many mathematical models have investigated the impact of expanding access to antiretroviral therapy (ART) on new HIV infections."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Comparing results and conclusions across models is challenging because models have addressed slightly different questions and have reported different outcome metrics."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "This study compares the predictions of several mathematical models simulating the same ART intervention programmes to determine the extent to which models agree about the epidemiological impact of expanded ART.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Intervention scenarios systematically varied the CD4 count threshold for treatment eligibility, access to treatment, and programme retention."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "More variation existed in the estimated long-term (38 y) reductions in incidence."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "The impact of optimistic interventions including immediate ART initiation varied widely across models, maintaining substantial uncertainty about the theoretical prospect for elimination of HIV from the population using ART alone over the next four decades."
+            },
+            {
+              "new_index": 6,
+              "original_index": 10,
+              "sentence": "Differences between model assumptions about CD4 decline and HIV transmissibility over the course of infection explained only a modest amount of the variation in model results.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 11,
+              "sentence": "CONCLUSIONS Mathematical models evaluating the impact of ART vary substantially in structure, complexity, and parameter choices, but all suggest that ART, at high levels of access and with high adherence, has the potential to substantially reduce new HIV infections."
+            },
+            {
+              "new_index": 8,
+              "original_index": 13,
+              "sentence": "Differences between model predictions could not be explained by differences in model structure or parameterization that were hypothesized to affect intervention impact."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 13899137,
+          "original_index": 3,
+          "sentence": "METHODS AND FINDINGS Twelve independent mathematical models evaluated a set of standardised ART intervention scenarios in South Africa and reported a common set of outputs.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 13899137,
+          "original_index": 5,
+          "sentence": "For a scenario in which 80% of HIV-infected individuals start treatment on average 1 y after their CD4 count drops below 350 cells/µl and 85% remain on treatment after 3 y, the models projected that HIV incidence would be 35% to 54% lower 8 y after the introduction of ART, compared to a counterfactual scenario in which there is no ART.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13899137,
+          "original_index": 8,
+          "sentence": "The number of person-years of ART per infection averted over 8 y ranged between 5.8 and 18.7.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13899137,
+          "original_index": 9,
+          "sentence": "Considering the actual scale-up of ART in South Africa, seven models estimated that current HIV incidence is 17% to 32% lower than it would have been in the absence of ART.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13899137,
+          "original_index": 12,
+          "sentence": "There was broad agreement regarding the short-term epidemiologic impact of ambitious treatment scale-up, but more variation in longer term projections and in the efficiency with which treatment can reduce new infections.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2",
+        "g3",
+        "g4"
+      ],
+      "claim": "ART substantially reduces infectiveness of HIV-positive people.",
+      "evidence": [
+        {
+          "doc_id": 13899137,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "For a scenario in which 80% of HIV-infected individuals start treatment on average 1 y after their CD4 count drops below 350 cells/µl and 85% remain on treatment after 3 y, the models projected that HIV incidence would be 35% to 54% lower 8 y after the introduction of ART, compared to a counterfactual scenario in which there is no ART.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13899137,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 8,
+          "sentence": "The number of person-years of ART per infection averted over 8 y ranged between 5.8 and 18.7.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13899137,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Considering the actual scale-up of ART in South Africa, seven models estimated that current HIV incidence is 17% to 32% lower than it would have been in the absence of ART.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13899137,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Mathematical models evaluating the impact of ART vary substantially in structure, complexity, and parameter choices, but all suggest that ART, at high levels of access and with high adherence, has the potential to substantially reduce new HIV infections.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13899137,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 12,
+          "sentence": "There was broad agreement regarding the short-term epidemiologic impact of ambitious treatment scale-up, but more variation in longer term projections and in the efficiency with which treatment can reduce new infections.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13899137,
+          "title": "HIV Treatment as Prevention: Systematic Comparison of Mathematical Models of the Potential Impact of Antiretroviral Therapy on HIV Incidence in South Africa",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Many mathematical models have investigated the impact of expanding access to antiretroviral therapy (ART) on new HIV infections."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Comparing results and conclusions across models is challenging because models have addressed slightly different questions and have reported different outcome metrics."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "METHODS AND FINDINGS Twelve independent mathematical models evaluated a set of standardised ART intervention scenarios in South Africa and reported a common set of outputs."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Intervention scenarios systematically varied the CD4 count threshold for treatment eligibility, access to treatment, and programme retention."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "More variation existed in the estimated long-term (38 y) reductions in incidence."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "The impact of optimistic interventions including immediate ART initiation varied widely across models, maintaining substantial uncertainty about the theoretical prospect for elimination of HIV from the population using ART alone over the next four decades."
+            },
+            {
+              "new_index": 6,
+              "original_index": 10,
+              "sentence": "Differences between model assumptions about CD4 decline and HIV transmissibility over the course of infection explained only a modest amount of the variation in model results.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 13,
+              "sentence": "Differences between model predictions could not be explained by differences in model structure or parameterization that were hypothesized to affect intervention impact."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 13899137,
+          "original_index": 2,
+          "sentence": "This study compares the predictions of several mathematical models simulating the same ART intervention programmes to determine the extent to which models agree about the epidemiological impact of expanded ART.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 13899137,
+          "original_index": 5,
+          "sentence": "For a scenario in which 80% of HIV-infected individuals start treatment on average 1 y after their CD4 count drops below 350 cells/µl and 85% remain on treatment after 3 y, the models projected that HIV incidence would be 35% to 54% lower 8 y after the introduction of ART, compared to a counterfactual scenario in which there is no ART.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13899137,
+          "original_index": 8,
+          "sentence": "The number of person-years of ART per infection averted over 8 y ranged between 5.8 and 18.7.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13899137,
+          "original_index": 9,
+          "sentence": "Considering the actual scale-up of ART in South Africa, seven models estimated that current HIV incidence is 17% to 32% lower than it would have been in the absence of ART.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13899137,
+          "original_index": 11,
+          "sentence": "CONCLUSIONS Mathematical models evaluating the impact of ART vary substantially in structure, complexity, and parameter choices, but all suggest that ART, at high levels of access and with high adherence, has the potential to substantially reduce new HIV infections.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13899137,
+          "original_index": 12,
+          "sentence": "There was broad agreement regarding the short-term epidemiologic impact of ambitious treatment scale-up, but more variation in longer term projections and in the efficiency with which treatment can reduce new infections.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": 1200,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The binding orientation of the ML-SA1 activator at hTRPML2 is different from the binding orientation of the ML-SA1 activator at hTRPML1.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 3441524,
+          "title": "Human TRPML1 channel structures in open and closed conformations",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Transient receptor potential mucolipin 1 (TRPML1) is a Ca2+-releasing cation channel that mediates the calcium signalling and homeostasis of lysosomes."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Mutations in TRPML1 lead to mucolipidosis type IV, a severe lysosomal storage disorder."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here we report two electron cryo-microscopy structures of full-length human TRPML1: a 3.72-Å apo structure at pH 7.0 in the closed state, and a 3.49-Å agonist-bound structure at pH 6.0 in an open state."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Several aromatic and hydrophobic residues in pore helix 1, helices S5 and S6, and helix S6 of a neighbouring subunit, form a hydrophobic cavity to house the agonist, suggesting a distinct agonist-binding site from that found in TRPV1, a TRP channel from a different subfamily."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "The opening of TRPML1 is associated with distinct dilations of its lower gate together with a slight structural movement of pore helix 1."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Our work reveals the regulatory mechanism of TRPML channels, facilitates better understanding of TRP channel activation, and provides insights into the molecular basis of mucolipidosis type IV pathogenesis."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "id": 977,
+  "origin": "train_more",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Pro-inflammatory cytokines are up regulated during tumor development.",
+      "evidence": [
+        {
+          "doc_id": 39264456,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "However, it was significantly higher in NSCLC patients compared with controls (44.1 +/- 64.3 and 15.1 +/-",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 39264456,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "14.3 pg/mL, P = 0.03).",
+          "kept": true,
+          "new_index": 9
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 39264456,
+          "title": "Impact of TNF-alpha and IL-6 levels on development of cachexia in newly diagnosed NSCLC patients.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVES We investigated the role of cytokines tumor necrosis factor-alpha (TNF-alpha) and interleukin-6 (IL-6) in cachexia development in newly diagnosed nonsmall cell lung cancer (NSCLC) patients.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "METHODS : We evaluated 44 (M/F:41/3) NSCLC patients and 12 (M/F:10/2) age matched healthy smokers."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "NSCLC cases with a weight loss of > or =10% consisted the cachectic group (n:23, M/F:21/2) and the ones with <10% weight loss consisted the noncachectic group (n:21, M/F:19/2).   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "RESULTS Body mass index (BMI) of cachectics was significantly lower than that of noncachectics (21.0 +/- 2.9 versus 24.5 +/-"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "3.6, P = 0.02) and controls (21.0 +/- 2.9 versus 25.5 +/- 2.6, P = 0.01)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Serum TNF-alpha level did not differ between cachectic and noncachectics (37.3 +/-"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "39.1 and 51.6 +/-"
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "84.2 pg/mL, respectively)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "However, it was significantly higher in NSCLC patients compared with controls (44.1 +/- 64.3 and 15.1 +/-"
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "14.3 pg/mL, P = 0.03)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Serum IL-6 level was not different between 3 groups (6.4 +/- 4.1, 8.9 +/-"
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "16.3, and 4.1 +/-"
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "3.5 pg/mL, respectively)"
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "but it correlated significantly with TNF-alpha (r = 0.4, P = 0.006) and BMI (r = -0.3, P = 0.03)."
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "Erythrocyte sedimentation rate (ESR) correlated significantly with TNF-alpha (r = 0.4, P = 0.003) and BMI (r = -0.3, P = 0.03)."
+            },
+            {
+              "new_index": 15,
+              "original_index": 15,
+              "sentence": "Among 44 cases, survival of 12 and 17 patients was recorded in cachectics and noncachectics, with no statistical difference (12.2 +/- 3.7 and 11.2 +/-"
+            },
+            {
+              "new_index": 16,
+              "original_index": 16,
+              "sentence": "1.0 months, respectively).   \n"
+            },
+            {
+              "new_index": 17,
+              "original_index": 17,
+              "sentence": "CONCLUSIONS TNF-alpha and IL-6 levels did not differ significantly between cachectics and noncachectics."
+            },
+            {
+              "new_index": 18,
+              "original_index": 18,
+              "sentence": "However, significant correlations between IL-6, BMI, and TNF-alpha suggested that these cytokines acted as cofactors in weight loss."
+            },
+            {
+              "new_index": 19,
+              "original_index": 19,
+              "sentence": "Survival was neither influenced by BMI, nor the cytokine levels in the present study."
+            },
+            {
+              "new_index": 20,
+              "original_index": 20,
+              "sentence": "The significant correlation of ESR with TNF-alpha suggested that ESR could provide valuable clue for considerable weight loss in the follow-up of NSCLC patients."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Pro-inflammatory cytokines are up regulated during tumor development.",
+      "evidence": [
+        {
+          "doc_id": 39264456,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "However, it was significantly higher in NSCLC patients compared with controls (44.1 +/- 64.3 and 15.1 +/-",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 39264456,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "14.3 pg/mL, P = 0.03).",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 39264456,
+          "title": "Impact of TNF-alpha and IL-6 levels on development of cachexia in newly diagnosed NSCLC patients.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVES We investigated the role of cytokines tumor necrosis factor-alpha (TNF-alpha) and interleukin-6 (IL-6) in cachexia development in newly diagnosed nonsmall cell lung cancer (NSCLC) patients.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 3,
+              "sentence": "RESULTS Body mass index (BMI) of cachectics was significantly lower than that of noncachectics (21.0 +/- 2.9 versus 24.5 +/-"
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "3.6, P = 0.02) and controls (21.0 +/- 2.9 versus 25.5 +/- 2.6, P = 0.01)."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Serum TNF-alpha level did not differ between cachectic and noncachectics (37.3 +/-"
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "39.1 and 51.6 +/-"
+            },
+            {
+              "new_index": 5,
+              "original_index": 10,
+              "sentence": "Serum IL-6 level was not different between 3 groups (6.4 +/- 4.1, 8.9 +/-"
+            },
+            {
+              "new_index": 6,
+              "original_index": 11,
+              "sentence": "16.3, and 4.1 +/-"
+            },
+            {
+              "new_index": 7,
+              "original_index": 12,
+              "sentence": "3.5 pg/mL, respectively)"
+            },
+            {
+              "new_index": 8,
+              "original_index": 13,
+              "sentence": "but it correlated significantly with TNF-alpha (r = 0.4, P = 0.006) and BMI (r = -0.3, P = 0.03)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 14,
+              "sentence": "Erythrocyte sedimentation rate (ESR) correlated significantly with TNF-alpha (r = 0.4, P = 0.003) and BMI (r = -0.3, P = 0.03)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 15,
+              "sentence": "Among 44 cases, survival of 12 and 17 patients was recorded in cachectics and noncachectics, with no statistical difference (12.2 +/- 3.7 and 11.2 +/-"
+            },
+            {
+              "new_index": 11,
+              "original_index": 16,
+              "sentence": "1.0 months, respectively).   \n"
+            },
+            {
+              "new_index": 12,
+              "original_index": 17,
+              "sentence": "CONCLUSIONS TNF-alpha and IL-6 levels did not differ significantly between cachectics and noncachectics."
+            },
+            {
+              "new_index": 13,
+              "original_index": 18,
+              "sentence": "However, significant correlations between IL-6, BMI, and TNF-alpha suggested that these cytokines acted as cofactors in weight loss."
+            },
+            {
+              "new_index": 14,
+              "original_index": 19,
+              "sentence": "Survival was neither influenced by BMI, nor the cytokine levels in the present study."
+            },
+            {
+              "new_index": 15,
+              "original_index": 20,
+              "sentence": "The significant correlation of ESR with TNF-alpha suggested that ESR could provide valuable clue for considerable weight loss in the follow-up of NSCLC patients."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 39264456,
+          "original_index": 1,
+          "sentence": "METHODS : We evaluated 44 (M/F:41/3) NSCLC patients and 12 (M/F:10/2) age matched healthy smokers.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 39264456,
+          "original_index": 2,
+          "sentence": "NSCLC cases with a weight loss of > or =10% consisted the cachectic group (n:23, M/F:21/2) and the ones with <10% weight loss consisted the noncachectic group (n:21, M/F:19/2).   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 39264456,
+          "original_index": 7,
+          "sentence": "84.2 pg/mL, respectively).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 39264456,
+          "original_index": 8,
+          "sentence": "However, it was significantly higher in NSCLC patients compared with controls (44.1 +/- 64.3 and 15.1 +/-",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 39264456,
+          "original_index": 9,
+          "sentence": "14.3 pg/mL, P = 0.03).",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

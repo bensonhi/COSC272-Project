@@ -1,0 +1,214 @@
+{
+  "id": 547,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "IL-10 production by monocytes inhibits CD4 + T cell response.",
+      "evidence": [
+        {
+          "doc_id": 10648422,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Triggering of PD-1 expressed on monocytes by PD-L1 expressed on various cell types induced IL-10 production and led to reversible CD4+ T cell dysfunction.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 10648422,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "We describe a new function for PD-1 whereby microbial products inhibit T cell expansion and function by upregulating PD-1 levels and IL-10 production by monocytes after binding of PD-1 by PD-L1.",
+          "kept": true,
+          "new_index": 5
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 10648422,
+          "title": "Programmed death-1–induced interleukin-10 production by monocytes impairs CD4+ T cell activation during HIV infection",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Viral replication and microbial translocation from the gut to the blood during HIV infection lead to hyperimmune activation, which contributes to the decline in CD4+ T cell numbers during HIV infection."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Programmed death-1 (PD-1) and interleukin-10 (IL-10) are both upregulated during HIV infection."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Blocking interactions between PD-1 and programmed death ligand-1 (PD-L1) and between IL-10 and IL-10 receptor (IL-10R) results in viral clearance and improves T cell function in animal models of chronic viral infections."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Here we show that high amounts of microbial products and inflammatory cytokines in the plasma of HIV-infected subjects lead to upregulation of PD-1 expression on monocytes that correlates with high plasma concentrations of IL-10."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Triggering of PD-1 expressed on monocytes by PD-L1 expressed on various cell types induced IL-10 production and led to reversible CD4+ T cell dysfunction."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We describe a new function for PD-1 whereby microbial products inhibit T cell expansion and function by upregulating PD-1 levels and IL-10 production by monocytes after binding of PD-1 by PD-L1."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "IL-10 production by monocytes inhibits CD4 + T cell response.",
+      "evidence": [
+        {
+          "doc_id": 10648422,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Triggering of PD-1 expressed on monocytes by PD-L1 expressed on various cell types induced IL-10 production and led to reversible CD4+ T cell dysfunction.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 10648422,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "We describe a new function for PD-1 whereby microbial products inhibit T cell expansion and function by upregulating PD-1 levels and IL-10 production by monocytes after binding of PD-1 by PD-L1.",
+          "kept": true,
+          "new_index": 3
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 10648422,
+          "title": "Programmed death-1–induced interleukin-10 production by monocytes impairs CD4+ T cell activation during HIV infection",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Viral replication and microbial translocation from the gut to the blood during HIV infection lead to hyperimmune activation, which contributes to the decline in CD4+ T cell numbers during HIV infection."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Programmed death-1 (PD-1) and interleukin-10 (IL-10) are both upregulated during HIV infection."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Blocking interactions between PD-1 and programmed death ligand-1 (PD-L1) and between IL-10 and IL-10 receptor (IL-10R) results in viral clearance and improves T cell function in animal models of chronic viral infections."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "We describe a new function for PD-1 whereby microbial products inhibit T cell expansion and function by upregulating PD-1 levels and IL-10 production by monocytes after binding of PD-1 by PD-L1."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 10648422,
+          "original_index": 3,
+          "sentence": "Here we show that high amounts of microbial products and inflammatory cytokines in the plasma of HIV-infected subjects lead to upregulation of PD-1 expression on monocytes that correlates with high plasma concentrations of IL-10.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 10648422,
+          "original_index": 4,
+          "sentence": "Triggering of PD-1 expressed on monocytes by PD-L1 expressed on various cell types induced IL-10 production and led to reversible CD4+ T cell dysfunction.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "IL-10 production by monocytes inhibits CD4 + T cell response.",
+      "evidence": [
+        {
+          "doc_id": 10648422,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Triggering of PD-1 expressed on monocytes by PD-L1 expressed on various cell types induced IL-10 production and led to reversible CD4+ T cell dysfunction.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 10648422,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "We describe a new function for PD-1 whereby microbial products inhibit T cell expansion and function by upregulating PD-1 levels and IL-10 production by monocytes after binding of PD-1 by PD-L1.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 10648422,
+          "title": "Programmed death-1–induced interleukin-10 production by monocytes impairs CD4+ T cell activation during HIV infection",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Viral replication and microbial translocation from the gut to the blood during HIV infection lead to hyperimmune activation, which contributes to the decline in CD4+ T cell numbers during HIV infection."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Blocking interactions between PD-1 and programmed death ligand-1 (PD-L1) and between IL-10 and IL-10 receptor (IL-10R) results in viral clearance and improves T cell function in animal models of chronic viral infections."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Here we show that high amounts of microbial products and inflammatory cytokines in the plasma of HIV-infected subjects lead to upregulation of PD-1 expression on monocytes that correlates with high plasma concentrations of IL-10."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 10648422,
+          "original_index": 1,
+          "sentence": "Programmed death-1 (PD-1) and interleukin-10 (IL-10) are both upregulated during HIV infection.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 10648422,
+          "original_index": 4,
+          "sentence": "Triggering of PD-1 expressed on monocytes by PD-L1 expressed on various cell types induced IL-10 production and led to reversible CD4+ T cell dysfunction.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 10648422,
+          "original_index": 5,
+          "sentence": "We describe a new function for PD-1 whereby microbial products inhibit T cell expansion and function by upregulating PD-1 levels and IL-10 production by monocytes after binding of PD-1 by PD-L1.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

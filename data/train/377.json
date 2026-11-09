@@ -1,0 +1,53 @@
+{
+  "id": 377,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Emodin forms hydrogen bonds with residues involved in PGAM1 substrate binding.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 18810195,
+          "title": "Tyr26 phosphorylation of PGAM1 provides a metabolic advantage to tumours by stabilizing the active conformation",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "How oncogenic signalling coordinates glycolysis and anabolic biosynthesis in cancer cells remains unclear."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We recently reported that the glycolytic enzyme phosphoglycerate mutase 1 (PGAM1) regulates anabolic biosynthesis by controlling intracellular levels of its substrate 3-phosphoglycerate and product 2-phosphoglycerate."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here we report a novel mechanism in which Y26 phosphorylation enhances PGAM1 activation through release of inhibitory E19 that blocks the active site, stabilising cofactor 2,3-bisphosphoglycerate binding and H11 phosphorylation."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We also report the crystal structure of H11-phosphorylated PGAM1 and find that phospho-H11 activates PGAM1 at least in part by promoting substrate 3-phosphoglycerate binding."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Moreover, Y26 phosphorylation of PGAM1 is common in human cancer cells and contributes to regulation of 3-phosphoglycerate and 2-phosphoglycerate levels, promoting cancer cell proliferation and tumour growth."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "As PGAM1 is a negative transcriptional target of TP53, and is therefore commonly upregulated in human cancers, these findings suggest that Y26 phosphorylation represents an additional acute mechanism underlying phosphoglycerate mutase 1 upregulation."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

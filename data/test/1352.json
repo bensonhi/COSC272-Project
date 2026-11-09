@@ -1,0 +1,58 @@
+{
+  "id": 1352,
+  "origin": "dev",
+  "claim": "Upregulation of mosGCTL-1 is induced upon infection with West Nile virus.",
+  "evidence": [
+    {
+      "doc_id": 12885341,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 3,
+      "sentence": "In vivo experiments show that mosGCTL-1 and mosPTP-1 function as part of the same pathway and are critical for WNV infection of mosquitoes."
+    },
+    {
+      "doc_id": 12885341,
+      "group_id": "g1",
+      "evidence_label": "SUPPORT",
+      "original_index": 5,
+      "sentence": "During the mosquito blood-feeding process, WNV infection was blocked in vivo with mosGCTL-1 antibodies."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 12885341,
+      "title": "A C-Type Lectin Collaborates with a CD45 Phosphatase Homolog to Facilitate West Nile Virus Infection of Mosquitoes",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "West Nile virus (WNV) is the most common arthropod-borne flavivirus in the United States; however, the vector ligand(s) that participate in infection are not known."
+        },
+        {
+          "original_index": 1,
+          "sentence": "We now show that an Aedes aegypti C-type lectin, mosGCTL-1, is induced by WNV, interacts with WNV in a calcium-dependent manner, and facilitates infection in vivo and in vitro."
+        },
+        {
+          "original_index": 2,
+          "sentence": "A mosquito homolog of human CD45 in A. aegypti, designated mosPTP-1, recruits mosGCTL-1 to enable viral attachment to cells and to enhance viral entry."
+        },
+        {
+          "original_index": 3,
+          "sentence": "In vivo experiments show that mosGCTL-1 and mosPTP-1 function as part of the same pathway and are critical for WNV infection of mosquitoes."
+        },
+        {
+          "original_index": 4,
+          "sentence": "A similar phenomenon was also observed in Culex quinquefasciatus, a natural vector of WNV, further demonstrating that these genes participate in WNV infection."
+        },
+        {
+          "original_index": 5,
+          "sentence": "During the mosquito blood-feeding process, WNV infection was blocked in vivo with mosGCTL-1 antibodies."
+        },
+        {
+          "original_index": 6,
+          "sentence": "A molecular understanding of flaviviral-arthropod interactions may lead to strategies to control viral dissemination in nature."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

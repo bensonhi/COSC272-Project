@@ -1,0 +1,450 @@
+{
+  "id": 332,
+  "origin": "train_more",
+  "n_groups": 5,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Depletion of T-helper 17 (Th17) cells during simian immunodeficiency virus (SIV) infection decreases dissemination of Salmonella Typhimurium from the gut.",
+      "evidence": [
+        {
+          "doc_id": 29023309,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 1,
+          "sentence": "Here we show that simian immunodeficiency virus (SIV) infection results in depletion of T helper type 17 (TH17) cells in the ileal mucosa of rhesus macaques, thereby impairing mucosal barrier functions to S. typhimurium dissemination.",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 29023309,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 3,
+          "sentence": "TH17 cells were markedly depleted in SIV-infected rhesus macaques, resulting in blunted TH17 responses to S. typhimurium infection and increased bacterial dissemination.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 29023309,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 4,
+          "sentence": "IL-17 receptor–deficient mice showed increased systemic dissemination of S. typhimurium from the gut, suggesting that IL-17 deficiency causes defects in mucosal barrier function.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 29023309,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 5,
+          "sentence": "We conclude that SIV infection impairs the IL-17 axis, an arm of the mucosal immune response preventing systemic microbial dissemination from the gastrointestinal tract.",
+          "kept": true,
+          "new_index": 5
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 29023309,
+          "title": "Simian immunodeficiency virus–induced mucosal interleukin-17 deficiency promotes Salmonella dissemination from the gut",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Salmonella typhimurium causes a localized enteric infection in immunocompetent individuals, whereas HIV-infected individuals develop a life-threatening bacteremia."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here we show that simian immunodeficiency virus (SIV) infection results in depletion of T helper type 17 (TH17) cells in the ileal mucosa of rhesus macaques, thereby impairing mucosal barrier functions to S. typhimurium dissemination."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "In SIV-negative macaques, the gene expression profile induced by S. typhimurium in ligated ileal loops was dominated by TH17 responses, including the expression of interleukin-17 (IL-17) and IL-22."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "TH17 cells were markedly depleted in SIV-infected rhesus macaques, resulting in blunted TH17 responses to S. typhimurium infection and increased bacterial dissemination."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "IL-17 receptor–deficient mice showed increased systemic dissemination of S. typhimurium from the gut, suggesting that IL-17 deficiency causes defects in mucosal barrier function."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We conclude that SIV infection impairs the IL-17 axis, an arm of the mucosal immune response preventing systemic microbial dissemination from the gastrointestinal tract."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Depletion of T-helper 17 (Th17) cells during simian immunodeficiency virus (SIV) infection decreases dissemination of Salmonella Typhimurium from the gut.",
+      "evidence": [
+        {
+          "doc_id": 29023309,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 1,
+          "sentence": "Here we show that simian immunodeficiency virus (SIV) infection results in depletion of T helper type 17 (TH17) cells in the ileal mucosa of rhesus macaques, thereby impairing mucosal barrier functions to S. typhimurium dissemination.",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 29023309,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 3,
+          "sentence": "TH17 cells were markedly depleted in SIV-infected rhesus macaques, resulting in blunted TH17 responses to S. typhimurium infection and increased bacterial dissemination.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 29023309,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 4,
+          "sentence": "IL-17 receptor–deficient mice showed increased systemic dissemination of S. typhimurium from the gut, suggesting that IL-17 deficiency causes defects in mucosal barrier function.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 29023309,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 5,
+          "sentence": "We conclude that SIV infection impairs the IL-17 axis, an arm of the mucosal immune response preventing systemic microbial dissemination from the gastrointestinal tract.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 29023309,
+          "title": "Simian immunodeficiency virus–induced mucosal interleukin-17 deficiency promotes Salmonella dissemination from the gut",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Salmonella typhimurium causes a localized enteric infection in immunocompetent individuals, whereas HIV-infected individuals develop a life-threatening bacteremia."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here we show that simian immunodeficiency virus (SIV) infection results in depletion of T helper type 17 (TH17) cells in the ileal mucosa of rhesus macaques, thereby impairing mucosal barrier functions to S. typhimurium dissemination."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "In SIV-negative macaques, the gene expression profile induced by S. typhimurium in ligated ileal loops was dominated by TH17 responses, including the expression of interleukin-17 (IL-17) and IL-22."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "IL-17 receptor–deficient mice showed increased systemic dissemination of S. typhimurium from the gut, suggesting that IL-17 deficiency causes defects in mucosal barrier function."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "We conclude that SIV infection impairs the IL-17 axis, an arm of the mucosal immune response preventing systemic microbial dissemination from the gastrointestinal tract."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 29023309,
+          "original_index": 3,
+          "sentence": "TH17 cells were markedly depleted in SIV-infected rhesus macaques, resulting in blunted TH17 responses to S. typhimurium infection and increased bacterial dissemination.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g3",
+        "g2"
+      ],
+      "claim": "Depletion of T-helper 17 (Th17) cells during simian immunodeficiency virus (SIV) infection decreases dissemination of Salmonella Typhimurium from the gut.",
+      "evidence": [
+        {
+          "doc_id": 29023309,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 1,
+          "sentence": "Here we show that simian immunodeficiency virus (SIV) infection results in depletion of T helper type 17 (TH17) cells in the ileal mucosa of rhesus macaques, thereby impairing mucosal barrier functions to S. typhimurium dissemination.",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 29023309,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 3,
+          "sentence": "TH17 cells were markedly depleted in SIV-infected rhesus macaques, resulting in blunted TH17 responses to S. typhimurium infection and increased bacterial dissemination.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 29023309,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 4,
+          "sentence": "IL-17 receptor–deficient mice showed increased systemic dissemination of S. typhimurium from the gut, suggesting that IL-17 deficiency causes defects in mucosal barrier function.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 29023309,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 5,
+          "sentence": "We conclude that SIV infection impairs the IL-17 axis, an arm of the mucosal immune response preventing systemic microbial dissemination from the gastrointestinal tract.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 29023309,
+          "title": "Simian immunodeficiency virus–induced mucosal interleukin-17 deficiency promotes Salmonella dissemination from the gut",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Salmonella typhimurium causes a localized enteric infection in immunocompetent individuals, whereas HIV-infected individuals develop a life-threatening bacteremia."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here we show that simian immunodeficiency virus (SIV) infection results in depletion of T helper type 17 (TH17) cells in the ileal mucosa of rhesus macaques, thereby impairing mucosal barrier functions to S. typhimurium dissemination."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "In SIV-negative macaques, the gene expression profile induced by S. typhimurium in ligated ileal loops was dominated by TH17 responses, including the expression of interleukin-17 (IL-17) and IL-22."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "TH17 cells were markedly depleted in SIV-infected rhesus macaques, resulting in blunted TH17 responses to S. typhimurium infection and increased bacterial dissemination."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 29023309,
+          "original_index": 4,
+          "sentence": "IL-17 receptor–deficient mice showed increased systemic dissemination of S. typhimurium from the gut, suggesting that IL-17 deficiency causes defects in mucosal barrier function.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 29023309,
+          "original_index": 5,
+          "sentence": "We conclude that SIV infection impairs the IL-17 axis, an arm of the mucosal immune response preventing systemic microbial dissemination from the gastrointestinal tract.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_3_groups",
+      "dropped_group_ids": [
+        "g3",
+        "g1",
+        "g0"
+      ],
+      "claim": "Depletion of T-helper 17 (Th17) cells during simian immunodeficiency virus (SIV) infection decreases dissemination of Salmonella Typhimurium from the gut.",
+      "evidence": [
+        {
+          "doc_id": 29023309,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 1,
+          "sentence": "Here we show that simian immunodeficiency virus (SIV) infection results in depletion of T helper type 17 (TH17) cells in the ileal mucosa of rhesus macaques, thereby impairing mucosal barrier functions to S. typhimurium dissemination.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 29023309,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 3,
+          "sentence": "TH17 cells were markedly depleted in SIV-infected rhesus macaques, resulting in blunted TH17 responses to S. typhimurium infection and increased bacterial dissemination.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 29023309,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 4,
+          "sentence": "IL-17 receptor–deficient mice showed increased systemic dissemination of S. typhimurium from the gut, suggesting that IL-17 deficiency causes defects in mucosal barrier function.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 29023309,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 5,
+          "sentence": "We conclude that SIV infection impairs the IL-17 axis, an arm of the mucosal immune response preventing systemic microbial dissemination from the gastrointestinal tract.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 29023309,
+          "title": "Simian immunodeficiency virus–induced mucosal interleukin-17 deficiency promotes Salmonella dissemination from the gut",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Salmonella typhimurium causes a localized enteric infection in immunocompetent individuals, whereas HIV-infected individuals develop a life-threatening bacteremia."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "In SIV-negative macaques, the gene expression profile induced by S. typhimurium in ligated ileal loops was dominated by TH17 responses, including the expression of interleukin-17 (IL-17) and IL-22."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "IL-17 receptor–deficient mice showed increased systemic dissemination of S. typhimurium from the gut, suggesting that IL-17 deficiency causes defects in mucosal barrier function."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 29023309,
+          "original_index": 1,
+          "sentence": "Here we show that simian immunodeficiency virus (SIV) infection results in depletion of T helper type 17 (TH17) cells in the ileal mucosa of rhesus macaques, thereby impairing mucosal barrier functions to S. typhimurium dissemination.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 29023309,
+          "original_index": 3,
+          "sentence": "TH17 cells were markedly depleted in SIV-infected rhesus macaques, resulting in blunted TH17 responses to S. typhimurium infection and increased bacterial dissemination.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 29023309,
+          "original_index": 5,
+          "sentence": "We conclude that SIV infection impairs the IL-17 axis, an arm of the mucosal immune response preventing systemic microbial dissemination from the gastrointestinal tract.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2",
+        "g3"
+      ],
+      "claim": "Depletion of T-helper 17 (Th17) cells during simian immunodeficiency virus (SIV) infection decreases dissemination of Salmonella Typhimurium from the gut.",
+      "evidence": [
+        {
+          "doc_id": 29023309,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 1,
+          "sentence": "Here we show that simian immunodeficiency virus (SIV) infection results in depletion of T helper type 17 (TH17) cells in the ileal mucosa of rhesus macaques, thereby impairing mucosal barrier functions to S. typhimurium dissemination.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 29023309,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 3,
+          "sentence": "TH17 cells were markedly depleted in SIV-infected rhesus macaques, resulting in blunted TH17 responses to S. typhimurium infection and increased bacterial dissemination.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 29023309,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 4,
+          "sentence": "IL-17 receptor–deficient mice showed increased systemic dissemination of S. typhimurium from the gut, suggesting that IL-17 deficiency causes defects in mucosal barrier function.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 29023309,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 5,
+          "sentence": "We conclude that SIV infection impairs the IL-17 axis, an arm of the mucosal immune response preventing systemic microbial dissemination from the gastrointestinal tract.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 29023309,
+          "title": "Simian immunodeficiency virus–induced mucosal interleukin-17 deficiency promotes Salmonella dissemination from the gut",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Salmonella typhimurium causes a localized enteric infection in immunocompetent individuals, whereas HIV-infected individuals develop a life-threatening bacteremia."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "In SIV-negative macaques, the gene expression profile induced by S. typhimurium in ligated ileal loops was dominated by TH17 responses, including the expression of interleukin-17 (IL-17) and IL-22."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 29023309,
+          "original_index": 1,
+          "sentence": "Here we show that simian immunodeficiency virus (SIV) infection results in depletion of T helper type 17 (TH17) cells in the ileal mucosa of rhesus macaques, thereby impairing mucosal barrier functions to S. typhimurium dissemination.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 29023309,
+          "original_index": 3,
+          "sentence": "TH17 cells were markedly depleted in SIV-infected rhesus macaques, resulting in blunted TH17 responses to S. typhimurium infection and increased bacterial dissemination.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 29023309,
+          "original_index": 4,
+          "sentence": "IL-17 receptor–deficient mice showed increased systemic dissemination of S. typhimurium from the gut, suggesting that IL-17 deficiency causes defects in mucosal barrier function.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 29023309,
+          "original_index": 5,
+          "sentence": "We conclude that SIV infection impairs the IL-17 axis, an arm of the mucosal immune response preventing systemic microbial dissemination from the gastrointestinal tract.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

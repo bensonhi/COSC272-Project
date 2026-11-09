@@ -1,0 +1,1130 @@
+{
+  "id": 106,
+  "origin": "train_more",
+  "n_groups": 6,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Ambulatory blood pressure monitoring is inaccurate at diagnosing hypertension.",
+      "evidence": [
+        {
+          "doc_id": 25515907,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 6,
+          "sentence": "Compared with ambulatory monitoring thresholds of 135/85 mm Hg, clinic measurements over 140/90 mm Hg had mean sensitivity and specificity of 74.6% (95% confidence interval 60.7% to 84.8%) and 74.6% (47.9% to 90.4%), respectively, whereas home measurements over 135/85 mm Hg had mean sensitivity and specificity of 85.7% (78.0% to 91.0%) and 62.4% (48.0% to 75.0%).   \n",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 25515907,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 8,
+          "sentence": "If ambulatory monitoring is taken as the reference standard, then treatment decisions based on clinic or home blood pressure alone might result in substantial overdiagnosis.",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 25515907,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Ambulatory monitoring before the start of lifelong drug treatment might lead to more appropriate targeting of treatment, particularly around the diagnostic threshold.",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 5151024,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT",
+          "original_index": 0,
+          "sentence": "BACKGROUND The diagnosis of hypertension has traditionally been based on blood-pressure measurements in the clinic, but home and ambulatory measurements better correlate with cardiovascular outcome, and ambulatory monitoring is more accurate than both clinic and home monitoring in diagnosing hypertension.",
+          "kept": true,
+          "new_index": 0
+        },
+        {
+          "doc_id": 5151024,
+          "group_id": "g4",
+          "evidence_label": "CONTRADICT",
+          "original_index": 8,
+          "sentence": "INTERPRETATION Ambulatory monitoring as a diagnostic strategy for hypertension after an initial raised reading in the clinic would reduce misdiagnosis and save costs.",
+          "kept": true,
+          "new_index": 8
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 25515907,
+          "title": "Relative effectiveness of clinic and home blood pressure monitoring compared with ambulatory blood pressure monitoring in diagnosis of hypertension: systematic review",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To determine the relative accuracy of clinic measurements and home blood pressure monitoring compared with ambulatory blood pressure monitoring as a reference standard for the diagnosis of hypertension.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Systematic review with meta-analysis with hierarchical summary receiver operating characteristic models."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Methodological quality was appraised, including evidence of validation of blood pressure measurement equipment.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DATA SOURCES Medline (from 1966), Embase (from 1980), Cochrane Database of Systematic Reviews, DARE, Medion, ARIF, and TRIP up to May 2010."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Eligibility criteria for selecting studies Eligible studies examined diagnosis of hypertension in adults of all ages using home and/or clinic blood pressure measurement compared with those made using ambulatory monitoring that clearly defined thresholds to diagnose hypertension.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "RESULTS The 20 eligible studies used various thresholds for the diagnosis of hypertension, and only seven studies (clinic) and three studies (home) could be directly compared with ambulatory monitoring."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Compared with ambulatory monitoring thresholds of 135/85 mm Hg, clinic measurements over 140/90 mm Hg had mean sensitivity and specificity of 74.6% (95% confidence interval 60.7% to 84.8%) and 74.6% (47.9% to 90.4%), respectively, whereas home measurements over 135/85 mm Hg had mean sensitivity and specificity of 85.7% (78.0% to 91.0%) and 62.4% (48.0% to 75.0%).   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "CONCLUSIONS Neither clinic nor home measurement had sufficient sensitivity or specificity to be recommended as a single diagnostic test."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "If ambulatory monitoring is taken as the reference standard, then treatment decisions based on clinic or home blood pressure alone might result in substantial overdiagnosis."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Ambulatory monitoring before the start of lifelong drug treatment might lead to more appropriate targeting of treatment, particularly around the diagnostic threshold."
+            }
+          ]
+        },
+        {
+          "doc_id": 5151024,
+          "title": "Cost-effectiveness of options for the diagnosis of high blood pressure in primary care: a modelling study.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND The diagnosis of hypertension has traditionally been based on blood-pressure measurements in the clinic, but home and ambulatory measurements better correlate with cardiovascular outcome, and ambulatory monitoring is more accurate than both clinic and home monitoring in diagnosing hypertension."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We aimed to compare the cost-effectiveness of different diagnostic strategies for hypertension.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS We did a Markov model-based probabilistic cost-effectiveness analysis."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We used a hypothetical primary-care population aged 40 years or older with a screening blood-pressure measurement greater than 140/90 mm Hg and risk-factor prevalence equivalent to the general population."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We compared three diagnostic strategies-further blood pressure measurement in the clinic, at home, and with an ambulatory monitor-in terms of lifetime costs, quality-adjusted life years, and cost-effectiveness.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "FINDINGS Ambulatory monitoring was the most cost-effective strategy for the diagnosis of hypertension for men and women of all ages."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "It was cost-saving for all groups (from -£56 [95% CI -105 to -10] in men aged 75 years to -£323 [-389 to -222] in women aged 40 years) and resulted in more quality-adjusted life years for men and women older than 50 years (from 0·006 [0·000 to 0·015] for women aged 60 years to 0·022 [0·012 to 0·035] for men aged 70 years)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "This finding was robust when assessed with a wide range of deterministic sensitivity analyses around the base case, but was sensitive if home monitoring was judged to have equal test performance to ambulatory monitoring or if treatment was judged effective irrespective of whether an individual was hypertensive.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "INTERPRETATION Ambulatory monitoring as a diagnostic strategy for hypertension after an initial raised reading in the clinic would reduce misdiagnosis and save costs."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Additional costs from ambulatory monitoring are counterbalanced by cost savings from better targeted treatment."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Ambulatory monitoring is recommended for most patients before the start of antihypertensive drugs.   \n"
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "FUNDING National Institute for Health Research and the National Institute for Health and Clinical Excellence."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Ambulatory blood pressure monitoring is inaccurate at diagnosing hypertension.",
+      "evidence": [
+        {
+          "doc_id": 25515907,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 6,
+          "sentence": "Compared with ambulatory monitoring thresholds of 135/85 mm Hg, clinic measurements over 140/90 mm Hg had mean sensitivity and specificity of 74.6% (95% confidence interval 60.7% to 84.8%) and 74.6% (47.9% to 90.4%), respectively, whereas home measurements over 135/85 mm Hg had mean sensitivity and specificity of 85.7% (78.0% to 91.0%) and 62.4% (48.0% to 75.0%).   \n",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 25515907,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 8,
+          "sentence": "If ambulatory monitoring is taken as the reference standard, then treatment decisions based on clinic or home blood pressure alone might result in substantial overdiagnosis.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 25515907,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Ambulatory monitoring before the start of lifelong drug treatment might lead to more appropriate targeting of treatment, particularly around the diagnostic threshold.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 5151024,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT",
+          "original_index": 0,
+          "sentence": "BACKGROUND The diagnosis of hypertension has traditionally been based on blood-pressure measurements in the clinic, but home and ambulatory measurements better correlate with cardiovascular outcome, and ambulatory monitoring is more accurate than both clinic and home monitoring in diagnosing hypertension.",
+          "kept": true,
+          "new_index": 0
+        },
+        {
+          "doc_id": 5151024,
+          "group_id": "g4",
+          "evidence_label": "CONTRADICT",
+          "original_index": 8,
+          "sentence": "INTERPRETATION Ambulatory monitoring as a diagnostic strategy for hypertension after an initial raised reading in the clinic would reduce misdiagnosis and save costs.",
+          "kept": true,
+          "new_index": 6
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 25515907,
+          "title": "Relative effectiveness of clinic and home blood pressure monitoring compared with ambulatory blood pressure monitoring in diagnosis of hypertension: systematic review",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "DESIGN Systematic review with meta-analysis with hierarchical summary receiver operating characteristic models."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Methodological quality was appraised, including evidence of validation of blood pressure measurement equipment.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "DATA SOURCES Medline (from 1966), Embase (from 1980), Cochrane Database of Systematic Reviews, DARE, Medion, ARIF, and TRIP up to May 2010."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Eligibility criteria for selecting studies Eligible studies examined diagnosis of hypertension in adults of all ages using home and/or clinic blood pressure measurement compared with those made using ambulatory monitoring that clearly defined thresholds to diagnose hypertension.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "RESULTS The 20 eligible studies used various thresholds for the diagnosis of hypertension, and only seven studies (clinic) and three studies (home) could be directly compared with ambulatory monitoring."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Compared with ambulatory monitoring thresholds of 135/85 mm Hg, clinic measurements over 140/90 mm Hg had mean sensitivity and specificity of 74.6% (95% confidence interval 60.7% to 84.8%) and 74.6% (47.9% to 90.4%), respectively, whereas home measurements over 135/85 mm Hg had mean sensitivity and specificity of 85.7% (78.0% to 91.0%) and 62.4% (48.0% to 75.0%).   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "CONCLUSIONS Neither clinic nor home measurement had sufficient sensitivity or specificity to be recommended as a single diagnostic test."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Ambulatory monitoring before the start of lifelong drug treatment might lead to more appropriate targeting of treatment, particularly around the diagnostic threshold."
+            }
+          ]
+        },
+        {
+          "doc_id": 5151024,
+          "title": "Cost-effectiveness of options for the diagnosis of high blood pressure in primary care: a modelling study.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND The diagnosis of hypertension has traditionally been based on blood-pressure measurements in the clinic, but home and ambulatory measurements better correlate with cardiovascular outcome, and ambulatory monitoring is more accurate than both clinic and home monitoring in diagnosing hypertension."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We aimed to compare the cost-effectiveness of different diagnostic strategies for hypertension.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS We did a Markov model-based probabilistic cost-effectiveness analysis."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We used a hypothetical primary-care population aged 40 years or older with a screening blood-pressure measurement greater than 140/90 mm Hg and risk-factor prevalence equivalent to the general population."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "It was cost-saving for all groups (from -£56 [95% CI -105 to -10] in men aged 75 years to -£323 [-389 to -222] in women aged 40 years) and resulted in more quality-adjusted life years for men and women older than 50 years (from 0·006 [0·000 to 0·015] for women aged 60 years to 0·022 [0·012 to 0·035] for men aged 70 years)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "This finding was robust when assessed with a wide range of deterministic sensitivity analyses around the base case, but was sensitive if home monitoring was judged to have equal test performance to ambulatory monitoring or if treatment was judged effective irrespective of whether an individual was hypertensive.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "INTERPRETATION Ambulatory monitoring as a diagnostic strategy for hypertension after an initial raised reading in the clinic would reduce misdiagnosis and save costs."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Additional costs from ambulatory monitoring are counterbalanced by cost savings from better targeted treatment."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "Ambulatory monitoring is recommended for most patients before the start of antihypertensive drugs.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "FUNDING National Institute for Health Research and the National Institute for Health and Clinical Excellence."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 25515907,
+          "original_index": 0,
+          "sentence": "OBJECTIVE To determine the relative accuracy of clinic measurements and home blood pressure monitoring compared with ambulatory blood pressure monitoring as a reference standard for the diagnosis of hypertension.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 25515907,
+          "original_index": 8,
+          "sentence": "If ambulatory monitoring is taken as the reference standard, then treatment decisions based on clinic or home blood pressure alone might result in substantial overdiagnosis.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 5151024,
+          "original_index": 4,
+          "sentence": "We compared three diagnostic strategies-further blood pressure measurement in the clinic, at home, and with an ambulatory monitor-in terms of lifetime costs, quality-adjusted life years, and cost-effectiveness.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 5151024,
+          "original_index": 5,
+          "sentence": "FINDINGS Ambulatory monitoring was the most cost-effective strategy for the diagnosis of hypertension for men and women of all ages.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g2",
+        "g0"
+      ],
+      "claim": "Ambulatory blood pressure monitoring is inaccurate at diagnosing hypertension.",
+      "evidence": [
+        {
+          "doc_id": 25515907,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 6,
+          "sentence": "Compared with ambulatory monitoring thresholds of 135/85 mm Hg, clinic measurements over 140/90 mm Hg had mean sensitivity and specificity of 74.6% (95% confidence interval 60.7% to 84.8%) and 74.6% (47.9% to 90.4%), respectively, whereas home measurements over 135/85 mm Hg had mean sensitivity and specificity of 85.7% (78.0% to 91.0%) and 62.4% (48.0% to 75.0%).   \n",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 25515907,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 8,
+          "sentence": "If ambulatory monitoring is taken as the reference standard, then treatment decisions based on clinic or home blood pressure alone might result in substantial overdiagnosis.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 25515907,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Ambulatory monitoring before the start of lifelong drug treatment might lead to more appropriate targeting of treatment, particularly around the diagnostic threshold.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 5151024,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT",
+          "original_index": 0,
+          "sentence": "BACKGROUND The diagnosis of hypertension has traditionally been based on blood-pressure measurements in the clinic, but home and ambulatory measurements better correlate with cardiovascular outcome, and ambulatory monitoring is more accurate than both clinic and home monitoring in diagnosing hypertension.",
+          "kept": true,
+          "new_index": 0
+        },
+        {
+          "doc_id": 5151024,
+          "group_id": "g4",
+          "evidence_label": "CONTRADICT",
+          "original_index": 8,
+          "sentence": "INTERPRETATION Ambulatory monitoring as a diagnostic strategy for hypertension after an initial raised reading in the clinic would reduce misdiagnosis and save costs.",
+          "kept": true,
+          "new_index": 6
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 25515907,
+          "title": "Relative effectiveness of clinic and home blood pressure monitoring compared with ambulatory blood pressure monitoring in diagnosis of hypertension: systematic review",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To determine the relative accuracy of clinic measurements and home blood pressure monitoring compared with ambulatory blood pressure monitoring as a reference standard for the diagnosis of hypertension.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Systematic review with meta-analysis with hierarchical summary receiver operating characteristic models."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "DATA SOURCES Medline (from 1966), Embase (from 1980), Cochrane Database of Systematic Reviews, DARE, Medion, ARIF, and TRIP up to May 2010."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Eligibility criteria for selecting studies Eligible studies examined diagnosis of hypertension in adults of all ages using home and/or clinic blood pressure measurement compared with those made using ambulatory monitoring that clearly defined thresholds to diagnose hypertension.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "RESULTS The 20 eligible studies used various thresholds for the diagnosis of hypertension, and only seven studies (clinic) and three studies (home) could be directly compared with ambulatory monitoring."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "CONCLUSIONS Neither clinic nor home measurement had sufficient sensitivity or specificity to be recommended as a single diagnostic test."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "If ambulatory monitoring is taken as the reference standard, then treatment decisions based on clinic or home blood pressure alone might result in substantial overdiagnosis."
+            }
+          ]
+        },
+        {
+          "doc_id": 5151024,
+          "title": "Cost-effectiveness of options for the diagnosis of high blood pressure in primary care: a modelling study.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND The diagnosis of hypertension has traditionally been based on blood-pressure measurements in the clinic, but home and ambulatory measurements better correlate with cardiovascular outcome, and ambulatory monitoring is more accurate than both clinic and home monitoring in diagnosing hypertension."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We aimed to compare the cost-effectiveness of different diagnostic strategies for hypertension.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS We did a Markov model-based probabilistic cost-effectiveness analysis."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "We compared three diagnostic strategies-further blood pressure measurement in the clinic, at home, and with an ambulatory monitor-in terms of lifetime costs, quality-adjusted life years, and cost-effectiveness.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "FINDINGS Ambulatory monitoring was the most cost-effective strategy for the diagnosis of hypertension for men and women of all ages."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "This finding was robust when assessed with a wide range of deterministic sensitivity analyses around the base case, but was sensitive if home monitoring was judged to have equal test performance to ambulatory monitoring or if treatment was judged effective irrespective of whether an individual was hypertensive.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "INTERPRETATION Ambulatory monitoring as a diagnostic strategy for hypertension after an initial raised reading in the clinic would reduce misdiagnosis and save costs."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Additional costs from ambulatory monitoring are counterbalanced by cost savings from better targeted treatment."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "Ambulatory monitoring is recommended for most patients before the start of antihypertensive drugs.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "FUNDING National Institute for Health Research and the National Institute for Health and Clinical Excellence."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 25515907,
+          "original_index": 2,
+          "sentence": "Methodological quality was appraised, including evidence of validation of blood pressure measurement equipment.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 25515907,
+          "original_index": 6,
+          "sentence": "Compared with ambulatory monitoring thresholds of 135/85 mm Hg, clinic measurements over 140/90 mm Hg had mean sensitivity and specificity of 74.6% (95% confidence interval 60.7% to 84.8%) and 74.6% (47.9% to 90.4%), respectively, whereas home measurements over 135/85 mm Hg had mean sensitivity and specificity of 85.7% (78.0% to 91.0%) and 62.4% (48.0% to 75.0%).   \n",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 25515907,
+          "original_index": 9,
+          "sentence": "Ambulatory monitoring before the start of lifelong drug treatment might lead to more appropriate targeting of treatment, particularly around the diagnostic threshold.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 5151024,
+          "original_index": 3,
+          "sentence": "We used a hypothetical primary-care population aged 40 years or older with a screening blood-pressure measurement greater than 140/90 mm Hg and risk-factor prevalence equivalent to the general population.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 5151024,
+          "original_index": 6,
+          "sentence": "It was cost-saving for all groups (from -£56 [95% CI -105 to -10] in men aged 75 years to -£323 [-389 to -222] in women aged 40 years) and resulted in more quality-adjusted life years for men and women older than 50 years (from 0·006 [0·000 to 0·015] for women aged 60 years to 0·022 [0·012 to 0·035] for men aged 70 years).",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_3_groups",
+      "dropped_group_ids": [
+        "g2",
+        "g1",
+        "g0"
+      ],
+      "claim": "Ambulatory blood pressure monitoring is inaccurate at diagnosing hypertension.",
+      "evidence": [
+        {
+          "doc_id": 25515907,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 6,
+          "sentence": "Compared with ambulatory monitoring thresholds of 135/85 mm Hg, clinic measurements over 140/90 mm Hg had mean sensitivity and specificity of 74.6% (95% confidence interval 60.7% to 84.8%) and 74.6% (47.9% to 90.4%), respectively, whereas home measurements over 135/85 mm Hg had mean sensitivity and specificity of 85.7% (78.0% to 91.0%) and 62.4% (48.0% to 75.0%).   \n",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 25515907,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 8,
+          "sentence": "If ambulatory monitoring is taken as the reference standard, then treatment decisions based on clinic or home blood pressure alone might result in substantial overdiagnosis.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 25515907,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Ambulatory monitoring before the start of lifelong drug treatment might lead to more appropriate targeting of treatment, particularly around the diagnostic threshold.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 5151024,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT",
+          "original_index": 0,
+          "sentence": "BACKGROUND The diagnosis of hypertension has traditionally been based on blood-pressure measurements in the clinic, but home and ambulatory measurements better correlate with cardiovascular outcome, and ambulatory monitoring is more accurate than both clinic and home monitoring in diagnosing hypertension.",
+          "kept": true,
+          "new_index": 0
+        },
+        {
+          "doc_id": 5151024,
+          "group_id": "g4",
+          "evidence_label": "CONTRADICT",
+          "original_index": 8,
+          "sentence": "INTERPRETATION Ambulatory monitoring as a diagnostic strategy for hypertension after an initial raised reading in the clinic would reduce misdiagnosis and save costs.",
+          "kept": true,
+          "new_index": 6
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 25515907,
+          "title": "Relative effectiveness of clinic and home blood pressure monitoring compared with ambulatory blood pressure monitoring in diagnosis of hypertension: systematic review",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To determine the relative accuracy of clinic measurements and home blood pressure monitoring compared with ambulatory blood pressure monitoring as a reference standard for the diagnosis of hypertension.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Systematic review with meta-analysis with hierarchical summary receiver operating characteristic models."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Methodological quality was appraised, including evidence of validation of blood pressure measurement equipment.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Eligibility criteria for selecting studies Eligible studies examined diagnosis of hypertension in adults of all ages using home and/or clinic blood pressure measurement compared with those made using ambulatory monitoring that clearly defined thresholds to diagnose hypertension.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "RESULTS The 20 eligible studies used various thresholds for the diagnosis of hypertension, and only seven studies (clinic) and three studies (home) could be directly compared with ambulatory monitoring."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "CONCLUSIONS Neither clinic nor home measurement had sufficient sensitivity or specificity to be recommended as a single diagnostic test."
+            }
+          ]
+        },
+        {
+          "doc_id": 5151024,
+          "title": "Cost-effectiveness of options for the diagnosis of high blood pressure in primary care: a modelling study.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND The diagnosis of hypertension has traditionally been based on blood-pressure measurements in the clinic, but home and ambulatory measurements better correlate with cardiovascular outcome, and ambulatory monitoring is more accurate than both clinic and home monitoring in diagnosing hypertension."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We aimed to compare the cost-effectiveness of different diagnostic strategies for hypertension.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "We compared three diagnostic strategies-further blood pressure measurement in the clinic, at home, and with an ambulatory monitor-in terms of lifetime costs, quality-adjusted life years, and cost-effectiveness.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "FINDINGS Ambulatory monitoring was the most cost-effective strategy for the diagnosis of hypertension for men and women of all ages."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "It was cost-saving for all groups (from -£56 [95% CI -105 to -10] in men aged 75 years to -£323 [-389 to -222] in women aged 40 years) and resulted in more quality-adjusted life years for men and women older than 50 years (from 0·006 [0·000 to 0·015] for women aged 60 years to 0·022 [0·012 to 0·035] for men aged 70 years)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "This finding was robust when assessed with a wide range of deterministic sensitivity analyses around the base case, but was sensitive if home monitoring was judged to have equal test performance to ambulatory monitoring or if treatment was judged effective irrespective of whether an individual was hypertensive.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "INTERPRETATION Ambulatory monitoring as a diagnostic strategy for hypertension after an initial raised reading in the clinic would reduce misdiagnosis and save costs."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Additional costs from ambulatory monitoring are counterbalanced by cost savings from better targeted treatment."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "Ambulatory monitoring is recommended for most patients before the start of antihypertensive drugs.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "FUNDING National Institute for Health Research and the National Institute for Health and Clinical Excellence."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 25515907,
+          "original_index": 3,
+          "sentence": "DATA SOURCES Medline (from 1966), Embase (from 1980), Cochrane Database of Systematic Reviews, DARE, Medion, ARIF, and TRIP up to May 2010.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 25515907,
+          "original_index": 6,
+          "sentence": "Compared with ambulatory monitoring thresholds of 135/85 mm Hg, clinic measurements over 140/90 mm Hg had mean sensitivity and specificity of 74.6% (95% confidence interval 60.7% to 84.8%) and 74.6% (47.9% to 90.4%), respectively, whereas home measurements over 135/85 mm Hg had mean sensitivity and specificity of 85.7% (78.0% to 91.0%) and 62.4% (48.0% to 75.0%).   \n",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 25515907,
+          "original_index": 8,
+          "sentence": "If ambulatory monitoring is taken as the reference standard, then treatment decisions based on clinic or home blood pressure alone might result in substantial overdiagnosis.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 25515907,
+          "original_index": 9,
+          "sentence": "Ambulatory monitoring before the start of lifelong drug treatment might lead to more appropriate targeting of treatment, particularly around the diagnostic threshold.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 5151024,
+          "original_index": 2,
+          "sentence": "METHODS We did a Markov model-based probabilistic cost-effectiveness analysis.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 5151024,
+          "original_index": 3,
+          "sentence": "We used a hypothetical primary-care population aged 40 years or older with a screening blood-pressure measurement greater than 140/90 mm Hg and risk-factor prevalence equivalent to the general population.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_4_groups",
+      "dropped_group_ids": [
+        "g4",
+        "g3",
+        "g1",
+        "g2"
+      ],
+      "claim": "Ambulatory blood pressure monitoring is inaccurate at diagnosing hypertension.",
+      "evidence": [
+        {
+          "doc_id": 25515907,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 6,
+          "sentence": "Compared with ambulatory monitoring thresholds of 135/85 mm Hg, clinic measurements over 140/90 mm Hg had mean sensitivity and specificity of 74.6% (95% confidence interval 60.7% to 84.8%) and 74.6% (47.9% to 90.4%), respectively, whereas home measurements over 135/85 mm Hg had mean sensitivity and specificity of 85.7% (78.0% to 91.0%) and 62.4% (48.0% to 75.0%).   \n",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 25515907,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 8,
+          "sentence": "If ambulatory monitoring is taken as the reference standard, then treatment decisions based on clinic or home blood pressure alone might result in substantial overdiagnosis.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 25515907,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Ambulatory monitoring before the start of lifelong drug treatment might lead to more appropriate targeting of treatment, particularly around the diagnostic threshold.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 5151024,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT",
+          "original_index": 0,
+          "sentence": "BACKGROUND The diagnosis of hypertension has traditionally been based on blood-pressure measurements in the clinic, but home and ambulatory measurements better correlate with cardiovascular outcome, and ambulatory monitoring is more accurate than both clinic and home monitoring in diagnosing hypertension.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 5151024,
+          "group_id": "g4",
+          "evidence_label": "CONTRADICT",
+          "original_index": 8,
+          "sentence": "INTERPRETATION Ambulatory monitoring as a diagnostic strategy for hypertension after an initial raised reading in the clinic would reduce misdiagnosis and save costs.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 25515907,
+          "title": "Relative effectiveness of clinic and home blood pressure monitoring compared with ambulatory blood pressure monitoring in diagnosis of hypertension: systematic review",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To determine the relative accuracy of clinic measurements and home blood pressure monitoring compared with ambulatory blood pressure monitoring as a reference standard for the diagnosis of hypertension.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Methodological quality was appraised, including evidence of validation of blood pressure measurement equipment.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "DATA SOURCES Medline (from 1966), Embase (from 1980), Cochrane Database of Systematic Reviews, DARE, Medion, ARIF, and TRIP up to May 2010."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Eligibility criteria for selecting studies Eligible studies examined diagnosis of hypertension in adults of all ages using home and/or clinic blood pressure measurement compared with those made using ambulatory monitoring that clearly defined thresholds to diagnose hypertension.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "RESULTS The 20 eligible studies used various thresholds for the diagnosis of hypertension, and only seven studies (clinic) and three studies (home) could be directly compared with ambulatory monitoring."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Compared with ambulatory monitoring thresholds of 135/85 mm Hg, clinic measurements over 140/90 mm Hg had mean sensitivity and specificity of 74.6% (95% confidence interval 60.7% to 84.8%) and 74.6% (47.9% to 90.4%), respectively, whereas home measurements over 135/85 mm Hg had mean sensitivity and specificity of 85.7% (78.0% to 91.0%) and 62.4% (48.0% to 75.0%).   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "CONCLUSIONS Neither clinic nor home measurement had sufficient sensitivity or specificity to be recommended as a single diagnostic test."
+            }
+          ]
+        },
+        {
+          "doc_id": 5151024,
+          "title": "Cost-effectiveness of options for the diagnosis of high blood pressure in primary care: a modelling study.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "We aimed to compare the cost-effectiveness of different diagnostic strategies for hypertension.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "METHODS We did a Markov model-based probabilistic cost-effectiveness analysis."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "We compared three diagnostic strategies-further blood pressure measurement in the clinic, at home, and with an ambulatory monitor-in terms of lifetime costs, quality-adjusted life years, and cost-effectiveness.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "FINDINGS Ambulatory monitoring was the most cost-effective strategy for the diagnosis of hypertension for men and women of all ages."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "It was cost-saving for all groups (from -£56 [95% CI -105 to -10] in men aged 75 years to -£323 [-389 to -222] in women aged 40 years) and resulted in more quality-adjusted life years for men and women older than 50 years (from 0·006 [0·000 to 0·015] for women aged 60 years to 0·022 [0·012 to 0·035] for men aged 70 years)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "This finding was robust when assessed with a wide range of deterministic sensitivity analyses around the base case, but was sensitive if home monitoring was judged to have equal test performance to ambulatory monitoring or if treatment was judged effective irrespective of whether an individual was hypertensive.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 9,
+              "sentence": "Additional costs from ambulatory monitoring are counterbalanced by cost savings from better targeted treatment."
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "Ambulatory monitoring is recommended for most patients before the start of antihypertensive drugs.   \n"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 25515907,
+          "original_index": 1,
+          "sentence": "DESIGN Systematic review with meta-analysis with hierarchical summary receiver operating characteristic models.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 25515907,
+          "original_index": 8,
+          "sentence": "If ambulatory monitoring is taken as the reference standard, then treatment decisions based on clinic or home blood pressure alone might result in substantial overdiagnosis.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 25515907,
+          "original_index": 9,
+          "sentence": "Ambulatory monitoring before the start of lifelong drug treatment might lead to more appropriate targeting of treatment, particularly around the diagnostic threshold.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 5151024,
+          "original_index": 0,
+          "sentence": "BACKGROUND The diagnosis of hypertension has traditionally been based on blood-pressure measurements in the clinic, but home and ambulatory measurements better correlate with cardiovascular outcome, and ambulatory monitoring is more accurate than both clinic and home monitoring in diagnosing hypertension.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 5151024,
+          "original_index": 3,
+          "sentence": "We used a hypothetical primary-care population aged 40 years or older with a screening blood-pressure measurement greater than 140/90 mm Hg and risk-factor prevalence equivalent to the general population.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 5151024,
+          "original_index": 8,
+          "sentence": "INTERPRETATION Ambulatory monitoring as a diagnostic strategy for hypertension after an initial raised reading in the clinic would reduce misdiagnosis and save costs.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 5151024,
+          "original_index": 11,
+          "sentence": "FUNDING National Institute for Health Research and the National Institute for Health and Clinical Excellence.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2",
+        "g3",
+        "g4"
+      ],
+      "claim": "Ambulatory blood pressure monitoring is inaccurate at diagnosing hypertension.",
+      "evidence": [
+        {
+          "doc_id": 25515907,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 6,
+          "sentence": "Compared with ambulatory monitoring thresholds of 135/85 mm Hg, clinic measurements over 140/90 mm Hg had mean sensitivity and specificity of 74.6% (95% confidence interval 60.7% to 84.8%) and 74.6% (47.9% to 90.4%), respectively, whereas home measurements over 135/85 mm Hg had mean sensitivity and specificity of 85.7% (78.0% to 91.0%) and 62.4% (48.0% to 75.0%).   \n",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 25515907,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 8,
+          "sentence": "If ambulatory monitoring is taken as the reference standard, then treatment decisions based on clinic or home blood pressure alone might result in substantial overdiagnosis.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 25515907,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Ambulatory monitoring before the start of lifelong drug treatment might lead to more appropriate targeting of treatment, particularly around the diagnostic threshold.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 5151024,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT",
+          "original_index": 0,
+          "sentence": "BACKGROUND The diagnosis of hypertension has traditionally been based on blood-pressure measurements in the clinic, but home and ambulatory measurements better correlate with cardiovascular outcome, and ambulatory monitoring is more accurate than both clinic and home monitoring in diagnosing hypertension.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 5151024,
+          "group_id": "g4",
+          "evidence_label": "CONTRADICT",
+          "original_index": 8,
+          "sentence": "INTERPRETATION Ambulatory monitoring as a diagnostic strategy for hypertension after an initial raised reading in the clinic would reduce misdiagnosis and save costs.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 25515907,
+          "title": "Relative effectiveness of clinic and home blood pressure monitoring compared with ambulatory blood pressure monitoring in diagnosis of hypertension: systematic review",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To determine the relative accuracy of clinic measurements and home blood pressure monitoring compared with ambulatory blood pressure monitoring as a reference standard for the diagnosis of hypertension.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Systematic review with meta-analysis with hierarchical summary receiver operating characteristic models."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Methodological quality was appraised, including evidence of validation of blood pressure measurement equipment.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DATA SOURCES Medline (from 1966), Embase (from 1980), Cochrane Database of Systematic Reviews, DARE, Medion, ARIF, and TRIP up to May 2010."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Eligibility criteria for selecting studies Eligible studies examined diagnosis of hypertension in adults of all ages using home and/or clinic blood pressure measurement compared with those made using ambulatory monitoring that clearly defined thresholds to diagnose hypertension.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "RESULTS The 20 eligible studies used various thresholds for the diagnosis of hypertension, and only seven studies (clinic) and three studies (home) could be directly compared with ambulatory monitoring."
+            }
+          ]
+        },
+        {
+          "doc_id": 5151024,
+          "title": "Cost-effectiveness of options for the diagnosis of high blood pressure in primary care: a modelling study.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "We aimed to compare the cost-effectiveness of different diagnostic strategies for hypertension.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "METHODS We did a Markov model-based probabilistic cost-effectiveness analysis."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "We used a hypothetical primary-care population aged 40 years or older with a screening blood-pressure measurement greater than 140/90 mm Hg and risk-factor prevalence equivalent to the general population."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "We compared three diagnostic strategies-further blood pressure measurement in the clinic, at home, and with an ambulatory monitor-in terms of lifetime costs, quality-adjusted life years, and cost-effectiveness.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "FINDINGS Ambulatory monitoring was the most cost-effective strategy for the diagnosis of hypertension for men and women of all ages."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "It was cost-saving for all groups (from -£56 [95% CI -105 to -10] in men aged 75 years to -£323 [-389 to -222] in women aged 40 years) and resulted in more quality-adjusted life years for men and women older than 50 years (from 0·006 [0·000 to 0·015] for women aged 60 years to 0·022 [0·012 to 0·035] for men aged 70 years)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "This finding was robust when assessed with a wide range of deterministic sensitivity analyses around the base case, but was sensitive if home monitoring was judged to have equal test performance to ambulatory monitoring or if treatment was judged effective irrespective of whether an individual was hypertensive.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Additional costs from ambulatory monitoring are counterbalanced by cost savings from better targeted treatment."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 25515907,
+          "original_index": 6,
+          "sentence": "Compared with ambulatory monitoring thresholds of 135/85 mm Hg, clinic measurements over 140/90 mm Hg had mean sensitivity and specificity of 74.6% (95% confidence interval 60.7% to 84.8%) and 74.6% (47.9% to 90.4%), respectively, whereas home measurements over 135/85 mm Hg had mean sensitivity and specificity of 85.7% (78.0% to 91.0%) and 62.4% (48.0% to 75.0%).   \n",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 25515907,
+          "original_index": 7,
+          "sentence": "CONCLUSIONS Neither clinic nor home measurement had sufficient sensitivity or specificity to be recommended as a single diagnostic test.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 25515907,
+          "original_index": 8,
+          "sentence": "If ambulatory monitoring is taken as the reference standard, then treatment decisions based on clinic or home blood pressure alone might result in substantial overdiagnosis.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 25515907,
+          "original_index": 9,
+          "sentence": "Ambulatory monitoring before the start of lifelong drug treatment might lead to more appropriate targeting of treatment, particularly around the diagnostic threshold.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 5151024,
+          "original_index": 0,
+          "sentence": "BACKGROUND The diagnosis of hypertension has traditionally been based on blood-pressure measurements in the clinic, but home and ambulatory measurements better correlate with cardiovascular outcome, and ambulatory monitoring is more accurate than both clinic and home monitoring in diagnosing hypertension.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 5151024,
+          "original_index": 8,
+          "sentence": "INTERPRETATION Ambulatory monitoring as a diagnostic strategy for hypertension after an initial raised reading in the clinic would reduce misdiagnosis and save costs.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 5151024,
+          "original_index": 10,
+          "sentence": "Ambulatory monitoring is recommended for most patients before the start of antihypertensive drugs.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 5151024,
+          "original_index": 11,
+          "sentence": "FUNDING National Institute for Health Research and the National Institute for Health and Clinical Excellence.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

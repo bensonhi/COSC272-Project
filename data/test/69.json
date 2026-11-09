@@ -1,0 +1,111 @@
+{
+  "id": 69,
+  "origin": "train_more",
+  "claim": "Activation of PPM1D enhances p53 function.",
+  "evidence": [
+    {
+      "doc_id": 5956380,
+      "group_id": "g0",
+      "evidence_label": "CONTRADICT",
+      "original_index": 5,
+      "sentence": "PPM1D mutations were mutually exclusive with TP53 mutations in BSG and attenuated p53 activation in vitro."
+    },
+    {
+      "doc_id": 5956380,
+      "group_id": "g0",
+      "evidence_label": "CONTRADICT",
+      "original_index": 6,
+      "sentence": "PPM1D mutations were truncating alterations in exon 6 that enhanced the ability of PPM1D to suppress the activation of the DNA damage response checkpoint protein CHK2."
+    },
+    {
+      "doc_id": 4414547,
+      "group_id": "g1",
+      "evidence_label": "CONTRADICT",
+      "original_index": 5,
+      "sentence": "Functional studies demonstrate that the mutations result in enhanced suppression of p53 in response to ionizing radiation exposure, suggesting that the mutant alleles encode hyperactive PPM1D isoforms."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 5956380,
+      "title": "Exome sequencing identifies somatic gain-of-function PPM1D mutations in brainstem gliomas",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Gliomas arising in the brainstem and thalamus are devastating tumors that are difficult to surgically resect."
+        },
+        {
+          "original_index": 1,
+          "sentence": "To determine the genetic and epigenetic landscape of these tumors, we performed exomic sequencing of 14 brainstem gliomas (BSGs) and 12 thalamic gliomas."
+        },
+        {
+          "original_index": 2,
+          "sentence": "We also performed targeted mutational analysis of an additional 24 such tumors and genome-wide methylation profiling of 45 gliomas."
+        },
+        {
+          "original_index": 3,
+          "sentence": "This study led to the discovery of tumor-specific mutations in PPM1D, encoding wild-type p53-induced protein phosphatase 1D (WIP1), in 37.5% of the BSGs that harbored hallmark H3F3A mutations encoding p."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Lys27Met substitutions."
+        },
+        {
+          "original_index": 5,
+          "sentence": "PPM1D mutations were mutually exclusive with TP53 mutations in BSG and attenuated p53 activation in vitro."
+        },
+        {
+          "original_index": 6,
+          "sentence": "PPM1D mutations were truncating alterations in exon 6 that enhanced the ability of PPM1D to suppress the activation of the DNA damage response checkpoint protein CHK2."
+        },
+        {
+          "original_index": 7,
+          "sentence": "These results define PPM1D as a frequent target of somatic mutation and as a potential therapeutic target in brainstem gliomas."
+        }
+      ]
+    },
+    {
+      "doc_id": 4414547,
+      "title": "Mosaic PPM1D mutations are associated with predisposition to breast and ovarian cancer",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Improved sequencing technologies offer unprecedented opportunities for investigating the role of rare genetic variation in common disease."
+        },
+        {
+          "original_index": 1,
+          "sentence": "However, there are considerable challenges with respect to study design, data analysis and replication."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Using pooled next-generation sequencing of 507 genes implicated in the repair of DNA in 1,150 samples, an analytical strategy focused on protein-truncating variants (PTVs) and a large-scale sequencing case–control replication experiment in 13,642 individuals, here we show that rare PTVs in the p53-inducible protein phosphatase PPM1D are associated with predisposition to breast cancer and ovarian cancer."
+        },
+        {
+          "original_index": 3,
+          "sentence": "PPM1D PTV mutations were present in 25 out of 7,781 cases versus 1 out of 5,861 controls (P = 1.12 × 10−5), including 18 mutations in 6,912 individuals with breast cancer (P = 2.42 × 10−4) and 12 mutations in 1,121 individuals with ovarian cancer (P = 3.10 × 10−9)."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Notably, all of the identified PPM1D PTVs were mosaic in lymphocyte DNA and clustered within a 370-base-pair region in the final exon of the gene, carboxy-terminal to the phosphatase catalytic domain."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Functional studies demonstrate that the mutations result in enhanced suppression of p53 in response to ionizing radiation exposure, suggesting that the mutant alleles encode hyperactive PPM1D isoforms."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Thus, although the mutations cause premature protein truncation, they do not result in the simple loss-of-function effect typically associated with this class of variant, but instead probably have a gain-of-function effect."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Our results have implications for the detection and management of breast and ovarian cancer risk."
+        },
+        {
+          "original_index": 8,
+          "sentence": "More generally, these data provide new insights into the role of rare and of mosaic genetic variants in common conditions, and the use of sequencing in their identification."
+        }
+      ]
+    }
+  ],
+  "label": "CONTRADICT"
+}

@@ -1,0 +1,830 @@
+{
+  "id": 1373,
+  "origin": "train_more",
+  "n_groups": 5,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Walking in traffic areas in London improves lung function in elderly adults.",
+      "evidence": [
+        {
+          "doc_id": 21003930,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "Participants with COPD reported more cough (odds ratio [OR] 1·95, 95% CI 0·96-3·95; p<0·1), sputum (3·15, 1·39-7·13; p<0·05), shortness of breath (1·86, 0·97-3·57; p<0·1), and wheeze (4·00, 1·52-10·50; p<0·05) after walking down Oxford Street compared with Hyde Park.",
+          "kept": true,
+          "new_index": 10
+        },
+        {
+          "doc_id": 21003930,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 11,
+          "sentence": "In all participants, irrespective of their disease status, walking in Hyde Park led to an increase in lung function (forced expiratory volume in the first second [FEV1] and forced vital capacity [FVC]) and a decrease in pulse wave velocity (PWV) and augmentation index up to 26 h after the walk.",
+          "kept": true,
+          "new_index": 11
+        },
+        {
+          "doc_id": 21003930,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 12,
+          "sentence": "By contrast, these beneficial responses were attenuated after walking on Oxford Street.",
+          "kept": true,
+          "new_index": 12
+        },
+        {
+          "doc_id": 21003930,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 13,
+          "sentence": "In participants with COPD, a reduction in FEV1 and FVC, and an increase in R5-20 were associated with an increase in during-walk exposure to NO2, ultrafine particles and PM2.5, and an increase in PWV and augmentation index with NO2 and ultrafine particles.",
+          "kept": true,
+          "new_index": 13
+        },
+        {
+          "doc_id": 21003930,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 15,
+          "sentence": "INTERPRETATION Short-term exposure to traffic pollution prevents the beneficial cardiopulmonary effects of walking in people with COPD, ischaemic heart disease, and those free from chronic cardiopulmonary diseases.",
+          "kept": true,
+          "new_index": 15
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 21003930,
+          "title": "Respiratory and cardiovascular responses to walking down a traffic-polluted road compared with walking in a traffic-free area in participants aged 60 years and older with chronic lung or heart disease and age-matched healthy controls: a randomised, crossover study",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Long-term exposure to pollution can lead to an increase in the rate of decline of lung function, especially in older individuals and in those with chronic obstructive pulmonary disease (COPD), whereas shorter-term exposure at higher pollution levels has been implicated in causing excess deaths from ischaemic heart disease and exacerbations of COPD."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We aimed to assess the effects on respiratory and cardiovascular responses of walking down a busy street with high levels of pollution compared with walking in a traffic-free area with lower pollution levels in older adults.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS In this randomised, crossover study, we recruited men and women aged 60 years and older with angiographically proven stable ischaemic heart disease or stage 2 Global initiative for Obstructive Lung Disease (GOLD) COPD who had been clinically stable for 6 months, and age-matched healthy volunteers."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Individuals with ischaemic heart disease or COPD were recruited from existing databases or outpatient respiratory and cardiology clinics at the Royal Brompton & Harefield NHS Foundation Trust and age-matched healthy volunteers using advertising and existing databases."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "All participants had abstained from smoking for at least 12 months and medications were taken as recommended by participants' doctors during the study."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Participants were randomly assigned by drawing numbered disks at random from a bag to do a 2 h walk either along a commercial street in London (Oxford Street) or in an urban park (Hyde Park)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Baseline measurements of participants were taken before the walk in the hospital laboratory."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "During each walk session, black carbon, particulate matter (PM) concentrations, ultrafine particles, and nitrogen dioxide (NO2) concentrations were measured.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "FINDINGS Between October, 2012, and June, 2014, we screened 135 participants, of whom 40 healthy volunteers, 40 individuals with COPD, and 39 with ischaemic heart disease were recruited."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Concentrations of black carbon, NO2, PM10, PM2.5, and ultrafine particles were higher on Oxford Street than in Hyde Park."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Participants with COPD reported more cough (odds ratio [OR] 1·95, 95% CI 0·96-3·95; p<0·1), sputum (3·15, 1·39-7·13; p<0·05), shortness of breath (1·86, 0·97-3·57; p<0·1), and wheeze (4·00, 1·52-10·50; p<0·05) after walking down Oxford Street compared with Hyde Park."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "In all participants, irrespective of their disease status, walking in Hyde Park led to an increase in lung function (forced expiratory volume in the first second [FEV1] and forced vital capacity [FVC]) and a decrease in pulse wave velocity (PWV) and augmentation index up to 26 h after the walk."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "By contrast, these beneficial responses were attenuated after walking on Oxford Street."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "In participants with COPD, a reduction in FEV1 and FVC, and an increase in R5-20 were associated with an increase in during-walk exposure to NO2, ultrafine particles and PM2.5, and an increase in PWV and augmentation index with NO2 and ultrafine particles."
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "In healthy volunteers, PWV and augmentation index were associated both with black carbon and ultrafine particles.   \n"
+            },
+            {
+              "new_index": 15,
+              "original_index": 15,
+              "sentence": "INTERPRETATION Short-term exposure to traffic pollution prevents the beneficial cardiopulmonary effects of walking in people with COPD, ischaemic heart disease, and those free from chronic cardiopulmonary diseases."
+            },
+            {
+              "new_index": 16,
+              "original_index": 16,
+              "sentence": "Medication use might reduce the adverse effects of air pollution in individuals with ischaemic heart disease."
+            },
+            {
+              "new_index": 17,
+              "original_index": 17,
+              "sentence": "Policies should aim to control ambient levels of air pollution along busy streets in view of these negative health effects.   \n"
+            },
+            {
+              "new_index": 18,
+              "original_index": 18,
+              "sentence": "FUNDING British Heart Foundation."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Walking in traffic areas in London improves lung function in elderly adults.",
+      "evidence": [
+        {
+          "doc_id": 21003930,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "Participants with COPD reported more cough (odds ratio [OR] 1·95, 95% CI 0·96-3·95; p<0·1), sputum (3·15, 1·39-7·13; p<0·05), shortness of breath (1·86, 0·97-3·57; p<0·1), and wheeze (4·00, 1·52-10·50; p<0·05) after walking down Oxford Street compared with Hyde Park.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 21003930,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 11,
+          "sentence": "In all participants, irrespective of their disease status, walking in Hyde Park led to an increase in lung function (forced expiratory volume in the first second [FEV1] and forced vital capacity [FVC]) and a decrease in pulse wave velocity (PWV) and augmentation index up to 26 h after the walk.",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 21003930,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 12,
+          "sentence": "By contrast, these beneficial responses were attenuated after walking on Oxford Street.",
+          "kept": true,
+          "new_index": 10
+        },
+        {
+          "doc_id": 21003930,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 13,
+          "sentence": "In participants with COPD, a reduction in FEV1 and FVC, and an increase in R5-20 were associated with an increase in during-walk exposure to NO2, ultrafine particles and PM2.5, and an increase in PWV and augmentation index with NO2 and ultrafine particles.",
+          "kept": true,
+          "new_index": 11
+        },
+        {
+          "doc_id": 21003930,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 15,
+          "sentence": "INTERPRETATION Short-term exposure to traffic pollution prevents the beneficial cardiopulmonary effects of walking in people with COPD, ischaemic heart disease, and those free from chronic cardiopulmonary diseases.",
+          "kept": true,
+          "new_index": 13
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 21003930,
+          "title": "Respiratory and cardiovascular responses to walking down a traffic-polluted road compared with walking in a traffic-free area in participants aged 60 years and older with chronic lung or heart disease and age-matched healthy controls: a randomised, crossover study",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Long-term exposure to pollution can lead to an increase in the rate of decline of lung function, especially in older individuals and in those with chronic obstructive pulmonary disease (COPD), whereas shorter-term exposure at higher pollution levels has been implicated in causing excess deaths from ischaemic heart disease and exacerbations of COPD."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "METHODS In this randomised, crossover study, we recruited men and women aged 60 years and older with angiographically proven stable ischaemic heart disease or stage 2 Global initiative for Obstructive Lung Disease (GOLD) COPD who had been clinically stable for 6 months, and age-matched healthy volunteers."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Individuals with ischaemic heart disease or COPD were recruited from existing databases or outpatient respiratory and cardiology clinics at the Royal Brompton & Harefield NHS Foundation Trust and age-matched healthy volunteers using advertising and existing databases."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "All participants had abstained from smoking for at least 12 months and medications were taken as recommended by participants' doctors during the study."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Participants were randomly assigned by drawing numbered disks at random from a bag to do a 2 h walk either along a commercial street in London (Oxford Street) or in an urban park (Hyde Park)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Baseline measurements of participants were taken before the walk in the hospital laboratory."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "During each walk session, black carbon, particulate matter (PM) concentrations, ultrafine particles, and nitrogen dioxide (NO2) concentrations were measured.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "FINDINGS Between October, 2012, and June, 2014, we screened 135 participants, of whom 40 healthy volunteers, 40 individuals with COPD, and 39 with ischaemic heart disease were recruited."
+            },
+            {
+              "new_index": 8,
+              "original_index": 9,
+              "sentence": "Concentrations of black carbon, NO2, PM10, PM2.5, and ultrafine particles were higher on Oxford Street than in Hyde Park."
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "In all participants, irrespective of their disease status, walking in Hyde Park led to an increase in lung function (forced expiratory volume in the first second [FEV1] and forced vital capacity [FVC]) and a decrease in pulse wave velocity (PWV) and augmentation index up to 26 h after the walk."
+            },
+            {
+              "new_index": 10,
+              "original_index": 12,
+              "sentence": "By contrast, these beneficial responses were attenuated after walking on Oxford Street."
+            },
+            {
+              "new_index": 11,
+              "original_index": 13,
+              "sentence": "In participants with COPD, a reduction in FEV1 and FVC, and an increase in R5-20 were associated with an increase in during-walk exposure to NO2, ultrafine particles and PM2.5, and an increase in PWV and augmentation index with NO2 and ultrafine particles."
+            },
+            {
+              "new_index": 12,
+              "original_index": 14,
+              "sentence": "In healthy volunteers, PWV and augmentation index were associated both with black carbon and ultrafine particles.   \n"
+            },
+            {
+              "new_index": 13,
+              "original_index": 15,
+              "sentence": "INTERPRETATION Short-term exposure to traffic pollution prevents the beneficial cardiopulmonary effects of walking in people with COPD, ischaemic heart disease, and those free from chronic cardiopulmonary diseases."
+            },
+            {
+              "new_index": 14,
+              "original_index": 16,
+              "sentence": "Medication use might reduce the adverse effects of air pollution in individuals with ischaemic heart disease."
+            },
+            {
+              "new_index": 15,
+              "original_index": 17,
+              "sentence": "Policies should aim to control ambient levels of air pollution along busy streets in view of these negative health effects.   \n"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 21003930,
+          "original_index": 1,
+          "sentence": "We aimed to assess the effects on respiratory and cardiovascular responses of walking down a busy street with high levels of pollution compared with walking in a traffic-free area with lower pollution levels in older adults.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 21003930,
+          "original_index": 10,
+          "sentence": "Participants with COPD reported more cough (odds ratio [OR] 1·95, 95% CI 0·96-3·95; p<0·1), sputum (3·15, 1·39-7·13; p<0·05), shortness of breath (1·86, 0·97-3·57; p<0·1), and wheeze (4·00, 1·52-10·50; p<0·05) after walking down Oxford Street compared with Hyde Park.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 21003930,
+          "original_index": 18,
+          "sentence": "FUNDING British Heart Foundation.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g1",
+        "g3"
+      ],
+      "claim": "Walking in traffic areas in London improves lung function in elderly adults.",
+      "evidence": [
+        {
+          "doc_id": 21003930,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "Participants with COPD reported more cough (odds ratio [OR] 1·95, 95% CI 0·96-3·95; p<0·1), sputum (3·15, 1·39-7·13; p<0·05), shortness of breath (1·86, 0·97-3·57; p<0·1), and wheeze (4·00, 1·52-10·50; p<0·05) after walking down Oxford Street compared with Hyde Park.",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 21003930,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 11,
+          "sentence": "In all participants, irrespective of their disease status, walking in Hyde Park led to an increase in lung function (forced expiratory volume in the first second [FEV1] and forced vital capacity [FVC]) and a decrease in pulse wave velocity (PWV) and augmentation index up to 26 h after the walk.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 21003930,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 12,
+          "sentence": "By contrast, these beneficial responses were attenuated after walking on Oxford Street.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 21003930,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 13,
+          "sentence": "In participants with COPD, a reduction in FEV1 and FVC, and an increase in R5-20 were associated with an increase in during-walk exposure to NO2, ultrafine particles and PM2.5, and an increase in PWV and augmentation index with NO2 and ultrafine particles.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 21003930,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 15,
+          "sentence": "INTERPRETATION Short-term exposure to traffic pollution prevents the beneficial cardiopulmonary effects of walking in people with COPD, ischaemic heart disease, and those free from chronic cardiopulmonary diseases.",
+          "kept": true,
+          "new_index": 10
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 21003930,
+          "title": "Respiratory and cardiovascular responses to walking down a traffic-polluted road compared with walking in a traffic-free area in participants aged 60 years and older with chronic lung or heart disease and age-matched healthy controls: a randomised, crossover study",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "We aimed to assess the effects on respiratory and cardiovascular responses of walking down a busy street with high levels of pollution compared with walking in a traffic-free area with lower pollution levels in older adults.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "METHODS In this randomised, crossover study, we recruited men and women aged 60 years and older with angiographically proven stable ischaemic heart disease or stage 2 Global initiative for Obstructive Lung Disease (GOLD) COPD who had been clinically stable for 6 months, and age-matched healthy volunteers."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Individuals with ischaemic heart disease or COPD were recruited from existing databases or outpatient respiratory and cardiology clinics at the Royal Brompton & Harefield NHS Foundation Trust and age-matched healthy volunteers using advertising and existing databases."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "All participants had abstained from smoking for at least 12 months and medications were taken as recommended by participants' doctors during the study."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Participants were randomly assigned by drawing numbered disks at random from a bag to do a 2 h walk either along a commercial street in London (Oxford Street) or in an urban park (Hyde Park)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Baseline measurements of participants were taken before the walk in the hospital laboratory."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "FINDINGS Between October, 2012, and June, 2014, we screened 135 participants, of whom 40 healthy volunteers, 40 individuals with COPD, and 39 with ischaemic heart disease were recruited."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Concentrations of black carbon, NO2, PM10, PM2.5, and ultrafine particles were higher on Oxford Street than in Hyde Park."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "Participants with COPD reported more cough (odds ratio [OR] 1·95, 95% CI 0·96-3·95; p<0·1), sputum (3·15, 1·39-7·13; p<0·05), shortness of breath (1·86, 0·97-3·57; p<0·1), and wheeze (4·00, 1·52-10·50; p<0·05) after walking down Oxford Street compared with Hyde Park."
+            },
+            {
+              "new_index": 9,
+              "original_index": 14,
+              "sentence": "In healthy volunteers, PWV and augmentation index were associated both with black carbon and ultrafine particles.   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 15,
+              "sentence": "INTERPRETATION Short-term exposure to traffic pollution prevents the beneficial cardiopulmonary effects of walking in people with COPD, ischaemic heart disease, and those free from chronic cardiopulmonary diseases."
+            },
+            {
+              "new_index": 11,
+              "original_index": 16,
+              "sentence": "Medication use might reduce the adverse effects of air pollution in individuals with ischaemic heart disease."
+            },
+            {
+              "new_index": 12,
+              "original_index": 17,
+              "sentence": "Policies should aim to control ambient levels of air pollution along busy streets in view of these negative health effects.   \n"
+            },
+            {
+              "new_index": 13,
+              "original_index": 18,
+              "sentence": "FUNDING British Heart Foundation."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 21003930,
+          "original_index": 0,
+          "sentence": "BACKGROUND Long-term exposure to pollution can lead to an increase in the rate of decline of lung function, especially in older individuals and in those with chronic obstructive pulmonary disease (COPD), whereas shorter-term exposure at higher pollution levels has been implicated in causing excess deaths from ischaemic heart disease and exacerbations of COPD.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 21003930,
+          "original_index": 7,
+          "sentence": "During each walk session, black carbon, particulate matter (PM) concentrations, ultrafine particles, and nitrogen dioxide (NO2) concentrations were measured.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 21003930,
+          "original_index": 11,
+          "sentence": "In all participants, irrespective of their disease status, walking in Hyde Park led to an increase in lung function (forced expiratory volume in the first second [FEV1] and forced vital capacity [FVC]) and a decrease in pulse wave velocity (PWV) and augmentation index up to 26 h after the walk.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 21003930,
+          "original_index": 12,
+          "sentence": "By contrast, these beneficial responses were attenuated after walking on Oxford Street.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 21003930,
+          "original_index": 13,
+          "sentence": "In participants with COPD, a reduction in FEV1 and FVC, and an increase in R5-20 were associated with an increase in during-walk exposure to NO2, ultrafine particles and PM2.5, and an increase in PWV and augmentation index with NO2 and ultrafine particles.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_3_groups",
+      "dropped_group_ids": [
+        "g3",
+        "g0",
+        "g2"
+      ],
+      "claim": "Walking in traffic areas in London improves lung function in elderly adults.",
+      "evidence": [
+        {
+          "doc_id": 21003930,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "Participants with COPD reported more cough (odds ratio [OR] 1·95, 95% CI 0·96-3·95; p<0·1), sputum (3·15, 1·39-7·13; p<0·05), shortness of breath (1·86, 0·97-3·57; p<0·1), and wheeze (4·00, 1·52-10·50; p<0·05) after walking down Oxford Street compared with Hyde Park.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 21003930,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 11,
+          "sentence": "In all participants, irrespective of their disease status, walking in Hyde Park led to an increase in lung function (forced expiratory volume in the first second [FEV1] and forced vital capacity [FVC]) and a decrease in pulse wave velocity (PWV) and augmentation index up to 26 h after the walk.",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 21003930,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 12,
+          "sentence": "By contrast, these beneficial responses were attenuated after walking on Oxford Street.",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 21003930,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 13,
+          "sentence": "In participants with COPD, a reduction in FEV1 and FVC, and an increase in R5-20 were associated with an increase in during-walk exposure to NO2, ultrafine particles and PM2.5, and an increase in PWV and augmentation index with NO2 and ultrafine particles.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 21003930,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 15,
+          "sentence": "INTERPRETATION Short-term exposure to traffic pollution prevents the beneficial cardiopulmonary effects of walking in people with COPD, ischaemic heart disease, and those free from chronic cardiopulmonary diseases.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 21003930,
+          "title": "Respiratory and cardiovascular responses to walking down a traffic-polluted road compared with walking in a traffic-free area in participants aged 60 years and older with chronic lung or heart disease and age-matched healthy controls: a randomised, crossover study",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Long-term exposure to pollution can lead to an increase in the rate of decline of lung function, especially in older individuals and in those with chronic obstructive pulmonary disease (COPD), whereas shorter-term exposure at higher pollution levels has been implicated in causing excess deaths from ischaemic heart disease and exacerbations of COPD."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We aimed to assess the effects on respiratory and cardiovascular responses of walking down a busy street with high levels of pollution compared with walking in a traffic-free area with lower pollution levels in older adults.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS In this randomised, crossover study, we recruited men and women aged 60 years and older with angiographically proven stable ischaemic heart disease or stage 2 Global initiative for Obstructive Lung Disease (GOLD) COPD who had been clinically stable for 6 months, and age-matched healthy volunteers."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Individuals with ischaemic heart disease or COPD were recruited from existing databases or outpatient respiratory and cardiology clinics at the Royal Brompton & Harefield NHS Foundation Trust and age-matched healthy volunteers using advertising and existing databases."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "All participants had abstained from smoking for at least 12 months and medications were taken as recommended by participants' doctors during the study."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Participants were randomly assigned by drawing numbered disks at random from a bag to do a 2 h walk either along a commercial street in London (Oxford Street) or in an urban park (Hyde Park)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "During each walk session, black carbon, particulate matter (PM) concentrations, ultrafine particles, and nitrogen dioxide (NO2) concentrations were measured.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Concentrations of black carbon, NO2, PM10, PM2.5, and ultrafine particles were higher on Oxford Street than in Hyde Park."
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "In all participants, irrespective of their disease status, walking in Hyde Park led to an increase in lung function (forced expiratory volume in the first second [FEV1] and forced vital capacity [FVC]) and a decrease in pulse wave velocity (PWV) and augmentation index up to 26 h after the walk."
+            },
+            {
+              "new_index": 9,
+              "original_index": 12,
+              "sentence": "By contrast, these beneficial responses were attenuated after walking on Oxford Street."
+            },
+            {
+              "new_index": 10,
+              "original_index": 14,
+              "sentence": "In healthy volunteers, PWV and augmentation index were associated both with black carbon and ultrafine particles.   \n"
+            },
+            {
+              "new_index": 11,
+              "original_index": 16,
+              "sentence": "Medication use might reduce the adverse effects of air pollution in individuals with ischaemic heart disease."
+            },
+            {
+              "new_index": 12,
+              "original_index": 17,
+              "sentence": "Policies should aim to control ambient levels of air pollution along busy streets in view of these negative health effects.   \n"
+            },
+            {
+              "new_index": 13,
+              "original_index": 18,
+              "sentence": "FUNDING British Heart Foundation."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 21003930,
+          "original_index": 6,
+          "sentence": "Baseline measurements of participants were taken before the walk in the hospital laboratory.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 21003930,
+          "original_index": 8,
+          "sentence": "FINDINGS Between October, 2012, and June, 2014, we screened 135 participants, of whom 40 healthy volunteers, 40 individuals with COPD, and 39 with ischaemic heart disease were recruited.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 21003930,
+          "original_index": 10,
+          "sentence": "Participants with COPD reported more cough (odds ratio [OR] 1·95, 95% CI 0·96-3·95; p<0·1), sputum (3·15, 1·39-7·13; p<0·05), shortness of breath (1·86, 0·97-3·57; p<0·1), and wheeze (4·00, 1·52-10·50; p<0·05) after walking down Oxford Street compared with Hyde Park.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 21003930,
+          "original_index": 13,
+          "sentence": "In participants with COPD, a reduction in FEV1 and FVC, and an increase in R5-20 were associated with an increase in during-walk exposure to NO2, ultrafine particles and PM2.5, and an increase in PWV and augmentation index with NO2 and ultrafine particles.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 21003930,
+          "original_index": 15,
+          "sentence": "INTERPRETATION Short-term exposure to traffic pollution prevents the beneficial cardiopulmonary effects of walking in people with COPD, ischaemic heart disease, and those free from chronic cardiopulmonary diseases.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2",
+        "g3"
+      ],
+      "claim": "Walking in traffic areas in London improves lung function in elderly adults.",
+      "evidence": [
+        {
+          "doc_id": 21003930,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "Participants with COPD reported more cough (odds ratio [OR] 1·95, 95% CI 0·96-3·95; p<0·1), sputum (3·15, 1·39-7·13; p<0·05), shortness of breath (1·86, 0·97-3·57; p<0·1), and wheeze (4·00, 1·52-10·50; p<0·05) after walking down Oxford Street compared with Hyde Park.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 21003930,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 11,
+          "sentence": "In all participants, irrespective of their disease status, walking in Hyde Park led to an increase in lung function (forced expiratory volume in the first second [FEV1] and forced vital capacity [FVC]) and a decrease in pulse wave velocity (PWV) and augmentation index up to 26 h after the walk.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 21003930,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 12,
+          "sentence": "By contrast, these beneficial responses were attenuated after walking on Oxford Street.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 21003930,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 13,
+          "sentence": "In participants with COPD, a reduction in FEV1 and FVC, and an increase in R5-20 were associated with an increase in during-walk exposure to NO2, ultrafine particles and PM2.5, and an increase in PWV and augmentation index with NO2 and ultrafine particles.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 21003930,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT",
+          "original_index": 15,
+          "sentence": "INTERPRETATION Short-term exposure to traffic pollution prevents the beneficial cardiopulmonary effects of walking in people with COPD, ischaemic heart disease, and those free from chronic cardiopulmonary diseases.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 21003930,
+          "title": "Respiratory and cardiovascular responses to walking down a traffic-polluted road compared with walking in a traffic-free area in participants aged 60 years and older with chronic lung or heart disease and age-matched healthy controls: a randomised, crossover study",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Long-term exposure to pollution can lead to an increase in the rate of decline of lung function, especially in older individuals and in those with chronic obstructive pulmonary disease (COPD), whereas shorter-term exposure at higher pollution levels has been implicated in causing excess deaths from ischaemic heart disease and exacerbations of COPD."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "METHODS In this randomised, crossover study, we recruited men and women aged 60 years and older with angiographically proven stable ischaemic heart disease or stage 2 Global initiative for Obstructive Lung Disease (GOLD) COPD who had been clinically stable for 6 months, and age-matched healthy volunteers."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Individuals with ischaemic heart disease or COPD were recruited from existing databases or outpatient respiratory and cardiology clinics at the Royal Brompton & Harefield NHS Foundation Trust and age-matched healthy volunteers using advertising and existing databases."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "All participants had abstained from smoking for at least 12 months and medications were taken as recommended by participants' doctors during the study."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Participants were randomly assigned by drawing numbered disks at random from a bag to do a 2 h walk either along a commercial street in London (Oxford Street) or in an urban park (Hyde Park)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Baseline measurements of participants were taken before the walk in the hospital laboratory."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "During each walk session, black carbon, particulate matter (PM) concentrations, ultrafine particles, and nitrogen dioxide (NO2) concentrations were measured.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "FINDINGS Between October, 2012, and June, 2014, we screened 135 participants, of whom 40 healthy volunteers, 40 individuals with COPD, and 39 with ischaemic heart disease were recruited."
+            },
+            {
+              "new_index": 8,
+              "original_index": 9,
+              "sentence": "Concentrations of black carbon, NO2, PM10, PM2.5, and ultrafine particles were higher on Oxford Street than in Hyde Park."
+            },
+            {
+              "new_index": 9,
+              "original_index": 14,
+              "sentence": "In healthy volunteers, PWV and augmentation index were associated both with black carbon and ultrafine particles.   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 17,
+              "sentence": "Policies should aim to control ambient levels of air pollution along busy streets in view of these negative health effects.   \n"
+            },
+            {
+              "new_index": 11,
+              "original_index": 18,
+              "sentence": "FUNDING British Heart Foundation."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 21003930,
+          "original_index": 1,
+          "sentence": "We aimed to assess the effects on respiratory and cardiovascular responses of walking down a busy street with high levels of pollution compared with walking in a traffic-free area with lower pollution levels in older adults.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 21003930,
+          "original_index": 10,
+          "sentence": "Participants with COPD reported more cough (odds ratio [OR] 1·95, 95% CI 0·96-3·95; p<0·1), sputum (3·15, 1·39-7·13; p<0·05), shortness of breath (1·86, 0·97-3·57; p<0·1), and wheeze (4·00, 1·52-10·50; p<0·05) after walking down Oxford Street compared with Hyde Park.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 21003930,
+          "original_index": 11,
+          "sentence": "In all participants, irrespective of their disease status, walking in Hyde Park led to an increase in lung function (forced expiratory volume in the first second [FEV1] and forced vital capacity [FVC]) and a decrease in pulse wave velocity (PWV) and augmentation index up to 26 h after the walk.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 21003930,
+          "original_index": 12,
+          "sentence": "By contrast, these beneficial responses were attenuated after walking on Oxford Street.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 21003930,
+          "original_index": 13,
+          "sentence": "In participants with COPD, a reduction in FEV1 and FVC, and an increase in R5-20 were associated with an increase in during-walk exposure to NO2, ultrafine particles and PM2.5, and an increase in PWV and augmentation index with NO2 and ultrafine particles.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 21003930,
+          "original_index": 15,
+          "sentence": "INTERPRETATION Short-term exposure to traffic pollution prevents the beneficial cardiopulmonary effects of walking in people with COPD, ischaemic heart disease, and those free from chronic cardiopulmonary diseases.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 21003930,
+          "original_index": 16,
+          "sentence": "Medication use might reduce the adverse effects of air pollution in individuals with ischaemic heart disease.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

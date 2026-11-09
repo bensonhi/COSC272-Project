@@ -1,0 +1,58 @@
+{
+  "id": 1195,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The artifactual C-terminal helix swapping in the StART domain is observed in the Ups1-Mdm35 heterodimer of the StARkin superfamily.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 26283293,
+          "title": "Structural and mechanistic insights into phospholipid transfer by Ups1–Mdm35 in mitochondria",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Eukaryotic cells are compartmentalized into membrane-bounded organelles whose functions rely on lipid trafficking to achieve membrane-specific compositions of lipids."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here we focused on the Ups1-Mdm35 system, which mediates phosphatidic acid (PA) transfer between the outer and inner mitochondrial membranes, and determined the X-ray structures of Mdm35 and Ups1-Mdm35 with and without PA."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "The Ups1-Mdm35 complex constitutes a single domain that has a deep pocket and flexible Ω-loop lid."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Structure-based mutational analyses revealed that a basic residue at the pocket bottom and the Ω-loop lid are important for PA extraction from the membrane following Ups1 binding."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Ups1 binding to the membrane is enhanced by the dissociation of Mdm35."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We also show that basic residues around the pocket entrance are important for Ups1 binding to the membrane and PA extraction."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "These results provide a structural basis for understanding the mechanism of PA transfer between mitochondrial membranes."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

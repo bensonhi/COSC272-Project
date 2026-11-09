@@ -1,0 +1,867 @@
+{
+  "id": 641,
+  "origin": "dev",
+  "n_groups": 5,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Insomnia can be effectively treated with cognitive behavioral therapy.",
+      "evidence": [
+        {
+          "doc_id": 5912283,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "RESULTS CBT resulted in improved short- and long-term outcomes compared with zopiclone on 3 out of 4 outcome measures.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 5912283,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Participants receiving CBT improved their sleep efficiency from 81.4% at pretreatment to 90.1% at 6-month follow-up compared with a decrease from 82.3% to 81.9% in the zopiclone group.",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 5912283,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "Participants in the CBT group spent much more time in slow-wave sleep (stages 3 and 4) compared with those in other groups, and spent less time awake during the night.",
+          "kept": true,
+          "new_index": 10
+        },
+        {
+          "doc_id": 5912283,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 12,
+          "sentence": "CONCLUSION These results suggest that interventions based on CBT are superior to zopiclone treatment both in short- and long-term management of insomnia in older adults.   \n",
+          "kept": true,
+          "new_index": 12
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 5912283,
+          "title": "Cognitive behavioral therapy vs zopiclone for treatment of chronic primary insomnia in older adults: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Insomnia is a common condition in older adults and is associated with a number of adverse medical, social, and psychological consequences."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Previous research has suggested beneficial outcomes of both psychological and pharmacological treatments, but blinded placebo-controlled trials comparing the effects of these treatments are lacking.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To examine short- and long-term clinical efficacy of cognitive behavioral therapy (CBT) and pharmacological treatment in older adults experiencing chronic primary insomnia.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS A randomized, double-blinded, placebo-controlled trial of 46 adults (mean age, 60.8 y; 22 women) with chronic primary insomnia conducted between January 2004 and December 2005 in a single Norwegian university-based outpatient clinic for adults and elderly patients.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "INTERVENTION CBT (sleep hygiene, sleep restriction, stimulus control, cognitive therapy, and relaxation; n = 18), sleep medication (7.5-mg zopiclone each night; n = 16), or placebo medication (n = 12)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "All treatment duration was 6 weeks, and the 2 active treatments were followed up at 6 months.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "MAIN OUTCOME MEASURES Ambulant clinical polysomnographic data and sleep diaries were used to determine total wake time, total sleep time, sleep efficiency, and slow-wave sleep (only assessed using polysomnography) on all 3 assessment points.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "RESULTS CBT resulted in improved short- and long-term outcomes compared with zopiclone on 3 out of 4 outcome measures."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "For most outcomes, zopiclone did not differ from placebo."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Participants receiving CBT improved their sleep efficiency from 81.4% at pretreatment to 90.1% at 6-month follow-up compared with a decrease from 82.3% to 81.9% in the zopiclone group."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Participants in the CBT group spent much more time in slow-wave sleep (stages 3 and 4) compared with those in other groups, and spent less time awake during the night."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Total sleep time was similar in all 3 groups; at 6 months, patients receiving CBT had better sleep efficiency using polysomnography than those taking zopiclone.   \n"
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "CONCLUSION These results suggest that interventions based on CBT are superior to zopiclone treatment both in short- and long-term management of insomnia in older adults.   \n"
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "TRIAL REGISTRATION clinicaltrials.gov Identifier: NCT00295386."
+            }
+          ]
+        },
+        {
+          "doc_id": 31554917,
+          "title": "A clinical approach to circadian rhythm sleep disorders.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Circadian rhythm sleep disorders are characterized by complaints of insomnia and excessive sleepiness that are primarily due to alterations in the internal circadian timing system or a misalignment between the timing of sleep and the 24-h social and physical environment."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "In addition to physiological and environmental factors, maladaptive behaviors often play an important role in the development of many of the circadian rhythm sleep disorders."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "This review will focus on the clinical approach to the diagnosis and management of the various circadian rhythm sleep disorders, including delayed sleep phase disorder, advanced sleep phase disorder, non-entrained type, irregular sleep-wake rhythm, shift work sleep disorder and jet lag disorder."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Diagnostic tools such as sleep diaries and wrist activity monitoring are often useful in confirming the diagnosis."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Because behavioral and environmental factors often are involved in the development of these conditions, a multimodal approach is usually necessary."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Interventions include sleep hygiene education, timed exposure to bright light as well as avoidance of bright light at the wrong time of the day and pharmacologic approaches, such as melatonin."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "However, it should be noted that the use of melatonin is not an FDA-approved indication for the treatment of circadian rhythm sleep disorders."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g2"
+      ],
+      "claim": "Insomnia can be effectively treated with cognitive behavioral therapy.",
+      "evidence": [
+        {
+          "doc_id": 5912283,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "RESULTS CBT resulted in improved short- and long-term outcomes compared with zopiclone on 3 out of 4 outcome measures.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 5912283,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Participants receiving CBT improved their sleep efficiency from 81.4% at pretreatment to 90.1% at 6-month follow-up compared with a decrease from 82.3% to 81.9% in the zopiclone group.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 5912283,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "Participants in the CBT group spent much more time in slow-wave sleep (stages 3 and 4) compared with those in other groups, and spent less time awake during the night.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 5912283,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 12,
+          "sentence": "CONCLUSION These results suggest that interventions based on CBT are superior to zopiclone treatment both in short- and long-term management of insomnia in older adults.   \n",
+          "kept": true,
+          "new_index": 9
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 5912283,
+          "title": "Cognitive behavioral therapy vs zopiclone for treatment of chronic primary insomnia in older adults: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Insomnia is a common condition in older adults and is associated with a number of adverse medical, social, and psychological consequences."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To examine short- and long-term clinical efficacy of cognitive behavioral therapy (CBT) and pharmacological treatment in older adults experiencing chronic primary insomnia.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS A randomized, double-blinded, placebo-controlled trial of 46 adults (mean age, 60.8 y; 22 women) with chronic primary insomnia conducted between January 2004 and December 2005 in a single Norwegian university-based outpatient clinic for adults and elderly patients.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "All treatment duration was 6 weeks, and the 2 active treatments were followed up at 6 months.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "MAIN OUTCOME MEASURES Ambulant clinical polysomnographic data and sleep diaries were used to determine total wake time, total sleep time, sleep efficiency, and slow-wave sleep (only assessed using polysomnography) on all 3 assessment points.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "RESULTS CBT resulted in improved short- and long-term outcomes compared with zopiclone on 3 out of 4 outcome measures."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "For most outcomes, zopiclone did not differ from placebo."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Participants receiving CBT improved their sleep efficiency from 81.4% at pretreatment to 90.1% at 6-month follow-up compared with a decrease from 82.3% to 81.9% in the zopiclone group."
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "Total sleep time was similar in all 3 groups; at 6 months, patients receiving CBT had better sleep efficiency using polysomnography than those taking zopiclone.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 12,
+              "sentence": "CONCLUSION These results suggest that interventions based on CBT are superior to zopiclone treatment both in short- and long-term management of insomnia in older adults.   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 13,
+              "sentence": "TRIAL REGISTRATION clinicaltrials.gov Identifier: NCT00295386."
+            }
+          ]
+        },
+        {
+          "doc_id": 31554917,
+          "title": "A clinical approach to circadian rhythm sleep disorders.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Circadian rhythm sleep disorders are characterized by complaints of insomnia and excessive sleepiness that are primarily due to alterations in the internal circadian timing system or a misalignment between the timing of sleep and the 24-h social and physical environment."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "In addition to physiological and environmental factors, maladaptive behaviors often play an important role in the development of many of the circadian rhythm sleep disorders."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "This review will focus on the clinical approach to the diagnosis and management of the various circadian rhythm sleep disorders, including delayed sleep phase disorder, advanced sleep phase disorder, non-entrained type, irregular sleep-wake rhythm, shift work sleep disorder and jet lag disorder."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Diagnostic tools such as sleep diaries and wrist activity monitoring are often useful in confirming the diagnosis."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Interventions include sleep hygiene education, timed exposure to bright light as well as avoidance of bright light at the wrong time of the day and pharmacologic approaches, such as melatonin."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "However, it should be noted that the use of melatonin is not an FDA-approved indication for the treatment of circadian rhythm sleep disorders."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 5912283,
+          "original_index": 1,
+          "sentence": "Previous research has suggested beneficial outcomes of both psychological and pharmacological treatments, but blinded placebo-controlled trials comparing the effects of these treatments are lacking.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 5912283,
+          "original_index": 4,
+          "sentence": "INTERVENTION CBT (sleep hygiene, sleep restriction, stimulus control, cognitive therapy, and relaxation; n = 18), sleep medication (7.5-mg zopiclone each night; n = 16), or placebo medication (n = 12).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 5912283,
+          "original_index": 10,
+          "sentence": "Participants in the CBT group spent much more time in slow-wave sleep (stages 3 and 4) compared with those in other groups, and spent less time awake during the night.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 31554917,
+          "original_index": 4,
+          "sentence": "Because behavioral and environmental factors often are involved in the development of these conditions, a multimodal approach is usually necessary.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g1",
+        "g2"
+      ],
+      "claim": "Insomnia can be effectively treated with cognitive behavioral therapy.",
+      "evidence": [
+        {
+          "doc_id": 5912283,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "RESULTS CBT resulted in improved short- and long-term outcomes compared with zopiclone on 3 out of 4 outcome measures.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 5912283,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Participants receiving CBT improved their sleep efficiency from 81.4% at pretreatment to 90.1% at 6-month follow-up compared with a decrease from 82.3% to 81.9% in the zopiclone group.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 5912283,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "Participants in the CBT group spent much more time in slow-wave sleep (stages 3 and 4) compared with those in other groups, and spent less time awake during the night.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 5912283,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 12,
+          "sentence": "CONCLUSION These results suggest that interventions based on CBT are superior to zopiclone treatment both in short- and long-term management of insomnia in older adults.   \n",
+          "kept": true,
+          "new_index": 8
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 5912283,
+          "title": "Cognitive behavioral therapy vs zopiclone for treatment of chronic primary insomnia in older adults: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Insomnia is a common condition in older adults and is associated with a number of adverse medical, social, and psychological consequences."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Previous research has suggested beneficial outcomes of both psychological and pharmacological treatments, but blinded placebo-controlled trials comparing the effects of these treatments are lacking.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To examine short- and long-term clinical efficacy of cognitive behavioral therapy (CBT) and pharmacological treatment in older adults experiencing chronic primary insomnia.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "INTERVENTION CBT (sleep hygiene, sleep restriction, stimulus control, cognitive therapy, and relaxation; n = 18), sleep medication (7.5-mg zopiclone each night; n = 16), or placebo medication (n = 12)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "MAIN OUTCOME MEASURES Ambulant clinical polysomnographic data and sleep diaries were used to determine total wake time, total sleep time, sleep efficiency, and slow-wave sleep (only assessed using polysomnography) on all 3 assessment points.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "RESULTS CBT resulted in improved short- and long-term outcomes compared with zopiclone on 3 out of 4 outcome measures."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "For most outcomes, zopiclone did not differ from placebo."
+            },
+            {
+              "new_index": 7,
+              "original_index": 11,
+              "sentence": "Total sleep time was similar in all 3 groups; at 6 months, patients receiving CBT had better sleep efficiency using polysomnography than those taking zopiclone.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 12,
+              "sentence": "CONCLUSION These results suggest that interventions based on CBT are superior to zopiclone treatment both in short- and long-term management of insomnia in older adults.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 13,
+              "sentence": "TRIAL REGISTRATION clinicaltrials.gov Identifier: NCT00295386."
+            }
+          ]
+        },
+        {
+          "doc_id": 31554917,
+          "title": "A clinical approach to circadian rhythm sleep disorders.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Circadian rhythm sleep disorders are characterized by complaints of insomnia and excessive sleepiness that are primarily due to alterations in the internal circadian timing system or a misalignment between the timing of sleep and the 24-h social and physical environment."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "In addition to physiological and environmental factors, maladaptive behaviors often play an important role in the development of many of the circadian rhythm sleep disorders."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "This review will focus on the clinical approach to the diagnosis and management of the various circadian rhythm sleep disorders, including delayed sleep phase disorder, advanced sleep phase disorder, non-entrained type, irregular sleep-wake rhythm, shift work sleep disorder and jet lag disorder."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Diagnostic tools such as sleep diaries and wrist activity monitoring are often useful in confirming the diagnosis."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Because behavioral and environmental factors often are involved in the development of these conditions, a multimodal approach is usually necessary."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Interventions include sleep hygiene education, timed exposure to bright light as well as avoidance of bright light at the wrong time of the day and pharmacologic approaches, such as melatonin."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 5912283,
+          "original_index": 3,
+          "sentence": "DESIGN, SETTING, AND PARTICIPANTS A randomized, double-blinded, placebo-controlled trial of 46 adults (mean age, 60.8 y; 22 women) with chronic primary insomnia conducted between January 2004 and December 2005 in a single Norwegian university-based outpatient clinic for adults and elderly patients.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 5912283,
+          "original_index": 5,
+          "sentence": "All treatment duration was 6 weeks, and the 2 active treatments were followed up at 6 months.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 5912283,
+          "original_index": 9,
+          "sentence": "Participants receiving CBT improved their sleep efficiency from 81.4% at pretreatment to 90.1% at 6-month follow-up compared with a decrease from 82.3% to 81.9% in the zopiclone group.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 5912283,
+          "original_index": 10,
+          "sentence": "Participants in the CBT group spent much more time in slow-wave sleep (stages 3 and 4) compared with those in other groups, and spent less time awake during the night.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 31554917,
+          "original_index": 6,
+          "sentence": "However, it should be noted that the use of melatonin is not an FDA-approved indication for the treatment of circadian rhythm sleep disorders.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_3_groups",
+      "dropped_group_ids": [
+        "g0",
+        "g2",
+        "g3"
+      ],
+      "claim": "Insomnia can be effectively treated with cognitive behavioral therapy.",
+      "evidence": [
+        {
+          "doc_id": 5912283,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "RESULTS CBT resulted in improved short- and long-term outcomes compared with zopiclone on 3 out of 4 outcome measures.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 5912283,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Participants receiving CBT improved their sleep efficiency from 81.4% at pretreatment to 90.1% at 6-month follow-up compared with a decrease from 82.3% to 81.9% in the zopiclone group.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 5912283,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "Participants in the CBT group spent much more time in slow-wave sleep (stages 3 and 4) compared with those in other groups, and spent less time awake during the night.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 5912283,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 12,
+          "sentence": "CONCLUSION These results suggest that interventions based on CBT are superior to zopiclone treatment both in short- and long-term management of insomnia in older adults.   \n",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 5912283,
+          "title": "Cognitive behavioral therapy vs zopiclone for treatment of chronic primary insomnia in older adults: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Insomnia is a common condition in older adults and is associated with a number of adverse medical, social, and psychological consequences."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Previous research has suggested beneficial outcomes of both psychological and pharmacological treatments, but blinded placebo-controlled trials comparing the effects of these treatments are lacking.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS A randomized, double-blinded, placebo-controlled trial of 46 adults (mean age, 60.8 y; 22 women) with chronic primary insomnia conducted between January 2004 and December 2005 in a single Norwegian university-based outpatient clinic for adults and elderly patients.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "All treatment duration was 6 weeks, and the 2 active treatments were followed up at 6 months.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "MAIN OUTCOME MEASURES Ambulant clinical polysomnographic data and sleep diaries were used to determine total wake time, total sleep time, sleep efficiency, and slow-wave sleep (only assessed using polysomnography) on all 3 assessment points.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 8,
+              "sentence": "For most outcomes, zopiclone did not differ from placebo."
+            },
+            {
+              "new_index": 6,
+              "original_index": 9,
+              "sentence": "Participants receiving CBT improved their sleep efficiency from 81.4% at pretreatment to 90.1% at 6-month follow-up compared with a decrease from 82.3% to 81.9% in the zopiclone group."
+            },
+            {
+              "new_index": 7,
+              "original_index": 11,
+              "sentence": "Total sleep time was similar in all 3 groups; at 6 months, patients receiving CBT had better sleep efficiency using polysomnography than those taking zopiclone.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 13,
+              "sentence": "TRIAL REGISTRATION clinicaltrials.gov Identifier: NCT00295386."
+            }
+          ]
+        },
+        {
+          "doc_id": 31554917,
+          "title": "A clinical approach to circadian rhythm sleep disorders.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Circadian rhythm sleep disorders are characterized by complaints of insomnia and excessive sleepiness that are primarily due to alterations in the internal circadian timing system or a misalignment between the timing of sleep and the 24-h social and physical environment."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "In addition to physiological and environmental factors, maladaptive behaviors often play an important role in the development of many of the circadian rhythm sleep disorders."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "This review will focus on the clinical approach to the diagnosis and management of the various circadian rhythm sleep disorders, including delayed sleep phase disorder, advanced sleep phase disorder, non-entrained type, irregular sleep-wake rhythm, shift work sleep disorder and jet lag disorder."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Because behavioral and environmental factors often are involved in the development of these conditions, a multimodal approach is usually necessary."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Interventions include sleep hygiene education, timed exposure to bright light as well as avoidance of bright light at the wrong time of the day and pharmacologic approaches, such as melatonin."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "However, it should be noted that the use of melatonin is not an FDA-approved indication for the treatment of circadian rhythm sleep disorders."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 5912283,
+          "original_index": 2,
+          "sentence": "OBJECTIVE To examine short- and long-term clinical efficacy of cognitive behavioral therapy (CBT) and pharmacological treatment in older adults experiencing chronic primary insomnia.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 5912283,
+          "original_index": 4,
+          "sentence": "INTERVENTION CBT (sleep hygiene, sleep restriction, stimulus control, cognitive therapy, and relaxation; n = 18), sleep medication (7.5-mg zopiclone each night; n = 16), or placebo medication (n = 12).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 5912283,
+          "original_index": 7,
+          "sentence": "RESULTS CBT resulted in improved short- and long-term outcomes compared with zopiclone on 3 out of 4 outcome measures.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 5912283,
+          "original_index": 10,
+          "sentence": "Participants in the CBT group spent much more time in slow-wave sleep (stages 3 and 4) compared with those in other groups, and spent less time awake during the night.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 5912283,
+          "original_index": 12,
+          "sentence": "CONCLUSION These results suggest that interventions based on CBT are superior to zopiclone treatment both in short- and long-term management of insomnia in older adults.   \n",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 31554917,
+          "original_index": 3,
+          "sentence": "Diagnostic tools such as sleep diaries and wrist activity monitoring are often useful in confirming the diagnosis.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2",
+        "g3"
+      ],
+      "claim": "Insomnia can be effectively treated with cognitive behavioral therapy.",
+      "evidence": [
+        {
+          "doc_id": 5912283,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "RESULTS CBT resulted in improved short- and long-term outcomes compared with zopiclone on 3 out of 4 outcome measures.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 5912283,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Participants receiving CBT improved their sleep efficiency from 81.4% at pretreatment to 90.1% at 6-month follow-up compared with a decrease from 82.3% to 81.9% in the zopiclone group.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 5912283,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "Participants in the CBT group spent much more time in slow-wave sleep (stages 3 and 4) compared with those in other groups, and spent less time awake during the night.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 5912283,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 12,
+          "sentence": "CONCLUSION These results suggest that interventions based on CBT are superior to zopiclone treatment both in short- and long-term management of insomnia in older adults.   \n",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 5912283,
+          "title": "Cognitive behavioral therapy vs zopiclone for treatment of chronic primary insomnia in older adults: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Insomnia is a common condition in older adults and is associated with a number of adverse medical, social, and psychological consequences."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Previous research has suggested beneficial outcomes of both psychological and pharmacological treatments, but blinded placebo-controlled trials comparing the effects of these treatments are lacking.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To examine short- and long-term clinical efficacy of cognitive behavioral therapy (CBT) and pharmacological treatment in older adults experiencing chronic primary insomnia.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS A randomized, double-blinded, placebo-controlled trial of 46 adults (mean age, 60.8 y; 22 women) with chronic primary insomnia conducted between January 2004 and December 2005 in a single Norwegian university-based outpatient clinic for adults and elderly patients.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "All treatment duration was 6 weeks, and the 2 active treatments were followed up at 6 months.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "MAIN OUTCOME MEASURES Ambulant clinical polysomnographic data and sleep diaries were used to determine total wake time, total sleep time, sleep efficiency, and slow-wave sleep (only assessed using polysomnography) on all 3 assessment points.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 11,
+              "sentence": "Total sleep time was similar in all 3 groups; at 6 months, patients receiving CBT had better sleep efficiency using polysomnography than those taking zopiclone.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 13,
+              "sentence": "TRIAL REGISTRATION clinicaltrials.gov Identifier: NCT00295386."
+            }
+          ]
+        },
+        {
+          "doc_id": 31554917,
+          "title": "A clinical approach to circadian rhythm sleep disorders.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Circadian rhythm sleep disorders are characterized by complaints of insomnia and excessive sleepiness that are primarily due to alterations in the internal circadian timing system or a misalignment between the timing of sleep and the 24-h social and physical environment."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "In addition to physiological and environmental factors, maladaptive behaviors often play an important role in the development of many of the circadian rhythm sleep disorders."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "This review will focus on the clinical approach to the diagnosis and management of the various circadian rhythm sleep disorders, including delayed sleep phase disorder, advanced sleep phase disorder, non-entrained type, irregular sleep-wake rhythm, shift work sleep disorder and jet lag disorder."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Diagnostic tools such as sleep diaries and wrist activity monitoring are often useful in confirming the diagnosis."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Interventions include sleep hygiene education, timed exposure to bright light as well as avoidance of bright light at the wrong time of the day and pharmacologic approaches, such as melatonin."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "However, it should be noted that the use of melatonin is not an FDA-approved indication for the treatment of circadian rhythm sleep disorders."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 5912283,
+          "original_index": 4,
+          "sentence": "INTERVENTION CBT (sleep hygiene, sleep restriction, stimulus control, cognitive therapy, and relaxation; n = 18), sleep medication (7.5-mg zopiclone each night; n = 16), or placebo medication (n = 12).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 5912283,
+          "original_index": 7,
+          "sentence": "RESULTS CBT resulted in improved short- and long-term outcomes compared with zopiclone on 3 out of 4 outcome measures.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 5912283,
+          "original_index": 8,
+          "sentence": "For most outcomes, zopiclone did not differ from placebo.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 5912283,
+          "original_index": 9,
+          "sentence": "Participants receiving CBT improved their sleep efficiency from 81.4% at pretreatment to 90.1% at 6-month follow-up compared with a decrease from 82.3% to 81.9% in the zopiclone group.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 5912283,
+          "original_index": 10,
+          "sentence": "Participants in the CBT group spent much more time in slow-wave sleep (stages 3 and 4) compared with those in other groups, and spent less time awake during the night.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 5912283,
+          "original_index": 12,
+          "sentence": "CONCLUSION These results suggest that interventions based on CBT are superior to zopiclone treatment both in short- and long-term management of insomnia in older adults.   \n",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 31554917,
+          "original_index": 4,
+          "sentence": "Because behavioral and environmental factors often are involved in the development of these conditions, a multimodal approach is usually necessary.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

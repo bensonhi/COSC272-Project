@@ -1,0 +1,50 @@
+{
+  "id": 152,
+  "origin": "train_more",
+  "claim": "B cells go though plasmablast differentiation and antibody production by continuous expression of EBI2.",
+  "evidence": [
+    {
+      "doc_id": 15488881,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 2,
+      "sentence": "Here, we show that expression of the orphan G protein-coupled receptor Epstein-Barr virus-induced gene 2 (EBI2, also known as GPR183) by activated B cells was essential for their movement to extrafollicular sites and induction of early plasmablast responses."
+    },
+    {
+      "doc_id": 15488881,
+      "group_id": "g1",
+      "evidence_label": "SUPPORT",
+      "original_index": 4,
+      "sentence": "EBI2 therefore provides a previously uncharacterized dimension to B cell migration that is crucial for coordinating rapid versus long-term antibody responses."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 15488881,
+      "title": "Guidance of B cells by the orphan G protein-coupled receptor EBI2 shapes humoral immune responses.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Humoral immunity depends on both rapid and long-term antibody production against invading pathogens."
+        },
+        {
+          "original_index": 1,
+          "sentence": "This is achieved by the generation of spatially distinct extrafollicular plasmablast and follicular germinal center (GC) B cell populations, but the signals that guide responding B cells to these alternative compartments have not been fully elucidated."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Here, we show that expression of the orphan G protein-coupled receptor Epstein-Barr virus-induced gene 2 (EBI2, also known as GPR183) by activated B cells was essential for their movement to extrafollicular sites and induction of early plasmablast responses."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Conversely, downregulation of EBI2 enabled B cells to access the center of follicles and promoted efficient GC formation."
+        },
+        {
+          "original_index": 4,
+          "sentence": "EBI2 therefore provides a previously uncharacterized dimension to B cell migration that is crucial for coordinating rapid versus long-term antibody responses."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

@@ -1,0 +1,53 @@
+{
+  "id": 304,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "DMS3 protein enables Pol V transcription in vivo.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 14797520,
+          "title": "Noncoding Transcription by RNA Polymerase Pol IVb/Pol V Mediates Transcriptional Silencing of Overlapping and Adjacent Genes",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Nuclear transcription is not restricted to genes but occurs throughout the intergenic and noncoding space of eukaryotic genomes."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The functional significance of this widespread noncoding transcription is mostly unknown."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We show that Arabidopsis RNA polymerase IVb/Pol V, a multisubunit nuclear enzyme required for siRNA-mediated gene silencing of transposons and other repeats, transcribes intergenic and noncoding sequences, thereby facilitating heterochromatin formation and silencing of overlapping and adjacent genes."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Pol IVb/Pol V transcription requires the chromatin-remodeling protein DRD1 but is independent of siRNA biogenesis."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "However, Pol IVb/Pol V transcription and siRNA production are both required to silence transposons, suggesting that Pol IVb/Pol V generates RNAs or chromatin structures that serve as scaffolds for siRNA-mediated heterochromatin-forming complexes."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Pol IVb/Pol V function provides a solution to a paradox of epigenetic control: the need for transcription in order to transcriptionally silence the same region."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

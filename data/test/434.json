@@ -1,0 +1,39 @@
+{
+  "id": 434,
+  "origin": "train_more",
+  "claim": "Foxp3 enables the expression of transcriptional regulators implicated in memory T cell development.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 9500590,
+      "title": "Extrathymic Generation of Regulatory T Cells in Placental Mammals Mitigates Maternal-Fetal Conflict",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Regulatory T (Treg) cells, whose differentiation and function are controlled by X chromosome-encoded transcription factor Foxp3, are generated in the thymus (tTreg) and extrathymically (peripheral, pTreg), and their deficiency results in fatal autoimmunity."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Here, we demonstrate that a Foxp3 enhancer, conserved noncoding sequence 1 (CNS1), essential for pTreg but dispensable for tTreg cell generation, is present only in placental mammals."
+        },
+        {
+          "original_index": 2,
+          "sentence": "CNS1 is largely composed of mammalian-wide interspersed repeats (MIR) that have undergone retrotransposition during early mammalian radiation."
+        },
+        {
+          "original_index": 3,
+          "sentence": "During pregnancy, pTreg cells specific to a model paternal alloantigen were generated in a CNS1-dependent manner and accumulated in the placenta."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Furthermore, when mated with allogeneic, but not syngeneic, males, CNS1-deficient females showed increased fetal resorption accompanied by increased immune cell infiltration and defective remodeling of spiral arteries."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Our results suggest that, during evolution, a CNS1-dependent mechanism of extrathymic differentiation of Treg cells emerged in placental animals to enforce maternal-fetal tolerance."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

@@ -1,0 +1,62 @@
+{
+  "id": 71,
+  "origin": "train_more",
+  "claim": "Activation of the Rac1 homolog CED-10 kills viable cells in SRGP-1 mutant Caenorhabditis elegans.",
+  "evidence": [
+    {
+      "doc_id": 1127562,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 4,
+      "sentence": "We show that SRGP-1 functions in engulfing cells and functions as a GTPase activating protein (GAP) for CED-10 (Rac1)."
+    },
+    {
+      "doc_id": 1127562,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 5,
+      "sentence": "Interestingly, loss of srgp-1 function promotes not only the clearance of already dead cells, but also the removal of cells that have been brought to the verge of death through sublethal apoptotic, necrotic or cytotoxic insults."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 1127562,
+      "title": "Loss of the RhoGAP SRGP-1 promotes the clearance of dead and injured cells in Caenorhabditis elegans",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Multicellular animals rapidly clear dying cells from their bodies."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Many of the pathways that mediate this cell removal are conserved through evolution."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Here, we identify srgp-1 as a negative regulator of cell clearance in both Caenorhabditis elegans and mammalian cells."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Loss of srgp-1 function results in improved engulfment of apoptotic cells, whereas srgp-1 overexpression inhibits apoptotic cell corpse removal."
+        },
+        {
+          "original_index": 4,
+          "sentence": "We show that SRGP-1 functions in engulfing cells and functions as a GTPase activating protein (GAP) for CED-10 (Rac1)."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Interestingly, loss of srgp-1 function promotes not only the clearance of already dead cells, but also the removal of cells that have been brought to the verge of death through sublethal apoptotic, necrotic or cytotoxic insults."
+        },
+        {
+          "original_index": 6,
+          "sentence": "In contrast, impaired engulfment allows damaged cells to escape clearance, which results in increased long-term survival."
+        },
+        {
+          "original_index": 7,
+          "sentence": "We propose that C. elegans uses the engulfment machinery as part of a primitive, but evolutionarily conserved, survey mechanism that identifies and removes unfit cells within a tissue."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

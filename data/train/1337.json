@@ -1,0 +1,144 @@
+{
+  "id": 1337,
+  "origin": "dev",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Ubiquitin ligase UBC13 generates a K63-linked polyubiquitin moiety at PCNA K164.",
+      "evidence": [
+        {
+          "doc_id": 20231138,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Here we show that damage-induced fork reversal in mammalian cells requires PCNA ubiquitination, UBC13, and K63-linked polyubiquitin chains, previously involved in error-free damage tolerance.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 20231138,
+          "title": "Replication Fork Slowing and Reversal upon DNA Damage Require PCNA Polyubiquitination and ZRANB3 DNA Translocase Activity",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "DNA damage tolerance during eukaryotic replication is orchestrated by PCNA ubiquitination."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "While monoubiquitination activates mutagenic translesion synthesis, polyubiquitination activates an error-free pathway, elusive in mammals, enabling damage bypass by template switching."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Fork reversal is driven in vitro by multiple enzymes, including the DNA translocase ZRANB3, shown to bind polyubiquitinated PCNA."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "However, whether this interaction promotes fork remodeling and template switching in vivo was unknown."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Here we show that damage-induced fork reversal in mammalian cells requires PCNA ubiquitination, UBC13, and K63-linked polyubiquitin chains, previously involved in error-free damage tolerance."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Fork reversal in vivo also requires ZRANB3 translocase activity and its interaction with polyubiquitinated PCNA, pinpointing ZRANB3 as a key effector of error-free DNA damage tolerance."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Mutations affecting fork reversal also induced unrestrained fork progression and chromosomal breakage, suggesting fork remodeling as a global fork slowing and protection mechanism."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Targeting these fork protection systems represents a promising strategy to potentiate cancer chemotherapy."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Ubiquitin ligase UBC13 generates a K63-linked polyubiquitin moiety at PCNA K164.",
+      "evidence": [
+        {
+          "doc_id": 20231138,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Here we show that damage-induced fork reversal in mammalian cells requires PCNA ubiquitination, UBC13, and K63-linked polyubiquitin chains, previously involved in error-free damage tolerance.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 20231138,
+          "title": "Replication Fork Slowing and Reversal upon DNA Damage Require PCNA Polyubiquitination and ZRANB3 DNA Translocase Activity",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "DNA damage tolerance during eukaryotic replication is orchestrated by PCNA ubiquitination."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "While monoubiquitination activates mutagenic translesion synthesis, polyubiquitination activates an error-free pathway, elusive in mammals, enabling damage bypass by template switching."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Fork reversal is driven in vitro by multiple enzymes, including the DNA translocase ZRANB3, shown to bind polyubiquitinated PCNA."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Fork reversal in vivo also requires ZRANB3 translocase activity and its interaction with polyubiquitinated PCNA, pinpointing ZRANB3 as a key effector of error-free DNA damage tolerance."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Mutations affecting fork reversal also induced unrestrained fork progression and chromosomal breakage, suggesting fork remodeling as a global fork slowing and protection mechanism."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Targeting these fork protection systems represents a promising strategy to potentiate cancer chemotherapy."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 20231138,
+          "original_index": 3,
+          "sentence": "However, whether this interaction promotes fork remodeling and template switching in vivo was unknown.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 20231138,
+          "original_index": 4,
+          "sentence": "Here we show that damage-induced fork reversal in mammalian cells requires PCNA ubiquitination, UBC13, and K63-linked polyubiquitin chains, previously involved in error-free damage tolerance.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

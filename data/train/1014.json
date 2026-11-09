@@ -1,0 +1,53 @@
+{
+  "id": 1014,
+  "origin": "dev",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Rapamycin decreases the concentration of triacylglycerols in fruit flies.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 6277638,
+          "title": "Mechanisms of Life Span Extension by Rapamycin in the Fruit Fly Drosophila melanogaster",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "The target of rapamycin (TOR) pathway is a major nutrient-sensing pathway that, when genetically downregulated, increases life span in evolutionarily diverse organisms including mammals."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The central component of this pathway, TOR kinase, is the target of the inhibitory drug rapamycin, a highly specific and well-described drug approved for human use."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We show here that feeding rapamycin to adult Drosophila produces the life span extension seen in some TOR mutants."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Increase in life span by rapamycin was associated with increased resistance to both starvation and paraquat."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Analysis of the underlying mechanisms revealed that rapamycin increased longevity specifically through the TORC1 branch of the TOR pathway, through alterations to both autophagy and translation."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Rapamycin could increase life span of weak insulin/Igf signaling (IIS) pathway mutants and of flies with life span maximized by dietary restriction, indicating additional mechanisms."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

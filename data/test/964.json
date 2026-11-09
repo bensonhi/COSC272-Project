@@ -1,0 +1,54 @@
+{
+  "id": 964,
+  "origin": "train_more",
+  "claim": "Pre-mRNAs associated with spliceosomal components are more stable than unassociated splicing substrates.",
+  "evidence": [
+    {
+      "doc_id": 4162857,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 5,
+      "sentence": "We propose that the connection between transcription by Pol II and pre-mRNA splicing guarantees an extended half-life and proper processing of nascent pre-mRNAs."
+    },
+    {
+      "doc_id": 4162857,
+      "group_id": "g1",
+      "evidence_label": "SUPPORT_more",
+      "original_index": 2,
+      "sentence": "Pol II-synthesized RNAs containing functional splice sites are protected from nuclear degradation, presumably because the local concentration of the splicing machinery is sufficiently high to ensure its association over interactions with nucleases."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 4162857,
+      "title": "Linking Splicing to Pol II Transcription Stabilizes Pre-mRNAs and Influences Splicing Patterns",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "RNA processing is carried out in close proximity to the site of transcription, suggesting a regulatory link between transcription and pre-mRNA splicing."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Using an in vitro transcription/splicing assay, we demonstrate that an association of RNA polymerase II (Pol II) transcription and pre-mRNA splicing is required for efficient gene expression."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Pol II-synthesized RNAs containing functional splice sites are protected from nuclear degradation, presumably because the local concentration of the splicing machinery is sufficiently high to ensure its association over interactions with nucleases."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Furthermore, the process of transcription influences alternative splicing of newly synthesized pre-mRNAs."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Because other RNA polymerases do not provide similar protection from nucleases, and their RNA products display altered splicing patterns, the link between transcription and RNA processing is RNA Pol II-specific."
+        },
+        {
+          "original_index": 5,
+          "sentence": "We propose that the connection between transcription by Pol II and pre-mRNA splicing guarantees an extended half-life and proper processing of nascent pre-mRNAs."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

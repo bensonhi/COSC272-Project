@@ -1,0 +1,55 @@
+{
+  "id": 1342,
+  "origin": "train_more",
+  "claim": "Understanding epigenetic regulation of replication is essential for the reational design of episomally replicating vectors.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 8148122,
+      "title": "Global Reorganization of Replication Domains During Embryonic Stem Cell Differentiation",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "DNA replication in mammals is regulated via the coordinate firing of clusters of replicons that duplicate megabase-sized chromosome segments at specific times during S-phase."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Cytogenetic studies show that these \"replicon clusters\" coalesce as subchromosomal units that persist through multiple cell generations, but the molecular boundaries of such units have remained elusive."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Moreover, the extent to which changes in replication timing occur during differentiation and their relationship to transcription changes has not been rigorously investigated."
+        },
+        {
+          "original_index": 3,
+          "sentence": "We have constructed high-resolution replication-timing profiles in mouse embryonic stem cells (mESCs) before and after differentiation to neural precursor cells."
+        },
+        {
+          "original_index": 4,
+          "sentence": "We demonstrate that chromosomes can be segmented into multimegabase domains of coordinate replication, which we call \"replication domains,\" separated by transition regions whose replication kinetics are consistent with large originless segments."
+        },
+        {
+          "original_index": 5,
+          "sentence": "The molecular boundaries of replication domains are remarkably well conserved between distantly related ESC lines and induced pluripotent stem cells."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Unexpectedly, ESC differentiation was accompanied by the consolidation of smaller differentially replicating domains into larger coordinately replicated units whose replication time was more aligned to isochore GC content and the density of LINE-1 transposable elements, but not gene density."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Replication-timing changes were coordinated with transcription changes for weak promoters more than strong promoters, and were accompanied by rearrangements in subnuclear position."
+        },
+        {
+          "original_index": 8,
+          "sentence": "We conclude that replication profiles are cell-type specific, and changes in these profiles reveal chromosome segments that undergo large changes in organization during differentiation."
+        },
+        {
+          "original_index": 9,
+          "sentence": "Moreover, smaller replication domains and a higher density of timing transition regions that interrupt isochore replication timing define a novel characteristic of the pluripotent state."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

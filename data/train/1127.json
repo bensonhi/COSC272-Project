@@ -1,0 +1,413 @@
+{
+  "id": 1127,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Systemic lupus erythematosus is a risk factor for cardiovascular disease.",
+      "evidence": [
+        {
+          "doc_id": 27466734,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Risk factors considered included those already in QRISK2 (age, ethnicity, deprivation, systolic blood pressure, body mass index, total cholesterol: high density lipoprotein cholesterol ratio, smoking, family history of coronary heart disease in a first degree relative aged less than 60 years, type 1 diabetes, type 2 diabetes, treated hypertension, rheumatoid arthritis, atrial fibrillation, chronic kidney disease (stage 4 or 5)) and new risk factors (chronic kidney disease (stage 3, 4, or 5), a measure of systolic blood pressure variability (standard deviation of repeated measures), migraine, corticosteroids, systemic lupus erythematosus (SLE), atypical antipsychotics, severe mental illness, and HIV/AIDs).",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 27466734,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 18,
+          "sentence": "The inclusion of additional clinical variables in QRISK3 (chronic kidney disease, a measure of systolic blood pressure variability (standard deviation of repeated measures), migraine, corticosteroids, SLE, atypical antipsychotics, severe mental illness, and erectile dysfunction) can help enable doctors to identify those at most risk of heart disease and stroke.",
+          "kept": true,
+          "new_index": 18
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 27466734,
+          "title": "Development and validation of QRISK3 risk prediction algorithms to estimate future risk of cardiovascular disease: prospective cohort study",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Objectives To develop and validate updated QRISK3 prediction algorithms to estimate the 10 year risk of cardiovascular disease in women and men accounting for potential new risk factors."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Design Prospective open cohort study."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Setting General practices in England providing data for the QResearch database."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Participants 1309 QResearch general practices in England: 981 practices were used to develop the scores and a separate set of 328 practices were used to validate the scores."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "7.89 million patients aged 25-84 years were in the derivation cohort and 2.67 million patients in the validation cohort."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Patients were free of cardiovascular disease and not prescribed statins at baseline."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Methods Cox proportional hazards models in the derivation cohort to derive separate risk equations in men and women for evaluation at 10 years."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Risk factors considered included those already in QRISK2 (age, ethnicity, deprivation, systolic blood pressure, body mass index, total cholesterol: high density lipoprotein cholesterol ratio, smoking, family history of coronary heart disease in a first degree relative aged less than 60 years, type 1 diabetes, type 2 diabetes, treated hypertension, rheumatoid arthritis, atrial fibrillation, chronic kidney disease (stage 4 or 5)) and new risk factors (chronic kidney disease (stage 3, 4, or 5), a measure of systolic blood pressure variability (standard deviation of repeated measures), migraine, corticosteroids, systemic lupus erythematosus (SLE), atypical antipsychotics, severe mental illness, and HIV/AIDs)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "We also considered erectile dysfunction diagnosis or treatment in men."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Measures of calibration and discrimination were determined in the validation cohort for men and women separately and for individual subgroups by age group, ethnicity, and baseline disease status."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Main outcome measures Incident cardiovascular disease recorded on any of the following three linked data sources: general practice, mortality, or hospital admission records."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Results 363 565 incident cases of cardiovascular disease were identified in the derivation cohort during follow-up arising from 50.8 million person years of observation."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "All new risk factors considered met the model inclusion criteria except for HIV/AIDS, which was not statistically significant."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "The models had good calibration and high levels of explained variation and discrimination."
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "In women, the algorithm explained 59.6% of the variation in time to diagnosis of cardiovascular disease (R2, with higher values indicating more variation), and the D statistic was 2.48 and Harrell's C statistic was 0.88 (both measures of discrimination, with higher values indicating better discrimination)."
+            },
+            {
+              "new_index": 15,
+              "original_index": 15,
+              "sentence": "The corresponding values for men were 54.8%, 2.26, and 0.86."
+            },
+            {
+              "new_index": 16,
+              "original_index": 16,
+              "sentence": "Overall performance of the updated QRISK3 algorithms was similar to the QRISK2 algorithms."
+            },
+            {
+              "new_index": 17,
+              "original_index": 17,
+              "sentence": "Conclusion Updated QRISK3 risk prediction models were developed and validated."
+            },
+            {
+              "new_index": 18,
+              "original_index": 18,
+              "sentence": "The inclusion of additional clinical variables in QRISK3 (chronic kidney disease, a measure of systolic blood pressure variability (standard deviation of repeated measures), migraine, corticosteroids, SLE, atypical antipsychotics, severe mental illness, and erectile dysfunction) can help enable doctors to identify those at most risk of heart disease and stroke."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Systemic lupus erythematosus is a risk factor for cardiovascular disease.",
+      "evidence": [
+        {
+          "doc_id": 27466734,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Risk factors considered included those already in QRISK2 (age, ethnicity, deprivation, systolic blood pressure, body mass index, total cholesterol: high density lipoprotein cholesterol ratio, smoking, family history of coronary heart disease in a first degree relative aged less than 60 years, type 1 diabetes, type 2 diabetes, treated hypertension, rheumatoid arthritis, atrial fibrillation, chronic kidney disease (stage 4 or 5)) and new risk factors (chronic kidney disease (stage 3, 4, or 5), a measure of systolic blood pressure variability (standard deviation of repeated measures), migraine, corticosteroids, systemic lupus erythematosus (SLE), atypical antipsychotics, severe mental illness, and HIV/AIDs).",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 27466734,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 18,
+          "sentence": "The inclusion of additional clinical variables in QRISK3 (chronic kidney disease, a measure of systolic blood pressure variability (standard deviation of repeated measures), migraine, corticosteroids, SLE, atypical antipsychotics, severe mental illness, and erectile dysfunction) can help enable doctors to identify those at most risk of heart disease and stroke.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 27466734,
+          "title": "Development and validation of QRISK3 risk prediction algorithms to estimate future risk of cardiovascular disease: prospective cohort study",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Objectives To develop and validate updated QRISK3 prediction algorithms to estimate the 10 year risk of cardiovascular disease in women and men accounting for potential new risk factors."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Design Prospective open cohort study."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Setting General practices in England providing data for the QResearch database."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Participants 1309 QResearch general practices in England: 981 practices were used to develop the scores and a separate set of 328 practices were used to validate the scores."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "7.89 million patients aged 25-84 years were in the derivation cohort and 2.67 million patients in the validation cohort."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Patients were free of cardiovascular disease and not prescribed statins at baseline."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Methods Cox proportional hazards models in the derivation cohort to derive separate risk equations in men and women for evaluation at 10 years."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Risk factors considered included those already in QRISK2 (age, ethnicity, deprivation, systolic blood pressure, body mass index, total cholesterol: high density lipoprotein cholesterol ratio, smoking, family history of coronary heart disease in a first degree relative aged less than 60 years, type 1 diabetes, type 2 diabetes, treated hypertension, rheumatoid arthritis, atrial fibrillation, chronic kidney disease (stage 4 or 5)) and new risk factors (chronic kidney disease (stage 3, 4, or 5), a measure of systolic blood pressure variability (standard deviation of repeated measures), migraine, corticosteroids, systemic lupus erythematosus (SLE), atypical antipsychotics, severe mental illness, and HIV/AIDs)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "We also considered erectile dysfunction diagnosis or treatment in men."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Measures of calibration and discrimination were determined in the validation cohort for men and women separately and for individual subgroups by age group, ethnicity, and baseline disease status."
+            },
+            {
+              "new_index": 10,
+              "original_index": 11,
+              "sentence": "Results 363 565 incident cases of cardiovascular disease were identified in the derivation cohort during follow-up arising from 50.8 million person years of observation."
+            },
+            {
+              "new_index": 11,
+              "original_index": 12,
+              "sentence": "All new risk factors considered met the model inclusion criteria except for HIV/AIDS, which was not statistically significant."
+            },
+            {
+              "new_index": 12,
+              "original_index": 13,
+              "sentence": "The models had good calibration and high levels of explained variation and discrimination."
+            },
+            {
+              "new_index": 13,
+              "original_index": 16,
+              "sentence": "Overall performance of the updated QRISK3 algorithms was similar to the QRISK2 algorithms."
+            },
+            {
+              "new_index": 14,
+              "original_index": 17,
+              "sentence": "Conclusion Updated QRISK3 risk prediction models were developed and validated."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 27466734,
+          "original_index": 10,
+          "sentence": "Main outcome measures Incident cardiovascular disease recorded on any of the following three linked data sources: general practice, mortality, or hospital admission records.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 27466734,
+          "original_index": 14,
+          "sentence": "In women, the algorithm explained 59.6% of the variation in time to diagnosis of cardiovascular disease (R2, with higher values indicating more variation), and the D statistic was 2.48 and Harrell's C statistic was 0.88 (both measures of discrimination, with higher values indicating better discrimination).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 27466734,
+          "original_index": 15,
+          "sentence": "The corresponding values for men were 54.8%, 2.26, and 0.86.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 27466734,
+          "original_index": 18,
+          "sentence": "The inclusion of additional clinical variables in QRISK3 (chronic kidney disease, a measure of systolic blood pressure variability (standard deviation of repeated measures), migraine, corticosteroids, SLE, atypical antipsychotics, severe mental illness, and erectile dysfunction) can help enable doctors to identify those at most risk of heart disease and stroke.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Systemic lupus erythematosus is a risk factor for cardiovascular disease.",
+      "evidence": [
+        {
+          "doc_id": 27466734,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Risk factors considered included those already in QRISK2 (age, ethnicity, deprivation, systolic blood pressure, body mass index, total cholesterol: high density lipoprotein cholesterol ratio, smoking, family history of coronary heart disease in a first degree relative aged less than 60 years, type 1 diabetes, type 2 diabetes, treated hypertension, rheumatoid arthritis, atrial fibrillation, chronic kidney disease (stage 4 or 5)) and new risk factors (chronic kidney disease (stage 3, 4, or 5), a measure of systolic blood pressure variability (standard deviation of repeated measures), migraine, corticosteroids, systemic lupus erythematosus (SLE), atypical antipsychotics, severe mental illness, and HIV/AIDs).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 27466734,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 18,
+          "sentence": "The inclusion of additional clinical variables in QRISK3 (chronic kidney disease, a measure of systolic blood pressure variability (standard deviation of repeated measures), migraine, corticosteroids, SLE, atypical antipsychotics, severe mental illness, and erectile dysfunction) can help enable doctors to identify those at most risk of heart disease and stroke.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 27466734,
+          "title": "Development and validation of QRISK3 risk prediction algorithms to estimate future risk of cardiovascular disease: prospective cohort study",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Objectives To develop and validate updated QRISK3 prediction algorithms to estimate the 10 year risk of cardiovascular disease in women and men accounting for potential new risk factors."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Design Prospective open cohort study."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Setting General practices in England providing data for the QResearch database."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Participants 1309 QResearch general practices in England: 981 practices were used to develop the scores and a separate set of 328 practices were used to validate the scores."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "7.89 million patients aged 25-84 years were in the derivation cohort and 2.67 million patients in the validation cohort."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Patients were free of cardiovascular disease and not prescribed statins at baseline."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Methods Cox proportional hazards models in the derivation cohort to derive separate risk equations in men and women for evaluation at 10 years."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "We also considered erectile dysfunction diagnosis or treatment in men."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "Main outcome measures Incident cardiovascular disease recorded on any of the following three linked data sources: general practice, mortality, or hospital admission records."
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "Results 363 565 incident cases of cardiovascular disease were identified in the derivation cohort during follow-up arising from 50.8 million person years of observation."
+            },
+            {
+              "new_index": 10,
+              "original_index": 12,
+              "sentence": "All new risk factors considered met the model inclusion criteria except for HIV/AIDS, which was not statistically significant."
+            },
+            {
+              "new_index": 11,
+              "original_index": 14,
+              "sentence": "In women, the algorithm explained 59.6% of the variation in time to diagnosis of cardiovascular disease (R2, with higher values indicating more variation), and the D statistic was 2.48 and Harrell's C statistic was 0.88 (both measures of discrimination, with higher values indicating better discrimination)."
+            },
+            {
+              "new_index": 12,
+              "original_index": 15,
+              "sentence": "The corresponding values for men were 54.8%, 2.26, and 0.86."
+            },
+            {
+              "new_index": 13,
+              "original_index": 16,
+              "sentence": "Overall performance of the updated QRISK3 algorithms was similar to the QRISK2 algorithms."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 27466734,
+          "original_index": 7,
+          "sentence": "Risk factors considered included those already in QRISK2 (age, ethnicity, deprivation, systolic blood pressure, body mass index, total cholesterol: high density lipoprotein cholesterol ratio, smoking, family history of coronary heart disease in a first degree relative aged less than 60 years, type 1 diabetes, type 2 diabetes, treated hypertension, rheumatoid arthritis, atrial fibrillation, chronic kidney disease (stage 4 or 5)) and new risk factors (chronic kidney disease (stage 3, 4, or 5), a measure of systolic blood pressure variability (standard deviation of repeated measures), migraine, corticosteroids, systemic lupus erythematosus (SLE), atypical antipsychotics, severe mental illness, and HIV/AIDs).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 27466734,
+          "original_index": 9,
+          "sentence": "Measures of calibration and discrimination were determined in the validation cohort for men and women separately and for individual subgroups by age group, ethnicity, and baseline disease status.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 27466734,
+          "original_index": 13,
+          "sentence": "The models had good calibration and high levels of explained variation and discrimination.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 27466734,
+          "original_index": 17,
+          "sentence": "Conclusion Updated QRISK3 risk prediction models were developed and validated.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 27466734,
+          "original_index": 18,
+          "sentence": "The inclusion of additional clinical variables in QRISK3 (chronic kidney disease, a measure of systolic blood pressure variability (standard deviation of repeated measures), migraine, corticosteroids, SLE, atypical antipsychotics, severe mental illness, and erectile dysfunction) can help enable doctors to identify those at most risk of heart disease and stroke.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

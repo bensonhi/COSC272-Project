@@ -1,0 +1,104 @@
+{
+  "id": 1306,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Toll-like receptor (TLR) signaling is involved in the pathogenesis of human MDS.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 6000423,
+          "title": "The NLRP3 inflammasome functions as a driver of the myelodysplastic syndrome phenotype.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Despite genetic heterogeneity, myelodysplastic syndromes (MDSs) share features of cytological dysplasia and ineffective hematopoiesis."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We report that a hallmark of MDSs is activation of the NLRP3 inflammasome, which drives clonal expansion and pyroptotic cell death."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Independent of genotype, MDS hematopoietic stem and progenitor cells (HSPCs) overexpress inflammasome proteins and manifest activated NLRP3 complexes that direct activation of caspase-1, generation of interleukin-1β (IL-1β) and IL-18, and pyroptotic cell death."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Mechanistically, pyroptosis is triggered by the alarmin S100A9 that is found in excess in MDS HSPCs and bone marrow plasma."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Further, like somatic gene mutations, S100A9-induced signaling activates NADPH oxidase (NOX), increasing levels of reactive oxygen species (ROS) that initiate cation influx, cell swelling, and β-catenin activation."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Notably, knockdown of NLRP3 or caspase-1, neutralization of S100A9, and pharmacologic inhibition of NLRP3 or NOX suppress pyroptosis, ROS generation, and nuclear β-catenin in MDSs and are sufficient to restore effective hematopoiesis."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Thus, alarmins and founder gene mutations in MDSs license a common redox-sensitive inflammasome circuit, which suggests new avenues for therapeutic intervention."
+            }
+          ]
+        },
+        {
+          "doc_id": 5836,
+          "title": "Induction of myelodysplasia by myeloid-derived suppressor cells.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Myelodysplastic syndromes (MDS) are age-dependent stem cell malignancies that share biological features of activated adaptive immune response and ineffective hematopoiesis."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here we report that myeloid-derived suppressor cells (MDSC), which are classically linked to immunosuppression, inflammation, and cancer, were markedly expanded in the bone marrow of MDS patients and played a pathogenetic role in the development of ineffective hematopoiesis."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "These clonally distinct MDSC overproduce hematopoietic suppressive cytokines and function as potent apoptotic effectors targeting autologous hematopoietic progenitors."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Using multiple transfected cell models, we found that MDSC expansion is driven by the interaction of the proinflammatory molecule S100A9 with CD33."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "These 2 proteins formed a functional ligand/receptor pair that recruited components to CD33’s immunoreceptor tyrosine-based inhibition motif (ITIM), inducing secretion of the suppressive cytokines IL-10 and TGF-β by immature myeloid cells."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "S100A9 transgenic mice displayed bone marrow accumulation of MDSC accompanied by development of progressive multilineage cytopenias and cytological dysplasia."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Importantly, early forced maturation of MDSC by either all-trans-retinoic acid treatment or active immunoreceptor tyrosine-based activation motif–bearing (ITAM-bearing) adapter protein (DAP12) interruption of CD33 signaling rescued the hematologic phenotype."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "These findings indicate that primary bone marrow expansion of MDSC driven by the S100A9/CD33 pathway perturbs hematopoiesis and contributes to the development of MDS."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

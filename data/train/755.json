@@ -1,0 +1,63 @@
+{
+  "id": 755,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Many cytokines that are produced by cancer cells also contribute to carcinogenesis.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 17844478,
+          "title": "Autocrine VEGF Signaling Synergizes with EGFR in Tumor Cells to Promote Epithelial Cancer Development",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "It is established that tumor cell-derived VEGF acts on endothelial cells to promote angiogenesis and tumor growth."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here, we demonstrate that in K5-SOS-dependent mouse skin tumors, autocrine VEGF is required for tumor cell proliferation in a cell-autonomous and angiogenesis-independent manner."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "VEGF is upregulated in SOS-expressing tumors, and its deletion in epidermal cells delays tumorigenesis by suppressing angiogenesis and tumor cell proliferation."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Epidermis-specific Flt1 deletion also impairs tumorigenesis and proliferation."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Surprisingly, complete tumor inhibition occurs in the absence of VEGF in EGFR mutant mice, demonstrating that VEGFR and EGFR synergize in neoplastic cells to promote tumor growth."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Mechanistically, K5-SOS upregulates VEGF, Flt1, and Neuropilin-1 in an Erk-dependent manner, thereby activating an autocrine proliferation loop, whereas EGFR prevents tumor cells from apoptosis."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Moreover, Flt1 is upregulated in human SCC, and its inhibition in SCC cells impairs proliferation."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Thus, in addition to regulating angiogenesis, VEGF has to be considered as a potent growth factor for epidermal tumors."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

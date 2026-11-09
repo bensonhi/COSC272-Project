@@ -1,0 +1,307 @@
+{
+  "id": 452,
+  "origin": "dev",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Gene expression does not vary appreciably across genetically identical cells.",
+      "evidence": [
+        {
+          "doc_id": 12804937,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 0,
+          "sentence": "Gene expression is a fundamentally stochastic process, with randomness in transcription and translation leading to cell-to-cell variations in mRNA and protein levels.",
+          "kept": true,
+          "new_index": 0
+        },
+        {
+          "doc_id": 464511,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 0,
+          "sentence": "Genetically identical cells sharing an environment can display markedly different phenotypes.",
+          "kept": true,
+          "new_index": 0
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 12804937,
+          "title": "Nature, Nurture, or Chance: Stochastic Gene Expression and Its Consequences",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Gene expression is a fundamentally stochastic process, with randomness in transcription and translation leading to cell-to-cell variations in mRNA and protein levels."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "This variation appears in organisms ranging from microbes to metazoans, and its characteristics depend both on the biophysical parameters governing gene expression and on gene network structure."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Stochastic gene expression has important consequences for cellular function, being beneficial in some contexts and harmful in others."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "These situations include the stress response, metabolism, development, the cell cycle, circadian rhythms, and aging."
+            }
+          ]
+        },
+        {
+          "doc_id": 464511,
+          "title": "Memory and Modularity in Cell-Fate Decision Making",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Genetically identical cells sharing an environment can display markedly different phenotypes."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "It is often unclear how much of this variation derives from chance, external signals, or attempts by individual cells to exert autonomous phenotypic programs."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "By observing thousands of cells for hundreds of consecutive generations under constant conditions, we dissect the stochastic decision between a solitary, motile state and a chained, sessile state in Bacillus subtilis."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We show that the motile state is 'memoryless', exhibiting no autonomous control over the time spent in the state."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "In contrast, the time spent as connected chains of cells is tightly controlled, enforcing coordination among related cells in the multicellular state."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We show that the three-protein regulatory circuit governing the decision is modular, as initiation and maintenance of chaining are genetically separable functions."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "As stimulation of the same initiating pathway triggers biofilm formation, we argue that autonomous timing allows a trial commitment to multicellularity that external signals could extend."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Gene expression does not vary appreciably across genetically identical cells.",
+      "evidence": [
+        {
+          "doc_id": 12804937,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 0,
+          "sentence": "Gene expression is a fundamentally stochastic process, with randomness in transcription and translation leading to cell-to-cell variations in mRNA and protein levels.",
+          "kept": true,
+          "new_index": 0
+        },
+        {
+          "doc_id": 464511,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 0,
+          "sentence": "Genetically identical cells sharing an environment can display markedly different phenotypes.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 12804937,
+          "title": "Nature, Nurture, or Chance: Stochastic Gene Expression and Its Consequences",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Gene expression is a fundamentally stochastic process, with randomness in transcription and translation leading to cell-to-cell variations in mRNA and protein levels."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "This variation appears in organisms ranging from microbes to metazoans, and its characteristics depend both on the biophysical parameters governing gene expression and on gene network structure."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Stochastic gene expression has important consequences for cellular function, being beneficial in some contexts and harmful in others."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "These situations include the stress response, metabolism, development, the cell cycle, circadian rhythms, and aging."
+            }
+          ]
+        },
+        {
+          "doc_id": 464511,
+          "title": "Memory and Modularity in Cell-Fate Decision Making",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "It is often unclear how much of this variation derives from chance, external signals, or attempts by individual cells to exert autonomous phenotypic programs."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "By observing thousands of cells for hundreds of consecutive generations under constant conditions, we dissect the stochastic decision between a solitary, motile state and a chained, sessile state in Bacillus subtilis."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "We show that the motile state is 'memoryless', exhibiting no autonomous control over the time spent in the state."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "We show that the three-protein regulatory circuit governing the decision is modular, as initiation and maintenance of chaining are genetically separable functions."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "As stimulation of the same initiating pathway triggers biofilm formation, we argue that autonomous timing allows a trial commitment to multicellularity that external signals could extend."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 464511,
+          "original_index": 0,
+          "sentence": "Genetically identical cells sharing an environment can display markedly different phenotypes.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 464511,
+          "original_index": 4,
+          "sentence": "In contrast, the time spent as connected chains of cells is tightly controlled, enforcing coordination among related cells in the multicellular state.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Gene expression does not vary appreciably across genetically identical cells.",
+      "evidence": [
+        {
+          "doc_id": 12804937,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 0,
+          "sentence": "Gene expression is a fundamentally stochastic process, with randomness in transcription and translation leading to cell-to-cell variations in mRNA and protein levels.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 464511,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 0,
+          "sentence": "Genetically identical cells sharing an environment can display markedly different phenotypes.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 12804937,
+          "title": "Nature, Nurture, or Chance: Stochastic Gene Expression and Its Consequences",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "This variation appears in organisms ranging from microbes to metazoans, and its characteristics depend both on the biophysical parameters governing gene expression and on gene network structure."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Stochastic gene expression has important consequences for cellular function, being beneficial in some contexts and harmful in others."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "These situations include the stress response, metabolism, development, the cell cycle, circadian rhythms, and aging."
+            }
+          ]
+        },
+        {
+          "doc_id": 464511,
+          "title": "Memory and Modularity in Cell-Fate Decision Making",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "It is often unclear how much of this variation derives from chance, external signals, or attempts by individual cells to exert autonomous phenotypic programs."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "By observing thousands of cells for hundreds of consecutive generations under constant conditions, we dissect the stochastic decision between a solitary, motile state and a chained, sessile state in Bacillus subtilis."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "In contrast, the time spent as connected chains of cells is tightly controlled, enforcing coordination among related cells in the multicellular state."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "We show that the three-protein regulatory circuit governing the decision is modular, as initiation and maintenance of chaining are genetically separable functions."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "As stimulation of the same initiating pathway triggers biofilm formation, we argue that autonomous timing allows a trial commitment to multicellularity that external signals could extend."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 12804937,
+          "original_index": 0,
+          "sentence": "Gene expression is a fundamentally stochastic process, with randomness in transcription and translation leading to cell-to-cell variations in mRNA and protein levels.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 464511,
+          "original_index": 0,
+          "sentence": "Genetically identical cells sharing an environment can display markedly different phenotypes.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 464511,
+          "original_index": 3,
+          "sentence": "We show that the motile state is 'memoryless', exhibiting no autonomous control over the time spent in the state.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

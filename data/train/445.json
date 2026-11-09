@@ -1,0 +1,344 @@
+{
+  "id": 445,
+  "origin": "train_more",
+  "n_groups": 4,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "GATA3 regulates self-renewal capacity in bone marrow hematopoietic stem cells.",
+      "evidence": [
+        {
+          "doc_id": 10165258,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "In the present study, we show that Gata3-null mutant mice generate fewer LT-HSCs and that fewer Gata3-null LT-HSCs are in cycle.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 10165258,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "Furthermore, Gata3 mutant hematopoietic progenitor cells fail to be recruited into an increased cycling state after 5-fluorouracil-induced myelosuppression.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 10165258,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "Therefore, GATA-3 is required for the maintenance of a normal number of LT-HSCs and for their entry into the cell cycle.",
+          "kept": true,
+          "new_index": 6
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 10165258,
+          "title": "GATA-3 regulates hematopoietic stem cell maintenance and cell-cycle entry.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Maintaining hematopoietic stem cell (HSC) quiescence is a critical property for the life-long generation of blood cells."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Approximately 75% of cells in a highly enriched long-term repopulating HSC (LT-HSC) pool (Lin(-)Sca1(+)c-Kit(hi)CD150(+)CD48(-)) are quiescent, with only a small percentage of the LT-HSCs in cycle."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Transcription factor GATA-3 is known to be vital for the development of T cells at multiple stages in the thymus and for Th2 differentiation in the peripheral organs."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Although it is well documented that GATA-3 is expressed in HSCs, a role for GATA-3 in any prethymic progenitor cell has not been established."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "In the present study, we show that Gata3-null mutant mice generate fewer LT-HSCs and that fewer Gata3-null LT-HSCs are in cycle."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Furthermore, Gata3 mutant hematopoietic progenitor cells fail to be recruited into an increased cycling state after 5-fluorouracil-induced myelosuppression."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Therefore, GATA-3 is required for the maintenance of a normal number of LT-HSCs and for their entry into the cell cycle."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "GATA3 regulates self-renewal capacity in bone marrow hematopoietic stem cells.",
+      "evidence": [
+        {
+          "doc_id": 10165258,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "In the present study, we show that Gata3-null mutant mice generate fewer LT-HSCs and that fewer Gata3-null LT-HSCs are in cycle.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 10165258,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "Furthermore, Gata3 mutant hematopoietic progenitor cells fail to be recruited into an increased cycling state after 5-fluorouracil-induced myelosuppression.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 10165258,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "Therefore, GATA-3 is required for the maintenance of a normal number of LT-HSCs and for their entry into the cell cycle.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 10165258,
+          "title": "GATA-3 regulates hematopoietic stem cell maintenance and cell-cycle entry.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "Approximately 75% of cells in a highly enriched long-term repopulating HSC (LT-HSC) pool (Lin(-)Sca1(+)c-Kit(hi)CD150(+)CD48(-)) are quiescent, with only a small percentage of the LT-HSCs in cycle."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Transcription factor GATA-3 is known to be vital for the development of T cells at multiple stages in the thymus and for Th2 differentiation in the peripheral organs."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Although it is well documented that GATA-3 is expressed in HSCs, a role for GATA-3 in any prethymic progenitor cell has not been established."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Furthermore, Gata3 mutant hematopoietic progenitor cells fail to be recruited into an increased cycling state after 5-fluorouracil-induced myelosuppression."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Therefore, GATA-3 is required for the maintenance of a normal number of LT-HSCs and for their entry into the cell cycle."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 10165258,
+          "original_index": 0,
+          "sentence": "Maintaining hematopoietic stem cell (HSC) quiescence is a critical property for the life-long generation of blood cells.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 10165258,
+          "original_index": 4,
+          "sentence": "In the present study, we show that Gata3-null mutant mice generate fewer LT-HSCs and that fewer Gata3-null LT-HSCs are in cycle.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g1",
+        "g2"
+      ],
+      "claim": "GATA3 regulates self-renewal capacity in bone marrow hematopoietic stem cells.",
+      "evidence": [
+        {
+          "doc_id": 10165258,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "In the present study, we show that Gata3-null mutant mice generate fewer LT-HSCs and that fewer Gata3-null LT-HSCs are in cycle.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 10165258,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "Furthermore, Gata3 mutant hematopoietic progenitor cells fail to be recruited into an increased cycling state after 5-fluorouracil-induced myelosuppression.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 10165258,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "Therefore, GATA-3 is required for the maintenance of a normal number of LT-HSCs and for their entry into the cell cycle.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 10165258,
+          "title": "GATA-3 regulates hematopoietic stem cell maintenance and cell-cycle entry.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Maintaining hematopoietic stem cell (HSC) quiescence is a critical property for the life-long generation of blood cells."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Approximately 75% of cells in a highly enriched long-term repopulating HSC (LT-HSC) pool (Lin(-)Sca1(+)c-Kit(hi)CD150(+)CD48(-)) are quiescent, with only a small percentage of the LT-HSCs in cycle."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Although it is well documented that GATA-3 is expressed in HSCs, a role for GATA-3 in any prethymic progenitor cell has not been established."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "In the present study, we show that Gata3-null mutant mice generate fewer LT-HSCs and that fewer Gata3-null LT-HSCs are in cycle."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 10165258,
+          "original_index": 2,
+          "sentence": "Transcription factor GATA-3 is known to be vital for the development of T cells at multiple stages in the thymus and for Th2 differentiation in the peripheral organs.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 10165258,
+          "original_index": 5,
+          "sentence": "Furthermore, Gata3 mutant hematopoietic progenitor cells fail to be recruited into an increased cycling state after 5-fluorouracil-induced myelosuppression.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 10165258,
+          "original_index": 6,
+          "sentence": "Therefore, GATA-3 is required for the maintenance of a normal number of LT-HSCs and for their entry into the cell cycle.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2"
+      ],
+      "claim": "GATA3 regulates self-renewal capacity in bone marrow hematopoietic stem cells.",
+      "evidence": [
+        {
+          "doc_id": 10165258,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "In the present study, we show that Gata3-null mutant mice generate fewer LT-HSCs and that fewer Gata3-null LT-HSCs are in cycle.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 10165258,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "Furthermore, Gata3 mutant hematopoietic progenitor cells fail to be recruited into an increased cycling state after 5-fluorouracil-induced myelosuppression.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 10165258,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "Therefore, GATA-3 is required for the maintenance of a normal number of LT-HSCs and for their entry into the cell cycle.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 10165258,
+          "title": "GATA-3 regulates hematopoietic stem cell maintenance and cell-cycle entry.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "Approximately 75% of cells in a highly enriched long-term repopulating HSC (LT-HSC) pool (Lin(-)Sca1(+)c-Kit(hi)CD150(+)CD48(-)) are quiescent, with only a small percentage of the LT-HSCs in cycle."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Transcription factor GATA-3 is known to be vital for the development of T cells at multiple stages in the thymus and for Th2 differentiation in the peripheral organs."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Although it is well documented that GATA-3 is expressed in HSCs, a role for GATA-3 in any prethymic progenitor cell has not been established."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 10165258,
+          "original_index": 0,
+          "sentence": "Maintaining hematopoietic stem cell (HSC) quiescence is a critical property for the life-long generation of blood cells.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 10165258,
+          "original_index": 4,
+          "sentence": "In the present study, we show that Gata3-null mutant mice generate fewer LT-HSCs and that fewer Gata3-null LT-HSCs are in cycle.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 10165258,
+          "original_index": 5,
+          "sentence": "Furthermore, Gata3 mutant hematopoietic progenitor cells fail to be recruited into an increased cycling state after 5-fluorouracil-induced myelosuppression.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 10165258,
+          "original_index": 6,
+          "sentence": "Therefore, GATA-3 is required for the maintenance of a normal number of LT-HSCs and for their entry into the cell cycle.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

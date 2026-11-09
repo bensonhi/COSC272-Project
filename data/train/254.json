@@ -1,0 +1,83 @@
+{
+  "id": 254,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Chinese individuals with TT homozygosity in the MTHFR gene are more vulnerable to strokes caused by low levels of folate intake.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 37424881,
+          "title": "The effect of folate fortification on folic acid-based homocysteine-lowering intervention and stroke risk: a meta-analysis.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE Folate and vitamin B12 are two vital regulators in the metabolic process of homocysteine, which is a risk factor of atherothrombotic events."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Low folate intake or low plasma folate concentration is associated with increased stroke risk."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Previous randomized controlled trials presented discordant findings in the effect of folic acid supplementation-based homocysteine lowering on stroke risk."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "The aim of the present review was to perform a meta-analysis of relevant randomized controlled trials to check the how different folate fortification status might affect the effects of folic acid supplementation in lowering homocysteine and reducing stroke risk.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "DESIGN Relevant randomized controlled trials were identified through formal literature search."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Homocysteine reduction was compared in subgroups stratified by folate fortification status."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Relative risks with 95 % confidence intervals were used as a measure to assess the association between folic acid supplementation and stroke risk.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "SETTING The meta-analysis included fourteen randomized controlled trials,   SUBJECTS A total of 39 420 patients.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "RESULTS Homocysteine reductions were 26·99 (sd 1·91) %, 18·38 (sd 3·82) % and 21·30 (sd 1·98) %, respectively, in the subgroups without folate fortification, with folate fortification and with partial folate fortification."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Significant difference was observed between the subgroups with folate fortification and without folate fortification (P=0·05)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "The relative risk of stroke was 0·88 (95 % CI 0·77, 1·00, P=0·05) in the subgroup without folate fortification, 0·94 (95 % CI 0·58, 1·54, P=0·82) in the subgroup with folate fortification and 0·91 (95 % CI 0·82, 1·01, P=0·09) in the subgroup with partial folate fortification.   \n"
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "CONCLUSIONS Folic acid supplementation might have a modest benefit on stroke prevention in regions without folate fortification."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

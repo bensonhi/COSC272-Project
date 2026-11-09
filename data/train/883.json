@@ -1,0 +1,144 @@
+{
+  "id": 883,
+  "origin": "train_more",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Omnivores produce more trimethylamine N-oxide from dietary I-carnitine than vegans.",
+      "evidence": [
+        {
+          "doc_id": 14803797,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Omnivorous human subjects produced more TMAO than did vegans or vegetarians following ingestion of L-carnitine through a microbiota-dependent mechanism.",
+          "kept": true,
+          "new_index": 2
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 14803797,
+          "title": "Intestinal microbiota metabolism of L-carnitine, a nutrient in red meat, promotes atherosclerosis",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Intestinal microbiota metabolism of choline and phosphatidylcholine produces trimethylamine (TMA), which is further metabolized to a proatherogenic species, trimethylamine-N-oxide (TMAO)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We demonstrate here that metabolism by intestinal microbiota of dietary L-carnitine, a trimethylamine abundant in red meat, also produces TMAO and accelerates atherosclerosis in mice."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Omnivorous human subjects produced more TMAO than did vegans or vegetarians following ingestion of L-carnitine through a microbiota-dependent mechanism."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "The presence of specific bacterial taxa in human feces was associated with both plasma TMAO concentration and dietary status."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Plasma L-carnitine levels in subjects undergoing cardiac evaluation (n = 2,595) predicted increased risks for both prevalent cardiovascular disease (CVD) and incident major adverse cardiac events (myocardial infarction, stroke or death), but only among subjects with concurrently high TMAO levels."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Chronic dietary L-carnitine supplementation in mice altered cecal microbial composition, markedly enhanced synthesis of TMA and TMAO, and increased atherosclerosis, but this did not occur if intestinal microbiota was concurrently suppressed."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "In mice with an intact intestinal microbiota, dietary supplementation with TMAO or either carnitine or choline reduced in vivo reverse cholesterol transport."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Intestinal microbiota may thus contribute to the well-established link between high levels of red meat consumption and CVD risk."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Omnivores produce more trimethylamine N-oxide from dietary I-carnitine than vegans.",
+      "evidence": [
+        {
+          "doc_id": 14803797,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Omnivorous human subjects produced more TMAO than did vegans or vegetarians following ingestion of L-carnitine through a microbiota-dependent mechanism.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 14803797,
+          "title": "Intestinal microbiota metabolism of L-carnitine, a nutrient in red meat, promotes atherosclerosis",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Intestinal microbiota metabolism of choline and phosphatidylcholine produces trimethylamine (TMA), which is further metabolized to a proatherogenic species, trimethylamine-N-oxide (TMAO)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We demonstrate here that metabolism by intestinal microbiota of dietary L-carnitine, a trimethylamine abundant in red meat, also produces TMAO and accelerates atherosclerosis in mice."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "The presence of specific bacterial taxa in human feces was associated with both plasma TMAO concentration and dietary status."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Plasma L-carnitine levels in subjects undergoing cardiac evaluation (n = 2,595) predicted increased risks for both prevalent cardiovascular disease (CVD) and incident major adverse cardiac events (myocardial infarction, stroke or death), but only among subjects with concurrently high TMAO levels."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Chronic dietary L-carnitine supplementation in mice altered cecal microbial composition, markedly enhanced synthesis of TMA and TMAO, and increased atherosclerosis, but this did not occur if intestinal microbiota was concurrently suppressed."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "In mice with an intact intestinal microbiota, dietary supplementation with TMAO or either carnitine or choline reduced in vivo reverse cholesterol transport."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 14803797,
+          "original_index": 2,
+          "sentence": "Omnivorous human subjects produced more TMAO than did vegans or vegetarians following ingestion of L-carnitine through a microbiota-dependent mechanism.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 14803797,
+          "original_index": 7,
+          "sentence": "Intestinal microbiota may thus contribute to the well-established link between high levels of red meat consumption and CVD risk.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

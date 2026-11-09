@@ -1,0 +1,103 @@
+{
+  "id": 894,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Osteoparthritis (OA) is characterized by degeneration of articular cartilage, joint edge, and subchondral bone hyperplasia.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 14724693,
+          "title": "Effect of glucosamine on pain-related disability in patients with chronic low back pain and degenerative lumbar osteoarthritis: a randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Chronic low back pain (LBP) with degenerative lumbar osteoarthritis (OA) is widespread in the adult population."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Although glucosamine is increasingly used by patients with chronic LBP, little is known about its effect in this setting.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To investigate the effect of glucosamine in patients with chronic LBP and degenerative lumbar OA.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS A double-blind, randomized, placebo-controlled trial conducted at Oslo University Hospital Outpatient Clinic, Oslo, Norway, with 250 patients older than 25 years of age with chronic LBP (>6 months) and degenerative lumbar OA.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "INTERVENTIONS Daily intake of 1500 mg of oral glucosamine (n = 125) or placebo (n = 125) for 6 months, with assessment of effect after the 6-month intervention period and at 1 year (6 months postintervention).   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "MAIN OUTCOME MEASURES The primary outcome was pain-related disability measured with the Roland Morris Disability Questionnaire (RMDQ)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Secondary outcomes were numerical scores from pain-rating scales of patients at rest and during activity, and the quality-of-life EuroQol-5 Dimensions (EQ-5D) instrument."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Data collection occurred during the intervention period at baseline, 6 weeks, 3 and 6 months, and again 6 months following the intervention at 1 year."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Group differences were analyzed using linear mixed models analysis.   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "RESULTS At baseline, mean RMDQ scores were 9.2 (95% confidence interval [CI], 8.4-10.0) for glucosamine and 9.7 (95% CI, 8.9-10.5) for the placebo group (P = .37)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "At 6 months, the mean RMDQ score was the same for the glucosamine and placebo groups (5.0; 95% CI, 4.2-5.8)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "At 1 year, the mean RMDQ scores were 4.8 (95% CI, 3.9-5.6) for glucosamine and 5.5 (95% CI, 4.7-6.4) for the placebo group."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "No statistically significant difference in change between groups was found when assessed after the 6-month intervention period and at 1 year: RMDQ (P = .72), LBP at rest (P = .91), LBP during activity (P = .97), and quality-of-life EQ-5D (P = .20)."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "Mild adverse events were reported in 40 patients in the glucosamine group and 46 in the placebo group (P = .48).   \n"
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "CONCLUSIONS Among patients with chronic LBP and degenerative lumbar OA, 6-month treatment with oral glucosamine compared with placebo did not result in reduced pain-related disability after the 6-month intervention and after 1-year follow-up.   \n"
+            },
+            {
+              "new_index": 15,
+              "original_index": 15,
+              "sentence": "TRIAL REGISTRATION clinicaltrials.gov Identifier: NCT00404079."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

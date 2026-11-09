@@ -1,0 +1,246 @@
+{
+  "id": 160,
+  "origin": "train_more",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Bacterial meningitis can be diagnosed on the basis of positive cerebrospinal fluid (CSF) cultures.",
+      "evidence": [
+        {
+          "doc_id": 52874170,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 14,
+          "sentence": "A CSF-blood glucose ratio of 0.4 or less (likelihood ratio [LR], 18; 95% CI, 12-27]), CSF white blood cell count of 500/muL or higher (LR, 15; 95% CI, 10-22), and CSF lactate level of 31.53 mg/dL or more (> or =3.5 mmol/L; LR, 21; 95% CI, 14-32) accurately diagnosed bacterial meningitis.   \n",
+          "kept": true,
+          "new_index": 14
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 52874170,
+          "title": "How do I perform a lumbar puncture and analyze the results to diagnose bacterial meningitis?",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Diagnostic lumbar punctures (LPs), commonly used to rule out meningitis, are associated with adverse events.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To systematically review the evidence about diagnostic LP techniques that may decrease the risk of adverse events and the evidence about test accuracy of cerebrospinal fluid (CSF) analysis in adult patients with suspected bacterial meningitis.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DATA SOURCES We searched the Cochrane Library, MEDLINE (using Ovid and PubMed) from 1966 to January 2006 and EMBASE from 1980 to January 2006 without language restrictions to identify relevant studies and identified others from the bibliographies of retrieved articles.   "
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "STUDY SELECTION We included randomized trials of patients aged 18 years or older undergoing interventions to facilitate a successful diagnostic LP or to potentially reduce adverse events."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Studies assessing the accuracy of biochemical analysis of the CSF for possible bacterial meningitis were also identified.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "DATA EXTRACTION Two investigators independently appraised study quality and extracted relevant data."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "For studies of the LP technique, data on the intervention and the outcome were extracted."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "For studies of the laboratory diagnosis of bacterial meningitis, data on the reference standard and test accuracy were extracted.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "DATA SYNTHESIS We found 15 randomized trials."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "A random-effects model was used for quantitative synthesis."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Five studies of 587 patients compared atraumatic needles with standard needles and found a nonsignificant decrease in the odds of headache with an atraumatic needle (absolute risk reduction [ARR], 12.3%; 95% confidence interval [CI], -1.72% to 26.2%)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Reinsertion of the stylet before needle removal decreased the risk of headache (ARR, 11.3%; 95% CI, 6.50%-16.2%)."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "The combined results from 4 studies of 717 patients showed a nonsignificant decrease in headache in patients who were mobilized after LP (ARR, 2.9%; 95% CI, -3.4 to 9.3%)."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "Four studies on the accuracy of biochemical analysis of CSF in patients with suspected meningitis met inclusion criteria."
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "A CSF-blood glucose ratio of 0.4 or less (likelihood ratio [LR], 18; 95% CI, 12-27]), CSF white blood cell count of 500/muL or higher (LR, 15; 95% CI, 10-22), and CSF lactate level of 31.53 mg/dL or more (> or =3.5 mmol/L; LR, 21; 95% CI, 14-32) accurately diagnosed bacterial meningitis.   \n"
+            },
+            {
+              "new_index": 15,
+              "original_index": 15,
+              "sentence": "CONCLUSIONS These data suggest that small-gauge, atraumatic needles may decrease the risk of headache after diagnostic LP."
+            },
+            {
+              "new_index": 16,
+              "original_index": 16,
+              "sentence": "Reinsertion of the stylet before needle removal should occur and patients do not require bed rest after the procedure."
+            },
+            {
+              "new_index": 17,
+              "original_index": 17,
+              "sentence": "Future research should focus on evaluating interventions to optimize the success of a diagnostic LP and to enhance training in procedural skills."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Bacterial meningitis can be diagnosed on the basis of positive cerebrospinal fluid (CSF) cultures.",
+      "evidence": [
+        {
+          "doc_id": 52874170,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 14,
+          "sentence": "A CSF-blood glucose ratio of 0.4 or less (likelihood ratio [LR], 18; 95% CI, 12-27]), CSF white blood cell count of 500/muL or higher (LR, 15; 95% CI, 10-22), and CSF lactate level of 31.53 mg/dL or more (> or =3.5 mmol/L; LR, 21; 95% CI, 14-32) accurately diagnosed bacterial meningitis.   \n",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 52874170,
+          "title": "How do I perform a lumbar puncture and analyze the results to diagnose bacterial meningitis?",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Diagnostic lumbar punctures (LPs), commonly used to rule out meningitis, are associated with adverse events.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To systematically review the evidence about diagnostic LP techniques that may decrease the risk of adverse events and the evidence about test accuracy of cerebrospinal fluid (CSF) analysis in adult patients with suspected bacterial meningitis.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DATA SOURCES We searched the Cochrane Library, MEDLINE (using Ovid and PubMed) from 1966 to January 2006 and EMBASE from 1980 to January 2006 without language restrictions to identify relevant studies and identified others from the bibliographies of retrieved articles.   "
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Studies assessing the accuracy of biochemical analysis of the CSF for possible bacterial meningitis were also identified.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "DATA EXTRACTION Two investigators independently appraised study quality and extracted relevant data."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "For studies of the LP technique, data on the intervention and the outcome were extracted."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "For studies of the laboratory diagnosis of bacterial meningitis, data on the reference standard and test accuracy were extracted.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "DATA SYNTHESIS We found 15 randomized trials."
+            },
+            {
+              "new_index": 8,
+              "original_index": 9,
+              "sentence": "A random-effects model was used for quantitative synthesis."
+            },
+            {
+              "new_index": 9,
+              "original_index": 12,
+              "sentence": "The combined results from 4 studies of 717 patients showed a nonsignificant decrease in headache in patients who were mobilized after LP (ARR, 2.9%; 95% CI, -3.4 to 9.3%)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 13,
+              "sentence": "Four studies on the accuracy of biochemical analysis of CSF in patients with suspected meningitis met inclusion criteria."
+            },
+            {
+              "new_index": 11,
+              "original_index": 15,
+              "sentence": "CONCLUSIONS These data suggest that small-gauge, atraumatic needles may decrease the risk of headache after diagnostic LP."
+            },
+            {
+              "new_index": 12,
+              "original_index": 16,
+              "sentence": "Reinsertion of the stylet before needle removal should occur and patients do not require bed rest after the procedure."
+            },
+            {
+              "new_index": 13,
+              "original_index": 17,
+              "sentence": "Future research should focus on evaluating interventions to optimize the success of a diagnostic LP and to enhance training in procedural skills."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 52874170,
+          "original_index": 3,
+          "sentence": "STUDY SELECTION We included randomized trials of patients aged 18 years or older undergoing interventions to facilitate a successful diagnostic LP or to potentially reduce adverse events.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 52874170,
+          "original_index": 10,
+          "sentence": "Five studies of 587 patients compared atraumatic needles with standard needles and found a nonsignificant decrease in the odds of headache with an atraumatic needle (absolute risk reduction [ARR], 12.3%; 95% confidence interval [CI], -1.72% to 26.2%).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 52874170,
+          "original_index": 11,
+          "sentence": "Reinsertion of the stylet before needle removal decreased the risk of headache (ARR, 11.3%; 95% CI, 6.50%-16.2%).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 52874170,
+          "original_index": 14,
+          "sentence": "A CSF-blood glucose ratio of 0.4 or less (likelihood ratio [LR], 18; 95% CI, 12-27]), CSF white blood cell count of 500/muL or higher (LR, 15; 95% CI, 10-22), and CSF lactate level of 31.53 mg/dL or more (> or =3.5 mmol/L; LR, 21; 95% CI, 14-32) accurately diagnosed bacterial meningitis.   \n",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

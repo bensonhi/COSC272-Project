@@ -1,0 +1,88 @@
+{
+  "id": 4,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "1-1% of colorectal cancer patients are diagnosed with regional or distant metastases.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 22942787,
+          "title": "Relation between Medicare screening reimbursement and stage at diagnosis for older patients with colon cancer.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Medicare's reimbursement policy was changed in 1998 to provide coverage for screening colonoscopies for patients with increased colon cancer risk, and expanded further in 2001 to cover screening colonoscopies for all individuals.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To determine whether the Medicare reimbursement policy changes were associated with an increase in either colonoscopy use or early stage colon cancer diagnosis.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Patients in the Surveillance, Epidemiology, and End Results Medicare linked database who were 67 years of age and older and had a primary diagnosis of colon cancer during 1992-2002, as well as a group of Medicare beneficiaries who resided in Surveillance, Epidemiology, and End Results areas but who were not diagnosed with cancer.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "MAIN OUTCOME MEASURES Trends in colonoscopy and sigmoidoscopy use among Medicare beneficiaries without cancer were assessed using multivariate Poisson regression."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Among the patients with cancer, stage was classified as early (stage I) vs all other (stages II-IV)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Time was categorized as period 1 (no screening coverage, 1992-1997), period 2 (limited coverage, January 1998-June 2001), and period 3 (universal coverage, July 2001-December 2002)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "A multivariate logistic regression (outcome = early stage) was used to assess temporal trends in stage at diagnosis; an interaction term between tumor site and time was included.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "RESULTS Colonoscopy use increased from an average rate of 285/100,000 per quarter in period 1 to 889 and 1919/100,000 per quarter in periods 2 (P<.001) and 3 (P vs 2<.001), respectively."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "During the study period, 44,924 eligible patients were diagnosed with colorectal cancer."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "The proportion of patients diagnosed at an early stage increased from 22.5% in period 1 to 25.5% in period 2 and 26.3% in period 3 (P<.001 for each pairwise comparison)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "The changes in Medicare coverage were strongly associated with early stage at diagnosis for patients with proximal colon lesions (adjusted relative risk period 2 vs 1, 1.19; 95% confidence interval, 1.13-1.26; adjusted relative risk period 3 vs 2, 1.10; 95% confidence interval, 1.02-1.17) but weakly associated, if at all, for patients with distal colon lesions (adjusted relative risk period 2 vs 1, 1.07; 95% confidence interval, 1.01-1.13; adjusted relative risk period 3 vs 2, 0.97; 95% confidence interval, 0.90-1.05).   \n"
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "CONCLUSIONS Expansion of Medicare reimbursement to cover colon cancer screening was associated with an increased use of colonoscopy for Medicare beneficiaries, and for those who were diagnosed with colon cancer, an increased probability of being diagnosed at an early stage."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "The selective effect of the coverage change on proximal colon lesions suggests that increased use of whole-colon screening modalities such as colonoscopy may have played a pivotal role."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": 733,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "M. stadtmanae induces ASC speck formation in BlaER1 monocytes.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 34469966,
+          "title": "Human Monocytes Engage an Alternative Inflammasome Pathway.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Interleukin-1β (IL-1β) is a cytokine whose bioactivity is controlled by activation of the inflammasome."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "However, in response to lipopolysaccharide, human monocytes secrete IL-1β independently of classical inflammasome stimuli."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here, we report that this constituted a species-specific response that is not observed in the murine system."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Indeed, in human monocytes, lipopolysaccharide triggered an \"alternative inflammasome\" that relied on NLRP3-ASC-caspase-1 signaling, yet was devoid of any classical inflammasome characteristics including pyroptosome formation, pyroptosis induction, and K(+) efflux dependency."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Genetic dissection of the underlying signaling pathway in a monocyte transdifferentiation system revealed that alternative inflammasome activation was propagated by TLR4-TRIF-RIPK1-FADD-CASP8 signaling upstream of NLRP3."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Importantly, involvement of this signaling cascade was limited to alternative inflammasome activation and did not extend to classical NLRP3 activation."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Because alternative inflammasome activation embraces both sensitivity and promiscuity of TLR4, we propose a pivotal role for this signaling cascade in TLR4-driven, IL-1β-mediated immune responses and immunopathology in humans."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

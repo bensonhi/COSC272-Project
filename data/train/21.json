@@ -1,0 +1,83 @@
+{
+  "id": 21,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "70% of burn patients are admitted for hospitalization and further treatment after appearing at hospital emergency wards or outpatient clinics.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 41493639,
+          "title": "ABC of burns. Introduction.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Burns are one of the most devastating conditions encountered in medicine."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The injury represents an assault on all aspects of the patient, from the physical to the psychological."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "It affects all ages, from babies to elderly people, and is a problem in both the developed and developing world."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "All of us have experienced the severe pain that even a small burn can bring."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "However the pain and distress caused by a large burn are not limited to the immediate event."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "The visible physical and the invisible psychological scars are long lasting and often lead to chronic disability."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Burn injuries represent a diverse and varied challenge to medical and paramedical staff."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Correct management requires a skilled multidisciplinary approach that addresses all the problems facing a burn patient.    "
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "This series provides an overview of the most important aspects of burn injuries for hospital and non-hospital healthcare workers.​workers.        "
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Figure 1    Top: Child with 70% full thickness burns, which required resuscitation, intensive care support, and extensive debridement and skin grafting."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Left: The same child one year later at a burns camp, having made a good recovery."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "A reasonable outcome is possible ..."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

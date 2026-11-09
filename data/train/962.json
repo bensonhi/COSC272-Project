@@ -1,0 +1,969 @@
+{
+  "id": 962,
+  "origin": "train_more",
+  "n_groups": 5,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Post-transcriptional handling of mitochondrial transcripts occurs in mitochondrial RNA granules.",
+      "evidence": [
+        {
+          "doc_id": 13931771,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "Our findings suggest that the foci containing GRSF1 and RNase P correspond to sites where primary RNA transcripts converge to be processed.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 935538,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "We show here that GRSF1, previously implicated in the binding and selective translation of influenza mRNAs, is targeted to mitochondria where it forms granules that colocalize with foci of newly synthesized mtRNA next to mitochondrial nucleoids.",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 935538,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "These data implicate GRSF1 as a key regulator of posttranscriptional mitochondrial gene expression.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 4306711,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Here, we have identified the DEAD-box protein DDX28 as an RNA granule component essential for the biogenesis of the mitoribosome large subunit (mt-LSU).",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 4306711,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "Our findings identify DDX28 as essential during the early stages of mitoribosome mt-LSU biogenesis, a process that takes place mainly near the mitochondrial nucleoids, in the compartment defined by the RNA granules.",
+          "kept": true,
+          "new_index": 6
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13931771,
+          "title": "GRSF1 Regulates RNA Processing in Mitochondrial RNA Granules",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Various specialized domains have been described in the cytosol and the nucleus; however, little is known about compartmentalization within the mitochondrial matrix."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "GRSF1 (G-rich sequence factor 1) is an RNA binding protein that was previously reported to localize in the cytosol."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We found that an isoform of GRSF1 accumulates in discrete foci in the mitochondrial matrix."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "These foci are composed of nascent mitochondrial RNA and also contain RNase P, an enzyme that participates in mitochondrial RNA processing."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "GRSF1 was found to interact with RNase P and to be required for processing of both classical and tRNA-less RNA precursors."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "In its absence, cleavage of primary RNA transcripts is abnormal, leading to decreased expression of mitochondrially encoded proteins and mitochondrial dysfunction."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Our findings suggest that the foci containing GRSF1 and RNase P correspond to sites where primary RNA transcripts converge to be processed."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "We have termed these large ribonucleoprotein structures \"mitochondrial RNA granules."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "\""
+            }
+          ]
+        },
+        {
+          "doc_id": 935538,
+          "title": "The mitochondrial RNA-binding protein GRSF1 localizes to RNA granules and is required for posttranscriptional mitochondrial gene expression.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "RNA-binding proteins are at the heart of posttranscriptional gene regulation, coordinating the processing, storage, and handling of cellular RNAs."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We show here that GRSF1, previously implicated in the binding and selective translation of influenza mRNAs, is targeted to mitochondria where it forms granules that colocalize with foci of newly synthesized mtRNA next to mitochondrial nucleoids."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "GRSF1 preferentially binds RNAs transcribed from three contiguous genes on the light strand of mtDNA, the ND6 mRNA, and the long noncoding RNAs for cytb and ND5, each of which contains multiple consensus binding sequences."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "RNAi-mediated knockdown of GRSF1 leads to alterations in mitochondrial RNA stability, abnormal loading of mRNAs and lncRNAs on the mitochondrial ribosome, and impaired ribosome assembly."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "This results in a specific protein synthesis defect and a failure to assemble normal amounts of the oxidative phosphorylation complexes."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "These data implicate GRSF1 as a key regulator of posttranscriptional mitochondrial gene expression."
+            }
+          ]
+        },
+        {
+          "doc_id": 4306711,
+          "title": "The Human Mitochondrial DEAD-Box Protein DDX28 Resides in RNA Granules and Functions in Mitoribosome Assembly.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Human mitochondrial ribosomes are specialized in the synthesis of 13 proteins, which are fundamental components of the oxidative phosphorylation system."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The pathway of mitoribosome biogenesis, the compartmentalization of the process, and factors involved remain largely unknown."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here, we have identified the DEAD-box protein DDX28 as an RNA granule component essential for the biogenesis of the mitoribosome large subunit (mt-LSU)."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DDX28 interacts with the 16S rRNA and the mt-LSU."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "RNAi-mediated DDX28 silencing in HEK293T cells does not affect mitochondrial mRNA stability or 16S rRNA processing or modification."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "However, it leads to reduced levels of 16S rRNA and mt-LSU proteins, impaired mt-LSU assembly, deeply attenuated mitochondrial protein synthesis, and consequent failure to assemble oxidative phosphorylation complexes."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Our findings identify DDX28 as essential during the early stages of mitoribosome mt-LSU biogenesis, a process that takes place mainly near the mitochondrial nucleoids, in the compartment defined by the RNA granules."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g3"
+      ],
+      "claim": "Post-transcriptional handling of mitochondrial transcripts occurs in mitochondrial RNA granules.",
+      "evidence": [
+        {
+          "doc_id": 13931771,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "Our findings suggest that the foci containing GRSF1 and RNase P correspond to sites where primary RNA transcripts converge to be processed.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 935538,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "We show here that GRSF1, previously implicated in the binding and selective translation of influenza mRNAs, is targeted to mitochondria where it forms granules that colocalize with foci of newly synthesized mtRNA next to mitochondrial nucleoids.",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 935538,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "These data implicate GRSF1 as a key regulator of posttranscriptional mitochondrial gene expression.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 4306711,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Here, we have identified the DEAD-box protein DDX28 as an RNA granule component essential for the biogenesis of the mitoribosome large subunit (mt-LSU).",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 4306711,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "Our findings identify DDX28 as essential during the early stages of mitoribosome mt-LSU biogenesis, a process that takes place mainly near the mitochondrial nucleoids, in the compartment defined by the RNA granules.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13931771,
+          "title": "GRSF1 Regulates RNA Processing in Mitochondrial RNA Granules",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Various specialized domains have been described in the cytosol and the nucleus; however, little is known about compartmentalization within the mitochondrial matrix."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "GRSF1 (G-rich sequence factor 1) is an RNA binding protein that was previously reported to localize in the cytosol."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "These foci are composed of nascent mitochondrial RNA and also contain RNase P, an enzyme that participates in mitochondrial RNA processing."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "GRSF1 was found to interact with RNase P and to be required for processing of both classical and tRNA-less RNA precursors."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "In its absence, cleavage of primary RNA transcripts is abnormal, leading to decreased expression of mitochondrially encoded proteins and mitochondrial dysfunction."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Our findings suggest that the foci containing GRSF1 and RNase P correspond to sites where primary RNA transcripts converge to be processed."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "We have termed these large ribonucleoprotein structures \"mitochondrial RNA granules."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "\""
+            }
+          ]
+        },
+        {
+          "doc_id": 935538,
+          "title": "The mitochondrial RNA-binding protein GRSF1 localizes to RNA granules and is required for posttranscriptional mitochondrial gene expression.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "RNA-binding proteins are at the heart of posttranscriptional gene regulation, coordinating the processing, storage, and handling of cellular RNAs."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We show here that GRSF1, previously implicated in the binding and selective translation of influenza mRNAs, is targeted to mitochondria where it forms granules that colocalize with foci of newly synthesized mtRNA next to mitochondrial nucleoids."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "GRSF1 preferentially binds RNAs transcribed from three contiguous genes on the light strand of mtDNA, the ND6 mRNA, and the long noncoding RNAs for cytb and ND5, each of which contains multiple consensus binding sequences."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "This results in a specific protein synthesis defect and a failure to assemble normal amounts of the oxidative phosphorylation complexes."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "These data implicate GRSF1 as a key regulator of posttranscriptional mitochondrial gene expression."
+            }
+          ]
+        },
+        {
+          "doc_id": 4306711,
+          "title": "The Human Mitochondrial DEAD-Box Protein DDX28 Resides in RNA Granules and Functions in Mitoribosome Assembly.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Human mitochondrial ribosomes are specialized in the synthesis of 13 proteins, which are fundamental components of the oxidative phosphorylation system."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The pathway of mitoribosome biogenesis, the compartmentalization of the process, and factors involved remain largely unknown."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here, we have identified the DEAD-box protein DDX28 as an RNA granule component essential for the biogenesis of the mitoribosome large subunit (mt-LSU)."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DDX28 interacts with the 16S rRNA and the mt-LSU."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "However, it leads to reduced levels of 16S rRNA and mt-LSU proteins, impaired mt-LSU assembly, deeply attenuated mitochondrial protein synthesis, and consequent failure to assemble oxidative phosphorylation complexes."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 13931771,
+          "original_index": 2,
+          "sentence": "We found that an isoform of GRSF1 accumulates in discrete foci in the mitochondrial matrix.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 935538,
+          "original_index": 3,
+          "sentence": "RNAi-mediated knockdown of GRSF1 leads to alterations in mitochondrial RNA stability, abnormal loading of mRNAs and lncRNAs on the mitochondrial ribosome, and impaired ribosome assembly.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4306711,
+          "original_index": 4,
+          "sentence": "RNAi-mediated DDX28 silencing in HEK293T cells does not affect mitochondrial mRNA stability or 16S rRNA processing or modification.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4306711,
+          "original_index": 6,
+          "sentence": "Our findings identify DDX28 as essential during the early stages of mitoribosome mt-LSU biogenesis, a process that takes place mainly near the mitochondrial nucleoids, in the compartment defined by the RNA granules.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g0",
+        "g3"
+      ],
+      "claim": "Post-transcriptional handling of mitochondrial transcripts occurs in mitochondrial RNA granules.",
+      "evidence": [
+        {
+          "doc_id": 13931771,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "Our findings suggest that the foci containing GRSF1 and RNase P correspond to sites where primary RNA transcripts converge to be processed.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 935538,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "We show here that GRSF1, previously implicated in the binding and selective translation of influenza mRNAs, is targeted to mitochondria where it forms granules that colocalize with foci of newly synthesized mtRNA next to mitochondrial nucleoids.",
+          "kept": true,
+          "new_index": 1
+        },
+        {
+          "doc_id": 935538,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "These data implicate GRSF1 as a key regulator of posttranscriptional mitochondrial gene expression.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 4306711,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Here, we have identified the DEAD-box protein DDX28 as an RNA granule component essential for the biogenesis of the mitoribosome large subunit (mt-LSU).",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 4306711,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "Our findings identify DDX28 as essential during the early stages of mitoribosome mt-LSU biogenesis, a process that takes place mainly near the mitochondrial nucleoids, in the compartment defined by the RNA granules.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13931771,
+          "title": "GRSF1 Regulates RNA Processing in Mitochondrial RNA Granules",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Various specialized domains have been described in the cytosol and the nucleus; however, little is known about compartmentalization within the mitochondrial matrix."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "GRSF1 (G-rich sequence factor 1) is an RNA binding protein that was previously reported to localize in the cytosol."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We found that an isoform of GRSF1 accumulates in discrete foci in the mitochondrial matrix."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "These foci are composed of nascent mitochondrial RNA and also contain RNase P, an enzyme that participates in mitochondrial RNA processing."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "In its absence, cleavage of primary RNA transcripts is abnormal, leading to decreased expression of mitochondrially encoded proteins and mitochondrial dysfunction."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "We have termed these large ribonucleoprotein structures \"mitochondrial RNA granules."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "\""
+            }
+          ]
+        },
+        {
+          "doc_id": 935538,
+          "title": "The mitochondrial RNA-binding protein GRSF1 localizes to RNA granules and is required for posttranscriptional mitochondrial gene expression.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "RNA-binding proteins are at the heart of posttranscriptional gene regulation, coordinating the processing, storage, and handling of cellular RNAs."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We show here that GRSF1, previously implicated in the binding and selective translation of influenza mRNAs, is targeted to mitochondria where it forms granules that colocalize with foci of newly synthesized mtRNA next to mitochondrial nucleoids."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "GRSF1 preferentially binds RNAs transcribed from three contiguous genes on the light strand of mtDNA, the ND6 mRNA, and the long noncoding RNAs for cytb and ND5, each of which contains multiple consensus binding sequences."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "This results in a specific protein synthesis defect and a failure to assemble normal amounts of the oxidative phosphorylation complexes."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "These data implicate GRSF1 as a key regulator of posttranscriptional mitochondrial gene expression."
+            }
+          ]
+        },
+        {
+          "doc_id": 4306711,
+          "title": "The Human Mitochondrial DEAD-Box Protein DDX28 Resides in RNA Granules and Functions in Mitoribosome Assembly.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Human mitochondrial ribosomes are specialized in the synthesis of 13 proteins, which are fundamental components of the oxidative phosphorylation system."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The pathway of mitoribosome biogenesis, the compartmentalization of the process, and factors involved remain largely unknown."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here, we have identified the DEAD-box protein DDX28 as an RNA granule component essential for the biogenesis of the mitoribosome large subunit (mt-LSU)."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DDX28 interacts with the 16S rRNA and the mt-LSU."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "RNAi-mediated DDX28 silencing in HEK293T cells does not affect mitochondrial mRNA stability or 16S rRNA processing or modification."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 13931771,
+          "original_index": 4,
+          "sentence": "GRSF1 was found to interact with RNase P and to be required for processing of both classical and tRNA-less RNA precursors.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 13931771,
+          "original_index": 6,
+          "sentence": "Our findings suggest that the foci containing GRSF1 and RNase P correspond to sites where primary RNA transcripts converge to be processed.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 935538,
+          "original_index": 3,
+          "sentence": "RNAi-mediated knockdown of GRSF1 leads to alterations in mitochondrial RNA stability, abnormal loading of mRNAs and lncRNAs on the mitochondrial ribosome, and impaired ribosome assembly.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4306711,
+          "original_index": 5,
+          "sentence": "However, it leads to reduced levels of 16S rRNA and mt-LSU proteins, impaired mt-LSU assembly, deeply attenuated mitochondrial protein synthesis, and consequent failure to assemble oxidative phosphorylation complexes.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4306711,
+          "original_index": 6,
+          "sentence": "Our findings identify DDX28 as essential during the early stages of mitoribosome mt-LSU biogenesis, a process that takes place mainly near the mitochondrial nucleoids, in the compartment defined by the RNA granules.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_3_groups",
+      "dropped_group_ids": [
+        "g1",
+        "g2",
+        "g3"
+      ],
+      "claim": "Post-transcriptional handling of mitochondrial transcripts occurs in mitochondrial RNA granules.",
+      "evidence": [
+        {
+          "doc_id": 13931771,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "Our findings suggest that the foci containing GRSF1 and RNase P correspond to sites where primary RNA transcripts converge to be processed.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 935538,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "We show here that GRSF1, previously implicated in the binding and selective translation of influenza mRNAs, is targeted to mitochondria where it forms granules that colocalize with foci of newly synthesized mtRNA next to mitochondrial nucleoids.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 935538,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "These data implicate GRSF1 as a key regulator of posttranscriptional mitochondrial gene expression.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4306711,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Here, we have identified the DEAD-box protein DDX28 as an RNA granule component essential for the biogenesis of the mitoribosome large subunit (mt-LSU).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4306711,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "Our findings identify DDX28 as essential during the early stages of mitoribosome mt-LSU biogenesis, a process that takes place mainly near the mitochondrial nucleoids, in the compartment defined by the RNA granules.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13931771,
+          "title": "GRSF1 Regulates RNA Processing in Mitochondrial RNA Granules",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Various specialized domains have been described in the cytosol and the nucleus; however, little is known about compartmentalization within the mitochondrial matrix."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "GRSF1 (G-rich sequence factor 1) is an RNA binding protein that was previously reported to localize in the cytosol."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We found that an isoform of GRSF1 accumulates in discrete foci in the mitochondrial matrix."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "These foci are composed of nascent mitochondrial RNA and also contain RNase P, an enzyme that participates in mitochondrial RNA processing."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "GRSF1 was found to interact with RNase P and to be required for processing of both classical and tRNA-less RNA precursors."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "In its absence, cleavage of primary RNA transcripts is abnormal, leading to decreased expression of mitochondrially encoded proteins and mitochondrial dysfunction."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Our findings suggest that the foci containing GRSF1 and RNase P correspond to sites where primary RNA transcripts converge to be processed."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "We have termed these large ribonucleoprotein structures \"mitochondrial RNA granules."
+            }
+          ]
+        },
+        {
+          "doc_id": 935538,
+          "title": "The mitochondrial RNA-binding protein GRSF1 localizes to RNA granules and is required for posttranscriptional mitochondrial gene expression.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "RNA-binding proteins are at the heart of posttranscriptional gene regulation, coordinating the processing, storage, and handling of cellular RNAs."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "GRSF1 preferentially binds RNAs transcribed from three contiguous genes on the light strand of mtDNA, the ND6 mRNA, and the long noncoding RNAs for cytb and ND5, each of which contains multiple consensus binding sequences."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "RNAi-mediated knockdown of GRSF1 leads to alterations in mitochondrial RNA stability, abnormal loading of mRNAs and lncRNAs on the mitochondrial ribosome, and impaired ribosome assembly."
+            }
+          ]
+        },
+        {
+          "doc_id": 4306711,
+          "title": "The Human Mitochondrial DEAD-Box Protein DDX28 Resides in RNA Granules and Functions in Mitoribosome Assembly.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "The pathway of mitoribosome biogenesis, the compartmentalization of the process, and factors involved remain largely unknown."
+            },
+            {
+              "new_index": 1,
+              "original_index": 3,
+              "sentence": "DDX28 interacts with the 16S rRNA and the mt-LSU."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "RNAi-mediated DDX28 silencing in HEK293T cells does not affect mitochondrial mRNA stability or 16S rRNA processing or modification."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "However, it leads to reduced levels of 16S rRNA and mt-LSU proteins, impaired mt-LSU assembly, deeply attenuated mitochondrial protein synthesis, and consequent failure to assemble oxidative phosphorylation complexes."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 13931771,
+          "original_index": 8,
+          "sentence": "\"",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 935538,
+          "original_index": 1,
+          "sentence": "We show here that GRSF1, previously implicated in the binding and selective translation of influenza mRNAs, is targeted to mitochondria where it forms granules that colocalize with foci of newly synthesized mtRNA next to mitochondrial nucleoids.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 935538,
+          "original_index": 4,
+          "sentence": "This results in a specific protein synthesis defect and a failure to assemble normal amounts of the oxidative phosphorylation complexes.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 935538,
+          "original_index": 5,
+          "sentence": "These data implicate GRSF1 as a key regulator of posttranscriptional mitochondrial gene expression.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 4306711,
+          "original_index": 0,
+          "sentence": "Human mitochondrial ribosomes are specialized in the synthesis of 13 proteins, which are fundamental components of the oxidative phosphorylation system.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4306711,
+          "original_index": 2,
+          "sentence": "Here, we have identified the DEAD-box protein DDX28 as an RNA granule component essential for the biogenesis of the mitoribosome large subunit (mt-LSU).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 4306711,
+          "original_index": 6,
+          "sentence": "Our findings identify DDX28 as essential during the early stages of mitoribosome mt-LSU biogenesis, a process that takes place mainly near the mitochondrial nucleoids, in the compartment defined by the RNA granules.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2",
+        "g3"
+      ],
+      "claim": "Post-transcriptional handling of mitochondrial transcripts occurs in mitochondrial RNA granules.",
+      "evidence": [
+        {
+          "doc_id": 13931771,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "Our findings suggest that the foci containing GRSF1 and RNase P correspond to sites where primary RNA transcripts converge to be processed.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 935538,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 1,
+          "sentence": "We show here that GRSF1, previously implicated in the binding and selective translation of influenza mRNAs, is targeted to mitochondria where it forms granules that colocalize with foci of newly synthesized mtRNA next to mitochondrial nucleoids.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 935538,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "These data implicate GRSF1 as a key regulator of posttranscriptional mitochondrial gene expression.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4306711,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "Here, we have identified the DEAD-box protein DDX28 as an RNA granule component essential for the biogenesis of the mitoribosome large subunit (mt-LSU).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4306711,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "Our findings identify DDX28 as essential during the early stages of mitoribosome mt-LSU biogenesis, a process that takes place mainly near the mitochondrial nucleoids, in the compartment defined by the RNA granules.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13931771,
+          "title": "GRSF1 Regulates RNA Processing in Mitochondrial RNA Granules",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Various specialized domains have been described in the cytosol and the nucleus; however, little is known about compartmentalization within the mitochondrial matrix."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "GRSF1 (G-rich sequence factor 1) is an RNA binding protein that was previously reported to localize in the cytosol."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We found that an isoform of GRSF1 accumulates in discrete foci in the mitochondrial matrix."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "These foci are composed of nascent mitochondrial RNA and also contain RNase P, an enzyme that participates in mitochondrial RNA processing."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "GRSF1 was found to interact with RNase P and to be required for processing of both classical and tRNA-less RNA precursors."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "We have termed these large ribonucleoprotein structures \"mitochondrial RNA granules."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "\""
+            }
+          ]
+        },
+        {
+          "doc_id": 935538,
+          "title": "The mitochondrial RNA-binding protein GRSF1 localizes to RNA granules and is required for posttranscriptional mitochondrial gene expression.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "RNA-binding proteins are at the heart of posttranscriptional gene regulation, coordinating the processing, storage, and handling of cellular RNAs."
+            },
+            {
+              "new_index": 1,
+              "original_index": 3,
+              "sentence": "RNAi-mediated knockdown of GRSF1 leads to alterations in mitochondrial RNA stability, abnormal loading of mRNAs and lncRNAs on the mitochondrial ribosome, and impaired ribosome assembly."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "This results in a specific protein synthesis defect and a failure to assemble normal amounts of the oxidative phosphorylation complexes."
+            }
+          ]
+        },
+        {
+          "doc_id": 4306711,
+          "title": "The Human Mitochondrial DEAD-Box Protein DDX28 Resides in RNA Granules and Functions in Mitoribosome Assembly.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Human mitochondrial ribosomes are specialized in the synthesis of 13 proteins, which are fundamental components of the oxidative phosphorylation system."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The pathway of mitoribosome biogenesis, the compartmentalization of the process, and factors involved remain largely unknown."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "DDX28 interacts with the 16S rRNA and the mt-LSU."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "RNAi-mediated DDX28 silencing in HEK293T cells does not affect mitochondrial mRNA stability or 16S rRNA processing or modification."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 13931771,
+          "original_index": 5,
+          "sentence": "In its absence, cleavage of primary RNA transcripts is abnormal, leading to decreased expression of mitochondrially encoded proteins and mitochondrial dysfunction.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 13931771,
+          "original_index": 6,
+          "sentence": "Our findings suggest that the foci containing GRSF1 and RNase P correspond to sites where primary RNA transcripts converge to be processed.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 935538,
+          "original_index": 1,
+          "sentence": "We show here that GRSF1, previously implicated in the binding and selective translation of influenza mRNAs, is targeted to mitochondria where it forms granules that colocalize with foci of newly synthesized mtRNA next to mitochondrial nucleoids.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 935538,
+          "original_index": 2,
+          "sentence": "GRSF1 preferentially binds RNAs transcribed from three contiguous genes on the light strand of mtDNA, the ND6 mRNA, and the long noncoding RNAs for cytb and ND5, each of which contains multiple consensus binding sequences.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 935538,
+          "original_index": 5,
+          "sentence": "These data implicate GRSF1 as a key regulator of posttranscriptional mitochondrial gene expression.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 4306711,
+          "original_index": 2,
+          "sentence": "Here, we have identified the DEAD-box protein DDX28 as an RNA granule component essential for the biogenesis of the mitoribosome large subunit (mt-LSU).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 4306711,
+          "original_index": 5,
+          "sentence": "However, it leads to reduced levels of 16S rRNA and mt-LSU proteins, impaired mt-LSU assembly, deeply attenuated mitochondrial protein synthesis, and consequent failure to assemble oxidative phosphorylation complexes.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4306711,
+          "original_index": 6,
+          "sentence": "Our findings identify DDX28 as essential during the early stages of mitoribosome mt-LSU biogenesis, a process that takes place mainly near the mitochondrial nucleoids, in the compartment defined by the RNA granules.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

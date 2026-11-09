@@ -1,0 +1,58 @@
+{
+  "id": 365,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "ER-localized phosphatase Sac1 processes PI4P through coordination with OSBP and the endosome-localized protein sorting nexin 2.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 600437,
+          "title": "Endosome-ER Contacts Control Actin Nucleation and Retromer Function through VAP-Dependent Regulation of PI4P",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "VAP (VAPA and VAPB) is an evolutionarily conserved endoplasmic reticulum (ER)-anchored protein that helps generate tethers between the ER and other membranes through which lipids are exchanged across adjacent bilayers."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here, we report that by regulating PI4P levels on endosomes, VAP affects WASH-dependent actin nucleation on these organelles and the function of the retromer, a protein coat responsible for endosome-to-Golgi traffic."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "VAP is recruited to retromer budding sites on endosomes via an interaction with the retromer SNX2 subunit."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Cells lacking VAP accumulate high levels of PI4P, actin comets, and trans-Golgi proteins on endosomes."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Such defects are mimicked by downregulation of OSBP, a VAP interactor and PI4P transporter that participates in VAP-dependent ER-endosomes tethers."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "These results reveal a role of PI4P in retromer-/WASH-dependent budding from endosomes."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Collectively, our data show how the ER can control budding dynamics and association with the cytoskeleton of another membrane by direct contacts leading to bilayer lipid modifications."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

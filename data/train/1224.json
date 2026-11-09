@@ -1,0 +1,1137 @@
+{
+  "id": 1224,
+  "origin": "train_more",
+  "n_groups": 7,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The latent infection of myeloid cells with human cytomegalovirus induces a number of changes in gene expression.",
+      "evidence": [
+        {
+          "doc_id": 21932050,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Microarray-based studies of HCMV have provided useful information about genes that are transcriptionally active during both productive and latent phases of infection.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "We found that HCMV significantly up-regulated 583 (5.2%) of the total genes and down-regulated 621 (5.5%) of the total genes>or=1.5-fold at 4 h postinfection.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Further ontology analysis revealed that genes implicated in classical M1 macrophage activation were stimulated by HCMV infection.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "We found that 65% of genes strictly associated with M1 polarization were up-regulated, while only 4% of genes solely associated with M2 polarization were up-regulated.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "Analysis of the monocyte chemokinome at the transcriptional level showed that 44% of M1 and 33% of M2 macrophage chemokines were up-regulated.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Overall, the results identify that the HCMV-infected monocyte transcriptome displayed a unique M1/M2 polarization signature that was skewed toward the classical M1 activation phenotype.",
+          "kept": true,
+          "new_index": 9
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 21932050,
+          "title": "Microarrays for the study of viral gene expression during human cytomegalovirus latent infection.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Human cytomegalovirus (HCMV) is one of the largest known DNA viruses."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "It is ubiquitous, and following resolution of primary productive infection, it persists in the human host by establishing a lifelong latent infection in myeloid lineage cells such as monocytes and their progenitors."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Most adults with HCMV infection are healthy but it can cause neurologic deficits in infants, and remains an important cause of morbidity and mortality in the immunosuppressed patient."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Microarray-based studies of HCMV have provided useful information about genes that are transcriptionally active during both productive and latent phases of infection."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "This chapter describes how to study genes in HCMV using microarrays and two cell types (productively infected human foreskin fibroblasts, and latently infected primary human myeloid progenitor cells)."
+            }
+          ]
+        },
+        {
+          "doc_id": 34016987,
+          "title": "Transcriptome analysis reveals human cytomegalovirus reprograms monocyte differentiation toward an M1 macrophage.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Monocytes are primary targets for human CMV (HCMV) infection and are proposed to be responsible for hematogenous dissemination of the virus."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Monocytes acquire different functional traits during polarization to the classical proinflammatory M1 macrophage or the alternative antiinflammatory M2 macrophage."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We hypothesized that HCMV induced a proinflammatory M1 macrophage following infection to promote viral dissemination because, biologically, a proinflammatory state provides the tools to drive infected monocytes from the blood into the tissue."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "To test this hypothesis of monocyte conversion from a normal quiescent phenotype to an inflammatory phenotype, we used Affymetrix Microarray to acquire a transcriptional profile of infected monocytes at a time point our data emphasized is a key temporal regulatory point following infection."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We found that HCMV significantly up-regulated 583 (5.2%) of the total genes and down-regulated 621 (5.5%) of the total genes>or=1.5-fold at 4 h postinfection."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Further ontology analysis revealed that genes implicated in classical M1 macrophage activation were stimulated by HCMV infection."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "We found that 65% of genes strictly associated with M1 polarization were up-regulated, while only 4% of genes solely associated with M2 polarization were up-regulated."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Analysis of the monocyte chemokinome at the transcriptional level showed that 44% of M1 and 33% of M2 macrophage chemokines were up-regulated."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Proteomic analysis using chemokine Ab arrays confirmed the secretion of these chemotactic proteins from HCMV-infected monocytes."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Overall, the results identify that the HCMV-infected monocyte transcriptome displayed a unique M1/M2 polarization signature that was skewed toward the classical M1 activation phenotype."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g2"
+      ],
+      "claim": "The latent infection of myeloid cells with human cytomegalovirus induces a number of changes in gene expression.",
+      "evidence": [
+        {
+          "doc_id": 21932050,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Microarray-based studies of HCMV have provided useful information about genes that are transcriptionally active during both productive and latent phases of infection.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "We found that HCMV significantly up-regulated 583 (5.2%) of the total genes and down-regulated 621 (5.5%) of the total genes>or=1.5-fold at 4 h postinfection.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Further ontology analysis revealed that genes implicated in classical M1 macrophage activation were stimulated by HCMV infection.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "We found that 65% of genes strictly associated with M1 polarization were up-regulated, while only 4% of genes solely associated with M2 polarization were up-regulated.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "Analysis of the monocyte chemokinome at the transcriptional level showed that 44% of M1 and 33% of M2 macrophage chemokines were up-regulated.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Overall, the results identify that the HCMV-infected monocyte transcriptome displayed a unique M1/M2 polarization signature that was skewed toward the classical M1 activation phenotype.",
+          "kept": true,
+          "new_index": 7
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 21932050,
+          "title": "Microarrays for the study of viral gene expression during human cytomegalovirus latent infection.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "It is ubiquitous, and following resolution of primary productive infection, it persists in the human host by establishing a lifelong latent infection in myeloid lineage cells such as monocytes and their progenitors."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Most adults with HCMV infection are healthy but it can cause neurologic deficits in infants, and remains an important cause of morbidity and mortality in the immunosuppressed patient."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Microarray-based studies of HCMV have provided useful information about genes that are transcriptionally active during both productive and latent phases of infection."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "This chapter describes how to study genes in HCMV using microarrays and two cell types (productively infected human foreskin fibroblasts, and latently infected primary human myeloid progenitor cells)."
+            }
+          ]
+        },
+        {
+          "doc_id": 34016987,
+          "title": "Transcriptome analysis reveals human cytomegalovirus reprograms monocyte differentiation toward an M1 macrophage.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Monocytes are primary targets for human CMV (HCMV) infection and are proposed to be responsible for hematogenous dissemination of the virus."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "We hypothesized that HCMV induced a proinflammatory M1 macrophage following infection to promote viral dissemination because, biologically, a proinflammatory state provides the tools to drive infected monocytes from the blood into the tissue."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "To test this hypothesis of monocyte conversion from a normal quiescent phenotype to an inflammatory phenotype, we used Affymetrix Microarray to acquire a transcriptional profile of infected monocytes at a time point our data emphasized is a key temporal regulatory point following infection."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "We found that HCMV significantly up-regulated 583 (5.2%) of the total genes and down-regulated 621 (5.5%) of the total genes>or=1.5-fold at 4 h postinfection."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "We found that 65% of genes strictly associated with M1 polarization were up-regulated, while only 4% of genes solely associated with M2 polarization were up-regulated."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Analysis of the monocyte chemokinome at the transcriptional level showed that 44% of M1 and 33% of M2 macrophage chemokines were up-regulated."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "Proteomic analysis using chemokine Ab arrays confirmed the secretion of these chemotactic proteins from HCMV-infected monocytes."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Overall, the results identify that the HCMV-infected monocyte transcriptome displayed a unique M1/M2 polarization signature that was skewed toward the classical M1 activation phenotype."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 21932050,
+          "original_index": 0,
+          "sentence": "Human cytomegalovirus (HCMV) is one of the largest known DNA viruses.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 34016987,
+          "original_index": 1,
+          "sentence": "Monocytes acquire different functional traits during polarization to the classical proinflammatory M1 macrophage or the alternative antiinflammatory M2 macrophage.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 34016987,
+          "original_index": 5,
+          "sentence": "Further ontology analysis revealed that genes implicated in classical M1 macrophage activation were stimulated by HCMV infection.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g5",
+        "g4"
+      ],
+      "claim": "The latent infection of myeloid cells with human cytomegalovirus induces a number of changes in gene expression.",
+      "evidence": [
+        {
+          "doc_id": 21932050,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Microarray-based studies of HCMV have provided useful information about genes that are transcriptionally active during both productive and latent phases of infection.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "We found that HCMV significantly up-regulated 583 (5.2%) of the total genes and down-regulated 621 (5.5%) of the total genes>or=1.5-fold at 4 h postinfection.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Further ontology analysis revealed that genes implicated in classical M1 macrophage activation were stimulated by HCMV infection.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "We found that 65% of genes strictly associated with M1 polarization were up-regulated, while only 4% of genes solely associated with M2 polarization were up-regulated.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "Analysis of the monocyte chemokinome at the transcriptional level showed that 44% of M1 and 33% of M2 macrophage chemokines were up-regulated.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Overall, the results identify that the HCMV-infected monocyte transcriptome displayed a unique M1/M2 polarization signature that was skewed toward the classical M1 activation phenotype.",
+          "kept": true,
+          "new_index": 6
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 21932050,
+          "title": "Microarrays for the study of viral gene expression during human cytomegalovirus latent infection.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "It is ubiquitous, and following resolution of primary productive infection, it persists in the human host by establishing a lifelong latent infection in myeloid lineage cells such as monocytes and their progenitors."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Most adults with HCMV infection are healthy but it can cause neurologic deficits in infants, and remains an important cause of morbidity and mortality in the immunosuppressed patient."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Microarray-based studies of HCMV have provided useful information about genes that are transcriptionally active during both productive and latent phases of infection."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "This chapter describes how to study genes in HCMV using microarrays and two cell types (productively infected human foreskin fibroblasts, and latently infected primary human myeloid progenitor cells)."
+            }
+          ]
+        },
+        {
+          "doc_id": 34016987,
+          "title": "Transcriptome analysis reveals human cytomegalovirus reprograms monocyte differentiation toward an M1 macrophage.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "Monocytes acquire different functional traits during polarization to the classical proinflammatory M1 macrophage or the alternative antiinflammatory M2 macrophage."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "We hypothesized that HCMV induced a proinflammatory M1 macrophage following infection to promote viral dissemination because, biologically, a proinflammatory state provides the tools to drive infected monocytes from the blood into the tissue."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "To test this hypothesis of monocyte conversion from a normal quiescent phenotype to an inflammatory phenotype, we used Affymetrix Microarray to acquire a transcriptional profile of infected monocytes at a time point our data emphasized is a key temporal regulatory point following infection."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "We found that HCMV significantly up-regulated 583 (5.2%) of the total genes and down-regulated 621 (5.5%) of the total genes>or=1.5-fold at 4 h postinfection."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Further ontology analysis revealed that genes implicated in classical M1 macrophage activation were stimulated by HCMV infection."
+            },
+            {
+              "new_index": 5,
+              "original_index": 8,
+              "sentence": "Proteomic analysis using chemokine Ab arrays confirmed the secretion of these chemotactic proteins from HCMV-infected monocytes."
+            },
+            {
+              "new_index": 6,
+              "original_index": 9,
+              "sentence": "Overall, the results identify that the HCMV-infected monocyte transcriptome displayed a unique M1/M2 polarization signature that was skewed toward the classical M1 activation phenotype."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 21932050,
+          "original_index": 0,
+          "sentence": "Human cytomegalovirus (HCMV) is one of the largest known DNA viruses.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 34016987,
+          "original_index": 0,
+          "sentence": "Monocytes are primary targets for human CMV (HCMV) infection and are proposed to be responsible for hematogenous dissemination of the virus.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 34016987,
+          "original_index": 6,
+          "sentence": "We found that 65% of genes strictly associated with M1 polarization were up-regulated, while only 4% of genes solely associated with M2 polarization were up-regulated.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 34016987,
+          "original_index": 7,
+          "sentence": "Analysis of the monocyte chemokinome at the transcriptional level showed that 44% of M1 and 33% of M2 macrophage chemokines were up-regulated.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_3_groups",
+      "dropped_group_ids": [
+        "g1",
+        "g4",
+        "g5"
+      ],
+      "claim": "The latent infection of myeloid cells with human cytomegalovirus induces a number of changes in gene expression.",
+      "evidence": [
+        {
+          "doc_id": 21932050,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Microarray-based studies of HCMV have provided useful information about genes that are transcriptionally active during both productive and latent phases of infection.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "We found that HCMV significantly up-regulated 583 (5.2%) of the total genes and down-regulated 621 (5.5%) of the total genes>or=1.5-fold at 4 h postinfection.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Further ontology analysis revealed that genes implicated in classical M1 macrophage activation were stimulated by HCMV infection.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "We found that 65% of genes strictly associated with M1 polarization were up-regulated, while only 4% of genes solely associated with M2 polarization were up-regulated.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "Analysis of the monocyte chemokinome at the transcriptional level showed that 44% of M1 and 33% of M2 macrophage chemokines were up-regulated.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Overall, the results identify that the HCMV-infected monocyte transcriptome displayed a unique M1/M2 polarization signature that was skewed toward the classical M1 activation phenotype.",
+          "kept": true,
+          "new_index": 5
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 21932050,
+          "title": "Microarrays for the study of viral gene expression during human cytomegalovirus latent infection.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Human cytomegalovirus (HCMV) is one of the largest known DNA viruses."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Most adults with HCMV infection are healthy but it can cause neurologic deficits in infants, and remains an important cause of morbidity and mortality in the immunosuppressed patient."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Microarray-based studies of HCMV have provided useful information about genes that are transcriptionally active during both productive and latent phases of infection."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "This chapter describes how to study genes in HCMV using microarrays and two cell types (productively infected human foreskin fibroblasts, and latently infected primary human myeloid progenitor cells)."
+            }
+          ]
+        },
+        {
+          "doc_id": 34016987,
+          "title": "Transcriptome analysis reveals human cytomegalovirus reprograms monocyte differentiation toward an M1 macrophage.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Monocytes are primary targets for human CMV (HCMV) infection and are proposed to be responsible for hematogenous dissemination of the virus."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Monocytes acquire different functional traits during polarization to the classical proinflammatory M1 macrophage or the alternative antiinflammatory M2 macrophage."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "To test this hypothesis of monocyte conversion from a normal quiescent phenotype to an inflammatory phenotype, we used Affymetrix Microarray to acquire a transcriptional profile of infected monocytes at a time point our data emphasized is a key temporal regulatory point following infection."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Further ontology analysis revealed that genes implicated in classical M1 macrophage activation were stimulated by HCMV infection."
+            },
+            {
+              "new_index": 4,
+              "original_index": 8,
+              "sentence": "Proteomic analysis using chemokine Ab arrays confirmed the secretion of these chemotactic proteins from HCMV-infected monocytes."
+            },
+            {
+              "new_index": 5,
+              "original_index": 9,
+              "sentence": "Overall, the results identify that the HCMV-infected monocyte transcriptome displayed a unique M1/M2 polarization signature that was skewed toward the classical M1 activation phenotype."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 21932050,
+          "original_index": 1,
+          "sentence": "It is ubiquitous, and following resolution of primary productive infection, it persists in the human host by establishing a lifelong latent infection in myeloid lineage cells such as monocytes and their progenitors.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 34016987,
+          "original_index": 2,
+          "sentence": "We hypothesized that HCMV induced a proinflammatory M1 macrophage following infection to promote viral dissemination because, biologically, a proinflammatory state provides the tools to drive infected monocytes from the blood into the tissue.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 34016987,
+          "original_index": 4,
+          "sentence": "We found that HCMV significantly up-regulated 583 (5.2%) of the total genes and down-regulated 621 (5.5%) of the total genes>or=1.5-fold at 4 h postinfection.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 34016987,
+          "original_index": 6,
+          "sentence": "We found that 65% of genes strictly associated with M1 polarization were up-regulated, while only 4% of genes solely associated with M2 polarization were up-regulated.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 34016987,
+          "original_index": 7,
+          "sentence": "Analysis of the monocyte chemokinome at the transcriptional level showed that 44% of M1 and 33% of M2 macrophage chemokines were up-regulated.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_4_groups",
+      "dropped_group_ids": [
+        "g2",
+        "g5",
+        "g0",
+        "g1"
+      ],
+      "claim": "The latent infection of myeloid cells with human cytomegalovirus induces a number of changes in gene expression.",
+      "evidence": [
+        {
+          "doc_id": 21932050,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Microarray-based studies of HCMV have provided useful information about genes that are transcriptionally active during both productive and latent phases of infection.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "We found that HCMV significantly up-regulated 583 (5.2%) of the total genes and down-regulated 621 (5.5%) of the total genes>or=1.5-fold at 4 h postinfection.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Further ontology analysis revealed that genes implicated in classical M1 macrophage activation were stimulated by HCMV infection.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "We found that 65% of genes strictly associated with M1 polarization were up-regulated, while only 4% of genes solely associated with M2 polarization were up-regulated.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "Analysis of the monocyte chemokinome at the transcriptional level showed that 44% of M1 and 33% of M2 macrophage chemokines were up-regulated.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Overall, the results identify that the HCMV-infected monocyte transcriptome displayed a unique M1/M2 polarization signature that was skewed toward the classical M1 activation phenotype.",
+          "kept": true,
+          "new_index": 5
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 21932050,
+          "title": "Microarrays for the study of viral gene expression during human cytomegalovirus latent infection.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Human cytomegalovirus (HCMV) is one of the largest known DNA viruses."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "It is ubiquitous, and following resolution of primary productive infection, it persists in the human host by establishing a lifelong latent infection in myeloid lineage cells such as monocytes and their progenitors."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "This chapter describes how to study genes in HCMV using microarrays and two cell types (productively infected human foreskin fibroblasts, and latently infected primary human myeloid progenitor cells)."
+            }
+          ]
+        },
+        {
+          "doc_id": 34016987,
+          "title": "Transcriptome analysis reveals human cytomegalovirus reprograms monocyte differentiation toward an M1 macrophage.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "Monocytes acquire different functional traits during polarization to the classical proinflammatory M1 macrophage or the alternative antiinflammatory M2 macrophage."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "We hypothesized that HCMV induced a proinflammatory M1 macrophage following infection to promote viral dissemination because, biologically, a proinflammatory state provides the tools to drive infected monocytes from the blood into the tissue."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "To test this hypothesis of monocyte conversion from a normal quiescent phenotype to an inflammatory phenotype, we used Affymetrix Microarray to acquire a transcriptional profile of infected monocytes at a time point our data emphasized is a key temporal regulatory point following infection."
+            },
+            {
+              "new_index": 3,
+              "original_index": 6,
+              "sentence": "We found that 65% of genes strictly associated with M1 polarization were up-regulated, while only 4% of genes solely associated with M2 polarization were up-regulated."
+            },
+            {
+              "new_index": 4,
+              "original_index": 8,
+              "sentence": "Proteomic analysis using chemokine Ab arrays confirmed the secretion of these chemotactic proteins from HCMV-infected monocytes."
+            },
+            {
+              "new_index": 5,
+              "original_index": 9,
+              "sentence": "Overall, the results identify that the HCMV-infected monocyte transcriptome displayed a unique M1/M2 polarization signature that was skewed toward the classical M1 activation phenotype."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 21932050,
+          "original_index": 2,
+          "sentence": "Most adults with HCMV infection are healthy but it can cause neurologic deficits in infants, and remains an important cause of morbidity and mortality in the immunosuppressed patient.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 21932050,
+          "original_index": 3,
+          "sentence": "Microarray-based studies of HCMV have provided useful information about genes that are transcriptionally active during both productive and latent phases of infection.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 34016987,
+          "original_index": 0,
+          "sentence": "Monocytes are primary targets for human CMV (HCMV) infection and are proposed to be responsible for hematogenous dissemination of the virus.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 34016987,
+          "original_index": 4,
+          "sentence": "We found that HCMV significantly up-regulated 583 (5.2%) of the total genes and down-regulated 621 (5.5%) of the total genes>or=1.5-fold at 4 h postinfection.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 34016987,
+          "original_index": 5,
+          "sentence": "Further ontology analysis revealed that genes implicated in classical M1 macrophage activation were stimulated by HCMV infection.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 34016987,
+          "original_index": 7,
+          "sentence": "Analysis of the monocyte chemokinome at the transcriptional level showed that 44% of M1 and 33% of M2 macrophage chemokines were up-regulated.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_5_groups",
+      "dropped_group_ids": [
+        "g0",
+        "g4",
+        "g1",
+        "g2",
+        "g5"
+      ],
+      "claim": "The latent infection of myeloid cells with human cytomegalovirus induces a number of changes in gene expression.",
+      "evidence": [
+        {
+          "doc_id": 21932050,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Microarray-based studies of HCMV have provided useful information about genes that are transcriptionally active during both productive and latent phases of infection.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "We found that HCMV significantly up-regulated 583 (5.2%) of the total genes and down-regulated 621 (5.5%) of the total genes>or=1.5-fold at 4 h postinfection.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Further ontology analysis revealed that genes implicated in classical M1 macrophage activation were stimulated by HCMV infection.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "We found that 65% of genes strictly associated with M1 polarization were up-regulated, while only 4% of genes solely associated with M2 polarization were up-regulated.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "Analysis of the monocyte chemokinome at the transcriptional level showed that 44% of M1 and 33% of M2 macrophage chemokines were up-regulated.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Overall, the results identify that the HCMV-infected monocyte transcriptome displayed a unique M1/M2 polarization signature that was skewed toward the classical M1 activation phenotype.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 21932050,
+          "title": "Microarrays for the study of viral gene expression during human cytomegalovirus latent infection.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "It is ubiquitous, and following resolution of primary productive infection, it persists in the human host by establishing a lifelong latent infection in myeloid lineage cells such as monocytes and their progenitors."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Most adults with HCMV infection are healthy but it can cause neurologic deficits in infants, and remains an important cause of morbidity and mortality in the immunosuppressed patient."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "This chapter describes how to study genes in HCMV using microarrays and two cell types (productively infected human foreskin fibroblasts, and latently infected primary human myeloid progenitor cells)."
+            }
+          ]
+        },
+        {
+          "doc_id": 34016987,
+          "title": "Transcriptome analysis reveals human cytomegalovirus reprograms monocyte differentiation toward an M1 macrophage.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "Monocytes acquire different functional traits during polarization to the classical proinflammatory M1 macrophage or the alternative antiinflammatory M2 macrophage."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "We hypothesized that HCMV induced a proinflammatory M1 macrophage following infection to promote viral dissemination because, biologically, a proinflammatory state provides the tools to drive infected monocytes from the blood into the tissue."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "To test this hypothesis of monocyte conversion from a normal quiescent phenotype to an inflammatory phenotype, we used Affymetrix Microarray to acquire a transcriptional profile of infected monocytes at a time point our data emphasized is a key temporal regulatory point following infection."
+            },
+            {
+              "new_index": 3,
+              "original_index": 8,
+              "sentence": "Proteomic analysis using chemokine Ab arrays confirmed the secretion of these chemotactic proteins from HCMV-infected monocytes."
+            },
+            {
+              "new_index": 4,
+              "original_index": 9,
+              "sentence": "Overall, the results identify that the HCMV-infected monocyte transcriptome displayed a unique M1/M2 polarization signature that was skewed toward the classical M1 activation phenotype."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 21932050,
+          "original_index": 0,
+          "sentence": "Human cytomegalovirus (HCMV) is one of the largest known DNA viruses.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 21932050,
+          "original_index": 3,
+          "sentence": "Microarray-based studies of HCMV have provided useful information about genes that are transcriptionally active during both productive and latent phases of infection.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 34016987,
+          "original_index": 0,
+          "sentence": "Monocytes are primary targets for human CMV (HCMV) infection and are proposed to be responsible for hematogenous dissemination of the virus.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 34016987,
+          "original_index": 4,
+          "sentence": "We found that HCMV significantly up-regulated 583 (5.2%) of the total genes and down-regulated 621 (5.5%) of the total genes>or=1.5-fold at 4 h postinfection.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 34016987,
+          "original_index": 5,
+          "sentence": "Further ontology analysis revealed that genes implicated in classical M1 macrophage activation were stimulated by HCMV infection.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 34016987,
+          "original_index": 6,
+          "sentence": "We found that 65% of genes strictly associated with M1 polarization were up-regulated, while only 4% of genes solely associated with M2 polarization were up-regulated.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 34016987,
+          "original_index": 7,
+          "sentence": "Analysis of the monocyte chemokinome at the transcriptional level showed that 44% of M1 and 33% of M2 macrophage chemokines were up-regulated.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5"
+      ],
+      "claim": "The latent infection of myeloid cells with human cytomegalovirus induces a number of changes in gene expression.",
+      "evidence": [
+        {
+          "doc_id": 21932050,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "Microarray-based studies of HCMV have provided useful information about genes that are transcriptionally active during both productive and latent phases of infection.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "We found that HCMV significantly up-regulated 583 (5.2%) of the total genes and down-regulated 621 (5.5%) of the total genes>or=1.5-fold at 4 h postinfection.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Further ontology analysis revealed that genes implicated in classical M1 macrophage activation were stimulated by HCMV infection.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g4",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "We found that 65% of genes strictly associated with M1 polarization were up-regulated, while only 4% of genes solely associated with M2 polarization were up-regulated.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g5",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 7,
+          "sentence": "Analysis of the monocyte chemokinome at the transcriptional level showed that 44% of M1 and 33% of M2 macrophage chemokines were up-regulated.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 34016987,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT",
+          "original_index": 9,
+          "sentence": "Overall, the results identify that the HCMV-infected monocyte transcriptome displayed a unique M1/M2 polarization signature that was skewed toward the classical M1 activation phenotype.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 21932050,
+          "title": "Microarrays for the study of viral gene expression during human cytomegalovirus latent infection.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "It is ubiquitous, and following resolution of primary productive infection, it persists in the human host by establishing a lifelong latent infection in myeloid lineage cells such as monocytes and their progenitors."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Most adults with HCMV infection are healthy but it can cause neurologic deficits in infants, and remains an important cause of morbidity and mortality in the immunosuppressed patient."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "This chapter describes how to study genes in HCMV using microarrays and two cell types (productively infected human foreskin fibroblasts, and latently infected primary human myeloid progenitor cells)."
+            }
+          ]
+        },
+        {
+          "doc_id": 34016987,
+          "title": "Transcriptome analysis reveals human cytomegalovirus reprograms monocyte differentiation toward an M1 macrophage.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Monocytes are primary targets for human CMV (HCMV) infection and are proposed to be responsible for hematogenous dissemination of the virus."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Monocytes acquire different functional traits during polarization to the classical proinflammatory M1 macrophage or the alternative antiinflammatory M2 macrophage."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "To test this hypothesis of monocyte conversion from a normal quiescent phenotype to an inflammatory phenotype, we used Affymetrix Microarray to acquire a transcriptional profile of infected monocytes at a time point our data emphasized is a key temporal regulatory point following infection."
+            },
+            {
+              "new_index": 3,
+              "original_index": 8,
+              "sentence": "Proteomic analysis using chemokine Ab arrays confirmed the secretion of these chemotactic proteins from HCMV-infected monocytes."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 21932050,
+          "original_index": 0,
+          "sentence": "Human cytomegalovirus (HCMV) is one of the largest known DNA viruses.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 21932050,
+          "original_index": 3,
+          "sentence": "Microarray-based studies of HCMV have provided useful information about genes that are transcriptionally active during both productive and latent phases of infection.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 34016987,
+          "original_index": 2,
+          "sentence": "We hypothesized that HCMV induced a proinflammatory M1 macrophage following infection to promote viral dissemination because, biologically, a proinflammatory state provides the tools to drive infected monocytes from the blood into the tissue.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 34016987,
+          "original_index": 4,
+          "sentence": "We found that HCMV significantly up-regulated 583 (5.2%) of the total genes and down-regulated 621 (5.5%) of the total genes>or=1.5-fold at 4 h postinfection.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 34016987,
+          "original_index": 5,
+          "sentence": "Further ontology analysis revealed that genes implicated in classical M1 macrophage activation were stimulated by HCMV infection.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 34016987,
+          "original_index": 6,
+          "sentence": "We found that 65% of genes strictly associated with M1 polarization were up-regulated, while only 4% of genes solely associated with M2 polarization were up-regulated.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 34016987,
+          "original_index": 7,
+          "sentence": "Analysis of the monocyte chemokinome at the transcriptional level showed that 44% of M1 and 33% of M2 macrophage chemokines were up-regulated.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 34016987,
+          "original_index": 9,
+          "sentence": "Overall, the results identify that the HCMV-infected monocyte transcriptome displayed a unique M1/M2 polarization signature that was skewed toward the classical M1 activation phenotype.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

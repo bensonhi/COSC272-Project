@@ -1,0 +1,351 @@
+{
+  "id": 368,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Early patent ductus ateriosus (PDA) screening increases in-hospital mortality.",
+      "evidence": [
+        {
+          "doc_id": 27099731,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "Exposed infants had a lower hospital death rate (14.2% vs 18.5% ; OR, 0.73 [95% CI, 0.54 to 0.98]; ARR, 4.3 [95% CI, 0.3 to 8.3]) and a lower rate of pulmonary hemorrhage (5.6% vs 8.9%; OR, 0.60 [95% CI, 0.38 to 0.95]; ARR, 3.3 [95% CI, 0.4 to 6.3]).",
+          "kept": true,
+          "new_index": 10
+        },
+        {
+          "doc_id": 27099731,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 13,
+          "sentence": "CONCLUSIONS AND RELEVANCE In this national population-based cohort of extremely preterm infants, screening echocardiography before day 3 of life was associated with lower in-hospital mortality and likelihood of pulmonary hemorrhage but not with differences in necrotizing enterocolitis, severe bronchopulmonary dysplasia, or severe cerebral lesions.",
+          "kept": true,
+          "new_index": 13
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 27099731,
+          "title": "Association Between Early Screening for Patent Ductus Arteriosus and In-Hospital Mortality Among Extremely Preterm Infants.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "IMPORTANCE There is currently no consensus for the screening and treatment of patent ductus arteriosus (PDA) in extremely preterm infants."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Less pharmacological closure and more supportive management have been observed without evidence to support these changes.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To evaluate the association between early screening echocardiography for PDA and in-hospital mortality.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Comparison of screened and not screened preterm infants enrolled in the EPIPAGE 2 national prospective population-based cohort study that included all preterm infants born at less than 29 weeks of gestation and hospitalized in 68 neonatal intensive care units in France from April through December 2011."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Two main analyses were performed to adjust for potential selection bias, one using propensity score matching and one using neonatal unit preference for early screening echocardiography as an instrumental variable.   "
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "EXPOSURES Early screening echocardiography before day 3 of life.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "MAIN OUTCOMES AND MEASURES The primary outcome was death between day 3 and discharge."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "The secondary outcomes were major neonatal morbidities (pulmonary hemorrhage, severe bronchopulmonary dysplasia, severe cerebral lesions, and necrotizing enterocolitis).   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "RESULTS Among the 1513 preterm infants with data available to determine exposure, 847 were screened for PDA and 666 were not; 605 infants from each group could be paired."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Exposed infants were treated for PDA more frequently during their hospitalization than nonexposed infants (55.1% vs 43.1%; odds ratio [OR], 1.62 [95% CI, 1.31 to 2.00]; absolute risk reduction [ARR] in events per 100 infants, -12.0 [95% CI, -17.3 to -6.7)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Exposed infants had a lower hospital death rate (14.2% vs 18.5% ; OR, 0.73 [95% CI, 0.54 to 0.98]; ARR, 4.3 [95% CI, 0.3 to 8.3]) and a lower rate of pulmonary hemorrhage (5.6% vs 8.9%; OR, 0.60 [95% CI, 0.38 to 0.95]; ARR, 3.3 [95% CI, 0.4 to 6.3])."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "No differences in rates of necrotizing enterocolitis, severe bronchopulmonary dysplasia, or severe cerebral lesions were observed."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "In the overall cohort, instrumental variable analysis yielded an adjusted OR for in-hospital mortality of 0.62 [95% CI, 0.37 to 1.04].   \n"
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "CONCLUSIONS AND RELEVANCE In this national population-based cohort of extremely preterm infants, screening echocardiography before day 3 of life was associated with lower in-hospital mortality and likelihood of pulmonary hemorrhage but not with differences in necrotizing enterocolitis, severe bronchopulmonary dysplasia, or severe cerebral lesions."
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "However, results of the instrumental variable analysis leave some ambiguity in the interpretation, and longer-term evaluation is needed to provide clarity."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Early patent ductus ateriosus (PDA) screening increases in-hospital mortality.",
+      "evidence": [
+        {
+          "doc_id": 27099731,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "Exposed infants had a lower hospital death rate (14.2% vs 18.5% ; OR, 0.73 [95% CI, 0.54 to 0.98]; ARR, 4.3 [95% CI, 0.3 to 8.3]) and a lower rate of pulmonary hemorrhage (5.6% vs 8.9%; OR, 0.60 [95% CI, 0.38 to 0.95]; ARR, 3.3 [95% CI, 0.4 to 6.3]).",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 27099731,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 13,
+          "sentence": "CONCLUSIONS AND RELEVANCE In this national population-based cohort of extremely preterm infants, screening echocardiography before day 3 of life was associated with lower in-hospital mortality and likelihood of pulmonary hemorrhage but not with differences in necrotizing enterocolitis, severe bronchopulmonary dysplasia, or severe cerebral lesions.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 27099731,
+          "title": "Association Between Early Screening for Patent Ductus Arteriosus and In-Hospital Mortality Among Extremely Preterm Infants.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "IMPORTANCE There is currently no consensus for the screening and treatment of patent ductus arteriosus (PDA) in extremely preterm infants."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To evaluate the association between early screening echocardiography for PDA and in-hospital mortality.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Comparison of screened and not screened preterm infants enrolled in the EPIPAGE 2 national prospective population-based cohort study that included all preterm infants born at less than 29 weeks of gestation and hospitalized in 68 neonatal intensive care units in France from April through December 2011."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Two main analyses were performed to adjust for potential selection bias, one using propensity score matching and one using neonatal unit preference for early screening echocardiography as an instrumental variable.   "
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "EXPOSURES Early screening echocardiography before day 3 of life.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "The secondary outcomes were major neonatal morbidities (pulmonary hemorrhage, severe bronchopulmonary dysplasia, severe cerebral lesions, and necrotizing enterocolitis).   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "RESULTS Among the 1513 preterm infants with data available to determine exposure, 847 were screened for PDA and 666 were not; 605 infants from each group could be paired."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Exposed infants were treated for PDA more frequently during their hospitalization than nonexposed infants (55.1% vs 43.1%; odds ratio [OR], 1.62 [95% CI, 1.31 to 2.00]; absolute risk reduction [ARR] in events per 100 infants, -12.0 [95% CI, -17.3 to -6.7)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "Exposed infants had a lower hospital death rate (14.2% vs 18.5% ; OR, 0.73 [95% CI, 0.54 to 0.98]; ARR, 4.3 [95% CI, 0.3 to 8.3]) and a lower rate of pulmonary hemorrhage (5.6% vs 8.9%; OR, 0.60 [95% CI, 0.38 to 0.95]; ARR, 3.3 [95% CI, 0.4 to 6.3])."
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "No differences in rates of necrotizing enterocolitis, severe bronchopulmonary dysplasia, or severe cerebral lesions were observed."
+            },
+            {
+              "new_index": 10,
+              "original_index": 12,
+              "sentence": "In the overall cohort, instrumental variable analysis yielded an adjusted OR for in-hospital mortality of 0.62 [95% CI, 0.37 to 1.04].   \n"
+            },
+            {
+              "new_index": 11,
+              "original_index": 14,
+              "sentence": "However, results of the instrumental variable analysis leave some ambiguity in the interpretation, and longer-term evaluation is needed to provide clarity."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 27099731,
+          "original_index": 1,
+          "sentence": "Less pharmacological closure and more supportive management have been observed without evidence to support these changes.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 27099731,
+          "original_index": 6,
+          "sentence": "MAIN OUTCOMES AND MEASURES The primary outcome was death between day 3 and discharge.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 27099731,
+          "original_index": 13,
+          "sentence": "CONCLUSIONS AND RELEVANCE In this national population-based cohort of extremely preterm infants, screening echocardiography before day 3 of life was associated with lower in-hospital mortality and likelihood of pulmonary hemorrhage but not with differences in necrotizing enterocolitis, severe bronchopulmonary dysplasia, or severe cerebral lesions.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Early patent ductus ateriosus (PDA) screening increases in-hospital mortality.",
+      "evidence": [
+        {
+          "doc_id": 27099731,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "Exposed infants had a lower hospital death rate (14.2% vs 18.5% ; OR, 0.73 [95% CI, 0.54 to 0.98]; ARR, 4.3 [95% CI, 0.3 to 8.3]) and a lower rate of pulmonary hemorrhage (5.6% vs 8.9%; OR, 0.60 [95% CI, 0.38 to 0.95]; ARR, 3.3 [95% CI, 0.4 to 6.3]).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 27099731,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 13,
+          "sentence": "CONCLUSIONS AND RELEVANCE In this national population-based cohort of extremely preterm infants, screening echocardiography before day 3 of life was associated with lower in-hospital mortality and likelihood of pulmonary hemorrhage but not with differences in necrotizing enterocolitis, severe bronchopulmonary dysplasia, or severe cerebral lesions.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 27099731,
+          "title": "Association Between Early Screening for Patent Ductus Arteriosus and In-Hospital Mortality Among Extremely Preterm Infants.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "IMPORTANCE There is currently no consensus for the screening and treatment of patent ductus arteriosus (PDA) in extremely preterm infants."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Less pharmacological closure and more supportive management have been observed without evidence to support these changes.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "OBJECTIVE To evaluate the association between early screening echocardiography for PDA and in-hospital mortality.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Comparison of screened and not screened preterm infants enrolled in the EPIPAGE 2 national prospective population-based cohort study that included all preterm infants born at less than 29 weeks of gestation and hospitalized in 68 neonatal intensive care units in France from April through December 2011."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Two main analyses were performed to adjust for potential selection bias, one using propensity score matching and one using neonatal unit preference for early screening echocardiography as an instrumental variable.   "
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "EXPOSURES Early screening echocardiography before day 3 of life.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "MAIN OUTCOMES AND MEASURES The primary outcome was death between day 3 and discharge."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "RESULTS Among the 1513 preterm infants with data available to determine exposure, 847 were screened for PDA and 666 were not; 605 infants from each group could be paired."
+            },
+            {
+              "new_index": 8,
+              "original_index": 9,
+              "sentence": "Exposed infants were treated for PDA more frequently during their hospitalization than nonexposed infants (55.1% vs 43.1%; odds ratio [OR], 1.62 [95% CI, 1.31 to 2.00]; absolute risk reduction [ARR] in events per 100 infants, -12.0 [95% CI, -17.3 to -6.7)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "No differences in rates of necrotizing enterocolitis, severe bronchopulmonary dysplasia, or severe cerebral lesions were observed."
+            },
+            {
+              "new_index": 10,
+              "original_index": 14,
+              "sentence": "However, results of the instrumental variable analysis leave some ambiguity in the interpretation, and longer-term evaluation is needed to provide clarity."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 27099731,
+          "original_index": 7,
+          "sentence": "The secondary outcomes were major neonatal morbidities (pulmonary hemorrhage, severe bronchopulmonary dysplasia, severe cerebral lesions, and necrotizing enterocolitis).   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 27099731,
+          "original_index": 10,
+          "sentence": "Exposed infants had a lower hospital death rate (14.2% vs 18.5% ; OR, 0.73 [95% CI, 0.54 to 0.98]; ARR, 4.3 [95% CI, 0.3 to 8.3]) and a lower rate of pulmonary hemorrhage (5.6% vs 8.9%; OR, 0.60 [95% CI, 0.38 to 0.95]; ARR, 3.3 [95% CI, 0.4 to 6.3]).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 27099731,
+          "original_index": 12,
+          "sentence": "In the overall cohort, instrumental variable analysis yielded an adjusted OR for in-hospital mortality of 0.62 [95% CI, 0.37 to 1.04].   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 27099731,
+          "original_index": 13,
+          "sentence": "CONCLUSIONS AND RELEVANCE In this national population-based cohort of extremely preterm infants, screening echocardiography before day 3 of life was associated with lower in-hospital mortality and likelihood of pulmonary hemorrhage but not with differences in necrotizing enterocolitis, severe bronchopulmonary dysplasia, or severe cerebral lesions.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

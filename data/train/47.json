@@ -1,0 +1,144 @@
+{
+  "id": 47,
+  "origin": "train_more",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "A strong bias in the phage genome locations where the spacers were derived has been observed in many CRISPR subtypes that confer the immunity to phage.",
+      "evidence": [
+        {
+          "doc_id": 26996935,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "We detect a strong and reproducible bias in the phage genome locations from which spacers derive.",
+          "kept": true,
+          "new_index": 6
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 26996935,
+          "title": "Strong bias in the bacterial CRISPR elements that confer immunity to phage.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Clustered regularly interspaced short palindromic repeats (CRISPR)-Cas systems provide adaptive immunity against phage via spacer-encoded CRISPR RNAs that are complementary to invasive nucleic acids."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here, we challenge Streptococcus thermophilus with a bacteriophage, and used PCR-based metagenomics to monitor phage-derived spacers daily for 15 days in two experiments."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Spacers that target the host chromosome are infrequent and strongly selected against, suggesting autoimmunity is lethal."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "In experiments that recover over half a million spacers, we observe early dominance by a few spacer sub-populations and rapid oscillations in sub-population abundances."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "In two CRISPR systems and in replicate experiments, a few spacers account for the majority of spacer sequences."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Nearly all phage locations targeted by the acquired spacers have a proto-spacer adjacent motif (PAM), indicating PAMs are involved in spacer acquisition."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "We detect a strong and reproducible bias in the phage genome locations from which spacers derive."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "This may reflect selection for specific spacers based on location and effectiveness."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "A strong bias in the phage genome locations where the spacers were derived has been observed in many CRISPR subtypes that confer the immunity to phage.",
+      "evidence": [
+        {
+          "doc_id": 26996935,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "We detect a strong and reproducible bias in the phage genome locations from which spacers derive.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 26996935,
+          "title": "Strong bias in the bacterial CRISPR elements that confer immunity to phage.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Clustered regularly interspaced short palindromic repeats (CRISPR)-Cas systems provide adaptive immunity against phage via spacer-encoded CRISPR RNAs that are complementary to invasive nucleic acids."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here, we challenge Streptococcus thermophilus with a bacteriophage, and used PCR-based metagenomics to monitor phage-derived spacers daily for 15 days in two experiments."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Spacers that target the host chromosome are infrequent and strongly selected against, suggesting autoimmunity is lethal."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "In experiments that recover over half a million spacers, we observe early dominance by a few spacer sub-populations and rapid oscillations in sub-population abundances."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "In two CRISPR systems and in replicate experiments, a few spacers account for the majority of spacer sequences."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Nearly all phage locations targeted by the acquired spacers have a proto-spacer adjacent motif (PAM), indicating PAMs are involved in spacer acquisition."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 26996935,
+          "original_index": 6,
+          "sentence": "We detect a strong and reproducible bias in the phage genome locations from which spacers derive.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 26996935,
+          "original_index": 7,
+          "sentence": "This may reflect selection for specific spacers based on location and effectiveness.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

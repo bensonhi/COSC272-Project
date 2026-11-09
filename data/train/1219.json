@@ -1,0 +1,119 @@
+{
+  "id": 1219,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The gene daf-16, which encodes forkhead Box O (FOXO), is required for all phenotypes associated with reduced insulin/insulin-like growth factor (Igf) signaling.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 9393969,
+          "title": "DAF-16/FOXO employs the chromatin remodeller SWI/SNF to promote stress resistance and longevity",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Organisms are constantly challenged by stresses and privations and require adaptive responses for their survival."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The forkhead box O (FOXO) transcription factor DAF-16 (hereafter referred to as DAF-16/FOXO) is a central nexus in these responses, but despite its importance little is known about how it regulates its target genes."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Proteomic identification of DAF-16/FOXO-binding partners in Caenorhabditis elegans and their subsequent functional evaluation by RNA interference revealed several candidate DAF-16/FOXO cofactors, most notably the chromatin remodeller SWI/SNF."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "DAF-16/FOXO and SWI/SNF form a complex and globally co-localize at DAF-16/FOXO target promoters."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We show that specifically for gene activation, DAF-16/FOXO depends on SWI/SNF, facilitating SWI/SNF recruitment to target promoters, to activate transcription by presumed remodelling of local chromatin."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "For the animal, this translates into an essential role for SWI/SNF in DAF-16/FOXO-mediated processes, in particular dauer formation, stress resistance and the promotion of longevity."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Thus, we give insight into the mechanisms of DAF-16/FOXO-mediated transcriptional regulation and establish a critical link between ATP-dependent chromatin remodelling and lifespan regulation."
+            }
+          ]
+        },
+        {
+          "doc_id": 14864285,
+          "title": "YOKO HONDA AND SHUJI HONDA 1",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Longevity is regulated by the daf-2 gene network in Caenorhabditis elegans."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Mutations in the daf-2 gene, which encodes a member of the insulin receptor family, confer the life extension (Age) phenotype and the constitutive dauer (a growth-arrested larval form specialized for dispersal) formation phenotype."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "The Age phenotype is mutually potentiated by two life extension mutations in the daf-2 gene and the clk-1 gene, a homologue of yeast CAT5/COQ7 known to regulate ubiquinone biosynthesis."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "In this study, we demonstrated that the daf-2 mutation also conferred an oxidative stress resistance (Oxr) phenotype, which was also enhanced by the clk-1 mutation."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Similar to the Age phenotype, the Oxr phenotype was regulated by the genetic pathway of insulin-like signaling from daf-2 to the daf-16 gene, a homologue of the HNF-3/forkhead transcription factor."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "These findings led us to examine whether the insulin-like signaling pathway regulates the gene expression of antioxidant defense enzymes."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "We found that the mRNA level of the sod-3 gene, which encodes Mn-superoxide dismutase (SOD), was much higher in daf-2 mutants than in the wild type."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Moreover, the increased sod-3 gene expression phenotype is regulated by the insulin-like signaling pathway."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Although the clk-1 mutant itself did not display Oxr and the increased sod-3 expression phenotypes, the clk-1 mutation enhanced them in the daf-2 mutant, suggesting that clk-1 is involved in longevity in two ways: clk-1 composes the original clk-1 longevity program and the daf-2 longevity program."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "These observations suggest that the daf-2 gene network controls longevity by regulating the Mn-SOD-associated antioxidant defense system."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "This system appears to play a role in efficient life maintenance at the dauer stage."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

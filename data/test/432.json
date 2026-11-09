@@ -1,0 +1,62 @@
+{
+  "id": 432,
+  "origin": "train_more",
+  "claim": "Foxk2 regulates autophagy genes in muscle cells and fibroblast cells.",
+  "evidence": [
+    {
+      "doc_id": 8002887,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 3,
+      "sentence": "Here, we identify Foxk proteins (Foxk1 and Foxk2) as transcriptional repressors of autophagy in muscle cells and fibroblasts."
+    },
+    {
+      "doc_id": 8002887,
+      "group_id": "g1",
+      "evidence_label": "SUPPORT",
+      "original_index": 5,
+      "sentence": "Foxk1/2 specifically recruits Sin3A-HDAC complexes to restrict acetylation of histone H4 and expression of critical autophagy genes."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 8002887,
+      "title": "Foxk proteins repress the initiation of starvation-induced atrophy and autophagy programs",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Autophagy is the primary catabolic process triggered in response to starvation."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Although autophagic regulation within the cytosolic compartment is well established, it is becoming clear that nuclear events also regulate the induction or repression of autophagy."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Nevertheless, a thorough understanding of the mechanisms by which sequence-specific transcription factors modulate expression of genes required for autophagy is lacking."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Here, we identify Foxk proteins (Foxk1 and Foxk2) as transcriptional repressors of autophagy in muscle cells and fibroblasts."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Interestingly, Foxk1/2 serve to counter-balance another forkhead transcription factor, Foxo3, which induces an overlapping set of autophagic and atrophic targets in muscle."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Foxk1/2 specifically recruits Sin3A-HDAC complexes to restrict acetylation of histone H4 and expression of critical autophagy genes."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Remarkably, mTOR promotes the transcriptional activity of Foxk1 by facilitating nuclear entry to specifically limit basal levels of autophagy in nutrient-rich conditions."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Our study highlights an ancient, conserved mechanism whereby nutritional status is interpreted by mTOR to restrict autophagy by repressing essential autophagy genes through Foxk-Sin3-mediated transcriptional control."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

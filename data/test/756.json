@@ -1,0 +1,43 @@
+{
+  "id": 756,
+  "origin": "dev",
+  "claim": "Many proteins in human cells can be post-translationally modified at lysine residues via acetylation.",
+  "evidence": [
+    {
+      "doc_id": 2831620,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 0,
+      "sentence": "Lysine acetylation is a reversible posttranslational modifcation, an epigenetic phenomenon, referred to as transfer of an acetyl group from acetyl CoA to lysine e- amino group of targeted protein, which is modulated by acetyltransferases (histone/ lysine (K) acetyltransferases, HATs/KATs) and deacetylases (histone/lysine (K) deacetylases, HDACs/KDACs)."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 2831620,
+      "title": "Protein Lysine Acetylated/Deacetylated Enzymes and the Metabolism-Related Diseases",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Lysine acetylation is a reversible posttranslational modifcation, an epigenetic phenomenon, referred to as transfer of an acetyl group from acetyl CoA to lysine e- amino group of targeted protein, which is modulated by acetyltransferases (histone/ lysine (K) acetyltransferases, HATs/KATs) and deacetylases (histone/lysine (K) deacetylases, HDACs/KDACs)."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Lysine acetylation regulates various metabolic processes, such as fatty acid oxidation, Krebs cycle, oxidative phosphorylation, angiogenesis and so on."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Thus disorders of lysine acetylation may be correlated with obesity, diabetes and cardiovascular disease, which are termed as the metabolic complication."
+        },
+        {
+          "original_index": 3,
+          "sentence": "With accumulating studies on proteomic acetylation, lysine acetylation also involves in cell immune status and degenerative diseases, for example, Alzheimer’s disease and Huntington’s disease."
+        },
+        {
+          "original_index": 4,
+          "sentence": "This review primarily summarizes the current studies of lysine acetylation in metabolism modulation and in metabolism-related diseases, such as cardiovascular disease and fat metabolism disorder."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

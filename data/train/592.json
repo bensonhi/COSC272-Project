@@ -1,0 +1,205 @@
+{
+  "id": 592,
+  "origin": "train_more",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Incidence of 10/66 dementia is lower than the incidence of DSM-IV dementia.",
+      "evidence": [
+        {
+          "doc_id": 14682243,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 8,
+          "sentence": "Incidence for 10/66 dementia varied between 18·2 and 30·4 per 1000 person-years, and were 1·4-2·7 times higher than were those for DSM-IV dementia (9·9-15·7 per 1000 person-years).",
+          "kept": true,
+          "new_index": 8
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 14682243,
+          "title": "Dementia incidence and mortality in middle-income countries, and associations with indicators of cognitive reserve: a 10/66 Dementia Research Group population-based cohort study",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Results of the few cohort studies from countries with low incomes or middle incomes suggest a lower incidence of dementia than in high-income countries."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We assessed incidence of dementia according to criteria from the 10/66 Dementia Research Group and Diagnostic and Statistical Manual of Mental Disorders (DSM) IV, the effect of dementia at baseline on mortality, and the independent effects of age, sex, socioeconomic position, and indicators of cognitive reserve.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS We did a population-based cohort study of all people aged 65 years and older living in urban sites in Cuba, the Dominican Republic, and Venezuela, and rural and urban sites in Peru, Mexico, and China, with ascertainment of incident 10/66 and DSM-IV dementia 3-5 years after cohort inception."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We used questionnaires to obtain information about age in years, sex, educational level, literacy, occupational attainment, and number of household assets."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We obtained information about mortality from all sites."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "For participants who had died, we interviewed a friend or relative to ascertain the likelihood that they had dementia before death.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "FINDINGS 12,887 participants were interviewed at baseline."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "11,718 were free of dementia, of whom 8137 (69%) were reinterviewed, contributing 34,718 person-years of follow-up."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Incidence for 10/66 dementia varied between 18·2 and 30·4 per 1000 person-years, and were 1·4-2·7 times higher than were those for DSM-IV dementia (9·9-15·7 per 1000 person-years)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Mortality hazards were 1·56-5·69 times higher in individuals with dementia at baseline than in those who were dementia-free."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Informant reports suggested a high incidence of dementia before death; overall incidence might be 4-19% higher if these data were included."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "10/66 dementia incidence was independently associated with increased age (HR 1·67; 95% CI 1·56-1·79), female sex (0·72; 0·61-0·84), and low education (0·89; 0·81-0·97), but not with occupational attainment (1·04; 0·95-1·13).   \n"
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "INTERPRETATION Our results provide supportive evidence for the cognitive reserve hypothesis, showing that in middle-income countries as in high-income countries, education, literacy, verbal fluency, and motor sequencing confer substantial protection against the onset of dementia.   \n"
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "FUNDING Wellcome Trust Health Consequences of Population Change Programme, WHO, US Alzheimer's Association, FONACIT/ CDCH/ UCV."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Incidence of 10/66 dementia is lower than the incidence of DSM-IV dementia.",
+      "evidence": [
+        {
+          "doc_id": 14682243,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 8,
+          "sentence": "Incidence for 10/66 dementia varied between 18·2 and 30·4 per 1000 person-years, and were 1·4-2·7 times higher than were those for DSM-IV dementia (9·9-15·7 per 1000 person-years).",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 14682243,
+          "title": "Dementia incidence and mortality in middle-income countries, and associations with indicators of cognitive reserve: a 10/66 Dementia Research Group population-based cohort study",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Results of the few cohort studies from countries with low incomes or middle incomes suggest a lower incidence of dementia than in high-income countries."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We assessed incidence of dementia according to criteria from the 10/66 Dementia Research Group and Diagnostic and Statistical Manual of Mental Disorders (DSM) IV, the effect of dementia at baseline on mortality, and the independent effects of age, sex, socioeconomic position, and indicators of cognitive reserve.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS We did a population-based cohort study of all people aged 65 years and older living in urban sites in Cuba, the Dominican Republic, and Venezuela, and rural and urban sites in Peru, Mexico, and China, with ascertainment of incident 10/66 and DSM-IV dementia 3-5 years after cohort inception."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We used questionnaires to obtain information about age in years, sex, educational level, literacy, occupational attainment, and number of household assets."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We obtained information about mortality from all sites."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "For participants who had died, we interviewed a friend or relative to ascertain the likelihood that they had dementia before death.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "FINDINGS 12,887 participants were interviewed at baseline."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "11,718 were free of dementia, of whom 8137 (69%) were reinterviewed, contributing 34,718 person-years of follow-up."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "Informant reports suggested a high incidence of dementia before death; overall incidence might be 4-19% higher if these data were included."
+            },
+            {
+              "new_index": 9,
+              "original_index": 12,
+              "sentence": "INTERPRETATION Our results provide supportive evidence for the cognitive reserve hypothesis, showing that in middle-income countries as in high-income countries, education, literacy, verbal fluency, and motor sequencing confer substantial protection against the onset of dementia.   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 13,
+              "sentence": "FUNDING Wellcome Trust Health Consequences of Population Change Programme, WHO, US Alzheimer's Association, FONACIT/ CDCH/ UCV."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 14682243,
+          "original_index": 8,
+          "sentence": "Incidence for 10/66 dementia varied between 18·2 and 30·4 per 1000 person-years, and were 1·4-2·7 times higher than were those for DSM-IV dementia (9·9-15·7 per 1000 person-years).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 14682243,
+          "original_index": 9,
+          "sentence": "Mortality hazards were 1·56-5·69 times higher in individuals with dementia at baseline than in those who were dementia-free.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 14682243,
+          "original_index": 11,
+          "sentence": "10/66 dementia incidence was independently associated with increased age (HR 1·67; 95% CI 1·56-1·79), female sex (0·72; 0·61-0·84), and low education (0·89; 0·81-0·97), but not with occupational attainment (1·04; 0·95-1·13).   \n",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

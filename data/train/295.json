@@ -1,0 +1,284 @@
+{
+  "id": 295,
+  "origin": "dev",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Crosstalk between dendritic cells (DCs) and innate lymphoid cells (ILCs) is important in the regulation of intestinal homeostasis.",
+      "evidence": [
+        {
+          "doc_id": 20310709,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "TNF-α produced by CD103(-)CD11b(+) dendritic cells synergized with IL-23 to drive IL-17A production by ILCs, demonstrating a previously unrecognized layer of cellular crosstalk between dendritic cells and ILCs.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 20310709,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Crucially, T-bet also suppressed the expression of IL-7R, a key molecule involved in controlling intestinal ILC homeostasis.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 20310709,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "The importance of IL-7R signaling in TRUC disease was highlighted by the dramatic reduction in intestinal ILCs and attenuated colitis following IL-7R blockade.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 20310709,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "Taken together, these data demonstrate the mechanism by which T-bet regulates the complex interplay between mucosal dendritic cells, ILCs, and the intestinal microbiota.",
+          "kept": true,
+          "new_index": 6
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 20310709,
+          "title": "The Transcription Factor T-bet Regulates Intestinal Inflammation Mediated by Interleukin-7 Receptor+ Innate Lymphoid Cells",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Mice lacking the transcription factor T-bet in the innate immune system develop microbiota-dependent colitis."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here, we show that interleukin-17A (IL-17A)-producing IL-7Rα(+) innate lymphoid cells (ILCs) were potent promoters of disease in Tbx21(-/-)Rag2(-/-) ulcerative colitis (TRUC) mice."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "TNF-α produced by CD103(-)CD11b(+) dendritic cells synergized with IL-23 to drive IL-17A production by ILCs, demonstrating a previously unrecognized layer of cellular crosstalk between dendritic cells and ILCs."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We have identified Helicobacter typhlonius as a key disease trigger driving excess TNF-α production and promoting colitis in TRUC mice."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Crucially, T-bet also suppressed the expression of IL-7R, a key molecule involved in controlling intestinal ILC homeostasis."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "The importance of IL-7R signaling in TRUC disease was highlighted by the dramatic reduction in intestinal ILCs and attenuated colitis following IL-7R blockade."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Taken together, these data demonstrate the mechanism by which T-bet regulates the complex interplay between mucosal dendritic cells, ILCs, and the intestinal microbiota."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Crosstalk between dendritic cells (DCs) and innate lymphoid cells (ILCs) is important in the regulation of intestinal homeostasis.",
+      "evidence": [
+        {
+          "doc_id": 20310709,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "TNF-α produced by CD103(-)CD11b(+) dendritic cells synergized with IL-23 to drive IL-17A production by ILCs, demonstrating a previously unrecognized layer of cellular crosstalk between dendritic cells and ILCs.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 20310709,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Crucially, T-bet also suppressed the expression of IL-7R, a key molecule involved in controlling intestinal ILC homeostasis.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 20310709,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "The importance of IL-7R signaling in TRUC disease was highlighted by the dramatic reduction in intestinal ILCs and attenuated colitis following IL-7R blockade.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 20310709,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "Taken together, these data demonstrate the mechanism by which T-bet regulates the complex interplay between mucosal dendritic cells, ILCs, and the intestinal microbiota.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 20310709,
+          "title": "The Transcription Factor T-bet Regulates Intestinal Inflammation Mediated by Interleukin-7 Receptor+ Innate Lymphoid Cells",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Mice lacking the transcription factor T-bet in the innate immune system develop microbiota-dependent colitis."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here, we show that interleukin-17A (IL-17A)-producing IL-7Rα(+) innate lymphoid cells (ILCs) were potent promoters of disease in Tbx21(-/-)Rag2(-/-) ulcerative colitis (TRUC) mice."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "TNF-α produced by CD103(-)CD11b(+) dendritic cells synergized with IL-23 to drive IL-17A production by ILCs, demonstrating a previously unrecognized layer of cellular crosstalk between dendritic cells and ILCs."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We have identified Helicobacter typhlonius as a key disease trigger driving excess TNF-α production and promoting colitis in TRUC mice."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Crucially, T-bet also suppressed the expression of IL-7R, a key molecule involved in controlling intestinal ILC homeostasis."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 20310709,
+          "original_index": 5,
+          "sentence": "The importance of IL-7R signaling in TRUC disease was highlighted by the dramatic reduction in intestinal ILCs and attenuated colitis following IL-7R blockade.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 20310709,
+          "original_index": 6,
+          "sentence": "Taken together, these data demonstrate the mechanism by which T-bet regulates the complex interplay between mucosal dendritic cells, ILCs, and the intestinal microbiota.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Crosstalk between dendritic cells (DCs) and innate lymphoid cells (ILCs) is important in the regulation of intestinal homeostasis.",
+      "evidence": [
+        {
+          "doc_id": 20310709,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 2,
+          "sentence": "TNF-α produced by CD103(-)CD11b(+) dendritic cells synergized with IL-23 to drive IL-17A production by ILCs, demonstrating a previously unrecognized layer of cellular crosstalk between dendritic cells and ILCs.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 20310709,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "Crucially, T-bet also suppressed the expression of IL-7R, a key molecule involved in controlling intestinal ILC homeostasis.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 20310709,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "The importance of IL-7R signaling in TRUC disease was highlighted by the dramatic reduction in intestinal ILCs and attenuated colitis following IL-7R blockade.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 20310709,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "Taken together, these data demonstrate the mechanism by which T-bet regulates the complex interplay between mucosal dendritic cells, ILCs, and the intestinal microbiota.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 20310709,
+          "title": "The Transcription Factor T-bet Regulates Intestinal Inflammation Mediated by Interleukin-7 Receptor+ Innate Lymphoid Cells",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Mice lacking the transcription factor T-bet in the innate immune system develop microbiota-dependent colitis."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Here, we show that interleukin-17A (IL-17A)-producing IL-7Rα(+) innate lymphoid cells (ILCs) were potent promoters of disease in Tbx21(-/-)Rag2(-/-) ulcerative colitis (TRUC) mice."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "We have identified Helicobacter typhlonius as a key disease trigger driving excess TNF-α production and promoting colitis in TRUC mice."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 20310709,
+          "original_index": 2,
+          "sentence": "TNF-α produced by CD103(-)CD11b(+) dendritic cells synergized with IL-23 to drive IL-17A production by ILCs, demonstrating a previously unrecognized layer of cellular crosstalk between dendritic cells and ILCs.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 20310709,
+          "original_index": 4,
+          "sentence": "Crucially, T-bet also suppressed the expression of IL-7R, a key molecule involved in controlling intestinal ILC homeostasis.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 20310709,
+          "original_index": 5,
+          "sentence": "The importance of IL-7R signaling in TRUC disease was highlighted by the dramatic reduction in intestinal ILCs and attenuated colitis following IL-7R blockade.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 20310709,
+          "original_index": 6,
+          "sentence": "Taken together, these data demonstrate the mechanism by which T-bet regulates the complex interplay between mucosal dendritic cells, ILCs, and the intestinal microbiota.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

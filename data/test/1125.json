@@ -1,0 +1,98 @@
+{
+  "id": 1125,
+  "origin": "train_more",
+  "claim": "Systemic immunosuppressive (IS) therapy does not enhance the chance of cancer mortality in patients with inflammatory eye disease (IED)",
+  "evidence": [
+    {
+      "doc_id": 21009874,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 12,
+      "sentence": "Patients who used azathioprine, methotrexate, mycophenolate mofetil, ciclosporin, systemic corticosteroids, or dapsone had overall and cancer mortality similar to that of patients who never took immunosuppressive drugs."
+    },
+    {
+      "doc_id": 21009874,
+      "group_id": "g1",
+      "evidence_label": "SUPPORT",
+      "original_index": 15,
+      "sentence": "CONCLUSIONS Most commonly used immunosuppressive drugs do not seem to increase overall or cancer mortality."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 21009874,
+      "title": "Overall and cancer related mortality among patients with ocular inflammation treated with immunosuppressive drugs: retrospective cohort study.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "CONTEXT Whether immunosuppressive treatment adversely affects survival is unclear.   \n"
+        },
+        {
+          "original_index": 1,
+          "sentence": "OBJECTIVE To assess whether immunosuppressive drugs increase mortality.   \n"
+        },
+        {
+          "original_index": 2,
+          "sentence": "DESIGN Retrospective cohort study evaluating overall and cancer mortality in relation to immunosuppressive drug exposure among patients with ocular inflammatory diseases."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Demographic, clinical, and treatment data derived from medical records, and mortality results from United States National Death Index linkage."
+        },
+        {
+          "original_index": 4,
+          "sentence": "The cohort's mortality risk was compared with US vital statistics using standardised mortality ratios."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Overall and cancer mortality in relation to use or non-use of immunosuppressive drugs within the cohort was studied with survival analysis.   \n"
+        },
+        {
+          "original_index": 6,
+          "sentence": "SETTING Five tertiary ocular inflammation clinics."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Patients 7957 US residents with non-infectious ocular inflammation, 2340 of whom received immunosuppressive drugs during follow up."
+        },
+        {
+          "original_index": 8,
+          "sentence": "Exposures Use of antimetabolites, T cell inhibitors, alkylating agents, and tumour necrosis factor inhibitors.   \n"
+        },
+        {
+          "original_index": 9,
+          "sentence": "MAIN OUTCOME MEASURES Overall mortality, cancer mortality.   \n"
+        },
+        {
+          "original_index": 10,
+          "sentence": "RESULTS Over 66 802 person years (17 316 after exposure to immunosuppressive drugs), 936 patients died (1.4/100 person years), 230 (24.6%) from cancer."
+        },
+        {
+          "original_index": 11,
+          "sentence": "For patients unexposed to immunosuppressive treatment, risks of death overall (standardised mortality ratio 1.02, 95% confidence interval [CI] 0.94 to 1.11) and from cancer (1.10, 0.93 to 1.29) were similar to those of the US population."
+        },
+        {
+          "original_index": 12,
+          "sentence": "Patients who used azathioprine, methotrexate, mycophenolate mofetil, ciclosporin, systemic corticosteroids, or dapsone had overall and cancer mortality similar to that of patients who never took immunosuppressive drugs."
+        },
+        {
+          "original_index": 13,
+          "sentence": "In patients who used cyclophosphamide, overall mortality was not increased and cancer mortality was non-significantly increased."
+        },
+        {
+          "original_index": 14,
+          "sentence": "Tumour necrosis factor inhibitors were associated with increased overall (adjusted hazard ratio [HR] 1.99, 95% CI 1.00 to 3.98) and cancer mortality (adjusted HR 3.83, 1.13 to 13.01).   \n"
+        },
+        {
+          "original_index": 15,
+          "sentence": "CONCLUSIONS Most commonly used immunosuppressive drugs do not seem to increase overall or cancer mortality."
+        },
+        {
+          "original_index": 16,
+          "sentence": "Our results suggesting that tumour necrosis factor inhibitors might increase mortality are less robust than the other findings; additional evidence is needed."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

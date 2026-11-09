@@ -1,0 +1,63 @@
+{
+  "id": 988,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Pseudoknots are not evolutionarily conserved in most eukaryotes.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 3033830,
+          "title": "Identification and analysis of ribonuclease P and MRP RNA in a broad range of eukaryotes",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "RNases P and MRP are ribonucleoprotein complexes involved in tRNA and rRNA processing, respectively."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The RNA subunits of these two enzymes are structurally related to each other and play an essential role in the enzymatic reaction."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Both of the RNAs have a highly conserved helical region, P4, which is important in the catalytic reaction."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We have used a bioinformatics approach based on conserved elements to computationally analyze available genomic sequences of eukaryotic organisms and have identified a large number of novel nuclear RNase P and MRP RNA genes."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "For MRP RNA for instance, this investigation increases the number of known sequences by a factor of three."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We present secondary structure models of many of the predicted RNAs."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Although all sequences are able to fold into the consensus secondary structure of P and MRP RNAs, a striking variation in size is observed, ranging from a Nosema locustae MRP RNA of 160 nt to much larger RNAs, e.g. a Plasmodium knowlesi P RNA of 696 nt."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "The P and MRP RNA genes appear in tandem in some protists, further emphasizing the close evolutionary relationship of these RNAs."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

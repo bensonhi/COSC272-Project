@@ -1,0 +1,266 @@
+{
+  "id": 770,
+  "origin": "dev",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Metastatic colorectal cancer treated with a single agent fluoropyrimidines resulted in reduced efficacy and lower quality of life when compared with oxaliplatin-based chemotherapy in elderly patients.",
+      "evidence": [
+        {
+          "doc_id": 15476777,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 16,
+          "sentence": "On balance, a combination including oxaliplatin was preferable to single-agent fluoropyrimidines, although the primary endpoint of PFS was not met.",
+          "kept": true,
+          "new_index": 16
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15476777,
+          "title": "Chemotherapy options in elderly and frail patients with metastatic colorectal cancer (MRC FOCUS2): an open-label, randomised factorial trial",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Elderly and frail patients with cancer, although often treated with chemotherapy, are under-represented in clinical trials."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We designed FOCUS2 to investigate reduced-dose chemotherapy options and to seek objective predictors of outcome in frail patients with advanced colorectal cancer.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS We undertook an open, 2 × 2 factorial trial in 61 UK centres for patients with previously untreated advanced colorectal cancer who were considered unfit for full-dose chemotherapy."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "After comprehensive health assessment (CHA), patients were randomly assigned by minimisation to: 48-h intravenous fluorouracil with levofolinate (group A); oxaliplatin and fluorouracil (group B); capecitabine (group C); or oxaliplatin and capecitabine (group D)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Treatment allocation was not masked."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Starting doses were 80% of standard doses, with discretionary escalation to full dose after 6 weeks."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "The two primary outcome measures were: addition of oxaliplatin ([A vs B] + [C vs D]), assessed with progression-free survival (PFS); and substitution of fluorouracil with capecitabine ([A vs C] + [B vs D]), assessed by change from baseline to 12 weeks in global quality of life (QoL)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Analysis was by intention to treat."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Baseline clinical and CHA data were modelled against outcomes with a novel composite measure, overall treatment utility (OTU)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "This study is registered, number ISRCTN21221452.   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "FINDINGS 459 patients were randomly assigned (115 to each of groups A-C, 114 to group D)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Factorial comparison of addition of oxaliplatin versus no addition suggested some improvement in PFS, but the finding was not significant (median 5·8 months [IQR 3·3-7·5] vs 4·5 months [2·8-6·4]; hazard ratio 0·84, 95% CI 0·69-1·01, p=0·07)."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "Replacement of fluorouracil with capecitabine did not improve global QoL: 69 of 124 (56%) patients receiving fluorouracil reported improvement in global QoL compared with 69 of 123 (56%) receiving capecitabine."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "The risk of having any grade 3 or worse toxic effect was not significantly increased with oxaliplatin (83/219 [38%] vs 70/221 [32%]; p=0·17), but was higher with capecitabine than with fluorouracil (88/222 [40%] vs 65/218 [30%]; p=0·03)."
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "In multivariable analysis, fewer baseline symptoms (odds ratio 1·32, 95% CI 1·14-1·52), less widespread disease (1·51, 1·05-2·19), and use of oxaliplatin (0·57, 0·39-0·82) were predictive of better OTU.   \n"
+            },
+            {
+              "new_index": 15,
+              "original_index": 15,
+              "sentence": "INTERPRETATION FOCUS2 shows that with an appropriate design, including reduced starting doses of chemotherapy, frail and elderly patients can participate in a randomised controlled trial."
+            },
+            {
+              "new_index": 16,
+              "original_index": 16,
+              "sentence": "On balance, a combination including oxaliplatin was preferable to single-agent fluoropyrimidines, although the primary endpoint of PFS was not met."
+            },
+            {
+              "new_index": 17,
+              "original_index": 17,
+              "sentence": "Capecitabine did not improve QoL compared with fluorouracil."
+            },
+            {
+              "new_index": 18,
+              "original_index": 18,
+              "sentence": "Comprehensive baseline assessment holds promise as an objective predictor of treatment benefit.   \n"
+            },
+            {
+              "new_index": 19,
+              "original_index": 19,
+              "sentence": "FUNDING Cancer Research UK and the Medical Research Council."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Metastatic colorectal cancer treated with a single agent fluoropyrimidines resulted in reduced efficacy and lower quality of life when compared with oxaliplatin-based chemotherapy in elderly patients.",
+      "evidence": [
+        {
+          "doc_id": 15476777,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 16,
+          "sentence": "On balance, a combination including oxaliplatin was preferable to single-agent fluoropyrimidines, although the primary endpoint of PFS was not met.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 15476777,
+          "title": "Chemotherapy options in elderly and frail patients with metastatic colorectal cancer (MRC FOCUS2): an open-label, randomised factorial trial",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND Elderly and frail patients with cancer, although often treated with chemotherapy, are under-represented in clinical trials."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We designed FOCUS2 to investigate reduced-dose chemotherapy options and to seek objective predictors of outcome in frail patients with advanced colorectal cancer.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS We undertook an open, 2 × 2 factorial trial in 61 UK centres for patients with previously untreated advanced colorectal cancer who were considered unfit for full-dose chemotherapy."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "After comprehensive health assessment (CHA), patients were randomly assigned by minimisation to: 48-h intravenous fluorouracil with levofolinate (group A); oxaliplatin and fluorouracil (group B); capecitabine (group C); or oxaliplatin and capecitabine (group D)."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Treatment allocation was not masked."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Starting doses were 80% of standard doses, with discretionary escalation to full dose after 6 weeks."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "The two primary outcome measures were: addition of oxaliplatin ([A vs B] + [C vs D]), assessed with progression-free survival (PFS); and substitution of fluorouracil with capecitabine ([A vs C] + [B vs D]), assessed by change from baseline to 12 weeks in global quality of life (QoL)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Analysis was by intention to treat."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Baseline clinical and CHA data were modelled against outcomes with a novel composite measure, overall treatment utility (OTU)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "This study is registered, number ISRCTN21221452.   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 11,
+              "sentence": "Factorial comparison of addition of oxaliplatin versus no addition suggested some improvement in PFS, but the finding was not significant (median 5·8 months [IQR 3·3-7·5] vs 4·5 months [2·8-6·4]; hazard ratio 0·84, 95% CI 0·69-1·01, p=0·07)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 13,
+              "sentence": "The risk of having any grade 3 or worse toxic effect was not significantly increased with oxaliplatin (83/219 [38%] vs 70/221 [32%]; p=0·17), but was higher with capecitabine than with fluorouracil (88/222 [40%] vs 65/218 [30%]; p=0·03)."
+            },
+            {
+              "new_index": 12,
+              "original_index": 14,
+              "sentence": "In multivariable analysis, fewer baseline symptoms (odds ratio 1·32, 95% CI 1·14-1·52), less widespread disease (1·51, 1·05-2·19), and use of oxaliplatin (0·57, 0·39-0·82) were predictive of better OTU.   \n"
+            },
+            {
+              "new_index": 13,
+              "original_index": 15,
+              "sentence": "INTERPRETATION FOCUS2 shows that with an appropriate design, including reduced starting doses of chemotherapy, frail and elderly patients can participate in a randomised controlled trial."
+            },
+            {
+              "new_index": 14,
+              "original_index": 17,
+              "sentence": "Capecitabine did not improve QoL compared with fluorouracil."
+            },
+            {
+              "new_index": 15,
+              "original_index": 19,
+              "sentence": "FUNDING Cancer Research UK and the Medical Research Council."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 15476777,
+          "original_index": 10,
+          "sentence": "FINDINGS 459 patients were randomly assigned (115 to each of groups A-C, 114 to group D).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 15476777,
+          "original_index": 12,
+          "sentence": "Replacement of fluorouracil with capecitabine did not improve global QoL: 69 of 124 (56%) patients receiving fluorouracil reported improvement in global QoL compared with 69 of 123 (56%) receiving capecitabine.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 15476777,
+          "original_index": 16,
+          "sentence": "On balance, a combination including oxaliplatin was preferable to single-agent fluoropyrimidines, although the primary endpoint of PFS was not met.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 15476777,
+          "original_index": 18,
+          "sentence": "Comprehensive baseline assessment holds promise as an objective predictor of treatment benefit.   \n",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

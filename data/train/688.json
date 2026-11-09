@@ -1,0 +1,63 @@
+{
+  "id": 688,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Lamins have no effect on nuclear membrane structure maintenance.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 4452659,
+          "title": "Autophagy mediates degradation of nuclear lamina",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Macroautophagy (hereafter referred to as autophagy) is a catabolic membrane trafficking process that degrades a variety of cellular constituents and is associated with human diseases."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Although extensive studies have focused on autophagic turnover of cytoplasmic materials, little is known about the role of autophagy in degrading nuclear components."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here we report that the autophagy machinery mediates degradation of nuclear lamina components in mammals."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "The autophagy protein LC3/Atg8, which is involved in autophagy membrane trafficking and substrate delivery, is present in the nucleus and directly interacts with the nuclear lamina protein lamin B1, and binds to lamin-associated domains on chromatin."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "This LC3-lamin B1 interaction does not downregulate lamin B1 during starvation, but mediates its degradation upon oncogenic insults, such as by activated RAS."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Lamin B1 degradation is achieved by nucleus-to-cytoplasm transport that delivers lamin B1 to the lysosome."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Inhibiting autophagy or the LC3-lamin B1 interaction prevents activated RAS-induced lamin B1 loss and attenuates oncogene-induced senescence in primary human cells."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Our study suggests that this new function of autophagy acts as a guarding mechanism protecting cells from tumorigenesis."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

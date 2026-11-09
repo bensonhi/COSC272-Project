@@ -1,0 +1,629 @@
+{
+  "id": 1011,
+  "origin": "train_more",
+  "n_groups": 5,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Radioiodine treatment of non-toxic multinodular goitre increases thyroid volume.",
+      "evidence": [
+        {
+          "doc_id": 9745001,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 6,
+          "sentence": "In 45 patients treated with one dose and remaining euthyroid the median thyroid volume was reduced from 73 (interquartile range 50-106) ml to 29 (23-48) ml at 24 months in the 39 patients in whom this was measured during follow up.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 9745001,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 7,
+          "sentence": "The median reduction was 40 (22-48) ml (60% reduction, p < 0.0001), half of which occurred within three months.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 9745001,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 8,
+          "sentence": "Patients treated with two doses as well as those developing hypothyroidism and hyperthyroidism had a significant reduction in thyroid volume.",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 9745001,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 12,
+          "sentence": "CONCLUSIONS A substantial reduction in thyroid volume accompanied by a low incidence of hypothyroidism and few side effects makes the use of radioactive iodine an attractive alternative to surgery in selected cases of non-toxic multinodular goitre.",
+          "kept": true,
+          "new_index": 12
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 9745001,
+          "title": "Radioiodine treatment of multinodular non-toxic goitre.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To investigate the long term effect of radioactive iodine on thyroid function and size in patients with non-toxic multinodular goitre.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Consecutive patients with multinodular non-toxic goitre selected for radioactive iodine treatment and followed for a minimum of 12 months (median 48 months) after an intended dose of 3.7 MBq/g thyroid tissue corrected to a 100% uptake of iodine-131 in 24 hours.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "PATIENTS 69 patients with a growing multinodular non-toxic goitre causing local compression symptoms or cosmetic inconveniences."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "The treatment was chosen because of a high operative risk, previous thyroidectomy, or refusal to be operated on.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASUREMENTS Standard thyroid function variables and ultrasonically determined thyroid volume before treatment as well as 1, 2, 3, 6, and 12 months after treatment and then once a year.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "RESULTS 56 patients were treated with a single dose of 131I, 12 with two doses, and one with four doses."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "In 45 patients treated with one dose and remaining euthyroid the median thyroid volume was reduced from 73 (interquartile range 50-106) ml to 29 (23-48) ml at 24 months in the 39 patients in whom this was measured during follow up."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "The median reduction was 40 (22-48) ml (60% reduction, p < 0.0001), half of which occurred within three months."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Patients treated with two doses as well as those developing hypothyroidism and hyperthyroidism had a significant reduction in thyroid volume."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Eleven patients developed hypothyroidism (cumulative five year risk 22%, 95% confidence interval 4.8% to 38.4%)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Side effects were few: three cases of hyperthyroidism and two cases of radiation thyroiditis."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Only one patient was dissatisfied with the result; she was referred for operation six months after treatment.   \n"
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "CONCLUSIONS A substantial reduction in thyroid volume accompanied by a low incidence of hypothyroidism and few side effects makes the use of radioactive iodine an attractive alternative to surgery in selected cases of non-toxic multinodular goitre."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g2"
+      ],
+      "claim": "Radioiodine treatment of non-toxic multinodular goitre increases thyroid volume.",
+      "evidence": [
+        {
+          "doc_id": 9745001,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 6,
+          "sentence": "In 45 patients treated with one dose and remaining euthyroid the median thyroid volume was reduced from 73 (interquartile range 50-106) ml to 29 (23-48) ml at 24 months in the 39 patients in whom this was measured during follow up.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 9745001,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 7,
+          "sentence": "The median reduction was 40 (22-48) ml (60% reduction, p < 0.0001), half of which occurred within three months.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 9745001,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 8,
+          "sentence": "Patients treated with two doses as well as those developing hypothyroidism and hyperthyroidism had a significant reduction in thyroid volume.",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 9745001,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 12,
+          "sentence": "CONCLUSIONS A substantial reduction in thyroid volume accompanied by a low incidence of hypothyroidism and few side effects makes the use of radioactive iodine an attractive alternative to surgery in selected cases of non-toxic multinodular goitre.",
+          "kept": true,
+          "new_index": 10
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 9745001,
+          "title": "Radioiodine treatment of multinodular non-toxic goitre.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To investigate the long term effect of radioactive iodine on thyroid function and size in patients with non-toxic multinodular goitre.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Consecutive patients with multinodular non-toxic goitre selected for radioactive iodine treatment and followed for a minimum of 12 months (median 48 months) after an intended dose of 3.7 MBq/g thyroid tissue corrected to a 100% uptake of iodine-131 in 24 hours.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "PATIENTS 69 patients with a growing multinodular non-toxic goitre causing local compression symptoms or cosmetic inconveniences."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "The treatment was chosen because of a high operative risk, previous thyroidectomy, or refusal to be operated on.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASUREMENTS Standard thyroid function variables and ultrasonically determined thyroid volume before treatment as well as 1, 2, 3, 6, and 12 months after treatment and then once a year.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "RESULTS 56 patients were treated with a single dose of 131I, 12 with two doses, and one with four doses."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "In 45 patients treated with one dose and remaining euthyroid the median thyroid volume was reduced from 73 (interquartile range 50-106) ml to 29 (23-48) ml at 24 months in the 39 patients in whom this was measured during follow up."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "Patients treated with two doses as well as those developing hypothyroidism and hyperthyroidism had a significant reduction in thyroid volume."
+            },
+            {
+              "new_index": 8,
+              "original_index": 9,
+              "sentence": "Eleven patients developed hypothyroidism (cumulative five year risk 22%, 95% confidence interval 4.8% to 38.4%)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "Only one patient was dissatisfied with the result; she was referred for operation six months after treatment.   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 12,
+              "sentence": "CONCLUSIONS A substantial reduction in thyroid volume accompanied by a low incidence of hypothyroidism and few side effects makes the use of radioactive iodine an attractive alternative to surgery in selected cases of non-toxic multinodular goitre."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 9745001,
+          "original_index": 7,
+          "sentence": "The median reduction was 40 (22-48) ml (60% reduction, p < 0.0001), half of which occurred within three months.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 9745001,
+          "original_index": 10,
+          "sentence": "Side effects were few: three cases of hyperthyroidism and two cases of radiation thyroiditis.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g2",
+        "g1"
+      ],
+      "claim": "Radioiodine treatment of non-toxic multinodular goitre increases thyroid volume.",
+      "evidence": [
+        {
+          "doc_id": 9745001,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 6,
+          "sentence": "In 45 patients treated with one dose and remaining euthyroid the median thyroid volume was reduced from 73 (interquartile range 50-106) ml to 29 (23-48) ml at 24 months in the 39 patients in whom this was measured during follow up.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 9745001,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 7,
+          "sentence": "The median reduction was 40 (22-48) ml (60% reduction, p < 0.0001), half of which occurred within three months.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 9745001,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 8,
+          "sentence": "Patients treated with two doses as well as those developing hypothyroidism and hyperthyroidism had a significant reduction in thyroid volume.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 9745001,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 12,
+          "sentence": "CONCLUSIONS A substantial reduction in thyroid volume accompanied by a low incidence of hypothyroidism and few side effects makes the use of radioactive iodine an attractive alternative to surgery in selected cases of non-toxic multinodular goitre.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 9745001,
+          "title": "Radioiodine treatment of multinodular non-toxic goitre.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To investigate the long term effect of radioactive iodine on thyroid function and size in patients with non-toxic multinodular goitre.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Consecutive patients with multinodular non-toxic goitre selected for radioactive iodine treatment and followed for a minimum of 12 months (median 48 months) after an intended dose of 3.7 MBq/g thyroid tissue corrected to a 100% uptake of iodine-131 in 24 hours.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "PATIENTS 69 patients with a growing multinodular non-toxic goitre causing local compression symptoms or cosmetic inconveniences."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "The treatment was chosen because of a high operative risk, previous thyroidectomy, or refusal to be operated on.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "RESULTS 56 patients were treated with a single dose of 131I, 12 with two doses, and one with four doses."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "In 45 patients treated with one dose and remaining euthyroid the median thyroid volume was reduced from 73 (interquartile range 50-106) ml to 29 (23-48) ml at 24 months in the 39 patients in whom this was measured during follow up."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "Patients treated with two doses as well as those developing hypothyroidism and hyperthyroidism had a significant reduction in thyroid volume."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "Eleven patients developed hypothyroidism (cumulative five year risk 22%, 95% confidence interval 4.8% to 38.4%)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "Side effects were few: three cases of hyperthyroidism and two cases of radiation thyroiditis."
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "Only one patient was dissatisfied with the result; she was referred for operation six months after treatment.   \n"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 9745001,
+          "original_index": 4,
+          "sentence": "MAIN OUTCOME MEASUREMENTS Standard thyroid function variables and ultrasonically determined thyroid volume before treatment as well as 1, 2, 3, 6, and 12 months after treatment and then once a year.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 9745001,
+          "original_index": 7,
+          "sentence": "The median reduction was 40 (22-48) ml (60% reduction, p < 0.0001), half of which occurred within three months.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 9745001,
+          "original_index": 12,
+          "sentence": "CONCLUSIONS A substantial reduction in thyroid volume accompanied by a low incidence of hypothyroidism and few side effects makes the use of radioactive iodine an attractive alternative to surgery in selected cases of non-toxic multinodular goitre.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_3_groups",
+      "dropped_group_ids": [
+        "g1",
+        "g2",
+        "g0"
+      ],
+      "claim": "Radioiodine treatment of non-toxic multinodular goitre increases thyroid volume.",
+      "evidence": [
+        {
+          "doc_id": 9745001,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 6,
+          "sentence": "In 45 patients treated with one dose and remaining euthyroid the median thyroid volume was reduced from 73 (interquartile range 50-106) ml to 29 (23-48) ml at 24 months in the 39 patients in whom this was measured during follow up.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 9745001,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 7,
+          "sentence": "The median reduction was 40 (22-48) ml (60% reduction, p < 0.0001), half of which occurred within three months.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 9745001,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 8,
+          "sentence": "Patients treated with two doses as well as those developing hypothyroidism and hyperthyroidism had a significant reduction in thyroid volume.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 9745001,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 12,
+          "sentence": "CONCLUSIONS A substantial reduction in thyroid volume accompanied by a low incidence of hypothyroidism and few side effects makes the use of radioactive iodine an attractive alternative to surgery in selected cases of non-toxic multinodular goitre.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 9745001,
+          "title": "Radioiodine treatment of multinodular non-toxic goitre.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To investigate the long term effect of radioactive iodine on thyroid function and size in patients with non-toxic multinodular goitre.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Consecutive patients with multinodular non-toxic goitre selected for radioactive iodine treatment and followed for a minimum of 12 months (median 48 months) after an intended dose of 3.7 MBq/g thyroid tissue corrected to a 100% uptake of iodine-131 in 24 hours.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "The treatment was chosen because of a high operative risk, previous thyroidectomy, or refusal to be operated on.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASUREMENTS Standard thyroid function variables and ultrasonically determined thyroid volume before treatment as well as 1, 2, 3, 6, and 12 months after treatment and then once a year.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "RESULTS 56 patients were treated with a single dose of 131I, 12 with two doses, and one with four doses."
+            },
+            {
+              "new_index": 5,
+              "original_index": 8,
+              "sentence": "Patients treated with two doses as well as those developing hypothyroidism and hyperthyroidism had a significant reduction in thyroid volume."
+            },
+            {
+              "new_index": 6,
+              "original_index": 9,
+              "sentence": "Eleven patients developed hypothyroidism (cumulative five year risk 22%, 95% confidence interval 4.8% to 38.4%)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "Side effects were few: three cases of hyperthyroidism and two cases of radiation thyroiditis."
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "Only one patient was dissatisfied with the result; she was referred for operation six months after treatment.   \n"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 9745001,
+          "original_index": 2,
+          "sentence": "PATIENTS 69 patients with a growing multinodular non-toxic goitre causing local compression symptoms or cosmetic inconveniences.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 9745001,
+          "original_index": 6,
+          "sentence": "In 45 patients treated with one dose and remaining euthyroid the median thyroid volume was reduced from 73 (interquartile range 50-106) ml to 29 (23-48) ml at 24 months in the 39 patients in whom this was measured during follow up.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 9745001,
+          "original_index": 7,
+          "sentence": "The median reduction was 40 (22-48) ml (60% reduction, p < 0.0001), half of which occurred within three months.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 9745001,
+          "original_index": 12,
+          "sentence": "CONCLUSIONS A substantial reduction in thyroid volume accompanied by a low incidence of hypothyroidism and few side effects makes the use of radioactive iodine an attractive alternative to surgery in selected cases of non-toxic multinodular goitre.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2",
+        "g3"
+      ],
+      "claim": "Radioiodine treatment of non-toxic multinodular goitre increases thyroid volume.",
+      "evidence": [
+        {
+          "doc_id": 9745001,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 6,
+          "sentence": "In 45 patients treated with one dose and remaining euthyroid the median thyroid volume was reduced from 73 (interquartile range 50-106) ml to 29 (23-48) ml at 24 months in the 39 patients in whom this was measured during follow up.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 9745001,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 7,
+          "sentence": "The median reduction was 40 (22-48) ml (60% reduction, p < 0.0001), half of which occurred within three months.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 9745001,
+          "group_id": "g3",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 8,
+          "sentence": "Patients treated with two doses as well as those developing hypothyroidism and hyperthyroidism had a significant reduction in thyroid volume.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 9745001,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 12,
+          "sentence": "CONCLUSIONS A substantial reduction in thyroid volume accompanied by a low incidence of hypothyroidism and few side effects makes the use of radioactive iodine an attractive alternative to surgery in selected cases of non-toxic multinodular goitre.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 9745001,
+          "title": "Radioiodine treatment of multinodular non-toxic goitre.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To investigate the long term effect of radioactive iodine on thyroid function and size in patients with non-toxic multinodular goitre.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Consecutive patients with multinodular non-toxic goitre selected for radioactive iodine treatment and followed for a minimum of 12 months (median 48 months) after an intended dose of 3.7 MBq/g thyroid tissue corrected to a 100% uptake of iodine-131 in 24 hours.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "PATIENTS 69 patients with a growing multinodular non-toxic goitre causing local compression symptoms or cosmetic inconveniences."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "The treatment was chosen because of a high operative risk, previous thyroidectomy, or refusal to be operated on.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "MAIN OUTCOME MEASUREMENTS Standard thyroid function variables and ultrasonically determined thyroid volume before treatment as well as 1, 2, 3, 6, and 12 months after treatment and then once a year.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "RESULTS 56 patients were treated with a single dose of 131I, 12 with two doses, and one with four doses."
+            },
+            {
+              "new_index": 6,
+              "original_index": 10,
+              "sentence": "Side effects were few: three cases of hyperthyroidism and two cases of radiation thyroiditis."
+            },
+            {
+              "new_index": 7,
+              "original_index": 11,
+              "sentence": "Only one patient was dissatisfied with the result; she was referred for operation six months after treatment.   \n"
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 9745001,
+          "original_index": 6,
+          "sentence": "In 45 patients treated with one dose and remaining euthyroid the median thyroid volume was reduced from 73 (interquartile range 50-106) ml to 29 (23-48) ml at 24 months in the 39 patients in whom this was measured during follow up.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 9745001,
+          "original_index": 7,
+          "sentence": "The median reduction was 40 (22-48) ml (60% reduction, p < 0.0001), half of which occurred within three months.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 9745001,
+          "original_index": 8,
+          "sentence": "Patients treated with two doses as well as those developing hypothyroidism and hyperthyroidism had a significant reduction in thyroid volume.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 9745001,
+          "original_index": 9,
+          "sentence": "Eleven patients developed hypothyroidism (cumulative five year risk 22%, 95% confidence interval 4.8% to 38.4%).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 9745001,
+          "original_index": 12,
+          "sentence": "CONCLUSIONS A substantial reduction in thyroid volume accompanied by a low incidence of hypothyroidism and few side effects makes the use of radioactive iodine an attractive alternative to surgery in selected cases of non-toxic multinodular goitre.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

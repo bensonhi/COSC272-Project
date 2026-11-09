@@ -1,0 +1,43 @@
+{
+  "id": 602,
+  "origin": "train_more",
+  "claim": "Increase of p62 in prostate tumor stroma results in defective autophagy.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 3701541,
+      "title": "p62/SQSTM1 by Binding to Vitamin D Receptor Inhibits Hepatic Stellate Cell Activity, Fibrosis, and Liver Cancer.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Hepatic stellate cells (HSCs) play critical roles in liver fibrosis and hepatocellular carcinoma (HCC)."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Vitamin D receptor (VDR) activation in HSCs inhibits liver inflammation and fibrosis."
+        },
+        {
+          "original_index": 2,
+          "sentence": "We found that p62/SQSTM1, a protein upregulated in liver parenchymal cells but downregulated in HCC-associated HSCs, negatively controls HSC activation."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Total body or HSC-specific p62 ablation potentiates HSCs and enhances inflammation, fibrosis, and HCC progression."
+        },
+        {
+          "original_index": 4,
+          "sentence": "p62 directly interacts with VDR and RXR promoting their heterodimerization, which is critical for VDR:RXR target gene recruitment."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Loss of p62 in HSCs impairs the repression of fibrosis and inflammation by VDR agonists."
+        },
+        {
+          "original_index": 6,
+          "sentence": "This demonstrates that p62 is a negative regulator of liver inflammation and fibrosis through its ability to promote VDR signaling in HSCs, whose activation supports HCC."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

@@ -1,0 +1,98 @@
+{
+  "id": 423,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Folate and vitamin B12 levels influence the association between homocysteine and preeclampsia.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 8595678,
+          "title": "Effect modification by population dietary folate on the association between MTHFR genotype, homocysteine, and stroke risk: a meta-analysis of genetic studies and randomised trials",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND The MTHFR 677C→T polymorphism has been associated with raised homocysteine concentration and increased risk of stroke."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "A previous overview showed that the effects were greatest in regions with low dietary folate consumption, but differentiation between the effect of folate and small-study bias was difficult."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "A meta-analysis of randomised trials of homocysteine-lowering interventions showed no reduction in coronary heart disease events or stroke, but the trials were generally set in populations with high folate consumption."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We aimed to reduce the effect of small-study bias and investigate whether folate status modifies the association between MTHFR 677C→T and stroke in a genetic analysis and meta-analysis of randomised controlled trials.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "METHODS We established a collaboration of genetic studies consisting of 237 datasets including 59,995 individuals with data for homocysteine and 20,885 stroke events."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We compared the genetic findings with a meta-analysis of 13 randomised trials of homocysteine-lowering treatments and stroke risk (45,549 individuals, 2314 stroke events, 269 transient ischaemic attacks).   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "FINDINGS The effect of the MTHFR 677C→T variant on homocysteine concentration was larger in low folate regions (Asia; difference between individuals with TT versus CC genotype, 3·12 μmol/L, 95% CI 2·23 to 4·01) than in areas with folate fortification (America, Australia, and New Zealand, high; 0·13 μmol/L, -0·85 to 1·11)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "The odds ratio (OR) for stroke was also higher in Asia (1·68, 95% CI 1·44 to 1·97) than in America, Australia, and New Zealand, high (1·03, 0·84 to 1·25)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Most randomised trials took place in regions with high or increasing population folate concentrations."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "The summary relative risk (RR) of stroke in trials of homocysteine-lowering interventions (0·94, 95% CI 0·85 to 1·04) was similar to that predicted for the same extent of homocysteine reduction in large genetic studies in populations with similar folate status (predicted RR 1·00, 95% CI 0·90 to 1·11)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Although the predicted effect of homocysteine reduction from large genetic studies in low folate regions (Asia) was larger (RR 0·78, 95% CI 0·68 to 0·90), no trial has evaluated the effect of lowering of homocysteine on stroke risk exclusively in a low folate region.   \n"
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "INTERPRETATION In regions with increasing levels or established policies of population folate supplementation, evidence from genetic studies and randomised trials is concordant in suggesting an absence of benefit from lowering of homocysteine for prevention of stroke."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "Further large-scale genetic studies of the association between MTHFR 677C→T and stroke in low folate settings are needed to distinguish effect modification by folate from small-study bias."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "If future randomised trials of homocysteine-lowering interventions for stroke prevention are undertaken, they should take place in regions with low folate consumption.   \n"
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "FUNDING Full funding sources listed at end of paper (see Acknowledgments)."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

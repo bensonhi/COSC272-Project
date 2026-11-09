@@ -1,0 +1,66 @@
+{
+  "id": 1142,
+  "origin": "train_more",
+  "claim": "Taking anti-depresents is associated with a decrease in the Aβ level in the brain of experimental animals.",
+  "evidence": [
+    {
+      "doc_id": 5260382,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 5,
+      "sentence": "Aβ production in CSF was slowed by 37% in the citalopram group compared to placebo."
+    },
+    {
+      "doc_id": 5260382,
+      "group_id": "g1",
+      "evidence_label": "SUPPORT_more",
+      "original_index": 1,
+      "sentence": "We show that in an aged transgenic AD mouse model (APP/PS1 plaque-bearing mice), the antidepressant citalopram, a selective serotonin reuptake inhibitor, decreased Aβ in brain interstitial fluid in a dose-dependent manner."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 5260382,
+      "title": "An Antidepressant Decreases CSF Aβ Production in Healthy Individuals and in Transgenic AD Mice",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Serotonin signaling suppresses generation of amyloid-β (Aβ) in vitro and in animal models of Alzheimer’s disease (AD)."
+        },
+        {
+          "original_index": 1,
+          "sentence": "We show that in an aged transgenic AD mouse model (APP/PS1 plaque-bearing mice), the antidepressant citalopram, a selective serotonin reuptake inhibitor, decreased Aβ in brain interstitial fluid in a dose-dependent manner."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Growth of individual amyloid plaques was assessed in plaque-bearing mice that were chronically administered citalopram."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Citalopram arrested the growth of preexisting plaques and reduced the appearance of new plaques by 78%."
+        },
+        {
+          "original_index": 4,
+          "sentence": "In healthy human volunteers, citalopram’s effects on Aβ production and Aβ concentrations in cerebrospinal fluid (CSF) were measured prospectively using stable isotope labeling kinetics, with CSF sampling during acute dosing of citalopram."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Aβ production in CSF was slowed by 37% in the citalopram group compared to placebo."
+        },
+        {
+          "original_index": 6,
+          "sentence": "This change was associated with a 38% decrease in total CSF Aβ concentrations in the drug-treated group."
+        },
+        {
+          "original_index": 7,
+          "sentence": "The ability to safely decrease Aβ concentrations is potentially important as a preventive strategy for AD."
+        },
+        {
+          "original_index": 8,
+          "sentence": "This study demonstrates key target engagement for future AD prevention trials."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

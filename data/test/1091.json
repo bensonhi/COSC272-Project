@@ -1,0 +1,47 @@
+{
+  "id": 1091,
+  "origin": "train_more",
+  "claim": "Sn is present on mature DCs during inflammation in vivo.",
+  "evidence": [],
+  "articles": [
+    {
+      "doc_id": 2603304,
+      "title": "Siglec-1 Is a Novel Dendritic Cell Receptor That Mediates HIV-1 Trans-Infection Through Recognition of Viral Membrane Gangliosides",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "Dendritic cells (DCs) are essential antigen-presenting cells for the induction of immunity against pathogens."
+        },
+        {
+          "original_index": 1,
+          "sentence": "However, HIV-1 spread is strongly enhanced in clusters of DCs and CD4(+) T cells."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Uninfected DCs capture HIV-1 and mediate viral transfer to bystander CD4(+) T cells through a process termed trans-infection."
+        },
+        {
+          "original_index": 3,
+          "sentence": "Initial studies identified the C-type lectin DC-SIGN as the HIV-1 binding factor on DCs, which interacts with the viral envelope glycoproteins."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Upon DC maturation, however, DC-SIGN is down-regulated, while HIV-1 capture and trans-infection is strongly enhanced via a glycoprotein-independent capture pathway that recognizes sialyllactose-containing membrane gangliosides."
+        },
+        {
+          "original_index": 5,
+          "sentence": "Here we show that the sialic acid-binding Ig-like lectin 1 (Siglec-1, CD169), which is highly expressed on mature DCs, specifically binds HIV-1 and vesicles carrying sialyllactose."
+        },
+        {
+          "original_index": 6,
+          "sentence": "Furthermore, Siglec-1 is essential for trans-infection by mature DCs."
+        },
+        {
+          "original_index": 7,
+          "sentence": "These findings identify Siglec-1 as a key factor for HIV-1 spread via infectious DC/T-cell synapses, highlighting a novel mechanism that mediates HIV-1 dissemination in activated tissues."
+        }
+      ]
+    }
+  ],
+  "label": "NEI"
+}

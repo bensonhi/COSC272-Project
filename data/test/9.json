@@ -1,0 +1,87 @@
+{
+  "id": 9,
+  "origin": "train_more",
+  "claim": "32% of liver transplantation programs required patients to discontinue methadone treatment in 2001.",
+  "evidence": [
+    {
+      "doc_id": 44265107,
+      "group_id": "g0",
+      "evidence_label": "SUPPORT",
+      "original_index": 15,
+      "sentence": "Policies requiring discontinuation of methadone in 32% of all programs contradict the evidence base for efficacy of long-term replacement therapies and potentially result in relapse of previously stable patients."
+    }
+  ],
+  "articles": [
+    {
+      "doc_id": 44265107,
+      "title": "Liver transplantation and opioid dependence.",
+      "sentences": [
+        {
+          "original_index": 0,
+          "sentence": "ContextChronic hepatitis C is the leading cause for liver transplantation in the United States."
+        },
+        {
+          "original_index": 1,
+          "sentence": "Intravenous drug use, the major risk factor, accounts for approximately 60% of hepatitis C virus transmission."
+        },
+        {
+          "original_index": 2,
+          "sentence": "Information from the United Network of Organ Sharing (UNOS) does not address substance use among liver transplantation patients."
+        },
+        {
+          "original_index": 3,
+          "sentence": "ObjectiveTo identify addiction-related criteria for admission to the UNOS liver transplantation waiting list and posttransplantation problems experienced by patients who are prescribed maintenance methadone."
+        },
+        {
+          "original_index": 4,
+          "sentence": "Design, Setting, and ParticipantsMail survey of all 97 adult US liver transplantation programs (belonging to UNOS) in March 2000 with telephone follow-up conducted in May and June 2000.Main Outcome MeasuresPrograms' acceptance and management of patients with past or present substance use disorder."
+        },
+        {
+          "original_index": 5,
+          "sentence": "ResultsOf the 97 programs surveyed, 87 (90%) responded."
+        },
+        {
+          "original_index": 6,
+          "sentence": "All accept applicants with a history of alcoholism or other addictions, including heroin dependence."
+        },
+        {
+          "original_index": 7,
+          "sentence": "Eighty-eight percent of the responding programs require at least 6 months of abstinence from alcohol; 83% from illicit drugs."
+        },
+        {
+          "original_index": 8,
+          "sentence": "Ninety-four percent have addiction treatment requirements."
+        },
+        {
+          "original_index": 9,
+          "sentence": "Consultations from substance abuse specialists are obtained by 86%."
+        },
+        {
+          "original_index": 10,
+          "sentence": "Patients receiving methadone maintenance are accepted by 56% of the responding programs."
+        },
+        {
+          "original_index": 11,
+          "sentence": "Approximately 180 patients receiving methadone maintenance are reported to have undergone liver transplantation."
+        },
+        {
+          "original_index": 12,
+          "sentence": "ConclusionsMost liver transplantation programs have established policies for patients with substance use disorders."
+        },
+        {
+          "original_index": 13,
+          "sentence": "Opiate-dependent patients receiving opiate replacement therapy seem underrepresented in transplantation programs."
+        },
+        {
+          "original_index": 14,
+          "sentence": "Little anecdotal evidence for negative impact of opiate replacement therapy on liver transplantation outcome was found."
+        },
+        {
+          "original_index": 15,
+          "sentence": "Policies requiring discontinuation of methadone in 32% of all programs contradict the evidence base for efficacy of long-term replacement therapies and potentially result in relapse of previously stable patients."
+        }
+      ]
+    }
+  ],
+  "label": "SUPPORT"
+}

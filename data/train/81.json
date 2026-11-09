@@ -1,0 +1,53 @@
+{
+  "id": 81,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Acute ablation of Snail in the embryonic cortex affects the proliferation and number of embryonic cortical precursors.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 1797622,
+          "title": "Control of Apoptosis by Asymmetric Cell Division",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Asymmetric cell division and apoptosis (programmed cell death) are two fundamental processes that are important for the development and function of multicellular organisms."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "We have found that the processes of asymmetric cell division and apoptosis can be functionally linked."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Specifically, we show that asymmetric cell division in the nematode Caenorhabditis elegans is mediated by a pathway involving three genes, dnj-11 MIDA1, ces-2 HLF, and ces-1 Snail, that directly control the enzymatic machinery responsible for apoptosis."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Interestingly, the MIDA1-like protein GlsA of the alga Volvox carteri, as well as the Snail-related proteins Snail, Escargot, and Worniu of Drosophila melanogaster, have previously been implicated in asymmetric cell division."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Therefore, C. elegans dnj-11 MIDA1, ces-2 HLF, and ces-1 Snail may be components of a pathway involved in asymmetric cell division that is conserved throughout the plant and animal kingdoms."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Furthermore, based on our results, we propose that this pathway directly controls the apoptotic fate in C. elegans, and possibly other animals as well."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

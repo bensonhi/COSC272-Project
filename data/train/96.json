@@ -1,0 +1,98 @@
+{
+  "id": 96,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Algerian physicians constitue the largest component of sub-Saharan Africa-trained physicians in the United States.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 14500725,
+          "title": "Physician Emigration from Sub-Saharan Africa to the United States: Analysis of the 2011 AMA Physician Masterfile",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND The large-scale emigration of physicians from sub-Saharan Africa (SSA) to high-income nations is a serious development concern."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Our objective was to determine current emigration trends of SSA physicians found in the physician workforce of the United States.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS AND FINDINGS We analyzed physician data from the World Health Organization (WHO) Global Health Workforce Statistics along with graduation and residency data from the 2011 American Medical Association Physician Masterfile (AMA-PM) on physicians trained or born in SSA countries who currently practice in the US."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We estimated emigration proportions, year of US entry, years of practice before emigration, and length of time in the US."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "According to the 2011 AMA-PM, 10,819 physicians were born or trained in 28 SSA countries."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Sixty-eight percent (n = 7,370) were SSA-trained, 20% (n = 2,126) were US-trained, and 12% (n = 1,323) were trained outside both SSA and the US."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "We estimated active physicians (age ≤ 70 years) to represent 96% (n = 10,377) of the total."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Migration trends among SSA-trained physicians increased from 2002 to 2011 for all but one principal source country; the exception was South Africa whose physician migration to the US decreased by 8% (-156)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "The increase in last-decade migration was >50% in Nigeria (+1,113) and Ghana (+243), >100% in Ethiopia (+274), and >200% (+244) in Sudan."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Liberia was the most affected by migration to the US with 77% (n = 175) of its estimated physicians in the 2011 AMA-PM."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "On average, SSA-trained physicians have been in the US for 18 years."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "They practiced for 6.5 years before US entry, and nearly half emigrated during the implementation years (1984-1999) of the structural adjustment programs.   \n"
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "CONCLUSION Physician emigration from SSA to the US is increasing for most SSA source countries."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "Unless far-reaching policies are implemented by the US and SSA countries, the current emigration trends will persist, and the US will remain a leading destination for SSA physicians emigrating from the continent of greatest need."
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "Please see later in the article for the Editors' Summary."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

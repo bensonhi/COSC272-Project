@@ -1,0 +1,134 @@
+{
+  "id": 461,
+  "origin": "train_more",
+  "n_groups": 2,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Genetic deletion of JAM-A increases gut permeability.",
+      "evidence": [
+        {
+          "doc_id": 40096222,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "Mice lacking junctional adhesion molecule A (JAM-A, encoded by F11r) exhibit enhanced intestinal epithelial permeability, bacterial translocation, and elevated colonic lymphocyte numbers, yet do not develop colitis.",
+          "kept": true,
+          "new_index": 0
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 40096222,
+          "title": "Compromised intestinal epithelial barrier induces adaptive immune compensation that protects from colitis.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Mice lacking junctional adhesion molecule A (JAM-A, encoded by F11r) exhibit enhanced intestinal epithelial permeability, bacterial translocation, and elevated colonic lymphocyte numbers, yet do not develop colitis."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "To investigate the contribution of adaptive immune compensation in response to increased intestinal epithelial permeability, we examined the susceptibility of F11r(-/-)Rag1(-/-) mice to acute colitis."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Although negligible contributions of adaptive immunity in F11r(+/+)Rag1(-/-) mice were observed, F11r(-/-)Rag1(-/-) mice exhibited increased microflora-dependent colitis."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Elimination of T cell subsets and cytokine analyses revealed a protective role for TGF-β-producing CD4(+) T cells in F11r(-/-) mice."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Additionally, loss of JAM-A resulted in elevated mucosal and serum IgA that was dependent upon CD4(+) T cells and TGF-β."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Absence of IgA in F11r(+/+)Igha(-/-) mice did not affect disease, whereas F11r(-/-)Igha(-/-) mice displayed markedly increased susceptibility to acute injury-induced colitis."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "These data establish a role for adaptive immune-mediated protection from acute colitis under conditions of intestinal epithelial barrier compromise."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Genetic deletion of JAM-A increases gut permeability.",
+      "evidence": [
+        {
+          "doc_id": 40096222,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 0,
+          "sentence": "Mice lacking junctional adhesion molecule A (JAM-A, encoded by F11r) exhibit enhanced intestinal epithelial permeability, bacterial translocation, and elevated colonic lymphocyte numbers, yet do not develop colitis.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 40096222,
+          "title": "Compromised intestinal epithelial barrier induces adaptive immune compensation that protects from colitis.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "To investigate the contribution of adaptive immune compensation in response to increased intestinal epithelial permeability, we examined the susceptibility of F11r(-/-)Rag1(-/-) mice to acute colitis."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Although negligible contributions of adaptive immunity in F11r(+/+)Rag1(-/-) mice were observed, F11r(-/-)Rag1(-/-) mice exhibited increased microflora-dependent colitis."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Elimination of T cell subsets and cytokine analyses revealed a protective role for TGF-β-producing CD4(+) T cells in F11r(-/-) mice."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Additionally, loss of JAM-A resulted in elevated mucosal and serum IgA that was dependent upon CD4(+) T cells and TGF-β."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "These data establish a role for adaptive immune-mediated protection from acute colitis under conditions of intestinal epithelial barrier compromise."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 40096222,
+          "original_index": 0,
+          "sentence": "Mice lacking junctional adhesion molecule A (JAM-A, encoded by F11r) exhibit enhanced intestinal epithelial permeability, bacterial translocation, and elevated colonic lymphocyte numbers, yet do not develop colitis.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 40096222,
+          "original_index": 5,
+          "sentence": "Absence of IgA in F11r(+/+)Igha(-/-) mice did not affect disease, whereas F11r(-/-)Igha(-/-) mice displayed markedly increased susceptibility to acute injury-induced colitis.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": 622,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Individuals with low serum vitamin D concentrations have decreased risk of multiple sclerosis.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 17000834,
+          "title": "Past exposure to sun, skin phenotype, and risk of multiple sclerosis: case-control study.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVE To examine whether past high sun exposure is associated with a reduced risk of multiple sclerosis.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Population based case-control study.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "SETTING Tasmania, latitudes 41-3 degrees S.   PARTICIPANTS 136 cases with multiple sclerosis and 272 controls randomly drawn from the community and matched on sex and year of birth.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "MAIN OUTCOME MEASURE Multiple sclerosis defined by both clinical and magnetic resonance imaging criteria.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "RESULTS Higher sun exposure when aged 6-15 years (average 2-3 hours or more a day in summer during weekends and holidays) was associated with a decreased risk of multiple sclerosis (adjusted odds ratio 0.31, 95% confidence interval 0.16 to 0.59)."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Higher exposure in winter seemed more important than higher exposure in summer."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Greater actinic damage was also independently associated with a decreased risk of multiple sclerosis (0.32, 0.11 to 0.88 for grades 4-6 disease)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "A dose-response relation was observed between multiple sclerosis and decreasing sun exposure when aged 6-15 years and with actinic damage.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "CONCLUSION Higher sun exposure during childhood and early adolescence is associated with a reduced risk of multiple sclerosis."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Insufficient ultraviolet radiation may therefore influence the development of multiple sclerosis."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}

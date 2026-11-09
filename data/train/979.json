@@ -1,0 +1,214 @@
+{
+  "id": 979,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Progerin induces premature aging in stem cells.",
+      "evidence": [
+        {
+          "doc_id": 11659421,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "We found that expression of progerin in iPSC-derived fibroblasts and neurons induces multiple aging-related markers and characteristics, including dopamine-specific phenotypes such as neuromelanin accumulation.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 11659421,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Thus, our study suggests that progerin-induced aging can be used to reveal late-onset age-related disease features in hiPSC-based disease models.",
+          "kept": true,
+          "new_index": 5
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 11659421,
+          "title": "Human iPSC-based modeling of late-onset disease via progerin-induced aging.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Reprogramming somatic cells to induced pluripotent stem cells (iPSCs) resets their identity back to an embryonic age and, thus, presents a significant hurdle for modeling late-onset disorders."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "In this study, we describe a strategy for inducing aging-related features in human iPSC-derived lineages and apply it to the modeling of Parkinson's disease (PD)."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Our approach involves expression of progerin, a truncated form of lamin A associated with premature aging."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We found that expression of progerin in iPSC-derived fibroblasts and neurons induces multiple aging-related markers and characteristics, including dopamine-specific phenotypes such as neuromelanin accumulation."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Induced aging in PD iPSC-derived dopamine neurons revealed disease phenotypes that require both aging and genetic susceptibility, such as pronounced dendrite degeneration, progressive loss of tyrosine hydroxylase (TH) expression, and enlarged mitochondria or Lewy-body-precursor inclusions."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Thus, our study suggests that progerin-induced aging can be used to reveal late-onset age-related disease features in hiPSC-based disease models."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g1"
+      ],
+      "claim": "Progerin induces premature aging in stem cells.",
+      "evidence": [
+        {
+          "doc_id": 11659421,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "We found that expression of progerin in iPSC-derived fibroblasts and neurons induces multiple aging-related markers and characteristics, including dopamine-specific phenotypes such as neuromelanin accumulation.",
+          "kept": true,
+          "new_index": 2
+        },
+        {
+          "doc_id": 11659421,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Thus, our study suggests that progerin-induced aging can be used to reveal late-onset age-related disease features in hiPSC-based disease models.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 11659421,
+          "title": "Human iPSC-based modeling of late-onset disease via progerin-induced aging.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Reprogramming somatic cells to induced pluripotent stem cells (iPSCs) resets their identity back to an embryonic age and, thus, presents a significant hurdle for modeling late-onset disorders."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Our approach involves expression of progerin, a truncated form of lamin A associated with premature aging."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "We found that expression of progerin in iPSC-derived fibroblasts and neurons induces multiple aging-related markers and characteristics, including dopamine-specific phenotypes such as neuromelanin accumulation."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "Induced aging in PD iPSC-derived dopamine neurons revealed disease phenotypes that require both aging and genetic susceptibility, such as pronounced dendrite degeneration, progressive loss of tyrosine hydroxylase (TH) expression, and enlarged mitochondria or Lewy-body-precursor inclusions."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 11659421,
+          "original_index": 1,
+          "sentence": "In this study, we describe a strategy for inducing aging-related features in human iPSC-derived lineages and apply it to the modeling of Parkinson's disease (PD).",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 11659421,
+          "original_index": 5,
+          "sentence": "Thus, our study suggests that progerin-induced aging can be used to reveal late-onset age-related disease features in hiPSC-based disease models.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Progerin induces premature aging in stem cells.",
+      "evidence": [
+        {
+          "doc_id": 11659421,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "We found that expression of progerin in iPSC-derived fibroblasts and neurons induces multiple aging-related markers and characteristics, including dopamine-specific phenotypes such as neuromelanin accumulation.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 11659421,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 5,
+          "sentence": "Thus, our study suggests that progerin-induced aging can be used to reveal late-onset age-related disease features in hiPSC-based disease models.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 11659421,
+          "title": "Human iPSC-based modeling of late-onset disease via progerin-induced aging.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "In this study, we describe a strategy for inducing aging-related features in human iPSC-derived lineages and apply it to the modeling of Parkinson's disease (PD)."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Our approach involves expression of progerin, a truncated form of lamin A associated with premature aging."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Induced aging in PD iPSC-derived dopamine neurons revealed disease phenotypes that require both aging and genetic susceptibility, such as pronounced dendrite degeneration, progressive loss of tyrosine hydroxylase (TH) expression, and enlarged mitochondria or Lewy-body-precursor inclusions."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 11659421,
+          "original_index": 0,
+          "sentence": "Reprogramming somatic cells to induced pluripotent stem cells (iPSCs) resets their identity back to an embryonic age and, thus, presents a significant hurdle for modeling late-onset disorders.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 11659421,
+          "original_index": 3,
+          "sentence": "We found that expression of progerin in iPSC-derived fibroblasts and neurons induces multiple aging-related markers and characteristics, including dopamine-specific phenotypes such as neuromelanin accumulation.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 11659421,
+          "original_index": 5,
+          "sentence": "Thus, our study suggests that progerin-induced aging can be used to reveal late-onset age-related disease features in hiPSC-based disease models.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

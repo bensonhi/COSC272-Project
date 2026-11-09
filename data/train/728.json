@@ -1,0 +1,416 @@
+{
+  "id": 728,
+  "origin": "dev",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Ly6C hi monocytes have a lower inflammatory capacity than Ly6C lo monocytes.",
+      "evidence": [
+        {
+          "doc_id": 36444198,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Under inflammatory conditions elicited either by acute infection with Listeria monocytogenes or chronic infection with Leishmania major, there was a significant increase in immature Ly-6C(high) monocytes, resembling the inflammatory left shift of granulocytes.",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 36444198,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "In addition, acute peritoneal inflammation recruited preferentially Ly-6C(med-high) monocytes.",
+          "kept": true,
+          "new_index": 10
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 7521113,
+          "title": "Fate mapping reveals origins and dynamics of monocytes and tissue macrophages under homeostasis.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Mononuclear phagocytes, including monocytes, macrophages, and dendritic cells, contribute to tissue integrity as well as to innate and adaptive immune defense."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Emerging evidence for labor division indicates that manipulation of these cells could bear therapeutic potential."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "However, specific ontogenies of individual populations and the overall functional organization of this cellular network are not well defined."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Here we report a fate-mapping study of the murine monocyte and macrophage compartment taking advantage of constitutive and conditional CX(3)CR1 promoter-driven Cre recombinase expression."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We have demonstrated that major tissue-resident macrophage populations, including liver Kupffer cells and lung alveolar, splenic, and peritoneal macrophages, are established prior to birth and maintain themselves subsequently during adulthood independent of replenishment by blood monocytes."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Furthermore, we have established that short-lived Ly6C(+) monocytes constitute obligatory steady-state precursors of blood-resident Ly6C(-) cells and that the abundance of Ly6C(+) blood monocytes dynamically controls the circulation lifespan of their progeny."
+            }
+          ]
+        },
+        {
+          "doc_id": 36444198,
+          "title": "Subpopulations of mouse blood monocytes differ in maturation stage and inflammatory response.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Blood monocytes are well-characterized precursors for macrophages and dendritic cells."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Subsets of human monocytes with differential representation in various disease states are well known."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "In contrast, mouse monocyte subsets have been characterized minimally."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "In this study we identify three subpopulations of mouse monocytes that can be distinguished by differential expression of Ly-6C, CD43, CD11c, MBR, and CD62L."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "The subsets share the characteristics of extensive phagocytosis, similar expression of M-CSF receptor (CD115), and development into macrophages upon M-CSF stimulation."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "By eliminating blood monocytes with dichloromethylene-bisphosphonate-loaded liposomes and monitoring their repopulation, we showed a developmental relationship between the subsets."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Monocytes were maximally depleted 18 h after liposome application and subsequently reappeared in the circulation."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "These cells were exclusively of the Ly-6C(high) subset, resembling bone marrow monocytes."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Serial flow cytometric analyses of newly released Ly-6C(high) monocytes showed that Ly-6C expression on these cells was down-regulated while in circulation."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Under inflammatory conditions elicited either by acute infection with Listeria monocytogenes or chronic infection with Leishmania major, there was a significant increase in immature Ly-6C(high) monocytes, resembling the inflammatory left shift of granulocytes."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "In addition, acute peritoneal inflammation recruited preferentially Ly-6C(med-high) monocytes."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Taken together, these data identify distinct subpopulations of mouse blood monocytes that differ in maturation stage and capacity to become recruited to inflammatory sites."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Ly6C hi monocytes have a lower inflammatory capacity than Ly6C lo monocytes.",
+      "evidence": [
+        {
+          "doc_id": 36444198,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Under inflammatory conditions elicited either by acute infection with Listeria monocytogenes or chronic infection with Leishmania major, there was a significant increase in immature Ly-6C(high) monocytes, resembling the inflammatory left shift of granulocytes.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 36444198,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "In addition, acute peritoneal inflammation recruited preferentially Ly-6C(med-high) monocytes.",
+          "kept": true,
+          "new_index": 7
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 7521113,
+          "title": "Fate mapping reveals origins and dynamics of monocytes and tissue macrophages under homeostasis.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Mononuclear phagocytes, including monocytes, macrophages, and dendritic cells, contribute to tissue integrity as well as to innate and adaptive immune defense."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "However, specific ontogenies of individual populations and the overall functional organization of this cellular network are not well defined."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Here we report a fate-mapping study of the murine monocyte and macrophage compartment taking advantage of constitutive and conditional CX(3)CR1 promoter-driven Cre recombinase expression."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "We have demonstrated that major tissue-resident macrophage populations, including liver Kupffer cells and lung alveolar, splenic, and peritoneal macrophages, are established prior to birth and maintain themselves subsequently during adulthood independent of replenishment by blood monocytes."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Furthermore, we have established that short-lived Ly6C(+) monocytes constitute obligatory steady-state precursors of blood-resident Ly6C(-) cells and that the abundance of Ly6C(+) blood monocytes dynamically controls the circulation lifespan of their progeny."
+            }
+          ]
+        },
+        {
+          "doc_id": 36444198,
+          "title": "Subpopulations of mouse blood monocytes differ in maturation stage and inflammatory response.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Blood monocytes are well-characterized precursors for macrophages and dendritic cells."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "In contrast, mouse monocyte subsets have been characterized minimally."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "The subsets share the characteristics of extensive phagocytosis, similar expression of M-CSF receptor (CD115), and development into macrophages upon M-CSF stimulation."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "By eliminating blood monocytes with dichloromethylene-bisphosphonate-loaded liposomes and monitoring their repopulation, we showed a developmental relationship between the subsets."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Monocytes were maximally depleted 18 h after liposome application and subsequently reappeared in the circulation."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "These cells were exclusively of the Ly-6C(high) subset, resembling bone marrow monocytes."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "Serial flow cytometric analyses of newly released Ly-6C(high) monocytes showed that Ly-6C expression on these cells was down-regulated while in circulation."
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "In addition, acute peritoneal inflammation recruited preferentially Ly-6C(med-high) monocytes."
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "Taken together, these data identify distinct subpopulations of mouse blood monocytes that differ in maturation stage and capacity to become recruited to inflammatory sites."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 7521113,
+          "original_index": 1,
+          "sentence": "Emerging evidence for labor division indicates that manipulation of these cells could bear therapeutic potential.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 36444198,
+          "original_index": 1,
+          "sentence": "Subsets of human monocytes with differential representation in various disease states are well known.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 36444198,
+          "original_index": 3,
+          "sentence": "In this study we identify three subpopulations of mouse monocytes that can be distinguished by differential expression of Ly-6C, CD43, CD11c, MBR, and CD62L.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 36444198,
+          "original_index": 9,
+          "sentence": "Under inflammatory conditions elicited either by acute infection with Listeria monocytogenes or chronic infection with Leishmania major, there was a significant increase in immature Ly-6C(high) monocytes, resembling the inflammatory left shift of granulocytes.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "Ly6C hi monocytes have a lower inflammatory capacity than Ly6C lo monocytes.",
+      "evidence": [
+        {
+          "doc_id": 36444198,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Under inflammatory conditions elicited either by acute infection with Listeria monocytogenes or chronic infection with Leishmania major, there was a significant increase in immature Ly-6C(high) monocytes, resembling the inflammatory left shift of granulocytes.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 36444198,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "In addition, acute peritoneal inflammation recruited preferentially Ly-6C(med-high) monocytes.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 7521113,
+          "title": "Fate mapping reveals origins and dynamics of monocytes and tissue macrophages under homeostasis.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Mononuclear phagocytes, including monocytes, macrophages, and dendritic cells, contribute to tissue integrity as well as to innate and adaptive immune defense."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Emerging evidence for labor division indicates that manipulation of these cells could bear therapeutic potential."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "However, specific ontogenies of individual populations and the overall functional organization of this cellular network are not well defined."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Here we report a fate-mapping study of the murine monocyte and macrophage compartment taking advantage of constitutive and conditional CX(3)CR1 promoter-driven Cre recombinase expression."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Furthermore, we have established that short-lived Ly6C(+) monocytes constitute obligatory steady-state precursors of blood-resident Ly6C(-) cells and that the abundance of Ly6C(+) blood monocytes dynamically controls the circulation lifespan of their progeny."
+            }
+          ]
+        },
+        {
+          "doc_id": 36444198,
+          "title": "Subpopulations of mouse blood monocytes differ in maturation stage and inflammatory response.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Blood monocytes are well-characterized precursors for macrophages and dendritic cells."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Subsets of human monocytes with differential representation in various disease states are well known."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "In this study we identify three subpopulations of mouse monocytes that can be distinguished by differential expression of Ly-6C, CD43, CD11c, MBR, and CD62L."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "The subsets share the characteristics of extensive phagocytosis, similar expression of M-CSF receptor (CD115), and development into macrophages upon M-CSF stimulation."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "By eliminating blood monocytes with dichloromethylene-bisphosphonate-loaded liposomes and monitoring their repopulation, we showed a developmental relationship between the subsets."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Monocytes were maximally depleted 18 h after liposome application and subsequently reappeared in the circulation."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "These cells were exclusively of the Ly-6C(high) subset, resembling bone marrow monocytes."
+            },
+            {
+              "new_index": 7,
+              "original_index": 11,
+              "sentence": "Taken together, these data identify distinct subpopulations of mouse blood monocytes that differ in maturation stage and capacity to become recruited to inflammatory sites."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 7521113,
+          "original_index": 4,
+          "sentence": "We have demonstrated that major tissue-resident macrophage populations, including liver Kupffer cells and lung alveolar, splenic, and peritoneal macrophages, are established prior to birth and maintain themselves subsequently during adulthood independent of replenishment by blood monocytes.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 36444198,
+          "original_index": 2,
+          "sentence": "In contrast, mouse monocyte subsets have been characterized minimally.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 36444198,
+          "original_index": 8,
+          "sentence": "Serial flow cytometric analyses of newly released Ly-6C(high) monocytes showed that Ly-6C expression on these cells was down-regulated while in circulation.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 36444198,
+          "original_index": 9,
+          "sentence": "Under inflammatory conditions elicited either by acute infection with Listeria monocytogenes or chronic infection with Leishmania major, there was a significant increase in immature Ly-6C(high) monocytes, resembling the inflammatory left shift of granulocytes.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 36444198,
+          "original_index": 10,
+          "sentence": "In addition, acute peritoneal inflammation recruited preferentially Ly-6C(med-high) monocytes.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

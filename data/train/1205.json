@@ -1,0 +1,396 @@
+{
+  "id": 1205,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The combination of physical examinations with C-reactive protein values do not improve the accuracy of radiographic verified pneumonia predictions.",
+      "evidence": [
+        {
+          "doc_id": 5558754,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "Addition of CRP at the optimal cut off of >30 mg/L increased the ROC area to 0.77 (0.73 to 0.81) and improved the diagnostic classification (net reclassification improvement 28%).",
+          "kept": true,
+          "new_index": 10
+        },
+        {
+          "doc_id": 5558754,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 17,
+          "sentence": "Addition of CRP concentration at the optimal cut off of >30 mg/L improved diagnostic information, but measurement of procalcitonin concentration did not add clinically relevant information in this group.",
+          "kept": true,
+          "new_index": 17
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 5558754,
+          "title": "Use of serum C reactive protein and procalcitonin concentrations in addition to symptoms and signs to predict pneumonia in patients presenting to primary care with acute cough: diagnostic study",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVES To quantify the diagnostic accuracy of selected inflammatory markers in addition to symptoms and signs for predicting pneumonia and to derive a diagnostic tool.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Diagnostic study performed between 2007 and 2010."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Participants had their history taken, underwent physical examination and measurement of C reactive protein (CRP) and procalcitonin in venous blood on the day they first consulted, and underwent chest radiography within seven days.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "SETTING Primary care centres in 12 European countries.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "PARTICIPANTS Adults presenting with acute cough.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "MAIN OUTCOME MEASURES Pneumonia as determined by radiologists, who were blind to all other information when they judged chest radiographs.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "RESULTS Of 3106 eligible patients, 286 were excluded because of missing or inadequate chest radiographs, leaving 2820 patients (mean age 50, 40% men) of whom 140 (5%) had pneumonia."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Re-assessment of a subset of 1675 chest radiographs showed agreement in 94% (κ 0.45, 95% confidence interval 0.36 to 0.54)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Six published \"symptoms and signs models\" varied in their discrimination (area under receiver operating characteristics curve (ROC) ranged from 0.55 (95% confidence interval 0.50 to 0.61) to 0.71 (0.66 to 0.76))."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "The optimal combination of clinical prediction items derived from our patients included absence of runny nose and presence of breathlessness, crackles and diminished breath sounds on auscultation, tachycardia, and fever, with an ROC area of 0.70 (0.65 to 0.75)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Addition of CRP at the optimal cut off of >30 mg/L increased the ROC area to 0.77 (0.73 to 0.81) and improved the diagnostic classification (net reclassification improvement 28%)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "In the 1556 patients classified according to symptoms, signs, and CRP >30 mg/L as \"low risk\" (<2.5%) for pneumonia, the prevalence of pneumonia was 2%."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "In the 132 patients classified as \"high risk\" (>20%), the prevalence of pneumonia was 31%."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "The positive likelihood ratio of low, intermediate, and high risk for pneumonia was 0.4, 1.2, and 8.6 respectively."
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "Measurement of procalcitonin added no relevant additional diagnostic information."
+            },
+            {
+              "new_index": 15,
+              "original_index": 15,
+              "sentence": "A simplified diagnostic score based on symptoms, signs, and CRP >30 mg/L resulted in proportions of pneumonia of 0.7%, 3.8%, and 18.2% in the low, intermediate, and high risk group respectively.   \n"
+            },
+            {
+              "new_index": 16,
+              "original_index": 16,
+              "sentence": "CONCLUSIONS A clinical rule based on symptoms and signs to predict pneumonia in patients presenting to primary care with acute cough performed best in patients with mild or severe clinical presentation."
+            },
+            {
+              "new_index": 17,
+              "original_index": 17,
+              "sentence": "Addition of CRP concentration at the optimal cut off of >30 mg/L improved diagnostic information, but measurement of procalcitonin concentration did not add clinically relevant information in this group."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "The combination of physical examinations with C-reactive protein values do not improve the accuracy of radiographic verified pneumonia predictions.",
+      "evidence": [
+        {
+          "doc_id": 5558754,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "Addition of CRP at the optimal cut off of >30 mg/L increased the ROC area to 0.77 (0.73 to 0.81) and improved the diagnostic classification (net reclassification improvement 28%).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 5558754,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 17,
+          "sentence": "Addition of CRP concentration at the optimal cut off of >30 mg/L improved diagnostic information, but measurement of procalcitonin concentration did not add clinically relevant information in this group.",
+          "kept": true,
+          "new_index": 14
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 5558754,
+          "title": "Use of serum C reactive protein and procalcitonin concentrations in addition to symptoms and signs to predict pneumonia in patients presenting to primary care with acute cough: diagnostic study",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVES To quantify the diagnostic accuracy of selected inflammatory markers in addition to symptoms and signs for predicting pneumonia and to derive a diagnostic tool.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Diagnostic study performed between 2007 and 2010."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Participants had their history taken, underwent physical examination and measurement of C reactive protein (CRP) and procalcitonin in venous blood on the day they first consulted, and underwent chest radiography within seven days.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "SETTING Primary care centres in 12 European countries.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "PARTICIPANTS Adults presenting with acute cough.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "RESULTS Of 3106 eligible patients, 286 were excluded because of missing or inadequate chest radiographs, leaving 2820 patients (mean age 50, 40% men) of whom 140 (5%) had pneumonia."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "Re-assessment of a subset of 1675 chest radiographs showed agreement in 94% (κ 0.45, 95% confidence interval 0.36 to 0.54)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "Six published \"symptoms and signs models\" varied in their discrimination (area under receiver operating characteristics curve (ROC) ranged from 0.55 (95% confidence interval 0.50 to 0.61) to 0.71 (0.66 to 0.76))."
+            },
+            {
+              "new_index": 8,
+              "original_index": 9,
+              "sentence": "The optimal combination of clinical prediction items derived from our patients included absence of runny nose and presence of breathlessness, crackles and diminished breath sounds on auscultation, tachycardia, and fever, with an ROC area of 0.70 (0.65 to 0.75)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "In the 1556 patients classified according to symptoms, signs, and CRP >30 mg/L as \"low risk\" (<2.5%) for pneumonia, the prevalence of pneumonia was 2%."
+            },
+            {
+              "new_index": 10,
+              "original_index": 12,
+              "sentence": "In the 132 patients classified as \"high risk\" (>20%), the prevalence of pneumonia was 31%."
+            },
+            {
+              "new_index": 11,
+              "original_index": 13,
+              "sentence": "The positive likelihood ratio of low, intermediate, and high risk for pneumonia was 0.4, 1.2, and 8.6 respectively."
+            },
+            {
+              "new_index": 12,
+              "original_index": 15,
+              "sentence": "A simplified diagnostic score based on symptoms, signs, and CRP >30 mg/L resulted in proportions of pneumonia of 0.7%, 3.8%, and 18.2% in the low, intermediate, and high risk group respectively.   \n"
+            },
+            {
+              "new_index": 13,
+              "original_index": 16,
+              "sentence": "CONCLUSIONS A clinical rule based on symptoms and signs to predict pneumonia in patients presenting to primary care with acute cough performed best in patients with mild or severe clinical presentation."
+            },
+            {
+              "new_index": 14,
+              "original_index": 17,
+              "sentence": "Addition of CRP concentration at the optimal cut off of >30 mg/L improved diagnostic information, but measurement of procalcitonin concentration did not add clinically relevant information in this group."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 5558754,
+          "original_index": 5,
+          "sentence": "MAIN OUTCOME MEASURES Pneumonia as determined by radiologists, who were blind to all other information when they judged chest radiographs.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 5558754,
+          "original_index": 10,
+          "sentence": "Addition of CRP at the optimal cut off of >30 mg/L increased the ROC area to 0.77 (0.73 to 0.81) and improved the diagnostic classification (net reclassification improvement 28%).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 5558754,
+          "original_index": 14,
+          "sentence": "Measurement of procalcitonin added no relevant additional diagnostic information.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "The combination of physical examinations with C-reactive protein values do not improve the accuracy of radiographic verified pneumonia predictions.",
+      "evidence": [
+        {
+          "doc_id": 5558754,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "Addition of CRP at the optimal cut off of >30 mg/L increased the ROC area to 0.77 (0.73 to 0.81) and improved the diagnostic classification (net reclassification improvement 28%).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 5558754,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 17,
+          "sentence": "Addition of CRP concentration at the optimal cut off of >30 mg/L improved diagnostic information, but measurement of procalcitonin concentration did not add clinically relevant information in this group.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 5558754,
+          "title": "Use of serum C reactive protein and procalcitonin concentrations in addition to symptoms and signs to predict pneumonia in patients presenting to primary care with acute cough: diagnostic study",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "OBJECTIVES To quantify the diagnostic accuracy of selected inflammatory markers in addition to symptoms and signs for predicting pneumonia and to derive a diagnostic tool.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "DESIGN Diagnostic study performed between 2007 and 2010."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Participants had their history taken, underwent physical examination and measurement of C reactive protein (CRP) and procalcitonin in venous blood on the day they first consulted, and underwent chest radiography within seven days.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "SETTING Primary care centres in 12 European countries.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "PARTICIPANTS Adults presenting with acute cough.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "MAIN OUTCOME MEASURES Pneumonia as determined by radiologists, who were blind to all other information when they judged chest radiographs.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "RESULTS Of 3106 eligible patients, 286 were excluded because of missing or inadequate chest radiographs, leaving 2820 patients (mean age 50, 40% men) of whom 140 (5%) had pneumonia."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Re-assessment of a subset of 1675 chest radiographs showed agreement in 94% (κ 0.45, 95% confidence interval 0.36 to 0.54)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Six published \"symptoms and signs models\" varied in their discrimination (area under receiver operating characteristics curve (ROC) ranged from 0.55 (95% confidence interval 0.50 to 0.61) to 0.71 (0.66 to 0.76))."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "The optimal combination of clinical prediction items derived from our patients included absence of runny nose and presence of breathlessness, crackles and diminished breath sounds on auscultation, tachycardia, and fever, with an ROC area of 0.70 (0.65 to 0.75)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 11,
+              "sentence": "In the 1556 patients classified according to symptoms, signs, and CRP >30 mg/L as \"low risk\" (<2.5%) for pneumonia, the prevalence of pneumonia was 2%."
+            },
+            {
+              "new_index": 11,
+              "original_index": 12,
+              "sentence": "In the 132 patients classified as \"high risk\" (>20%), the prevalence of pneumonia was 31%."
+            },
+            {
+              "new_index": 12,
+              "original_index": 15,
+              "sentence": "A simplified diagnostic score based on symptoms, signs, and CRP >30 mg/L resulted in proportions of pneumonia of 0.7%, 3.8%, and 18.2% in the low, intermediate, and high risk group respectively.   \n"
+            },
+            {
+              "new_index": 13,
+              "original_index": 16,
+              "sentence": "CONCLUSIONS A clinical rule based on symptoms and signs to predict pneumonia in patients presenting to primary care with acute cough performed best in patients with mild or severe clinical presentation."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 5558754,
+          "original_index": 10,
+          "sentence": "Addition of CRP at the optimal cut off of >30 mg/L increased the ROC area to 0.77 (0.73 to 0.81) and improved the diagnostic classification (net reclassification improvement 28%).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 5558754,
+          "original_index": 13,
+          "sentence": "The positive likelihood ratio of low, intermediate, and high risk for pneumonia was 0.4, 1.2, and 8.6 respectively.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 5558754,
+          "original_index": 14,
+          "sentence": "Measurement of procalcitonin added no relevant additional diagnostic information.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 5558754,
+          "original_index": 17,
+          "sentence": "Addition of CRP concentration at the optimal cut off of >30 mg/L improved diagnostic information, but measurement of procalcitonin concentration did not add clinically relevant information in this group.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

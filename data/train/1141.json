@@ -1,0 +1,586 @@
+{
+  "id": 1141,
+  "origin": "train_more",
+  "n_groups": 4,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Taking 400mg of α-tocopheryl acetate in combination with vitamin C reduces the risk of prostate cancer.",
+      "evidence": [
+        {
+          "doc_id": 12009265,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Compared with placebo, vitamin E had no effect on the incidence of prostate cancer (active and placebo vitamin E groups, 9.1 and 9.5 events per 1000 person-years; hazard ratio [HR], 0.97; 95% confidence interval [CI], 0.85-1.09; P = .58) or total cancer (active and placebo vitamin E groups, 17.8 and 17.3 cases per 1000 person-years; HR, 1.04; 95% CI, 0.95-1.13; P = .41).",
+          "kept": true,
+          "new_index": 9
+        },
+        {
+          "doc_id": 12009265,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "There was also no significant effect of vitamin C on total cancer (active and placebo vitamin C groups, 17.6 and 17.5 events per 1000 person-years; HR, 1.01; 95% CI, 0.92-1.10; P = .86) or prostate cancer (active and placebo vitamin C groups, 9.4 and 9.2 cases per 1000 person-years; HR, 1.02; 95% CI, 0.90-1.15; P = .80).",
+          "kept": true,
+          "new_index": 10
+        },
+        {
+          "doc_id": 12009265,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 14,
+          "sentence": "CONCLUSIONS In this large, long-term trial of male physicians, neither vitamin E nor C supplementation reduced the risk of prostate or total cancer.",
+          "kept": true,
+          "new_index": 14
+        },
+        {
+          "doc_id": 12009265,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 15,
+          "sentence": "These data provide no support for the use of these supplements for the prevention of cancer in middle-aged and older men.   \n",
+          "kept": true,
+          "new_index": 15
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 12009265,
+          "title": "Vitamins E and C in the prevention of prostate and total cancer in men: the Physicians' Health Study II randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Many individuals take vitamins in the hopes of preventing chronic diseases such as cancer, and vitamins E and C are among the most common individual supplements."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "A large-scale randomized trial suggested that vitamin E may reduce risk of prostate cancer; however, few trials have been powered to address this relationship."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "No previous trial in men at usual risk has examined vitamin C alone in the prevention of cancer.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "OBJECTIVE To evaluate whether long-term vitamin E or C supplementation decreases risk of prostate and total cancer events among men.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS The Physicians' Health Study II is a randomized, double-blind, placebo-controlled factorial trial of vitamins E and C that began in 1997 and continued until its scheduled completion on August 31, 2007."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "A total of 14,641 male physicians in the United States initially aged 50 years or older, including 1307 men with a history of prior cancer at randomization, were enrolled.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "INTERVENTION Individual supplements of 400 IU of vitamin E every other day and 500 mg of vitamin C daily.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "MAIN OUTCOME MEASURES Prostate and total cancer.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "RESULTS During a mean follow-up of 8.0 years, there were 1008 confirmed incident cases of prostate cancer and 1943 total cancers."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "Compared with placebo, vitamin E had no effect on the incidence of prostate cancer (active and placebo vitamin E groups, 9.1 and 9.5 events per 1000 person-years; hazard ratio [HR], 0.97; 95% confidence interval [CI], 0.85-1.09; P = .58) or total cancer (active and placebo vitamin E groups, 17.8 and 17.3 cases per 1000 person-years; HR, 1.04; 95% CI, 0.95-1.13; P = .41)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "There was also no significant effect of vitamin C on total cancer (active and placebo vitamin C groups, 17.6 and 17.5 events per 1000 person-years; HR, 1.01; 95% CI, 0.92-1.10; P = .86) or prostate cancer (active and placebo vitamin C groups, 9.4 and 9.2 cases per 1000 person-years; HR, 1.02; 95% CI, 0.90-1.15; P = .80)."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Neither vitamin E nor vitamin C had a significant effect on colorectal, lung, or other site-specific cancers."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "Adjustment for adherence and exclusion of the first 4 or 6 years of follow-up did not alter the results."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "Stratification by various cancer risk factors demonstrated no significant modification of the effect of vitamin E on prostate cancer risk or either agent on total cancer risk.   \n"
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "CONCLUSIONS In this large, long-term trial of male physicians, neither vitamin E nor C supplementation reduced the risk of prostate or total cancer."
+            },
+            {
+              "new_index": 15,
+              "original_index": 15,
+              "sentence": "These data provide no support for the use of these supplements for the prevention of cancer in middle-aged and older men.   \n"
+            },
+            {
+              "new_index": 16,
+              "original_index": 16,
+              "sentence": "TRIAL REGISTRATION clinicaltrials.gov Identifier: NCT00270647."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Taking 400mg of α-tocopheryl acetate in combination with vitamin C reduces the risk of prostate cancer.",
+      "evidence": [
+        {
+          "doc_id": 12009265,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Compared with placebo, vitamin E had no effect on the incidence of prostate cancer (active and placebo vitamin E groups, 9.1 and 9.5 events per 1000 person-years; hazard ratio [HR], 0.97; 95% confidence interval [CI], 0.85-1.09; P = .58) or total cancer (active and placebo vitamin E groups, 17.8 and 17.3 cases per 1000 person-years; HR, 1.04; 95% CI, 0.95-1.13; P = .41).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 12009265,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "There was also no significant effect of vitamin C on total cancer (active and placebo vitamin C groups, 17.6 and 17.5 events per 1000 person-years; HR, 1.01; 95% CI, 0.92-1.10; P = .86) or prostate cancer (active and placebo vitamin C groups, 9.4 and 9.2 cases per 1000 person-years; HR, 1.02; 95% CI, 0.90-1.15; P = .80).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 12009265,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 14,
+          "sentence": "CONCLUSIONS In this large, long-term trial of male physicians, neither vitamin E nor C supplementation reduced the risk of prostate or total cancer.",
+          "kept": true,
+          "new_index": 10
+        },
+        {
+          "doc_id": 12009265,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 15,
+          "sentence": "These data provide no support for the use of these supplements for the prevention of cancer in middle-aged and older men.   \n",
+          "kept": true,
+          "new_index": 11
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 12009265,
+          "title": "Vitamins E and C in the prevention of prostate and total cancer in men: the Physicians' Health Study II randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Many individuals take vitamins in the hopes of preventing chronic diseases such as cancer, and vitamins E and C are among the most common individual supplements."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "A large-scale randomized trial suggested that vitamin E may reduce risk of prostate cancer; however, few trials have been powered to address this relationship."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "OBJECTIVE To evaluate whether long-term vitamin E or C supplementation decreases risk of prostate and total cancer events among men.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS The Physicians' Health Study II is a randomized, double-blind, placebo-controlled factorial trial of vitamins E and C that began in 1997 and continued until its scheduled completion on August 31, 2007."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "A total of 14,641 male physicians in the United States initially aged 50 years or older, including 1307 men with a history of prior cancer at randomization, were enrolled.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "INTERVENTION Individual supplements of 400 IU of vitamin E every other day and 500 mg of vitamin C daily.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "RESULTS During a mean follow-up of 8.0 years, there were 1008 confirmed incident cases of prostate cancer and 1943 total cancers."
+            },
+            {
+              "new_index": 7,
+              "original_index": 11,
+              "sentence": "Neither vitamin E nor vitamin C had a significant effect on colorectal, lung, or other site-specific cancers."
+            },
+            {
+              "new_index": 8,
+              "original_index": 12,
+              "sentence": "Adjustment for adherence and exclusion of the first 4 or 6 years of follow-up did not alter the results."
+            },
+            {
+              "new_index": 9,
+              "original_index": 13,
+              "sentence": "Stratification by various cancer risk factors demonstrated no significant modification of the effect of vitamin E on prostate cancer risk or either agent on total cancer risk.   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 14,
+              "sentence": "CONCLUSIONS In this large, long-term trial of male physicians, neither vitamin E nor C supplementation reduced the risk of prostate or total cancer."
+            },
+            {
+              "new_index": 11,
+              "original_index": 15,
+              "sentence": "These data provide no support for the use of these supplements for the prevention of cancer in middle-aged and older men.   \n"
+            },
+            {
+              "new_index": 12,
+              "original_index": 16,
+              "sentence": "TRIAL REGISTRATION clinicaltrials.gov Identifier: NCT00270647."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 12009265,
+          "original_index": 2,
+          "sentence": "No previous trial in men at usual risk has examined vitamin C alone in the prevention of cancer.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 12009265,
+          "original_index": 7,
+          "sentence": "MAIN OUTCOME MEASURES Prostate and total cancer.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 12009265,
+          "original_index": 9,
+          "sentence": "Compared with placebo, vitamin E had no effect on the incidence of prostate cancer (active and placebo vitamin E groups, 9.1 and 9.5 events per 1000 person-years; hazard ratio [HR], 0.97; 95% confidence interval [CI], 0.85-1.09; P = .58) or total cancer (active and placebo vitamin E groups, 17.8 and 17.3 cases per 1000 person-years; HR, 1.04; 95% CI, 0.95-1.13; P = .41).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 12009265,
+          "original_index": 10,
+          "sentence": "There was also no significant effect of vitamin C on total cancer (active and placebo vitamin C groups, 17.6 and 17.5 events per 1000 person-years; HR, 1.01; 95% CI, 0.92-1.10; P = .86) or prostate cancer (active and placebo vitamin C groups, 9.4 and 9.2 cases per 1000 person-years; HR, 1.02; 95% CI, 0.90-1.15; P = .80).",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g2",
+        "g0"
+      ],
+      "claim": "Taking 400mg of α-tocopheryl acetate in combination with vitamin C reduces the risk of prostate cancer.",
+      "evidence": [
+        {
+          "doc_id": 12009265,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Compared with placebo, vitamin E had no effect on the incidence of prostate cancer (active and placebo vitamin E groups, 9.1 and 9.5 events per 1000 person-years; hazard ratio [HR], 0.97; 95% confidence interval [CI], 0.85-1.09; P = .58) or total cancer (active and placebo vitamin E groups, 17.8 and 17.3 cases per 1000 person-years; HR, 1.04; 95% CI, 0.95-1.13; P = .41).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 12009265,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "There was also no significant effect of vitamin C on total cancer (active and placebo vitamin C groups, 17.6 and 17.5 events per 1000 person-years; HR, 1.01; 95% CI, 0.92-1.10; P = .86) or prostate cancer (active and placebo vitamin C groups, 9.4 and 9.2 cases per 1000 person-years; HR, 1.02; 95% CI, 0.90-1.15; P = .80).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 12009265,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 14,
+          "sentence": "CONCLUSIONS In this large, long-term trial of male physicians, neither vitamin E nor C supplementation reduced the risk of prostate or total cancer.",
+          "kept": true,
+          "new_index": 10
+        },
+        {
+          "doc_id": 12009265,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 15,
+          "sentence": "These data provide no support for the use of these supplements for the prevention of cancer in middle-aged and older men.   \n",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 12009265,
+          "title": "Vitamins E and C in the prevention of prostate and total cancer in men: the Physicians' Health Study II randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Many individuals take vitamins in the hopes of preventing chronic diseases such as cancer, and vitamins E and C are among the most common individual supplements."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "No previous trial in men at usual risk has examined vitamin C alone in the prevention of cancer.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "OBJECTIVE To evaluate whether long-term vitamin E or C supplementation decreases risk of prostate and total cancer events among men.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS The Physicians' Health Study II is a randomized, double-blind, placebo-controlled factorial trial of vitamins E and C that began in 1997 and continued until its scheduled completion on August 31, 2007."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "INTERVENTION Individual supplements of 400 IU of vitamin E every other day and 500 mg of vitamin C daily.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "MAIN OUTCOME MEASURES Prostate and total cancer.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "RESULTS During a mean follow-up of 8.0 years, there were 1008 confirmed incident cases of prostate cancer and 1943 total cancers."
+            },
+            {
+              "new_index": 7,
+              "original_index": 11,
+              "sentence": "Neither vitamin E nor vitamin C had a significant effect on colorectal, lung, or other site-specific cancers."
+            },
+            {
+              "new_index": 8,
+              "original_index": 12,
+              "sentence": "Adjustment for adherence and exclusion of the first 4 or 6 years of follow-up did not alter the results."
+            },
+            {
+              "new_index": 9,
+              "original_index": 13,
+              "sentence": "Stratification by various cancer risk factors demonstrated no significant modification of the effect of vitamin E on prostate cancer risk or either agent on total cancer risk.   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 14,
+              "sentence": "CONCLUSIONS In this large, long-term trial of male physicians, neither vitamin E nor C supplementation reduced the risk of prostate or total cancer."
+            },
+            {
+              "new_index": 11,
+              "original_index": 16,
+              "sentence": "TRIAL REGISTRATION clinicaltrials.gov Identifier: NCT00270647."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 12009265,
+          "original_index": 1,
+          "sentence": "A large-scale randomized trial suggested that vitamin E may reduce risk of prostate cancer; however, few trials have been powered to address this relationship.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 12009265,
+          "original_index": 5,
+          "sentence": "A total of 14,641 male physicians in the United States initially aged 50 years or older, including 1307 men with a history of prior cancer at randomization, were enrolled.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 12009265,
+          "original_index": 9,
+          "sentence": "Compared with placebo, vitamin E had no effect on the incidence of prostate cancer (active and placebo vitamin E groups, 9.1 and 9.5 events per 1000 person-years; hazard ratio [HR], 0.97; 95% confidence interval [CI], 0.85-1.09; P = .58) or total cancer (active and placebo vitamin E groups, 17.8 and 17.3 cases per 1000 person-years; HR, 1.04; 95% CI, 0.95-1.13; P = .41).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 12009265,
+          "original_index": 10,
+          "sentence": "There was also no significant effect of vitamin C on total cancer (active and placebo vitamin C groups, 17.6 and 17.5 events per 1000 person-years; HR, 1.01; 95% CI, 0.92-1.10; P = .86) or prostate cancer (active and placebo vitamin C groups, 9.4 and 9.2 cases per 1000 person-years; HR, 1.02; 95% CI, 0.90-1.15; P = .80).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 12009265,
+          "original_index": 15,
+          "sentence": "These data provide no support for the use of these supplements for the prevention of cancer in middle-aged and older men.   \n",
+          "kind": "evidence"
+        }
+      ],
+      "label": "CONTRADICT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2"
+      ],
+      "claim": "Taking 400mg of α-tocopheryl acetate in combination with vitamin C reduces the risk of prostate cancer.",
+      "evidence": [
+        {
+          "doc_id": 12009265,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 9,
+          "sentence": "Compared with placebo, vitamin E had no effect on the incidence of prostate cancer (active and placebo vitamin E groups, 9.1 and 9.5 events per 1000 person-years; hazard ratio [HR], 0.97; 95% confidence interval [CI], 0.85-1.09; P = .58) or total cancer (active and placebo vitamin E groups, 17.8 and 17.3 cases per 1000 person-years; HR, 1.04; 95% CI, 0.95-1.13; P = .41).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 12009265,
+          "group_id": "g0",
+          "evidence_label": "CONTRADICT",
+          "original_index": 10,
+          "sentence": "There was also no significant effect of vitamin C on total cancer (active and placebo vitamin C groups, 17.6 and 17.5 events per 1000 person-years; HR, 1.01; 95% CI, 0.92-1.10; P = .86) or prostate cancer (active and placebo vitamin C groups, 9.4 and 9.2 cases per 1000 person-years; HR, 1.02; 95% CI, 0.90-1.15; P = .80).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 12009265,
+          "group_id": "g1",
+          "evidence_label": "CONTRADICT",
+          "original_index": 14,
+          "sentence": "CONCLUSIONS In this large, long-term trial of male physicians, neither vitamin E nor C supplementation reduced the risk of prostate or total cancer.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 12009265,
+          "group_id": "g2",
+          "evidence_label": "CONTRADICT_more",
+          "original_index": 15,
+          "sentence": "These data provide no support for the use of these supplements for the prevention of cancer in middle-aged and older men.   \n",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 12009265,
+          "title": "Vitamins E and C in the prevention of prostate and total cancer in men: the Physicians' Health Study II randomized controlled trial.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "CONTEXT Many individuals take vitamins in the hopes of preventing chronic diseases such as cancer, and vitamins E and C are among the most common individual supplements."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "A large-scale randomized trial suggested that vitamin E may reduce risk of prostate cancer; however, few trials have been powered to address this relationship."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "No previous trial in men at usual risk has examined vitamin C alone in the prevention of cancer.   \n"
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS The Physicians' Health Study II is a randomized, double-blind, placebo-controlled factorial trial of vitamins E and C that began in 1997 and continued until its scheduled completion on August 31, 2007."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "A total of 14,641 male physicians in the United States initially aged 50 years or older, including 1307 men with a history of prior cancer at randomization, were enrolled.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "INTERVENTION Individual supplements of 400 IU of vitamin E every other day and 500 mg of vitamin C daily.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "MAIN OUTCOME MEASURES Prostate and total cancer.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "RESULTS During a mean follow-up of 8.0 years, there were 1008 confirmed incident cases of prostate cancer and 1943 total cancers."
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "Neither vitamin E nor vitamin C had a significant effect on colorectal, lung, or other site-specific cancers."
+            },
+            {
+              "new_index": 9,
+              "original_index": 12,
+              "sentence": "Adjustment for adherence and exclusion of the first 4 or 6 years of follow-up did not alter the results."
+            },
+            {
+              "new_index": 10,
+              "original_index": 16,
+              "sentence": "TRIAL REGISTRATION clinicaltrials.gov Identifier: NCT00270647."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 12009265,
+          "original_index": 3,
+          "sentence": "OBJECTIVE To evaluate whether long-term vitamin E or C supplementation decreases risk of prostate and total cancer events among men.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 12009265,
+          "original_index": 9,
+          "sentence": "Compared with placebo, vitamin E had no effect on the incidence of prostate cancer (active and placebo vitamin E groups, 9.1 and 9.5 events per 1000 person-years; hazard ratio [HR], 0.97; 95% confidence interval [CI], 0.85-1.09; P = .58) or total cancer (active and placebo vitamin E groups, 17.8 and 17.3 cases per 1000 person-years; HR, 1.04; 95% CI, 0.95-1.13; P = .41).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 12009265,
+          "original_index": 10,
+          "sentence": "There was also no significant effect of vitamin C on total cancer (active and placebo vitamin C groups, 17.6 and 17.5 events per 1000 person-years; HR, 1.01; 95% CI, 0.92-1.10; P = .86) or prostate cancer (active and placebo vitamin C groups, 9.4 and 9.2 cases per 1000 person-years; HR, 1.02; 95% CI, 0.90-1.15; P = .80).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 12009265,
+          "original_index": 13,
+          "sentence": "Stratification by various cancer risk factors demonstrated no significant modification of the effect of vitamin E on prostate cancer risk or either agent on total cancer risk.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 12009265,
+          "original_index": 14,
+          "sentence": "CONCLUSIONS In this large, long-term trial of male physicians, neither vitamin E nor C supplementation reduced the risk of prostate or total cancer.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 12009265,
+          "original_index": 15,
+          "sentence": "These data provide no support for the use of these supplements for the prevention of cancer in middle-aged and older men.   \n",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

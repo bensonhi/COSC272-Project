@@ -1,0 +1,504 @@
+{
+  "id": 235,
+  "origin": "train_more",
+  "n_groups": 5,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Cell autonomous sex determination in somatic cells occurs in Galliformes.",
+      "evidence": [
+        {
+          "doc_id": 4388470,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "These studies demonstrated that gynandromorph birds are genuine male:female chimaeras, and indicated that male and female avian somatic cells may have an inherent sex identity.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 4388470,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "In contrast to the outcome for mammalian mixed-sex chimaeras, in chicken mixed-sex chimaeras the donor cells were excluded from the functional structures of the host gonad.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 4388470,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "In an example where female tissue was transplanted into a male host, donor cells contributing to the developing testis retained a female identity and expressed a marker of female function.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 4388470,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Our study demonstrates that avian somatic cells possess an inherent sex identity and that, in birds, sexual differentiation is substantively cell autonomous.",
+          "kept": true,
+          "new_index": 7
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4388470,
+          "title": "Somatic sex identity is cell-autonomous in the chicken",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "In the mammalian model of sex determination, embryos are considered to be sexually indifferent until the transient action of a sex-determining gene initiates gonadal differentiation."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Although this model is thought to apply to all vertebrates, this has yet to be established."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "Here we have examined three lateral gynandromorph chickens (a rare, naturally occurring phenomenon in which one side of the animal appears male and the other female) to investigate the sex-determining mechanism in birds."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "These studies demonstrated that gynandromorph birds are genuine male:female chimaeras, and indicated that male and female avian somatic cells may have an inherent sex identity."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "To test this hypothesis, we transplanted presumptive mesoderm between embryos of reciprocal sexes to generate embryos containing male:female chimaeric gonads."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "In contrast to the outcome for mammalian mixed-sex chimaeras, in chicken mixed-sex chimaeras the donor cells were excluded from the functional structures of the host gonad."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "In an example where female tissue was transplanted into a male host, donor cells contributing to the developing testis retained a female identity and expressed a marker of female function."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Our study demonstrates that avian somatic cells possess an inherent sex identity and that, in birds, sexual differentiation is substantively cell autonomous."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Cell autonomous sex determination in somatic cells occurs in Galliformes.",
+      "evidence": [
+        {
+          "doc_id": 4388470,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "These studies demonstrated that gynandromorph birds are genuine male:female chimaeras, and indicated that male and female avian somatic cells may have an inherent sex identity.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4388470,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "In contrast to the outcome for mammalian mixed-sex chimaeras, in chicken mixed-sex chimaeras the donor cells were excluded from the functional structures of the host gonad.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 4388470,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "In an example where female tissue was transplanted into a male host, donor cells contributing to the developing testis retained a female identity and expressed a marker of female function.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 4388470,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Our study demonstrates that avian somatic cells possess an inherent sex identity and that, in birds, sexual differentiation is substantively cell autonomous.",
+          "kept": true,
+          "new_index": 5
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4388470,
+          "title": "Somatic sex identity is cell-autonomous in the chicken",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "In the mammalian model of sex determination, embryos are considered to be sexually indifferent until the transient action of a sex-determining gene initiates gonadal differentiation."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Although this model is thought to apply to all vertebrates, this has yet to be established."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "To test this hypothesis, we transplanted presumptive mesoderm between embryos of reciprocal sexes to generate embryos containing male:female chimaeric gonads."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "In contrast to the outcome for mammalian mixed-sex chimaeras, in chicken mixed-sex chimaeras the donor cells were excluded from the functional structures of the host gonad."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "In an example where female tissue was transplanted into a male host, donor cells contributing to the developing testis retained a female identity and expressed a marker of female function."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Our study demonstrates that avian somatic cells possess an inherent sex identity and that, in birds, sexual differentiation is substantively cell autonomous."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 4388470,
+          "original_index": 2,
+          "sentence": "Here we have examined three lateral gynandromorph chickens (a rare, naturally occurring phenomenon in which one side of the animal appears male and the other female) to investigate the sex-determining mechanism in birds.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4388470,
+          "original_index": 3,
+          "sentence": "These studies demonstrated that gynandromorph birds are genuine male:female chimaeras, and indicated that male and female avian somatic cells may have an inherent sex identity.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g0",
+        "g2"
+      ],
+      "claim": "Cell autonomous sex determination in somatic cells occurs in Galliformes.",
+      "evidence": [
+        {
+          "doc_id": 4388470,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "These studies demonstrated that gynandromorph birds are genuine male:female chimaeras, and indicated that male and female avian somatic cells may have an inherent sex identity.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4388470,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "In contrast to the outcome for mammalian mixed-sex chimaeras, in chicken mixed-sex chimaeras the donor cells were excluded from the functional structures of the host gonad.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 4388470,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "In an example where female tissue was transplanted into a male host, donor cells contributing to the developing testis retained a female identity and expressed a marker of female function.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 4388470,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Our study demonstrates that avian somatic cells possess an inherent sex identity and that, in birds, sexual differentiation is substantively cell autonomous.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4388470,
+          "title": "Somatic sex identity is cell-autonomous in the chicken",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "In the mammalian model of sex determination, embryos are considered to be sexually indifferent until the transient action of a sex-determining gene initiates gonadal differentiation."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "Although this model is thought to apply to all vertebrates, this has yet to be established."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "To test this hypothesis, we transplanted presumptive mesoderm between embryos of reciprocal sexes to generate embryos containing male:female chimaeric gonads."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "In contrast to the outcome for mammalian mixed-sex chimaeras, in chicken mixed-sex chimaeras the donor cells were excluded from the functional structures of the host gonad."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "In an example where female tissue was transplanted into a male host, donor cells contributing to the developing testis retained a female identity and expressed a marker of female function."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 4388470,
+          "original_index": 2,
+          "sentence": "Here we have examined three lateral gynandromorph chickens (a rare, naturally occurring phenomenon in which one side of the animal appears male and the other female) to investigate the sex-determining mechanism in birds.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4388470,
+          "original_index": 3,
+          "sentence": "These studies demonstrated that gynandromorph birds are genuine male:female chimaeras, and indicated that male and female avian somatic cells may have an inherent sex identity.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 4388470,
+          "original_index": 7,
+          "sentence": "Our study demonstrates that avian somatic cells possess an inherent sex identity and that, in birds, sexual differentiation is substantively cell autonomous.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_3_groups",
+      "dropped_group_ids": [
+        "g3",
+        "g0",
+        "g2"
+      ],
+      "claim": "Cell autonomous sex determination in somatic cells occurs in Galliformes.",
+      "evidence": [
+        {
+          "doc_id": 4388470,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "These studies demonstrated that gynandromorph birds are genuine male:female chimaeras, and indicated that male and female avian somatic cells may have an inherent sex identity.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4388470,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "In contrast to the outcome for mammalian mixed-sex chimaeras, in chicken mixed-sex chimaeras the donor cells were excluded from the functional structures of the host gonad.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4388470,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "In an example where female tissue was transplanted into a male host, donor cells contributing to the developing testis retained a female identity and expressed a marker of female function.",
+          "kept": true,
+          "new_index": 3
+        },
+        {
+          "doc_id": 4388470,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Our study demonstrates that avian somatic cells possess an inherent sex identity and that, in birds, sexual differentiation is substantively cell autonomous.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4388470,
+          "title": "Somatic sex identity is cell-autonomous in the chicken",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "Although this model is thought to apply to all vertebrates, this has yet to be established."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Here we have examined three lateral gynandromorph chickens (a rare, naturally occurring phenomenon in which one side of the animal appears male and the other female) to investigate the sex-determining mechanism in birds."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "To test this hypothesis, we transplanted presumptive mesoderm between embryos of reciprocal sexes to generate embryos containing male:female chimaeric gonads."
+            },
+            {
+              "new_index": 3,
+              "original_index": 6,
+              "sentence": "In an example where female tissue was transplanted into a male host, donor cells contributing to the developing testis retained a female identity and expressed a marker of female function."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 4388470,
+          "original_index": 0,
+          "sentence": "In the mammalian model of sex determination, embryos are considered to be sexually indifferent until the transient action of a sex-determining gene initiates gonadal differentiation.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4388470,
+          "original_index": 3,
+          "sentence": "These studies demonstrated that gynandromorph birds are genuine male:female chimaeras, and indicated that male and female avian somatic cells may have an inherent sex identity.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 4388470,
+          "original_index": 5,
+          "sentence": "In contrast to the outcome for mammalian mixed-sex chimaeras, in chicken mixed-sex chimaeras the donor cells were excluded from the functional structures of the host gonad.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 4388470,
+          "original_index": 7,
+          "sentence": "Our study demonstrates that avian somatic cells possess an inherent sex identity and that, in birds, sexual differentiation is substantively cell autonomous.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2",
+        "g3"
+      ],
+      "claim": "Cell autonomous sex determination in somatic cells occurs in Galliformes.",
+      "evidence": [
+        {
+          "doc_id": 4388470,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 3,
+          "sentence": "These studies demonstrated that gynandromorph birds are genuine male:female chimaeras, and indicated that male and female avian somatic cells may have an inherent sex identity.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4388470,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 5,
+          "sentence": "In contrast to the outcome for mammalian mixed-sex chimaeras, in chicken mixed-sex chimaeras the donor cells were excluded from the functional structures of the host gonad.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4388470,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "In an example where female tissue was transplanted into a male host, donor cells contributing to the developing testis retained a female identity and expressed a marker of female function.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 4388470,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 7,
+          "sentence": "Our study demonstrates that avian somatic cells possess an inherent sex identity and that, in birds, sexual differentiation is substantively cell autonomous.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 4388470,
+          "title": "Somatic sex identity is cell-autonomous in the chicken",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "Although this model is thought to apply to all vertebrates, this has yet to be established."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "Here we have examined three lateral gynandromorph chickens (a rare, naturally occurring phenomenon in which one side of the animal appears male and the other female) to investigate the sex-determining mechanism in birds."
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "To test this hypothesis, we transplanted presumptive mesoderm between embryos of reciprocal sexes to generate embryos containing male:female chimaeric gonads."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 4388470,
+          "original_index": 0,
+          "sentence": "In the mammalian model of sex determination, embryos are considered to be sexually indifferent until the transient action of a sex-determining gene initiates gonadal differentiation.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 4388470,
+          "original_index": 3,
+          "sentence": "These studies demonstrated that gynandromorph birds are genuine male:female chimaeras, and indicated that male and female avian somatic cells may have an inherent sex identity.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 4388470,
+          "original_index": 5,
+          "sentence": "In contrast to the outcome for mammalian mixed-sex chimaeras, in chicken mixed-sex chimaeras the donor cells were excluded from the functional structures of the host gonad.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 4388470,
+          "original_index": 6,
+          "sentence": "In an example where female tissue was transplanted into a male host, donor cells contributing to the developing testis retained a female identity and expressed a marker of female function.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 4388470,
+          "original_index": 7,
+          "sentence": "Our study demonstrates that avian somatic cells possess an inherent sex identity and that, in birds, sexual differentiation is substantively cell autonomous.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

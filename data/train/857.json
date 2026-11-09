@@ -1,0 +1,629 @@
+{
+  "id": 857,
+  "origin": "train_more",
+  "n_groups": 5,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Nonsteroidal antinflammatory drugs show potential anticancer indications.",
+      "evidence": [
+        {
+          "doc_id": 43334921,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "RESULTS Regular use of aspirin and/or NSAIDs was associated with lower risk of colorectal cancer (prevalence, 28% vs 38%; odds ratio [OR], 0.69 [95% CI, 0.64-0.74]; P = 6.2 × 10(-28)) compared with nonregular use.",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 43334921,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Aspirin and/or NSAID use was associated with a lower risk of colorectal cancer among individuals with rs2965667-TT genotype (prevalence, 28% vs 38%; OR, 0.66 [95% CI, 0.61-0.70]; P = 7.7 × 10(-33)) but with a higher risk among those with rare (4%) TA or AA genotypes (prevalence, 35% vs 29%; OR, 1.89 [95% CI, 1.27-2.81]; P = .002).",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 43334921,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "Regular use was associated with a lower risk of colorectal cancer among individuals with rs16973225-AA genotype (prevalence, 28% vs 38%; OR, 0.66 [95% CI, 0.62-0.71]; P = 1.9 × 10(-30)) but was not associated with risk of colorectal cancer among those with less common (9%) AC or CC genotypes (prevalence, 36% vs 39%; OR, 0.97 [95% CI, 0.78-1.20]; P = .76).   \n",
+          "kept": true,
+          "new_index": 10
+        },
+        {
+          "doc_id": 43334921,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 11,
+          "sentence": "CONCLUSIONS AND RELEVANCE In this genome-wide investigation of gene × environment interactions, use of aspirin and/or NSAIDs was associated with lower risk of colorectal cancer, and this association differed according to genetic variation at 2 SNPs at chromosomes 12 and 15.",
+          "kept": true,
+          "new_index": 11
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 43334921,
+          "title": "Association of aspirin and NSAID use with risk of colorectal cancer according to genetic variants.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "IMPORTANCE Use of aspirin and other nonsteroidal anti-inflammatory drugs (NSAIDs) is associated with lower risk of colorectal cancer.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To identify common genetic markers that may confer differential benefit from aspirin or NSAID chemoprevention, we tested gene × environment interactions between regular use of aspirin and/or NSAIDs and single-nucleotide polymorphisms (SNPs) in relation to risk of colorectal cancer.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Case-control study using data from 5 case-control and 5 cohort studies initiated between 1976 and 2003 across the United States, Canada, Australia, and Germany and including colorectal cancer cases (n=8634) and matched controls (n=8553) ascertained between 1976 and 2011."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Participants were all of European descent.   "
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "EXPOSURES Genome-wide SNP data and information on regular use of aspirin and/or NSAIDs and other risk factors.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "MAIN OUTCOMES AND MEASURES Colorectal cancer.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "RESULTS Regular use of aspirin and/or NSAIDs was associated with lower risk of colorectal cancer (prevalence, 28% vs 38%; odds ratio [OR], 0.69 [95% CI, 0.64-0.74]; P = 6.2 × 10(-28)) compared with nonregular use."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "In the conventional logistic regression analysis, the SNP rs2965667 at chromosome 12p12.3 near the MGST1 gene showed a genome-wide significant interaction with aspirin and/or NSAID use (P = 4.6 × 10(-9) for interaction)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "Aspirin and/or NSAID use was associated with a lower risk of colorectal cancer among individuals with rs2965667-TT genotype (prevalence, 28% vs 38%; OR, 0.66 [95% CI, 0.61-0.70]; P = 7.7 × 10(-33)) but with a higher risk among those with rare (4%) TA or AA genotypes (prevalence, 35% vs 29%; OR, 1.89 [95% CI, 1.27-2.81]; P = .002)."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "In case-only interaction analysis, the SNP rs16973225 at chromosome 15q25.2 near the IL16 gene showed a genome-wide significant interaction with use of aspirin and/or NSAIDs (P = 8.2 × 10(-9) for interaction)."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Regular use was associated with a lower risk of colorectal cancer among individuals with rs16973225-AA genotype (prevalence, 28% vs 38%; OR, 0.66 [95% CI, 0.62-0.71]; P = 1.9 × 10(-30)) but was not associated with risk of colorectal cancer among those with less common (9%) AC or CC genotypes (prevalence, 36% vs 39%; OR, 0.97 [95% CI, 0.78-1.20]; P = .76).   \n"
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "CONCLUSIONS AND RELEVANCE In this genome-wide investigation of gene × environment interactions, use of aspirin and/or NSAIDs was associated with lower risk of colorectal cancer, and this association differed according to genetic variation at 2 SNPs at chromosomes 12 and 15."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "Validation of these findings in additional populations may facilitate targeted colorectal cancer prevention strategies."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "Nonsteroidal antinflammatory drugs show potential anticancer indications.",
+      "evidence": [
+        {
+          "doc_id": 43334921,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "RESULTS Regular use of aspirin and/or NSAIDs was associated with lower risk of colorectal cancer (prevalence, 28% vs 38%; odds ratio [OR], 0.69 [95% CI, 0.64-0.74]; P = 6.2 × 10(-28)) compared with nonregular use.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 43334921,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Aspirin and/or NSAID use was associated with a lower risk of colorectal cancer among individuals with rs2965667-TT genotype (prevalence, 28% vs 38%; OR, 0.66 [95% CI, 0.61-0.70]; P = 7.7 × 10(-33)) but with a higher risk among those with rare (4%) TA or AA genotypes (prevalence, 35% vs 29%; OR, 1.89 [95% CI, 1.27-2.81]; P = .002).",
+          "kept": true,
+          "new_index": 6
+        },
+        {
+          "doc_id": 43334921,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "Regular use was associated with a lower risk of colorectal cancer among individuals with rs16973225-AA genotype (prevalence, 28% vs 38%; OR, 0.66 [95% CI, 0.62-0.71]; P = 1.9 × 10(-30)) but was not associated with risk of colorectal cancer among those with less common (9%) AC or CC genotypes (prevalence, 36% vs 39%; OR, 0.97 [95% CI, 0.78-1.20]; P = .76).   \n",
+          "kept": true,
+          "new_index": 8
+        },
+        {
+          "doc_id": 43334921,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 11,
+          "sentence": "CONCLUSIONS AND RELEVANCE In this genome-wide investigation of gene × environment interactions, use of aspirin and/or NSAIDs was associated with lower risk of colorectal cancer, and this association differed according to genetic variation at 2 SNPs at chromosomes 12 and 15.",
+          "kept": true,
+          "new_index": 9
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 43334921,
+          "title": "Association of aspirin and NSAID use with risk of colorectal cancer according to genetic variants.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "IMPORTANCE Use of aspirin and other nonsteroidal anti-inflammatory drugs (NSAIDs) is associated with lower risk of colorectal cancer.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Case-control study using data from 5 case-control and 5 cohort studies initiated between 1976 and 2003 across the United States, Canada, Australia, and Germany and including colorectal cancer cases (n=8634) and matched controls (n=8553) ascertained between 1976 and 2011."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Participants were all of European descent.   "
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "EXPOSURES Genome-wide SNP data and information on regular use of aspirin and/or NSAIDs and other risk factors.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "MAIN OUTCOMES AND MEASURES Colorectal cancer.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "In the conventional logistic regression analysis, the SNP rs2965667 at chromosome 12p12.3 near the MGST1 gene showed a genome-wide significant interaction with aspirin and/or NSAID use (P = 4.6 × 10(-9) for interaction)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "Aspirin and/or NSAID use was associated with a lower risk of colorectal cancer among individuals with rs2965667-TT genotype (prevalence, 28% vs 38%; OR, 0.66 [95% CI, 0.61-0.70]; P = 7.7 × 10(-33)) but with a higher risk among those with rare (4%) TA or AA genotypes (prevalence, 35% vs 29%; OR, 1.89 [95% CI, 1.27-2.81]; P = .002)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "In case-only interaction analysis, the SNP rs16973225 at chromosome 15q25.2 near the IL16 gene showed a genome-wide significant interaction with use of aspirin and/or NSAIDs (P = 8.2 × 10(-9) for interaction)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "Regular use was associated with a lower risk of colorectal cancer among individuals with rs16973225-AA genotype (prevalence, 28% vs 38%; OR, 0.66 [95% CI, 0.62-0.71]; P = 1.9 × 10(-30)) but was not associated with risk of colorectal cancer among those with less common (9%) AC or CC genotypes (prevalence, 36% vs 39%; OR, 0.97 [95% CI, 0.78-1.20]; P = .76).   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "CONCLUSIONS AND RELEVANCE In this genome-wide investigation of gene × environment interactions, use of aspirin and/or NSAIDs was associated with lower risk of colorectal cancer, and this association differed according to genetic variation at 2 SNPs at chromosomes 12 and 15."
+            },
+            {
+              "new_index": 10,
+              "original_index": 12,
+              "sentence": "Validation of these findings in additional populations may facilitate targeted colorectal cancer prevention strategies."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 43334921,
+          "original_index": 1,
+          "sentence": "OBJECTIVE To identify common genetic markers that may confer differential benefit from aspirin or NSAID chemoprevention, we tested gene × environment interactions between regular use of aspirin and/or NSAIDs and single-nucleotide polymorphisms (SNPs) in relation to risk of colorectal cancer.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 43334921,
+          "original_index": 6,
+          "sentence": "RESULTS Regular use of aspirin and/or NSAIDs was associated with lower risk of colorectal cancer (prevalence, 28% vs 38%; odds ratio [OR], 0.69 [95% CI, 0.64-0.74]; P = 6.2 × 10(-28)) compared with nonregular use.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g2",
+        "g1"
+      ],
+      "claim": "Nonsteroidal antinflammatory drugs show potential anticancer indications.",
+      "evidence": [
+        {
+          "doc_id": 43334921,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "RESULTS Regular use of aspirin and/or NSAIDs was associated with lower risk of colorectal cancer (prevalence, 28% vs 38%; odds ratio [OR], 0.69 [95% CI, 0.64-0.74]; P = 6.2 × 10(-28)) compared with nonregular use.",
+          "kept": true,
+          "new_index": 5
+        },
+        {
+          "doc_id": 43334921,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Aspirin and/or NSAID use was associated with a lower risk of colorectal cancer among individuals with rs2965667-TT genotype (prevalence, 28% vs 38%; OR, 0.66 [95% CI, 0.61-0.70]; P = 7.7 × 10(-33)) but with a higher risk among those with rare (4%) TA or AA genotypes (prevalence, 35% vs 29%; OR, 1.89 [95% CI, 1.27-2.81]; P = .002).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 43334921,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "Regular use was associated with a lower risk of colorectal cancer among individuals with rs16973225-AA genotype (prevalence, 28% vs 38%; OR, 0.66 [95% CI, 0.62-0.71]; P = 1.9 × 10(-30)) but was not associated with risk of colorectal cancer among those with less common (9%) AC or CC genotypes (prevalence, 36% vs 39%; OR, 0.97 [95% CI, 0.78-1.20]; P = .76).   \n",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 43334921,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 11,
+          "sentence": "CONCLUSIONS AND RELEVANCE In this genome-wide investigation of gene × environment interactions, use of aspirin and/or NSAIDs was associated with lower risk of colorectal cancer, and this association differed according to genetic variation at 2 SNPs at chromosomes 12 and 15.",
+          "kept": true,
+          "new_index": 8
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 43334921,
+          "title": "Association of aspirin and NSAID use with risk of colorectal cancer according to genetic variants.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "IMPORTANCE Use of aspirin and other nonsteroidal anti-inflammatory drugs (NSAIDs) is associated with lower risk of colorectal cancer.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To identify common genetic markers that may confer differential benefit from aspirin or NSAID chemoprevention, we tested gene × environment interactions between regular use of aspirin and/or NSAIDs and single-nucleotide polymorphisms (SNPs) in relation to risk of colorectal cancer.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Case-control study using data from 5 case-control and 5 cohort studies initiated between 1976 and 2003 across the United States, Canada, Australia, and Germany and including colorectal cancer cases (n=8634) and matched controls (n=8553) ascertained between 1976 and 2011."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Participants were all of European descent.   "
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "MAIN OUTCOMES AND MEASURES Colorectal cancer.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "RESULTS Regular use of aspirin and/or NSAIDs was associated with lower risk of colorectal cancer (prevalence, 28% vs 38%; odds ratio [OR], 0.69 [95% CI, 0.64-0.74]; P = 6.2 × 10(-28)) compared with nonregular use."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "In the conventional logistic regression analysis, the SNP rs2965667 at chromosome 12p12.3 near the MGST1 gene showed a genome-wide significant interaction with aspirin and/or NSAID use (P = 4.6 × 10(-9) for interaction)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "In case-only interaction analysis, the SNP rs16973225 at chromosome 15q25.2 near the IL16 gene showed a genome-wide significant interaction with use of aspirin and/or NSAIDs (P = 8.2 × 10(-9) for interaction)."
+            },
+            {
+              "new_index": 8,
+              "original_index": 11,
+              "sentence": "CONCLUSIONS AND RELEVANCE In this genome-wide investigation of gene × environment interactions, use of aspirin and/or NSAIDs was associated with lower risk of colorectal cancer, and this association differed according to genetic variation at 2 SNPs at chromosomes 12 and 15."
+            },
+            {
+              "new_index": 9,
+              "original_index": 12,
+              "sentence": "Validation of these findings in additional populations may facilitate targeted colorectal cancer prevention strategies."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 43334921,
+          "original_index": 4,
+          "sentence": "EXPOSURES Genome-wide SNP data and information on regular use of aspirin and/or NSAIDs and other risk factors.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 43334921,
+          "original_index": 8,
+          "sentence": "Aspirin and/or NSAID use was associated with a lower risk of colorectal cancer among individuals with rs2965667-TT genotype (prevalence, 28% vs 38%; OR, 0.66 [95% CI, 0.61-0.70]; P = 7.7 × 10(-33)) but with a higher risk among those with rare (4%) TA or AA genotypes (prevalence, 35% vs 29%; OR, 1.89 [95% CI, 1.27-2.81]; P = .002).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 43334921,
+          "original_index": 10,
+          "sentence": "Regular use was associated with a lower risk of colorectal cancer among individuals with rs16973225-AA genotype (prevalence, 28% vs 38%; OR, 0.66 [95% CI, 0.62-0.71]; P = 1.9 × 10(-30)) but was not associated with risk of colorectal cancer among those with less common (9%) AC or CC genotypes (prevalence, 36% vs 39%; OR, 0.97 [95% CI, 0.78-1.20]; P = .76).   \n",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_3_groups",
+      "dropped_group_ids": [
+        "g1",
+        "g0",
+        "g3"
+      ],
+      "claim": "Nonsteroidal antinflammatory drugs show potential anticancer indications.",
+      "evidence": [
+        {
+          "doc_id": 43334921,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "RESULTS Regular use of aspirin and/or NSAIDs was associated with lower risk of colorectal cancer (prevalence, 28% vs 38%; odds ratio [OR], 0.69 [95% CI, 0.64-0.74]; P = 6.2 × 10(-28)) compared with nonregular use.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 43334921,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Aspirin and/or NSAID use was associated with a lower risk of colorectal cancer among individuals with rs2965667-TT genotype (prevalence, 28% vs 38%; OR, 0.66 [95% CI, 0.61-0.70]; P = 7.7 × 10(-33)) but with a higher risk among those with rare (4%) TA or AA genotypes (prevalence, 35% vs 29%; OR, 1.89 [95% CI, 1.27-2.81]; P = .002).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 43334921,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "Regular use was associated with a lower risk of colorectal cancer among individuals with rs16973225-AA genotype (prevalence, 28% vs 38%; OR, 0.66 [95% CI, 0.62-0.71]; P = 1.9 × 10(-30)) but was not associated with risk of colorectal cancer among those with less common (9%) AC or CC genotypes (prevalence, 36% vs 39%; OR, 0.97 [95% CI, 0.78-1.20]; P = .76).   \n",
+          "kept": true,
+          "new_index": 7
+        },
+        {
+          "doc_id": 43334921,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 11,
+          "sentence": "CONCLUSIONS AND RELEVANCE In this genome-wide investigation of gene × environment interactions, use of aspirin and/or NSAIDs was associated with lower risk of colorectal cancer, and this association differed according to genetic variation at 2 SNPs at chromosomes 12 and 15.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 43334921,
+          "title": "Association of aspirin and NSAID use with risk of colorectal cancer according to genetic variants.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "IMPORTANCE Use of aspirin and other nonsteroidal anti-inflammatory drugs (NSAIDs) is associated with lower risk of colorectal cancer.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To identify common genetic markers that may confer differential benefit from aspirin or NSAID chemoprevention, we tested gene × environment interactions between regular use of aspirin and/or NSAIDs and single-nucleotide polymorphisms (SNPs) in relation to risk of colorectal cancer.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "Participants were all of European descent.   "
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "EXPOSURES Genome-wide SNP data and information on regular use of aspirin and/or NSAIDs and other risk factors.   \n"
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "MAIN OUTCOMES AND MEASURES Colorectal cancer.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "In the conventional logistic regression analysis, the SNP rs2965667 at chromosome 12p12.3 near the MGST1 gene showed a genome-wide significant interaction with aspirin and/or NSAID use (P = 4.6 × 10(-9) for interaction)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 9,
+              "sentence": "In case-only interaction analysis, the SNP rs16973225 at chromosome 15q25.2 near the IL16 gene showed a genome-wide significant interaction with use of aspirin and/or NSAIDs (P = 8.2 × 10(-9) for interaction)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 10,
+              "sentence": "Regular use was associated with a lower risk of colorectal cancer among individuals with rs16973225-AA genotype (prevalence, 28% vs 38%; OR, 0.66 [95% CI, 0.62-0.71]; P = 1.9 × 10(-30)) but was not associated with risk of colorectal cancer among those with less common (9%) AC or CC genotypes (prevalence, 36% vs 39%; OR, 0.97 [95% CI, 0.78-1.20]; P = .76).   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 12,
+              "sentence": "Validation of these findings in additional populations may facilitate targeted colorectal cancer prevention strategies."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 43334921,
+          "original_index": 2,
+          "sentence": "DESIGN, SETTING, AND PARTICIPANTS Case-control study using data from 5 case-control and 5 cohort studies initiated between 1976 and 2003 across the United States, Canada, Australia, and Germany and including colorectal cancer cases (n=8634) and matched controls (n=8553) ascertained between 1976 and 2011.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 43334921,
+          "original_index": 6,
+          "sentence": "RESULTS Regular use of aspirin and/or NSAIDs was associated with lower risk of colorectal cancer (prevalence, 28% vs 38%; odds ratio [OR], 0.69 [95% CI, 0.64-0.74]; P = 6.2 × 10(-28)) compared with nonregular use.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 43334921,
+          "original_index": 8,
+          "sentence": "Aspirin and/or NSAID use was associated with a lower risk of colorectal cancer among individuals with rs2965667-TT genotype (prevalence, 28% vs 38%; OR, 0.66 [95% CI, 0.61-0.70]; P = 7.7 × 10(-33)) but with a higher risk among those with rare (4%) TA or AA genotypes (prevalence, 35% vs 29%; OR, 1.89 [95% CI, 1.27-2.81]; P = .002).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 43334921,
+          "original_index": 11,
+          "sentence": "CONCLUSIONS AND RELEVANCE In this genome-wide investigation of gene × environment interactions, use of aspirin and/or NSAIDs was associated with lower risk of colorectal cancer, and this association differed according to genetic variation at 2 SNPs at chromosomes 12 and 15.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2",
+        "g3"
+      ],
+      "claim": "Nonsteroidal antinflammatory drugs show potential anticancer indications.",
+      "evidence": [
+        {
+          "doc_id": 43334921,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 6,
+          "sentence": "RESULTS Regular use of aspirin and/or NSAIDs was associated with lower risk of colorectal cancer (prevalence, 28% vs 38%; odds ratio [OR], 0.69 [95% CI, 0.64-0.74]; P = 6.2 × 10(-28)) compared with nonregular use.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 43334921,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 8,
+          "sentence": "Aspirin and/or NSAID use was associated with a lower risk of colorectal cancer among individuals with rs2965667-TT genotype (prevalence, 28% vs 38%; OR, 0.66 [95% CI, 0.61-0.70]; P = 7.7 × 10(-33)) but with a higher risk among those with rare (4%) TA or AA genotypes (prevalence, 35% vs 29%; OR, 1.89 [95% CI, 1.27-2.81]; P = .002).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 43334921,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT",
+          "original_index": 10,
+          "sentence": "Regular use was associated with a lower risk of colorectal cancer among individuals with rs16973225-AA genotype (prevalence, 28% vs 38%; OR, 0.66 [95% CI, 0.62-0.71]; P = 1.9 × 10(-30)) but was not associated with risk of colorectal cancer among those with less common (9%) AC or CC genotypes (prevalence, 36% vs 39%; OR, 0.97 [95% CI, 0.78-1.20]; P = .76).   \n",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 43334921,
+          "group_id": "g3",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 11,
+          "sentence": "CONCLUSIONS AND RELEVANCE In this genome-wide investigation of gene × environment interactions, use of aspirin and/or NSAIDs was associated with lower risk of colorectal cancer, and this association differed according to genetic variation at 2 SNPs at chromosomes 12 and 15.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 43334921,
+          "title": "Association of aspirin and NSAID use with risk of colorectal cancer according to genetic variants.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "IMPORTANCE Use of aspirin and other nonsteroidal anti-inflammatory drugs (NSAIDs) is associated with lower risk of colorectal cancer.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVE To identify common genetic markers that may confer differential benefit from aspirin or NSAID chemoprevention, we tested gene × environment interactions between regular use of aspirin and/or NSAIDs and single-nucleotide polymorphisms (SNPs) in relation to risk of colorectal cancer.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN, SETTING, AND PARTICIPANTS Case-control study using data from 5 case-control and 5 cohort studies initiated between 1976 and 2003 across the United States, Canada, Australia, and Germany and including colorectal cancer cases (n=8634) and matched controls (n=8553) ascertained between 1976 and 2011."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Participants were all of European descent.   "
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "MAIN OUTCOMES AND MEASURES Colorectal cancer.   \n"
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "In the conventional logistic regression analysis, the SNP rs2965667 at chromosome 12p12.3 near the MGST1 gene showed a genome-wide significant interaction with aspirin and/or NSAID use (P = 4.6 × 10(-9) for interaction)."
+            },
+            {
+              "new_index": 6,
+              "original_index": 9,
+              "sentence": "In case-only interaction analysis, the SNP rs16973225 at chromosome 15q25.2 near the IL16 gene showed a genome-wide significant interaction with use of aspirin and/or NSAIDs (P = 8.2 × 10(-9) for interaction)."
+            },
+            {
+              "new_index": 7,
+              "original_index": 12,
+              "sentence": "Validation of these findings in additional populations may facilitate targeted colorectal cancer prevention strategies."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 43334921,
+          "original_index": 4,
+          "sentence": "EXPOSURES Genome-wide SNP data and information on regular use of aspirin and/or NSAIDs and other risk factors.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 43334921,
+          "original_index": 6,
+          "sentence": "RESULTS Regular use of aspirin and/or NSAIDs was associated with lower risk of colorectal cancer (prevalence, 28% vs 38%; odds ratio [OR], 0.69 [95% CI, 0.64-0.74]; P = 6.2 × 10(-28)) compared with nonregular use.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 43334921,
+          "original_index": 8,
+          "sentence": "Aspirin and/or NSAID use was associated with a lower risk of colorectal cancer among individuals with rs2965667-TT genotype (prevalence, 28% vs 38%; OR, 0.66 [95% CI, 0.61-0.70]; P = 7.7 × 10(-33)) but with a higher risk among those with rare (4%) TA or AA genotypes (prevalence, 35% vs 29%; OR, 1.89 [95% CI, 1.27-2.81]; P = .002).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 43334921,
+          "original_index": 10,
+          "sentence": "Regular use was associated with a lower risk of colorectal cancer among individuals with rs16973225-AA genotype (prevalence, 28% vs 38%; OR, 0.66 [95% CI, 0.62-0.71]; P = 1.9 × 10(-30)) but was not associated with risk of colorectal cancer among those with less common (9%) AC or CC genotypes (prevalence, 36% vs 39%; OR, 0.97 [95% CI, 0.78-1.20]; P = .76).   \n",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 43334921,
+          "original_index": 11,
+          "sentence": "CONCLUSIONS AND RELEVANCE In this genome-wide investigation of gene × environment interactions, use of aspirin and/or NSAIDs was associated with lower risk of colorectal cancer, and this association differed according to genetic variation at 2 SNPs at chromosomes 12 and 15.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

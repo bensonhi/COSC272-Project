@@ -1,0 +1,1103 @@
+{
+  "id": 1109,
+  "origin": "train_more",
+  "n_groups": 4,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Suboptimal nutrition is a leading cause of premature death",
+      "evidence": [
+        {
+          "doc_id": 13770184,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 13,
+          "sentence": "In 2015, the ten largest contributors to global DALYs among Level 3 risks were high systolic blood pressure (211·8 million [192·7 million to 231·1 million] global DALYs), smoking (148·6 million [134·2 million to 163·1 million]), high fasting plasma glucose (143·1 million [125·1 million to 163·5 million]), high BMI (120·1 million [83·8 million to 158·4 million]), childhood undernutrition (113·3 million [103·9 million to 123·4 million]), ambient particulate matter (103·1 million [90·8 million to 115·1 million]), high total cholesterol (88·7 million [74·6 million to 105·7 million]), household air pollution (85·6 million [66·7 million to 106·1 million]), alcohol use (85·0 million [77·2 million to 93·0 million]), and diets high in sodium (83·0 million [49·3 million to 127·5 million]).",
+          "kept": true,
+          "new_index": 13
+        },
+        {
+          "doc_id": 13770184,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 18,
+          "sentence": "Regionally, smoking still ranked among the leading five risk factors for attributable DALYs in 109 countries; childhood underweight and unsafe sex remained primary drivers of early death and disability in much of sub-Saharan Africa.   \n",
+          "kept": true,
+          "new_index": 18
+        },
+        {
+          "doc_id": 8582337,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 13,
+          "sentence": "The leading risk factors related to DALYs were dietary risks, tobacco smoking, high body mass index, high blood pressure, high fasting plasma glucose, physical inactivity, and alcohol use.",
+          "kept": true,
+          "new_index": 13
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13770184,
+          "title": "Global, regional, and national comparative risk assessment of 79 behavioural, environmental and occupational, and metabolic risks or clusters of risks, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND The Global Burden of Diseases, Injuries, and Risk Factors Study 2015 provides an up-to-date synthesis of the evidence for risk factor exposure and the attributable burden of disease."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "By providing national and subnational assessments spanning the past 25 years, this study can inform debates on the importance of addressing risks in context.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS We used the comparative risk assessment framework developed for previous iterations of the Global Burden of Disease Study to estimate attributable deaths, disability-adjusted life-years (DALYs), and trends in exposure by age group, sex, year, and geography for 79 behavioural, environmental and occupational, and metabolic risks or clusters of risks from 1990 to 2015."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "This study included 388 risk-outcome pairs that met World Cancer Research Fund-defined criteria for convincing or probable evidence."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We extracted relative risk and exposure estimates from randomised controlled trials, cohorts, pooled cohorts, household surveys, census data, satellite data, and other sources."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We used statistical models to pool data, adjust for bias, and incorporate covariates."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "We developed a metric that allows comparisons of exposure across risk factors-the summary exposure value."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Using the counterfactual scenario of theoretical minimum risk level, we estimated the portion of deaths and DALYs that could be attributed to a given risk."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "We decomposed trends in attributable burden into contributions from population growth, population age structure, risk exposure, and risk-deleted cause-specific DALY rates."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "We characterised risk exposure in relation to a Socio-demographic Index (SDI).   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "FINDINGS Between 1990 and 2015, global exposure to unsafe sanitation, household air pollution, childhood underweight, childhood stunting, and smoking each decreased by more than 25%."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Global exposure for several occupational risks, high body-mass index (BMI), and drug use increased by more than 25% over the same period."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "All risks jointly evaluated in 2015 accounted for 57·8% (95% CI 56·6-58·8) of global deaths and 41·2% (39·8-42·8) of DALYs."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "In 2015, the ten largest contributors to global DALYs among Level 3 risks were high systolic blood pressure (211·8 million [192·7 million to 231·1 million] global DALYs), smoking (148·6 million [134·2 million to 163·1 million]), high fasting plasma glucose (143·1 million [125·1 million to 163·5 million]), high BMI (120·1 million [83·8 million to 158·4 million]), childhood undernutrition (113·3 million [103·9 million to 123·4 million]), ambient particulate matter (103·1 million [90·8 million to 115·1 million]), high total cholesterol (88·7 million [74·6 million to 105·7 million]), household air pollution (85·6 million [66·7 million to 106·1 million]), alcohol use (85·0 million [77·2 million to 93·0 million]), and diets high in sodium (83·0 million [49·3 million to 127·5 million])."
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "From 1990 to 2015, attributable DALYs declined for micronutrient deficiencies, childhood undernutrition, unsafe sanitation and water, and household air pollution; reductions in risk-deleted DALY rates rather than reductions in exposure drove these declines."
+            },
+            {
+              "new_index": 15,
+              "original_index": 15,
+              "sentence": "Rising exposure contributed to notable increases in attributable DALYs from high BMI, high fasting plasma glucose, occupational carcinogens, and drug use."
+            },
+            {
+              "new_index": 16,
+              "original_index": 16,
+              "sentence": "Environmental risks and childhood undernutrition declined steadily with SDI; low physical activity, high BMI, and high fasting plasma glucose increased with SDI."
+            },
+            {
+              "new_index": 17,
+              "original_index": 17,
+              "sentence": "In 119 countries, metabolic risks, such as high BMI and fasting plasma glucose, contributed the most attributable DALYs in 2015."
+            },
+            {
+              "new_index": 18,
+              "original_index": 18,
+              "sentence": "Regionally, smoking still ranked among the leading five risk factors for attributable DALYs in 109 countries; childhood underweight and unsafe sex remained primary drivers of early death and disability in much of sub-Saharan Africa.   \n"
+            },
+            {
+              "new_index": 19,
+              "original_index": 19,
+              "sentence": "INTERPRETATION Declines in some key environmental risks have contributed to declines in critical infectious diseases."
+            },
+            {
+              "new_index": 20,
+              "original_index": 20,
+              "sentence": "Some risks appear to be invariant to SDI."
+            },
+            {
+              "new_index": 21,
+              "original_index": 21,
+              "sentence": "Increasing risks, including high BMI, high fasting plasma glucose, drug use, and some occupational exposures, contribute to rising burden from some conditions, but also provide opportunities for intervention."
+            },
+            {
+              "new_index": 22,
+              "original_index": 22,
+              "sentence": "Some highly preventable risks, such as smoking, remain major causes of attributable DALYs, even as exposure is declining."
+            },
+            {
+              "new_index": 23,
+              "original_index": 23,
+              "sentence": "Public policy makers need to pay attention to the risks that are increasingly major contributors to global burden.   \n"
+            },
+            {
+              "new_index": 24,
+              "original_index": 24,
+              "sentence": "FUNDING Bill & Melinda Gates Foundation."
+            }
+          ]
+        },
+        {
+          "doc_id": 8582337,
+          "title": "The state of US health, 1990-2010: burden of diseases, injuries, and risk factors.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "IMPORTANCE Understanding the major health problems in the United States and how they are changing over time is critical for informing national health policy.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVES To measure the burden of diseases, injuries, and leading risk factors in the United States from 1990 to 2010 and to compare these measurements with those of the 34 countries in the Organisation for Economic Co-operation and Development (OECD) countries.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN We used the systematic analysis of descriptive epidemiology of 291 diseases and injuries, 1160 sequelae of these diseases and injuries, and 67 risk factors or clusters of risk factors from 1990 to 2010 for 187 countries developed for the Global Burden of Disease 2010 Study to describe the health status of the United States and to compare US health outcomes with those of 34 OECD countries."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Years of life lost due to premature mortality (YLLs) were computed by multiplying the number of deaths at each age by a reference life expectancy at that age."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Years lived with disability (YLDs) were calculated by multiplying prevalence (based on systematic reviews) by the disability weight (based on population-based surveys) for each sequela; disability in this study refers to any short- or long-term loss of health."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Disability-adjusted life-years (DALYs) were estimated as the sum of YLDs and YLLs."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "Deaths and DALYs related to risk factors were based on systematic reviews and meta-analyses of exposure data and relative risks for risk-outcome pairs."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Healthy life expectancy (HALE) was used to summarize overall population health, accounting for both length of life and levels of ill health experienced at different ages.   \n"
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "RESULTS US life expectancy for both sexes combined increased from 75.2 years in 1990 to 78.2 years in 2010; during the same period, HALE increased from 65.8 years to 68.1 years."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "The diseases and injuries with the largest number of YLLs in 2010 were ischemic heart disease, lung cancer, stroke, chronic obstructive pulmonary disease, and road injury."
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "Age-standardized YLL rates increased for Alzheimer disease, drug use disorders, chronic kidney disease, kidney cancer, and falls."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "The diseases with the largest number of YLDs in 2010 were low back pain, major depressive disorder, other musculoskeletal disorders, neck pain, and anxiety disorders."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "As the US population has aged, YLDs have comprised a larger share of DALYs than have YLLs."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "The leading risk factors related to DALYs were dietary risks, tobacco smoking, high body mass index, high blood pressure, high fasting plasma glucose, physical inactivity, and alcohol use."
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "Among 34 OECD countries between 1990 and 2010, the US rank for the age-standardized death rate changed from 18th to 27th, for the age-standardized YLL rate from 23rd to 28th, for the age-standardized YLD rate from 5th to 6th, for life expectancy at birth from 20th to 27th, and for HALE from 14th to 26th.   \n"
+            },
+            {
+              "new_index": 15,
+              "original_index": 15,
+              "sentence": "CONCLUSIONS AND RELEVANCE From 1990 to 2010, the United States made substantial progress in improving health."
+            },
+            {
+              "new_index": 16,
+              "original_index": 16,
+              "sentence": "Life expectancy at birth and HALE increased, all-cause death rates at all ages decreased, and age-specific rates of years lived with disability remained stable."
+            },
+            {
+              "new_index": 17,
+              "original_index": 17,
+              "sentence": "However, morbidity and chronic disability now account for nearly half of the US health burden, and improvements in population health in the United States have not kept pace with advances in population health in other wealthy nations."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g2"
+      ],
+      "claim": "Suboptimal nutrition is a leading cause of premature death",
+      "evidence": [
+        {
+          "doc_id": 13770184,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 13,
+          "sentence": "In 2015, the ten largest contributors to global DALYs among Level 3 risks were high systolic blood pressure (211·8 million [192·7 million to 231·1 million] global DALYs), smoking (148·6 million [134·2 million to 163·1 million]), high fasting plasma glucose (143·1 million [125·1 million to 163·5 million]), high BMI (120·1 million [83·8 million to 158·4 million]), childhood undernutrition (113·3 million [103·9 million to 123·4 million]), ambient particulate matter (103·1 million [90·8 million to 115·1 million]), high total cholesterol (88·7 million [74·6 million to 105·7 million]), household air pollution (85·6 million [66·7 million to 106·1 million]), alcohol use (85·0 million [77·2 million to 93·0 million]), and diets high in sodium (83·0 million [49·3 million to 127·5 million]).",
+          "kept": true,
+          "new_index": 12
+        },
+        {
+          "doc_id": 13770184,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 18,
+          "sentence": "Regionally, smoking still ranked among the leading five risk factors for attributable DALYs in 109 countries; childhood underweight and unsafe sex remained primary drivers of early death and disability in much of sub-Saharan Africa.   \n",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 8582337,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 13,
+          "sentence": "The leading risk factors related to DALYs were dietary risks, tobacco smoking, high body mass index, high blood pressure, high fasting plasma glucose, physical inactivity, and alcohol use.",
+          "kept": true,
+          "new_index": 11
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13770184,
+          "title": "Global, regional, and national comparative risk assessment of 79 behavioural, environmental and occupational, and metabolic risks or clusters of risks, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND The Global Burden of Diseases, Injuries, and Risk Factors Study 2015 provides an up-to-date synthesis of the evidence for risk factor exposure and the attributable burden of disease."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "By providing national and subnational assessments spanning the past 25 years, this study can inform debates on the importance of addressing risks in context.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS We used the comparative risk assessment framework developed for previous iterations of the Global Burden of Disease Study to estimate attributable deaths, disability-adjusted life-years (DALYs), and trends in exposure by age group, sex, year, and geography for 79 behavioural, environmental and occupational, and metabolic risks or clusters of risks from 1990 to 2015."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "This study included 388 risk-outcome pairs that met World Cancer Research Fund-defined criteria for convincing or probable evidence."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We extracted relative risk and exposure estimates from randomised controlled trials, cohorts, pooled cohorts, household surveys, census data, satellite data, and other sources."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We used statistical models to pool data, adjust for bias, and incorporate covariates."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "We developed a metric that allows comparisons of exposure across risk factors-the summary exposure value."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Using the counterfactual scenario of theoretical minimum risk level, we estimated the portion of deaths and DALYs that could be attributed to a given risk."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "We decomposed trends in attributable burden into contributions from population growth, population age structure, risk exposure, and risk-deleted cause-specific DALY rates."
+            },
+            {
+              "new_index": 9,
+              "original_index": 10,
+              "sentence": "FINDINGS Between 1990 and 2015, global exposure to unsafe sanitation, household air pollution, childhood underweight, childhood stunting, and smoking each decreased by more than 25%."
+            },
+            {
+              "new_index": 10,
+              "original_index": 11,
+              "sentence": "Global exposure for several occupational risks, high body-mass index (BMI), and drug use increased by more than 25% over the same period."
+            },
+            {
+              "new_index": 11,
+              "original_index": 12,
+              "sentence": "All risks jointly evaluated in 2015 accounted for 57·8% (95% CI 56·6-58·8) of global deaths and 41·2% (39·8-42·8) of DALYs."
+            },
+            {
+              "new_index": 12,
+              "original_index": 13,
+              "sentence": "In 2015, the ten largest contributors to global DALYs among Level 3 risks were high systolic blood pressure (211·8 million [192·7 million to 231·1 million] global DALYs), smoking (148·6 million [134·2 million to 163·1 million]), high fasting plasma glucose (143·1 million [125·1 million to 163·5 million]), high BMI (120·1 million [83·8 million to 158·4 million]), childhood undernutrition (113·3 million [103·9 million to 123·4 million]), ambient particulate matter (103·1 million [90·8 million to 115·1 million]), high total cholesterol (88·7 million [74·6 million to 105·7 million]), household air pollution (85·6 million [66·7 million to 106·1 million]), alcohol use (85·0 million [77·2 million to 93·0 million]), and diets high in sodium (83·0 million [49·3 million to 127·5 million])."
+            },
+            {
+              "new_index": 13,
+              "original_index": 14,
+              "sentence": "From 1990 to 2015, attributable DALYs declined for micronutrient deficiencies, childhood undernutrition, unsafe sanitation and water, and household air pollution; reductions in risk-deleted DALY rates rather than reductions in exposure drove these declines."
+            },
+            {
+              "new_index": 14,
+              "original_index": 15,
+              "sentence": "Rising exposure contributed to notable increases in attributable DALYs from high BMI, high fasting plasma glucose, occupational carcinogens, and drug use."
+            },
+            {
+              "new_index": 15,
+              "original_index": 17,
+              "sentence": "In 119 countries, metabolic risks, such as high BMI and fasting plasma glucose, contributed the most attributable DALYs in 2015."
+            },
+            {
+              "new_index": 16,
+              "original_index": 20,
+              "sentence": "Some risks appear to be invariant to SDI."
+            },
+            {
+              "new_index": 17,
+              "original_index": 21,
+              "sentence": "Increasing risks, including high BMI, high fasting plasma glucose, drug use, and some occupational exposures, contribute to rising burden from some conditions, but also provide opportunities for intervention."
+            },
+            {
+              "new_index": 18,
+              "original_index": 22,
+              "sentence": "Some highly preventable risks, such as smoking, remain major causes of attributable DALYs, even as exposure is declining."
+            },
+            {
+              "new_index": 19,
+              "original_index": 23,
+              "sentence": "Public policy makers need to pay attention to the risks that are increasingly major contributors to global burden.   \n"
+            },
+            {
+              "new_index": 20,
+              "original_index": 24,
+              "sentence": "FUNDING Bill & Melinda Gates Foundation."
+            }
+          ]
+        },
+        {
+          "doc_id": 8582337,
+          "title": "The state of US health, 1990-2010: burden of diseases, injuries, and risk factors.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "IMPORTANCE Understanding the major health problems in the United States and how they are changing over time is critical for informing national health policy.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVES To measure the burden of diseases, injuries, and leading risk factors in the United States from 1990 to 2010 and to compare these measurements with those of the 34 countries in the Organisation for Economic Co-operation and Development (OECD) countries.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 4,
+              "sentence": "Years lived with disability (YLDs) were calculated by multiplying prevalence (based on systematic reviews) by the disability weight (based on population-based surveys) for each sequela; disability in this study refers to any short- or long-term loss of health."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Disability-adjusted life-years (DALYs) were estimated as the sum of YLDs and YLLs."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "Deaths and DALYs related to risk factors were based on systematic reviews and meta-analyses of exposure data and relative risks for risk-outcome pairs."
+            },
+            {
+              "new_index": 5,
+              "original_index": 7,
+              "sentence": "Healthy life expectancy (HALE) was used to summarize overall population health, accounting for both length of life and levels of ill health experienced at different ages.   \n"
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "RESULTS US life expectancy for both sexes combined increased from 75.2 years in 1990 to 78.2 years in 2010; during the same period, HALE increased from 65.8 years to 68.1 years."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "The diseases and injuries with the largest number of YLLs in 2010 were ischemic heart disease, lung cancer, stroke, chronic obstructive pulmonary disease, and road injury."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "Age-standardized YLL rates increased for Alzheimer disease, drug use disorders, chronic kidney disease, kidney cancer, and falls."
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "The diseases with the largest number of YLDs in 2010 were low back pain, major depressive disorder, other musculoskeletal disorders, neck pain, and anxiety disorders."
+            },
+            {
+              "new_index": 10,
+              "original_index": 12,
+              "sentence": "As the US population has aged, YLDs have comprised a larger share of DALYs than have YLLs."
+            },
+            {
+              "new_index": 11,
+              "original_index": 13,
+              "sentence": "The leading risk factors related to DALYs were dietary risks, tobacco smoking, high body mass index, high blood pressure, high fasting plasma glucose, physical inactivity, and alcohol use."
+            },
+            {
+              "new_index": 12,
+              "original_index": 14,
+              "sentence": "Among 34 OECD countries between 1990 and 2010, the US rank for the age-standardized death rate changed from 18th to 27th, for the age-standardized YLL rate from 23rd to 28th, for the age-standardized YLD rate from 5th to 6th, for life expectancy at birth from 20th to 27th, and for HALE from 14th to 26th.   \n"
+            },
+            {
+              "new_index": 13,
+              "original_index": 15,
+              "sentence": "CONCLUSIONS AND RELEVANCE From 1990 to 2010, the United States made substantial progress in improving health."
+            },
+            {
+              "new_index": 14,
+              "original_index": 17,
+              "sentence": "However, morbidity and chronic disability now account for nearly half of the US health burden, and improvements in population health in the United States have not kept pace with advances in population health in other wealthy nations."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 13770184,
+          "original_index": 9,
+          "sentence": "We characterised risk exposure in relation to a Socio-demographic Index (SDI).   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 13770184,
+          "original_index": 16,
+          "sentence": "Environmental risks and childhood undernutrition declined steadily with SDI; low physical activity, high BMI, and high fasting plasma glucose increased with SDI.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 13770184,
+          "original_index": 18,
+          "sentence": "Regionally, smoking still ranked among the leading five risk factors for attributable DALYs in 109 countries; childhood underweight and unsafe sex remained primary drivers of early death and disability in much of sub-Saharan Africa.   \n",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13770184,
+          "original_index": 19,
+          "sentence": "INTERPRETATION Declines in some key environmental risks have contributed to declines in critical infectious diseases.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 8582337,
+          "original_index": 2,
+          "sentence": "DESIGN We used the systematic analysis of descriptive epidemiology of 291 diseases and injuries, 1160 sequelae of these diseases and injuries, and 67 risk factors or clusters of risk factors from 1990 to 2010 for 187 countries developed for the Global Burden of Disease 2010 Study to describe the health status of the United States and to compare US health outcomes with those of 34 OECD countries.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 8582337,
+          "original_index": 3,
+          "sentence": "Years of life lost due to premature mortality (YLLs) were computed by multiplying the number of deaths at each age by a reference life expectancy at that age.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 8582337,
+          "original_index": 16,
+          "sentence": "Life expectancy at birth and HALE increased, all-cause death rates at all ages decreased, and age-specific rates of years lived with disability remained stable.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_2_groups",
+      "dropped_group_ids": [
+        "g2",
+        "g1"
+      ],
+      "claim": "Suboptimal nutrition is a leading cause of premature death",
+      "evidence": [
+        {
+          "doc_id": 13770184,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 13,
+          "sentence": "In 2015, the ten largest contributors to global DALYs among Level 3 risks were high systolic blood pressure (211·8 million [192·7 million to 231·1 million] global DALYs), smoking (148·6 million [134·2 million to 163·1 million]), high fasting plasma glucose (143·1 million [125·1 million to 163·5 million]), high BMI (120·1 million [83·8 million to 158·4 million]), childhood undernutrition (113·3 million [103·9 million to 123·4 million]), ambient particulate matter (103·1 million [90·8 million to 115·1 million]), high total cholesterol (88·7 million [74·6 million to 105·7 million]), household air pollution (85·6 million [66·7 million to 106·1 million]), alcohol use (85·0 million [77·2 million to 93·0 million]), and diets high in sodium (83·0 million [49·3 million to 127·5 million]).",
+          "kept": true,
+          "new_index": 13
+        },
+        {
+          "doc_id": 13770184,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 18,
+          "sentence": "Regionally, smoking still ranked among the leading five risk factors for attributable DALYs in 109 countries; childhood underweight and unsafe sex remained primary drivers of early death and disability in much of sub-Saharan Africa.   \n",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 8582337,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 13,
+          "sentence": "The leading risk factors related to DALYs were dietary risks, tobacco smoking, high body mass index, high blood pressure, high fasting plasma glucose, physical inactivity, and alcohol use.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13770184,
+          "title": "Global, regional, and national comparative risk assessment of 79 behavioural, environmental and occupational, and metabolic risks or clusters of risks, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "BACKGROUND The Global Burden of Diseases, Injuries, and Risk Factors Study 2015 provides an up-to-date synthesis of the evidence for risk factor exposure and the attributable burden of disease."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "By providing national and subnational assessments spanning the past 25 years, this study can inform debates on the importance of addressing risks in context.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "METHODS We used the comparative risk assessment framework developed for previous iterations of the Global Burden of Disease Study to estimate attributable deaths, disability-adjusted life-years (DALYs), and trends in exposure by age group, sex, year, and geography for 79 behavioural, environmental and occupational, and metabolic risks or clusters of risks from 1990 to 2015."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "This study included 388 risk-outcome pairs that met World Cancer Research Fund-defined criteria for convincing or probable evidence."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We extracted relative risk and exposure estimates from randomised controlled trials, cohorts, pooled cohorts, household surveys, census data, satellite data, and other sources."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "We used statistical models to pool data, adjust for bias, and incorporate covariates."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "We developed a metric that allows comparisons of exposure across risk factors-the summary exposure value."
+            },
+            {
+              "new_index": 7,
+              "original_index": 7,
+              "sentence": "Using the counterfactual scenario of theoretical minimum risk level, we estimated the portion of deaths and DALYs that could be attributed to a given risk."
+            },
+            {
+              "new_index": 8,
+              "original_index": 8,
+              "sentence": "We decomposed trends in attributable burden into contributions from population growth, population age structure, risk exposure, and risk-deleted cause-specific DALY rates."
+            },
+            {
+              "new_index": 9,
+              "original_index": 9,
+              "sentence": "We characterised risk exposure in relation to a Socio-demographic Index (SDI).   \n"
+            },
+            {
+              "new_index": 10,
+              "original_index": 10,
+              "sentence": "FINDINGS Between 1990 and 2015, global exposure to unsafe sanitation, household air pollution, childhood underweight, childhood stunting, and smoking each decreased by more than 25%."
+            },
+            {
+              "new_index": 11,
+              "original_index": 11,
+              "sentence": "Global exposure for several occupational risks, high body-mass index (BMI), and drug use increased by more than 25% over the same period."
+            },
+            {
+              "new_index": 12,
+              "original_index": 12,
+              "sentence": "All risks jointly evaluated in 2015 accounted for 57·8% (95% CI 56·6-58·8) of global deaths and 41·2% (39·8-42·8) of DALYs."
+            },
+            {
+              "new_index": 13,
+              "original_index": 13,
+              "sentence": "In 2015, the ten largest contributors to global DALYs among Level 3 risks were high systolic blood pressure (211·8 million [192·7 million to 231·1 million] global DALYs), smoking (148·6 million [134·2 million to 163·1 million]), high fasting plasma glucose (143·1 million [125·1 million to 163·5 million]), high BMI (120·1 million [83·8 million to 158·4 million]), childhood undernutrition (113·3 million [103·9 million to 123·4 million]), ambient particulate matter (103·1 million [90·8 million to 115·1 million]), high total cholesterol (88·7 million [74·6 million to 105·7 million]), household air pollution (85·6 million [66·7 million to 106·1 million]), alcohol use (85·0 million [77·2 million to 93·0 million]), and diets high in sodium (83·0 million [49·3 million to 127·5 million])."
+            },
+            {
+              "new_index": 14,
+              "original_index": 14,
+              "sentence": "From 1990 to 2015, attributable DALYs declined for micronutrient deficiencies, childhood undernutrition, unsafe sanitation and water, and household air pollution; reductions in risk-deleted DALY rates rather than reductions in exposure drove these declines."
+            },
+            {
+              "new_index": 15,
+              "original_index": 17,
+              "sentence": "In 119 countries, metabolic risks, such as high BMI and fasting plasma glucose, contributed the most attributable DALYs in 2015."
+            },
+            {
+              "new_index": 16,
+              "original_index": 19,
+              "sentence": "INTERPRETATION Declines in some key environmental risks have contributed to declines in critical infectious diseases."
+            },
+            {
+              "new_index": 17,
+              "original_index": 20,
+              "sentence": "Some risks appear to be invariant to SDI."
+            },
+            {
+              "new_index": 18,
+              "original_index": 21,
+              "sentence": "Increasing risks, including high BMI, high fasting plasma glucose, drug use, and some occupational exposures, contribute to rising burden from some conditions, but also provide opportunities for intervention."
+            },
+            {
+              "new_index": 19,
+              "original_index": 22,
+              "sentence": "Some highly preventable risks, such as smoking, remain major causes of attributable DALYs, even as exposure is declining."
+            },
+            {
+              "new_index": 20,
+              "original_index": 24,
+              "sentence": "FUNDING Bill & Melinda Gates Foundation."
+            }
+          ]
+        },
+        {
+          "doc_id": 8582337,
+          "title": "The state of US health, 1990-2010: burden of diseases, injuries, and risk factors.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "IMPORTANCE Understanding the major health problems in the United States and how they are changing over time is critical for informing national health policy.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVES To measure the burden of diseases, injuries, and leading risk factors in the United States from 1990 to 2010 and to compare these measurements with those of the 34 countries in the Organisation for Economic Co-operation and Development (OECD) countries.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN We used the systematic analysis of descriptive epidemiology of 291 diseases and injuries, 1160 sequelae of these diseases and injuries, and 67 risk factors or clusters of risk factors from 1990 to 2010 for 187 countries developed for the Global Burden of Disease 2010 Study to describe the health status of the United States and to compare US health outcomes with those of 34 OECD countries."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Years of life lost due to premature mortality (YLLs) were computed by multiplying the number of deaths at each age by a reference life expectancy at that age."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "Years lived with disability (YLDs) were calculated by multiplying prevalence (based on systematic reviews) by the disability weight (based on population-based surveys) for each sequela; disability in this study refers to any short- or long-term loss of health."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Deaths and DALYs related to risk factors were based on systematic reviews and meta-analyses of exposure data and relative risks for risk-outcome pairs."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "Healthy life expectancy (HALE) was used to summarize overall population health, accounting for both length of life and levels of ill health experienced at different ages.   \n"
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "The diseases and injuries with the largest number of YLLs in 2010 were ischemic heart disease, lung cancer, stroke, chronic obstructive pulmonary disease, and road injury."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "Age-standardized YLL rates increased for Alzheimer disease, drug use disorders, chronic kidney disease, kidney cancer, and falls."
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "The diseases with the largest number of YLDs in 2010 were low back pain, major depressive disorder, other musculoskeletal disorders, neck pain, and anxiety disorders."
+            },
+            {
+              "new_index": 10,
+              "original_index": 12,
+              "sentence": "As the US population has aged, YLDs have comprised a larger share of DALYs than have YLLs."
+            },
+            {
+              "new_index": 11,
+              "original_index": 14,
+              "sentence": "Among 34 OECD countries between 1990 and 2010, the US rank for the age-standardized death rate changed from 18th to 27th, for the age-standardized YLL rate from 23rd to 28th, for the age-standardized YLD rate from 5th to 6th, for life expectancy at birth from 20th to 27th, and for HALE from 14th to 26th.   \n"
+            },
+            {
+              "new_index": 12,
+              "original_index": 15,
+              "sentence": "CONCLUSIONS AND RELEVANCE From 1990 to 2010, the United States made substantial progress in improving health."
+            },
+            {
+              "new_index": 13,
+              "original_index": 17,
+              "sentence": "However, morbidity and chronic disability now account for nearly half of the US health burden, and improvements in population health in the United States have not kept pace with advances in population health in other wealthy nations."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 13770184,
+          "original_index": 15,
+          "sentence": "Rising exposure contributed to notable increases in attributable DALYs from high BMI, high fasting plasma glucose, occupational carcinogens, and drug use.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 13770184,
+          "original_index": 16,
+          "sentence": "Environmental risks and childhood undernutrition declined steadily with SDI; low physical activity, high BMI, and high fasting plasma glucose increased with SDI.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 13770184,
+          "original_index": 18,
+          "sentence": "Regionally, smoking still ranked among the leading five risk factors for attributable DALYs in 109 countries; childhood underweight and unsafe sex remained primary drivers of early death and disability in much of sub-Saharan Africa.   \n",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13770184,
+          "original_index": 23,
+          "sentence": "Public policy makers need to pay attention to the risks that are increasingly major contributors to global burden.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 8582337,
+          "original_index": 5,
+          "sentence": "Disability-adjusted life-years (DALYs) were estimated as the sum of YLDs and YLLs.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 8582337,
+          "original_index": 8,
+          "sentence": "RESULTS US life expectancy for both sexes combined increased from 75.2 years in 1990 to 78.2 years in 2010; during the same period, HALE increased from 65.8 years to 68.1 years.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 8582337,
+          "original_index": 13,
+          "sentence": "The leading risk factors related to DALYs were dietary risks, tobacco smoking, high body mass index, high blood pressure, high fasting plasma glucose, physical inactivity, and alcohol use.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 8582337,
+          "original_index": 16,
+          "sentence": "Life expectancy at birth and HALE increased, all-cause death rates at all ages decreased, and age-specific rates of years lived with disability remained stable.",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1",
+        "g2"
+      ],
+      "claim": "Suboptimal nutrition is a leading cause of premature death",
+      "evidence": [
+        {
+          "doc_id": 13770184,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 13,
+          "sentence": "In 2015, the ten largest contributors to global DALYs among Level 3 risks were high systolic blood pressure (211·8 million [192·7 million to 231·1 million] global DALYs), smoking (148·6 million [134·2 million to 163·1 million]), high fasting plasma glucose (143·1 million [125·1 million to 163·5 million]), high BMI (120·1 million [83·8 million to 158·4 million]), childhood undernutrition (113·3 million [103·9 million to 123·4 million]), ambient particulate matter (103·1 million [90·8 million to 115·1 million]), high total cholesterol (88·7 million [74·6 million to 105·7 million]), household air pollution (85·6 million [66·7 million to 106·1 million]), alcohol use (85·0 million [77·2 million to 93·0 million]), and diets high in sodium (83·0 million [49·3 million to 127·5 million]).",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 13770184,
+          "group_id": "g2",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 18,
+          "sentence": "Regionally, smoking still ranked among the leading five risk factors for attributable DALYs in 109 countries; childhood underweight and unsafe sex remained primary drivers of early death and disability in much of sub-Saharan Africa.   \n",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 8582337,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT",
+          "original_index": 13,
+          "sentence": "The leading risk factors related to DALYs were dietary risks, tobacco smoking, high body mass index, high blood pressure, high fasting plasma glucose, physical inactivity, and alcohol use.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 13770184,
+          "title": "Global, regional, and national comparative risk assessment of 79 behavioural, environmental and occupational, and metabolic risks or clusters of risks, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "By providing national and subnational assessments spanning the past 25 years, this study can inform debates on the importance of addressing risks in context.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "METHODS We used the comparative risk assessment framework developed for previous iterations of the Global Burden of Disease Study to estimate attributable deaths, disability-adjusted life-years (DALYs), and trends in exposure by age group, sex, year, and geography for 79 behavioural, environmental and occupational, and metabolic risks or clusters of risks from 1990 to 2015."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "This study included 388 risk-outcome pairs that met World Cancer Research Fund-defined criteria for convincing or probable evidence."
+            },
+            {
+              "new_index": 3,
+              "original_index": 4,
+              "sentence": "We extracted relative risk and exposure estimates from randomised controlled trials, cohorts, pooled cohorts, household surveys, census data, satellite data, and other sources."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "We used statistical models to pool data, adjust for bias, and incorporate covariates."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "We developed a metric that allows comparisons of exposure across risk factors-the summary exposure value."
+            },
+            {
+              "new_index": 6,
+              "original_index": 7,
+              "sentence": "Using the counterfactual scenario of theoretical minimum risk level, we estimated the portion of deaths and DALYs that could be attributed to a given risk."
+            },
+            {
+              "new_index": 7,
+              "original_index": 8,
+              "sentence": "We decomposed trends in attributable burden into contributions from population growth, population age structure, risk exposure, and risk-deleted cause-specific DALY rates."
+            },
+            {
+              "new_index": 8,
+              "original_index": 9,
+              "sentence": "We characterised risk exposure in relation to a Socio-demographic Index (SDI).   \n"
+            },
+            {
+              "new_index": 9,
+              "original_index": 10,
+              "sentence": "FINDINGS Between 1990 and 2015, global exposure to unsafe sanitation, household air pollution, childhood underweight, childhood stunting, and smoking each decreased by more than 25%."
+            },
+            {
+              "new_index": 10,
+              "original_index": 11,
+              "sentence": "Global exposure for several occupational risks, high body-mass index (BMI), and drug use increased by more than 25% over the same period."
+            },
+            {
+              "new_index": 11,
+              "original_index": 14,
+              "sentence": "From 1990 to 2015, attributable DALYs declined for micronutrient deficiencies, childhood undernutrition, unsafe sanitation and water, and household air pollution; reductions in risk-deleted DALY rates rather than reductions in exposure drove these declines."
+            },
+            {
+              "new_index": 12,
+              "original_index": 15,
+              "sentence": "Rising exposure contributed to notable increases in attributable DALYs from high BMI, high fasting plasma glucose, occupational carcinogens, and drug use."
+            },
+            {
+              "new_index": 13,
+              "original_index": 16,
+              "sentence": "Environmental risks and childhood undernutrition declined steadily with SDI; low physical activity, high BMI, and high fasting plasma glucose increased with SDI."
+            },
+            {
+              "new_index": 14,
+              "original_index": 17,
+              "sentence": "In 119 countries, metabolic risks, such as high BMI and fasting plasma glucose, contributed the most attributable DALYs in 2015."
+            },
+            {
+              "new_index": 15,
+              "original_index": 19,
+              "sentence": "INTERPRETATION Declines in some key environmental risks have contributed to declines in critical infectious diseases."
+            },
+            {
+              "new_index": 16,
+              "original_index": 21,
+              "sentence": "Increasing risks, including high BMI, high fasting plasma glucose, drug use, and some occupational exposures, contribute to rising burden from some conditions, but also provide opportunities for intervention."
+            },
+            {
+              "new_index": 17,
+              "original_index": 22,
+              "sentence": "Some highly preventable risks, such as smoking, remain major causes of attributable DALYs, even as exposure is declining."
+            },
+            {
+              "new_index": 18,
+              "original_index": 23,
+              "sentence": "Public policy makers need to pay attention to the risks that are increasingly major contributors to global burden.   \n"
+            },
+            {
+              "new_index": 19,
+              "original_index": 24,
+              "sentence": "FUNDING Bill & Melinda Gates Foundation."
+            }
+          ]
+        },
+        {
+          "doc_id": 8582337,
+          "title": "The state of US health, 1990-2010: burden of diseases, injuries, and risk factors.",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "IMPORTANCE Understanding the major health problems in the United States and how they are changing over time is critical for informing national health policy.   \n"
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "OBJECTIVES To measure the burden of diseases, injuries, and leading risk factors in the United States from 1990 to 2010 and to compare these measurements with those of the 34 countries in the Organisation for Economic Co-operation and Development (OECD) countries.   \n"
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "DESIGN We used the systematic analysis of descriptive epidemiology of 291 diseases and injuries, 1160 sequelae of these diseases and injuries, and 67 risk factors or clusters of risk factors from 1990 to 2010 for 187 countries developed for the Global Burden of Disease 2010 Study to describe the health status of the United States and to compare US health outcomes with those of 34 OECD countries."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "Years of life lost due to premature mortality (YLLs) were computed by multiplying the number of deaths at each age by a reference life expectancy at that age."
+            },
+            {
+              "new_index": 4,
+              "original_index": 5,
+              "sentence": "Disability-adjusted life-years (DALYs) were estimated as the sum of YLDs and YLLs."
+            },
+            {
+              "new_index": 5,
+              "original_index": 6,
+              "sentence": "Deaths and DALYs related to risk factors were based on systematic reviews and meta-analyses of exposure data and relative risks for risk-outcome pairs."
+            },
+            {
+              "new_index": 6,
+              "original_index": 8,
+              "sentence": "RESULTS US life expectancy for both sexes combined increased from 75.2 years in 1990 to 78.2 years in 2010; during the same period, HALE increased from 65.8 years to 68.1 years."
+            },
+            {
+              "new_index": 7,
+              "original_index": 9,
+              "sentence": "The diseases and injuries with the largest number of YLLs in 2010 were ischemic heart disease, lung cancer, stroke, chronic obstructive pulmonary disease, and road injury."
+            },
+            {
+              "new_index": 8,
+              "original_index": 10,
+              "sentence": "Age-standardized YLL rates increased for Alzheimer disease, drug use disorders, chronic kidney disease, kidney cancer, and falls."
+            },
+            {
+              "new_index": 9,
+              "original_index": 11,
+              "sentence": "The diseases with the largest number of YLDs in 2010 were low back pain, major depressive disorder, other musculoskeletal disorders, neck pain, and anxiety disorders."
+            },
+            {
+              "new_index": 10,
+              "original_index": 12,
+              "sentence": "As the US population has aged, YLDs have comprised a larger share of DALYs than have YLLs."
+            },
+            {
+              "new_index": 11,
+              "original_index": 15,
+              "sentence": "CONCLUSIONS AND RELEVANCE From 1990 to 2010, the United States made substantial progress in improving health."
+            },
+            {
+              "new_index": 12,
+              "original_index": 16,
+              "sentence": "Life expectancy at birth and HALE increased, all-cause death rates at all ages decreased, and age-specific rates of years lived with disability remained stable."
+            },
+            {
+              "new_index": 13,
+              "original_index": 17,
+              "sentence": "However, morbidity and chronic disability now account for nearly half of the US health burden, and improvements in population health in the United States have not kept pace with advances in population health in other wealthy nations."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 13770184,
+          "original_index": 0,
+          "sentence": "BACKGROUND The Global Burden of Diseases, Injuries, and Risk Factors Study 2015 provides an up-to-date synthesis of the evidence for risk factor exposure and the attributable burden of disease.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 13770184,
+          "original_index": 12,
+          "sentence": "All risks jointly evaluated in 2015 accounted for 57·8% (95% CI 56·6-58·8) of global deaths and 41·2% (39·8-42·8) of DALYs.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 13770184,
+          "original_index": 13,
+          "sentence": "In 2015, the ten largest contributors to global DALYs among Level 3 risks were high systolic blood pressure (211·8 million [192·7 million to 231·1 million] global DALYs), smoking (148·6 million [134·2 million to 163·1 million]), high fasting plasma glucose (143·1 million [125·1 million to 163·5 million]), high BMI (120·1 million [83·8 million to 158·4 million]), childhood undernutrition (113·3 million [103·9 million to 123·4 million]), ambient particulate matter (103·1 million [90·8 million to 115·1 million]), high total cholesterol (88·7 million [74·6 million to 105·7 million]), household air pollution (85·6 million [66·7 million to 106·1 million]), alcohol use (85·0 million [77·2 million to 93·0 million]), and diets high in sodium (83·0 million [49·3 million to 127·5 million]).",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13770184,
+          "original_index": 18,
+          "sentence": "Regionally, smoking still ranked among the leading five risk factors for attributable DALYs in 109 countries; childhood underweight and unsafe sex remained primary drivers of early death and disability in much of sub-Saharan Africa.   \n",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 13770184,
+          "original_index": 20,
+          "sentence": "Some risks appear to be invariant to SDI.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 8582337,
+          "original_index": 4,
+          "sentence": "Years lived with disability (YLDs) were calculated by multiplying prevalence (based on systematic reviews) by the disability weight (based on population-based surveys) for each sequela; disability in this study refers to any short- or long-term loss of health.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 8582337,
+          "original_index": 7,
+          "sentence": "Healthy life expectancy (HALE) was used to summarize overall population health, accounting for both length of life and levels of ill health experienced at different ages.   \n",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 8582337,
+          "original_index": 13,
+          "sentence": "The leading risk factors related to DALYs were dietary risks, tobacco smoking, high body mass index, high blood pressure, high fasting plasma glucose, physical inactivity, and alcohol use.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 8582337,
+          "original_index": 14,
+          "sentence": "Among 34 OECD countries between 1990 and 2010, the US rank for the age-standardized death rate changed from 18th to 27th, for the age-standardized YLL rate from 23rd to 28th, for the age-standardized YLD rate from 5th to 6th, for life expectancy at birth from 20th to 27th, and for HALE from 14th to 26th.   \n",
+          "kind": "non_evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

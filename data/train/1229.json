@@ -1,0 +1,229 @@
+{
+  "id": 1229,
+  "origin": "train_more",
+  "n_groups": 3,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "The microtubule-dependent delivery and secretion of matrix metalloproteases (MMPs) is partially responsible for the disassembly of adhesion sites.",
+      "evidence": [
+        {
+          "doc_id": 1676568,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "CLASPs are further required for FA-associated ECM degradation, and matrix metalloprotease inhibition slows FA disassembly similarly to CLASP or PHLDB2 (LL5β) depletion.",
+          "kept": true,
+          "new_index": 4
+        },
+        {
+          "doc_id": 1676568,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "We propose that CLASPs couple microtubule organization, vesicle transport and cell interactions with the ECM, establishing a local secretion pathway that facilitates FA turnover by severing cell-matrix connections.",
+          "kept": true,
+          "new_index": 6
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1676568,
+          "title": "CLASPs link focal adhesion-associated microtubule capture to localized exocytosis and adhesion site turnover",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Turnover of integrin-based focal adhesions (FAs) with the extracellular matrix (ECM) is essential for coordinated cell movement."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "In collectively migrating human keratinocytes, FAs assemble near the leading edge, grow and mature as a result of contractile forces and disassemble underneath the advancing cell body."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We report that clustering of microtubule-associated CLASP1 and CLASP2 proteins around FAs temporally correlates with FA turnover."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "CLASPs and LL5β (also known as PHLDB2), which recruits CLASPs to FAs, facilitate FA disassembly."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "CLASPs are further required for FA-associated ECM degradation, and matrix metalloprotease inhibition slows FA disassembly similarly to CLASP or PHLDB2 (LL5β) depletion."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Finally, CLASP-mediated microtubule tethering at FAs establishes an FA-directed transport pathway for delivery, docking and localized fusion of exocytic vesicles near FAs."
+            },
+            {
+              "new_index": 6,
+              "original_index": 6,
+              "sentence": "We propose that CLASPs couple microtubule organization, vesicle transport and cell interactions with the ECM, establishing a local secretion pathway that facilitates FA turnover by severing cell-matrix connections."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_1_groups",
+      "dropped_group_ids": [
+        "g0"
+      ],
+      "claim": "The microtubule-dependent delivery and secretion of matrix metalloproteases (MMPs) is partially responsible for the disassembly of adhesion sites.",
+      "evidence": [
+        {
+          "doc_id": 1676568,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "CLASPs are further required for FA-associated ECM degradation, and matrix metalloprotease inhibition slows FA disassembly similarly to CLASP or PHLDB2 (LL5β) depletion.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 1676568,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "We propose that CLASPs couple microtubule organization, vesicle transport and cell interactions with the ECM, establishing a local secretion pathway that facilitates FA turnover by severing cell-matrix connections.",
+          "kept": true,
+          "new_index": 4
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1676568,
+          "title": "CLASPs link focal adhesion-associated microtubule capture to localized exocytosis and adhesion site turnover",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 1,
+              "sentence": "In collectively migrating human keratinocytes, FAs assemble near the leading edge, grow and mature as a result of contractile forces and disassemble underneath the advancing cell body."
+            },
+            {
+              "new_index": 1,
+              "original_index": 2,
+              "sentence": "We report that clustering of microtubule-associated CLASP1 and CLASP2 proteins around FAs temporally correlates with FA turnover."
+            },
+            {
+              "new_index": 2,
+              "original_index": 3,
+              "sentence": "CLASPs and LL5β (also known as PHLDB2), which recruits CLASPs to FAs, facilitate FA disassembly."
+            },
+            {
+              "new_index": 3,
+              "original_index": 5,
+              "sentence": "Finally, CLASP-mediated microtubule tethering at FAs establishes an FA-directed transport pathway for delivery, docking and localized fusion of exocytic vesicles near FAs."
+            },
+            {
+              "new_index": 4,
+              "original_index": 6,
+              "sentence": "We propose that CLASPs couple microtubule organization, vesicle transport and cell interactions with the ECM, establishing a local secretion pathway that facilitates FA turnover by severing cell-matrix connections."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 1676568,
+          "original_index": 0,
+          "sentence": "Turnover of integrin-based focal adhesions (FAs) with the extracellular matrix (ECM) is essential for coordinated cell movement.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 1676568,
+          "original_index": 4,
+          "sentence": "CLASPs are further required for FA-associated ECM degradation, and matrix metalloprotease inhibition slows FA disassembly similarly to CLASP or PHLDB2 (LL5β) depletion.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "SUPPORT"
+    },
+    {
+      "variant": "drop_all_evidence",
+      "dropped_group_ids": [
+        "g0",
+        "g1"
+      ],
+      "claim": "The microtubule-dependent delivery and secretion of matrix metalloproteases (MMPs) is partially responsible for the disassembly of adhesion sites.",
+      "evidence": [
+        {
+          "doc_id": 1676568,
+          "group_id": "g0",
+          "evidence_label": "SUPPORT",
+          "original_index": 4,
+          "sentence": "CLASPs are further required for FA-associated ECM degradation, and matrix metalloprotease inhibition slows FA disassembly similarly to CLASP or PHLDB2 (LL5β) depletion.",
+          "kept": false,
+          "new_index": null
+        },
+        {
+          "doc_id": 1676568,
+          "group_id": "g1",
+          "evidence_label": "SUPPORT_more",
+          "original_index": 6,
+          "sentence": "We propose that CLASPs couple microtubule organization, vesicle transport and cell interactions with the ECM, establishing a local secretion pathway that facilitates FA turnover by severing cell-matrix connections.",
+          "kept": false,
+          "new_index": null
+        }
+      ],
+      "articles": [
+        {
+          "doc_id": 1676568,
+          "title": "CLASPs link focal adhesion-associated microtubule capture to localized exocytosis and adhesion site turnover",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Turnover of integrin-based focal adhesions (FAs) with the extracellular matrix (ECM) is essential for coordinated cell movement."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "In collectively migrating human keratinocytes, FAs assemble near the leading edge, grow and mature as a result of contractile forces and disassemble underneath the advancing cell body."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "We report that clustering of microtubule-associated CLASP1 and CLASP2 proteins around FAs temporally correlates with FA turnover."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "CLASPs and LL5β (also known as PHLDB2), which recruits CLASPs to FAs, facilitate FA disassembly."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [
+        {
+          "doc_id": 1676568,
+          "original_index": 4,
+          "sentence": "CLASPs are further required for FA-associated ECM degradation, and matrix metalloprotease inhibition slows FA disassembly similarly to CLASP or PHLDB2 (LL5β) depletion.",
+          "kind": "evidence"
+        },
+        {
+          "doc_id": 1676568,
+          "original_index": 5,
+          "sentence": "Finally, CLASP-mediated microtubule tethering at FAs establishes an FA-directed transport pathway for delivery, docking and localized fusion of exocytic vesicles near FAs.",
+          "kind": "non_evidence"
+        },
+        {
+          "doc_id": 1676568,
+          "original_index": 6,
+          "sentence": "We propose that CLASPs couple microtubule organization, vesicle transport and cell interactions with the ECM, establishing a local secretion pathway that facilitates FA turnover by severing cell-matrix connections.",
+          "kind": "evidence"
+        }
+      ],
+      "label": "NEI"
+    }
+  ]
+}

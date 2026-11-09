@@ -1,0 +1,53 @@
+{
+  "id": 418,
+  "origin": "train_more",
+  "n_groups": 1,
+  "groups": [
+    {
+      "variant": "original",
+      "dropped_group_ids": [],
+      "claim": "Fibroblast Growth Factor is a ligand which signals through receptor tyrosine kinases.",
+      "evidence": [],
+      "articles": [
+        {
+          "doc_id": 16660256,
+          "title": "Sprouty1 Regulates Reversible Quiescence of a Self-Renewing Adult Muscle Stem Cell Pool during Regeneration",
+          "sentences": [
+            {
+              "new_index": 0,
+              "original_index": 0,
+              "sentence": "Satellite cells are skeletal muscle stem cells capable of self-renewal and differentiation after transplantation, but whether they contribute to endogenous muscle fiber repair has been unclear."
+            },
+            {
+              "new_index": 1,
+              "original_index": 1,
+              "sentence": "The transcription factor Pax7 marks satellite cells and is critical for establishing the adult satellite cell pool."
+            },
+            {
+              "new_index": 2,
+              "original_index": 2,
+              "sentence": "By using a lineage tracing approach, we show that after injury, quiescent adult Pax7(+) cells enter the cell cycle; a subpopulation returns to quiescence to replenish the satellite cell compartment, while others contribute to muscle fiber formation."
+            },
+            {
+              "new_index": 3,
+              "original_index": 3,
+              "sentence": "We demonstrate that Sprouty1 (Spry1), a receptor tyrosine kinase signaling inhibitor, is expressed in quiescent Pax7(+) satellite cells in uninjured muscle, downregulated in proliferating myogenic cells after injury, and reinduced as Pax7(+) cells re-enter quiescence."
+            },
+            {
+              "new_index": 4,
+              "original_index": 4,
+              "sentence": "We show that Spry1 is required for the return to quiescence and homeostasis of the satellite cell pool during repair."
+            },
+            {
+              "new_index": 5,
+              "original_index": 5,
+              "sentence": "Our results therefore define a role for Spry1 in adult muscle stem cell biology and tissue repair."
+            }
+          ]
+        }
+      ],
+      "deleted_sentences": [],
+      "label": "NEI"
+    }
+  ]
+}
