@@ -39,6 +39,7 @@ class WorkflowTests(unittest.TestCase):
     def test_defaults_follow_training_output_directory(self):
         args = cli.parse_args(self.arguments)
         self.assertEqual(args.mode, "train_test")
+        self.assertEqual(args.loss, "ce")
         self.assertEqual(args.model, DEFAULT_MODEL)
         self.assertEqual(args.device, 0)
         self.assertIsInstance(args.device, int)
@@ -52,6 +53,14 @@ class WorkflowTests(unittest.TestCase):
         for value in ("auto", "cuda", "cuda:0", "-1", "1.5"):
             with self.subTest(value=value), patch("sys.stderr", new_callable=io.StringIO), self.assertRaises(SystemExit):
                 cli.parse_args(self.arguments + ["--device", value])
+
+    def test_pair_loss_options(self):
+        args = cli.parse_args(self.arguments + ["--loss", "pair", "--pair-margin", "0.5", "--pair-loss-weight", "0.2"])
+        self.assertEqual((args.loss, args.pair_margin, args.pair_loss_weight), ("pair", 0.5, 0.2))
+        for options in (["--loss", "other"], ["--pair-margin", "0"], ["--pair-margin", "nan"],
+                        ["--pair-loss-weight", "-1"], ["--pair-loss-weight", "inf"]):
+            with self.subTest(options=options), patch("sys.stderr", new_callable=io.StringIO), self.assertRaises(SystemExit):
+                cli.parse_args(self.arguments + options)
 
     def test_training_then_complete_test_with_fresh_adapter(self):
         events = []

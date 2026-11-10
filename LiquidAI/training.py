@@ -9,15 +9,19 @@ from pathlib import Path
 import random
 import time
 
-from .config import ROOT, LABELS, LOGGER
+from .config import ROOT, LABELS, LABEL_TO_ID, LOGGER
 from .data import Sample
 from .encoding import DecisionCodec, question_batch
-from .losses import joint_loss
-from .modeling import attach_lora, forward_answer_logits, load_train_model, save_adapter
+from .losses import joint_loss, pair_hinge_loss
+from .modeling import attach_lora, forward_answer_logits, load_train_model, pool_options, save_adapter
+from .pairing import build_evidence_pairs
 from .prompts import STANCE_QUESTION, EVIDENCE_INSTRUCTIONS
 
 
 def train(args, samples: list[Sample], summary: dict) -> None:
+    pairs = build_evidence_pairs(samples) if args.loss == "pair" else {}
+    if args.loss == "pair":
+        summary["evidence_pairs"] = len(pairs)
     try:
         import torch
         import transformers
@@ -74,6 +78,14 @@ def train(args, samples: list[Sample], summary: dict) -> None:
         "transformers_version": transformers.__version__,
         "peft_version": peft.__version__,
     }
+    if pairs:
+        metadata["loss"] += " + pair_loss_weight * mean_pairs(hinge(pair_margin - (margin_original - margin_deleted)))"
+        metadata["pairing"] = {
+            "versions": ["original", "drop_all_evidence"],
+            "count": len(pairs),
+            "margin": "log P(original_label) - log P(NEI), using the original label for both versions",
+            "normalization": "Each pair is evaluated at its original sample; its loss is scaled by num_samples / num_pairs / window_groups",
+        }
     args.output_dir.mkdir(parents=True, exist_ok=True)
     (args.output_dir / "training_config.json").write_text(json.dumps(metadata, indent=2) + "\n", encoding="utf-8")
     LOGGER.info("Training summary: %s", json.dumps(summary))
@@ -104,6 +116,36 @@ def train(args, samples: list[Sample], summary: dict) -> None:
                         for j, loss in enumerate(losses):
                             totals[j] += loss.detach().item() / len(window)
                         del inputs, logits, losses
+                pair_sum, pair_count, pair_contribution = 0.0, 0, 0.0
+                for sufficient_index in window:
+                    if sufficient_index not in pairs:
+                        continue
+                    scores = []
+                    # Separate stance-only forwards retain gradients for both
+                    # inputs, even if they occur in different CE windows. Each
+                    # pair is visited once per epoch, at its original sample.
+                    for index in (sufficient_index, pairs[sufficient_index]):
+                        sample = encoded[index]
+                        questions = [q for q in sample.questions if q.is_stance]
+                        inputs = question_batch(sample, questions, pad_token_id, device)
+                        logits = forward_answer_logits(model, *inputs)
+                        scores.append(pool_options(logits, codec.stance_ids)[0])
+                        del inputs, logits
+                    pair_loss = pair_hinge_loss(
+                        scores[0], scores[1], LABEL_TO_ID[samples[sufficient_index].label], args.pair_margin,
+                    )
+                    if not torch.isfinite(pair_loss):
+                        raise FloatingPointError(f"Non-finite paired loss at {encoded[sufficient_index].key}")
+                    # Scale from mean-over-groups to mean-over-pairs. This keeps
+                    # the pair weight independent of the number of unpaired
+                    # groups, and handles the final partial window exactly.
+                    contribution = pair_loss * (args.pair_loss_weight * len(encoded) / len(pairs) / len(window))
+                    contribution.backward()
+                    pair_sum += pair_loss.detach().item()
+                    pair_count += 1
+                    pair_contribution += contribution.detach().item()
+                    del scores, pair_loss, contribution
+                totals[0] += pair_contribution
                 grad_norm = torch.nn.utils.clip_grad_norm_(parameters, args.max_grad_norm, error_if_nonfinite=True)
                 optimizer.step()
                 scheduler.step()
@@ -115,10 +157,18 @@ def train(args, samples: list[Sample], summary: dict) -> None:
                     "grad_norm": float(grad_norm), "learning_rate": scheduler.get_last_lr()[0],
                     "elapsed_seconds": round(time.monotonic() - started, 2),
                 }
+                if pairs:
+                    metrics.update({
+                        "pairs": pair_count,
+                        "pair_loss": pair_sum / pair_count if pair_count else 0.0,
+                        "pair_loss_contribution": pair_contribution,
+                    })
                 log.write(json.dumps(metrics) + "\n")
                 log.flush()
                 if global_step == 1 or global_step % args.logging_steps == 0 or global_step == total_steps:
                     LOGGER.info("step %d/%d loss=%.4f stance=%.4f evidence=%.4f", global_step, total_steps, *totals)
+                    if pairs:
+                        LOGGER.info("  pairs=%d hinge=%.4f weighted_contribution=%.4f", pair_count, metrics["pair_loss"], pair_contribution)
                 if global_step >= total_steps:
                     break
             metadata.update({"global_step": global_step, "last_epoch": epoch + 1})

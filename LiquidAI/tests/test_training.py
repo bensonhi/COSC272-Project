@@ -47,6 +47,33 @@ class TrainingMathTests(unittest.TestCase):
         self.assertEqual(stance.item(), 0.0)
         torch.testing.assert_close(evidence, expected)
 
+    def test_pair_hinge_uses_original_label_and_updates_both_versions(self):
+        torch = self.torch
+        for label_id in (1, 2):
+            sufficient = torch.zeros(3, requires_grad=True)
+            insufficient = torch.zeros(3, requires_grad=True)
+            sufficient.data[label_id] = 0.8
+            insufficient.data[label_id] = 0.3
+            value = losses.pair_hinge_loss(sufficient, insufficient, label_id, 1.0)
+            self.assertAlmostEqual(value.item(), 0.5, places=6)
+            value.backward()
+            expected = torch.zeros(3)
+            expected[0], expected[label_id] = 1.0, -1.0
+            torch.testing.assert_close(sufficient.grad, expected)
+            torch.testing.assert_close(insufficient.grad, -expected)
+
+    def test_pair_hinge_is_zero_when_margin_satisfied_and_stable_for_large_logits(self):
+        torch = self.torch
+        sufficient = torch.tensor([10000.0, 10003.0, -10000.0], requires_grad=True)
+        insufficient = torch.tensor([10000.0, 10000.0, -10000.0], requires_grad=True)
+        value = losses.pair_hinge_loss(sufficient, insufficient, 1, 1.0)
+        self.assertEqual(value.item(), 0.0)
+        value.backward()
+        torch.testing.assert_close(sufficient.grad, torch.zeros(3))
+        torch.testing.assert_close(insufficient.grad, torch.zeros(3))
+        with self.assertRaisesRegex(ValueError, "original label"):
+            losses.pair_hinge_loss(sufficient, insufficient, 0, 1.0)
+
     def test_zero_valid_sentences_still_trains_stance(self):
         torch = self.torch
         logits = torch.randn(1, 8, requires_grad=True)

@@ -4,6 +4,7 @@ Usage (from this directory):
     python run.py --dry-run
     python run.py --epochs 3 --output-dir outputs/d1-scifact
     python run.py --mode train --epochs 3
+    python run.py --loss pair --pair-margin 1 --pair-loss-weight 1
     python run.py --mode test --dry-run
     python run.py --mode test --adapter-dir outputs/d1-scifact/final
 
@@ -21,6 +22,9 @@ uses ordinary differentiable forwards, NOT system_one(), whose inference path
 disables autograd. Questions are processed in small batches with full context.
 Loss = CE(stance) + evidence_loss_weight * mean_valid_sentences(BCE(evidence)).
 Gradient accumulation averages this joint loss over groups, not questions.
+--loss ce (default) keeps this objective. --loss pair additionally averages
+hinge(delta - [log(P(y)/P(NEI))_original - log(P(y)/P(NEI))_deleted]) over
+original / drop_all_evidence pairs, weighted by --pair-loss-weight.
 
 Test mode reads ALL JSON files/groups in data/test, including flat JSON records.
 Gold evidence and labels are evaluation targets; only claim/articles enter the
@@ -45,6 +49,7 @@ import sys
 from .config import ROOT, DEFAULT_MODEL, LOGGER
 from .data import load_samples, dataset_summary
 from .evaluation import evaluate
+from .pairing import build_evidence_pairs
 from .training import train
 
 
@@ -79,13 +84,17 @@ def parse_args(argv=None):
     parser.add_argument("--learning-rate", type=float, default=2e-4)
     parser.add_argument("--weight-decay", type=float, default=0.01)
     parser.add_argument("--warmup-ratio", type=float, default=0.05)
-    parser.add_argument("--question-batch-size", type=int, default=2, help="Questions per forward, each with full group context")
+    parser.add_argument("--question-batch-size", type=int, default=8, help="Questions per forward, each with full group context")
     parser.add_argument("--gradient-accumulation-steps", type=int, default=4, help="Groups per optimizer update")
     parser.add_argument("--max-length", type=int, default=8192, help="Maximum tokens per question including full context; no truncation")
     parser.add_argument("--lora-r", type=int, default=16)
     parser.add_argument("--lora-alpha", type=int, default=32)
     parser.add_argument("--lora-dropout", type=float, default=0.05)
     parser.add_argument("--gradient-checkpointing", action=argparse.BooleanOptionalAction, default=True)
+    parser.add_argument("--loss", choices=("ce", "pair"), default="ce",
+                        help="ce: existing stance CE + evidence BCE; pair: additionally train with paired hinge loss")
+    parser.add_argument("--pair-margin", type=float, default=1.0, help="Required difference in label-vs-NEI log odds (pair mode)")
+    parser.add_argument("--pair-loss-weight", type=float, default=1.0, help="Weight of mean paired hinge loss (pair mode)")
     parser.add_argument("--evidence-loss-weight", type=float, default=1.0)
     parser.add_argument("--evidence-pos-weight", type=float, default=1.0, help="Optional positive-class weight for evidence BCE")
     parser.add_argument("--balance-labels", action="store_true", help="Inverse-frequency stance weights computed from training groups")
@@ -121,10 +130,10 @@ def parse_args(argv=None):
         value = getattr(args, name)
         if value is not None and value <= 0:
             parser.error(f"--{name.replace('_', '-')} must be positive")
-    for name in ("learning_rate", "max_grad_norm", "evidence_pos_weight"):
+    for name in ("learning_rate", "max_grad_norm", "evidence_pos_weight", "pair_margin"):
         if not math.isfinite(getattr(args, name)) or getattr(args, name) <= 0:
             parser.error(f"--{name.replace('_', '-')} must be finite and positive")
-    for name in ("evidence_loss_weight", "weight_decay"):
+    for name in ("evidence_loss_weight", "weight_decay", "pair_loss_weight"):
         if not math.isfinite(getattr(args, name)) or getattr(args, name) < 0:
             parser.error(f"--{name.replace('_', '-')} must be finite and nonnegative")
     if not 0 <= args.warmup_ratio < 1 or not 0 <= args.lora_dropout < 1:
@@ -138,6 +147,8 @@ def main(argv=None) -> None:
     data_dir = args.test_dir if args.mode == "test" else args.train_dir
     samples = load_samples(data_dir, args.max_groups)
     summary = dataset_summary(samples)
+    if args.mode != "test" and args.loss == "pair":
+        summary["evidence_pairs"] = len(build_evidence_pairs(samples))
     if args.dry_run:
         if args.mode == "train_test":
             test_samples = load_samples(args.test_dir)
