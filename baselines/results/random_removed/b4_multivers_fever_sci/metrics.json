@@ -1,0 +1,179 @@
+{
+  "label_accuracy": 0.5362318840579711,
+  "label_macro_f1": 0.38845643775586697,
+  "sentence_level_evidence_f1": 0.17271157167530224,
+  "label_ece": 0.39130937966747564,
+  "num_samples": 207,
+  "num_valid_sentences": 1856,
+  "label_order": [
+    "NEI",
+    "SUPPORT",
+    "CONTRADICT"
+  ],
+  "label_confusion_matrix": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      42,
+      91,
+      4
+    ],
+    [
+      32,
+      18,
+      20
+    ]
+  ],
+  "per_label": {
+    "NEI": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "SUPPORT": {
+      "precision": 0.8348623853211009,
+      "recall": 0.6642335766423357,
+      "f1": 0.7398373983739838,
+      "support": 137
+    },
+    "CONTRADICT": {
+      "precision": 0.8333333333333334,
+      "recall": 0.2857142857142857,
+      "f1": 0.425531914893617,
+      "support": 70
+    }
+  },
+  "evidence": {
+    "averaging": "micro, evidence positive class",
+    "threshold": 0.5,
+    "precision": 0.9803921568627451,
+    "recall": 0.0946969696969697,
+    "tp": 50,
+    "fp": 1,
+    "fn": 478,
+    "tn": 1327,
+    "conditioned_on_predicted_label": false
+  },
+  "calibration": {
+    "type": "top-label ECE",
+    "num_bins": 10,
+    "binning": "equal-width, left-closed/right-open; last bin includes 1",
+    "bins": [
+      {
+        "lower": 0.0,
+        "upper": 0.1,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.1,
+        "upper": 0.2,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.3,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.3,
+        "upper": 0.4,
+        "count": 1,
+        "accuracy": 0.0,
+        "mean_confidence": 0.379637748003006,
+        "ece_contribution": 0.0018339987826232172
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.5,
+        "count": 3,
+        "accuracy": 0.6666666666666666,
+        "mean_confidence": 0.4689449965953827,
+        "ece_contribution": 0.002865531450308463
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "count": 13,
+        "accuracy": 0.7692307692307693,
+        "mean_confidence": 0.5469487859652593,
+        "ece_contribution": 0.013959738079476472
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "count": 17,
+        "accuracy": 0.5882352941176471,
+        "mean_confidence": 0.6505162330234752,
+        "ece_contribution": 0.005114859716903756
+      },
+      {
+        "lower": 0.7,
+        "upper": 0.8,
+        "count": 15,
+        "accuracy": 0.26666666666666666,
+        "mean_confidence": 0.7537469784418742,
+        "ece_contribution": 0.03529567476631939
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "count": 18,
+        "accuracy": 0.5,
+        "mean_confidence": 0.8670762148168352,
+        "ece_contribution": 0.03191967085363784
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "count": 140,
+        "accuracy": 0.5428571428571428,
+        "mean_confidence": 0.9869015753269196,
+        "ece_contribution": 0.3003199060182065
+      }
+    ]
+  },
+  "zero_division": 0,
+  "score_scale": "0 to 1",
+  "latency": {
+    "median_seconds_per_claim": 0.04235929111018777,
+    "mean_seconds_per_claim": 0.052933629768662116,
+    "total_seconds": 10.957261362113059,
+    "note": "wall clock of predict(sample), one claim at a time"
+  },
+  "baseline": {
+    "name": "random_removed/b4_multivers_fever_sci",
+    "description": "MultiVerS fever_sci checkpoint (no SciFact training), re-implemented inference",
+    "checkpoint": "https://scifact.s3.us-west-2.amazonaws.com/longchecker/latest/checkpoints/fever_sci.ckpt",
+    "encoder": "allenai/longformer-large-4096",
+    "dtype": "float32",
+    "multi_abstract_aggregation": "lowest P(NEI)",
+    "gpu": "NVIDIA L40S",
+    "test_summary": {
+      "claims": 207,
+      "groups": 207,
+      "labels": {
+        "CONTRADICT": 70,
+        "SUPPORT": 137
+      },
+      "valid_sentences": 1856,
+      "positive_sentences": 528,
+      "negative_sentences": 1328,
+      "masked_sentence_slots": 508,
+      "max_articles_per_group": 5
+    },
+    "evidence_threshold": 0.5
+  }
+}

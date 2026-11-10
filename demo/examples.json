@@ -1,0 +1,47 @@
+[
+  {
+    "claim_id": 1009,
+    "tag": "representative",
+    "note": "Correct SUPPORT with high confidence."
+  },
+  {
+    "claim_id": 994,
+    "tag": "representative",
+    "note": "Correct CONTRADICT with high confidence."
+  },
+  {
+    "claim_id": 422,
+    "tag": "representative",
+    "note": "Correct NEI with high confidence."
+  },
+  {
+    "claim_id": 529,
+    "tag": "challenging",
+    "note": "Several cited abstracts; gold SUPPORT, model says SUPPORT."
+  },
+  {
+    "claim_id": 3,
+    "tag": "challenging",
+    "note": "Numeric claim; gold SUPPORT, model says NEI."
+  },
+  {
+    "claim_id": 615,
+    "tag": "challenging",
+    "note": "d1 and the 27B LLM disagree; gold CONTRADICT, d1 says SUPPORT."
+  },
+  {
+    "claim_id": 1278,
+    "tag": "failure",
+    "note": "Unsupported judgement: gold NEI but the model says CONTRADICT."
+  },
+  {
+    "claim_id": 683,
+    "tag": "failure",
+    "note": "Polarity error: gold CONTRADICT, model says SUPPORT."
+  },
+  {
+    "claim_id": 1305,
+    "tag": "failure",
+    "note": "Unnecessary abstention: gold SUPPORT, model says NEI."
+  }
+]

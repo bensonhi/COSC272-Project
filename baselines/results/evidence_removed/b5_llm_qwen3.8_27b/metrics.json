@@ -1,0 +1,180 @@
+{
+  "label_accuracy": 0.4782608695652174,
+  "label_macro_f1": 0.21568627450980393,
+  "sentence_level_evidence_f1": 0.0,
+  "label_ece": 0.3583712180390306,
+  "num_samples": 207,
+  "num_valid_sentences": 1836,
+  "label_order": [
+    "NEI",
+    "SUPPORT",
+    "CONTRADICT"
+  ],
+  "label_confusion_matrix": [
+    [
+      99,
+      53,
+      55
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "per_label": {
+    "NEI": {
+      "precision": 1.0,
+      "recall": 0.4782608695652174,
+      "f1": 0.6470588235294118,
+      "support": 207
+    },
+    "SUPPORT": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "CONTRADICT": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    }
+  },
+  "evidence": {
+    "averaging": "micro, evidence positive class",
+    "threshold": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "tp": 0,
+    "fp": 214,
+    "fn": 0,
+    "tn": 1622,
+    "conditioned_on_predicted_label": false
+  },
+  "calibration": {
+    "type": "top-label ECE",
+    "num_bins": 10,
+    "binning": "equal-width, left-closed/right-open; last bin includes 1",
+    "bins": [
+      {
+        "lower": 0.0,
+        "upper": 0.1,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.1,
+        "upper": 0.2,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.3,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.3,
+        "upper": 0.4,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.5,
+        "count": 7,
+        "accuracy": 0.14285714285714285,
+        "mean_confidence": 0.4769343216800664,
+        "ece_contribution": 0.011297295902224466
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "count": 17,
+        "accuracy": 0.47058823529411764,
+        "mean_confidence": 0.552427234091406,
+        "ece_contribution": 0.006721077195912574
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "count": 20,
+        "accuracy": 0.55,
+        "mean_confidence": 0.6526683442432596,
+        "ece_contribution": 0.009919646786788363
+      },
+      {
+        "lower": 0.7,
+        "upper": 0.8,
+        "count": 27,
+        "accuracy": 0.5555555555555556,
+        "mean_confidence": 0.7503887320986868,
+        "ece_contribution": 0.025413023027364947
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "count": 39,
+        "accuracy": 0.3333333333333333,
+        "mean_confidence": 0.8489726561286682,
+        "ece_contribution": 0.09714943762810657
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "count": 97,
+        "accuracy": 0.5257731958762887,
+        "mean_confidence": 0.9693736356929605,
+        "ece_contribution": 0.2078707374986337
+      }
+    ]
+  },
+  "zero_division": 0,
+  "score_scale": "0 to 1",
+  "latency": {
+    "median_seconds_per_claim": 1.5808590869419277,
+    "mean_seconds_per_claim": 1.5808590869419277,
+    "claims_timed": 1,
+    "batched_total_seconds": 63.71117232972756,
+    "batched_seconds_per_claim": 0.3077834412064133,
+    "note": "median/mean: one claim per call (batch size 1); batched_*: whole test set in one call"
+  },
+  "baseline": {
+    "name": "evidence_removed/b5_llm_qwen3.8_27b",
+    "description": "zero-shot Qwen3.8-27B-FP8, non-thinking, greedy, JSON-schema constrained",
+    "model": "Qwen/Qwen3.8-27B-FP8",
+    "system_prompt": "You are a careful scientific fact-checker.",
+    "instructions": "Decide whether the cited abstracts, taken together, SUPPORT the claim, CONTRADICT it, or do not provide enough information to decide (NEI). Use only the abstracts, not background knowledge. Choose NEI when the abstracts are on topic but do not establish or refute the claim.\nThen list the IDs of the sentences that justify a SUPPORT or CONTRADICT verdict; for NEI the list is empty.\nAnswer with JSON only: {\"label\": \"SUPPORT\" | \"CONTRADICT\" | \"NEI\", \"evidence\": [\"<sentence id>\", ...]}",
+    "label_probability": "top-20 logprobs at the label's first token, renormalized over labels",
+    "evidence_probability": "1 if listed in the JSON evidence, else 0",
+    "test_summary": {
+      "claims": 207,
+      "groups": 207,
+      "labels": {
+        "NEI": 207
+      },
+      "valid_sentences": 1836,
+      "positive_sentences": 0,
+      "negative_sentences": 1836,
+      "masked_sentence_slots": 528,
+      "max_articles_per_group": 5
+    },
+    "evidence_threshold": 0.5
+  }
+}

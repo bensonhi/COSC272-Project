@@ -1,0 +1,333 @@
+{"sample_id": "0/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 364, "output_tokens": 14}
+{"sample_id": "2/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"13734012-4\"]}", "prompt_tokens": 774, "output_tokens": 26}
+{"sample_id": "3/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 644, "output_tokens": 17}
+{"sample_id": "9/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"44265107-15\"\n]\n}", "prompt_tokens": 788, "output_tokens": 33}
+{"sample_id": "13/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 1020, "output_tokens": 14}
+{"sample_id": "15/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 609, "output_tokens": 14}
+{"sample_id": "18/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 1099, "output_tokens": 14}
+{"sample_id": "22/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"6490571-7\"\n]\n}", "prompt_tokens": 828, "output_tokens": 31}
+{"sample_id": "25/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 508, "output_tokens": 14}
+{"sample_id": "40/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"13497630-11\",\n\"13497630-12\"\n]\n}", "prompt_tokens": 1234, "output_tokens": 49}
+{"sample_id": "56/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"4709641-1\",\n\"4709641-2\"\n]\n}", "prompt_tokens": 560, "output_tokens": 43}
+{"sample_id": "60/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"13899137-5\",\n\"13899137-9\",\n\"13899137-11\"\n]\n}", "prompt_tokens": 880, "output_tokens": 61}
+{"sample_id": "63/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 501, "output_tokens": 17}
+{"sample_id": "64/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"40349336-0\",\n\"40349336-1\"\n]\n}", "prompt_tokens": 502, "output_tokens": 47}
+{"sample_id": "68/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"21295300-3\",\n\"21295300-6\",\n\"21295300-7\"\n]\n}", "prompt_tokens": 554, "output_tokens": 59}
+{"sample_id": "69/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"5956380-5\", \"4414547-5\"]}", "prompt_tokens": 1100, "output_tokens": 36}
+{"sample_id": "70/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"5956380-5\",\n\"5956380-6\",\n\"4414547-5\"\n]\n}", "prompt_tokens": 1101, "output_tokens": 55}
+{"sample_id": "71/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 554, "output_tokens": 14}
+{"sample_id": "72/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"6076903-6\"]}", "prompt_tokens": 565, "output_tokens": 25}
+{"sample_id": "75/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 737, "output_tokens": 14}
+{"sample_id": "79/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 593, "output_tokens": 14}
+{"sample_id": "80/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 468, "output_tokens": 14}
+{"sample_id": "82/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 551, "output_tokens": 14}
+{"sample_id": "90/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 499, "output_tokens": 17}
+{"sample_id": "93/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"2692522-2\",\n\"2692522-3\",\n\"2692522-4\"\n]\n}", "prompt_tokens": 552, "output_tokens": 55}
+{"sample_id": "104/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 1186, "output_tokens": 14}
+{"sample_id": "105/group-0/original", "output": "{\"label\": \"SUPPORT\", \"evidence\": [\"36606083-3\", \"36606083-4\"]}", "prompt_tokens": 436, "output_tokens": 36}
+{"sample_id": "112/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"6157837-2\"]}", "prompt_tokens": 747, "output_tokens": 25}
+{"sample_id": "114/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 617, "output_tokens": 17}
+{"sample_id": "115/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"33872649-4\",\n\"33872649-6\",\n\"33872649-7\"\n]\n}", "prompt_tokens": 617, "output_tokens": 60}
+{"sample_id": "119/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"14606752-6\",\n\"14606752-8\",\n\"14606752-10\"\n]\n}", "prompt_tokens": 970, "output_tokens": 61}
+{"sample_id": "120/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"14606752-6\",\n\"14606752-8\",\n\"14606752-10\"\n]\n}", "prompt_tokens": 970, "output_tokens": 59}
+{"sample_id": "129/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"27768226-2\",\n\"27768226-10\",\n\"27768226-11\"\n]}", "prompt_tokens": 2087, "output_tokens": 60}
+{"sample_id": "133/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"16280642-3\",\n\"16280642-4\"\n]\n}", "prompt_tokens": 2139, "output_tokens": 45}
+{"sample_id": "134/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 770, "output_tokens": 14}
+{"sample_id": "138/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"26016929-7\",\n\"26016929-9\"\n]\n}", "prompt_tokens": 655, "output_tokens": 47}
+{"sample_id": "142/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"10582939-12\"]}", "prompt_tokens": 1156, "output_tokens": 27}
+{"sample_id": "152/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"15488881-2\", \"15488881-3\"]}", "prompt_tokens": 458, "output_tokens": 38}
+{"sample_id": "157/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"13439128-3\"\n]\n}", "prompt_tokens": 431, "output_tokens": 32}
+{"sample_id": "161/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 415, "output_tokens": 14}
+{"sample_id": "166/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"18872233-9\",\n\"18872233-12\"\n]\n}", "prompt_tokens": 827, "output_tokens": 48}
+{"sample_id": "173/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 564, "output_tokens": 14}
+{"sample_id": "174/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"1710116-1\",\n\"1710116-2\"\n]\n}", "prompt_tokens": 440, "output_tokens": 43}
+{"sample_id": "175/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"1710116-2\"\n]\n}", "prompt_tokens": 440, "output_tokens": 31}
+{"sample_id": "178/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"16322674-5\",\n\"16322674-6\",\n\"27123743-3\",\n\"27123743-4\",\n\"23557241-6\",\n\"17450673-5\"\n]\n}", "prompt_tokens": 2601, "output_tokens": 99}
+{"sample_id": "189/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"4421578-3\"\n]\n}", "prompt_tokens": 548, "output_tokens": 33}
+{"sample_id": "197/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"2177022-4\"\n]\n}", "prompt_tokens": 524, "output_tokens": 31}
+{"sample_id": "200/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"18231807-4\"]}", "prompt_tokens": 519, "output_tokens": 26}
+{"sample_id": "203/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"9558539-1\",\n\"9558539-7\"\n]\n}", "prompt_tokens": 597, "output_tokens": 45}
+{"sample_id": "205/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 897, "output_tokens": 14}
+{"sample_id": "210/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"13794374-3\",\n\"13794374-7\"\n]\n}", "prompt_tokens": 597, "output_tokens": 45}
+{"sample_id": "211/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 595, "output_tokens": 14}
+{"sample_id": "212/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"22038539-3\", \"22038539-4\", \"22038539-8\"]}", "prompt_tokens": 574, "output_tokens": 50}
+{"sample_id": "221/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"19205437-1\",\n\"19205437-3\"\n]\n}", "prompt_tokens": 564, "output_tokens": 47}
+{"sample_id": "225/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 456, "output_tokens": 14}
+{"sample_id": "230/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"3067015-4\"\n]\n}", "prompt_tokens": 811, "output_tokens": 31}
+{"sample_id": "233/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"4388470-7\"]}", "prompt_tokens": 555, "output_tokens": 25}
+{"sample_id": "236/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"4388470-7\"\n]\n}", "prompt_tokens": 554, "output_tokens": 31}
+{"sample_id": "239/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"14079881-10\"\n]\n}", "prompt_tokens": 679, "output_tokens": 33}
+{"sample_id": "242/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"2212067-3\"]}", "prompt_tokens": 534, "output_tokens": 25}
+{"sample_id": "244/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 628, "output_tokens": 14}
+{"sample_id": "249/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"1568684-4\"\n]\n}", "prompt_tokens": 485, "output_tokens": 33}
+{"sample_id": "251/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"1568684-3\",\n\"1568684-4\"\n]\n}", "prompt_tokens": 486, "output_tokens": 44}
+{"sample_id": "253/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 844, "output_tokens": 14}
+{"sample_id": "256/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"5850219-10\"\n]\n}", "prompt_tokens": 1485, "output_tokens": 32}
+{"sample_id": "265/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"2033917-2\",\n\"2033917-4\"\n]\n}", "prompt_tokens": 499, "output_tokens": 43}
+{"sample_id": "267/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"5912283-7\",\n\"5912283-9\",\n\"5912283-12\"\n]\n}", "prompt_tokens": 894, "output_tokens": 59}
+{"sample_id": "268/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 528, "output_tokens": 14}
+{"sample_id": "274/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"11614737-10\",\n\"11614737-13\"\n]\n}", "prompt_tokens": 1234, "output_tokens": 49}
+{"sample_id": "277/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"14376683-4\"\n]\n}", "prompt_tokens": 743, "output_tokens": 32}
+{"sample_id": "278/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"14376683-4\"]}", "prompt_tokens": 726, "output_tokens": 26}
+{"sample_id": "281/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 483, "output_tokens": 18}
+{"sample_id": "285/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 992, "output_tokens": 17}
+{"sample_id": "292/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 899, "output_tokens": 17}
+{"sample_id": "293/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 689, "output_tokens": 14}
+{"sample_id": "301/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 620, "output_tokens": 14}
+{"sample_id": "303/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 561, "output_tokens": 14}
+{"sample_id": "305/group-0/original", "output": "{\"label\": \"SUPPORT\", \"evidence\": [\"14797520-3\"]}", "prompt_tokens": 503, "output_tokens": 24}
+{"sample_id": "306/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"7821634-6\"\n]\n}", "prompt_tokens": 612, "output_tokens": 33}
+{"sample_id": "309/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"7821634-6\"\n]\n}", "prompt_tokens": 612, "output_tokens": 31}
+{"sample_id": "315/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 506, "output_tokens": 14}
+{"sample_id": "316/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 622, "output_tokens": 17}
+{"sample_id": "317/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"4506414-9\", \"4506414-10\"]}", "prompt_tokens": 1280, "output_tokens": 37}
+{"sample_id": "324/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 530, "output_tokens": 17}
+{"sample_id": "338/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"23349986-11\",\n\"23349986-12\",\n\"23349986-15\"\n]\n}", "prompt_tokens": 1128, "output_tokens": 63}
+{"sample_id": "340/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"7098463-9\",\n\"7098463-10\"\n]\n}", "prompt_tokens": 940, "output_tokens": 44}
+{"sample_id": "342/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 784, "output_tokens": 14}
+{"sample_id": "357/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 517, "output_tokens": 14}
+{"sample_id": "366/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"13956305-5\"\n]\n}", "prompt_tokens": 539, "output_tokens": 32}
+{"sample_id": "376/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 437, "output_tokens": 17}
+{"sample_id": "379/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"19005293-2\"]}", "prompt_tokens": 464, "output_tokens": 26}
+{"sample_id": "381/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"18340282-3\",\n\"18340282-6\"\n]\n}", "prompt_tokens": 854, "output_tokens": 47}
+{"sample_id": "391/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 518, "output_tokens": 14}
+{"sample_id": "396/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"1456068-4\",\n\"1456068-7\",\n\"1456068-8\",\n\"1456068-11\"\n]\n}", "prompt_tokens": 904, "output_tokens": 70}
+{"sample_id": "397/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 904, "output_tokens": 17}
+{"sample_id": "399/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"791050-7\",\n\"791050-11\"\n]\n}", "prompt_tokens": 834, "output_tokens": 42}
+{"sample_id": "406/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 584, "output_tokens": 14}
+{"sample_id": "414/group-0/original", "output": "{\"label\": \"SUPPORT\", \"evidence\": [\"6309659-12\"]}", "prompt_tokens": 998, "output_tokens": 24}
+{"sample_id": "416/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"6309659-12\", \"6309659-13\"]}", "prompt_tokens": 1003, "output_tokens": 38}
+{"sample_id": "417/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 1003, "output_tokens": 14}
+{"sample_id": "422/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 495, "output_tokens": 14}
+{"sample_id": "432/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"8002887-3\",\n\"8002887-5\"\n]\n}", "prompt_tokens": 555, "output_tokens": 43}
+{"sample_id": "434/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 525, "output_tokens": 14}
+{"sample_id": "435/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 527, "output_tokens": 14}
+{"sample_id": "437/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 594, "output_tokens": 14}
+{"sample_id": "454/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"4200695-0\",\n\"4200695-4\",\n\"4200695-5\",\n\"4200695-11\",\n\"4200695-14\"\n]\n}", "prompt_tokens": 1030, "output_tokens": 83}
+{"sample_id": "470/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"12685434-2\"\n]\n}", "prompt_tokens": 687, "output_tokens": 32}
+{"sample_id": "472/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 1002, "output_tokens": 17}
+{"sample_id": "485/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 536, "output_tokens": 14}
+{"sample_id": "491/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 432, "output_tokens": 14}
+{"sample_id": "493/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 477, "output_tokens": 14}
+{"sample_id": "498/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"17077004-7\", \"17077004-9\"]}", "prompt_tokens": 766, "output_tokens": 38}
+{"sample_id": "499/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"26064662-10\",\n\"26064662-11\",\n\"26064662-14\",\n\"26064662-15\"\n]\n}", "prompt_tokens": 1166, "output_tokens": 77}
+{"sample_id": "505/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"22703082-1\",\n\"22703082-2\",\n\"22703082-3\"\n]\n}", "prompt_tokens": 469, "output_tokens": 58}
+{"sample_id": "516/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"29564505-8\",\n\"29564505-9\",\n\"29564505-13\"\n]\n}", "prompt_tokens": 1276, "output_tokens": 61}
+{"sample_id": "517/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 903, "output_tokens": 14}
+{"sample_id": "523/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"14803797-4\"]}", "prompt_tokens": 631, "output_tokens": 26}
+{"sample_id": "525/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"13639330-2\"\n]\n}", "prompt_tokens": 470, "output_tokens": 32}
+{"sample_id": "529/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"10546779-2\",\n\"25413327-0\",\n\"25413327-5\",\n\"36651210-0\"\n]\n}", "prompt_tokens": 1397, "output_tokens": 72}
+{"sample_id": "533/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"12991445-5\",\n\"12991445-9\",\n\"12991445-11\"\n]\n}", "prompt_tokens": 915, "output_tokens": 60}
+{"sample_id": "545/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 624, "output_tokens": 14}
+{"sample_id": "549/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"9433958-3\"\n]\n}", "prompt_tokens": 493, "output_tokens": 31}
+{"sample_id": "550/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 510, "output_tokens": 17}
+{"sample_id": "552/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 640, "output_tokens": 17}
+{"sample_id": "555/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"1049501-1\",\n\"1049501-3\"\n]\n}", "prompt_tokens": 555, "output_tokens": 43}
+{"sample_id": "559/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"3475317-7\"\n]\n}", "prompt_tokens": 521, "output_tokens": 31}
+{"sample_id": "560/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 577, "output_tokens": 14}
+{"sample_id": "565/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"16120395-3\",\n\"16120395-4\"\n]\n}", "prompt_tokens": 491, "output_tokens": 46}
+{"sample_id": "568/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"23418635-5\",\n\"23418635-7\"\n]\n}", "prompt_tokens": 582, "output_tokens": 45}
+{"sample_id": "569/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"23460562-4\"\n]\n}", "prompt_tokens": 566, "output_tokens": 32}
+{"sample_id": "570/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"20333864-2\",\n\"20333864-3\"\n]\n}", "prompt_tokens": 410, "output_tokens": 45}
+{"sample_id": "572/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 571, "output_tokens": 14}
+{"sample_id": "574/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 487, "output_tokens": 14}
+{"sample_id": "578/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"8764879-7\"]}", "prompt_tokens": 664, "output_tokens": 25}
+{"sample_id": "580/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"23460562-4\"\n]\n}", "prompt_tokens": 573, "output_tokens": 32}
+{"sample_id": "585/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 480, "output_tokens": 14}
+{"sample_id": "588/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 531, "output_tokens": 14}
+{"sample_id": "589/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"10984005-12\"\n]\n}", "prompt_tokens": 1110, "output_tokens": 34}
+{"sample_id": "590/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"10984005-12\"\n]\n}", "prompt_tokens": 1108, "output_tokens": 35}
+{"sample_id": "593/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"19675911-5\",\n\"19675911-9\"\n]\n}", "prompt_tokens": 802, "output_tokens": 47}
+{"sample_id": "598/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"25742130-6\",\n\"25742130-7\"\n]\n}", "prompt_tokens": 705, "output_tokens": 47}
+{"sample_id": "602/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 505, "output_tokens": 14}
+{"sample_id": "606/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"712078-3\"]}", "prompt_tokens": 621, "output_tokens": 24}
+{"sample_id": "607/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"4506414-9\"\n]\n}", "prompt_tokens": 1279, "output_tokens": 32}
+{"sample_id": "613/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"9638032-3\",\n\"9638032-4\",\n\"9638032-5\"\n]\n}", "prompt_tokens": 576, "output_tokens": 55}
+{"sample_id": "615/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"9638032-4\", \"9638032-5\"]}", "prompt_tokens": 580, "output_tokens": 36}
+{"sample_id": "621/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 961, "output_tokens": 14}
+{"sample_id": "626/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"16355392-2\"\n]\n}", "prompt_tokens": 549, "output_tokens": 32}
+{"sample_id": "628/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 525, "output_tokens": 17}
+{"sample_id": "632/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"5172048-3\", \"5172048-6\", \"5172048-7\"]}", "prompt_tokens": 575, "output_tokens": 47}
+{"sample_id": "633/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"5172048-3\",\n\"5172048-6\",\n\"5172048-7\"\n]\n}", "prompt_tokens": 579, "output_tokens": 57}
+{"sample_id": "638/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 583, "output_tokens": 14}
+{"sample_id": "646/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 978, "output_tokens": 17}
+{"sample_id": "653/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"24384587-0\",\n\"24384587-1\",\n\"24384587-9\"\n]\n}", "prompt_tokens": 744, "output_tokens": 59}
+{"sample_id": "655/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 558, "output_tokens": 17}
+{"sample_id": "661/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"37204802-3\",\n\"37204802-4\",\n\"37204802-5\"\n]\n}", "prompt_tokens": 678, "output_tokens": 58}
+{"sample_id": "665/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"12580014-1\",\n\"12580014-2\",\n\"12580014-3\"\n]\n}", "prompt_tokens": 480, "output_tokens": 58}
+{"sample_id": "677/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 576, "output_tokens": 14}
+{"sample_id": "679/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 453, "output_tokens": 17}
+{"sample_id": "680/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"9315213-4\"]}", "prompt_tokens": 718, "output_tokens": 25}
+{"sample_id": "681/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"9315213-4\"\n]\n}", "prompt_tokens": 724, "output_tokens": 32}
+{"sample_id": "683/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"9315213-4\"]}", "prompt_tokens": 726, "output_tokens": 25}
+{"sample_id": "684/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 751, "output_tokens": 14}
+{"sample_id": "686/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"4452659-2\", \"4452659-3\"]}", "prompt_tokens": 558, "output_tokens": 36}
+{"sample_id": "687/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 558, "output_tokens": 14}
+{"sample_id": "689/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 611, "output_tokens": 14}
+{"sample_id": "690/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 657, "output_tokens": 14}
+{"sample_id": "691/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 518, "output_tokens": 14}
+{"sample_id": "693/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"24088502-8\"]}", "prompt_tokens": 846, "output_tokens": 26}
+{"sample_id": "704/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 467, "output_tokens": 14}
+{"sample_id": "705/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 1063, "output_tokens": 14}
+{"sample_id": "713/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 504, "output_tokens": 14}
+{"sample_id": "714/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 504, "output_tokens": 14}
+{"sample_id": "716/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 498, "output_tokens": 14}
+{"sample_id": "724/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"5531479-5\",\n\"5531479-6\"\n]\n}", "prompt_tokens": 499, "output_tokens": 44}
+{"sample_id": "732/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 568, "output_tokens": 14}
+{"sample_id": "737/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"16562534-1\",\n\"16562534-3\",\n\"16562534-4\",\n\"6609935-1\",\n\"6609935-3\",\n\"6609935-4\"\n]\n}", "prompt_tokens": 972, "output_tokens": 94}
+{"sample_id": "744/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"8460275-1\",\n\"8460275-2\"\n]\n}", "prompt_tokens": 527, "output_tokens": 43}
+{"sample_id": "746/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"11291348-5\"\n]\n}", "prompt_tokens": 547, "output_tokens": 32}
+{"sample_id": "747/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"11291348-6\", \"11291348-7\"]}", "prompt_tokens": 558, "output_tokens": 38}
+{"sample_id": "752/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"19800147-3\",\n\"19800147-4\",\n\"19800147-7\"\n]\n}", "prompt_tokens": 540, "output_tokens": 58}
+{"sample_id": "753/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 465, "output_tokens": 17}
+{"sample_id": "756/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"2831620-0\",\n\"2831620-1\",\n\"2831620-3\"\n]\n}", "prompt_tokens": 503, "output_tokens": 55}
+{"sample_id": "758/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 612, "output_tokens": 14}
+{"sample_id": "767/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"2488880-8\",\n\"2488880-9\",\n\"2488880-10\"\n]\n}", "prompt_tokens": 811, "output_tokens": 58}
+{"sample_id": "771/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"15476777-16\"\n]\n}", "prompt_tokens": 1307, "output_tokens": 35}
+{"sample_id": "780/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"8246922-7\",\n\"24338780-2\",\n\"24338780-3\"\n]\n}", "prompt_tokens": 1073, "output_tokens": 57}
+{"sample_id": "782/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"8246922-6\",\n\"8246922-7\",\n\"8246922-11\"\n]\n}", "prompt_tokens": 696, "output_tokens": 58}
+{"sample_id": "802/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"22180793-4\",\n\"22180793-6\"\n]\n}", "prompt_tokens": 581, "output_tokens": 47}
+{"sample_id": "804/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"22180793-3\",\n\"22180793-4\"\n]\n}", "prompt_tokens": 581, "output_tokens": 45}
+{"sample_id": "807/group-0/original", "output": "{\"label\": \"SUPPORT\", \"evidence\": [\"36606083-3\", \"36606083-4\"]}", "prompt_tokens": 434, "output_tokens": 36}
+{"sample_id": "810/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 538, "output_tokens": 17}
+{"sample_id": "818/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 495, "output_tokens": 17}
+{"sample_id": "821/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 657, "output_tokens": 14}
+{"sample_id": "828/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 1070, "output_tokens": 14}
+{"sample_id": "832/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"30303335-3\"\n]\n}", "prompt_tokens": 566, "output_tokens": 32}
+{"sample_id": "834/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 500, "output_tokens": 14}
+{"sample_id": "837/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"15928989-7\",\n\"15928989-8\"\n]\n}", "prompt_tokens": 621, "output_tokens": 45}
+{"sample_id": "839/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"1469751-1\",\n\"1469751-2\"\n]\n}", "prompt_tokens": 498, "output_tokens": 43}
+{"sample_id": "846/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"22696649-4\"\n]\n}", "prompt_tokens": 492, "output_tokens": 32}
+{"sample_id": "847/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"16787954-3\"\n]\n}", "prompt_tokens": 553, "output_tokens": 32}
+{"sample_id": "852/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 724, "output_tokens": 14}
+{"sample_id": "860/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"16066726-4\",\n\"16066726-5\"\n]\n}", "prompt_tokens": 508, "output_tokens": 45}
+{"sample_id": "863/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"20568364-1\",\n\"20568364-4\",\n\"16361581-0\",\n\"16361581-2\"\n]\n}", "prompt_tokens": 727, "output_tokens": 72}
+{"sample_id": "867/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"14340571-6\",\n\"14340571-10\"\n]\n}", "prompt_tokens": 714, "output_tokens": 46}
+{"sample_id": "880/group-0/original", "output": "{\"label\": \"SUPPORT\", \"evidence\": [\"8426046-3\"]}", "prompt_tokens": 490, "output_tokens": 23}
+{"sample_id": "882/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"14803797-2\"]}", "prompt_tokens": 624, "output_tokens": 26}
+{"sample_id": "890/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 697, "output_tokens": 17}
+{"sample_id": "893/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"13509809-2\",\n\"13509809-4\"\n]\n}", "prompt_tokens": 505, "output_tokens": 46}
+{"sample_id": "900/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 514, "output_tokens": 14}
+{"sample_id": "913/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 526, "output_tokens": 14}
+{"sample_id": "917/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"34071621-2\",\n\"34071621-3\"\n]\n}", "prompt_tokens": 489, "output_tokens": 45}
+{"sample_id": "922/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"17077004-7\", \"17077004-9\"]}", "prompt_tokens": 770, "output_tokens": 38}
+{"sample_id": "928/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"18174210-1\",\n\"18174210-2\",\n\"18174210-10\"\n]\n}", "prompt_tokens": 1055, "output_tokens": 61}
+{"sample_id": "929/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"18174210-1\",\n\"18174210-2\",\n\"18174210-10\",\n\"18174210-11\"\n]\n}", "prompt_tokens": 1055, "output_tokens": 73}
+{"sample_id": "933/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"14711483-12\"\n]\n}", "prompt_tokens": 1020, "output_tokens": 35}
+{"sample_id": "934/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 514, "output_tokens": 17}
+{"sample_id": "935/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"5483793-3\"\n]\n}", "prompt_tokens": 495, "output_tokens": 31}
+{"sample_id": "941/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"12258338-11\",\n\"12258338-12\",\n\"12258338-14\"\n]\n}", "prompt_tokens": 982, "output_tokens": 61}
+{"sample_id": "942/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 396, "output_tokens": 14}
+{"sample_id": "944/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"1642727-13\"]}", "prompt_tokens": 951, "output_tokens": 26}
+{"sample_id": "945/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"26112696-13\", \"26112696-17\"]}", "prompt_tokens": 3224, "output_tokens": 40}
+{"sample_id": "946/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"26112696-17\"\n]\n}", "prompt_tokens": 3223, "output_tokens": 35}
+{"sample_id": "953/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"3355397-12\",\n\"3355397-13\"\n]\n}", "prompt_tokens": 1148, "output_tokens": 46}
+{"sample_id": "959/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"8780599-5\",\n\"8780599-6\",\n\"8780599-7\",\n\"8780599-8\"\n]\n}", "prompt_tokens": 601, "output_tokens": 69}
+{"sample_id": "964/group-0/original", "output": "{\"label\": \"SUPPORT\", \"evidence\": [\"4162857-2\", \"4162857-5\"]}", "prompt_tokens": 474, "output_tokens": 34}
+{"sample_id": "967/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"8997410-2\",\n\"8997410-3\"\n]\n}", "prompt_tokens": 915, "output_tokens": 43}
+{"sample_id": "969/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"17368516-0\", \"17368516-5\"]}", "prompt_tokens": 790, "output_tokens": 38}
+{"sample_id": "972/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"27873158-0\",\n\"27873158-15\",\n\"27873158-20\",\n\"28617573-8\",\n\"9764256-0\",\n\"9764256-13\"\n]\n}", "prompt_tokens": 4885, "output_tokens": 100}
+{"sample_id": "976/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 554, "output_tokens": 14}
+{"sample_id": "978/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 361, "output_tokens": 14}
+{"sample_id": "980/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"20128547-3\",\n\"20128547-4\"\n]\n}", "prompt_tokens": 533, "output_tokens": 45}
+{"sample_id": "984/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"6828370-2\",\n\"6828370-3\",\n\"6828370-7\"\n]\n}", "prompt_tokens": 535, "output_tokens": 55}
+{"sample_id": "985/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"6828370-1\",\n\"6828370-2\",\n\"6828370-3\"\n]\n}", "prompt_tokens": 540, "output_tokens": 55}
+{"sample_id": "989/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"9988425-5\",\n\"9988425-14\",\n\"9988425-15\"\n]\n}", "prompt_tokens": 839, "output_tokens": 59}
+{"sample_id": "994/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"16472469-5\"]}", "prompt_tokens": 555, "output_tokens": 26}
+{"sample_id": "998/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"16472469-5\"]}", "prompt_tokens": 551, "output_tokens": 26}
+{"sample_id": "1009/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"1982286-3\",\n\"1982286-4\"\n]\n}", "prompt_tokens": 510, "output_tokens": 43}
+{"sample_id": "1018/group-0/original", "output": "{\"label\": \"SUPPORT\", \"evidence\": [\"11603066-6\"]}", "prompt_tokens": 670, "output_tokens": 24}
+{"sample_id": "1026/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 633, "output_tokens": 17}
+{"sample_id": "1027/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"3113630-6\", \"3113630-7\"]}", "prompt_tokens": 625, "output_tokens": 36}
+{"sample_id": "1032/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 486, "output_tokens": 14}
+{"sample_id": "1035/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"4547102-1\",\n\"4547102-3\"\n]\n}", "prompt_tokens": 622, "output_tokens": 43}
+{"sample_id": "1037/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 470, "output_tokens": 17}
+{"sample_id": "1043/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"17671145-2\",\n\"17671145-7\"\n]\n}", "prompt_tokens": 607, "output_tokens": 45}
+{"sample_id": "1046/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 1183, "output_tokens": 17}
+{"sample_id": "1053/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 1103, "output_tokens": 17}
+{"sample_id": "1055/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"13906581-6\",\n\"13906581-9\",\n\"13906581-13\"\n]\n}", "prompt_tokens": 859, "output_tokens": 59}
+{"sample_id": "1056/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"4200695-11\",\n\"4200695-14\"\n]\n}", "prompt_tokens": 1028, "output_tokens": 45}
+{"sample_id": "1072/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"4824840-10\",\n\"4824840-13\"\n]\n}", "prompt_tokens": 1260, "output_tokens": 47}
+{"sample_id": "1084/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"5691302-10\"\n]\n}", "prompt_tokens": 1339, "output_tokens": 32}
+{"sample_id": "1085/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 1343, "output_tokens": 17}
+{"sample_id": "1086/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"39281140-1\",\n\"39281140-7\",\n\"39281140-9\"\n]\n}", "prompt_tokens": 830, "output_tokens": 59}
+{"sample_id": "1091/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 572, "output_tokens": 17}
+{"sample_id": "1096/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 363, "output_tokens": 17}
+{"sample_id": "1098/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 519, "output_tokens": 14}
+{"sample_id": "1101/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"3874000-5\"]}", "prompt_tokens": 533, "output_tokens": 25}
+{"sample_id": "1102/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"3874000-5\"\n]\n}", "prompt_tokens": 533, "output_tokens": 31}
+{"sample_id": "1104/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"3898784-10\",\n\"3898784-13\"\n]\n}", "prompt_tokens": 1360, "output_tokens": 46}
+{"sample_id": "1114/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"12824568-3\",\n\"12824568-4\",\n\"12824568-6\"\n]\n}", "prompt_tokens": 589, "output_tokens": 58}
+{"sample_id": "1119/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"5323845-4\",\n\"5323845-9\",\n\"18997216-0\",\n\"18997216-3\"\n]\n}", "prompt_tokens": 2128, "output_tokens": 70}
+{"sample_id": "1125/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"21009874-12\",\n\"21009874-13\",\n\"21009874-15\"\n]\n}", "prompt_tokens": 978, "output_tokens": 61}
+{"sample_id": "1128/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 490, "output_tokens": 14}
+{"sample_id": "1137/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"33370-9\"]}", "prompt_tokens": 739, "output_tokens": 23}
+{"sample_id": "1139/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"12009265-6\",\n\"12009265-9\",\n\"12009265-14\"\n]\n}", "prompt_tokens": 1143, "output_tokens": 59}
+{"sample_id": "1142/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"5260382-1\",\n\"5260382-3\"\n]\n}", "prompt_tokens": 578, "output_tokens": 44}
+{"sample_id": "1146/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"13906581-12\",\n\"13906581-13\"\n]\n}", "prompt_tokens": 857, "output_tokens": 47}
+{"sample_id": "1157/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"12584053-9\",\n\"12584053-10\",\n\"12584053-13\"\n]\n}", "prompt_tokens": 825, "output_tokens": 60}
+{"sample_id": "1159/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"12584053-10\",\n\"12584053-13\"\n]\n}", "prompt_tokens": 825, "output_tokens": 47}
+{"sample_id": "1164/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 827, "output_tokens": 14}
+{"sample_id": "1175/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 464, "output_tokens": 14}
+{"sample_id": "1178/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 463, "output_tokens": 14}
+{"sample_id": "1184/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"16737210-10\"]}", "prompt_tokens": 855, "output_tokens": 27}
+{"sample_id": "1185/group-0/original", "output": "{\"label\": \"SUPPORT\", \"evidence\": [\"16737210-10\"]}", "prompt_tokens": 857, "output_tokens": 25}
+{"sample_id": "1188/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"4394817-2\"\n]\n}", "prompt_tokens": 612, "output_tokens": 33}
+{"sample_id": "1191/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 394, "output_tokens": 14}
+{"sample_id": "1197/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 581, "output_tokens": 14}
+{"sample_id": "1199/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 1044, "output_tokens": 14}
+{"sample_id": "1206/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"18909530-1\",\n\"18909530-2\"\n]\n}", "prompt_tokens": 556, "output_tokens": 47}
+{"sample_id": "1207/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"18909530-1\",\n\"18909530-2\"\n]\n}", "prompt_tokens": 561, "output_tokens": 45}
+{"sample_id": "1209/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"4347374-5\"\n]\n}", "prompt_tokens": 601, "output_tokens": 31}
+{"sample_id": "1221/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"19736671-2\"\n]\n}", "prompt_tokens": 529, "output_tokens": 32}
+{"sample_id": "1223/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 408, "output_tokens": 14}
+{"sample_id": "1225/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"9650982-3\"\n]\n}", "prompt_tokens": 567, "output_tokens": 31}
+{"sample_id": "1228/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"25641414-7\"]}", "prompt_tokens": 608, "output_tokens": 26}
+{"sample_id": "1237/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"3654468-12\"]}", "prompt_tokens": 1316, "output_tokens": 26}
+{"sample_id": "1246/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"7662395-10\",\n\"7662395-14\"\n]\n}", "prompt_tokens": 739, "output_tokens": 47}
+{"sample_id": "1247/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 863, "output_tokens": 14}
+{"sample_id": "1268/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"52072815-11\"\n]\n}", "prompt_tokens": 1187, "output_tokens": 34}
+{"sample_id": "1269/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"13900610-8\"\n]\n}", "prompt_tokens": 1050, "output_tokens": 32}
+{"sample_id": "1270/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"13900610-8\"]}", "prompt_tokens": 1050, "output_tokens": 26}
+{"sample_id": "1271/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"13768432-7\",\n\"13768432-9\",\n\"13768432-11\"\n]\n}", "prompt_tokens": 909, "output_tokens": 59}
+{"sample_id": "1275/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 520, "output_tokens": 14}
+{"sample_id": "1278/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"11335781-3\"\n]\n}", "prompt_tokens": 467, "output_tokens": 34}
+{"sample_id": "1280/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 747, "output_tokens": 14}
+{"sample_id": "1291/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"56893404-3\"]}", "prompt_tokens": 427, "output_tokens": 26}
+{"sample_id": "1298/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"11718220-11\",\n\"11718220-13\"\n]\n}", "prompt_tokens": 946, "output_tokens": 47}
+{"sample_id": "1303/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 559, "output_tokens": 14}
+{"sample_id": "1304/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 554, "output_tokens": 14}
+{"sample_id": "1305/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 556, "output_tokens": 17}
+{"sample_id": "1307/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"18231807-2\"\n]\n}", "prompt_tokens": 511, "output_tokens": 32}
+{"sample_id": "1314/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 814, "output_tokens": 14}
+{"sample_id": "1315/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 813, "output_tokens": 14}
+{"sample_id": "1316/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 528, "output_tokens": 17}
+{"sample_id": "1320/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"16284655-3\",\n\"16284655-4\"\n]\n}", "prompt_tokens": 536, "output_tokens": 47}
+{"sample_id": "1322/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"16284655-1\",\n\"16284655-2\"\n]\n}", "prompt_tokens": 530, "output_tokens": 45}
+{"sample_id": "1324/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"19912367-4\"\n]\n}", "prompt_tokens": 494, "output_tokens": 32}
+{"sample_id": "1328/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"3475317-4\",\n\"3475317-5\",\n\"3475317-7\"\n]\n}", "prompt_tokens": 526, "output_tokens": 55}
+{"sample_id": "1342/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 656, "output_tokens": 14}
+{"sample_id": "1345/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"9559146-1\"]}", "prompt_tokens": 390, "output_tokens": 25}
+{"sample_id": "1346/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"9505402-1\",\n\"9505402-3\"\n]\n}", "prompt_tokens": 547, "output_tokens": 43}
+{"sample_id": "1349/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"5377642-1\",\n\"5377642-2\",\n\"5377642-9\"\n]\n}", "prompt_tokens": 815, "output_tokens": 57}
+{"sample_id": "1352/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"12885341-1\"\n]\n}", "prompt_tokens": 552, "output_tokens": 32}
+{"sample_id": "1356/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"13764090-3\",\n\"13764090-5\"\n]\n}", "prompt_tokens": 481, "output_tokens": 45}
+{"sample_id": "1360/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"11614737-9\",\n\"11614737-12\"\n]\n}", "prompt_tokens": 1231, "output_tokens": 48}
+{"sample_id": "1362/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 660, "output_tokens": 14}
+{"sample_id": "1363/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 662, "output_tokens": 14}
+{"sample_id": "1366/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"4406819-2\"\n]\n}", "prompt_tokens": 607, "output_tokens": 31}
+{"sample_id": "1368/group-0/original", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"2425364-10\",\n\"2425364-12\"\n]\n}", "prompt_tokens": 820, "output_tokens": 47}
+{"sample_id": "1371/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"16256507-2\",\n\"16256507-7\",\n\"16256507-8\"\n]\n}", "prompt_tokens": 832, "output_tokens": 58}
+{"sample_id": "1374/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 673, "output_tokens": 14}
+{"sample_id": "1378/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"2488880-8\",\n\"2488880-9\",\n\"2488880-10\"\n]\n}", "prompt_tokens": 811, "output_tokens": 56}
+{"sample_id": "1379/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"16322674-5\",\n\"16322674-6\",\n\"27123743-3\",\n\"27123743-4\",\n\"23557241-6\",\n\"17450673-5\",\n\"17450673-6\"\n]\n}", "prompt_tokens": 2609, "output_tokens": 110}
+{"sample_id": "1380/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"16322674-5\", \"16322674-6\", \"23557241-6\", \"17450673-5\", \"17450673-6\"]}", "prompt_tokens": 2226, "output_tokens": 74}
+{"sample_id": "1383/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"17755060-1\",\n\"17755060-3\",\n\"17755060-5\"\n]\n}", "prompt_tokens": 484, "output_tokens": 58}
+{"sample_id": "1385/group-0/original", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"306006-4\"]}", "prompt_tokens": 417, "output_tokens": 24}
+{"sample_id": "1392/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"6766459-4\",\n\"6766459-5\"\n]\n}", "prompt_tokens": 642, "output_tokens": 43}
+{"sample_id": "1397/group-0/original", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 562, "output_tokens": 18}
+{"sample_id": "1401/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 1342, "output_tokens": 14}
+{"sample_id": "1402/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 568, "output_tokens": 14}
+{"sample_id": "1404/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"38355793-4\",\n\"38355793-8\"\n]\n}", "prompt_tokens": 1225, "output_tokens": 46}
+{"sample_id": "1405/group-0/original", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 510, "output_tokens": 14}
+{"sample_id": "1406/group-0/original", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"2617858-4\",\n\"2617858-6\"\n]\n}", "prompt_tokens": 777, "output_tokens": 43}

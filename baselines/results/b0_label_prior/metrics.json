@@ -1,0 +1,181 @@
+{
+  "label_accuracy": 0.4114114114114114,
+  "label_macro_f1": 0.19432624113475175,
+  "sentence_level_evidence_f1": 0.0,
+  "label_ece": 0.0003289371846076361,
+  "num_samples": 333,
+  "num_valid_sentences": 3515,
+  "label_order": [
+    "NEI",
+    "SUPPORT",
+    "CONTRADICT"
+  ],
+  "label_confusion_matrix": [
+    [
+      0,
+      126,
+      0
+    ],
+    [
+      0,
+      137,
+      0
+    ],
+    [
+      0,
+      70,
+      0
+    ]
+  ],
+  "per_label": {
+    "NEI": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 126
+    },
+    "SUPPORT": {
+      "precision": 0.4114114114114114,
+      "recall": 1.0,
+      "f1": 0.5829787234042553,
+      "support": 137
+    },
+    "CONTRADICT": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 70
+    }
+  },
+  "evidence": {
+    "averaging": "micro, evidence positive class",
+    "threshold": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 528,
+    "tn": 2987,
+    "conditioned_on_predicted_label": false
+  },
+  "calibration": {
+    "type": "top-label ECE",
+    "num_bins": 10,
+    "binning": "equal-width, left-closed/right-open; last bin includes 1",
+    "bins": [
+      {
+        "lower": 0.0,
+        "upper": 0.1,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.1,
+        "upper": 0.2,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.3,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.3,
+        "upper": 0.4,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.5,
+        "count": 333,
+        "accuracy": 0.4114114114114114,
+        "mean_confidence": 0.4110824742268038,
+        "ece_contribution": 0.0003289371846076361
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.7,
+        "upper": 0.8,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      }
+    ]
+  },
+  "zero_division": 0,
+  "score_scale": "0 to 1",
+  "latency": {
+    "median_seconds_per_claim": 1.6642734408378601e-06,
+    "mean_seconds_per_claim": 1.813605282310251e-06,
+    "total_seconds": 0.0006039305590093136,
+    "note": "wall clock of predict(sample), one claim at a time"
+  },
+  "baseline": {
+    "name": "b0_label_prior",
+    "description": "training-split claim-level label prior; majority class = argmax",
+    "prior": {
+      "NEI": 0.37371134020618557,
+      "SUPPORT": 0.4110824742268041,
+      "CONTRADICT": 0.21520618556701032
+    },
+    "evidence_base_rate": 0.15346281625351393,
+    "test_summary": {
+      "claims": 333,
+      "groups": 333,
+      "labels": {
+        "NEI": 126,
+        "CONTRADICT": 70,
+        "SUPPORT": 137
+      },
+      "valid_sentences": 3515,
+      "positive_sentences": 528,
+      "negative_sentences": 2987,
+      "masked_sentence_slots": 0,
+      "max_articles_per_group": 5
+    },
+    "evidence_threshold": 0.5
+  }
+}
