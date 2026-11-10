@@ -1,0 +1,79 @@
+{
+  "arguments": {
+    "mode": "train_test",
+    "train_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/data/train",
+    "test_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/data/test",
+    "output_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/LiquidAI/outputs/d1-scifact",
+    "adapter_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/LiquidAI/outputs/d1-scifact/final",
+    "eval_output_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/LiquidAI/outputs/d1-scifact/test",
+    "evidence_threshold": 0.5,
+    "ece_bins": 10,
+    "model": "LiquidAI/d1-3B",
+    "revision": null,
+    "local_files_only": false,
+    "epochs": 3,
+    "learning_rate": 0.0002,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.05,
+    "question_batch_size": 2,
+    "gradient_accumulation_steps": 4,
+    "max_length": 8192,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "gradient_checkpointing": true,
+    "evidence_loss_weight": 1.0,
+    "evidence_pos_weight": 1.0,
+    "balance_labels": false,
+    "max_grad_norm": 1.0,
+    "device": 7,
+    "dtype": "auto",
+    "seed": 42,
+    "logging_steps": 10,
+    "max_groups": null,
+    "max_steps": null,
+    "dry_run": false
+  },
+  "base_model": "LiquidAI/d1-3B",
+  "resolved_revision": null,
+  "dtype": "bfloat16",
+  "device": "cuda:7",
+  "labels": [
+    "NEI",
+    "SUPPORT",
+    "CONTRADICT"
+  ],
+  "stance_question": {
+    "type": "choice",
+    "instructions": "Using only the claim and all provided articles together, determine whether the available evidence supports or contradicts the claim, or is insufficient. Empty sentence slots are unavailable text.",
+    "criteria": {
+      "NEI": "The available articles provide insufficient evidence to support or contradict the claim.",
+      "SUPPORT": "The available evidence supports the claim.",
+      "CONTRADICT": "The available evidence contradicts the claim."
+    }
+  },
+  "evidence_instructions": "Considering the claim and the full context of all articles, is the sentence with original_index={original_index} in article doc_id={doc_id} part of evidence supporting or contradicting the claim? Include sentences that jointly form evidence with other sentences. Mere topical relevance is not evidence.",
+  "sentence_index": "original_index (zero-based), scoped by doc_id",
+  "state_format": "claim + articles[{doc_id, title, sentences: {original_index: text}}]",
+  "loss": "CE(stance) + evidence_loss_weight * mean_valid_sentences(BCEWithLogits(yes-no))",
+  "label_weights": null,
+  "summary": {
+    "claims": 776,
+    "groups": 1901,
+    "labels": {
+      "NEI": 776,
+      "SUPPORT": 716,
+      "CONTRADICT": 409
+    },
+    "valid_sentences": 18865,
+    "positive_sentences": 2736,
+    "negative_sentences": 16129,
+    "masked_sentence_slots": 4357,
+    "max_articles_per_group": 5,
+    "max_question_tokens": 4050,
+    "decision_questions": 20766
+  },
+  "torch_version": "2.14.1+cu130",
+  "transformers_version": "5.20.2",
+  "peft_version": "0.21.2"
+}

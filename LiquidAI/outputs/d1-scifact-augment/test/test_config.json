@@ -1,0 +1,39 @@
+{
+  "base_model": "LiquidAI/d1-3B",
+  "adapter_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/LiquidAI/outputs/d1-scifact/final",
+  "resolved_revision": null,
+  "dtype": "bfloat16",
+  "device": "cuda:7",
+  "test_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/data/test",
+  "summary": {
+    "claims": 333,
+    "groups": 333,
+    "labels": {
+      "NEI": 126,
+      "CONTRADICT": 70,
+      "SUPPORT": 137
+    },
+    "valid_sentences": 3515,
+    "positive_sentences": 528,
+    "negative_sentences": 2987,
+    "masked_sentence_slots": 0,
+    "max_articles_per_group": 5,
+    "max_question_tokens": 4050
+  },
+  "evidence_threshold": 0.5,
+  "ece_bins": 10,
+  "max_length": 8192,
+  "question_batch_size": 2,
+  "stance_question": {
+    "type": "choice",
+    "instructions": "Using only the claim and all provided articles together, determine whether the available evidence supports or contradicts the claim, or is insufficient. Empty sentence slots are unavailable text.",
+    "criteria": {
+      "NEI": "The available articles provide insufficient evidence to support or contradict the claim.",
+      "SUPPORT": "The available evidence supports the claim.",
+      "CONTRADICT": "The available evidence contradicts the claim."
+    }
+  },
+  "evidence_instructions": "Considering the claim and the full context of all articles, is the sentence with original_index={original_index} in article doc_id={doc_id} part of evidence supporting or contradicting the claim? Include sentences that jointly form evidence with other sentences. Mere topical relevance is not evidence.",
+  "gold_evidence_used_as_input": false,
+  "evidence_f1_conditioned_on_predicted_label": false
+}
