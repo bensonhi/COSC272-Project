@@ -1,0 +1,178 @@
+{
+  "label_accuracy": 0.48792270531400966,
+  "label_macro_f1": 0.21861471861471862,
+  "sentence_level_evidence_f1": 0.0,
+  "label_ece": 0.4350469128448107,
+  "num_samples": 207,
+  "num_valid_sentences": 1836,
+  "label_order": [
+    "NEI",
+    "SUPPORT",
+    "CONTRADICT"
+  ],
+  "label_confusion_matrix": [
+    [
+      101,
+      60,
+      46
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "per_label": {
+    "NEI": {
+      "precision": 1.0,
+      "recall": 0.48792270531400966,
+      "f1": 0.6558441558441559,
+      "support": 207
+    },
+    "SUPPORT": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "CONTRADICT": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    }
+  },
+  "evidence": {
+    "averaging": "micro, evidence positive class",
+    "threshold": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "tp": 0,
+    "fp": 157,
+    "fn": 0,
+    "tn": 1679,
+    "conditioned_on_predicted_label": false
+  },
+  "calibration": {
+    "type": "top-label ECE",
+    "num_bins": 10,
+    "binning": "equal-width, left-closed/right-open; last bin includes 1",
+    "bins": [
+      {
+        "lower": 0.0,
+        "upper": 0.1,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.1,
+        "upper": 0.2,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.3,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.3,
+        "upper": 0.4,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.5,
+        "count": 5,
+        "accuracy": 0.2,
+        "mean_confidence": 0.4557843445692513,
+        "ece_contribution": 0.0061783658108514805
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "count": 12,
+        "accuracy": 0.16666666666666666,
+        "mean_confidence": 0.5395251284418877,
+        "ece_contribution": 0.021614983291317166
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "count": 6,
+        "accuracy": 0.6666666666666666,
+        "mean_confidence": 0.6538456456344747,
+        "ece_contribution": 0.00037162379803454954
+      },
+      {
+        "lower": 0.7,
+        "upper": 0.8,
+        "count": 6,
+        "accuracy": 0.5,
+        "mean_confidence": 0.7269030613546309,
+        "ece_contribution": 0.006576900329119736
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "count": 15,
+        "accuracy": 0.26666666666666666,
+        "mean_confidence": 0.8546896195355231,
+        "ece_contribution": 0.04261035890354033
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "count": 163,
+        "accuracy": 0.5337423312883436,
+        "mean_confidence": 0.9879926313335774,
+        "ece_contribution": 0.35769468071194743
+      }
+    ]
+  },
+  "zero_division": 0,
+  "score_scale": "0 to 1",
+  "latency": {
+    "median_seconds_per_claim": 0.05288399616256356,
+    "mean_seconds_per_claim": 0.0638176519603689,
+    "total_seconds": 13.210253955796361,
+    "note": "wall clock of predict(sample), one claim at a time"
+  },
+  "baseline": {
+    "name": "evidence_removed_silent/b3_nli_zero_shot_abstract",
+    "description": "zero-shot DeBERTa-v3-large NLI; entail->SUPPORT, contra->CONTRADICT, neutral->NEI",
+    "model": "MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli",
+    "label_source": "abstract",
+    "dtype": "float16",
+    "max_length": 512,
+    "gpu": "NVIDIA L40S",
+    "test_summary": {
+      "claims": 207,
+      "groups": 207,
+      "labels": {
+        "NEI": 207
+      },
+      "valid_sentences": 1836,
+      "positive_sentences": 0,
+      "negative_sentences": 1836,
+      "masked_sentence_slots": 0,
+      "max_articles_per_group": 5
+    },
+    "evidence_threshold": 0.5
+  }
+}

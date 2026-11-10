@@ -89,7 +89,7 @@ def run_baseline(name: str, predict: Predictor, config: dict, samples: list[Samp
     return result
 
 
-EVAL_SETS = ("test", "evidence_removed", "random_removed")
+EVAL_SETS = ("test", "evidence_removed", "random_removed", "evidence_removed_silent", "random_removed_silent")
 
 
 def eval_samples(eval_set: str, seed: int = 0) -> list[Sample]:
@@ -99,6 +99,8 @@ def eval_samples(eval_set: str, seed: int = 0) -> list[Sample]:
                       slot (the training-time deletion format) and the target becomes NEI.
     random_removed    control for deletion artifacts: the same claims with the same number of
                       randomly chosen NON-evidence sentences removed; label and evidence unchanged.
+    *_silent          the same deletions (same sentences, same random draw), but removed sentences are
+                      cut out and the rest renumbered, so no empty slot or index gap reveals a deletion.
     Gold rationales can omit valid evidence, so some evidence_removed inputs may still be
     decidable; NEI rate there is therefore a lower bound on correct abstention, not exact.
     """
@@ -110,11 +112,13 @@ def eval_samples(eval_set: str, seed: int = 0) -> list[Sample]:
         return samples
     rng = random.Random(seed)
     out = []
+    silent = eval_set.endswith("_silent")
+    base = eval_set.removesuffix("_silent")
     for s in samples:
         if s.label == "NEI":
             continue
         gold = [(a.doc_id, i) for a in s.articles for i, t in enumerate(a.evidence_targets) if t]
-        if eval_set == "evidence_removed":
+        if base == "evidence_removed":
             drop = set(gold)
         else:
             others = [(a.doc_id, i) for a in s.articles for i, ok in enumerate(a.sentence_mask)
@@ -123,10 +127,13 @@ def eval_samples(eval_set: str, seed: int = 0) -> list[Sample]:
         articles = []
         for a in s.articles:
             sentences = ["" if (a.doc_id, i) in drop else t for i, t in enumerate(a.sentences)]
-            targets = [0 if eval_set == "evidence_removed" else t for t in a.evidence_targets]
+            targets = [0 if base == "evidence_removed" else t for t in a.evidence_targets]
+            if silent:
+                kept = [i for i, t in enumerate(sentences) if t]
+                sentences, targets = [sentences[i] for i in kept], [targets[i] for i in kept]
             articles.append(replace(a, sentences=sentences, evidence_targets=targets,
                                     sentence_mask=[bool(t) for t in sentences]))
-        label = "NEI" if eval_set == "evidence_removed" else s.label
+        label = "NEI" if base == "evidence_removed" else s.label
         out.append(replace(s, articles=articles, label=label, variant=eval_set))
     return out
 

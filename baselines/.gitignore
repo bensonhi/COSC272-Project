@@ -1,1 +1,3 @@
 logs/
+# one-off cluster job chains (hardcoded GPU ids and scratch paths)
+run_*.sh

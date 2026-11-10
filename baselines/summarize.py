@@ -5,12 +5,28 @@ Adds, from predictions.jsonl:
   * threshold-free evidence metrics: average precision (AUPRC) over all available sentences,
     and top-1 hit rate (is the highest-scored sentence gold evidence, over claims that have any)
   * evidence F1 restricted to claims whose gold label is SUPPORT/CONTRADICT
+  * evidence F1 against human rationales only: for the 249 test claims from SciFact train, the gold
+    evidence also contains sentences added by Grok (label *_more); those sentences are neither
+    rewarded nor penalised here
 """
 
 import json
 import random
 
-from common import LABELS, RESULTS_DIR
+from common import LABELS, RESULTS_DIR, TEST_DIR
+
+
+def llm_added_evidence():
+    """(claim_id, doc_id, original_index) of gold evidence sentences added by Grok, not annotators."""
+    added = set()
+    for path in TEST_DIR.glob("*.json"):
+        claim = json.loads(path.read_text())
+        added |= {(claim["id"], e["doc_id"], e["original_index"]) for e in claim["evidence"]
+                  if e["evidence_label"].endswith("_more")}
+    return added
+
+
+LLM_ADDED = llm_added_evidence()
 
 
 def macro_f1(pairs):
@@ -40,7 +56,15 @@ def diagnostics(path):
     rng = random.Random(0)
     boot = sorted(macro_f1([rng.choice(pairs) for _ in pairs]) for _ in range(1000))
     scored, top1, top1_n, tp, fp, fn = [], 0, 0, 0, 0, 0
+    human = [0, 0, 0]
     for r in records:
+        for a in r["articles"]:
+            for s in a["sentences"]:
+                if not s["available"] or (r["claim_id"], a["doc_id"], s["original_index"]) in LLM_ADDED:
+                    continue
+                human[0] += s["gold_evidence"] and s["predicted_evidence"]
+                human[1] += not s["gold_evidence"] and s["predicted_evidence"]
+                human[2] += s["gold_evidence"] and not s["predicted_evidence"]
         rows = [s for a in r["articles"] for s in a["sentences"] if s["available"]]
         scored += [(s["evidence_probability"], s["gold_evidence"]) for s in rows]
         if any(s["gold_evidence"] for s in rows):
@@ -55,6 +79,7 @@ def diagnostics(path):
         "evidence_auprc": average_precision(scored),
         "evidence_top1_hit": top1 / top1_n,
         "evidence_f1_on_gold_evidence_claims": 2 * tp / (2 * tp + fp + fn) if tp + fp + fn else 0.0,
+        "evidence_f1_human_rationales": 2 * human[0] / (2 * human[0] + human[1] + human[2]) if any(human) else 0.0,
     }
 
 
@@ -75,8 +100,8 @@ def main():
             "confusion_gold_rows_NEI_SUP_CON": m["label_confusion_matrix"],
         })
     (RESULTS_DIR / "summary.json").write_text(json.dumps(rows, indent=2) + "\n")
-    header = ("| system | macro-F1 [95% CI] | acc | F1 NEI / SUP / CON | evid. F1 (P / R) | evid. AUPRC | "
-              "top-1 hit | ECE | median ms/claim |\n|---|---|---|---|---|---|---|---|---|")
+    header = ("| system | macro-F1 [95% CI] | acc | F1 NEI / SUP / CON | evid. F1 (P / R) | evid. F1 human | "
+              "evid. AUPRC | top-1 hit | ECE | median ms/claim |\n|---|---|---|---|---|---|---|---|---|---|")
     lines = [header]
     for r in rows:
         lo, hi = r["macro_f1_ci95"]
@@ -84,8 +109,9 @@ def main():
             f"| {r['system']} | {r['macro_f1']:.3f} [{lo:.3f}, {hi:.3f}] | {r['accuracy']:.3f} | "
             f"{r['f1_NEI']:.3f} / {r['f1_SUPPORT']:.3f} / {r['f1_CONTRADICT']:.3f} | "
             f"{r['evidence_f1']:.3f} ({r['evidence_precision']:.2f} / {r['evidence_recall']:.2f}) | "
+            f"{r['evidence_f1_human_rationales']:.3f} | "
             f"{r['evidence_auprc']:.3f} | {r['evidence_top1_hit']:.3f} | {r['ece']:.3f} | {r['median_ms_per_claim']:.0f} |")
-    text = "\n".join(lines) + "\n" + stress_table()
+    text = "\n".join(lines) + "\n" + stress_table() + stress_table("_silent")
     (RESULTS_DIR / "summary.md").write_text(text)
     print(text)
 
@@ -95,16 +121,20 @@ def predictions(folder):
     return [json.loads(line) for line in path.read_text().splitlines()] if path.exists() else None
 
 
-def stress_table():
-    """Evidence-removal stress test on the 207 test claims that have gold evidence."""
-    lines = ["", "Stress test on the 207 test claims with gold evidence "
-             "(evidence_removed: all gold evidence sentences blanked, target NEI; "
-             "random_removed: as many non-evidence sentences blanked, label unchanged).", "",
+def stress_table(suffix=""):
+    """Evidence-removal stress test on the 207 test claims that have gold evidence.
+
+    suffix "_silent": the same deletions with sentences cut out and renumbered instead of blanked.
+    """
+    how = "cut out and the rest renumbered (no visible gap)" if suffix else "blanked (empty slots, the training format)"
+    lines = ["", f"Stress test{' (silent deletion)' if suffix else ''} on the 207 test claims with gold evidence, deleted sentences {how} "
+             "(evidence_removed: all gold evidence sentences, target NEI; "
+             "random_removed: as many non-evidence sentences, label unchanged).", "",
              "| system | original acc | evidence_removed -> NEI | mean P(NEI) | random_removed acc | "
              "random_removed -> NEI | selectivity |", "|---|---|---|---|---|---|---|"]
-    for folder in sorted((RESULTS_DIR / "evidence_removed").glob("*/")):
+    for folder in sorted((RESULTS_DIR / f"evidence_removed{suffix}").glob("*/")):
         removed = predictions(folder)
-        control = predictions(RESULTS_DIR / "random_removed" / folder.name)
+        control = predictions(RESULTS_DIR / f"random_removed{suffix}" / folder.name)
         original = predictions(RESULTS_DIR / folder.name)
         if not removed:
             continue

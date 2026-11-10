@@ -1,0 +1,207 @@
+{"sample_id": "2/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"13734012-2\"]}", "prompt_tokens": 601, "output_tokens": 26}
+{"sample_id": "3/group-0/random_removed_silent", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 509, "output_tokens": 17}
+{"sample_id": "9/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"44265107-14\"\n]\n}", "prompt_tokens": 755, "output_tokens": 33}
+{"sample_id": "22/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"6490571-6\"\n]\n}", "prompt_tokens": 750, "output_tokens": 31}
+{"sample_id": "40/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"13497630-5\",\n\"13497630-6\"\n]\n}", "prompt_tokens": 931, "output_tokens": 47}
+{"sample_id": "56/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"4709641-1\",\n\"4709641-2\"\n]\n}", "prompt_tokens": 522, "output_tokens": 43}
+{"sample_id": "60/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"13899137-2\",\n\"13899137-5\",\n\"13899137-7\"\n]\n}", "prompt_tokens": 672, "output_tokens": 60}
+{"sample_id": "68/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"21295300-3\",\n\"21295300-5\",\n\"21295300-6\"\n]\n}", "prompt_tokens": 516, "output_tokens": 58}
+{"sample_id": "69/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"5956380-4\", \"4414547-4\", \"4414547-5\"]}", "prompt_tokens": 909, "output_tokens": 47}
+{"sample_id": "70/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"5956380-3\",\n\"5956380-4\",\n\"4414547-5\"\n]\n}", "prompt_tokens": 978, "output_tokens": 55}
+{"sample_id": "71/group-0/random_removed_silent", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 488, "output_tokens": 14}
+{"sample_id": "79/group-0/random_removed_silent", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 493, "output_tokens": 14}
+{"sample_id": "93/group-0/random_removed_silent", "output": "{\"label\": \"SUPPORT\", \"evidence\": [\"2692522-0\", \"2692522-1\", \"2692522-2\"]}", "prompt_tokens": 375, "output_tokens": 45}
+{"sample_id": "104/group-0/random_removed_silent", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 954, "output_tokens": 14}
+{"sample_id": "105/group-0/random_removed_silent", "output": "{\"label\": \"SUPPORT\", \"evidence\": [\"36606083-3\"]}", "prompt_tokens": 397, "output_tokens": 24}
+{"sample_id": "112/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"6157837-2\"]}", "prompt_tokens": 589, "output_tokens": 25}
+{"sample_id": "114/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"33872649-2\",\n\"33872649-3\",\n\"33872649-4\"\n]\n}", "prompt_tokens": 464, "output_tokens": 58}
+{"sample_id": "115/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"33872649-4\",\n\"33872649-5\",\n\"33872649-6\"\n]\n}", "prompt_tokens": 565, "output_tokens": 60}
+{"sample_id": "119/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"14606752-2\",\n\"14606752-4\",\n\"14606752-5\"\n]\n}", "prompt_tokens": 676, "output_tokens": 60}
+{"sample_id": "120/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"14606752-4\",\n\"14606752-6\",\n\"14606752-7\"\n]\n}", "prompt_tokens": 736, "output_tokens": 58}
+{"sample_id": "129/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"27768226-2\",\n\"27768226-9\",\n\"27768226-10\"\n]}", "prompt_tokens": 1958, "output_tokens": 59}
+{"sample_id": "133/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"16280642-3\",\n\"16280642-4\"\n]\n}", "prompt_tokens": 2067, "output_tokens": 45}
+{"sample_id": "138/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"26016929-6\",\n\"26016929-7\"\n]\n}", "prompt_tokens": 544, "output_tokens": 47}
+{"sample_id": "142/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"10582939-11\"]}", "prompt_tokens": 1121, "output_tokens": 27}
+{"sample_id": "152/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"15488881-1\", \"15488881-2\"]}", "prompt_tokens": 357, "output_tokens": 38}
+{"sample_id": "157/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"13439128-2\"\n]\n}", "prompt_tokens": 391, "output_tokens": 32}
+{"sample_id": "166/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"18872233-7\",\n\"18872233-10\"\n]\n}", "prompt_tokens": 749, "output_tokens": 48}
+{"sample_id": "178/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"16322674-5\", \"16322674-6\", \"27123743-2\", \"27123743-3\", \"23557241-3\", \"17450673-3\", \"17450673-4\"]}", "prompt_tokens": 2249, "output_tokens": 98}
+{"sample_id": "189/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"4421578-3\"\n]\n}", "prompt_tokens": 519, "output_tokens": 33}
+{"sample_id": "197/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"2177022-4\"\n]\n}", "prompt_tokens": 493, "output_tokens": 32}
+{"sample_id": "200/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"18231807-3\"\n]\n}", "prompt_tokens": 467, "output_tokens": 34}
+{"sample_id": "203/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"9558539-0\",\n\"9558539-6\"\n]\n}", "prompt_tokens": 563, "output_tokens": 45}
+{"sample_id": "210/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"13794374-0\",\n\"13794374-3\"\n]\n}", "prompt_tokens": 380, "output_tokens": 46}
+{"sample_id": "212/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"22038539-1\",\n\"22038539-4\"\n]\n}", "prompt_tokens": 439, "output_tokens": 47}
+{"sample_id": "221/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"19205437-0\", \"19205437-1\", \"19205437-2\"]}", "prompt_tokens": 476, "output_tokens": 50}
+{"sample_id": "230/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"3067015-4\"\n]\n}", "prompt_tokens": 779, "output_tokens": 31}
+{"sample_id": "233/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"4388470-4\"]}", "prompt_tokens": 418, "output_tokens": 25}
+{"sample_id": "236/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"4388470-4\"\n]\n}", "prompt_tokens": 430, "output_tokens": 31}
+{"sample_id": "239/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"14079881-8\"\n]\n}", "prompt_tokens": 569, "output_tokens": 32}
+{"sample_id": "242/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"2212067-3\"]}", "prompt_tokens": 467, "output_tokens": 25}
+{"sample_id": "249/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"1568684-3\"\n]\n}", "prompt_tokens": 363, "output_tokens": 33}
+{"sample_id": "251/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"1568684-2\",\n\"1568684-3\"\n]\n}", "prompt_tokens": 422, "output_tokens": 44}
+{"sample_id": "256/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"5850219-10\"\n]\n}", "prompt_tokens": 1458, "output_tokens": 32}
+{"sample_id": "265/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"2033917-1\"\n]\n}", "prompt_tokens": 378, "output_tokens": 31}
+{"sample_id": "267/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"5912283-4\",\n\"5912283-5\",\n\"5912283-8\"\n]\n}", "prompt_tokens": 689, "output_tokens": 58}
+{"sample_id": "274/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"11614737-8\",\n\"11614737-11\"\n]\n}", "prompt_tokens": 1110, "output_tokens": 48}
+{"sample_id": "277/group-0/random_removed_silent", "output": "{\"label\": \"SUPPORT\", \"evidence\": [\"14376683-3\"]}", "prompt_tokens": 696, "output_tokens": 24}
+{"sample_id": "278/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"14376683-4\"]}", "prompt_tokens": 657, "output_tokens": 26}
+{"sample_id": "292/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"15048300-9\"\n]\n}", "prompt_tokens": 699, "output_tokens": 32}
+{"sample_id": "305/group-0/random_removed_silent", "output": "{\"label\": \"SUPPORT\", \"evidence\": [\"14797520-2\"]}", "prompt_tokens": 466, "output_tokens": 24}
+{"sample_id": "306/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"7821634-4\"\n]\n}", "prompt_tokens": 513, "output_tokens": 33}
+{"sample_id": "309/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"7821634-5\"\n]\n}", "prompt_tokens": 582, "output_tokens": 31}
+{"sample_id": "317/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"4506414-9\",\n\"4506414-10\"\n]\n}", "prompt_tokens": 1204, "output_tokens": 46}
+{"sample_id": "338/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"23349986-8\",\n\"23349986-9\",\n\"23349986-12\"\n]\n}", "prompt_tokens": 944, "output_tokens": 61}
+{"sample_id": "340/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"7098463-7\",\n\"7098463-8\"\n]\n}", "prompt_tokens": 820, "output_tokens": 44}
+{"sample_id": "342/group-0/random_removed_silent", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 530, "output_tokens": 14}
+{"sample_id": "366/group-0/random_removed_silent", "output": "{\"label\": \"SUPPORT\", \"evidence\": [\"13956305-4\"]}", "prompt_tokens": 478, "output_tokens": 24}
+{"sample_id": "379/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"19005293-0\"]}", "prompt_tokens": 401, "output_tokens": 26}
+{"sample_id": "381/group-0/random_removed_silent", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 749, "output_tokens": 17}
+{"sample_id": "396/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"1456068-2\",\n\"1456068-4\",\n\"1456068-5\",\n\"1456068-8\"\n]\n}", "prompt_tokens": 753, "output_tokens": 69}
+{"sample_id": "397/group-0/random_removed_silent", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 755, "output_tokens": 17}
+{"sample_id": "399/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"791050-5\",\n\"791050-9\"\n]\n}", "prompt_tokens": 797, "output_tokens": 41}
+{"sample_id": "414/group-0/random_removed_silent", "output": "{\"label\": \"SUPPORT\", \"evidence\": [\"6309659-11\"]}", "prompt_tokens": 943, "output_tokens": 24}
+{"sample_id": "416/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"6309659-11\", \"6309659-12\"]}", "prompt_tokens": 971, "output_tokens": 38}
+{"sample_id": "417/group-0/random_removed_silent", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 933, "output_tokens": 14}
+{"sample_id": "432/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"8002887-2\"\n]\n}", "prompt_tokens": 473, "output_tokens": 31}
+{"sample_id": "454/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"4200695-0\", \"4200695-3\", \"4200695-6\", \"4200695-7\", \"4200695-9\"]}", "prompt_tokens": 854, "output_tokens": 69}
+{"sample_id": "470/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"12685434-1\"\n]\n}", "prompt_tokens": 643, "output_tokens": 32}
+{"sample_id": "498/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"17077004-5\", \"17077004-7\"]}", "prompt_tokens": 664, "output_tokens": 38}
+{"sample_id": "499/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"26064662-6\", \"26064662-9\", \"26064662-10\"]}", "prompt_tokens": 942, "output_tokens": 51}
+{"sample_id": "505/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"22703082-0\",\n\"22703082-1\",\n\"22703082-2\"\n]\n}", "prompt_tokens": 430, "output_tokens": 58}
+{"sample_id": "516/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"29564505-7\",\n\"29564505-11\"\n]\n}", "prompt_tokens": 1141, "output_tokens": 48}
+{"sample_id": "523/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"14803797-2\"]}", "prompt_tokens": 499, "output_tokens": 26}
+{"sample_id": "525/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"13639330-1\"\n]\n}", "prompt_tokens": 386, "output_tokens": 32}
+{"sample_id": "529/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"10546779-2\",\n\"25413327-0\",\n\"25413327-3\",\n\"36651210-0\"\n]\n}", "prompt_tokens": 1118, "output_tokens": 72}
+{"sample_id": "533/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"12991445-2\",\n\"12991445-5\",\n\"12991445-7\"\n]\n}", "prompt_tokens": 713, "output_tokens": 59}
+{"sample_id": "549/group-0/random_removed_silent", "output": "{\"label\": \"SUPPORT\", \"evidence\": [\"9433958-2\"]}", "prompt_tokens": 454, "output_tokens": 23}
+{"sample_id": "559/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"3475317-4\"\n]\n}", "prompt_tokens": 431, "output_tokens": 31}
+{"sample_id": "565/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"16120395-2\",\n\"16120395-3\"\n]\n}", "prompt_tokens": 450, "output_tokens": 46}
+{"sample_id": "568/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"23418635-2\",\n\"23418635-4\"\n]\n}", "prompt_tokens": 488, "output_tokens": 45}
+{"sample_id": "569/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"23460562-3\"\n]\n}", "prompt_tokens": 523, "output_tokens": 32}
+{"sample_id": "570/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"20333864-0\",\n\"20333864-1\"\n]\n}", "prompt_tokens": 320, "output_tokens": 45}
+{"sample_id": "578/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"8764879-4\"]}", "prompt_tokens": 486, "output_tokens": 25}
+{"sample_id": "580/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"23460562-4\"\n]\n}", "prompt_tokens": 509, "output_tokens": 32}
+{"sample_id": "589/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"10984005-9\"\n]\n}", "prompt_tokens": 942, "output_tokens": 32}
+{"sample_id": "590/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"10984005-8\"\n]\n}", "prompt_tokens": 789, "output_tokens": 34}
+{"sample_id": "593/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"19675911-4\",\n\"19675911-8\"\n]\n}", "prompt_tokens": 755, "output_tokens": 47}
+{"sample_id": "598/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"25742130-4\",\n\"25742130-5\"\n]\n}", "prompt_tokens": 622, "output_tokens": 47}
+{"sample_id": "607/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"4506414-8\"\n]\n}", "prompt_tokens": 1153, "output_tokens": 32}
+{"sample_id": "613/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"9638032-2\",\n\"9638032-3\",\n\"9638032-4\"\n]\n}", "prompt_tokens": 539, "output_tokens": 55}
+{"sample_id": "615/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"9638032-2\", \"9638032-3\"]}", "prompt_tokens": 464, "output_tokens": 36}
+{"sample_id": "621/group-0/random_removed_silent", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 774, "output_tokens": 17}
+{"sample_id": "626/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"16355392-1\"\n]\n}", "prompt_tokens": 437, "output_tokens": 32}
+{"sample_id": "632/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"5172048-3\", \"5172048-4\"]}", "prompt_tokens": 456, "output_tokens": 36}
+{"sample_id": "633/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"5172048-0\",\n\"5172048-3\",\n\"5172048-4\"\n]\n}", "prompt_tokens": 460, "output_tokens": 57}
+{"sample_id": "646/group-0/random_removed_silent", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 869, "output_tokens": 17}
+{"sample_id": "653/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"24384587-0\",\n\"24384587-1\",\n\"24384587-5\"\n]\n}", "prompt_tokens": 508, "output_tokens": 59}
+{"sample_id": "661/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"37204802-1\",\n\"37204802-2\",\n\"37204802-3\"\n]\n}", "prompt_tokens": 461, "output_tokens": 58}
+{"sample_id": "665/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"12580014-0\",\n\"12580014-1\"\n]\n}", "prompt_tokens": 374, "output_tokens": 45}
+{"sample_id": "680/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"9315213-4\"]}", "prompt_tokens": 675, "output_tokens": 25}
+{"sample_id": "681/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"9315213-2\"\n]\n}", "prompt_tokens": 584, "output_tokens": 32}
+{"sample_id": "683/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"9315213-1\"\n]\n}", "prompt_tokens": 593, "output_tokens": 33}
+{"sample_id": "693/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"24088502-5\"\n]\n}", "prompt_tokens": 676, "output_tokens": 34}
+{"sample_id": "724/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"5531479-3\",\n\"5531479-4\"\n]\n}", "prompt_tokens": 425, "output_tokens": 44}
+{"sample_id": "737/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"16562534-0\",\n\"16562534-2\",\n\"6609935-2\",\n\"6609935-3\"\n]\n}", "prompt_tokens": 728, "output_tokens": 69}
+{"sample_id": "744/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"8460275-1\",\n\"8460275-2\"\n]\n}", "prompt_tokens": 498, "output_tokens": 43}
+{"sample_id": "746/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"11291348-5\"\n]\n}", "prompt_tokens": 485, "output_tokens": 32}
+{"sample_id": "747/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"11291348-4\", \"11291348-5\"]}", "prompt_tokens": 479, "output_tokens": 38}
+{"sample_id": "752/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"19800147-2\",\n\"19800147-3\",\n\"19800147-5\"\n]\n}", "prompt_tokens": 434, "output_tokens": 58}
+{"sample_id": "756/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"2831620-0\",\n\"2831620-2\"\n]\n}", "prompt_tokens": 464, "output_tokens": 43}
+{"sample_id": "767/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"2488880-5\",\n\"2488880-6\",\n\"2488880-7\"\n]\n}", "prompt_tokens": 694, "output_tokens": 57}
+{"sample_id": "771/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"15476777-14\"\n]\n}", "prompt_tokens": 1150, "output_tokens": 35}
+{"sample_id": "780/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"8246922-3\",\n\"24338780-0\",\n\"24338780-1\"\n]\n}", "prompt_tokens": 776, "output_tokens": 57}
+{"sample_id": "782/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"8246922-3\"\n]\n}", "prompt_tokens": 542, "output_tokens": 31}
+{"sample_id": "802/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"22180793-0\",\n\"22180793-2\"\n]\n}", "prompt_tokens": 444, "output_tokens": 47}
+{"sample_id": "804/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"22180793-2\",\n\"22180793-3\"\n]\n}", "prompt_tokens": 475, "output_tokens": 45}
+{"sample_id": "807/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"36606083-1\"]}", "prompt_tokens": 325, "output_tokens": 26}
+{"sample_id": "810/group-0/random_removed_silent", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 483, "output_tokens": 17}
+{"sample_id": "818/group-0/random_removed_silent", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 409, "output_tokens": 17}
+{"sample_id": "832/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"30303335-1\"\n]\n}", "prompt_tokens": 405, "output_tokens": 32}
+{"sample_id": "837/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"15928989-6\",\n\"15928989-7\"\n]\n}", "prompt_tokens": 565, "output_tokens": 45}
+{"sample_id": "839/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"1469751-0\",\n\"1469751-1\"\n]\n}", "prompt_tokens": 355, "output_tokens": 43}
+{"sample_id": "846/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"22696649-4\"\n]\n}", "prompt_tokens": 466, "output_tokens": 32}
+{"sample_id": "847/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"16787954-1\",\n\"16787954-2\"\n]\n}", "prompt_tokens": 477, "output_tokens": 47}
+{"sample_id": "852/group-0/random_removed_silent", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 635, "output_tokens": 14}
+{"sample_id": "860/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"16066726-2\"\n]\n}", "prompt_tokens": 426, "output_tokens": 34}
+{"sample_id": "863/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"20568364-0\",\n\"16361581-0\"\n]\n}", "prompt_tokens": 578, "output_tokens": 45}
+{"sample_id": "867/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"14340571-6\",\n\"14340571-10\"\n]\n}", "prompt_tokens": 664, "output_tokens": 46}
+{"sample_id": "880/group-0/random_removed_silent", "output": "{\"label\": \"SUPPORT\", \"evidence\": [\"8426046-3\"]}", "prompt_tokens": 449, "output_tokens": 23}
+{"sample_id": "882/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"14803797-2\"]}", "prompt_tokens": 581, "output_tokens": 26}
+{"sample_id": "893/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"13509809-2\",\n\"13509809-3\"\n]\n}", "prompt_tokens": 407, "output_tokens": 46}
+{"sample_id": "917/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"34071621-0\",\n\"34071621-1\"\n]\n}", "prompt_tokens": 354, "output_tokens": 45}
+{"sample_id": "922/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"17077004-6\",\n\"17077004-7\"\n]\n}", "prompt_tokens": 609, "output_tokens": 47}
+{"sample_id": "928/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"18174210-4\",\n\"18174210-5\",\n\"18174210-6\"\n]\n}", "prompt_tokens": 694, "output_tokens": 60}
+{"sample_id": "929/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"18174210-0\",\n\"18174210-1\",\n\"18174210-6\",\n\"18174210-7\"\n]\n}", "prompt_tokens": 761, "output_tokens": 71}
+{"sample_id": "933/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"14711483-11\"\n]\n}", "prompt_tokens": 974, "output_tokens": 35}
+{"sample_id": "935/group-0/random_removed_silent", "output": "{\"label\": \"SUPPORT\", \"evidence\": [\"5483793-1\", \"5483793-3\"]}", "prompt_tokens": 377, "output_tokens": 34}
+{"sample_id": "941/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"12258338-10\",\n\"12258338-11\",\n\"12258338-13\"\n]\n}", "prompt_tokens": 911, "output_tokens": 61}
+{"sample_id": "942/group-0/random_removed_silent", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 359, "output_tokens": 14}
+{"sample_id": "944/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"1642727-9\"\n]\n}", "prompt_tokens": 767, "output_tokens": 33}
+{"sample_id": "953/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"3355397-9\",\n\"3355397-10\"\n]\n}", "prompt_tokens": 981, "output_tokens": 44}
+{"sample_id": "959/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"8780599-3\", \"8780599-4\", \"8780599-5\"]}", "prompt_tokens": 477, "output_tokens": 47}
+{"sample_id": "964/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"4162857-1\",\n\"4162857-3\"\n]\n}", "prompt_tokens": 405, "output_tokens": 43}
+{"sample_id": "967/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"8997410-1\",\n\"8997410-2\",\n\"8997410-3\"\n]\n}", "prompt_tokens": 858, "output_tokens": 55}
+{"sample_id": "972/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"27873158-0\",\n\"27873158-13\",\n\"28617573-6\",\n\"9764256-0\",\n\"9764256-10\"\n]\n}", "prompt_tokens": 4248, "output_tokens": 86}
+{"sample_id": "980/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"20128547-2\",\n\"20128547-3\"\n]\n}", "prompt_tokens": 445, "output_tokens": 45}
+{"sample_id": "984/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"6828370-2\",\n\"6828370-3\"\n]\n}", "prompt_tokens": 490, "output_tokens": 43}
+{"sample_id": "985/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"6828370-1\",\n\"6828370-2\",\n\"6828370-3\"\n]\n}", "prompt_tokens": 495, "output_tokens": 55}
+{"sample_id": "994/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"16472469-2\"]}", "prompt_tokens": 446, "output_tokens": 26}
+{"sample_id": "998/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"16472469-4\"]}", "prompt_tokens": 514, "output_tokens": 26}
+{"sample_id": "1009/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"1982286-1\"\n]\n}", "prompt_tokens": 377, "output_tokens": 31}
+{"sample_id": "1018/group-0/random_removed_silent", "output": "{\"label\": \"SUPPORT\", \"evidence\": [\"11603066-5\"]}", "prompt_tokens": 621, "output_tokens": 24}
+{"sample_id": "1035/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"4547102-1\",\n\"4547102-2\",\n\"4547102-3\"\n]\n}", "prompt_tokens": 529, "output_tokens": 55}
+{"sample_id": "1043/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"17671145-3\"\n]\n}", "prompt_tokens": 415, "output_tokens": 32}
+{"sample_id": "1055/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"13906581-6\",\n\"13906581-8\",\n\"13906581-10\"\n]\n}", "prompt_tokens": 730, "output_tokens": 60}
+{"sample_id": "1056/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"4200695-0\",\n\"4200695-4\",\n\"4200695-5\",\n\"4200695-10\",\n\"4200695-11\"\n]\n}", "prompt_tokens": 929, "output_tokens": 81}
+{"sample_id": "1072/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"4824840-9\",\n\"4824840-10\",\n\"4824840-12\"\n]\n}", "prompt_tokens": 1187, "output_tokens": 59}
+{"sample_id": "1084/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"5691302-9\"\n]\n}", "prompt_tokens": 1304, "output_tokens": 31}
+{"sample_id": "1086/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"39281140-1\",\n\"39281140-4\",\n\"39281140-6\"\n]\n}", "prompt_tokens": 641, "output_tokens": 59}
+{"sample_id": "1101/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"3874000-4\"]}", "prompt_tokens": 499, "output_tokens": 25}
+{"sample_id": "1102/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"3874000-4\"\n]\n}", "prompt_tokens": 485, "output_tokens": 31}
+{"sample_id": "1104/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"3898784-6\",\n\"3898784-9\"\n]\n}", "prompt_tokens": 1183, "output_tokens": 44}
+{"sample_id": "1114/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"12824568-3\",\n\"12824568-5\",\n\"12824568-6\"\n]\n}", "prompt_tokens": 518, "output_tokens": 58}
+{"sample_id": "1119/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"5323845-3\",\n\"5323845-6\",\n\"18997216-0\",\n\"18997216-3\"\n]}", "prompt_tokens": 1724, "output_tokens": 68}
+{"sample_id": "1125/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"21009874-10\",\n\"21009874-13\"\n]\n}", "prompt_tokens": 909, "output_tokens": 47}
+{"sample_id": "1128/group-0/random_removed_silent", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 382, "output_tokens": 14}
+{"sample_id": "1137/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"33370-7\"]}", "prompt_tokens": 649, "output_tokens": 23}
+{"sample_id": "1139/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"12009265-5\",\n\"12009265-8\",\n\"12009265-12\"\n]\n}", "prompt_tokens": 1029, "output_tokens": 59}
+{"sample_id": "1142/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"5260382-0\",\n\"5260382-2\"\n]\n}", "prompt_tokens": 502, "output_tokens": 44}
+{"sample_id": "1146/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"13906581-9\",\n\"13906581-10\"\n]\n}", "prompt_tokens": 739, "output_tokens": 46}
+{"sample_id": "1157/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"12584053-6\",\n\"12584053-7\",\n\"12584053-10\"\n]\n}", "prompt_tokens": 692, "output_tokens": 59}
+{"sample_id": "1159/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"12584053-8\",\n\"12584053-11\"\n]\n}", "prompt_tokens": 740, "output_tokens": 46}
+{"sample_id": "1184/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"16737210-10\"]}", "prompt_tokens": 813, "output_tokens": 27}
+{"sample_id": "1185/group-0/random_removed_silent", "output": "{\"label\": \"SUPPORT\", \"evidence\": [\"16737210-9\"]}", "prompt_tokens": 817, "output_tokens": 24}
+{"sample_id": "1209/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"4347374-3\",\n\"4347374-4\"\n]\n}", "prompt_tokens": 452, "output_tokens": 43}
+{"sample_id": "1221/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"19736671-0\",\n\"19736671-1\"\n]\n}", "prompt_tokens": 484, "output_tokens": 45}
+{"sample_id": "1223/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"5289038-2\"]}", "prompt_tokens": 380, "output_tokens": 25}
+{"sample_id": "1225/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"9650982-3\"\n]\n}", "prompt_tokens": 532, "output_tokens": 31}
+{"sample_id": "1228/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"25641414-6\"]}", "prompt_tokens": 573, "output_tokens": 26}
+{"sample_id": "1237/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"3654468-11\"]}", "prompt_tokens": 1146, "output_tokens": 26}
+{"sample_id": "1246/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"7662395-8\", \"7662395-12\"]}", "prompt_tokens": 665, "output_tokens": 37}
+{"sample_id": "1268/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"52072815-9\"\n]\n}", "prompt_tokens": 1043, "output_tokens": 32}
+{"sample_id": "1269/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"13900610-7\"\n]\n}", "prompt_tokens": 956, "output_tokens": 32}
+{"sample_id": "1270/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"13900610-8\"]}", "prompt_tokens": 954, "output_tokens": 26}
+{"sample_id": "1271/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"13768432-6\",\n\"13768432-8\",\n\"13768432-10\"\n]\n}", "prompt_tokens": 826, "output_tokens": 59}
+{"sample_id": "1298/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"11718220-4\",\n\"11718220-9\",\n\"11718220-11\"\n]\n}", "prompt_tokens": 886, "output_tokens": 59}
+{"sample_id": "1303/group-0/random_removed_silent", "output": "{\"label\": \"NEI\", \"evidence\": []}", "prompt_tokens": 416, "output_tokens": 14}
+{"sample_id": "1305/group-0/random_removed_silent", "output": "{\n\"label\": \"NEI\",\n\"evidence\": []\n}", "prompt_tokens": 393, "output_tokens": 17}
+{"sample_id": "1320/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"16284655-2\", \"16284655-3\"]}", "prompt_tokens": 494, "output_tokens": 38}
+{"sample_id": "1322/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"16284655-1\",\n\"16284655-2\"\n]\n}", "prompt_tokens": 439, "output_tokens": 45}
+{"sample_id": "1324/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"19912367-2\"\n]\n}", "prompt_tokens": 374, "output_tokens": 32}
+{"sample_id": "1328/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"3475317-2\",\n\"3475317-3\",\n\"3475317-4\"\n]\n}", "prompt_tokens": 436, "output_tokens": 55}
+{"sample_id": "1346/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"9505402-0\",\n\"9505402-1\"\n]\n}", "prompt_tokens": 446, "output_tokens": 43}
+{"sample_id": "1352/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"12885341-1\"\n]\n}", "prompt_tokens": 462, "output_tokens": 32}
+{"sample_id": "1356/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"13764090-1\",\n\"13764090-2\"\n]\n}", "prompt_tokens": 370, "output_tokens": 45}
+{"sample_id": "1360/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"11614737-8\",\n\"11614737-11\"\n]\n}", "prompt_tokens": 1149, "output_tokens": 48}
+{"sample_id": "1366/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"4406819-1\"\n]\n}", "prompt_tokens": 513, "output_tokens": 31}
+{"sample_id": "1368/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"2425364-6\", \"2425364-8\"]}", "prompt_tokens": 656, "output_tokens": 36}
+{"sample_id": "1371/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"16256507-1\",\n\"16256507-5\",\n\"16256507-6\"\n]\n}", "prompt_tokens": 759, "output_tokens": 58}
+{"sample_id": "1378/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"2488880-5\",\n\"2488880-6\",\n\"2488880-7\"\n]\n}", "prompt_tokens": 638, "output_tokens": 55}
+{"sample_id": "1379/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"16322674-5\",\n\"16322674-6\",\n\"27123743-3\",\n\"27123743-4\",\n\"23557241-6\",\n\"17450673-3\"\n]\n}", "prompt_tokens": 2238, "output_tokens": 97}
+{"sample_id": "1380/group-0/random_removed_silent", "output": "{\n\"label\": \"CONTRADICT\",\n\"evidence\": [\n\"16322674-3\",\n\"16322674-4\",\n\"23557241-6\",\n\"17450673-4\",\n\"17450673-5\"\n]\n}", "prompt_tokens": 2010, "output_tokens": 86}
+{"sample_id": "1383/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"17755060-0\",\n\"17755060-1\",\n\"17755060-2\"\n]\n}", "prompt_tokens": 347, "output_tokens": 58}
+{"sample_id": "1385/group-0/random_removed_silent", "output": "{\"label\": \"CONTRADICT\", \"evidence\": [\"306006-3\"]}", "prompt_tokens": 389, "output_tokens": 24}
+{"sample_id": "1392/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"6766459-1\",\n\"6766459-2\"\n]\n}", "prompt_tokens": 507, "output_tokens": 43}
+{"sample_id": "1404/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"38355793-2\",\n\"38355793-6\",\n\"38355793-7\"\n]\n}", "prompt_tokens": 1062, "output_tokens": 58}
+{"sample_id": "1406/group-0/random_removed_silent", "output": "{\n\"label\": \"SUPPORT\",\n\"evidence\": [\n\"2617858-2\",\n\"2617858-4\"\n]\n}", "prompt_tokens": 658, "output_tokens": 43}

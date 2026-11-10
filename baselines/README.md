@@ -24,8 +24,13 @@ rows of the final table come from one evaluation code path.
 * The official MultiVerS `scifact` checkpoint was trained on the SciFact train split; 249 of our
   333 test claims come from that split, so it is **not** used. `fever_sci` has seen no SciFact data,
   and B4b is fine-tuned only on our training split.
-* Qwen3.8-27B was not used for any data construction (augmentation used grok-4.7 on training claims
-  only); its pre-training data cannot be audited, which we state as a limitation.
+* Qwen3.8-27B was not used for any data construction; its pre-training data cannot be audited, which
+  we state as a limitation.
+* The grok-4.7 evidence expansion (`augment_train_evidence.py`) ran on the official SciFact train
+  split *before* the 7:3 split, so the 249 test claims from that split carry 104 Grok-added evidence
+  sentences (`*_more`, ~20% of test evidence sentences); claim labels and the human rationales are
+  unchanged. `summarize.py` therefore also reports evidence F1 against human rationales only
+  (Grok-added sentences neither rewarded nor penalised); rankings are the same under both.
 
 ## Stress test: does the model abstain when evidence is removed?
 `--eval-set evidence_removed` builds, in memory, a copy of the 207 test claims that have gold
@@ -36,6 +41,12 @@ reacts to "text is missing" abstains in both; a model that tracks evidence absta
 first. `summarize.py` reports both NEI rates and their difference (selectivity). Gold rationales can
 omit valid evidence, so evidence_removed NEI rates are a lower bound on correct abstention, and these
 inputs were not manually verified.
+
+The `_silent` variants (`evidence_removed_silent`, `random_removed_silent`) delete exactly the same
+sentences but cut them out and renumber the rest, so no empty slot or index gap reveals that
+anything was removed. Comparing the two isolates how much of a model's abstention comes from the
+visible deletion marker rather than from the content (systems that skip empty sentences, NLI and
+MultiVerS, score identically on both).
 
 ## Running
 Environment (node-local scratch on l40sx8, because the home quota is ~5 GB):
@@ -48,7 +59,7 @@ export HF_HOME=$S/hf_cache
 One GPU per run (`CUDA_VISIBLE_DEVICES=<id>`), from this directory:
 ```bash
 python trivial.py
-python d1_zero_shot.py                      [--eval-set evidence_removed|random_removed]
+python d1_zero_shot.py                      [--eval-set evidence_removed|random_removed|evidence_removed_silent|random_removed_silent]
 python d1_original_sft.py --seed 42         # ~75 min on one L40S; adapter -> $S/outputs/d1-original-sft-seed42
 python d1_adapter_eval.py --adapter-dir $S/outputs/d1-original-sft-seed42/final --name b2_d1_original_sft_seed42
 python nli_zero_shot.py --label-source abstract
@@ -57,7 +68,7 @@ python multivers_finetune.py && python multivers_zero_shot.py --weights $S/outpu
 PATH=$S/env_vllm/bin:$PATH $S/env_vllm/bin/python llm_zero_shot.py
 python summarize.py                         # -> results/summary.md, results/summary.json
 ```
-`run_b2_rest.sh`, `run_b2_gpu5.sh`, `run_stress_zero_shot.sh` and `run_multivers_ft.sh` are the exact job chains we ran.
+Every stress run is the same command with `--eval-set evidence_removed|random_removed|evidence_removed_silent|random_removed_silent`.
 
 Outputs: `results/<system>/metrics.json` and `predictions.jsonl` (per-claim label probabilities,
 per-sentence evidence probabilities, gold targets); stress tests under `results/<eval_set>/<system>/`.

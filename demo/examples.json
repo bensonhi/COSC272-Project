@@ -1,16 +1,26 @@
 [
   {
-    "claim_id": 1009,
+    "claim_id": 203,
+    "tag": "evidence removal",
+    "note": "Gold CONTRADICT, model right on the full abstract; with the gold evidence removed it says NEI while b2_d1_original_sft_seed42 keeps its verdict."
+  },
+  {
+    "claim_id": 1346,
+    "tag": "evidence removal",
+    "note": "Gold SUPPORT, model right on the full abstract; with the gold evidence removed it says NEI while b2_d1_original_sft_seed42 keeps its verdict."
+  },
+  {
+    "claim_id": 1086,
     "tag": "representative",
     "note": "Correct SUPPORT with high confidence."
   },
   {
-    "claim_id": 994,
+    "claim_id": 683,
     "tag": "representative",
     "note": "Correct CONTRADICT with high confidence."
   },
   {
-    "claim_id": 422,
+    "claim_id": 1191,
     "tag": "representative",
     "note": "Correct NEI with high confidence."
   },
@@ -20,27 +30,27 @@
     "note": "Several cited abstracts; gold SUPPORT, model says SUPPORT."
   },
   {
-    "claim_id": 3,
+    "claim_id": 593,
     "tag": "challenging",
-    "note": "Numeric claim; gold SUPPORT, model says NEI."
+    "note": "Numeric claim; gold SUPPORT, model says CONTRADICT."
   },
   {
     "claim_id": 615,
     "tag": "challenging",
-    "note": "d1 and the 27B LLM disagree; gold CONTRADICT, d1 says SUPPORT."
+    "note": "Disagrees with b5_llm_qwen3.8_27b; gold CONTRADICT, model says SUPPORT."
   },
   {
-    "claim_id": 1278,
+    "claim_id": 174,
     "tag": "failure",
     "note": "Unsupported judgement: gold NEI but the model says CONTRADICT."
   },
   {
-    "claim_id": 683,
+    "claim_id": 847,
     "tag": "failure",
     "note": "Polarity error: gold CONTRADICT, model says SUPPORT."
   },
   {
-    "claim_id": 1305,
+    "claim_id": 818,
     "tag": "failure",
     "note": "Unnecessary abstention: gold SUPPORT, model says NEI."
   }

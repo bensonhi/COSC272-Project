@@ -9,6 +9,7 @@
     "evidence_auprc": 0.15986620212795924,
     "evidence_top1_hit": 0.028985507246376812,
     "evidence_f1_on_gold_evidence_claims": 0.0,
+    "evidence_f1_human_rationales": 0.0,
     "accuracy": 0.4114114114114114,
     "f1_NEI": 0.0,
     "f1_SUPPORT": 0.5829787234042553,
@@ -46,6 +47,7 @@
     "evidence_auprc": 0.40352565768521914,
     "evidence_top1_hit": 0.7198067632850241,
     "evidence_f1_on_gold_evidence_claims": 0.42325056433408575,
+    "evidence_f1_human_rationales": 0.36547619047619045,
     "accuracy": 0.7867867867867868,
     "f1_NEI": 0.8110236220472441,
     "f1_SUPPORT": 0.8222222222222222,
@@ -83,6 +85,7 @@
     "evidence_auprc": 0.8412430621583954,
     "evidence_top1_hit": 0.9565217391304348,
     "evidence_f1_on_gold_evidence_claims": 0.7903711133400201,
+    "evidence_f1_human_rationales": 0.7884393063583816,
     "accuracy": 0.8588588588588588,
     "f1_NEI": 0.888,
     "f1_SUPPORT": 0.8669201520912547,
@@ -111,6 +114,44 @@
     ]
   },
   {
+    "system": "b2_d1_original_sft_seed43",
+    "macro_f1": 0.8526036789477649,
+    "macro_f1_ci95": [
+      0.8127611676319498,
+      0.8923851321686258
+    ],
+    "evidence_auprc": 0.8528183863292548,
+    "evidence_top1_hit": 0.9420289855072463,
+    "evidence_f1_on_gold_evidence_claims": 0.8058536585365854,
+    "evidence_f1_human_rationales": 0.7959413754227734,
+    "accuracy": 0.8618618618618619,
+    "f1_NEI": 0.8790322580645161,
+    "f1_SUPPORT": 0.8814814814814815,
+    "f1_CONTRADICT": 0.7972972972972973,
+    "evidence_f1": 0.7859181731684111,
+    "evidence_precision": 0.7896749521988528,
+    "evidence_recall": 0.7821969696969697,
+    "ece": 0.11345448365082614,
+    "median_ms_per_claim": 324.2418970912695,
+    "confusion_gold_rows_NEI_SUP_CON": [
+      [
+        109,
+        7,
+        10
+      ],
+      [
+        9,
+        119,
+        9
+      ],
+      [
+        4,
+        7,
+        59
+      ]
+    ]
+  },
+  {
     "system": "b2_d1_original_sft_seed44",
     "macro_f1": 0.8630601792573623,
     "macro_f1_ci95": [
@@ -120,6 +161,7 @@
     "evidence_auprc": 0.842547833164135,
     "evidence_top1_hit": 0.9371980676328503,
     "evidence_f1_on_gold_evidence_claims": 0.7701612903225806,
+    "evidence_f1_human_rationales": 0.7701283547257877,
     "accuracy": 0.8738738738738738,
     "f1_NEI": 0.9,
     "f1_SUPPORT": 0.8863636363636364,
@@ -157,6 +199,7 @@
     "evidence_auprc": 0.44905033446049825,
     "evidence_top1_hit": 0.7053140096618358,
     "evidence_f1_on_gold_evidence_claims": 0.5284640171858217,
+    "evidence_f1_human_rationales": 0.4722838137472284,
     "accuracy": 0.7657657657657657,
     "f1_NEI": 0.7786259541984732,
     "f1_SUPPORT": 0.7910447761194029,
@@ -194,6 +237,7 @@
     "evidence_auprc": 0.44905033446049825,
     "evidence_top1_hit": 0.7053140096618358,
     "evidence_f1_on_gold_evidence_claims": 0.5284640171858217,
+    "evidence_f1_human_rationales": 0.4722838137472284,
     "accuracy": 0.6186186186186187,
     "f1_NEI": 0.6444444444444445,
     "f1_SUPPORT": 0.5671641791044776,
@@ -231,6 +275,7 @@
     "evidence_auprc": 0.5829150960705247,
     "evidence_top1_hit": 0.7922705314009661,
     "evidence_f1_on_gold_evidence_claims": 0.16580310880829016,
+    "evidence_f1_human_rationales": 0.1936842105263158,
     "accuracy": 0.6756756756756757,
     "f1_NEI": 0.7412140575079872,
     "f1_SUPPORT": 0.7153846153846154,
@@ -268,6 +313,7 @@
     "evidence_auprc": 0.8049072468134447,
     "evidence_top1_hit": 0.893719806763285,
     "evidence_f1_on_gold_evidence_claims": 0.7368421052631579,
+    "evidence_f1_human_rationales": 0.7457240592930444,
     "accuracy": 0.8378378378378378,
     "f1_NEI": 0.88,
     "f1_SUPPORT": 0.8475836431226765,
@@ -305,6 +351,7 @@
     "evidence_auprc": 0.6072211579974357,
     "evidence_top1_hit": 0.8019323671497585,
     "evidence_f1_on_gold_evidence_claims": 0.7076923076923077,
+    "evidence_f1_human_rationales": 0.71712158808933,
     "accuracy": 0.8378378378378378,
     "f1_NEI": 0.8433734939759037,
     "f1_SUPPORT": 0.8715953307392996,
@@ -329,6 +376,44 @@
         5,
         3,
         62
+      ]
+    ]
+  },
+  {
+    "system": "d1_augmented_sft_seed42",
+    "macro_f1": 0.8502444012641058,
+    "macro_f1_ci95": [
+      0.8101482558892209,
+      0.8907859457742361
+    ],
+    "evidence_auprc": 0.8268796106480917,
+    "evidence_top1_hit": 0.9323671497584541,
+    "evidence_f1_on_gold_evidence_claims": 0.7926455566905005,
+    "evidence_f1_human_rationales": 0.8047619047619048,
+    "accuracy": 0.8588588588588588,
+    "f1_NEI": 0.8796992481203008,
+    "f1_SUPPORT": 0.8682170542635659,
+    "f1_CONTRADICT": 0.8028169014084507,
+    "evidence_f1": 0.7806841046277666,
+    "evidence_precision": 0.8326180257510729,
+    "evidence_recall": 0.7348484848484849,
+    "ece": 0.1262042298689261,
+    "median_ms_per_claim": 322.6059190928936,
+    "confusion_gold_rows_NEI_SUP_CON": [
+      [
+        117,
+        3,
+        6
+      ],
+      [
+        16,
+        112,
+        9
+      ],
+      [
+        7,
+        6,
+        57
       ]
     ]
   }
