@@ -20,19 +20,25 @@ class WorkflowTests(unittest.TestCase):
         self.addCleanup(temporary.cleanup)
         self.root = Path(temporary.name)
         self.train_dir = self.root / "train"
+        self.validation_dir = self.root / "validation"
         self.test_dir = self.root / "test"
         self.output_dir = self.root / "model"
         self.train_dir.mkdir()
+        self.validation_dir.mkdir()
         self.test_dir.mkdir()
         record = fixture()
         record["groups"].append(deepcopy(record["groups"][0]))
         (self.train_dir / "10.json").write_text(json.dumps(record))
+        validation_record = fixture()
+        validation_record["id"] = 13
+        (self.validation_dir / "13.json").write_text(json.dumps(validation_record))
         for claim_id in (11, 12):
             record = fixture()
             record["id"] = claim_id
             (self.test_dir / f"{claim_id}.json").write_text(json.dumps(record))
         self.arguments = [
-            "--train-dir", str(self.train_dir), "--test-dir", str(self.test_dir),
+            "--train-dir", str(self.train_dir), "--validation-dir", str(self.validation_dir),
+            "--test-dir", str(self.test_dir),
             "--output-dir", str(self.output_dir),
         ]
 
@@ -45,6 +51,7 @@ class WorkflowTests(unittest.TestCase):
         self.assertIsInstance(args.device, int)
         self.assertEqual(args.adapter_dir, self.output_dir / "final")
         self.assertEqual(args.eval_output_dir, self.output_dir / "test")
+        self.assertEqual(args.validation_dir, self.validation_dir)
 
     def test_device_accepts_gpu_index_or_explicit_cpu(self):
         for value, expected in (("0", 0), ("2", 2), ("cpu", "cpu")):
@@ -87,10 +94,13 @@ class WorkflowTests(unittest.TestCase):
             cli.main(self.arguments + ["--max-groups", "1", "--max-steps", "1", "--revision", "main"])
         self.assertEqual(events, ["train", "test"])
 
-    def test_train_only_does_not_read_test_data(self):
+    def test_train_mode_passes_held_out_directories_without_final_reload(self):
         with patch.object(cli, "train") as train, patch.object(cli, "evaluate") as evaluate:
-            cli.main(self.arguments + ["--mode", "train", "--test-dir", str(self.root / "missing")])
+            cli.main(self.arguments + ["--mode", "train"])
         train.assert_called_once()
+        args = train.call_args.args[0]
+        self.assertEqual(args.validation_dir, self.validation_dir)
+        self.assertEqual(args.test_dir, self.test_dir)
         evaluate.assert_not_called()
 
     def test_failed_training_does_not_start_evaluation(self):
@@ -99,15 +109,18 @@ class WorkflowTests(unittest.TestCase):
                 cli.main(self.arguments)
         evaluate.assert_not_called()
 
-    def test_dry_run_checks_both_splits_without_training(self):
-        output = io.StringIO()
-        with patch.object(cli, "train") as train, patch.object(cli, "evaluate") as evaluate, redirect_stdout(output):
-            cli.main(self.arguments + ["--dry-run", "--max-groups", "1"])
-        summary = json.loads(output.getvalue())
-        self.assertEqual(summary["train"]["groups"], 1)
-        self.assertEqual(summary["test"]["groups"], 2)
-        train.assert_not_called()
-        evaluate.assert_not_called()
+    def test_dry_run_checks_all_splits_without_training(self):
+        for mode in ("train", "train_test"):
+            with self.subTest(mode=mode):
+                output = io.StringIO()
+                with patch.object(cli, "train") as train, patch.object(cli, "evaluate") as evaluate, redirect_stdout(output):
+                    cli.main(self.arguments + ["--mode", mode, "--dry-run", "--max-groups", "1"])
+                summary = json.loads(output.getvalue())
+                self.assertEqual(summary["train"]["groups"], 1)
+                self.assertEqual(summary["validation"]["groups"], 1)
+                self.assertEqual(summary["test"]["groups"], 2)
+                train.assert_not_called()
+                evaluate.assert_not_called()
 
     def test_combined_mode_rejects_unrelated_existing_adapter(self):
         with patch("sys.stderr", new_callable=io.StringIO), self.assertRaises(SystemExit):

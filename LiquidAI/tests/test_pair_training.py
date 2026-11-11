@@ -69,6 +69,8 @@ class PairTrainingTests(unittest.TestCase):
                      patch.object(training, "DecisionCodec", return_value=codec), \
                      patch.object(training, "attach_lora", return_value=model), \
                      patch.object(training, "save_adapter"), \
+                     patch.object(training, "load_samples", return_value=samples), \
+                     patch.object(training, "evaluate_model", return_value={}), \
                      patch.object(torch.optim, "AdamW", RecordingOptimizer):
                     training.train(args, samples, dataset_summary(samples))
 

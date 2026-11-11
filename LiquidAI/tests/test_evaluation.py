@@ -75,9 +75,10 @@ class InferenceTests(unittest.TestCase):
     def test_test_cli_saves_metrics_for_all_files_and_groups(self):
         torch = self.torch
 
-        class FixedModel:
-            def __call__(self, input_ids, logits_to_keep, **kwargs):
+        class FixedModel(torch.nn.Module):
+            def forward(self, input_ids, logits_to_keep, **kwargs):
                 assert not torch.is_grad_enabled()
+                assert not self.training
                 logits = torch.arange(8, dtype=torch.float32).repeat(input_ids.shape[0], len(logits_to_keep), 1)
                 return SimpleNamespace(logits=logits)
 
