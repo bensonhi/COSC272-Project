@@ -10,8 +10,9 @@ import random
 import time
 
 from .config import ROOT, LABELS, LABEL_TO_ID, LOGGER
-from .data import Sample
+from .data import Sample, load_samples, dataset_summary
 from .encoding import DecisionCodec, question_batch
+from .evaluation import evaluate_model
 from .losses import joint_loss, pair_hinge_loss
 from .modeling import attach_lora, forward_answer_logits, load_train_model, pool_options, save_adapter
 from .pairing import build_evidence_pairs
@@ -22,6 +23,13 @@ def train(args, samples: list[Sample], summary: dict) -> None:
     pairs = build_evidence_pairs(samples) if args.loss == "pair" else {}
     if args.loss == "pair":
         summary["evidence_pairs"] = len(pairs)
+    # Always evaluate complete held-out splits, including in smoke runs with a
+    # training-only --max-groups/--max-steps limit. Fail before loading the model
+    # if either split is missing or invalid.
+    evaluation_sets = {
+        split: load_samples(getattr(args, f"{split}_dir"))
+        for split in ("validation", "test")
+    }
     try:
         import torch
         import transformers
@@ -41,6 +49,11 @@ def train(args, samples: list[Sample], summary: dict) -> None:
         len(s.prefix_ids) + len(q.suffix_ids) for s in encoded for q in s.questions
     )
     summary["decision_questions"] = sum(len(s.questions) for s in encoded)
+    evaluation_inputs = {
+        split: [codec.encode(sample, args.max_length) for sample in held_out]
+        for split, held_out in evaluation_sets.items()
+    }
+    evaluation_summaries = {split: dataset_summary(held_out) for split, held_out in evaluation_sets.items()}
     model = attach_lora(base_model, args).to(device)
     model.train()
     parameters = [p for p in model.parameters() if p.requires_grad]
@@ -74,6 +87,7 @@ def train(args, samples: list[Sample], summary: dict) -> None:
         "loss": "CE(stance) + evidence_loss_weight * mean_valid_sentences(BCEWithLogits(yes-no))",
         "label_weights": label_weights.tolist() if label_weights is not None else None,
         "summary": summary,
+        "evaluation_summaries": evaluation_summaries,
         "torch_version": torch.__version__,
         "transformers_version": transformers.__version__,
         "peft_version": peft.__version__,
@@ -89,9 +103,10 @@ def train(args, samples: list[Sample], summary: dict) -> None:
     args.output_dir.mkdir(parents=True, exist_ok=True)
     (args.output_dir / "training_config.json").write_text(json.dumps(metadata, indent=2) + "\n", encoding="utf-8")
     LOGGER.info("Training summary: %s", json.dumps(summary))
-    LOGGER.info("Planned optimizer updates: %d; test data is not used", total_steps)
+    LOGGER.info("Planned optimizer updates: %d; evaluating validation and test after each epoch", total_steps)
     started, global_step = time.monotonic(), 0
-    with (args.output_dir / "train_metrics.jsonl").open("w", encoding="utf-8") as log:
+    with (args.output_dir / "train_metrics.jsonl").open("w", encoding="utf-8") as log, \
+         (args.output_dir / "epoch_metrics.jsonl").open("w", encoding="utf-8") as epoch_log:
         for epoch in range(args.epochs):
             order = list(range(len(encoded)))
             random.Random(args.seed + epoch).shuffle(order)
@@ -171,8 +186,31 @@ def train(args, samples: list[Sample], summary: dict) -> None:
                         LOGGER.info("  pairs=%d hinge=%.4f weighted_contribution=%.4f", pair_count, metrics["pair_loss"], pair_contribution)
                 if global_step >= total_steps:
                     break
-            metadata.update({"global_step": global_step, "last_epoch": epoch + 1})
-            save_adapter(model, tokenizer, args.output_dir / f"checkpoint-step-{global_step}", metadata)
+            epoch_complete = window_start + len(window) == len(order)
+            metadata.update({"global_step": global_step, "last_epoch": epoch + 1,
+                             "epoch_complete": epoch_complete})
+            checkpoint_dir = args.output_dir / f"checkpoint-step-{global_step}"
+            # A step limit may end training partway through an epoch. Only
+            # completed epochs produce checkpoints; final is still saved below.
+            if epoch_complete:
+                save_adapter(model, tokenizer, checkpoint_dir, metadata)
+            optimizer.zero_grad(set_to_none=True)
+            epoch_metrics = {"epoch": epoch + 1, "step": global_step, "epoch_complete": epoch_complete}
+            model_info = {
+                "base_model": args.model,
+                "adapter_dir": str(checkpoint_dir.resolve()) if epoch_complete else None,
+                "epoch_complete": epoch_complete,
+                "resolved_revision": metadata["resolved_revision"], "dtype": dtype_name,
+                "device": str(device),
+            }
+            for split, held_out in evaluation_sets.items():
+                epoch_metrics[split] = evaluate_model(
+                    args, held_out, evaluation_summaries[split], model, codec, pad_token_id, device, model_info,
+                    output_dir=args.output_dir / f"epoch-{epoch + 1}" / split,
+                    split=split, encoded=evaluation_inputs[split], epoch=epoch + 1, step=global_step,
+                )
+            epoch_log.write(json.dumps(epoch_metrics, allow_nan=False) + "\n")
+            epoch_log.flush()
             if global_step >= total_steps:
                 break
     save_adapter(model, tokenizer, args.output_dir / "final", metadata)

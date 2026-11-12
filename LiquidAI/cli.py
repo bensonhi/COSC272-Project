@@ -4,16 +4,23 @@ Usage (from this directory):
     python run.py --dry-run
     python run.py --epochs 3 --output-dir outputs/d1-scifact
     python run.py --mode train --epochs 3
+    python run.py --original --epochs 3 --output-dir outputs/d1-original
     python run.py --loss pair --pair-margin 1 --pair-loss-weight 1
     python run.py --mode test --dry-run
     python run.py --mode test --adapter-dir outputs/d1-scifact/final
 
-The default mode, train_test, trains first and then evaluates the freshly saved
-output-dir/final adapter on the complete test set. Results default to
-output-dir/test. Use train or test to run either phase on its own.
+Both train and train_test evaluate the complete validation and test sets after
+each epoch using the current model, then resume training. Results are saved to
+output-dir/epoch-N/{validation,test}/, with history in epoch_metrics.jsonl.
+Checkpoints are saved only after complete epochs. A mid-epoch --max-steps stop
+still evaluates both held-out splits and saves final, without an epoch checkpoint.
+train_test additionally evaluates the saved output-dir/final adapter on test;
+those results default to output-dir/test. Use test for a saved adapter only.
 
 Each JSON's groups are separate training samples. A sample contains the claim
 and ALL its articles; its stance label is not copied onto individual articles.
+By default all training groups are used. --original keeps only training groups
+whose variant equals "original", before --max-groups; validation/test stay complete.
 Sentence arrays, targets and masks are indexed by original_index, never by
 new_index. Removed sentences are empty strings and contribute no evidence loss.
 
@@ -69,13 +76,17 @@ def parse_device(value: str) -> int | str:
 def parse_args(argv=None):
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--mode", choices=("train_test", "train", "test"), default="train_test",
-                        help="Default: train, save the adapter, then evaluate the complete test set")
+                        help="train/train_test evaluate validation and test each epoch; train_test also tests the saved final adapter")
     parser.add_argument("--train-dir", type=Path, default=ROOT.parent / "data" / "train")
+    parser.add_argument("--original", action="store_true",
+                        help="Train only on groups with variant=original; validation/test are unchanged")
+    parser.add_argument("--validation-dir", type=Path, default=ROOT.parent / "data" / "validation",
+                        help="Complete validation set evaluated after each training epoch")
     parser.add_argument("--test-dir", type=Path, default=ROOT.parent / "data" / "test")
     parser.add_argument("--output-dir", type=Path, default=ROOT / "outputs" / "d1-scifact", help="Training output directory")
     parser.add_argument("--adapter-dir", type=Path, help="Existing LoRA adapter for test mode; defaults to output-dir/final")
     parser.add_argument("--eval-output-dir", type=Path, help="Test metrics and predictions directory; defaults to output-dir/test")
-    parser.add_argument("--evidence-threshold", type=float, default=0.5, help="Fixed test evidence selection threshold (>=); never fitted on test data")
+    parser.add_argument("--evidence-threshold", type=float, default=0.5, help="Fixed validation/test evidence selection threshold (>=); never fitted on test data")
     parser.add_argument("--ece-bins", type=int, default=10, help="Equal-width bins for top-label ECE")
     parser.add_argument("--model", help="Base checkpoint; training defaults to LiquidAI/d1-3B, testing uses adapter metadata")
     parser.add_argument("--revision", help="Optional Hub revision/commit, recorded with the adapter")
@@ -108,6 +119,8 @@ def parse_args(argv=None):
     parser.add_argument("--max-steps", type=int, help="Stop after N optimizer updates")
     parser.add_argument("--dry-run", action="store_true", help="Validate data/masks and print counts, without ML dependencies")
     args = parser.parse_args(argv)
+    if args.mode != "test" and args.original and args.loss == "pair":
+        parser.error("--original cannot be combined with --loss pair, which requires drop_all_evidence training groups; use --loss ce")
     if args.mode in ("train", "train_test") and args.model is None:
         args.model = DEFAULT_MODEL
     if args.mode == "train_test" and args.adapter_dir is not None:
@@ -145,14 +158,16 @@ def main(argv=None) -> None:
     args = parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     data_dir = args.test_dir if args.mode == "test" else args.train_dir
-    samples = load_samples(data_dir, args.max_groups)
+    samples = load_samples(data_dir, args.max_groups, original_only=args.original and args.mode != "test")
     summary = dataset_summary(samples)
     if args.mode != "test" and args.loss == "pair":
         summary["evidence_pairs"] = len(build_evidence_pairs(samples))
     if args.dry_run:
-        if args.mode == "train_test":
+        if args.mode != "test":
+            validation_samples = load_samples(args.validation_dir)
             test_samples = load_samples(args.test_dir)
-            print(json.dumps({"train": summary, "test": dataset_summary(test_samples)}, indent=2))
+            print(json.dumps({"train": summary, "validation": dataset_summary(validation_samples),
+                              "test": dataset_summary(test_samples)}, indent=2))
         else:
             print(json.dumps(summary, indent=2))
         return

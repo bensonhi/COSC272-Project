@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from contextlib import contextmanager
 import json
 import time
 from typing import Any
@@ -12,6 +13,20 @@ from .encoding import question_batch
 from .metrics import TestMetrics
 from .modeling import forward_answer_logits, load_test_model, pool_options
 from .prompts import STANCE_QUESTION, EVIDENCE_INSTRUCTIONS
+
+
+@contextmanager
+def evaluation_mode(model):
+    """Disable training behavior and gradients, then restore the caller's mode."""
+    import torch
+
+    was_training = model.training
+    model.eval()
+    try:
+        with torch.inference_mode():
+            yield
+    finally:
+        model.train(was_training)
 
 
 def predict_sample(model, codec, encoded, pad_token_id, device, question_batch_size):
@@ -81,30 +96,47 @@ def prediction_record(sample, label_probabilities, sentence_probabilities, thres
 
 
 def evaluate(args, samples: list[Sample], summary: dict) -> dict[str, Any]:
+    """Load a saved adapter for standalone/final test evaluation."""
     output_dir = args.eval_output_dir
     if output_dir.exists() and any(output_dir.iterdir()):
         raise ValueError(f"Evaluation output directory is not empty: {output_dir}; choose a new --eval-output-dir")
     model, codec, pad_token_id, device, model_info = load_test_model(args)
+    return evaluate_model(args, samples, summary, model, codec, pad_token_id, device, model_info)
+
+
+def evaluate_model(
+    args, samples: list[Sample], summary: dict, model, codec, pad_token_id, device,
+    model_info: dict, *, output_dir=None, split="test", encoded=None, epoch=None, step=None,
+) -> dict[str, Any]:
+    """Score a loaded model, optionally reusing inputs encoded before training."""
+    output_dir = args.eval_output_dir if output_dir is None else output_dir
+    if output_dir.exists() and any(output_dir.iterdir()):
+        raise ValueError(f"Evaluation output directory is not empty: {output_dir}; choose a new output directory")
     # Preflight every input: never report metrics on an unnoticed truncated or
     # skipped subset. Test mode deliberately has no --max-groups shortcut.
-    encoded = [codec.encode(sample, args.max_length) for sample in samples]
+    if encoded is None:
+        encoded = [codec.encode(sample, args.max_length) for sample in samples]
+    if len(encoded) != len(samples) or any(s.key != item.key for s, item in zip(samples, encoded)):
+        raise ValueError("Encoded evaluation inputs do not match the samples")
     summary = {**summary, "max_question_tokens": max(
         len(s.prefix_ids) + len(q.suffix_ids) for s in encoded for q in s.questions
     )}
     config = {
-        **model_info, "test_dir": str(args.test_dir.resolve()), "summary": summary,
+        **model_info, "split": split, f"{split}_dir": str(getattr(args, f"{split}_dir").resolve()), "summary": summary,
         "evidence_threshold": args.evidence_threshold, "ece_bins": args.ece_bins,
         "max_length": args.max_length, "question_batch_size": args.question_batch_size,
         "stance_question": STANCE_QUESTION, "evidence_instructions": EVIDENCE_INSTRUCTIONS,
         "gold_evidence_used_as_input": False,
         "evidence_f1_conditioned_on_predicted_label": False,
     }
+    if epoch is not None:
+        config.update({"epoch": epoch, "global_step": step})
     output_dir.mkdir(parents=True, exist_ok=True)
-    (output_dir / "test_config.json").write_text(json.dumps(config, indent=2) + "\n", encoding="utf-8")
+    (output_dir / f"{split}_config.json").write_text(json.dumps(config, indent=2) + "\n", encoding="utf-8")
     metrics = TestMetrics(args.evidence_threshold, args.ece_bins)
     started = time.monotonic()
     partial = output_dir / "predictions.partial.jsonl"
-    with partial.open("w", encoding="utf-8") as handle:
+    with evaluation_mode(model), partial.open("w", encoding="utf-8") as handle:
         for i, (sample, item) in enumerate(zip(samples, encoded), start=1):
             label_probs, sentence_probs = predict_sample(
                 model, codec, item, pad_token_id, device, args.question_batch_size,
@@ -118,7 +150,7 @@ def evaluate(args, samples: list[Sample], summary: dict) -> dict[str, Any]:
             handle.write(json.dumps(record, ensure_ascii=False, allow_nan=False) + "\n")
             handle.flush()
             if i == 1 or i % args.logging_steps == 0 or i == len(samples):
-                LOGGER.info("Test progress: %d/%d samples", i, len(samples))
+                LOGGER.info("%s progress: %d/%d samples", split, i, len(samples))
     result = metrics.result()
     if result["num_samples"] != len(samples) or result["num_valid_sentences"] != summary["valid_sentences"]:
         raise RuntimeError("Evaluation did not cover every sample and valid sentence")
@@ -127,7 +159,9 @@ def evaluate(args, samples: list[Sample], summary: dict) -> dict[str, Any]:
     metrics_path = output_dir / "metrics.json"
     metrics_path.write_text(json.dumps(result, indent=2, allow_nan=False) + "\n", encoding="utf-8")
     LOGGER.info("Saved metrics to %s", metrics_path)
-    print(json.dumps({name: result[name] for name in (
+    scores = {name: result[name] for name in (
         "label_accuracy", "label_macro_f1", "sentence_level_evidence_f1", "label_ece",
-    )}, indent=2))
+    )}
+    LOGGER.info("%s metrics (epoch=%s, step=%s): %s", split, epoch, step, json.dumps(scores))
+    print(json.dumps({"split": split, **({"epoch": epoch, "step": step} if epoch is not None else {}), **scores}, indent=2))
     return result

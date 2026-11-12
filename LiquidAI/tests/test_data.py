@@ -89,6 +89,31 @@ class DatasetTests(unittest.TestCase):
         self.assertEqual(sample.articles[0].evidence_targets, [0, 0, 1, 0])
         self.assertEqual(sample.articles[1].evidence_targets, [0, 0, 1])
 
+    def test_original_filter_precedes_limit_and_preserves_group_indices(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory)
+            for claim_id in (10, 11, 12):
+                record = fixture()
+                record["id"] = claim_id
+                record["groups"][0]["variant"] = "original" if claim_id == 12 else "drop_1_groups"
+                if claim_id == 11:
+                    original = deepcopy(record["groups"][0])
+                    original["variant"] = "original"
+                    record["groups"].append(original)
+                (path / f"{claim_id}.json").write_text(json.dumps(record))
+            self.assertEqual(len(data.load_samples(path)), 4)
+            originals = data.load_samples(path, original_only=True)
+            self.assertEqual([(s.claim_id, s.group_index) for s in originals], [(11, 1), (12, 0)])
+            limited = data.load_samples(path, max_groups=1, original_only=True)
+            self.assertEqual([(s.claim_id, s.group_index) for s in limited], [(11, 1)])
+
+    def test_original_filter_reports_empty_selection(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory)
+            (path / "10.json").write_text(json.dumps(fixture()))
+            with self.assertRaisesRegex(ValueError, "No groups with variant='original'"):
+                data.load_samples(path, original_only=True)
+
     def test_gold_label_and_evidence_do_not_enter_state(self):
         record = fixture()
         before = data.samples_from_record(record)[0].state()

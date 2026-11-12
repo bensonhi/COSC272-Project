@@ -1,4 +1,4 @@
-"""Script entry point: train then test by default; --mode train/test runs one phase."""
+"""Training with epoch validation/test metrics, or standalone adapter testing."""
 
 if __package__:
     from .cli import main

@@ -155,7 +155,8 @@ def samples_from_record(record: dict, source_file: str = "<memory>") -> list[Sam
     return samples
 
 
-def load_samples(data_dir: Path, max_groups: int | None = None) -> list[Sample]:
+def load_samples(data_dir: Path, max_groups: int | None = None, *, original_only: bool = False) -> list[Sample]:
+    """Load groups, optionally keeping original variants before max_groups."""
     files = sorted(data_dir.glob("*.json"), key=lambda p: (len(p.stem), p.stem))
     if not files:
         raise ValueError(f"No JSON data files in {data_dir}")
@@ -166,11 +167,14 @@ def load_samples(data_dir: Path, max_groups: int | None = None) -> list[Sample]:
             if record["id"] in claim_ids:
                 raise ValueError(f"duplicate claim id {record['id']}")
             claim_ids.add(record["id"])
-            samples.extend(samples_from_record(record, str(path)))
+            groups = samples_from_record(record, str(path))
+            samples.extend(sample for sample in groups if not original_only or sample.variant == "original")
         except (KeyError, TypeError, ValueError) as exc:
             raise ValueError(f"{path}: {exc}") from exc
         if max_groups is not None and len(samples) >= max_groups:
             return samples[:max_groups]
+    if original_only and not samples:
+        raise ValueError(f"No groups with variant='original' in {data_dir}")
     return samples
 
 

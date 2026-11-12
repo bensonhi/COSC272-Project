@@ -52,6 +52,40 @@ class WorkflowTests(unittest.TestCase):
         self.assertEqual(args.adapter_dir, self.output_dir / "final")
         self.assertEqual(args.eval_output_dir, self.output_dir / "test")
         self.assertEqual(args.validation_dir, self.validation_dir)
+        self.assertFalse(args.original)
+
+    def test_original_only_filters_training_and_dry_run_counts(self):
+        record = json.loads((self.train_dir / "10.json").read_text())
+        record["groups"][0]["variant"] = "drop_1_groups"
+        record["groups"][1]["variant"] = "original"
+        (self.train_dir / "10.json").write_text(json.dumps(record))
+        for mode in ("train", "train_test"):
+            with self.subTest(mode=mode):
+                with patch.object(cli, "train") as train, patch.object(cli, "evaluate") as evaluate:
+                    cli.main(self.arguments + ["--mode", mode, "--original", "--max-groups", "1"])
+                args, samples, summary = train.call_args.args
+                self.assertTrue(args.original)
+                self.assertEqual([(s.variant, s.group_index) for s in samples], [("original", 1)])
+                self.assertEqual(summary["groups"], 1)
+                if mode == "train_test":
+                    self.assertEqual(len(evaluate.call_args.args[1]), 2)
+                output = io.StringIO()
+                with redirect_stdout(output):
+                    cli.main(self.arguments + ["--mode", mode, "--original", "--dry-run", "--max-groups", "1"])
+                counts = json.loads(output.getvalue())
+                self.assertEqual(counts["train"]["groups"], 1)
+                self.assertEqual(counts["validation"]["groups"], 1)
+                self.assertEqual(counts["test"]["groups"], 2)
+
+    def test_original_does_not_filter_standalone_test(self):
+        with patch.object(cli, "evaluate") as evaluate:
+            cli.main(self.arguments + ["--mode", "test", "--original"])
+        self.assertEqual(len(evaluate.call_args.args[1]), 2)
+
+    def test_original_rejects_incompatible_pair_loss(self):
+        with patch("sys.stderr", new_callable=io.StringIO) as stderr, self.assertRaises(SystemExit):
+            cli.parse_args(self.arguments + ["--original", "--loss", "pair"])
+        self.assertIn("requires drop_all_evidence", stderr.getvalue())
 
     def test_device_accepts_gpu_index_or_explicit_cpu(self):
         for value, expected in (("0", 0), ("2", 2), ("cpu", "cpu")):
