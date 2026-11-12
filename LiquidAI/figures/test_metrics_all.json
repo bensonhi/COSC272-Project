@@ -1,0 +1,2405 @@
+[
+  {
+    "run": "d1-augment-v2",
+    "stage": "epoch-1",
+    "epoch": 1,
+    "global_step": 423,
+    "source": "outputs/d1-augment-v2/epoch-1/test/metrics.json",
+    "metrics": {
+      "label_accuracy": 0.8348348348348348,
+      "label_macro_f1": 0.821944639548033,
+      "sentence_level_evidence_f1": 0.6752037252619325,
+      "label_ece": 0.07606135098425831,
+      "num_samples": 333,
+      "num_valid_sentences": 3515,
+      "label_order": [
+        "NEI",
+        "SUPPORT",
+        "CONTRADICT"
+      ],
+      "label_confusion_matrix": [
+        [
+          122,
+          1,
+          3
+        ],
+        [
+          24,
+          108,
+          5
+        ],
+        [
+          15,
+          7,
+          48
+        ]
+      ],
+      "per_label": {
+        "NEI": {
+          "precision": 0.7577639751552795,
+          "recall": 0.9682539682539683,
+          "f1": 0.8501742160278746,
+          "support": 126
+        },
+        "SUPPORT": {
+          "precision": 0.9310344827586207,
+          "recall": 0.7883211678832117,
+          "f1": 0.8537549407114624,
+          "support": 137
+        },
+        "CONTRADICT": {
+          "precision": 0.8571428571428571,
+          "recall": 0.6857142857142857,
+          "f1": 0.7619047619047619,
+          "support": 70
+        }
+      },
+      "evidence": {
+        "averaging": "micro, evidence positive class",
+        "threshold": 0.5,
+        "precision": 0.8761329305135952,
+        "recall": 0.5492424242424242,
+        "tp": 290,
+        "fp": 41,
+        "fn": 238,
+        "tn": 2946,
+        "conditioned_on_predicted_label": false
+      },
+      "calibration": {
+        "type": "top-label ECE",
+        "num_bins": 10,
+        "binning": "equal-width, left-closed/right-open; last bin includes 1",
+        "bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "count": 5,
+            "accuracy": 0.2,
+            "mean_confidence": 0.4681403636932373,
+            "ece_contribution": 0.004026131586985545
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "count": 9,
+            "accuracy": 0.5555555555555556,
+            "mean_confidence": 0.562306265036265,
+            "ece_contribution": 0.00018245160758674159
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "count": 6,
+            "accuracy": 0.6666666666666666,
+            "mean_confidence": 0.6376967231432596,
+            "ece_contribution": 0.0005219809643857114
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "count": 24,
+            "accuracy": 0.5833333333333334,
+            "mean_confidence": 0.7628316928942999,
+            "ece_contribution": 0.012936818707096684
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "count": 54,
+            "accuracy": 0.6111111111111112,
+            "mean_confidence": 0.8601958420541551,
+            "ece_contribution": 0.04039211853130443
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "count": 235,
+            "accuracy": 0.9404255319148936,
+            "mean_confidence": 0.9659345357976061,
+            "ece_contribution": 0.018001849586899203
+          }
+        ]
+      },
+      "zero_division": 0,
+      "score_scale": "0 to 1",
+      "elapsed_seconds": 153.98,
+      "evaluation": {
+        "base_model": "LiquidAI/d1-3B",
+        "adapter_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/LiquidAI/outputs/d1-augment-v2/checkpoint-step-423",
+        "epoch_complete": true,
+        "resolved_revision": null,
+        "dtype": "bfloat16",
+        "device": "cuda:7",
+        "split": "test",
+        "test_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/data/test",
+        "summary": {
+          "claims": 333,
+          "groups": 333,
+          "labels": {
+            "NEI": 126,
+            "CONTRADICT": 70,
+            "SUPPORT": 137
+          },
+          "valid_sentences": 3515,
+          "positive_sentences": 528,
+          "negative_sentences": 2987,
+          "masked_sentence_slots": 0,
+          "max_articles_per_group": 5,
+          "max_question_tokens": 4050
+        },
+        "evidence_threshold": 0.5,
+        "ece_bins": 10,
+        "max_length": 8192,
+        "question_batch_size": 8,
+        "stance_question": {
+          "type": "choice",
+          "instructions": "Using only the claim and all provided articles together, determine whether the available evidence supports or contradicts the claim, or is insufficient. Empty sentence slots are unavailable text.",
+          "criteria": {
+            "NEI": "The available articles provide insufficient evidence to support or contradict the claim.",
+            "SUPPORT": "The available evidence supports the claim.",
+            "CONTRADICT": "The available evidence contradicts the claim."
+          }
+        },
+        "evidence_instructions": "Considering the claim and the full context of all articles, is the sentence with original_index={original_index} in article doc_id={doc_id} part of evidence supporting or contradicting the claim? Include sentences that jointly form evidence with other sentences. Mere topical relevance is not evidence.",
+        "gold_evidence_used_as_input": false,
+        "evidence_f1_conditioned_on_predicted_label": false,
+        "epoch": 1,
+        "global_step": 423
+      }
+    }
+  },
+  {
+    "run": "d1-augment-v2",
+    "stage": "epoch-2",
+    "epoch": 2,
+    "global_step": 846,
+    "source": "outputs/d1-augment-v2/epoch-2/test/metrics.json",
+    "metrics": {
+      "label_accuracy": 0.8378378378378378,
+      "label_macro_f1": 0.825233401533584,
+      "sentence_level_evidence_f1": 0.7556874381800198,
+      "label_ece": 0.1350504983294833,
+      "num_samples": 333,
+      "num_valid_sentences": 3515,
+      "label_order": [
+        "NEI",
+        "SUPPORT",
+        "CONTRADICT"
+      ],
+      "label_confusion_matrix": [
+        [
+          117,
+          4,
+          5
+        ],
+        [
+          20,
+          113,
+          4
+        ],
+        [
+          11,
+          10,
+          49
+        ]
+      ],
+      "per_label": {
+        "NEI": {
+          "precision": 0.7905405405405406,
+          "recall": 0.9285714285714286,
+          "f1": 0.8540145985401459,
+          "support": 126
+        },
+        "SUPPORT": {
+          "precision": 0.889763779527559,
+          "recall": 0.8248175182481752,
+          "f1": 0.8560606060606061,
+          "support": 137
+        },
+        "CONTRADICT": {
+          "precision": 0.8448275862068966,
+          "recall": 0.7,
+          "f1": 0.765625,
+          "support": 70
+        }
+      },
+      "evidence": {
+        "averaging": "micro, evidence positive class",
+        "threshold": 0.5,
+        "precision": 0.7908902691511387,
+        "recall": 0.7234848484848485,
+        "tp": 382,
+        "fp": 101,
+        "fn": 146,
+        "tn": 2886,
+        "conditioned_on_predicted_label": false
+      },
+      "calibration": {
+        "type": "top-label ECE",
+        "num_bins": 10,
+        "binning": "equal-width, left-closed/right-open; last bin includes 1",
+        "bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "count": 4,
+            "accuracy": 0.25,
+            "mean_confidence": 0.4686114937067032,
+            "ece_contribution": 0.002625963888368807
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "count": 2,
+            "accuracy": 0.0,
+            "mean_confidence": 0.5878205895423889,
+            "ece_contribution": 0.003530453991245579
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "count": 2,
+            "accuracy": 0.5,
+            "mean_confidence": 0.6789870858192444,
+            "ece_contribution": 0.0010749975124278942
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "count": 8,
+            "accuracy": 0.5,
+            "mean_confidence": 0.7583710178732872,
+            "ece_contribution": 0.006207111540499392
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "count": 6,
+            "accuracy": 0.16666666666666666,
+            "mean_confidence": 0.8795289198557535,
+            "ece_contribution": 0.01284436492232589
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "count": 311,
+            "accuracy": 0.8745980707395499,
+            "mean_confidence": 0.9910598487332702,
+            "ece_contribution": 0.10876760647461572
+          }
+        ]
+      },
+      "zero_division": 0,
+      "score_scale": "0 to 1",
+      "elapsed_seconds": 153.9,
+      "evaluation": {
+        "base_model": "LiquidAI/d1-3B",
+        "adapter_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/LiquidAI/outputs/d1-augment-v2/checkpoint-step-846",
+        "epoch_complete": true,
+        "resolved_revision": null,
+        "dtype": "bfloat16",
+        "device": "cuda:7",
+        "split": "test",
+        "test_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/data/test",
+        "summary": {
+          "claims": 333,
+          "groups": 333,
+          "labels": {
+            "NEI": 126,
+            "CONTRADICT": 70,
+            "SUPPORT": 137
+          },
+          "valid_sentences": 3515,
+          "positive_sentences": 528,
+          "negative_sentences": 2987,
+          "masked_sentence_slots": 0,
+          "max_articles_per_group": 5,
+          "max_question_tokens": 4050
+        },
+        "evidence_threshold": 0.5,
+        "ece_bins": 10,
+        "max_length": 8192,
+        "question_batch_size": 8,
+        "stance_question": {
+          "type": "choice",
+          "instructions": "Using only the claim and all provided articles together, determine whether the available evidence supports or contradicts the claim, or is insufficient. Empty sentence slots are unavailable text.",
+          "criteria": {
+            "NEI": "The available articles provide insufficient evidence to support or contradict the claim.",
+            "SUPPORT": "The available evidence supports the claim.",
+            "CONTRADICT": "The available evidence contradicts the claim."
+          }
+        },
+        "evidence_instructions": "Considering the claim and the full context of all articles, is the sentence with original_index={original_index} in article doc_id={doc_id} part of evidence supporting or contradicting the claim? Include sentences that jointly form evidence with other sentences. Mere topical relevance is not evidence.",
+        "gold_evidence_used_as_input": false,
+        "evidence_f1_conditioned_on_predicted_label": false,
+        "epoch": 2,
+        "global_step": 846
+      }
+    }
+  },
+  {
+    "run": "d1-augment-v2",
+    "stage": "epoch-3",
+    "epoch": 3,
+    "global_step": 1269,
+    "source": "outputs/d1-augment-v2/epoch-3/test/metrics.json",
+    "metrics": {
+      "label_accuracy": 0.8498498498498499,
+      "label_macro_f1": 0.8412296108554362,
+      "sentence_level_evidence_f1": 0.7633434038267876,
+      "label_ece": 0.1386227974662552,
+      "num_samples": 333,
+      "num_valid_sentences": 3515,
+      "label_order": [
+        "NEI",
+        "SUPPORT",
+        "CONTRADICT"
+      ],
+      "label_confusion_matrix": [
+        [
+          111,
+          6,
+          9
+        ],
+        [
+          15,
+          116,
+          6
+        ],
+        [
+          9,
+          5,
+          56
+        ]
+      ],
+      "per_label": {
+        "NEI": {
+          "precision": 0.8222222222222222,
+          "recall": 0.8809523809523809,
+          "f1": 0.8505747126436781,
+          "support": 126
+        },
+        "SUPPORT": {
+          "precision": 0.9133858267716536,
+          "recall": 0.8467153284671532,
+          "f1": 0.8787878787878788,
+          "support": 137
+        },
+        "CONTRADICT": {
+          "precision": 0.7887323943661971,
+          "recall": 0.8,
+          "f1": 0.7943262411347518,
+          "support": 70
+        }
+      },
+      "evidence": {
+        "averaging": "micro, evidence positive class",
+        "threshold": 0.5,
+        "precision": 0.8150537634408602,
+        "recall": 0.7178030303030303,
+        "tp": 379,
+        "fp": 86,
+        "fn": 149,
+        "tn": 2901,
+        "conditioned_on_predicted_label": false
+      },
+      "calibration": {
+        "type": "top-label ECE",
+        "num_bins": 10,
+        "binning": "equal-width, left-closed/right-open; last bin includes 1",
+        "bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "count": 1,
+            "accuracy": 0.0,
+            "mean_confidence": 0.4692552089691162,
+            "ece_contribution": 0.0014091748017090577
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "count": 3,
+            "accuracy": 0.3333333333333333,
+            "mean_confidence": 0.5382935206095377,
+            "ece_contribution": 0.0018464881736594992
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "count": 2,
+            "accuracy": 0.5,
+            "mean_confidence": 0.6854666173458099,
+            "ece_contribution": 0.001113913617692552
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "count": 1,
+            "accuracy": 1.0,
+            "mean_confidence": 0.7300906181335449,
+            "ece_contribution": 0.0008105386842836489
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "count": 2,
+            "accuracy": 0.0,
+            "mean_confidence": 0.8824957013130188,
+            "ece_contribution": 0.005300274482360473
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "count": 324,
+            "accuracy": 0.8641975308641975,
+            "mean_confidence": 0.9958994498959294,
+            "ece_contribution": 0.12814240770654997
+          }
+        ]
+      },
+      "zero_division": 0,
+      "score_scale": "0 to 1",
+      "elapsed_seconds": 152.88,
+      "evaluation": {
+        "base_model": "LiquidAI/d1-3B",
+        "adapter_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/LiquidAI/outputs/d1-augment-v2/checkpoint-step-1269",
+        "epoch_complete": true,
+        "resolved_revision": null,
+        "dtype": "bfloat16",
+        "device": "cuda:7",
+        "split": "test",
+        "test_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/data/test",
+        "summary": {
+          "claims": 333,
+          "groups": 333,
+          "labels": {
+            "NEI": 126,
+            "CONTRADICT": 70,
+            "SUPPORT": 137
+          },
+          "valid_sentences": 3515,
+          "positive_sentences": 528,
+          "negative_sentences": 2987,
+          "masked_sentence_slots": 0,
+          "max_articles_per_group": 5,
+          "max_question_tokens": 4050
+        },
+        "evidence_threshold": 0.5,
+        "ece_bins": 10,
+        "max_length": 8192,
+        "question_batch_size": 8,
+        "stance_question": {
+          "type": "choice",
+          "instructions": "Using only the claim and all provided articles together, determine whether the available evidence supports or contradicts the claim, or is insufficient. Empty sentence slots are unavailable text.",
+          "criteria": {
+            "NEI": "The available articles provide insufficient evidence to support or contradict the claim.",
+            "SUPPORT": "The available evidence supports the claim.",
+            "CONTRADICT": "The available evidence contradicts the claim."
+          }
+        },
+        "evidence_instructions": "Considering the claim and the full context of all articles, is the sentence with original_index={original_index} in article doc_id={doc_id} part of evidence supporting or contradicting the claim? Include sentences that jointly form evidence with other sentences. Mere topical relevance is not evidence.",
+        "gold_evidence_used_as_input": false,
+        "evidence_f1_conditioned_on_predicted_label": false,
+        "epoch": 3,
+        "global_step": 1269
+      }
+    }
+  },
+  {
+    "run": "d1-augment-v2",
+    "stage": "final",
+    "epoch": null,
+    "global_step": null,
+    "source": "outputs/d1-augment-v2/test/metrics.json",
+    "metrics": {
+      "label_accuracy": 0.8498498498498499,
+      "label_macro_f1": 0.8412296108554362,
+      "sentence_level_evidence_f1": 0.7633434038267876,
+      "label_ece": 0.1386227974662552,
+      "num_samples": 333,
+      "num_valid_sentences": 3515,
+      "label_order": [
+        "NEI",
+        "SUPPORT",
+        "CONTRADICT"
+      ],
+      "label_confusion_matrix": [
+        [
+          111,
+          6,
+          9
+        ],
+        [
+          15,
+          116,
+          6
+        ],
+        [
+          9,
+          5,
+          56
+        ]
+      ],
+      "per_label": {
+        "NEI": {
+          "precision": 0.8222222222222222,
+          "recall": 0.8809523809523809,
+          "f1": 0.8505747126436781,
+          "support": 126
+        },
+        "SUPPORT": {
+          "precision": 0.9133858267716536,
+          "recall": 0.8467153284671532,
+          "f1": 0.8787878787878788,
+          "support": 137
+        },
+        "CONTRADICT": {
+          "precision": 0.7887323943661971,
+          "recall": 0.8,
+          "f1": 0.7943262411347518,
+          "support": 70
+        }
+      },
+      "evidence": {
+        "averaging": "micro, evidence positive class",
+        "threshold": 0.5,
+        "precision": 0.8150537634408602,
+        "recall": 0.7178030303030303,
+        "tp": 379,
+        "fp": 86,
+        "fn": 149,
+        "tn": 2901,
+        "conditioned_on_predicted_label": false
+      },
+      "calibration": {
+        "type": "top-label ECE",
+        "num_bins": 10,
+        "binning": "equal-width, left-closed/right-open; last bin includes 1",
+        "bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "count": 1,
+            "accuracy": 0.0,
+            "mean_confidence": 0.4692552089691162,
+            "ece_contribution": 0.0014091748017090577
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "count": 3,
+            "accuracy": 0.3333333333333333,
+            "mean_confidence": 0.5382935206095377,
+            "ece_contribution": 0.0018464881736594992
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "count": 2,
+            "accuracy": 0.5,
+            "mean_confidence": 0.6854666173458099,
+            "ece_contribution": 0.001113913617692552
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "count": 1,
+            "accuracy": 1.0,
+            "mean_confidence": 0.7300906181335449,
+            "ece_contribution": 0.0008105386842836489
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "count": 2,
+            "accuracy": 0.0,
+            "mean_confidence": 0.8824957013130188,
+            "ece_contribution": 0.005300274482360473
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "count": 324,
+            "accuracy": 0.8641975308641975,
+            "mean_confidence": 0.9958994498959294,
+            "ece_contribution": 0.12814240770654997
+          }
+        ]
+      },
+      "zero_division": 0,
+      "score_scale": "0 to 1",
+      "elapsed_seconds": 152.38,
+      "evaluation": {
+        "base_model": "LiquidAI/d1-3B",
+        "adapter_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/LiquidAI/outputs/d1-augment-v2/final",
+        "resolved_revision": null,
+        "dtype": "bfloat16",
+        "device": "cuda:7",
+        "split": "test",
+        "test_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/data/test",
+        "summary": {
+          "claims": 333,
+          "groups": 333,
+          "labels": {
+            "NEI": 126,
+            "CONTRADICT": 70,
+            "SUPPORT": 137
+          },
+          "valid_sentences": 3515,
+          "positive_sentences": 528,
+          "negative_sentences": 2987,
+          "masked_sentence_slots": 0,
+          "max_articles_per_group": 5,
+          "max_question_tokens": 4050
+        },
+        "evidence_threshold": 0.5,
+        "ece_bins": 10,
+        "max_length": 8192,
+        "question_batch_size": 8,
+        "stance_question": {
+          "type": "choice",
+          "instructions": "Using only the claim and all provided articles together, determine whether the available evidence supports or contradicts the claim, or is insufficient. Empty sentence slots are unavailable text.",
+          "criteria": {
+            "NEI": "The available articles provide insufficient evidence to support or contradict the claim.",
+            "SUPPORT": "The available evidence supports the claim.",
+            "CONTRADICT": "The available evidence contradicts the claim."
+          }
+        },
+        "evidence_instructions": "Considering the claim and the full context of all articles, is the sentence with original_index={original_index} in article doc_id={doc_id} part of evidence supporting or contradicting the claim? Include sentences that jointly form evidence with other sentences. Mere topical relevance is not evidence.",
+        "gold_evidence_used_as_input": false,
+        "evidence_f1_conditioned_on_predicted_label": false
+      }
+    }
+  },
+  {
+    "run": "d1-pair",
+    "stage": "epoch-1",
+    "epoch": 1,
+    "global_step": 423,
+    "source": "outputs/d1-pair/epoch-1/test/metrics.json",
+    "metrics": {
+      "label_accuracy": 0.8228228228228228,
+      "label_macro_f1": 0.809321730959749,
+      "sentence_level_evidence_f1": 0.7360672975814931,
+      "label_ece": 0.0856009998300054,
+      "num_samples": 333,
+      "num_valid_sentences": 3515,
+      "label_order": [
+        "NEI",
+        "SUPPORT",
+        "CONTRADICT"
+      ],
+      "label_confusion_matrix": [
+        [
+          116,
+          3,
+          7
+        ],
+        [
+          22,
+          109,
+          6
+        ],
+        [
+          12,
+          9,
+          49
+        ]
+      ],
+      "per_label": {
+        "NEI": {
+          "precision": 0.7733333333333333,
+          "recall": 0.9206349206349206,
+          "f1": 0.8405797101449275,
+          "support": 126
+        },
+        "SUPPORT": {
+          "precision": 0.9008264462809917,
+          "recall": 0.7956204379562044,
+          "f1": 0.8449612403100775,
+          "support": 137
+        },
+        "CONTRADICT": {
+          "precision": 0.7903225806451613,
+          "recall": 0.7,
+          "f1": 0.7424242424242424,
+          "support": 70
+        }
+      },
+      "evidence": {
+        "averaging": "micro, evidence positive class",
+        "threshold": 0.5,
+        "precision": 0.8274231678486997,
+        "recall": 0.6628787878787878,
+        "tp": 350,
+        "fp": 73,
+        "fn": 178,
+        "tn": 2914,
+        "conditioned_on_predicted_label": false
+      },
+      "calibration": {
+        "type": "top-label ECE",
+        "num_bins": 10,
+        "binning": "equal-width, left-closed/right-open; last bin includes 1",
+        "bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "count": 7,
+            "accuracy": 0.2857142857142857,
+            "mean_confidence": 0.4562000760010311,
+            "ece_contribution": 0.003583785381403056
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "count": 13,
+            "accuracy": 0.46153846153846156,
+            "mean_confidence": 0.5569741129875183,
+            "ece_contribution": 0.003725716122635849
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "count": 12,
+            "accuracy": 0.5,
+            "mean_confidence": 0.6466982414325079,
+            "ece_contribution": 0.005286423114684968
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "count": 14,
+            "accuracy": 0.5714285714285714,
+            "mean_confidence": 0.7609989302498954,
+            "ece_contribution": 0.007969924995491099
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "count": 50,
+            "accuracy": 0.6,
+            "mean_confidence": 0.8639684724807739,
+            "ece_contribution": 0.03963490577789398
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "count": 237,
+            "accuracy": 0.9367088607594937,
+            "mean_confidence": 0.9723978118051456,
+            "ece_contribution": 0.025400244437896433
+          }
+        ]
+      },
+      "zero_division": 0,
+      "score_scale": "0 to 1",
+      "elapsed_seconds": 315.67,
+      "evaluation": {
+        "base_model": "LiquidAI/d1-3B",
+        "adapter_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/LiquidAI/outputs/d1-pair/checkpoint-step-423",
+        "epoch_complete": true,
+        "resolved_revision": null,
+        "dtype": "bfloat16",
+        "device": "cuda:1",
+        "split": "test",
+        "test_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/data/test",
+        "summary": {
+          "claims": 333,
+          "groups": 333,
+          "labels": {
+            "NEI": 126,
+            "CONTRADICT": 70,
+            "SUPPORT": 137
+          },
+          "valid_sentences": 3515,
+          "positive_sentences": 528,
+          "negative_sentences": 2987,
+          "masked_sentence_slots": 0,
+          "max_articles_per_group": 5,
+          "max_question_tokens": 4050
+        },
+        "evidence_threshold": 0.5,
+        "ece_bins": 10,
+        "max_length": 8192,
+        "question_batch_size": 8,
+        "stance_question": {
+          "type": "choice",
+          "instructions": "Using only the claim and all provided articles together, determine whether the available evidence supports or contradicts the claim, or is insufficient. Empty sentence slots are unavailable text.",
+          "criteria": {
+            "NEI": "The available articles provide insufficient evidence to support or contradict the claim.",
+            "SUPPORT": "The available evidence supports the claim.",
+            "CONTRADICT": "The available evidence contradicts the claim."
+          }
+        },
+        "evidence_instructions": "Considering the claim and the full context of all articles, is the sentence with original_index={original_index} in article doc_id={doc_id} part of evidence supporting or contradicting the claim? Include sentences that jointly form evidence with other sentences. Mere topical relevance is not evidence.",
+        "gold_evidence_used_as_input": false,
+        "evidence_f1_conditioned_on_predicted_label": false,
+        "epoch": 1,
+        "global_step": 423
+      }
+    }
+  },
+  {
+    "run": "d1-pair",
+    "stage": "epoch-2",
+    "epoch": 2,
+    "global_step": 846,
+    "source": "outputs/d1-pair/epoch-2/test/metrics.json",
+    "metrics": {
+      "label_accuracy": 0.8558558558558559,
+      "label_macro_f1": 0.8409770832105998,
+      "sentence_level_evidence_f1": 0.7741935483870968,
+      "label_ece": 0.1242131640066255,
+      "num_samples": 333,
+      "num_valid_sentences": 3515,
+      "label_order": [
+        "NEI",
+        "SUPPORT",
+        "CONTRADICT"
+      ],
+      "label_confusion_matrix": [
+        [
+          119,
+          3,
+          4
+        ],
+        [
+          15,
+          116,
+          6
+        ],
+        [
+          11,
+          9,
+          50
+        ]
+      ],
+      "per_label": {
+        "NEI": {
+          "precision": 0.8206896551724138,
+          "recall": 0.9444444444444444,
+          "f1": 0.8782287822878229,
+          "support": 126
+        },
+        "SUPPORT": {
+          "precision": 0.90625,
+          "recall": 0.8467153284671532,
+          "f1": 0.8754716981132076,
+          "support": 137
+        },
+        "CONTRADICT": {
+          "precision": 0.8333333333333334,
+          "recall": 0.7142857142857143,
+          "f1": 0.7692307692307693,
+          "support": 70
+        }
+      },
+      "evidence": {
+        "averaging": "micro, evidence positive class",
+        "threshold": 0.5,
+        "precision": 0.8,
+        "recall": 0.75,
+        "tp": 396,
+        "fp": 99,
+        "fn": 132,
+        "tn": 2888,
+        "conditioned_on_predicted_label": false
+      },
+      "calibration": {
+        "type": "top-label ECE",
+        "num_bins": 10,
+        "binning": "equal-width, left-closed/right-open; last bin includes 1",
+        "bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "count": 1,
+            "accuracy": 0.0,
+            "mean_confidence": 0.45256826281547546,
+            "ece_contribution": 0.001359063852298725
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "count": 3,
+            "accuracy": 0.6666666666666666,
+            "mean_confidence": 0.5615013440450033,
+            "ece_contribution": 0.0009474353389339039
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "count": 2,
+            "accuracy": 0.5,
+            "mean_confidence": 0.6784994304180145,
+            "ece_contribution": 0.0010720686511592463
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "count": 2,
+            "accuracy": 0.0,
+            "mean_confidence": 0.7538875341415405,
+            "ece_contribution": 0.0045278530579071505
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "count": 12,
+            "accuracy": 0.6666666666666666,
+            "mean_confidence": 0.8527758965889612,
+            "ece_contribution": 0.006706638916118725
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "count": 313,
+            "accuracy": 0.8753993610223643,
+            "mean_confidence": 0.9920026667582722,
+            "ece_contribution": 0.10960010419020776
+          }
+        ]
+      },
+      "zero_division": 0,
+      "score_scale": "0 to 1",
+      "elapsed_seconds": 311.26,
+      "evaluation": {
+        "base_model": "LiquidAI/d1-3B",
+        "adapter_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/LiquidAI/outputs/d1-pair/checkpoint-step-846",
+        "epoch_complete": true,
+        "resolved_revision": null,
+        "dtype": "bfloat16",
+        "device": "cuda:1",
+        "split": "test",
+        "test_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/data/test",
+        "summary": {
+          "claims": 333,
+          "groups": 333,
+          "labels": {
+            "NEI": 126,
+            "CONTRADICT": 70,
+            "SUPPORT": 137
+          },
+          "valid_sentences": 3515,
+          "positive_sentences": 528,
+          "negative_sentences": 2987,
+          "masked_sentence_slots": 0,
+          "max_articles_per_group": 5,
+          "max_question_tokens": 4050
+        },
+        "evidence_threshold": 0.5,
+        "ece_bins": 10,
+        "max_length": 8192,
+        "question_batch_size": 8,
+        "stance_question": {
+          "type": "choice",
+          "instructions": "Using only the claim and all provided articles together, determine whether the available evidence supports or contradicts the claim, or is insufficient. Empty sentence slots are unavailable text.",
+          "criteria": {
+            "NEI": "The available articles provide insufficient evidence to support or contradict the claim.",
+            "SUPPORT": "The available evidence supports the claim.",
+            "CONTRADICT": "The available evidence contradicts the claim."
+          }
+        },
+        "evidence_instructions": "Considering the claim and the full context of all articles, is the sentence with original_index={original_index} in article doc_id={doc_id} part of evidence supporting or contradicting the claim? Include sentences that jointly form evidence with other sentences. Mere topical relevance is not evidence.",
+        "gold_evidence_used_as_input": false,
+        "evidence_f1_conditioned_on_predicted_label": false,
+        "epoch": 2,
+        "global_step": 846
+      }
+    }
+  },
+  {
+    "run": "d1-pair",
+    "stage": "epoch-3",
+    "epoch": 3,
+    "global_step": 1269,
+    "source": "outputs/d1-pair/epoch-3/test/metrics.json",
+    "metrics": {
+      "label_accuracy": 0.8528528528528528,
+      "label_macro_f1": 0.8430118790795441,
+      "sentence_level_evidence_f1": 0.768762677484787,
+      "label_ece": 0.12686574423277344,
+      "num_samples": 333,
+      "num_valid_sentences": 3515,
+      "label_order": [
+        "NEI",
+        "SUPPORT",
+        "CONTRADICT"
+      ],
+      "label_confusion_matrix": [
+        [
+          120,
+          4,
+          2
+        ],
+        [
+          19,
+          113,
+          5
+        ],
+        [
+          11,
+          8,
+          51
+        ]
+      ],
+      "per_label": {
+        "NEI": {
+          "precision": 0.8,
+          "recall": 0.9523809523809523,
+          "f1": 0.8695652173913043,
+          "support": 126
+        },
+        "SUPPORT": {
+          "precision": 0.904,
+          "recall": 0.8248175182481752,
+          "f1": 0.8625954198473282,
+          "support": 137
+        },
+        "CONTRADICT": {
+          "precision": 0.8793103448275862,
+          "recall": 0.7285714285714285,
+          "f1": 0.796875,
+          "support": 70
+        }
+      },
+      "evidence": {
+        "averaging": "micro, evidence positive class",
+        "threshold": 0.5,
+        "precision": 0.8275109170305677,
+        "recall": 0.7178030303030303,
+        "tp": 379,
+        "fp": 79,
+        "fn": 149,
+        "tn": 2908,
+        "conditioned_on_predicted_label": false
+      },
+      "calibration": {
+        "type": "top-label ECE",
+        "num_bins": 10,
+        "binning": "equal-width, left-closed/right-open; last bin includes 1",
+        "bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "count": 1,
+            "accuracy": 0.0,
+            "mean_confidence": 0.4954625964164734,
+            "ece_contribution": 0.0014878756649143346
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "count": 4,
+            "accuracy": 0.5,
+            "mean_confidence": 0.5673691034317017,
+            "ece_contribution": 0.00080923847966008
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "count": 1,
+            "accuracy": 0.0,
+            "mean_confidence": 0.6784412860870361,
+            "ece_contribution": 0.0020373612194805888
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "count": 5,
+            "accuracy": 0.2,
+            "mean_confidence": 0.7662230253219604,
+            "ece_contribution": 0.008501847227056464
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "count": 9,
+            "accuracy": 0.4444444444444444,
+            "mean_confidence": 0.8505142463578118,
+            "ece_contribution": 0.010974859511172093
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "count": 313,
+            "accuracy": 0.8849840255591054,
+            "mean_confidence": 0.9946235437362719,
+            "ece_contribution": 0.10305456213048989
+          }
+        ]
+      },
+      "zero_division": 0,
+      "score_scale": "0 to 1",
+      "elapsed_seconds": 309.87,
+      "evaluation": {
+        "base_model": "LiquidAI/d1-3B",
+        "adapter_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/LiquidAI/outputs/d1-pair/checkpoint-step-1269",
+        "epoch_complete": true,
+        "resolved_revision": null,
+        "dtype": "bfloat16",
+        "device": "cuda:1",
+        "split": "test",
+        "test_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/data/test",
+        "summary": {
+          "claims": 333,
+          "groups": 333,
+          "labels": {
+            "NEI": 126,
+            "CONTRADICT": 70,
+            "SUPPORT": 137
+          },
+          "valid_sentences": 3515,
+          "positive_sentences": 528,
+          "negative_sentences": 2987,
+          "masked_sentence_slots": 0,
+          "max_articles_per_group": 5,
+          "max_question_tokens": 4050
+        },
+        "evidence_threshold": 0.5,
+        "ece_bins": 10,
+        "max_length": 8192,
+        "question_batch_size": 8,
+        "stance_question": {
+          "type": "choice",
+          "instructions": "Using only the claim and all provided articles together, determine whether the available evidence supports or contradicts the claim, or is insufficient. Empty sentence slots are unavailable text.",
+          "criteria": {
+            "NEI": "The available articles provide insufficient evidence to support or contradict the claim.",
+            "SUPPORT": "The available evidence supports the claim.",
+            "CONTRADICT": "The available evidence contradicts the claim."
+          }
+        },
+        "evidence_instructions": "Considering the claim and the full context of all articles, is the sentence with original_index={original_index} in article doc_id={doc_id} part of evidence supporting or contradicting the claim? Include sentences that jointly form evidence with other sentences. Mere topical relevance is not evidence.",
+        "gold_evidence_used_as_input": false,
+        "evidence_f1_conditioned_on_predicted_label": false,
+        "epoch": 3,
+        "global_step": 1269
+      }
+    }
+  },
+  {
+    "run": "d1-pair",
+    "stage": "final",
+    "epoch": null,
+    "global_step": null,
+    "source": "outputs/d1-pair/test/metrics.json",
+    "metrics": {
+      "label_accuracy": 0.8528528528528528,
+      "label_macro_f1": 0.8430118790795441,
+      "sentence_level_evidence_f1": 0.768762677484787,
+      "label_ece": 0.12686574423277344,
+      "num_samples": 333,
+      "num_valid_sentences": 3515,
+      "label_order": [
+        "NEI",
+        "SUPPORT",
+        "CONTRADICT"
+      ],
+      "label_confusion_matrix": [
+        [
+          120,
+          4,
+          2
+        ],
+        [
+          19,
+          113,
+          5
+        ],
+        [
+          11,
+          8,
+          51
+        ]
+      ],
+      "per_label": {
+        "NEI": {
+          "precision": 0.8,
+          "recall": 0.9523809523809523,
+          "f1": 0.8695652173913043,
+          "support": 126
+        },
+        "SUPPORT": {
+          "precision": 0.904,
+          "recall": 0.8248175182481752,
+          "f1": 0.8625954198473282,
+          "support": 137
+        },
+        "CONTRADICT": {
+          "precision": 0.8793103448275862,
+          "recall": 0.7285714285714285,
+          "f1": 0.796875,
+          "support": 70
+        }
+      },
+      "evidence": {
+        "averaging": "micro, evidence positive class",
+        "threshold": 0.5,
+        "precision": 0.8275109170305677,
+        "recall": 0.7178030303030303,
+        "tp": 379,
+        "fp": 79,
+        "fn": 149,
+        "tn": 2908,
+        "conditioned_on_predicted_label": false
+      },
+      "calibration": {
+        "type": "top-label ECE",
+        "num_bins": 10,
+        "binning": "equal-width, left-closed/right-open; last bin includes 1",
+        "bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "count": 1,
+            "accuracy": 0.0,
+            "mean_confidence": 0.4954625964164734,
+            "ece_contribution": 0.0014878756649143346
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "count": 4,
+            "accuracy": 0.5,
+            "mean_confidence": 0.5673691034317017,
+            "ece_contribution": 0.00080923847966008
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "count": 1,
+            "accuracy": 0.0,
+            "mean_confidence": 0.6784412860870361,
+            "ece_contribution": 0.0020373612194805888
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "count": 5,
+            "accuracy": 0.2,
+            "mean_confidence": 0.7662230253219604,
+            "ece_contribution": 0.008501847227056464
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "count": 9,
+            "accuracy": 0.4444444444444444,
+            "mean_confidence": 0.8505142463578118,
+            "ece_contribution": 0.010974859511172093
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "count": 313,
+            "accuracy": 0.8849840255591054,
+            "mean_confidence": 0.9946235437362719,
+            "ece_contribution": 0.10305456213048989
+          }
+        ]
+      },
+      "zero_division": 0,
+      "score_scale": "0 to 1",
+      "elapsed_seconds": 308.77,
+      "evaluation": {
+        "base_model": "LiquidAI/d1-3B",
+        "adapter_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/LiquidAI/outputs/d1-pair/final",
+        "resolved_revision": null,
+        "dtype": "bfloat16",
+        "device": "cuda:1",
+        "split": "test",
+        "test_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/data/test",
+        "summary": {
+          "claims": 333,
+          "groups": 333,
+          "labels": {
+            "NEI": 126,
+            "CONTRADICT": 70,
+            "SUPPORT": 137
+          },
+          "valid_sentences": 3515,
+          "positive_sentences": 528,
+          "negative_sentences": 2987,
+          "masked_sentence_slots": 0,
+          "max_articles_per_group": 5,
+          "max_question_tokens": 4050
+        },
+        "evidence_threshold": 0.5,
+        "ece_bins": 10,
+        "max_length": 8192,
+        "question_batch_size": 8,
+        "stance_question": {
+          "type": "choice",
+          "instructions": "Using only the claim and all provided articles together, determine whether the available evidence supports or contradicts the claim, or is insufficient. Empty sentence slots are unavailable text.",
+          "criteria": {
+            "NEI": "The available articles provide insufficient evidence to support or contradict the claim.",
+            "SUPPORT": "The available evidence supports the claim.",
+            "CONTRADICT": "The available evidence contradicts the claim."
+          }
+        },
+        "evidence_instructions": "Considering the claim and the full context of all articles, is the sentence with original_index={original_index} in article doc_id={doc_id} part of evidence supporting or contradicting the claim? Include sentences that jointly form evidence with other sentences. Mere topical relevance is not evidence.",
+        "gold_evidence_used_as_input": false,
+        "evidence_f1_conditioned_on_predicted_label": false
+      }
+    }
+  },
+  {
+    "run": "d1-scifact",
+    "stage": "epoch-1",
+    "epoch": 1,
+    "global_step": 175,
+    "source": "outputs/d1-scifact/epoch-1/test/metrics.json",
+    "metrics": {
+      "label_accuracy": 0.8198198198198198,
+      "label_macro_f1": 0.8078365534247887,
+      "sentence_level_evidence_f1": 0.6939182452642074,
+      "label_ece": 0.11519635001102362,
+      "num_samples": 333,
+      "num_valid_sentences": 3515,
+      "label_order": [
+        "NEI",
+        "SUPPORT",
+        "CONTRADICT"
+      ],
+      "label_confusion_matrix": [
+        [
+          101,
+          11,
+          14
+        ],
+        [
+          8,
+          116,
+          13
+        ],
+        [
+          5,
+          9,
+          56
+        ]
+      ],
+      "per_label": {
+        "NEI": {
+          "precision": 0.8859649122807017,
+          "recall": 0.8015873015873016,
+          "f1": 0.8416666666666667,
+          "support": 126
+        },
+        "SUPPORT": {
+          "precision": 0.8529411764705882,
+          "recall": 0.8467153284671532,
+          "f1": 0.8498168498168498,
+          "support": 137
+        },
+        "CONTRADICT": {
+          "precision": 0.6746987951807228,
+          "recall": 0.8,
+          "f1": 0.7320261437908496,
+          "support": 70
+        }
+      },
+      "evidence": {
+        "averaging": "micro, evidence positive class",
+        "threshold": 0.5,
+        "precision": 0.7326315789473684,
+        "recall": 0.6590909090909091,
+        "tp": 348,
+        "fp": 127,
+        "fn": 180,
+        "tn": 2860,
+        "conditioned_on_predicted_label": false
+      },
+      "calibration": {
+        "type": "top-label ECE",
+        "num_bins": 10,
+        "binning": "equal-width, left-closed/right-open; last bin includes 1",
+        "bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "count": 1,
+            "accuracy": 1.0,
+            "mean_confidence": 0.37438759207725525,
+            "ece_contribution": 0.001878715939707942
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "count": 7,
+            "accuracy": 0.14285714285714285,
+            "mean_confidence": 0.4625028967857361,
+            "ece_contribution": 0.006719280112613072
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "count": 5,
+            "accuracy": 0.6,
+            "mean_confidence": 0.5523950099945069,
+            "ece_contribution": 0.0007147896397221189
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "count": 9,
+            "accuracy": 0.5555555555555556,
+            "mean_confidence": 0.6505977378951179,
+            "ece_contribution": 0.002568707630798981
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "count": 13,
+            "accuracy": 0.6153846153846154,
+            "mean_confidence": 0.7581759966336764,
+            "ece_contribution": 0.005574438307020399
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "count": 28,
+            "accuracy": 0.6071428571428571,
+            "mean_confidence": 0.8601147106715611,
+            "ece_contribution": 0.02127090660301415
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "count": 270,
+            "accuracy": 0.8814814814814815,
+            "mean_confidence": 0.9757938793411961,
+            "ece_contribution": 0.07646951177814695
+          }
+        ]
+      },
+      "zero_division": 0,
+      "score_scale": "0 to 1",
+      "elapsed_seconds": 151.06,
+      "evaluation": {
+        "base_model": "LiquidAI/d1-3B",
+        "adapter_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/LiquidAI/outputs/d1-scifact/checkpoint-step-175",
+        "epoch_complete": true,
+        "resolved_revision": null,
+        "dtype": "bfloat16",
+        "device": "cuda:4",
+        "split": "test",
+        "test_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/data/test",
+        "summary": {
+          "claims": 333,
+          "groups": 333,
+          "labels": {
+            "NEI": 126,
+            "CONTRADICT": 70,
+            "SUPPORT": 137
+          },
+          "valid_sentences": 3515,
+          "positive_sentences": 528,
+          "negative_sentences": 2987,
+          "masked_sentence_slots": 0,
+          "max_articles_per_group": 5,
+          "max_question_tokens": 4050
+        },
+        "evidence_threshold": 0.5,
+        "ece_bins": 10,
+        "max_length": 8192,
+        "question_batch_size": 8,
+        "stance_question": {
+          "type": "choice",
+          "instructions": "Using only the claim and all provided articles together, determine whether the available evidence supports or contradicts the claim, or is insufficient. Empty sentence slots are unavailable text.",
+          "criteria": {
+            "NEI": "The available articles provide insufficient evidence to support or contradict the claim.",
+            "SUPPORT": "The available evidence supports the claim.",
+            "CONTRADICT": "The available evidence contradicts the claim."
+          }
+        },
+        "evidence_instructions": "Considering the claim and the full context of all articles, is the sentence with original_index={original_index} in article doc_id={doc_id} part of evidence supporting or contradicting the claim? Include sentences that jointly form evidence with other sentences. Mere topical relevance is not evidence.",
+        "gold_evidence_used_as_input": false,
+        "evidence_f1_conditioned_on_predicted_label": false,
+        "epoch": 1,
+        "global_step": 175
+      }
+    }
+  },
+  {
+    "run": "d1-scifact",
+    "stage": "epoch-2",
+    "epoch": 2,
+    "global_step": 350,
+    "source": "outputs/d1-scifact/epoch-2/test/metrics.json",
+    "metrics": {
+      "label_accuracy": 0.8648648648648649,
+      "label_macro_f1": 0.8535762483130904,
+      "sentence_level_evidence_f1": 0.7105263157894737,
+      "label_ece": 0.1293180716467333,
+      "num_samples": 333,
+      "num_valid_sentences": 3515,
+      "label_order": [
+        "NEI",
+        "SUPPORT",
+        "CONTRADICT"
+      ],
+      "label_confusion_matrix": [
+        [
+          120,
+          1,
+          5
+        ],
+        [
+          17,
+          115,
+          5
+        ],
+        [
+          10,
+          7,
+          53
+        ]
+      ],
+      "per_label": {
+        "NEI": {
+          "precision": 0.8163265306122449,
+          "recall": 0.9523809523809523,
+          "f1": 0.8791208791208791,
+          "support": 126
+        },
+        "SUPPORT": {
+          "precision": 0.9349593495934959,
+          "recall": 0.8394160583941606,
+          "f1": 0.8846153846153846,
+          "support": 137
+        },
+        "CONTRADICT": {
+          "precision": 0.8412698412698413,
+          "recall": 0.7571428571428571,
+          "f1": 0.7969924812030075,
+          "support": 70
+        }
+      },
+      "evidence": {
+        "averaging": "micro, evidence positive class",
+        "threshold": 0.5,
+        "precision": 0.84375,
+        "recall": 0.6136363636363636,
+        "tp": 324,
+        "fp": 60,
+        "fn": 204,
+        "tn": 2927,
+        "conditioned_on_predicted_label": false
+      },
+      "calibration": {
+        "type": "top-label ECE",
+        "num_bins": 10,
+        "binning": "equal-width, left-closed/right-open; last bin includes 1",
+        "bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "count": 2,
+            "accuracy": 1.0,
+            "mean_confidence": 0.46311526000499725,
+            "ece_contribution": 0.0032245329729429593
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "count": 4,
+            "accuracy": 1.0,
+            "mean_confidence": 0.5678611099720001,
+            "ece_contribution": 0.005190857537873872
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "count": 5,
+            "accuracy": 0.4,
+            "mean_confidence": 0.6421484231948853,
+            "ece_contribution": 0.0036358622101334125
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "count": 2,
+            "accuracy": 0.5,
+            "mean_confidence": 0.7714516818523407,
+            "ece_contribution": 0.0016303404315455897
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "count": 7,
+            "accuracy": 0.5714285714285714,
+            "mean_confidence": 0.8397401656423297,
+            "ece_contribution": 0.005640183662151075
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "count": 313,
+            "accuracy": 0.8785942492012779,
+            "mean_confidence": 0.9956190612750312,
+            "ece_contribution": 0.1099962948320864
+          }
+        ]
+      },
+      "zero_division": 0,
+      "score_scale": "0 to 1",
+      "elapsed_seconds": 149.93,
+      "evaluation": {
+        "base_model": "LiquidAI/d1-3B",
+        "adapter_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/LiquidAI/outputs/d1-scifact/checkpoint-step-350",
+        "epoch_complete": true,
+        "resolved_revision": null,
+        "dtype": "bfloat16",
+        "device": "cuda:4",
+        "split": "test",
+        "test_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/data/test",
+        "summary": {
+          "claims": 333,
+          "groups": 333,
+          "labels": {
+            "NEI": 126,
+            "CONTRADICT": 70,
+            "SUPPORT": 137
+          },
+          "valid_sentences": 3515,
+          "positive_sentences": 528,
+          "negative_sentences": 2987,
+          "masked_sentence_slots": 0,
+          "max_articles_per_group": 5,
+          "max_question_tokens": 4050
+        },
+        "evidence_threshold": 0.5,
+        "ece_bins": 10,
+        "max_length": 8192,
+        "question_batch_size": 8,
+        "stance_question": {
+          "type": "choice",
+          "instructions": "Using only the claim and all provided articles together, determine whether the available evidence supports or contradicts the claim, or is insufficient. Empty sentence slots are unavailable text.",
+          "criteria": {
+            "NEI": "The available articles provide insufficient evidence to support or contradict the claim.",
+            "SUPPORT": "The available evidence supports the claim.",
+            "CONTRADICT": "The available evidence contradicts the claim."
+          }
+        },
+        "evidence_instructions": "Considering the claim and the full context of all articles, is the sentence with original_index={original_index} in article doc_id={doc_id} part of evidence supporting or contradicting the claim? Include sentences that jointly form evidence with other sentences. Mere topical relevance is not evidence.",
+        "gold_evidence_used_as_input": false,
+        "evidence_f1_conditioned_on_predicted_label": false,
+        "epoch": 2,
+        "global_step": 350
+      }
+    }
+  },
+  {
+    "run": "d1-scifact",
+    "stage": "epoch-3",
+    "epoch": 3,
+    "global_step": 525,
+    "source": "outputs/d1-scifact/epoch-3/test/metrics.json",
+    "metrics": {
+      "label_accuracy": 0.8648648648648649,
+      "label_macro_f1": 0.8540831982554767,
+      "sentence_level_evidence_f1": 0.7647058823529411,
+      "label_ece": 0.11672958033578898,
+      "num_samples": 333,
+      "num_valid_sentences": 3515,
+      "label_order": [
+        "NEI",
+        "SUPPORT",
+        "CONTRADICT"
+      ],
+      "label_confusion_matrix": [
+        [
+          116,
+          4,
+          6
+        ],
+        [
+          13,
+          117,
+          7
+        ],
+        [
+          8,
+          7,
+          55
+        ]
+      ],
+      "per_label": {
+        "NEI": {
+          "precision": 0.8467153284671532,
+          "recall": 0.9206349206349206,
+          "f1": 0.8821292775665399,
+          "support": 126
+        },
+        "SUPPORT": {
+          "precision": 0.9140625,
+          "recall": 0.8540145985401459,
+          "f1": 0.8830188679245283,
+          "support": 137
+        },
+        "CONTRADICT": {
+          "precision": 0.8088235294117647,
+          "recall": 0.7857142857142857,
+          "f1": 0.7971014492753623,
+          "support": 70
+        }
+      },
+      "evidence": {
+        "averaging": "micro, evidence positive class",
+        "threshold": 0.5,
+        "precision": 0.8231441048034934,
+        "recall": 0.7140151515151515,
+        "tp": 377,
+        "fp": 81,
+        "fn": 151,
+        "tn": 2906,
+        "conditioned_on_predicted_label": false
+      },
+      "calibration": {
+        "type": "top-label ECE",
+        "num_bins": 10,
+        "binning": "equal-width, left-closed/right-open; last bin includes 1",
+        "bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "count": 2,
+            "accuracy": 0.5,
+            "mean_confidence": 0.49740998446941376,
+            "ece_contribution": 1.5555648832349806e-05
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "count": 6,
+            "accuracy": 0.6666666666666666,
+            "mean_confidence": 0.6434338192145029,
+            "ece_contribution": 0.0004186098640029495
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "count": 5,
+            "accuracy": 0.4,
+            "mean_confidence": 0.7733270525932312,
+            "ece_contribution": 0.005605511300198666
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "count": 5,
+            "accuracy": 0.2,
+            "mean_confidence": 0.834968376159668,
+            "ece_contribution": 0.009534059702097118
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "count": 315,
+            "accuracy": 0.8888888888888888,
+            "mean_confidence": 0.9958250666421558,
+            "ece_contribution": 0.1011558438206579
+          }
+        ]
+      },
+      "zero_division": 0,
+      "score_scale": "0 to 1",
+      "elapsed_seconds": 149.69,
+      "evaluation": {
+        "base_model": "LiquidAI/d1-3B",
+        "adapter_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/LiquidAI/outputs/d1-scifact/checkpoint-step-525",
+        "epoch_complete": true,
+        "resolved_revision": null,
+        "dtype": "bfloat16",
+        "device": "cuda:4",
+        "split": "test",
+        "test_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/data/test",
+        "summary": {
+          "claims": 333,
+          "groups": 333,
+          "labels": {
+            "NEI": 126,
+            "CONTRADICT": 70,
+            "SUPPORT": 137
+          },
+          "valid_sentences": 3515,
+          "positive_sentences": 528,
+          "negative_sentences": 2987,
+          "masked_sentence_slots": 0,
+          "max_articles_per_group": 5,
+          "max_question_tokens": 4050
+        },
+        "evidence_threshold": 0.5,
+        "ece_bins": 10,
+        "max_length": 8192,
+        "question_batch_size": 8,
+        "stance_question": {
+          "type": "choice",
+          "instructions": "Using only the claim and all provided articles together, determine whether the available evidence supports or contradicts the claim, or is insufficient. Empty sentence slots are unavailable text.",
+          "criteria": {
+            "NEI": "The available articles provide insufficient evidence to support or contradict the claim.",
+            "SUPPORT": "The available evidence supports the claim.",
+            "CONTRADICT": "The available evidence contradicts the claim."
+          }
+        },
+        "evidence_instructions": "Considering the claim and the full context of all articles, is the sentence with original_index={original_index} in article doc_id={doc_id} part of evidence supporting or contradicting the claim? Include sentences that jointly form evidence with other sentences. Mere topical relevance is not evidence.",
+        "gold_evidence_used_as_input": false,
+        "evidence_f1_conditioned_on_predicted_label": false,
+        "epoch": 3,
+        "global_step": 525
+      }
+    }
+  },
+  {
+    "run": "d1-scifact",
+    "stage": "final",
+    "epoch": null,
+    "global_step": null,
+    "source": "outputs/d1-scifact/test/metrics.json",
+    "metrics": {
+      "label_accuracy": 0.8648648648648649,
+      "label_macro_f1": 0.8540831982554767,
+      "sentence_level_evidence_f1": 0.7647058823529411,
+      "label_ece": 0.11672958033578898,
+      "num_samples": 333,
+      "num_valid_sentences": 3515,
+      "label_order": [
+        "NEI",
+        "SUPPORT",
+        "CONTRADICT"
+      ],
+      "label_confusion_matrix": [
+        [
+          116,
+          4,
+          6
+        ],
+        [
+          13,
+          117,
+          7
+        ],
+        [
+          8,
+          7,
+          55
+        ]
+      ],
+      "per_label": {
+        "NEI": {
+          "precision": 0.8467153284671532,
+          "recall": 0.9206349206349206,
+          "f1": 0.8821292775665399,
+          "support": 126
+        },
+        "SUPPORT": {
+          "precision": 0.9140625,
+          "recall": 0.8540145985401459,
+          "f1": 0.8830188679245283,
+          "support": 137
+        },
+        "CONTRADICT": {
+          "precision": 0.8088235294117647,
+          "recall": 0.7857142857142857,
+          "f1": 0.7971014492753623,
+          "support": 70
+        }
+      },
+      "evidence": {
+        "averaging": "micro, evidence positive class",
+        "threshold": 0.5,
+        "precision": 0.8231441048034934,
+        "recall": 0.7140151515151515,
+        "tp": 377,
+        "fp": 81,
+        "fn": 151,
+        "tn": 2906,
+        "conditioned_on_predicted_label": false
+      },
+      "calibration": {
+        "type": "top-label ECE",
+        "num_bins": 10,
+        "binning": "equal-width, left-closed/right-open; last bin includes 1",
+        "bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "count": 2,
+            "accuracy": 0.5,
+            "mean_confidence": 0.49740998446941376,
+            "ece_contribution": 1.5555648832349806e-05
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "count": 6,
+            "accuracy": 0.6666666666666666,
+            "mean_confidence": 0.6434338192145029,
+            "ece_contribution": 0.0004186098640029495
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "count": 5,
+            "accuracy": 0.4,
+            "mean_confidence": 0.7733270525932312,
+            "ece_contribution": 0.005605511300198666
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "count": 5,
+            "accuracy": 0.2,
+            "mean_confidence": 0.834968376159668,
+            "ece_contribution": 0.009534059702097118
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "count": 315,
+            "accuracy": 0.8888888888888888,
+            "mean_confidence": 0.9958250666421558,
+            "ece_contribution": 0.1011558438206579
+          }
+        ]
+      },
+      "zero_division": 0,
+      "score_scale": "0 to 1",
+      "elapsed_seconds": 152.57,
+      "evaluation": {
+        "base_model": "LiquidAI/d1-3B",
+        "adapter_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/LiquidAI/outputs/d1-scifact/final",
+        "resolved_revision": null,
+        "dtype": "bfloat16",
+        "device": "cuda:4",
+        "split": "test",
+        "test_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/data/test",
+        "summary": {
+          "claims": 333,
+          "groups": 333,
+          "labels": {
+            "NEI": 126,
+            "CONTRADICT": 70,
+            "SUPPORT": 137
+          },
+          "valid_sentences": 3515,
+          "positive_sentences": 528,
+          "negative_sentences": 2987,
+          "masked_sentence_slots": 0,
+          "max_articles_per_group": 5,
+          "max_question_tokens": 4050
+        },
+        "evidence_threshold": 0.5,
+        "ece_bins": 10,
+        "max_length": 8192,
+        "question_batch_size": 8,
+        "stance_question": {
+          "type": "choice",
+          "instructions": "Using only the claim and all provided articles together, determine whether the available evidence supports or contradicts the claim, or is insufficient. Empty sentence slots are unavailable text.",
+          "criteria": {
+            "NEI": "The available articles provide insufficient evidence to support or contradict the claim.",
+            "SUPPORT": "The available evidence supports the claim.",
+            "CONTRADICT": "The available evidence contradicts the claim."
+          }
+        },
+        "evidence_instructions": "Considering the claim and the full context of all articles, is the sentence with original_index={original_index} in article doc_id={doc_id} part of evidence supporting or contradicting the claim? Include sentences that jointly form evidence with other sentences. Mere topical relevance is not evidence.",
+        "gold_evidence_used_as_input": false,
+        "evidence_f1_conditioned_on_predicted_label": false
+      }
+    }
+  }
+]
