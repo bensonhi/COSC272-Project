@@ -267,18 +267,20 @@ def plot_per_label(out, records):
     labels = [DISPLAY_NAMES[r['run']] for r in records]
     for ax, metric in zip(axes, ("precision", "recall", "f1")):
         values = np.array([[r["metrics"]["per_label"][label][metric] * 100 for label in LABELS] for r in records])
-        image = ax.imshow(values, cmap="YlGnBu", vmin=0, vmax=100, aspect="auto")
+        image = ax.imshow(values, cmap="YlGnBu", vmin=70, vmax=100, aspect="auto")
         ax.set_title(metric.capitalize())
         ax.set_xticks(range(3), LABELS, rotation=18)
         ax.set_yticks(range(len(records)), labels if ax is axes[0] else [""] * len(records))
         for i in range(len(records)):
             for j in range(3):
+                red, green, blue, _ = image.cmap(image.norm(values[i,j]))
+                luminance = 0.2126 * red + 0.7152 * green + 0.0722 * blue
                 ax.text(j, i, f"{values[i,j]:.2f}", ha="center", va="center",
-                        color="white" if values[i,j] > 65 else "#0f172a", fontsize=9)
-    decorate(fig, "Final per-label precision, recall and F1", "Final evaluation only · Class support: NEI = 126, SUPPORT = 137, CONTRADICT = 70")
+                        color="white" if luminance < 0.5 else "#0f172a", fontsize=9)
+    decorate(fig, "Final per-label precision, recall and F1", "Final evaluation only · Color scale: 70–100% · Class support: NEI = 126, SUPPORT = 137, CONTRADICT = 70")
     fig.subplots_adjust(left=0.17, right=0.90, bottom=0.19, top=0.80, wspace=0.12)
     cax = fig.add_axes([0.92, 0.20, 0.015, 0.59])
-    fig.colorbar(image, cax=cax, label="Percent (higher is better)")
+    fig.colorbar(image, cax=cax, ticks=np.arange(70, 101, 5), label="Percent")
     save(fig, out, "03_per_label_metrics")
 
 
@@ -424,7 +426,7 @@ def write_report(out, rows):
     ]
     lines += ["", "文件说明", "-----------",
         "01_final_metrics.png/pdf        final 六项主要指标的水平条形图（条形从零开始）",
-        "03_per_label_metrics.png/pdf    三个 final 的类别 precision/recall/F1 热图",
+        "03_per_label_metrics.png/pdf    三个 final 的类别 precision/recall/F1 热图（统一色阶 70%–100%）",
         "04_confusion_matrices.png/pdf   三个 final 的标签混淆矩阵（计数 + 按真实类别归一化百分比）",
         "05_evidence_counts.png/pdf      三个 final 的证据 TP/FP/FN/TN 计数",
         "06_reliability_diagrams.png/pdf 三个 final 的校准图（点面积随分箱样本数增大）",

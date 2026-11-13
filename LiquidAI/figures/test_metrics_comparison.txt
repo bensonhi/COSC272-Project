@@ -48,7 +48,7 @@ d1-original：TP=377，FP=81，FN=151，TN=2906；评估耗时=152.57s，设备=
 文件说明
 -----------
 01_final_metrics.png/pdf        final 六项主要指标的水平条形图（条形从零开始）
-03_per_label_metrics.png/pdf    三个 final 的类别 precision/recall/F1 热图
+03_per_label_metrics.png/pdf    三个 final 的类别 precision/recall/F1 热图（统一色阶 70%–100%）
 04_confusion_matrices.png/pdf   三个 final 的标签混淆矩阵（计数 + 按真实类别归一化百分比）
 05_evidence_counts.png/pdf      三个 final 的证据 TP/FP/FN/TN 计数
 06_reliability_diagrams.png/pdf 三个 final 的校准图（点面积随分箱样本数增大）
