@@ -1,11 +1,18 @@
 LiquidAI：三个实验的 final test metric 比较
 ============================================================
 
+显示名称与数据来源
+-----------
+d1-augment：outputs/d1-augment-1e-4/test/metrics.json
+d1-pair：outputs/d1-pair/test/metrics.json
+d1-original：outputs/d1-scifact/test/metrics.json
+
 范围与核验
 -----------
 所有图表仅展示三个实验的 final 结果，取自各自的 test/metrics.json，不包含各 epoch 的结果。
-完整原始数据表仍保留此前整理的全部 12 份评估，便于追溯；图表仅使用其中 3 份 final 记录。
-读取 d1-augment-v2、d1-pair、d1-scifact 的 epoch-1/2/3/test 与 test（final），共 12 份 metrics.json。
+完整原始数据表保留当前三个实验的全部 12 份评估，便于追溯；图表仅使用其中 3 份 final 记录。
+读取当前三个源目录的 epoch-1/2/3/test 与 test（final），共 12 份 metrics.json。
+CSV/JSON 的 run 字段保留真实目录名，display_name 字段保存图表显示名称，source 字段记录具体来源。
 逐条读取全部 3,996 条预测记录，用项目原有 TestMetrics 重算所有指标（含类别、混淆矩阵和校准分箱），均与原文件一致。
 已核验 12 份评估的 sample_id、输入文本、gold label、句子 mask 和 gold evidence 一致；评估参数一致。
 每份评估：333 条样本，3,515 个有效句子；正证据句 528，负证据句 2,987。
@@ -16,24 +23,27 @@ final 固定取各目录的 test/metrics.json。
 Final 对比（以下得分均为原始值 ×100；ECE 越低越好，其余越高越好）
 -----------
 run                    Accuracy   Macro-F1  Evidence-F1   Ev-Prec.  Ev-Recall       ECE
-d1-augment-v2             84.98      84.12      76.33      81.51      71.78      13.86
+d1-augment                86.19      85.09      76.85      81.22      72.92      12.53
 d1-pair                   85.29      84.30      76.88      82.75      71.78      12.69
-d1-scifact                86.49      85.41      76.47      82.31      71.40      11.67
+d1-original               86.49      85.41      76.47      82.31      71.40      11.67
 
-观察结果
+指标最优值（主指标图中以红色数字标出，柱子保持各实验颜色）
 -----------
-1. final 的 label accuracy 与 macro-F1 最高的是 d1-scifact：86.49% 和 85.41%。
-   相对 d1-augment-v2 分别高 1.50、1.29 个百分点；
-   相对 d1-pair 分别高 1.20、1.11 个百分点。
-2. final evidence F1 最高的是 d1-pair：76.88%，比 augment-v2 高 0.54 个百分点，
-   比 scifact 高 0.41 个百分点。pair 与 augment-v2 均 TP=379、FN=149，但 FP 从 86 降至 79。
-3. final ECE 最低的是 d1-scifact：11.67，pair 为 12.69，augment-v2 为 13.86。
-   校准图显示大多数样本落在 0.9–1.0 的置信度分箱，三个 final 模型在此分箱均有过度自信。
-4. 三个实验 final 的 CONTRADICT F1 均约为 79.4%–79.7%，低于各自 NEI 和 SUPPORT 的 F1。
-   pair 的 CONTRADICT precision 最高（87.93%），augment-v2 的 CONTRADICT recall 最高（80.00%）。
-5. 每个实验仅有一条训练轨迹，未提供多个随机种子的重复运行；这些差异是观察值，不能据此认定统计显著。
-6. 记录的 final 评估耗时：augment-v2=152.38s，pair=308.77s，scifact=152.57s。
-   三者分别运行于 cuda:7、cuda:1、cuda:4，硬件/负载未受控，耗时不能直接解释为模型本身的速度差异。
+Label accuracy：d1-original，86.49
+Label macro-F1：d1-original，85.41
+Evidence micro-F1：d1-pair，76.88
+Evidence precision：d1-pair，82.75
+Evidence recall：d1-augment，72.92
+Label ECE：d1-original，11.67
+
+Final 证据计数与记录耗时
+-----------
+d1-augment：TP=385，FP=89，FN=143，TN=2898；评估耗时=303.23s，设备=cuda:0。
+d1-pair：TP=379，FP=79，FN=149，TN=2908；评估耗时=308.77s，设备=cuda:1。
+d1-original：TP=377，FP=81，FN=151，TN=2906；评估耗时=152.57s，设备=cuda:4。
+
+每个实验仅有一条训练轨迹，未提供多个随机种子的重复运行；这些差异是观察值，不能据此认定统计显著。
+三者使用不同 CUDA 设备，硬件/负载未受控，记录耗时不能直接解释为模型本身的速度差异。
 
 文件说明
 -----------

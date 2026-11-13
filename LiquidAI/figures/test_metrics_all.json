@@ -1,15 +1,16 @@
 [
   {
-    "run": "d1-augment-v2",
+    "run": "d1-augment-1e-4",
+    "display_name": "d1-augment",
     "stage": "epoch-1",
     "epoch": 1,
     "global_step": 423,
-    "source": "outputs/d1-augment-v2/epoch-1/test/metrics.json",
+    "source": "outputs/d1-augment-1e-4/epoch-1/test/metrics.json",
     "metrics": {
-      "label_accuracy": 0.8348348348348348,
-      "label_macro_f1": 0.821944639548033,
-      "sentence_level_evidence_f1": 0.6752037252619325,
-      "label_ece": 0.07606135098425831,
+      "label_accuracy": 0.8408408408408409,
+      "label_macro_f1": 0.8287231314343714,
+      "sentence_level_evidence_f1": 0.7492904446546831,
+      "label_ece": 0.06948905395673925,
       "num_samples": 333,
       "num_valid_sentences": 3515,
       "label_order": [
@@ -19,50 +20,50 @@
       ],
       "label_confusion_matrix": [
         [
-          122,
-          1,
-          3
+          113,
+          5,
+          8
         ],
         [
-          24,
-          108,
-          5
+          13,
+          112,
+          12
         ],
         [
-          15,
           7,
-          48
+          8,
+          55
         ]
       ],
       "per_label": {
         "NEI": {
-          "precision": 0.7577639751552795,
-          "recall": 0.9682539682539683,
-          "f1": 0.8501742160278746,
+          "precision": 0.849624060150376,
+          "recall": 0.8968253968253969,
+          "f1": 0.8725868725868726,
           "support": 126
         },
         "SUPPORT": {
-          "precision": 0.9310344827586207,
-          "recall": 0.7883211678832117,
-          "f1": 0.8537549407114624,
+          "precision": 0.896,
+          "recall": 0.8175182481751825,
+          "f1": 0.8549618320610687,
           "support": 137
         },
         "CONTRADICT": {
-          "precision": 0.8571428571428571,
-          "recall": 0.6857142857142857,
-          "f1": 0.7619047619047619,
+          "precision": 0.7333333333333333,
+          "recall": 0.7857142857142857,
+          "f1": 0.7586206896551724,
           "support": 70
         }
       },
       "evidence": {
         "averaging": "micro, evidence positive class",
         "threshold": 0.5,
-        "precision": 0.8761329305135952,
-        "recall": 0.5492424242424242,
-        "tp": 290,
-        "fp": 41,
-        "fn": 238,
-        "tn": 2946,
+        "precision": 0.7485822306238186,
+        "recall": 0.75,
+        "tp": 396,
+        "fp": 133,
+        "fn": 132,
+        "tn": 2854,
         "conditioned_on_predicted_label": false
       },
       "calibration": {
@@ -97,71 +98,71 @@
           {
             "lower": 0.3,
             "upper": 0.4,
-            "count": 0,
-            "accuracy": null,
-            "mean_confidence": null,
-            "ece_contribution": 0.0
+            "count": 1,
+            "accuracy": 0.0,
+            "mean_confidence": 0.3825390338897705,
+            "ece_contribution": 0.0011487658675368483
           },
           {
             "lower": 0.4,
             "upper": 0.5,
-            "count": 5,
-            "accuracy": 0.2,
-            "mean_confidence": 0.4681403636932373,
-            "ece_contribution": 0.004026131586985545
+            "count": 7,
+            "accuracy": 0.42857142857142855,
+            "mean_confidence": 0.4634564774377005,
+            "ece_contribution": 0.0007333193455372487
           },
           {
             "lower": 0.5,
             "upper": 0.6,
-            "count": 9,
-            "accuracy": 0.5555555555555556,
-            "mean_confidence": 0.562306265036265,
-            "ece_contribution": 0.00018245160758674159
+            "count": 8,
+            "accuracy": 0.375,
+            "mean_confidence": 0.5643761157989502,
+            "ece_contribution": 0.004549576355530335
           },
           {
             "lower": 0.6,
             "upper": 0.7,
-            "count": 6,
-            "accuracy": 0.6666666666666666,
-            "mean_confidence": 0.6376967231432596,
-            "ece_contribution": 0.0005219809643857114
+            "count": 19,
+            "accuracy": 0.5789473684210527,
+            "mean_confidence": 0.6605343693181088,
+            "ece_contribution": 0.004655114165297499
           },
           {
             "lower": 0.7,
             "upper": 0.8,
-            "count": 24,
-            "accuracy": 0.5833333333333334,
-            "mean_confidence": 0.7628316928942999,
-            "ece_contribution": 0.012936818707096684
+            "count": 22,
+            "accuracy": 0.7272727272727273,
+            "mean_confidence": 0.7558041973547502,
+            "ece_contribution": 0.0018849619874009153
           },
           {
             "lower": 0.8,
             "upper": 0.9,
-            "count": 54,
-            "accuracy": 0.6111111111111112,
-            "mean_confidence": 0.8601958420541551,
-            "ece_contribution": 0.04039211853130443
+            "count": 28,
+            "accuracy": 0.5714285714285714,
+            "mean_confidence": 0.8637402015072959,
+            "ece_contribution": 0.024578755682295155
           },
           {
             "lower": 0.9,
             "upper": 1.0,
-            "count": 235,
-            "accuracy": 0.9404255319148936,
-            "mean_confidence": 0.9659345357976061,
-            "ece_contribution": 0.018001849586899203
+            "count": 248,
+            "accuracy": 0.9314516129032258,
+            "mean_confidence": 0.9743368575169195,
+            "ece_contribution": 0.03193856055314125
           }
         ]
       },
       "zero_division": 0,
       "score_scale": "0 to 1",
-      "elapsed_seconds": 153.98,
+      "elapsed_seconds": 308.89,
       "evaluation": {
         "base_model": "LiquidAI/d1-3B",
-        "adapter_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/LiquidAI/outputs/d1-augment-v2/checkpoint-step-423",
+        "adapter_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/LiquidAI/outputs/d1-augment-1e-4/checkpoint-step-423",
         "epoch_complete": true,
         "resolved_revision": null,
         "dtype": "bfloat16",
-        "device": "cuda:7",
+        "device": "cuda:0",
         "split": "test",
         "test_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/data/test",
         "summary": {
@@ -201,16 +202,17 @@
     }
   },
   {
-    "run": "d1-augment-v2",
+    "run": "d1-augment-1e-4",
+    "display_name": "d1-augment",
     "stage": "epoch-2",
     "epoch": 2,
     "global_step": 846,
-    "source": "outputs/d1-augment-v2/epoch-2/test/metrics.json",
+    "source": "outputs/d1-augment-1e-4/epoch-2/test/metrics.json",
     "metrics": {
-      "label_accuracy": 0.8378378378378378,
-      "label_macro_f1": 0.825233401533584,
-      "sentence_level_evidence_f1": 0.7556874381800198,
-      "label_ece": 0.1350504983294833,
+      "label_accuracy": 0.8588588588588588,
+      "label_macro_f1": 0.8451620773948082,
+      "sentence_level_evidence_f1": 0.7770204479065238,
+      "label_ece": 0.12416480861984568,
       "num_samples": 333,
       "num_valid_sentences": 3515,
       "label_order": [
@@ -220,50 +222,50 @@
       ],
       "label_confusion_matrix": [
         [
-          117,
-          4,
+          118,
+          3,
           5
         ],
         [
-          20,
-          113,
-          4
+          14,
+          116,
+          7
         ],
         [
-          11,
-          10,
-          49
+          9,
+          9,
+          52
         ]
       ],
       "per_label": {
         "NEI": {
-          "precision": 0.7905405405405406,
-          "recall": 0.9285714285714286,
-          "f1": 0.8540145985401459,
+          "precision": 0.8368794326241135,
+          "recall": 0.9365079365079365,
+          "f1": 0.8838951310861424,
           "support": 126
         },
         "SUPPORT": {
-          "precision": 0.889763779527559,
-          "recall": 0.8248175182481752,
-          "f1": 0.8560606060606061,
+          "precision": 0.90625,
+          "recall": 0.8467153284671532,
+          "f1": 0.8754716981132076,
           "support": 137
         },
         "CONTRADICT": {
-          "precision": 0.8448275862068966,
-          "recall": 0.7,
-          "f1": 0.765625,
+          "precision": 0.8125,
+          "recall": 0.7428571428571429,
+          "f1": 0.7761194029850746,
           "support": 70
         }
       },
       "evidence": {
         "averaging": "micro, evidence positive class",
         "threshold": 0.5,
-        "precision": 0.7908902691511387,
-        "recall": 0.7234848484848485,
-        "tp": 382,
-        "fp": 101,
-        "fn": 146,
-        "tn": 2886,
+        "precision": 0.7995991983967936,
+        "recall": 0.7556818181818182,
+        "tp": 399,
+        "fp": 100,
+        "fn": 129,
+        "tn": 2887,
         "conditioned_on_predicted_label": false
       },
       "calibration": {
@@ -306,63 +308,63 @@
           {
             "lower": 0.4,
             "upper": 0.5,
-            "count": 4,
-            "accuracy": 0.25,
-            "mean_confidence": 0.4686114937067032,
-            "ece_contribution": 0.002625963888368807
+            "count": 1,
+            "accuracy": 1.0,
+            "mean_confidence": 0.4996471405029297,
+            "ece_contribution": 0.0015025611396308417
           },
           {
             "lower": 0.5,
             "upper": 0.6,
             "count": 2,
-            "accuracy": 0.0,
-            "mean_confidence": 0.5878205895423889,
-            "ece_contribution": 0.003530453991245579
+            "accuracy": 0.5,
+            "mean_confidence": 0.5490545630455017,
+            "ece_contribution": 0.00029462200027328354
           },
           {
             "lower": 0.6,
             "upper": 0.7,
             "count": 2,
             "accuracy": 0.5,
-            "mean_confidence": 0.6789870858192444,
-            "ece_contribution": 0.0010749975124278942
+            "mean_confidence": 0.6421064734458923,
+            "ece_contribution": 0.0008534923330083624
           },
           {
             "lower": 0.7,
             "upper": 0.8,
-            "count": 8,
+            "count": 6,
             "accuracy": 0.5,
-            "mean_confidence": 0.7583710178732872,
-            "ece_contribution": 0.006207111540499392
+            "mean_confidence": 0.7471728622913361,
+            "ece_contribution": 0.004453565086330379
           },
           {
             "lower": 0.8,
             "upper": 0.9,
-            "count": 6,
-            "accuracy": 0.16666666666666666,
-            "mean_confidence": 0.8795289198557535,
-            "ece_contribution": 0.01284436492232589
+            "count": 3,
+            "accuracy": 0.3333333333333333,
+            "mean_confidence": 0.8410073121388754,
+            "ece_contribution": 0.0045736394486985766
           },
           {
             "lower": 0.9,
             "upper": 1.0,
-            "count": 311,
-            "accuracy": 0.8745980707395499,
-            "mean_confidence": 0.9910598487332702,
-            "ece_contribution": 0.10876760647461572
+            "count": 319,
+            "accuracy": 0.8746081504702194,
+            "mean_confidence": 0.9920318094914236,
+            "ece_contribution": 0.11248692861190424
           }
         ]
       },
       "zero_division": 0,
       "score_scale": "0 to 1",
-      "elapsed_seconds": 153.9,
+      "elapsed_seconds": 303.6,
       "evaluation": {
         "base_model": "LiquidAI/d1-3B",
-        "adapter_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/LiquidAI/outputs/d1-augment-v2/checkpoint-step-846",
+        "adapter_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/LiquidAI/outputs/d1-augment-1e-4/checkpoint-step-846",
         "epoch_complete": true,
         "resolved_revision": null,
         "dtype": "bfloat16",
-        "device": "cuda:7",
+        "device": "cuda:0",
         "split": "test",
         "test_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/data/test",
         "summary": {
@@ -402,16 +404,17 @@
     }
   },
   {
-    "run": "d1-augment-v2",
+    "run": "d1-augment-1e-4",
+    "display_name": "d1-augment",
     "stage": "epoch-3",
     "epoch": 3,
     "global_step": 1269,
-    "source": "outputs/d1-augment-v2/epoch-3/test/metrics.json",
+    "source": "outputs/d1-augment-1e-4/epoch-3/test/metrics.json",
     "metrics": {
-      "label_accuracy": 0.8498498498498499,
-      "label_macro_f1": 0.8412296108554362,
-      "sentence_level_evidence_f1": 0.7633434038267876,
-      "label_ece": 0.1386227974662552,
+      "label_accuracy": 0.8618618618618619,
+      "label_macro_f1": 0.8508838063357952,
+      "sentence_level_evidence_f1": 0.7684630738522954,
+      "label_ece": 0.12530749910944575,
       "num_samples": 333,
       "num_valid_sentences": 3515,
       "label_order": [
@@ -421,50 +424,50 @@
       ],
       "label_confusion_matrix": [
         [
-          111,
-          6,
-          9
-        ],
-        [
-          15,
           116,
-          6
+          5,
+          5
         ],
         [
-          9,
-          5,
-          56
+          13,
+          117,
+          7
+        ],
+        [
+          8,
+          8,
+          54
         ]
       ],
       "per_label": {
         "NEI": {
-          "precision": 0.8222222222222222,
-          "recall": 0.8809523809523809,
-          "f1": 0.8505747126436781,
+          "precision": 0.8467153284671532,
+          "recall": 0.9206349206349206,
+          "f1": 0.8821292775665399,
           "support": 126
         },
         "SUPPORT": {
-          "precision": 0.9133858267716536,
-          "recall": 0.8467153284671532,
-          "f1": 0.8787878787878788,
+          "precision": 0.9,
+          "recall": 0.8540145985401459,
+          "f1": 0.8764044943820225,
           "support": 137
         },
         "CONTRADICT": {
-          "precision": 0.7887323943661971,
-          "recall": 0.8,
-          "f1": 0.7943262411347518,
+          "precision": 0.8181818181818182,
+          "recall": 0.7714285714285715,
+          "f1": 0.7941176470588235,
           "support": 70
         }
       },
       "evidence": {
         "averaging": "micro, evidence positive class",
         "threshold": 0.5,
-        "precision": 0.8150537634408602,
-        "recall": 0.7178030303030303,
-        "tp": 379,
-        "fp": 86,
-        "fn": 149,
-        "tn": 2901,
+        "precision": 0.8122362869198312,
+        "recall": 0.7291666666666666,
+        "tp": 385,
+        "fp": 89,
+        "fn": 143,
+        "tn": 2898,
         "conditioned_on_predicted_label": false
       },
       "calibration": {
@@ -507,63 +510,63 @@
           {
             "lower": 0.4,
             "upper": 0.5,
-            "count": 1,
-            "accuracy": 0.0,
-            "mean_confidence": 0.4692552089691162,
-            "ece_contribution": 0.0014091748017090577
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
           },
           {
             "lower": 0.5,
             "upper": 0.6,
-            "count": 3,
-            "accuracy": 0.3333333333333333,
-            "mean_confidence": 0.5382935206095377,
-            "ece_contribution": 0.0018464881736594992
+            "count": 4,
+            "accuracy": 0.5,
+            "mean_confidence": 0.5771387666463852,
+            "ece_contribution": 0.0009265917915481705
           },
           {
             "lower": 0.6,
             "upper": 0.7,
-            "count": 2,
-            "accuracy": 0.5,
-            "mean_confidence": 0.6854666173458099,
-            "ece_contribution": 0.001113913617692552
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
           },
           {
             "lower": 0.7,
             "upper": 0.8,
-            "count": 1,
-            "accuracy": 1.0,
-            "mean_confidence": 0.7300906181335449,
-            "ece_contribution": 0.0008105386842836489
+            "count": 3,
+            "accuracy": 0.6666666666666666,
+            "mean_confidence": 0.7612046202023824,
+            "ece_contribution": 0.0008516932750965388
           },
           {
             "lower": 0.8,
             "upper": 0.9,
-            "count": 2,
-            "accuracy": 0.0,
-            "mean_confidence": 0.8824957013130188,
-            "ece_contribution": 0.005300274482360473
+            "count": 4,
+            "accuracy": 0.75,
+            "mean_confidence": 0.8849380016326904,
+            "ece_contribution": 0.0016208768964887739
           },
           {
             "lower": 0.9,
             "upper": 1.0,
-            "count": 324,
-            "accuracy": 0.8641975308641975,
-            "mean_confidence": 0.9958994498959294,
-            "ece_contribution": 0.12814240770654997
+            "count": 322,
+            "accuracy": 0.8695652173913043,
+            "mean_confidence": 0.9956381250612484,
+            "ece_contribution": 0.12190833714631227
           }
         ]
       },
       "zero_division": 0,
       "score_scale": "0 to 1",
-      "elapsed_seconds": 152.88,
+      "elapsed_seconds": 303.4,
       "evaluation": {
         "base_model": "LiquidAI/d1-3B",
-        "adapter_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/LiquidAI/outputs/d1-augment-v2/checkpoint-step-1269",
+        "adapter_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/LiquidAI/outputs/d1-augment-1e-4/checkpoint-step-1269",
         "epoch_complete": true,
         "resolved_revision": null,
         "dtype": "bfloat16",
-        "device": "cuda:7",
+        "device": "cuda:0",
         "split": "test",
         "test_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/data/test",
         "summary": {
@@ -603,16 +606,17 @@
     }
   },
   {
-    "run": "d1-augment-v2",
+    "run": "d1-augment-1e-4",
+    "display_name": "d1-augment",
     "stage": "final",
     "epoch": null,
     "global_step": null,
-    "source": "outputs/d1-augment-v2/test/metrics.json",
+    "source": "outputs/d1-augment-1e-4/test/metrics.json",
     "metrics": {
-      "label_accuracy": 0.8498498498498499,
-      "label_macro_f1": 0.8412296108554362,
-      "sentence_level_evidence_f1": 0.7633434038267876,
-      "label_ece": 0.1386227974662552,
+      "label_accuracy": 0.8618618618618619,
+      "label_macro_f1": 0.8508838063357952,
+      "sentence_level_evidence_f1": 0.7684630738522954,
+      "label_ece": 0.12530749910944575,
       "num_samples": 333,
       "num_valid_sentences": 3515,
       "label_order": [
@@ -622,50 +626,50 @@
       ],
       "label_confusion_matrix": [
         [
-          111,
-          6,
-          9
-        ],
-        [
-          15,
           116,
-          6
+          5,
+          5
         ],
         [
-          9,
-          5,
-          56
+          13,
+          117,
+          7
+        ],
+        [
+          8,
+          8,
+          54
         ]
       ],
       "per_label": {
         "NEI": {
-          "precision": 0.8222222222222222,
-          "recall": 0.8809523809523809,
-          "f1": 0.8505747126436781,
+          "precision": 0.8467153284671532,
+          "recall": 0.9206349206349206,
+          "f1": 0.8821292775665399,
           "support": 126
         },
         "SUPPORT": {
-          "precision": 0.9133858267716536,
-          "recall": 0.8467153284671532,
-          "f1": 0.8787878787878788,
+          "precision": 0.9,
+          "recall": 0.8540145985401459,
+          "f1": 0.8764044943820225,
           "support": 137
         },
         "CONTRADICT": {
-          "precision": 0.7887323943661971,
-          "recall": 0.8,
-          "f1": 0.7943262411347518,
+          "precision": 0.8181818181818182,
+          "recall": 0.7714285714285715,
+          "f1": 0.7941176470588235,
           "support": 70
         }
       },
       "evidence": {
         "averaging": "micro, evidence positive class",
         "threshold": 0.5,
-        "precision": 0.8150537634408602,
-        "recall": 0.7178030303030303,
-        "tp": 379,
-        "fp": 86,
-        "fn": 149,
-        "tn": 2901,
+        "precision": 0.8122362869198312,
+        "recall": 0.7291666666666666,
+        "tp": 385,
+        "fp": 89,
+        "fn": 143,
+        "tn": 2898,
         "conditioned_on_predicted_label": false
       },
       "calibration": {
@@ -708,62 +712,62 @@
           {
             "lower": 0.4,
             "upper": 0.5,
-            "count": 1,
-            "accuracy": 0.0,
-            "mean_confidence": 0.4692552089691162,
-            "ece_contribution": 0.0014091748017090577
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
           },
           {
             "lower": 0.5,
             "upper": 0.6,
-            "count": 3,
-            "accuracy": 0.3333333333333333,
-            "mean_confidence": 0.5382935206095377,
-            "ece_contribution": 0.0018464881736594992
+            "count": 4,
+            "accuracy": 0.5,
+            "mean_confidence": 0.5771387666463852,
+            "ece_contribution": 0.0009265917915481705
           },
           {
             "lower": 0.6,
             "upper": 0.7,
-            "count": 2,
-            "accuracy": 0.5,
-            "mean_confidence": 0.6854666173458099,
-            "ece_contribution": 0.001113913617692552
+            "count": 0,
+            "accuracy": null,
+            "mean_confidence": null,
+            "ece_contribution": 0.0
           },
           {
             "lower": 0.7,
             "upper": 0.8,
-            "count": 1,
-            "accuracy": 1.0,
-            "mean_confidence": 0.7300906181335449,
-            "ece_contribution": 0.0008105386842836489
+            "count": 3,
+            "accuracy": 0.6666666666666666,
+            "mean_confidence": 0.7612046202023824,
+            "ece_contribution": 0.0008516932750965388
           },
           {
             "lower": 0.8,
             "upper": 0.9,
-            "count": 2,
-            "accuracy": 0.0,
-            "mean_confidence": 0.8824957013130188,
-            "ece_contribution": 0.005300274482360473
+            "count": 4,
+            "accuracy": 0.75,
+            "mean_confidence": 0.8849380016326904,
+            "ece_contribution": 0.0016208768964887739
           },
           {
             "lower": 0.9,
             "upper": 1.0,
-            "count": 324,
-            "accuracy": 0.8641975308641975,
-            "mean_confidence": 0.9958994498959294,
-            "ece_contribution": 0.12814240770654997
+            "count": 322,
+            "accuracy": 0.8695652173913043,
+            "mean_confidence": 0.9956381250612484,
+            "ece_contribution": 0.12190833714631227
           }
         ]
       },
       "zero_division": 0,
       "score_scale": "0 to 1",
-      "elapsed_seconds": 152.38,
+      "elapsed_seconds": 303.23,
       "evaluation": {
         "base_model": "LiquidAI/d1-3B",
-        "adapter_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/LiquidAI/outputs/d1-augment-v2/final",
+        "adapter_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/LiquidAI/outputs/d1-augment-1e-4/final",
         "resolved_revision": null,
         "dtype": "bfloat16",
-        "device": "cuda:7",
+        "device": "cuda:0",
         "split": "test",
         "test_dir": "/jumbo/yaoqingyang/xuyh/courses/CS272/project/data/test",
         "summary": {
@@ -802,6 +806,7 @@
   },
   {
     "run": "d1-pair",
+    "display_name": "d1-pair",
     "stage": "epoch-1",
     "epoch": 1,
     "global_step": 423,
@@ -1003,6 +1008,7 @@
   },
   {
     "run": "d1-pair",
+    "display_name": "d1-pair",
     "stage": "epoch-2",
     "epoch": 2,
     "global_step": 846,
@@ -1204,6 +1210,7 @@
   },
   {
     "run": "d1-pair",
+    "display_name": "d1-pair",
     "stage": "epoch-3",
     "epoch": 3,
     "global_step": 1269,
@@ -1405,6 +1412,7 @@
   },
   {
     "run": "d1-pair",
+    "display_name": "d1-pair",
     "stage": "final",
     "epoch": null,
     "global_step": null,
@@ -1603,6 +1611,7 @@
   },
   {
     "run": "d1-scifact",
+    "display_name": "d1-original",
     "stage": "epoch-1",
     "epoch": 1,
     "global_step": 175,
@@ -1804,6 +1813,7 @@
   },
   {
     "run": "d1-scifact",
+    "display_name": "d1-original",
     "stage": "epoch-2",
     "epoch": 2,
     "global_step": 350,
@@ -2005,6 +2015,7 @@
   },
   {
     "run": "d1-scifact",
+    "display_name": "d1-original",
     "stage": "epoch-3",
     "epoch": 3,
     "global_step": 525,
@@ -2206,6 +2217,7 @@
   },
   {
     "run": "d1-scifact",
+    "display_name": "d1-original",
     "stage": "final",
     "epoch": null,
     "global_step": null,

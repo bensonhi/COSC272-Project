@@ -30,7 +30,12 @@ PROJECT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT.parent))
 from LiquidAI.metrics import TestMetrics
 
-RUNS = ("d1-augment-v2", "d1-pair", "d1-scifact")
+RUNS = ("d1-augment-1e-4", "d1-pair", "d1-scifact")
+DISPLAY_NAMES = {
+    "d1-augment-1e-4": "d1-augment",
+    "d1-pair": "d1-pair",
+    "d1-scifact": "d1-original",
+}
 STAGES = ("epoch-1", "epoch-2", "epoch-3", "final")
 LABELS = ("NEI", "SUPPORT", "CONTRADICT")
 COLORS = ("#0072B2", "#D55E00", "#009E73")
@@ -146,7 +151,7 @@ def collect(root):
             if epoch is not None:
                 assert_matches(metrics, epoch_log[epoch], f"epoch_metrics.jsonl: {run}/{stage}")
             meta = {
-                "run": run, "stage": stage, "epoch": epoch,
+                "run": run, "display_name": DISPLAY_NAMES[run], "stage": stage, "epoch": epoch,
                 "global_step": config.get("global_step"), "source": str(path.relative_to(root)),
             }
             records.append({**meta, "metrics": metrics})
@@ -242,7 +247,7 @@ def plot_final(out, rows):
         values = [100 * row[key] for row in final]
         best = max(values) if direction == "higher" else min(values)
         bars = ax.barh(np.arange(3), values, color=COLORS, height=0.55)
-        ax.set_yticks(np.arange(3), RUNS)
+        ax.set_yticks(np.arange(3), [DISPLAY_NAMES[run] for run in RUNS])
         ax.invert_yaxis()
         ax.set_xlim(0, 108 if direction == "higher" else 19)
         ax.set_title(title, loc="left", fontsize=11)
@@ -259,7 +264,7 @@ def plot_final(out, rows):
 
 def plot_per_label(out, records):
     fig, axes = plt.subplots(1, 3, figsize=(13, 5))
-    labels = [r['run'] for r in records]
+    labels = [DISPLAY_NAMES[r['run']] for r in records]
     for ax, metric in zip(axes, ("precision", "recall", "f1")):
         values = np.array([[r["metrics"]["per_label"][label][metric] * 100 for label in LABELS] for r in records])
         image = ax.imshow(values, cmap="YlGnBu", vmin=0, vmax=100, aspect="auto")
@@ -289,7 +294,7 @@ def plot_confusion(out, records):
             for b in range(3):
                 ax.text(b, a, f"{values[a,b]}\n{normalized[a,b]:.1f}%", ha="center", va="center",
                         color="white" if normalized[a,b] > 55 else "#0f172a", fontsize=10)
-        ax.set_title(run, fontsize=11)
+        ax.set_title(DISPLAY_NAMES[run], fontsize=11)
         ax.set_xticks(range(3), LABELS, rotation=15, fontsize=8)
         ax.set_yticks(range(3), LABELS, fontsize=8)
         if j == 0:
@@ -310,7 +315,7 @@ def plot_evidence_counts(out, rows):
         bars = ax.bar(range(3), values, width=0.55, color=COLORS)
         ax.bar_label(bars, fontsize=10, padding=3)
         ax.set_title(title, loc="left")
-        ax.set_xticks(range(3), RUNS)
+        ax.set_xticks(range(3), [DISPLAY_NAMES[run] for run in RUNS])
         ax.set_ylim(bottom=0, top=ax.get_ylim()[1]*1.14)
         ax.set_ylabel("Sentences")
         ax.grid(axis="y")
@@ -332,7 +337,7 @@ def plot_reliability(out, records):
         for b in populated:
             ax.plot([b["mean_confidence"]]*2, [b["mean_confidence"], b["accuracy"]], color=color, alpha=0.45)
         ax.set(xlim=(0, 1.03), ylim=(-0.03, 1.03))
-        ax.set_title(f"{run} | ECE × 100 = {100*metrics['label_ece']:.2f}", fontsize=10)
+        ax.set_title(f"{DISPLAY_NAMES[run]} | ECE × 100 = {100*metrics['label_ece']:.2f}", fontsize=10)
         ax.grid()
         ax.set_xlabel("Mean confidence in bin")
         if i == 0:
@@ -353,7 +358,7 @@ def plot_calibration_bins(out, records):
         ax.imshow(values, cmap=cmap, aspect="auto", norm=Normalize(vmin=0, vmax=values.max()))
         ax.set_title(title)
         ax.set_xticks(range(10), [f"{x/10:.1f}–{(x+1)/10:.1f}" for x in range(10)], rotation=65, fontsize=8)
-        ax.set_yticks(range(len(records)), [r['run'] for r in records] if ax is axes[0] else [""]*len(records))
+        ax.set_yticks(range(len(records)), [DISPLAY_NAMES[r['run']] for r in records] if ax is axes[0] else [""]*len(records))
         for i in range(len(records)):
             for j in range(10):
                 ax.text(j, i, format(values[i,j], fmt), ha="center", va="center", fontsize=8,
@@ -369,9 +374,9 @@ def plot_runtime(out, rows):
     selected = [next(r for r in rows if r["run"] == run) for run in RUNS]
     bars = ax.bar(range(3), [r["elapsed_seconds"] for r in selected], width=0.55, color=COLORS)
     ax.bar_label(bars, fmt="%.2f", padding=4, fontsize=11)
-    ax.set_xticks(range(3), [f"{r['run']}\n({r['device']})" for r in selected])
+    ax.set_xticks(range(3), [f"{DISPLAY_NAMES[r['run']]}\n({r['device']})" for r in selected])
     ax.set_ylabel("Elapsed seconds")
-    ax.set_ylim(0, 380)
+    ax.set_ylim(0, max(r['elapsed_seconds'] for r in selected) * 1.23)
     ax.grid(axis="y")
     decorate(fig, "Final test evaluation time", "Final evaluation only · Different CUDA devices; timings do not establish an intrinsic model speed ranking", bottom=0.17)
     save(fig, out, "08_evaluation_runtime")
@@ -379,13 +384,15 @@ def plot_runtime(out, rows):
 
 def write_report(out, rows):
     final = {r["run"]: r for r in rows if r["stage"] == "final"}
-    a, p, s = [final[run] for run in RUNS]
     lines = [
         "LiquidAI：三个实验的 final test metric 比较", "="*60, "",
+        "显示名称与数据来源", "-----------",
+        *[f"{DISPLAY_NAMES[run]}：outputs/{run}/test/metrics.json" for run in RUNS], "",
         "范围与核验", "-----------",
         "所有图表仅展示三个实验的 final 结果，取自各自的 test/metrics.json，不包含各 epoch 的结果。",
-        "完整原始数据表仍保留此前整理的全部 12 份评估，便于追溯；图表仅使用其中 3 份 final 记录。",
-        "读取 d1-augment-v2、d1-pair、d1-scifact 的 epoch-1/2/3/test 与 test（final），共 12 份 metrics.json。",
+        "完整原始数据表保留当前三个实验的全部 12 份评估，便于追溯；图表仅使用其中 3 份 final 记录。",
+        "读取当前三个源目录的 epoch-1/2/3/test 与 test（final），共 12 份 metrics.json。",
+        "CSV/JSON 的 run 字段保留真实目录名，display_name 字段保存图表显示名称，source 字段记录具体来源。",
         "逐条读取全部 3,996 条预测记录，用项目原有 TestMetrics 重算所有指标（含类别、混淆矩阵和校准分箱），均与原文件一致。",
         "已核验 12 份评估的 sample_id、输入文本、gold label、句子 mask 和 gold evidence 一致；评估参数一致。",
         "每份评估：333 条样本，3,515 个有效句子；正证据句 528，负证据句 2,987。",
@@ -397,20 +404,23 @@ def write_report(out, rows):
     ]
     for run in RUNS:
         row = final[run]
-        lines.append(f"{run:<20} " + " ".join(f"{100*row[key]:10.2f}" for key, _, _ in SCORES))
-    lines += ["", "观察结果", "-----------",
-        f"1. final 的 label accuracy 与 macro-F1 最高的是 d1-scifact：{100*s['label_accuracy']:.2f}% 和 {100*s['label_macro_f1']:.2f}%。",
-        f"   相对 d1-augment-v2 分别高 {100*(s['label_accuracy']-a['label_accuracy']):.2f}、{100*(s['label_macro_f1']-a['label_macro_f1']):.2f} 个百分点；",
-        f"   相对 d1-pair 分别高 {100*(s['label_accuracy']-p['label_accuracy']):.2f}、{100*(s['label_macro_f1']-p['label_macro_f1']):.2f} 个百分点。",
-        f"2. final evidence F1 最高的是 d1-pair：{100*p['sentence_level_evidence_f1']:.2f}%，比 augment-v2 高 {100*(p['sentence_level_evidence_f1']-a['sentence_level_evidence_f1']):.2f} 个百分点，",
-        f"   比 scifact 高 {100*(p['sentence_level_evidence_f1']-s['sentence_level_evidence_f1']):.2f} 个百分点。pair 与 augment-v2 均 TP=379、FN=149，但 FP 从 86 降至 79。",
-        f"3. final ECE 最低的是 d1-scifact：{100*s['label_ece']:.2f}，pair 为 {100*p['label_ece']:.2f}，augment-v2 为 {100*a['label_ece']:.2f}。",
-        "   校准图显示大多数样本落在 0.9–1.0 的置信度分箱，三个 final 模型在此分箱均有过度自信。",
-        "4. 三个实验 final 的 CONTRADICT F1 均约为 79.4%–79.7%，低于各自 NEI 和 SUPPORT 的 F1。",
-        "   pair 的 CONTRADICT precision 最高（87.93%），augment-v2 的 CONTRADICT recall 最高（80.00%）。",
-        "5. 每个实验仅有一条训练轨迹，未提供多个随机种子的重复运行；这些差异是观察值，不能据此认定统计显著。",
-        "6. 记录的 final 评估耗时：augment-v2=152.38s，pair=308.77s，scifact=152.57s。",
-        "   三者分别运行于 cuda:7、cuda:1、cuda:4，硬件/负载未受控，耗时不能直接解释为模型本身的速度差异。",
+        lines.append(f"{DISPLAY_NAMES[run]:<20} " + " ".join(f"{100*row[key]:10.2f}" for key, _, _ in SCORES))
+    lines += ["", "指标最优值（主指标图中以红色数字标出，柱子保持各实验颜色）", "-----------"]
+    for key, title, direction in SCORES:
+        best = (max if direction == "higher" else min)(final[run][key] for run in RUNS)
+        winners = [DISPLAY_NAMES[run] for run in RUNS if math.isclose(final[run][key], best, rel_tol=0, abs_tol=1e-12)]
+        lines.append(f"{title}：{'、'.join(winners)}，{100*best:.2f}")
+    lines += ["", "Final 证据计数与记录耗时", "-----------"]
+    for run in RUNS:
+        row = final[run]
+        lines.append(
+            f"{DISPLAY_NAMES[run]}：TP={row['evidence_tp']}，FP={row['evidence_fp']}，"
+            f"FN={row['evidence_fn']}，TN={row['evidence_tn']}；"
+            f"评估耗时={row['elapsed_seconds']:.2f}s，设备={row['device']}。"
+        )
+    lines += ["",
+        "每个实验仅有一条训练轨迹，未提供多个随机种子的重复运行；这些差异是观察值，不能据此认定统计显著。",
+        "三者使用不同 CUDA 设备，硬件/负载未受控，记录耗时不能直接解释为模型本身的速度差异。",
     ]
     lines += ["", "文件说明", "-----------",
         "01_final_metrics.png/pdf        final 六项主要指标的水平条形图（条形从零开始）",
