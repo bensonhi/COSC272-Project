@@ -1,0 +1,386 @@
+[
+ {
+  "n": 1,
+  "id": "133/evidence_flip",
+  "edit": "evidence_flip",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 2,
+  "id": "839/evidence_flip",
+  "edit": "evidence_flip",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 3,
+  "id": "1383/evidence_flip",
+  "edit": "evidence_flip",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 4,
+  "id": "1043/claim_negation",
+  "edit": "claim_negation",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 5,
+  "id": "142/evidence_flip",
+  "edit": "evidence_flip",
+  "intended": "SUPPORT"
+ },
+ {
+  "n": 6,
+  "id": "1328/claim_negation",
+  "edit": "claim_negation",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 7,
+  "id": "1268/evidence_weaken",
+  "edit": "evidence_weaken",
+  "intended": "NEI"
+ },
+ {
+  "n": 8,
+  "id": "1371/claim_negation",
+  "edit": "claim_negation",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 9,
+  "id": "366/evidence_weaken",
+  "edit": "evidence_weaken",
+  "intended": "NEI"
+ },
+ {
+  "n": 10,
+  "id": "972/claim_negation",
+  "edit": "claim_negation",
+  "intended": "SUPPORT"
+ },
+ {
+  "n": 11,
+  "id": "598/claim_negation",
+  "edit": "claim_negation",
+  "intended": "SUPPORT"
+ },
+ {
+  "n": 12,
+  "id": "737/evidence_flip",
+  "edit": "evidence_flip",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 13,
+  "id": "683/claim_negation",
+  "edit": "claim_negation",
+  "intended": "SUPPORT"
+ },
+ {
+  "n": 14,
+  "id": "1137/evidence_flip",
+  "edit": "evidence_flip",
+  "intended": "SUPPORT"
+ },
+ {
+  "n": 15,
+  "id": "525/evidence_flip",
+  "edit": "evidence_flip",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 16,
+  "id": "178/evidence_flip",
+  "edit": "evidence_flip",
+  "intended": "SUPPORT"
+ },
+ {
+  "n": 17,
+  "id": "133/claim_negation",
+  "edit": "claim_negation",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 18,
+  "id": "767/evidence_weaken",
+  "edit": "evidence_weaken",
+  "intended": "NEI"
+ },
+ {
+  "n": 19,
+  "id": "882/claim_negation",
+  "edit": "claim_negation",
+  "intended": "SUPPORT"
+ },
+ {
+  "n": 20,
+  "id": "941/evidence_flip",
+  "edit": "evidence_flip",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 21,
+  "id": "1269/evidence_flip",
+  "edit": "evidence_flip",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 22,
+  "id": "967/claim_negation",
+  "edit": "claim_negation",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 23,
+  "id": "1366/claim_negation",
+  "edit": "claim_negation",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 24,
+  "id": "529/evidence_flip",
+  "edit": "evidence_flip",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 25,
+  "id": "505/evidence_flip",
+  "edit": "evidence_flip",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 26,
+  "id": "120/claim_negation",
+  "edit": "claim_negation",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 27,
+  "id": "277/evidence_flip",
+  "edit": "evidence_flip",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 28,
+  "id": "1298/claim_negation",
+  "edit": "claim_negation",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 29,
+  "id": "802/evidence_flip",
+  "edit": "evidence_flip",
+  "intended": "SUPPORT"
+ },
+ {
+  "n": 30,
+  "id": "142/evidence_weaken",
+  "edit": "evidence_weaken",
+  "intended": "NEI"
+ },
+ {
+  "n": 31,
+  "id": "1119/claim_negation",
+  "edit": "claim_negation",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 32,
+  "id": "559/evidence_flip",
+  "edit": "evidence_flip",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 33,
+  "id": "197/claim_negation",
+  "edit": "claim_negation",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 34,
+  "id": "680/claim_negation",
+  "edit": "claim_negation",
+  "intended": "SUPPORT"
+ },
+ {
+  "n": 35,
+  "id": "928/evidence_flip",
+  "edit": "evidence_flip",
+  "intended": "SUPPORT"
+ },
+ {
+  "n": 36,
+  "id": "998/claim_negation",
+  "edit": "claim_negation",
+  "intended": "SUPPORT"
+ },
+ {
+  "n": 37,
+  "id": "1223/evidence_weaken",
+  "edit": "evidence_weaken",
+  "intended": "NEI"
+ },
+ {
+  "n": 38,
+  "id": "1379/claim_negation",
+  "edit": "claim_negation",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 39,
+  "id": "1378/evidence_weaken",
+  "edit": "evidence_weaken",
+  "intended": "NEI"
+ },
+ {
+  "n": 40,
+  "id": "1055/evidence_weaken",
+  "edit": "evidence_weaken",
+  "intended": "NEI"
+ },
+ {
+  "n": 41,
+  "id": "1018/evidence_weaken",
+  "edit": "evidence_weaken",
+  "intended": "NEI"
+ },
+ {
+  "n": 42,
+  "id": "569/evidence_flip",
+  "edit": "evidence_flip",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 43,
+  "id": "379/evidence_flip",
+  "edit": "evidence_flip",
+  "intended": "SUPPORT"
+ },
+ {
+  "n": 44,
+  "id": "653/evidence_flip",
+  "edit": "evidence_flip",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 45,
+  "id": "379/claim_negation",
+  "edit": "claim_negation",
+  "intended": "SUPPORT"
+ },
+ {
+  "n": 46,
+  "id": "210/evidence_weaken",
+  "edit": "evidence_weaken",
+  "intended": "NEI"
+ },
+ {
+  "n": 47,
+  "id": "746/claim_negation",
+  "edit": "claim_negation",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 48,
+  "id": "256/evidence_weaken",
+  "edit": "evidence_weaken",
+  "intended": "NEI"
+ },
+ {
+  "n": 49,
+  "id": "863/claim_negation",
+  "edit": "claim_negation",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 50,
+  "id": "661/evidence_flip",
+  "edit": "evidence_flip",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 51,
+  "id": "1084/evidence_weaken",
+  "edit": "evidence_weaken",
+  "intended": "NEI"
+ },
+ {
+  "n": 52,
+  "id": "846/evidence_flip",
+  "edit": "evidence_flip",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 53,
+  "id": "317/claim_negation",
+  "edit": "claim_negation",
+  "intended": "SUPPORT"
+ },
+ {
+  "n": 54,
+  "id": "1101/claim_negation",
+  "edit": "claim_negation",
+  "intended": "SUPPORT"
+ },
+ {
+  "n": 55,
+  "id": "1159/evidence_flip",
+  "edit": "evidence_flip",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 56,
+  "id": "980/evidence_flip",
+  "edit": "evidence_flip",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 57,
+  "id": "305/evidence_weaken",
+  "edit": "evidence_weaken",
+  "intended": "NEI"
+ },
+ {
+  "n": 58,
+  "id": "1225/claim_negation",
+  "edit": "claim_negation",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 59,
+  "id": "197/evidence_weaken",
+  "edit": "evidence_weaken",
+  "intended": "NEI"
+ },
+ {
+  "n": 60,
+  "id": "1324/claim_negation",
+  "edit": "claim_negation",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 61,
+  "id": "1043/evidence_flip",
+  "edit": "evidence_flip",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 62,
+  "id": "724/evidence_flip",
+  "edit": "evidence_flip",
+  "intended": "CONTRADICT"
+ },
+ {
+  "n": 63,
+  "id": "70/evidence_weaken",
+  "edit": "evidence_weaken",
+  "intended": "NEI"
+ },
+ {
+  "n": 64,
+  "id": "1086/claim_negation",
+  "edit": "claim_negation",
+  "intended": "CONTRADICT"
+ }
+]

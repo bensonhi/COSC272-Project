@@ -89,7 +89,8 @@ def run_baseline(name: str, predict: Predictor, config: dict, samples: list[Samp
     return result
 
 
-EVAL_SETS = ("test", "evidence_removed", "random_removed", "evidence_removed_silent", "random_removed_silent")
+EVAL_SETS = ("test", "evidence_removed", "random_removed", "evidence_removed_silent", "random_removed_silent",
+             "cf_claim_negation", "cf_evidence_flip", "cf_evidence_weaken")
 
 
 def eval_samples(eval_set: str, seed: int = 0) -> list[Sample]:
@@ -99,6 +100,8 @@ def eval_samples(eval_set: str, seed: int = 0) -> list[Sample]:
                       slot (the training-time deletion format) and the target becomes NEI.
     random_removed    control for deletion artifacts: the same claims with the same number of
                       randomly chosen NON-evidence sentences removed; label and evidence unchanged.
+    cf_<edit>         verified counterfactual minimal pairs of the test claims (counterfactual/):
+                      claim_negation / evidence_flip flip SUPPORT <-> CONTRADICT, evidence_weaken -> NEI.
     *_silent          the same deletions (same sentences, same random draw), but removed sentences are
                       cut out and the rest renumbered, so no empty slot or index gap reveals a deletion.
     Gold rationales can omit valid evidence, so some evidence_removed inputs may still be
@@ -110,6 +113,10 @@ def eval_samples(eval_set: str, seed: int = 0) -> list[Sample]:
     samples = load_samples(TEST_DIR)
     if eval_set == "test":
         return samples
+    if eval_set.startswith("cf_"):
+        sys.path.insert(0, str(ROOT / "counterfactual"))
+        from data import counterfactual_samples
+        return counterfactual_samples("test", TEST_DIR, [eval_set.removeprefix("cf_")])
     rng = random.Random(seed)
     out = []
     silent = eval_set.endswith("_silent")
