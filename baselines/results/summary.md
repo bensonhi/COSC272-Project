@@ -17,6 +17,9 @@
 | d1_cf_evidence_only_seed42 | 0.847 [0.805, 0.887] | 0.856 | 0.868 / 0.876 / 0.797 | 0.758 (0.80 / 0.72) | 0.782 | 0.822 | 0.908 | 0.125 | 325 |
 | d1_cf_evidence_only_seed43 | 0.835 [0.791, 0.873] | 0.844 | 0.859 / 0.866 / 0.779 | 0.762 (0.81 / 0.72) | 0.790 | 0.828 | 0.908 | 0.138 | 324 |
 | d1_cf_evidence_only_seed44 | 0.841 [0.800, 0.879] | 0.850 | 0.876 / 0.857 / 0.789 | 0.752 (0.80 / 0.71) | 0.775 | 0.821 | 0.918 | 0.139 | 322 |
+| final_d1_augment | 0.851 [0.812, 0.891] | 0.862 | 0.882 / 0.876 / 0.794 | 0.768 (0.81 / 0.73) | 0.792 | 0.828 | 0.908 | 0.130 | 562 |
+| final_d1_augment_pair | 0.846 [0.800, 0.885] | 0.856 | 0.873 / 0.867 / 0.797 | 0.768 (0.83 / 0.72) | 0.789 | 0.844 | 0.918 | 0.125 | 562 |
+| final_d1_original | 0.851 [0.808, 0.889] | 0.862 | 0.882 / 0.879 / 0.791 | 0.763 (0.82 / 0.71) | 0.786 | 0.835 | 0.942 | 0.119 | 562 |
 
 Stress test on the 207 test claims with gold evidence, deleted sentences blanked (empty slots, the training format) (evidence_removed: all gold evidence sentences, target NEI; random_removed: as many non-evidence sentences, label unchanged).
 
@@ -37,6 +40,9 @@ Stress test on the 207 test claims with gold evidence, deleted sentences blanked
 | d1_cf_evidence_only_seed42 | 0.821 | 0.792 | 0.788 | 0.773 | 0.159 | +0.633 |
 | d1_cf_evidence_only_seed43 | 0.812 | 0.807 | 0.796 | 0.783 | 0.150 | +0.657 |
 | d1_cf_evidence_only_seed44 | 0.802 | 0.807 | 0.806 | 0.754 | 0.174 | +0.633 |
+| final_d1_augment | 0.826 | 0.783 | 0.787 | 0.792 | 0.135 | +0.647 |
+| final_d1_augment_pair | 0.797 | 0.831 | 0.824 | 0.758 | 0.174 | +0.657 |
+| final_d1_original | 0.826 | 0.449 | 0.444 | 0.812 | 0.121 | +0.329 |
 
 Stress test (silent deletion) on the 207 test claims with gold evidence, deleted sentences cut out and the rest renumbered (no visible gap) (evidence_removed: all gold evidence sentences, target NEI; random_removed: as many non-evidence sentences, label unchanged).
 
@@ -57,6 +63,9 @@ Stress test (silent deletion) on the 207 test claims with gold evidence, deleted
 | d1_cf_evidence_only_seed42 | 0.821 | 0.729 | 0.720 | 0.797 | 0.140 | +0.589 |
 | d1_cf_evidence_only_seed43 | 0.812 | 0.676 | 0.680 | 0.787 | 0.135 | +0.541 |
 | d1_cf_evidence_only_seed44 | 0.802 | 0.734 | 0.735 | 0.773 | 0.155 | +0.580 |
+| final_d1_augment | 0.826 | 0.676 | 0.670 | 0.802 | 0.121 | +0.556 |
+| final_d1_augment_pair | 0.797 | 0.754 | 0.739 | 0.768 | 0.150 | +0.604 |
+| final_d1_original | 0.826 | 0.449 | 0.450 | 0.812 | 0.126 | +0.324 |
 
 Counterfactual minimal pairs of the test claims (LLM-edited, verified by the Qwen3.8-27B judge, so B5 is excluded: it agrees with every kept edit by construction). acc = accuracy on the edited input; pair = correct on both the original and the edited input.
 
@@ -76,3 +85,25 @@ Counterfactual minimal pairs of the test claims (LLM-edited, verified by the Qwe
 | d1_cf_evidence_only_seed42 | 0.891 / 0.855 (138) | 0.859 / 0.828 (128) | 0.857 / 0.786 (14) |
 | d1_cf_evidence_only_seed43 | 0.906 / 0.870 (138) | 0.906 / 0.867 (128) | 0.786 / 0.714 (14) |
 | d1_cf_evidence_only_seed44 | 0.899 / 0.841 (138) | 0.883 / 0.836 (128) | 0.857 / 0.714 (14) |
+| final_d1_augment | 0.913 / 0.870 (138) | 0.617 / 0.594 (128) | 0.357 / 0.286 (14) |
+| final_d1_augment_pair | 0.855 / 0.804 (138) | 0.547 / 0.531 (128) | 0.500 / 0.357 (14) |
+| final_d1_original | 0.884 / 0.841 (138) | 0.773 / 0.750 (128) | 0.286 / 0.143 (14) |
+
+Out-of-distribution: HealthVer test (1,823 human-labelled COVID-19 claim / evidence-passage pairs, no training on HealthVer).
+
+| system | macro-F1 [95% CI] | acc | F1 NEI / SUP / CON | ECE |
+|---|---|---|---|---|
+| b1_d1_zero_shot | 0.488 [0.463, 0.512] | 0.546 | 0.638 / 0.407 / 0.419 | 0.235 |
+| b2_d1_original_sft_seed42 | 0.422 [0.397, 0.445] | 0.517 | 0.630 / 0.392 / 0.243 | 0.460 |
+| b2_d1_original_sft_seed43 | 0.417 [0.392, 0.440] | 0.516 | 0.626 / 0.395 / 0.229 | 0.454 |
+| b2_d1_original_sft_seed44 | 0.435 [0.409, 0.461] | 0.523 | 0.630 / 0.404 / 0.270 | 0.457 |
+| d1_augmented_sft_seed42 | 0.349 [0.328, 0.372] | 0.477 | 0.606 / 0.294 / 0.148 | 0.507 |
+| d1_augmented_sft_seed43 | 0.366 [0.343, 0.390] | 0.485 | 0.611 / 0.316 / 0.172 | 0.492 |
+| d1_cf_all_seed42 | 0.343 [0.321, 0.366] | 0.471 | 0.604 / 0.257 / 0.168 | 0.516 |
+| d1_cf_all_seed43 | 0.386 [0.361, 0.410] | 0.493 | 0.617 / 0.300 / 0.241 | 0.493 |
+| d1_cf_evidence_only_seed42 | 0.386 [0.360, 0.410] | 0.495 | 0.617 / 0.322 / 0.218 | 0.482 |
+| d1_cf_evidence_only_seed43 | 0.398 [0.372, 0.422] | 0.501 | 0.620 / 0.320 / 0.254 | 0.482 |
+| d1_cf_evidence_only_seed44 | 0.365 [0.341, 0.388] | 0.485 | 0.612 / 0.300 / 0.181 | 0.495 |
+| final_d1_augment | 0.361 [0.337, 0.384] | 0.485 | 0.611 / 0.311 / 0.160 | 0.503 |
+| final_d1_augment_pair | 0.340 [0.318, 0.362] | 0.474 | 0.605 / 0.280 / 0.137 | 0.514 |
+| final_d1_original | 0.410 [0.385, 0.436] | 0.511 | 0.625 / 0.365 / 0.241 | 0.465 |

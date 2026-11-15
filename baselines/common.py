@@ -90,7 +90,7 @@ def run_baseline(name: str, predict: Predictor, config: dict, samples: list[Samp
 
 
 EVAL_SETS = ("test", "evidence_removed", "random_removed", "evidence_removed_silent", "random_removed_silent",
-             "cf_claim_negation", "cf_evidence_flip", "cf_evidence_weaken", "healthver")
+             "cf_claim_negation", "cf_evidence_flip", "cf_evidence_weaken", "healthver", "healthver_dev")
 
 
 def eval_samples(eval_set: str, seed: int = 0) -> list[Sample]:
@@ -100,7 +100,8 @@ def eval_samples(eval_set: str, seed: int = 0) -> list[Sample]:
                       slot (the training-time deletion format) and the target becomes NEI.
     random_removed    control for deletion artifacts: the same claims with the same number of
                       randomly chosen NON-evidence sentences removed; label and evidence unchanged.
-    healthver         out-of-distribution test: HealthVer's 1,823 human-labelled test pairs (healthver.py).
+    healthver         out-of-distribution test: HealthVer's 1,823 human-labelled test pairs (healthver.py);
+                      healthver_dev: its 1,917 dev pairs, for fitting anything target-specific.
     cf_<edit>         verified counterfactual minimal pairs of the test claims (counterfactual/):
                       claim_negation / evidence_flip flip SUPPORT <-> CONTRADICT, evidence_weaken -> NEI.
     *_silent          the same deletions (same sentences, same random draw), but removed sentences are
@@ -111,9 +112,9 @@ def eval_samples(eval_set: str, seed: int = 0) -> list[Sample]:
     import random
     from dataclasses import replace
 
-    if eval_set == "healthver":
+    if eval_set.startswith("healthver"):
         from healthver import healthver_samples
-        return healthver_samples("test")
+        return healthver_samples("dev" if eval_set == "healthver_dev" else "test")
     samples = load_samples(TEST_DIR)
     if eval_set == "test":
         return samples
