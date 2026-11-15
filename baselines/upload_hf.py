@@ -2,7 +2,7 @@
 
     HF_HOME=/scratch/f008k3y/cosc272/hf_cache python upload_hf.py [--repo COSC272-Project/COSC272-Project]
 
-Uploads, when present: the d1-3B LoRA adapters (augmented SFT and original-data SFT, final
+Uploads, when present: the d1-3B LoRA adapters (augmented, counterfactual and original-data SFT, final
 adapter only, no intermediate checkpoints) and the fine-tuned MultiVerS state dict, each in its own
 folder, plus a README. Teammates fetch one folder with, e.g.
 
@@ -19,6 +19,10 @@ from common import ROOT, SCRATCH
 OUT = SCRATCH / "outputs"
 ARTIFACTS = {
     "d1-augmented-sft-seed42": OUT / "d1-augmented-sft" / "final",
+    "d1-augmented-sft-seed43": OUT / "d1-augmented-sft-seed43" / "final",
+    **{f"d1-cf-all-seed{s}": OUT / f"d1-cf-all-seed{s}" / "final" for s in (42, 43)},
+    **{f"d1-cf-evidence-only-seed{s}": OUT / f"d1-cf-evidence_flip+evidence_weaken-seed{s}" / "final"
+       for s in (42, 43, 44)},
     **{f"d1-original-sft-seed{s}": OUT / f"d1-original-sft-seed{s}" / "final" for s in (42, 43, 44)},
     "multivers-finetuned-seed42": OUT / "multivers-finetuned-seed42",
 }
@@ -36,10 +40,13 @@ Test-set results for every system are in `baselines/results/summary.md` there.
 
 | folder | what |
 |---|---|
-| `d1-augmented-sft-seed42` | d1-3B LoRA trained on original + evidence-deleted groups (our method) |
+| `d1-augmented-sft-seed{42,43}` | d1-3B LoRA trained on original + evidence-deleted groups (our method) |
+| `d1-cf-evidence-only-seed{42,43,44}` | augmented SFT + evidence-side counterfactual pairs (`counterfactual/`) |
+| `d1-cf-all-seed{42,43}` | augmented SFT + all counterfactual pairs, claim negations included |
 | `d1-original-sft-seed{42,43,44}` | same LoRA recipe, original groups only (baseline B2) |
 | `multivers-finetuned-seed42` | MultiVerS (Longformer-large) state dict, from `fever_sci`, fine-tuned on our train split (baseline B4b) |
 
+All of these were trained on the 776-claim training split from before `data/validation` was split off.
 Each d1 folder is a PEFT adapter for `LiquidAI/d1-3B`; `training_config.json` records the exact arguments.
 
 ```bash
