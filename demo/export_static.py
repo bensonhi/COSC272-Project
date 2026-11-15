@@ -98,6 +98,14 @@ def main():
         entries.append({"id": item_id, "claim": claim, "label": sample.label,
                         "edit": EDIT_NAMES.get(sample.variant) if counterfactual else None})
     curated = [{"id": f"t{e['claim_id']}", "tag": e["tag"], "note": e.get("note", "")} for e in examples]
+    # Hand-written illustrative examples (static/extra_items, computed by the same engine) go first.
+    for path in sorted((HERE / "static" / "extra_items").glob("*.json"), reverse=True):
+        extra = json.loads(path.read_text())
+        shutil.copy(path, args.out / "items" / path.name)
+        entries.insert(0, {"id": extra["id"], "claim": extra["claim"], "label": extra["label"], "edit": None})
+        curated.insert(0, {"id": extra["id"], "tag": "start here",
+                           "note": "A toy example: the abstract states how many quizzes there are. Remove that sentence "
+                                   "and see whether each model notices the claim is no longer supported."})
     (args.out / "index.json").write_text(json.dumps(
         {"models": models, "labels": list(LABELS), "items": entries, "curated": curated}, separators=(",", ":")))
     for name in ("index.html", "results.json"):  # results.json: the Results tab (same numbers as the slides)

@@ -368,7 +368,7 @@ async function init() {
   INDEX.curated = INDEX.curated.filter((c) => byId.has(c.id));
   $("chips").innerHTML = "<span>Try</span>" + INDEX.curated.map((c) => {
     const e = INDEX.items.find((x) => x.id === c.id);
-    return `<button class="chip" data-id="${c.id}" aria-pressed="false" title="${esc(e.claim)}"><b>${esc(c.tag)}</b>#${num(c.id)}</button>`;
+    return `<button class="chip" data-id="${c.id}" aria-pressed="false" title="${esc(e.claim)}"><b>${esc(c.tag)}</b>${c.id.startsWith("x") ? "COSC 272 quizzes" : "#" + num(c.id)}</button>`;
   }).join("");
   $("chips").querySelectorAll(".chip").forEach((b) => b.addEventListener("click", () => load(b.dataset.id)));
   $("random").addEventListener("click", () => load(INDEX.items[Math.floor(Math.random() * INDEX.items.length)].id));
@@ -425,7 +425,8 @@ async function load(id) {
   if (location.hash.slice(1) !== id) history.replaceState(null, "", "#" + id);
   const curated = INDEX.curated.find((c) => c.id === id);
   document.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", c.dataset.id === id));
-  $("meta").innerHTML = `<span>${item.edit ? "Edited variant of test claim" : "Test claim"} #${num(id)}</span>${pill(item.label, "Gold: ")}` +
+  const where = id.startsWith("x") ? "Illustrative example (not from the dataset)" : `${item.edit ? "Edited variant of test claim" : "Test claim"} #${num(id)}`;
+  $("meta").innerHTML = `<span>${where}</span>${pill(item.label, "Gold: ")}` +
     (curated ? `<span class="pill">${esc(curated.tag)}</span>` : "");
   $("claim").textContent = item.claim;
   $("note").textContent = curated && curated.note ? curated.note : "";
