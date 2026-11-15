@@ -52,6 +52,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--adapter", action="append", default=[], help="NAME=PATH, same names as in app.py")
     parser.add_argument("--skip-single", action="store_true")
+    parser.add_argument("--all-items", action="store_true",
+                        help="also remove gold evidence / single sentences in the counterfactual variants")
     parser.add_argument("--finish", action="store_true", help="only compress the cache and write models.json")
     args = parser.parse_args()
     adapters = dict(item.split("=", 1) for item in args.adapter)
@@ -119,10 +121,10 @@ def main():
                             verify(claim, masked(articles, second), model)
             elif stage == "gold":
                 gold = gold_keys(sample, articles)
-                if gold and sample.variant == "original":
+                if gold and (args.all_items or sample.variant == "original"):
                     for model in names:
                         verify(claim, masked(articles, gold), model)
-            elif stage == "single" and sample.variant == "original":
+            elif stage == "single" and (args.all_items or sample.variant == "original"):
                 for a in articles:
                     for i in range(len(a["sentences"])):
                         for model in names:
