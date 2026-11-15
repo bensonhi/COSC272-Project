@@ -111,7 +111,7 @@ def main():
             f"{r['evidence_f1']:.3f} ({r['evidence_precision']:.2f} / {r['evidence_recall']:.2f}) | "
             f"{r['evidence_f1_human_rationales']:.3f} | "
             f"{r['evidence_auprc']:.3f} | {r['evidence_top1_hit']:.3f} | {r['ece']:.3f} | {r['median_ms_per_claim']:.0f} |")
-    text = "\n".join(lines) + "\n" + stress_table() + stress_table("_silent") + counterfactual_table()
+    text = "\n".join(lines) + "\n" + stress_table() + stress_table("_silent") + counterfactual_table() + healthver_table()
     (RESULTS_DIR / "summary.md").write_text(text)
     print(text)
 
@@ -178,6 +178,26 @@ def counterfactual_table():
                        for r in edited) / len(edited)
             cells.append(f"{acc:.3f} / {pair:.3f} ({len(edited)})")
         lines.append("| " + " | ".join(cells) + " |")
+    return "\n".join(lines) + "\n"
+
+
+def healthver_table():
+    """Out-of-distribution test on HealthVer (healthver.py); label metrics only (no rationales)."""
+    folders = sorted((RESULTS_DIR / "healthver").glob("*/metrics.json"))
+    if not folders:
+        return ""
+    lines = ["", "Out-of-distribution: HealthVer test (1,823 human-labelled COVID-19 claim / evidence-passage "
+             "pairs, no training on HealthVer).", "",
+             "| system | macro-F1 [95% CI] | acc | F1 NEI / SUP / CON | ECE |", "|---|---|---|---|---|"]
+    for path in folders:
+        m = json.loads(path.read_text())
+        records = [json.loads(line) for line in (path.parent / "predictions.jsonl").read_text().splitlines()]
+        pairs = [(r["gold_label"], r["predicted_label"]) for r in records]
+        rng = random.Random(0)
+        boot = sorted(macro_f1([rng.choice(pairs) for _ in pairs]) for _ in range(1000))
+        f1 = " / ".join(f"{m['per_label'][label]['f1']:.3f}" for label in LABELS)
+        lines.append(f"| {path.parent.name} | {m['label_macro_f1']:.3f} [{boot[25]:.3f}, {boot[974]:.3f}] | "
+                     f"{m['label_accuracy']:.3f} | {f1} | {m['label_ece']:.3f} |")
     return "\n".join(lines) + "\n"
 
 
