@@ -94,6 +94,9 @@ main.wrap { padding-top: 24px; padding-bottom: 64px; }
 .doc { padding: 18px 22px 6px; }
 .doc + .doc { border-top: 1px dashed var(--line); }
 .doc-title { font-weight: 620; font-size: 15px; margin: 0 0 10px; }
+.col-head { display: flex; justify-content: flex-end; font-size: 11px; font-weight: 650; letter-spacing: .03em; text-transform: uppercase; color: var(--faint); margin: -4px 0 2px; }
+.col-head > span { cursor: help; }
+.col-head .q { display: inline-grid; place-items: center; width: 14px; height: 14px; border-radius: 50%; border: 1px solid var(--line-strong); font-size: 10px; margin-left: 3px; text-transform: none; }
 .doc-title span { font-weight: 500; color: var(--faint); font-size: 12px; margin-right: 6px; font-variant-numeric: tabular-nums; }
 .sent { display: grid; grid-template-columns: 26px minmax(0, 1fr) 92px; gap: 10px; align-items: start; padding: 8px 10px; margin: 0 -10px 2px; border-radius: 8px; cursor: pointer; transition: background .12s; }
 .sent:hover { background: var(--surface-2); }
@@ -255,6 +258,7 @@ td.best { font-weight: 700; color: var(--fg); }
           <span><i style="background:var(--sup-soft);border:1px solid var(--sup)"></i>Evidence for SUPPORT</span>
           <span><i style="background:var(--con-soft);border:1px solid var(--con)"></i>Evidence for CONTRADICT</span>
           <span style="color:var(--gold)">&#9733; Gold evidence</span>
+          <span>Evidence score: how likely each sentence is evidence (not the verdict confidence)</span>
           <span><b style="color:var(--ok)">&#10003;</b> / <b style="color:var(--bad)">&#10007;</b> verdict matches / misses the expected answer</span>
           <span>Click a sentence to remove or restore it</span>
         </div>
@@ -339,6 +343,7 @@ const MODEL_INFO = {
   "d1-augment": ["Augmented SFT", "+ evidence-deleted copies"],
   "d1-pair": ["Paired hinge", "+ full-vs-deleted margin"],
 };
+const EVIDENCE_HELP = "How likely the selected model thinks this sentence is evidence for its verdict (a separate yes/no question per sentence, not the verdict confidence). Sentences at 0.5 or above are highlighted as evidence.";
 const ICON = {
   good: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.5l3 3 7-7"/></svg>',
   bad: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4l8 8M12 4l-8 8"/></svg>',
@@ -470,7 +475,8 @@ function render() {
 
   let html = "";
   for (const a of item.articles) {
-    html += `<div class="doc"><p class="doc-title"><span>DOC ${a.doc_id}</span>${esc(a.title || "Untitled abstract")}</p>`;
+    html += `<div class="doc"><p class="doc-title"><span>DOC ${a.doc_id}</span>${esc(a.title || "Untitled abstract")}</p>
+      <div class="col-head"><span title="${EVIDENCE_HELP}">Evidence score <span class="q">?</span></span></div>`;
     a.sentences.forEach((s, i) => {
       const k = `${a.doc_id}-${i}`, isRemoved = removed.has(k);
       const p = v && !isRemoved ? (v.e[k] ?? 0) : null, isEv = !isRemoved && evidence.includes(k);
@@ -478,7 +484,7 @@ function render() {
       html += `<div class="sent${isRemoved ? " removed" : ""}${isEv ? " ev " + v.label : ""}" data-k="${k}" tabindex="0" role="button"
           aria-label="${isRemoved ? "Restore" : "Remove"} sentence ${i}">
         <span class="idx">${i}</span><span class="txt">${esc(s)}${tags}</span>
-        <span class="aside">${p === null || p < 0.05 ? "" : `<span class="meter" title="P(evidence) = ${p.toFixed(2)}"><i style="width:${Math.max(p * 100, 2)}%"></i></span><span class="pv">${p.toFixed(2)}</span>`}
+        <span class="aside">${p === null ? "" : p < 0.05 ? `<span class="pv" title="P(evidence) below 0.05">&lt; 0.05</span>` : `<span class="meter" title="P(evidence) = ${p.toFixed(2)}"><i style="width:${Math.max(p * 100, 2)}%"></i></span><span class="pv">${p.toFixed(2)}</span>`}
           <span class="act">${isRemoved ? "Restore" : "Remove"}</span></span></div>`;
     });
     html += "</div>";

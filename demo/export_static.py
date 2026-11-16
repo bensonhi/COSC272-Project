@@ -60,6 +60,11 @@ def main():
     examples = json.loads((HERE / "examples.json").read_text())
     (args.out / "items").mkdir(parents=True, exist_ok=True)
 
+    extra = {}  # removal sets added by precompute_combos.py
+    sets_file = CACHE_FILE.parent / "extra_sets.jsonl"
+    if sets_file.exists():
+        for record in map(json.loads, sets_file.read_text().splitlines()):
+            extra.setdefault(record["id"], []).append({tuple(k) for k in record["removed"]})
     entries, verdicts = [], 0
     test = load_test()
     items = [(f"t{s.claim_id}", s) for s in test.values()]
@@ -68,7 +73,7 @@ def main():
         claim, articles = sample.claim.strip(), loaded_articles(sample)
         gold = gold_keys(sample, articles)
         results = {}
-        for removed in candidate_sets(articles, cache, claim, models, gold):
+        for removed in candidate_sets(articles, cache, claim, models, gold) + extra.get(item_id, []):
             per_model = {}
             for model in models:
                 record = cache.get(cache_key(model, claim, masked(articles, removed)))
