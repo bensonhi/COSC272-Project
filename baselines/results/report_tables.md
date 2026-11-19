@@ -13,6 +13,16 @@
 | Augmented SFT (3 seeds) | 85.0 ± 0.5 | 84.0 ± 0.8 | 75.8 ± 0.7 | 12.6 ± 0.5 | 82.3 ± 1.5 | 17.6 ± 0.6 | 57.4 ± 2.6 | 36.9 ± 2.6 | 72.8 ± 3.3 | 14.5 ± 1.9 | 67.6 ± 2.2 | 12.0 ± 2.6 | 26.3 ± 3.1 | 11.7 ± 1.2 | 325.9 ± 0.6 |
 | Paired hinge (3 seeds) | 85.8 ± 0.6 | 84.8 ± 0.8 | 76.2 ± 0.5 | 12.1 ± 0.6 | 82.4 ± 1.0 | 16.9 ± 1.4 | 60.0 ± 2.5 | 34.0 ± 1.4 | 72.5 ± 2.5 | 13.2 ± 1.8 | 68.3 ± 2.5 | 11.7 ± 2.3 | 21.3 ± 4.0 | 14.3 ± 1.5 | 326.3 ± 0.4 |
 
+Partial test restricted to claims whose kept group is a human rationale (accuracy %):
+
+- d1-3B zero-shot: 70.5 (n=112)
+- NLI DeBERTa-v3: 67.9 (n=112)
+- MultiVerS (fine-tuned): 68.8 (n=112)
+- Qwen3.8-27B: 78.6 (n=112)
+- Original SFT: 79.2 ± 2.6 (n=112)
+- Augmented SFT: 66.4 ± 3.1 (n=112)
+- Paired hinge: 69.3 ± 3.1 (n=112)
+
 Paired bootstrap over claims (2000 resamples), seed-averaged difference [95% CI]:
 
 - Augmented SFT vs Original SFT: macro-F1 -0.2 [-2.4, +2.0]; gold-removed NEI% +34.0 [+28.7, +39.8]; control NEI% +5.5 [+2.9, +8.4]; partial acc. -17.0 [-23.4, -10.6]

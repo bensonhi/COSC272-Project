@@ -83,6 +83,14 @@ def fmt(values):
     return f"{statistics.mean(values):.1f} ± {statistics.stdev(values):.1f}"
 
 
+def kept_human(record):
+    """Partial test: is the kept evidence group a human rationale (not an LLM-added *_more sentence)?"""
+    evidence = json.loads(open(record["source_file"]).read())["evidence"]
+    added = {(e["doc_id"], e["original_index"]) for e in evidence if e["evidence_label"].endswith("_more")}
+    kept = [(a["doc_id"], s["original_index"]) for a in record["articles"] for s in a["sentences"] if s.get("gold_evidence")]
+    return not all(k in added for k in kept)
+
+
 def bootstrap(a_runs, b_runs, statistic, eval_set, resamples=2000):
     """95% CI of mean_a - mean_b (seed-averaged), resampling claims jointly."""
     a = [records(n, eval_set) for n in a_runs]
@@ -103,6 +111,11 @@ def main():
     for label, runs in groups:
         rows = [row(r) for r in runs]
         lines.append(f"| {label} | " + " | ".join(fmt([x[k] for x in rows]) for k, _ in COLUMNS) + " |")
+    lines += ["", "Partial test restricted to claims whose kept group is a human rationale (accuracy %):", ""]
+    for label, runs in [(k, [v]) for k, v in BASELINES.items()] + list(SEEDS.items()):
+        accs = [accuracy([r for r in records(run, "partial_removed").values() if kept_human(r)]) for run in runs]
+        n = sum(kept_human(r) for r in records(runs[0], "partial_removed").values())
+        lines.append(f"- {label}: {fmt(accs)} (n={n})")
     lines += ["", "Paired bootstrap over claims (2000 resamples), seed-averaged difference [95% CI]:", ""]
     for a, b in [("Augmented SFT", "Original SFT"), ("Paired hinge", "Original SFT"), ("Paired hinge", "Augmented SFT")]:
         cells = []
