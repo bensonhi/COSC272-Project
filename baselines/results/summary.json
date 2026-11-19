@@ -652,19 +652,19 @@
       0.8118783748261856,
       0.8913576007326007
     ],
-    "evidence_auprc": 0.8275319767264352,
+    "evidence_auprc": 0.8269846956172027,
     "evidence_top1_hit": 0.9082125603864735,
-    "evidence_f1_on_gold_evidence_claims": 0.7844739530132788,
-    "evidence_f1_human_rationales": 0.7924528301886793,
+    "evidence_f1_on_gold_evidence_claims": 0.7836734693877551,
+    "evidence_f1_human_rationales": 0.7900943396226415,
     "accuracy": 0.8618618618618619,
     "f1_NEI": 0.8821292775665399,
     "f1_SUPPORT": 0.8764044943820225,
     "f1_CONTRADICT": 0.7941176470588235,
-    "evidence_f1": 0.768,
-    "evidence_precision": 0.8135593220338984,
+    "evidence_f1": 0.7672327672327672,
+    "evidence_precision": 0.8118393234672304,
     "evidence_recall": 0.7272727272727273,
-    "ece": 0.13035111912377964,
-    "median_ms_per_claim": 562.0556350331753,
+    "ece": 0.12904313233521603,
+    "median_ms_per_claim": 325.904996949248,
     "confusion_gold_rows_NEI_SUP_CON": [
       [
         116,
@@ -685,24 +685,24 @@
   },
   {
     "system": "final_d1_augment_pair",
-    "macro_f1": 0.8455074749395092,
+    "macro_f1": 0.8430118790795441,
     "macro_f1_ci95": [
-      0.8003605852576104,
-      0.8846027299808812
+      0.7984520787978239,
+      0.8822747432453245
     ],
-    "evidence_auprc": 0.8444151132365632,
+    "evidence_auprc": 0.8434581246480377,
     "evidence_top1_hit": 0.9178743961352657,
-    "evidence_f1_on_gold_evidence_claims": 0.781799379524302,
-    "evidence_f1_human_rationales": 0.789410348977136,
-    "accuracy": 0.8558558558558559,
-    "f1_NEI": 0.8727272727272727,
-    "f1_SUPPORT": 0.8669201520912547,
+    "evidence_f1_on_gold_evidence_claims": 0.7843137254901961,
+    "evidence_f1_human_rationales": 0.7908653846153846,
+    "accuracy": 0.8528528528528528,
+    "f1_NEI": 0.8695652173913043,
+    "f1_SUPPORT": 0.8625954198473282,
     "f1_CONTRADICT": 0.796875,
-    "evidence_f1": 0.76751269035533,
-    "evidence_precision": 0.8271334792122538,
-    "evidence_recall": 0.7159090909090909,
-    "ece": 0.12458203970133011,
-    "median_ms_per_claim": 561.9215578772128,
+    "evidence_f1": 0.7700101317122594,
+    "evidence_precision": 0.8278867102396514,
+    "evidence_recall": 0.7196969696969697,
+    "ece": 0.12758329251149042,
+    "median_ms_per_claim": 325.9016000665724,
     "confusion_gold_rows_NEI_SUP_CON": [
       [
         120,
@@ -710,8 +710,8 @@
         2
       ],
       [
-        18,
-        114,
+        19,
+        113,
         5
       ],
       [
@@ -723,24 +723,24 @@
   },
   {
     "system": "final_d1_original",
-    "macro_f1": 0.850761354276413,
+    "macro_f1": 0.8540831982554767,
     "macro_f1_ci95": [
-      0.8084724920916524,
-      0.8885622936385001
+      0.8128625178969799,
+      0.8919920630647139
     ],
-    "evidence_auprc": 0.8351729417800662,
+    "evidence_auprc": 0.8355632363310124,
     "evidence_top1_hit": 0.9420289855072463,
     "evidence_f1_on_gold_evidence_claims": 0.7760577915376677,
-    "evidence_f1_human_rationales": 0.7860576923076923,
-    "accuracy": 0.8618618618618619,
+    "evidence_f1_human_rationales": 0.7845968712394705,
+    "accuracy": 0.8648648648648649,
     "f1_NEI": 0.8821292775665399,
-    "f1_SUPPORT": 0.8787878787878788,
-    "f1_CONTRADICT": 0.7913669064748201,
+    "f1_SUPPORT": 0.8830188679245283,
+    "f1_CONTRADICT": 0.7971014492753623,
     "evidence_f1": 0.7634517766497462,
     "evidence_precision": 0.8227571115973742,
     "evidence_recall": 0.7121212121212122,
-    "ece": 0.11888106932511205,
-    "median_ms_per_claim": 562.399853952229,
+    "ece": 0.11978446506523163,
+    "median_ms_per_claim": 325.6863270653412,
     "confusion_gold_rows_NEI_SUP_CON": [
       [
         116,
@@ -749,8 +749,464 @@
       ],
       [
         13,
+        117,
+        7
+      ],
+      [
+        8,
+        7,
+        55
+      ]
+    ]
+  },
+  {
+    "system": "v2_d1_augmented_seed42",
+    "macro_f1": 0.8497341830014883,
+    "macro_f1_ci95": [
+      0.8070167954478213,
+      0.8862446699531871
+    ],
+    "evidence_auprc": 0.8418546536706959,
+    "evidence_top1_hit": 0.9516908212560387,
+    "evidence_f1_on_gold_evidence_claims": 0.779835390946502,
+    "evidence_f1_human_rationales": 0.7899761336515513,
+    "accuracy": 0.8558558558558559,
+    "f1_NEI": 0.862453531598513,
+    "f1_SUPPORT": 0.8692307692307693,
+    "f1_CONTRADICT": 0.8175182481751825,
+    "evidence_f1": 0.7656565656565657,
+    "evidence_precision": 0.8203463203463204,
+    "evidence_recall": 0.7178030303030303,
+    "ece": 0.12031750868748615,
+    "median_ms_per_claim": 326.47733902558684,
+    "confusion_gold_rows_NEI_SUP_CON": [
+      [
         116,
+        3,
+        7
+      ],
+      [
+        20,
+        113,
+        4
+      ],
+      [
+        7,
+        7,
+        56
+      ]
+    ]
+  },
+  {
+    "system": "v2_d1_augmented_seed43",
+    "macro_f1": 0.8375220458553793,
+    "macro_f1_ci95": [
+      0.7945275301466146,
+      0.8769377340037311
+    ],
+    "evidence_auprc": 0.8295328567262567,
+    "evidence_top1_hit": 0.927536231884058,
+    "evidence_f1_on_gold_evidence_claims": 0.7664921465968586,
+    "evidence_f1_human_rationales": 0.7757575757575758,
+    "accuracy": 0.8468468468468469,
+    "f1_NEI": 0.8518518518518519,
+    "f1_SUPPORT": 0.875,
+    "f1_CONTRADICT": 0.7857142857142857,
+    "evidence_f1": 0.7507692307692307,
+    "evidence_precision": 0.8187919463087249,
+    "evidence_recall": 0.6931818181818182,
+    "ece": 0.1278718232034563,
+    "median_ms_per_claim": 325.33632102422416,
+    "confusion_gold_rows_NEI_SUP_CON": [
+      [
+        115,
+        3,
         8
+      ],
+      [
+        18,
+        112,
+        7
+      ],
+      [
+        11,
+        4,
+        55
+      ]
+    ]
+  },
+  {
+    "system": "v2_d1_augmented_seed44",
+    "macro_f1": 0.8341863702668375,
+    "macro_f1_ci95": [
+      0.7939914366143874,
+      0.8781832186876545
+    ],
+    "evidence_auprc": 0.8275170499071441,
+    "evidence_top1_hit": 0.9178743961352657,
+    "evidence_f1_on_gold_evidence_claims": 0.7759336099585062,
+    "evidence_f1_human_rationales": 0.7861409796893668,
+    "accuracy": 0.8468468468468469,
+    "f1_NEI": 0.8538461538461538,
+    "f1_SUPPORT": 0.8805970149253731,
+    "f1_CONTRADICT": 0.7681159420289855,
+    "evidence_f1": 0.7586206896551724,
+    "evidence_precision": 0.8165938864628821,
+    "evidence_recall": 0.7083333333333334,
+    "ece": 0.13031245745696107,
+    "median_ms_per_claim": 325.84077602950856,
+    "confusion_gold_rows_NEI_SUP_CON": [
+      [
+        111,
+        6,
+        9
+      ],
+      [
+        13,
+        118,
+        6
+      ],
+      [
+        10,
+        7,
+        53
+      ]
+    ]
+  },
+  {
+    "system": "v2_d1_cf_evidence_only_seed42",
+    "macro_f1": 0.8369760575363129,
+    "macro_f1_ci95": [
+      0.7968048012683124,
+      0.8758303862422855
+    ],
+    "evidence_auprc": 0.8084242761478098,
+    "evidence_top1_hit": 0.9130434782608695,
+    "evidence_f1_on_gold_evidence_claims": 0.7711088504577823,
+    "evidence_f1_human_rationales": 0.776084407971864,
+    "accuracy": 0.8438438438438438,
+    "f1_NEI": 0.8475836431226765,
+    "f1_SUPPORT": 0.8661417322834646,
+    "f1_CONTRADICT": 0.7972027972027972,
+    "evidence_f1": 0.7542288557213931,
+    "evidence_precision": 0.7945492662473794,
+    "evidence_recall": 0.7178030303030303,
+    "ece": 0.13910799574207616,
+    "median_ms_per_claim": 325.69986901944503,
+    "confusion_gold_rows_NEI_SUP_CON": [
+      [
+        114,
+        4,
+        8
+      ],
+      [
+        19,
+        110,
+        8
+      ],
+      [
+        10,
+        3,
+        57
+      ]
+    ]
+  },
+  {
+    "system": "v2_d1_cf_evidence_only_seed43",
+    "macro_f1": 0.8261858064729907,
+    "macro_f1_ci95": [
+      0.7868932581006884,
+      0.8690029876515176
+    ],
+    "evidence_auprc": 0.8183742900712543,
+    "evidence_top1_hit": 0.9420289855072463,
+    "evidence_f1_on_gold_evidence_claims": 0.7762096774193549,
+    "evidence_f1_human_rationales": 0.776878612716763,
+    "accuracy": 0.8348348348348348,
+    "f1_NEI": 0.8593155893536122,
+    "f1_SUPPORT": 0.848,
+    "f1_CONTRADICT": 0.7712418300653595,
+    "evidence_f1": 0.756385068762279,
+    "evidence_precision": 0.7857142857142857,
+    "evidence_recall": 0.7291666666666666,
+    "ece": 0.13629607377467576,
+    "median_ms_per_claim": 326.1151570477523,
+    "confusion_gold_rows_NEI_SUP_CON": [
+      [
+        113,
+        3,
+        10
+      ],
+      [
+        17,
+        106,
+        14
+      ],
+      [
+        7,
+        4,
+        59
+      ]
+    ]
+  },
+  {
+    "system": "v2_d1_cf_evidence_only_seed44",
+    "macro_f1": 0.844047284486916,
+    "macro_f1_ci95": [
+      0.8018731375053214,
+      0.8839427247918356
+    ],
+    "evidence_auprc": 0.8242089953721816,
+    "evidence_top1_hit": 0.927536231884058,
+    "evidence_f1_on_gold_evidence_claims": 0.7726809378185525,
+    "evidence_f1_human_rationales": 0.789598108747045,
+    "accuracy": 0.8528528528528528,
+    "f1_NEI": 0.862453531598513,
+    "f1_SUPPORT": 0.8725868725868726,
+    "f1_CONTRADICT": 0.7971014492753623,
+    "evidence_f1": 0.7618090452261307,
+    "evidence_precision": 0.8115631691648822,
+    "evidence_recall": 0.7178030303030303,
+    "ece": 0.1187831396097178,
+    "median_ms_per_claim": 326.72122603980824,
+    "confusion_gold_rows_NEI_SUP_CON": [
+      [
+        116,
+        4,
+        6
+      ],
+      [
+        17,
+        113,
+        7
+      ],
+      [
+        10,
+        5,
+        55
+      ]
+    ]
+  },
+  {
+    "system": "v2_d1_original_seed42",
+    "macro_f1": 0.8440705202490767,
+    "macro_f1_ci95": [
+      0.8030144693877217,
+      0.8822345807747268
+    ],
+    "evidence_auprc": 0.828901954302498,
+    "evidence_top1_hit": 0.9420289855072463,
+    "evidence_f1_on_gold_evidence_claims": 0.7639751552795031,
+    "evidence_f1_human_rationales": 0.7710843373493976,
+    "accuracy": 0.8558558558558559,
+    "f1_NEI": 0.8814814814814815,
+    "f1_SUPPORT": 0.8705882352941177,
+    "f1_CONTRADICT": 0.7801418439716312,
+    "evidence_f1": 0.7507629704984741,
+    "evidence_precision": 0.810989010989011,
+    "evidence_recall": 0.6988636363636364,
+    "ece": 0.1302126382027302,
+    "median_ms_per_claim": 325.76908002374694,
+    "confusion_gold_rows_NEI_SUP_CON": [
+      [
+        119,
+        1,
+        6
+      ],
+      [
+        16,
+        111,
+        10
+      ],
+      [
+        9,
+        6,
+        55
+      ]
+    ]
+  },
+  {
+    "system": "v2_d1_original_seed43",
+    "macro_f1": 0.8390506678744334,
+    "macro_f1_ci95": [
+      0.797032383125492,
+      0.8802993770747737
+    ],
+    "evidence_auprc": 0.8335622808105221,
+    "evidence_top1_hit": 0.927536231884058,
+    "evidence_f1_on_gold_evidence_claims": 0.7947421638018201,
+    "evidence_f1_human_rationales": 0.7897196261682243,
+    "accuracy": 0.8498498498498499,
+    "f1_NEI": 0.8754716981132076,
+    "f1_SUPPORT": 0.8615384615384616,
+    "f1_CONTRADICT": 0.7801418439716312,
+    "evidence_f1": 0.774384236453202,
+    "evidence_precision": 0.8069815195071869,
+    "evidence_recall": 0.7443181818181818,
+    "ece": 0.13748106619975234,
+    "median_ms_per_claim": 325.8021390065551,
+    "confusion_gold_rows_NEI_SUP_CON": [
+      [
+        116,
+        4,
+        6
+      ],
+      [
+        15,
+        112,
+        10
+      ],
+      [
+        8,
+        7,
+        55
+      ]
+    ]
+  },
+  {
+    "system": "v2_d1_original_seed44",
+    "macro_f1": 0.8456745613169048,
+    "macro_f1_ci95": [
+      0.8053783514704481,
+      0.8843168640005022
+    ],
+    "evidence_auprc": 0.8344535499686293,
+    "evidence_top1_hit": 0.9323671497584541,
+    "evidence_f1_on_gold_evidence_claims": 0.7809330628803245,
+    "evidence_f1_human_rationales": 0.7827102803738317,
+    "accuracy": 0.8558558558558559,
+    "f1_NEI": 0.8793774319066148,
+    "f1_SUPPORT": 0.8689138576779026,
+    "f1_CONTRADICT": 0.7887323943661971,
+    "evidence_f1": 0.7623762376237624,
+    "evidence_precision": 0.7987551867219918,
+    "evidence_recall": 0.7291666666666666,
+    "ece": 0.12173192950340363,
+    "median_ms_per_claim": 326.00703701609746,
+    "confusion_gold_rows_NEI_SUP_CON": [
+      [
+        113,
+        6,
+        7
+      ],
+      [
+        12,
+        116,
+        9
+      ],
+      [
+        6,
+        8,
+        56
+      ]
+    ]
+  },
+  {
+    "system": "v2_d1_pair_seed42",
+    "macro_f1": 0.8430697018322487,
+    "macro_f1_ci95": [
+      0.7996463897101206,
+      0.8842772880407289
+    ],
+    "evidence_auprc": 0.8342258290313935,
+    "evidence_top1_hit": 0.9323671497584541,
+    "evidence_f1_on_gold_evidence_claims": 0.7806925498426023,
+    "evidence_f1_human_rationales": 0.7917174177831913,
+    "accuracy": 0.8528528528528528,
+    "f1_NEI": 0.8698884758364313,
+    "f1_SUPPORT": 0.8705882352941177,
+    "f1_CONTRADICT": 0.7887323943661971,
+    "evidence_f1": 0.7654320987654321,
+    "evidence_precision": 0.8378378378378378,
+    "evidence_recall": 0.7045454545454546,
+    "ece": 0.12296498618326386,
+    "median_ms_per_claim": 325.8657590486109,
+    "confusion_gold_rows_NEI_SUP_CON": [
+      [
+        117,
+        3,
+        6
+      ],
+      [
+        16,
+        111,
+        10
+      ],
+      [
+        10,
+        4,
+        56
+      ]
+    ]
+  },
+  {
+    "system": "v2_d1_pair_seed43",
+    "macro_f1": 0.8442172539914367,
+    "macro_f1_ci95": [
+      0.8035948277262944,
+      0.8855584377361033
+    ],
+    "evidence_auprc": 0.820535327572324,
+    "evidence_top1_hit": 0.927536231884058,
+    "evidence_f1_on_gold_evidence_claims": 0.7759336099585062,
+    "evidence_f1_human_rationales": 0.7794994040524433,
+    "accuracy": 0.8558558558558559,
+    "f1_NEI": 0.875968992248062,
+    "f1_SUPPORT": 0.8740740740740741,
+    "f1_CONTRADICT": 0.782608695652174,
+    "evidence_f1": 0.7555555555555555,
+    "evidence_precision": 0.8095238095238095,
+    "evidence_recall": 0.7083333333333334,
+    "ece": 0.12642423258171423,
+    "median_ms_per_claim": 326.44755695946515,
+    "confusion_gold_rows_NEI_SUP_CON": [
+      [
+        113,
+        6,
+        7
+      ],
+      [
+        12,
+        118,
+        7
+      ],
+      [
+        7,
+        9,
+        54
+      ]
+    ]
+  },
+  {
+    "system": "v2_d1_pair_seed44",
+    "macro_f1": 0.8566348953945853,
+    "macro_f1_ci95": [
+      0.8172433942391354,
+      0.8966710094373544
+    ],
+    "evidence_auprc": 0.8086922694570458,
+    "evidence_top1_hit": 0.9033816425120773,
+    "evidence_f1_on_gold_evidence_claims": 0.7831449126413155,
+    "evidence_f1_human_rationales": 0.7852906287069988,
+    "accuracy": 0.8648648648648649,
+    "f1_NEI": 0.875968992248062,
+    "f1_SUPPORT": 0.8791208791208791,
+    "f1_CONTRADICT": 0.8148148148148148,
+    "evidence_f1": 0.7642928786359077,
+    "evidence_precision": 0.8123667377398721,
+    "evidence_recall": 0.7215909090909091,
+    "ece": 0.11385645281087178,
+    "median_ms_per_claim": 326.62849000189453,
+    "confusion_gold_rows_NEI_SUP_CON": [
+      [
+        113,
+        9,
+        4
+      ],
+      [
+        11,
+        120,
+        6
       ],
       [
         8,

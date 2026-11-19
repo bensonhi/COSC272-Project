@@ -1,8 +1,8 @@
 {
   "label_accuracy": 0.8618618618618619,
   "label_macro_f1": 0.8508838063357954,
-  "sentence_level_evidence_f1": 0.768,
-  "label_ece": 0.13035111912377964,
+  "sentence_level_evidence_f1": 0.7672327672327672,
+  "label_ece": 0.12904313233521603,
   "num_samples": 333,
   "num_valid_sentences": 3515,
   "label_order": [
@@ -50,12 +50,12 @@
   "evidence": {
     "averaging": "micro, evidence positive class",
     "threshold": 0.5,
-    "precision": 0.8135593220338984,
+    "precision": 0.8118393234672304,
     "recall": 0.7272727272727273,
     "tp": 384,
-    "fp": 88,
+    "fp": 89,
     "fn": 144,
-    "tn": 2899,
+    "tn": 2898,
     "conditioned_on_predicted_label": false
   },
   "calibration": {
@@ -98,59 +98,59 @@
       {
         "lower": 0.4,
         "upper": 0.5,
-        "count": 1,
-        "accuracy": 0.0,
-        "mean_confidence": 0.49987009167671204,
-        "ece_contribution": 0.0015011113864165527
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
       },
       {
         "lower": 0.5,
         "upper": 0.6,
-        "count": 2,
-        "accuracy": 1.0,
-        "mean_confidence": 0.5772390067577362,
-        "ece_contribution": 0.0025391050645181008
+        "count": 3,
+        "accuracy": 0.6666666666666666,
+        "mean_confidence": 0.5618583957354227,
+        "ece_contribution": 0.0009442186570382333
       },
       {
         "lower": 0.6,
         "upper": 0.7,
         "count": 1,
         "accuracy": 0.0,
-        "mean_confidence": 0.622312068939209,
-        "ece_contribution": 0.0018688050118294563
+        "mean_confidence": 0.6512033939361572,
+        "ece_contribution": 0.0019555657475560278
       },
       {
         "lower": 0.7,
         "upper": 0.8,
-        "count": 2,
-        "accuracy": 0.5,
-        "mean_confidence": 0.7653353214263916,
-        "ece_contribution": 0.001593605534092442
+        "count": 3,
+        "accuracy": 0.6666666666666666,
+        "mean_confidence": 0.7344007889429728,
+        "ece_contribution": 0.0006102173178045599
       },
       {
         "lower": 0.8,
         "upper": 0.9,
-        "count": 5,
-        "accuracy": 0.8,
-        "mean_confidence": 0.8750864624977112,
-        "ece_contribution": 0.0011274243618274943
+        "count": 3,
+        "accuracy": 1.0,
+        "mean_confidence": 0.8857560952504476,
+        "ece_contribution": 0.0010292243671130843
       },
       {
         "lower": 0.9,
         "upper": 1.0,
-        "count": 322,
-        "accuracy": 0.8695652173913043,
-        "mean_confidence": 0.99544445827881,
-        "ece_contribution": 0.12172106776509559
+        "count": 323,
+        "accuracy": 0.8668730650154799,
+        "mean_confidence": 0.9952315813616702,
+        "ece_contribution": 0.12450390624570414
       }
     ]
   },
   "zero_division": 0,
   "score_scale": "0 to 1",
   "latency": {
-    "median_seconds_per_claim": 0.5620556350331753,
-    "mean_seconds_per_claim": 1.198435664232177,
-    "total_seconds": 399.07907618931495,
+    "median_seconds_per_claim": 0.325904996949248,
+    "mean_seconds_per_claim": 0.7843415927038424,
+    "total_seconds": 261.18575037037954,
     "note": "wall clock of predict(sample), one claim at a time"
   },
   "baseline": {
@@ -161,8 +161,8 @@
     "resolved_revision": null,
     "dtype": "bfloat16",
     "device": "cuda:0",
-    "question_batch_size": 2,
-    "gpu": "NVIDIA RTX A5500",
+    "question_batch_size": 8,
+    "gpu": "NVIDIA L40S",
     "test_summary": {
       "claims": 333,
       "groups": 333,

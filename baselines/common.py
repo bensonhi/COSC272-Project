@@ -90,6 +90,7 @@ def run_baseline(name: str, predict: Predictor, config: dict, samples: list[Samp
 
 
 EVAL_SETS = ("test", "evidence_removed", "random_removed", "evidence_removed_silent", "random_removed_silent",
+             "partial_removed", "partial_removed_silent",
              "cf_claim_negation", "cf_evidence_flip", "cf_evidence_weaken", "healthver", "healthver_dev")
 
 
@@ -98,6 +99,9 @@ def eval_samples(eval_set: str, seed: int = 0) -> list[Sample]:
 
     evidence_removed  claims with gold evidence; every gold evidence sentence becomes an empty
                       slot (the training-time deletion format) and the target becomes NEI.
+    partial_removed   claims with two or more evidence groups (rationales, LLM-added sentences each their own
+                      group); every group but one, chosen at random, is removed, so sufficient evidence remains
+                      and the label is unchanged. Tests that the model keeps justified conclusions.
     random_removed    control for deletion artifacts: the same claims with the same number of
                       randomly chosen NON-evidence sentences removed; label and evidence unchanged.
     healthver         out-of-distribution test: HealthVer's 1,823 human-labelled test pairs (healthver.py);
@@ -130,7 +134,16 @@ def eval_samples(eval_set: str, seed: int = 0) -> list[Sample]:
         if s.label == "NEI":
             continue
         gold = [(a.doc_id, i) for a in s.articles for i, t in enumerate(a.evidence_targets) if t]
-        if base == "evidence_removed":
+        keep = set(gold)
+        if base == "partial_removed":
+            groups = {}
+            for e in json.loads(Path(s.source_file).read_text())["evidence"]:
+                groups.setdefault((e["doc_id"], e["group_id"]), set()).add((e["doc_id"], e["original_index"]))
+            if len(groups) < 2:
+                continue
+            keep = groups[rng.choice(sorted(groups))]
+            drop = set(gold) - keep
+        elif base == "evidence_removed":
             drop = set(gold)
         else:
             others = [(a.doc_id, i) for a in s.articles for i, ok in enumerate(a.sentence_mask)
@@ -139,7 +152,8 @@ def eval_samples(eval_set: str, seed: int = 0) -> list[Sample]:
         articles = []
         for a in s.articles:
             sentences = ["" if (a.doc_id, i) in drop else t for i, t in enumerate(a.sentences)]
-            targets = [0 if base == "evidence_removed" else t for t in a.evidence_targets]
+            targets = [0 if base == "evidence_removed" else int(bool(t) and (a.doc_id, i) in keep)
+                       for i, t in enumerate(a.evidence_targets)]
             if silent:
                 kept = [i for i, t in enumerate(sentences) if t]
                 sentences, targets = [sentences[i] for i in kept], [targets[i] for i in kept]
