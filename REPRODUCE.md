@@ -24,8 +24,17 @@ python -m LiquidAI --mode train_test --learning-rate 1e-4  --output-dir LiquidAI
 python -m LiquidAI --mode train_test --loss pair          --output-dir LiquidAI/outputs/d1-pair
 ```
 
-All other settings are the defaults in `LiquidAI/cli.py` (LoRA r=16, alpha=32, 3 epochs, seed 42; add
-`--seed 43` etc. for further seeds). Each run writes `final/` (the adapter), `training_config.json`
+All other settings are the defaults in `LiquidAI/cli.py` (LoRA r=16, alpha=32, 3 epochs, seed 42).
+These are the single runs shown in the slides and demo. The three-seed comparison in the report retrains
+every configuration with identical settings:
+
+```bash
+for seed in 42 43 44; do
+  python -m LiquidAI --mode train --original  --seed $seed --question-batch-size 2 --output-dir outputs/v2-original-seed$seed
+  python -m LiquidAI --mode train             --seed $seed --question-batch-size 2 --output-dir outputs/v2-augmented-seed$seed
+  python -m LiquidAI --mode train --loss pair --seed $seed --question-batch-size 2 --output-dir outputs/v2-pair-seed$seed
+done
+``` Each run writes `final/` (the adapter), `training_config.json`
 and test metrics.
 
 ## 4. Evaluate: test set, stress tests and baselines
@@ -33,7 +42,7 @@ and test metrics.
 ```bash
 cd baselines
 for set in test evidence_removed random_removed evidence_removed_silent random_removed_silent \
-           partial_removed partial_removed_silent; do
+           partial_removed partial_removed_silent; do   # all stress sets are built in memory from data/test
   python d1_adapter_eval.py --adapter-dir ../LiquidAI/outputs/d1-augment/final --name final_d1_augment --eval-set $set
 done
 python d1_zero_shot.py                         # d1-3B zero-shot   (each baseline also takes --eval-set)
@@ -48,6 +57,7 @@ python llm_zero_shot.py                          # Qwen3.8-27B, vLLM environment
 ## 5. Rebuild the tables (no GPU)
 
 ```bash
+python baselines/report_tables.py  # results/report_tables.md: every number in the report's Results section
 python baselines/summarize.py      # results/summary.md: test metrics, stress tests, per-system tables
 python baselines/significance.py   # seed ensembles and paired bootstrap confidence intervals
 python baselines/error_analysis.py # error categories
