@@ -1,3 +1,15 @@
+# Evidence-Sensitive Claim Verification (COSC 272 final project)
+
+Yuehao Xu, Jialin Fan, Benson Wang. Given a scientific claim and the abstracts it cites, d1-3B with LoRA
+predicts SUPPORT, CONTRADICT or NOT ENOUGH INFO and selects the evidence sentences; training on
+evidence-deleted copies teaches it to abstain when the evidence is gone.
+
+- **Reproduce the report:** [`REPRODUCE.md`](REPRODUCE.md) (training, evaluation, baselines, and rebuilding every table from saved predictions without a GPU)
+- **Demo:** https://huggingface.co/spaces/COSC272-Project/claim-verification-demo
+- **Code:** `LiquidAI/` (model, training, evaluation), `baselines/` (baselines, stress tests, analysis), `demo/` (demo), `data/` (splits; documented below)
+
+---
+
 # 科学声明核验数据集
 
 模型的输入是一条 claim 和它引用的一篇或多篇摘要，输出三个标签之一：`SUPPORT`、`CONTRADICT`、`NEI`。摘要来自 `data/corpus.jsonl`，已经按句切开。证据用的是句子在原文中的编号，从 0 开始。
