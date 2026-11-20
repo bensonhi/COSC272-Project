@@ -1,57 +1,57 @@
 [
-  {
-    "claim_id": 203,
-    "tag": "evidence removal",
-    "note": "Gold CONTRADICT, model right on the full abstract; with the gold evidence removed it says NEI while b2_d1_original_sft_seed42 keeps its verdict."
-  },
-  {
-    "claim_id": 1346,
-    "tag": "evidence removal",
-    "note": "Gold SUPPORT, model right on the full abstract; with the gold evidence removed it says NEI while b2_d1_original_sft_seed42 keeps its verdict."
-  },
-  {
-    "claim_id": 1086,
-    "tag": "representative",
-    "note": "Correct SUPPORT with high confidence."
-  },
-  {
-    "claim_id": 683,
-    "tag": "representative",
-    "note": "Correct CONTRADICT with high confidence."
-  },
-  {
-    "claim_id": 1191,
-    "tag": "representative",
-    "note": "Correct NEI with high confidence."
-  },
-  {
-    "claim_id": 529,
-    "tag": "challenging",
-    "note": "Several cited abstracts; gold SUPPORT, model says SUPPORT."
-  },
-  {
-    "claim_id": 593,
-    "tag": "challenging",
-    "note": "Numeric claim; gold SUPPORT, model says CONTRADICT."
-  },
-  {
-    "claim_id": 615,
-    "tag": "challenging",
-    "note": "Disagrees with b5_llm_qwen3.8_27b; gold CONTRADICT, model says SUPPORT."
-  },
-  {
-    "claim_id": 174,
-    "tag": "failure",
-    "note": "Unsupported judgement: gold NEI but the model says CONTRADICT."
-  },
-  {
-    "claim_id": 847,
-    "tag": "failure",
-    "note": "Polarity error: gold CONTRADICT, model says SUPPORT."
-  },
-  {
-    "claim_id": 818,
-    "tag": "failure",
-    "note": "Unnecessary abstention: gold SUPPORT, model says NEI."
-  }
+ {
+  "claim_id": 210,
+  "tag": "evidence removal",
+  "note": "Gold SUPPORT, Augmented SFT is right on the full abstract; with the gold evidence removed it says NOT ENOUGH INFO while Original SFT keeps its verdict."
+ },
+ {
+  "claim_id": 1043,
+  "tag": "evidence removal",
+  "note": "Gold SUPPORT, Augmented SFT is right on the full abstract; with the gold evidence removed it says NOT ENOUGH INFO while Original SFT keeps its verdict."
+ },
+ {
+  "claim_id": 265,
+  "tag": "representative",
+  "note": "Correct SUPPORT with high confidence."
+ },
+ {
+  "claim_id": 802,
+  "tag": "representative",
+  "note": "Correct CONTRADICT with high confidence."
+ },
+ {
+  "claim_id": 1191,
+  "tag": "representative",
+  "note": "Correct NEI with high confidence."
+ },
+ {
+  "claim_id": 529,
+  "tag": "challenging",
+  "note": "Several cited abstracts; gold SUPPORT, Augmented SFT says SUPPORT."
+ },
+ {
+  "claim_id": 3,
+  "tag": "challenging",
+  "note": "Numeric claim; gold SUPPORT, Augmented SFT says NEI."
+ },
+ {
+  "claim_id": 615,
+  "tag": "challenging",
+  "note": "Disagrees with Qwen3.8-27B; gold CONTRADICT, Augmented SFT says SUPPORT."
+ },
+ {
+  "claim_id": 934,
+  "tag": "failure",
+  "note": "Unsupported judgement: gold NEI but Augmented SFT says CONTRADICT."
+ },
+ {
+  "claim_id": 578,
+  "tag": "failure",
+  "note": "Polarity error: gold CONTRADICT, Augmented SFT says SUPPORT."
+ },
+ {
+  "claim_id": 818,
+  "tag": "failure",
+  "note": "Unnecessary abstention: gold SUPPORT, Augmented SFT says NEI."
+ }
 ]

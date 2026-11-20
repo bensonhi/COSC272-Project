@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claim Verification Demo</title>
+<meta name="description" content="Evidence-sensitive scientific claim verification with d1-3B: see how each model's verdict changes when evidence is removed.">
+<style>
+:root {
+  --bg: #f7f8f9; --surface: #ffffff; --surface-2: #f1f3f5; --fg: #17191c; --muted: #5b626b; --faint: #8a919a;
+  --line: #e3e6ea; --line-strong: #cfd4da; --accent: #0f6e75; --accent-soft: #e3f1f1; --accent-fg: #ffffff;
+  --sup: #2563c9; --sup-soft: #e6eefb; --con: #7c4dc9; --con-soft: #efe8fa; --nei: #6b7480; --nei-soft: #eceef1;
+  --ok: #1d8a52; --ok-soft: #e2f4ea; --bad: #c43d35; --bad-soft: #fbe6e4;
+  --gold: #b7860b; --shadow: 0 1px 2px rgba(16,24,40,.05), 0 1px 3px rgba(16,24,40,.06); --radius: 12px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111315; --surface: #181b1e; --surface-2: #202428; --fg: #e9ecef; --muted: #a3aab3; --faint: #7a828c;
+    --line: #2a2f35; --line-strong: #3a4048; --accent: #4fb3b9; --accent-soft: #163338; --accent-fg: #0b1214;
+    --sup: #6ea2f5; --sup-soft: #182740; --con: #b294f0; --con-soft: #2a2140; --nei: #9aa3ad; --nei-soft: #262a2f;
+    --ok: #4cc285; --ok-soft: #173325; --bad: #ef7a72; --bad-soft: #3a1d1b;
+    --gold: #e0b444; --shadow: 0 1px 2px rgba(0,0,0,.4);
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.wrap { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+/* Header */
+header { background: var(--surface); border-bottom: 1px solid var(--line); }
+.head { display: flex; align-items: center; gap: 24px; min-height: 64px; }
+.brand { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.mark { width: 28px; height: 28px; border-radius: 8px; background: var(--accent); display: grid; place-items: center; flex: none; }
+.mark svg { width: 16px; height: 16px; }
+.brand h1 { font-size: 16px; font-weight: 650; margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.brand small { display: block; font-size: 12px; color: var(--muted); font-weight: 400; }
+nav { margin-left: auto; display: flex; gap: 2px; background: var(--surface-2); padding: 3px; border-radius: 9px; }
+nav button { border: 0; background: none; padding: 6px 14px; border-radius: 7px; cursor: pointer; color: var(--muted); font-size: 14px; }
+nav button[aria-selected="true"] { background: var(--surface); color: var(--fg); font-weight: 600; box-shadow: var(--shadow); }
+main.wrap { padding-top: 24px; padding-bottom: 64px; }
+.view[hidden] { display: none; }
+
+/* Picker */
+.picker { display: flex; gap: 10px; align-items: stretch; }
+.search { position: relative; flex: 1; min-width: 0; }
+.search svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); width: 16px; height: 16px; color: var(--faint); pointer-events: none; }
+.search input { width: 100%; height: 42px; padding: 0 12px 0 36px; border: 1px solid var(--line-strong); border-radius: 10px; background: var(--surface); color: var(--fg); font: inherit; }
+.search input::placeholder { color: var(--faint); }
+.results { position: absolute; z-index: 20; left: 0; right: 0; top: calc(100% + 6px); max-height: 380px; overflow: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 12px 32px rgba(16,24,40,.14); padding: 6px; }
+.results[hidden] { display: none; }
+.results .group { font-size: 11px; font-weight: 650; letter-spacing: .04em; text-transform: uppercase; color: var(--faint); padding: 8px 10px 4px; }
+.results [role="option"] { display: block; padding: 8px 10px; border-radius: 7px; cursor: pointer; }
+.results [role="option"][aria-selected="true"], .results [role="option"]:hover { background: var(--surface-2); }
+.results .meta { font-size: 12px; color: var(--muted); display: flex; gap: 8px; align-items: center; margin-bottom: 2px; }
+.results .text { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; font-size: 14px; }
+.results .empty { padding: 12px 10px; color: var(--muted); font-size: 14px; }
+.btn { display: inline-flex; align-items: center; gap: 6px; height: 36px; padding: 0 14px; border-radius: 9px; border: 1px solid var(--line-strong); background: var(--surface); cursor: pointer; font-size: 14px; font-weight: 550; white-space: nowrap; }
+.btn:hover:not(:disabled) { border-color: var(--faint); }
+.btn:disabled { opacity: .45; cursor: default; }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-fg); }
+.btn.primary:hover:not(:disabled) { filter: brightness(1.08); }
+.btn.ghost { border-color: transparent; background: none; color: var(--muted); }
+.btn.tall { height: 42px; }
+.btn svg { width: 15px; height: 15px; }
+.chips { display: flex; gap: 8px; align-items: center; margin: 14px 0 22px; overflow-x: auto; padding-bottom: 2px; scrollbar-width: thin; }
+.chips > span { font-size: 13px; color: var(--muted); flex: none; }
+.chip { flex: none; border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 5px 12px; font-size: 13px; cursor: pointer; color: var(--fg); }
+.chip:hover { border-color: var(--line-strong); }
+.chip[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); }
+.chip b { font-weight: 600; color: var(--muted); margin-right: 4px; }
+
+/* Layout */
+.grid { display: grid; grid-template-columns: minmax(0, 1fr) 380px; grid-template-areas: "head side" "body side"; grid-template-rows: auto 1fr; gap: 20px; align-items: start; }
+.head-card { grid-area: head; } .body-card { grid-area: body; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
+.pad { padding: 20px 22px; }
+.side { grid-area: side; position: sticky; top: 16px; display: grid; gap: 16px; }
+
+/* Claim + abstract */
+.meta-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 13px; color: var(--muted); }
+.pill { display: inline-flex; align-items: center; gap: 6px; border-radius: 999px; padding: 2px 10px; font-size: 12px; font-weight: 600; border: 1px solid var(--line); background: var(--surface-2); color: var(--muted); white-space: nowrap; }
+.pill.SUPPORT { background: var(--sup-soft); color: var(--sup); border-color: transparent; }
+.pill.CONTRADICT { background: var(--con-soft); color: var(--con); border-color: transparent; }
+.pill.NEI { background: var(--nei-soft); color: var(--nei); border-color: transparent; }
+.claim { font-size: 21px; line-height: 1.4; font-weight: 620; margin: 10px 0 6px; letter-spacing: -.005em; }
+.note { color: var(--muted); font-size: 14px; margin: 0; }
+.callout { margin-top: 12px; padding: 10px 14px; border-radius: 10px; background: var(--accent-soft); font-size: 14px; }
+.callout a { color: var(--accent); font-weight: 600; }
+.toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 14px 22px; border-bottom: 1px solid var(--line); background: var(--surface-2); border-radius: var(--radius) var(--radius) 0 0; }
+.toolbar .count { margin-left: auto; font-size: 13px; color: var(--muted); }
+.doc { padding: 18px 22px 6px; }
+.doc + .doc { border-top: 1px dashed var(--line); }
+.doc-title { font-weight: 620; font-size: 15px; margin: 0 0 10px; }
+.col-head { display: flex; justify-content: flex-end; font-size: 11px; font-weight: 650; letter-spacing: .03em; text-transform: uppercase; color: var(--faint); margin: -4px 0 2px; }
+.col-head > span { cursor: help; }
+.col-head .q { display: inline-grid; place-items: center; width: 14px; height: 14px; border-radius: 50%; border: 1px solid var(--line-strong); font-size: 10px; margin-left: 3px; text-transform: none; }
+.doc-title span { font-weight: 500; color: var(--faint); font-size: 12px; margin-right: 6px; font-variant-numeric: tabular-nums; }
+.sent { display: grid; grid-template-columns: 26px minmax(0, 1fr) 92px; gap: 10px; align-items: start; padding: 8px 10px; margin: 0 -10px 2px; border-radius: 8px; cursor: pointer; transition: background .12s; }
+.sent:hover { background: var(--surface-2); }
+.sent .idx { font-size: 12px; color: var(--faint); font-variant-numeric: tabular-nums; padding-top: 2px; }
+.sent .txt { font-size: 15px; }
+.sent .gold { color: var(--gold); font-size: 12px; font-weight: 600; margin-left: 6px; white-space: nowrap; }
+.sent .gold svg { width: 11px; height: 11px; vertical-align: -1px; }
+.sent .aside { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; padding-top: 3px; }
+.meter { width: 64px; height: 5px; border-radius: 99px; background: var(--surface-2); overflow: hidden; }
+.meter i { display: block; height: 100%; background: var(--faint); border-radius: 99px; }
+.sent .pv { font-size: 11px; color: var(--faint); font-variant-numeric: tabular-nums; }
+.sent .act { font-size: 12px; color: var(--accent); opacity: 0; font-weight: 600; }
+.sent:hover .act, .sent:focus-visible .act { opacity: 1; }
+.sent.ev.SUPPORT { background: var(--sup-soft); } .sent.ev.SUPPORT .meter i { background: var(--sup); }
+.sent.ev.CONTRADICT { background: var(--con-soft); } .sent.ev.CONTRADICT .meter i { background: var(--con); }
+.sent.ev .meter { background: var(--surface); }
+.sent.ev .pv { color: var(--fg); font-weight: 600; }
+.sent.removed .txt { color: var(--faint); text-decoration: line-through; text-decoration-color: var(--line-strong); }
+.sent.removed .act { opacity: 1; }
+.sent .edited { font-size: 11px; font-weight: 650; color: var(--accent); background: var(--accent-soft); border-radius: 5px; padding: 1px 6px; margin-left: 6px; }
+.legend { display: flex; flex-wrap: wrap; gap: 14px; padding: 12px 22px 18px; font-size: 12px; color: var(--muted); }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 5px; vertical-align: -1px; }
+
+/* Side panel */
+.label-sm { font-size: 12px; font-weight: 650; letter-spacing: .04em; text-transform: uppercase; color: var(--faint); margin: 0 0 10px; }
+.models { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.model { text-align: left; border: 1px solid var(--line); background: var(--surface); border-radius: 10px; padding: 9px 11px; cursor: pointer; }
+.model:hover { border-color: var(--line-strong); }
+.model[aria-pressed="true"] { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); background: var(--accent-soft); }
+.model b { display: block; font-size: 14px; font-weight: 620; }
+.model span { display: block; font-size: 12px; color: var(--muted); line-height: 1.35; }
+.verdict-label { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 10px; margin: 2px 0 14px; }
+.verdict-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 4px; }
+.verdict-head .label-sm { margin: 0; }
+.verdict-head .mark-ok, .verdict-head .mark-bad { font-size: 13px; padding: 3px 10px; }
+.verdict-label strong { font-size: 24px; letter-spacing: -.01em; }
+.verdict-label em { font-style: normal; color: var(--muted); font-size: 14px; }
+.prob { display: grid; grid-template-columns: 124px 1fr 50px; gap: 10px; align-items: center; font-size: 13px; margin: 7px 0; }
+.prob .bar { height: 8px; border-radius: 99px; background: var(--surface-2); overflow: hidden; }
+.prob .bar i { display: block; height: 100%; border-radius: 99px; }
+.prob span:last-child { text-align: right; font-variant-numeric: tabular-nums; color: var(--muted); }
+.status { margin-top: 14px; padding: 10px 12px; border-radius: 9px; font-size: 14px; display: flex; gap: 8px; align-items: flex-start; background: var(--surface-2); }
+.status svg { width: 16px; height: 16px; flex: none; margin-top: 2px; }
+.status.good { background: var(--ok-soft); } .status.good svg { color: var(--ok); }
+.status.bad { background: var(--bad-soft); } .status.bad svg { color: var(--bad); }
+.mark-ok, .mark-bad { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 700; border-radius: 999px; padding: 2px 9px; white-space: nowrap; }
+.mark-ok { color: var(--ok); background: var(--ok-soft); } .mark-bad { color: var(--bad); background: var(--bad-soft); }
+.mark-ok svg, .mark-bad svg { width: 12px; height: 12px; }
+.cmp .right { display: inline-flex; gap: 6px; align-items: center; }
+.status.info svg { color: var(--muted); }
+.foot { margin-top: 10px; font-size: 12px; color: var(--faint); }
+.cmp { display: grid; gap: 4px; }
+.cmp button { display: grid; grid-template-columns: 1fr auto; gap: 6px 10px; align-items: center; text-align: left; border: 0; background: none; padding: 8px 10px; margin: 0 -10px; border-radius: 8px; cursor: pointer; }
+.cmp button:hover { background: var(--surface-2); }
+.cmp button[aria-current="true"] { background: var(--accent-soft); }
+.cmp .name { font-size: 14px; font-weight: 550; }
+.cmp .stack { grid-column: 1 / -1; display: flex; height: 6px; border-radius: 99px; overflow: hidden; background: var(--surface-2); }
+.cmp .stack i { display: block; height: 100%; }
+.cmp .pill { font-size: 11px; }
+.empty-state { color: var(--muted); font-size: 14px; }
+.empty-state p { margin: 0 0 12px; }
+
+/* Results + about */
+.prose { max-width: 860px; }
+.prose h2 { font-size: 20px; margin: 0 0 6px; letter-spacing: -.01em; }
+.prose h3 { font-size: 16px; margin: 22px 0 6px; }
+.prose p, .prose li { color: var(--muted); }
+.prose p strong, .prose li strong { color: var(--fg); }
+.stack-cards { display: grid; gap: 20px; }
+.table-wrap { overflow-x: auto; margin-top: 14px; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { padding: 9px 12px; text-align: right; border-bottom: 1px solid var(--line); white-space: nowrap; font-variant-numeric: tabular-nums; }
+th:first-child, td:first-child { text-align: left; }
+th { font-size: 12px; color: var(--muted); font-weight: 600; }
+tr.ours td { background: var(--accent-soft); }
+tr.ours td:first-child { font-weight: 600; }
+td.best { font-weight: 700; color: var(--fg); }
+.hint { font-size: 12px; color: var(--faint); margin-top: 10px; }
+.bars { display: grid; gap: 14px; margin-top: 16px; }
+.bars .row { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 14px; align-items: center; }
+.bars .name { font-size: 14px; }
+.bars .name.ours { font-weight: 600; }
+.bars .pair { display: grid; gap: 4px; }
+.bars .line { display: grid; grid-template-columns: minmax(0, 1fr) 44px; gap: 8px; align-items: center; }
+.bars .line .bar { height: 12px; border-radius: 4px; background: var(--surface-2); overflow: hidden; }
+.bars .line .bar i { display: block; height: 100%; border-radius: 4px; }
+.bars .line span { font-size: 12px; color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+.key { display: flex; gap: 18px; flex-wrap: wrap; font-size: 13px; color: var(--muted); margin-top: 10px; }
+.key i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -2px; }
+.takeaways { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.takeaways .card h3 { margin: 0 0 6px; font-size: 15px; color: var(--fg); }
+.takeaways .card p { margin: 0; color: var(--muted); font-size: 14px; }
+
+@media (max-width: 980px) {
+  .grid { grid-template-columns: minmax(0, 1fr); grid-template-areas: "head" "side" "body"; grid-template-rows: none; gap: 16px; }
+  .side { position: static; }
+  .takeaways { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 640px) {
+  .wrap { padding: 0 16px; }
+  .head { flex-wrap: wrap; gap: 10px; padding: 12px 0; }
+  nav { margin-left: 0; width: 100%; } nav button { flex: 1; }
+  .brand small { display: none; }
+  .pad, .toolbar, .doc, .legend { padding-left: 16px; padding-right: 16px; }
+  .claim { font-size: 18px; }
+  .sent { grid-template-columns: 22px minmax(0, 1fr); }
+  .sent .aside { grid-column: 2; flex-direction: row; align-items: center; justify-content: flex-start; gap: 8px; padding-top: 0; }
+  .sent .act { opacity: 1; margin-left: auto; }
+  .bars .row { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap head">
+    <div class="brand">
+      <div class="mark" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.5l3 3 7-7"/></svg></div>
+      <h1>Evidence-sensitive claim verification<small>Does the verdict change when the evidence disappears?</small></h1>
+    </div>
+    <nav role="tablist" aria-label="Sections">
+      <button role="tab" aria-selected="true" data-view="demo">Demo</button>
+      <button role="tab" aria-selected="false" data-view="results">Results</button>
+      <button role="tab" aria-selected="false" data-view="about">About</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="view" id="demo">
+    <div class="picker">
+      <div class="search">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="7" r="5"/><path d="M11 11l3.5 3.5" stroke-linecap="round"/></svg>
+        <input id="q" type="search" autocomplete="off" placeholder="Search 333 test claims or 280 edited variants by words or #id"
+               role="combobox" aria-expanded="false" aria-controls="results" aria-autocomplete="list">
+        <div class="results" id="results" role="listbox" hidden></div>
+      </div>
+      <button class="btn tall" id="random" title="Load a random claim">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h3l6 8h3M2 12h3l1.5-2M10.5 6L11 4h3M12.5 2.5L14 4l-1.5 1.5M12.5 10.5L14 12l-1.5 1.5"/></svg>Random</button>
+    </div>
+    <div class="chips" id="chips"></div>
+
+    <div class="grid">
+      <section class="card pad head-card" aria-label="Claim">
+        <div class="meta-row" id="meta"></div>
+        <div class="claim" id="claim">Loading…</div>
+        <p class="note" id="note"></p>
+        <div id="cf"></div>
+      </section>
+      <article class="card body-card" aria-label="Cited abstracts">
+        <div class="toolbar">
+          <button class="btn primary" id="strip">
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M3 4h10M6 4V2.5h4V4M4.5 4l.7 9.5h5.6L11.5 4"/></svg>Remove predicted evidence</button>
+          <button class="btn" id="goldbtn">Remove gold evidence</button>
+          <button class="btn ghost" id="reset">Reset</button>
+          <span class="count" id="count"></span>
+        </div>
+        <div id="abstract"></div>
+        <div class="legend">
+          <span><i style="background:var(--sup-soft);border:1px solid var(--sup)"></i>Evidence for SUPPORT</span>
+          <span><i style="background:var(--con-soft);border:1px solid var(--con)"></i>Evidence for CONTRADICT</span>
+          <span style="color:var(--gold)">&#9733; Gold evidence</span>
+          <span>Evidence score: how likely each sentence is evidence (not the verdict confidence)</span>
+          <span><b style="color:var(--ok)">&#10003;</b> / <b style="color:var(--bad)">&#10007;</b> verdict matches / misses the expected answer</span>
+          <span>Click a sentence to remove or restore it</span>
+        </div>
+      </article>
+
+      <aside class="side">
+        <div class="card pad">
+          <p class="label-sm">Model</p>
+          <div class="models" id="models"></div>
+        </div>
+        <div class="card pad" id="verdict" aria-live="polite"></div>
+        <div class="card pad">
+          <p class="label-sm">All models on this input</p>
+          <div class="cmp" id="compare"></div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="view" id="results" hidden>
+    <div class="stack-cards prose" style="max-width:none">
+      <div class="takeaways">
+        <div class="card pad"><h3>Fine-tuning beats every baseline</h3><p>All three d1-3B LoRA runs lead on accuracy and evidence F1, ahead of a 9× larger LLM and a dedicated verifier.</p></div>
+        <div class="card pad"><h3>Deletion training teaches abstention</h3><p>With the gold evidence deleted, the augmented and paired models say NOT ENOUGH INFO for about 80% of claims; the original model for under half.</p></div>
+        <div class="card pad"><h3>It is not a deletion artefact</h3><p>Deleting the same number of other sentences barely moves any model, so the abstention tracks the evidence itself.</p></div>
+      </div>
+      <div class="card pad">
+        <h2>Test metrics</h2>
+        <p>333 held-out SciFact claims; every system is scored with the same code. Evidence is selected at p &ge; 0.5.</p>
+        <div class="table-wrap"><table id="metrics"></table></div>
+        <p class="hint">Shaded: our d1-3B LoRA runs. Bold: best in column. ECE (calibration error): lower is better.</p>
+      </div>
+      <div class="card pad">
+        <h2>Evidence-removal stress test</h2>
+        <p>For the 207 test claims with annotated evidence: how often does each system answer NOT ENOUGH INFO when <strong>all gold evidence</strong> is deleted (it should), and when <strong>the same number of other sentences</strong> is deleted (it should not)?</p>
+        <div class="key"><span><i style="background:var(--accent)"></i>Gold evidence deleted</span><span><i style="background:var(--line-strong)"></i>Other sentences deleted (control)</span></div>
+        <div class="bars" id="stress"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="view" id="about" hidden>
+    <div class="card pad prose">
+      <h2>About this demo</h2>
+      <p>Given a scientific claim and the abstract(s) it cites, the model answers <strong>SUPPORT</strong>, <strong>CONTRADICT</strong> or
+      <strong>NOT ENOUGH INFO</strong> and scores every sentence as evidence. d1-3B answers one three-way question and one yes/no question per
+      sentence in a single pass, without generating text.</p>
+      <h3>How to use it</h3>
+      <ol>
+        <li>Pick a claim: a suggested example, a search result, or a random one.</li>
+        <li>Read the verdict on the right and the highlighted evidence sentences on the left.</li>
+        <li>Remove the predicted or gold evidence and watch whether the model switches to NOT ENOUGH INFO. Switch models to compare.</li>
+      </ol>
+      <h3>Models</h3>
+      <ul>
+        <li><strong>Zero-shot</strong>: d1-3B with no fine-tuning.</li>
+        <li><strong>Original SFT</strong>: LoRA fine-tuned on the original training claims.</li>
+        <li><strong>Augmented SFT</strong>: the same, plus copies of each claim with evidence sentences deleted (labelled NOT ENOUGH INFO when all evidence is gone).</li>
+        <li><strong>Paired hinge</strong>: augmented training plus a loss that makes the true label beat NOT ENOUGH INFO by a wider margin on the full abstract than on the deleted one.</li>
+      </ul>
+      <h3>What you are seeing</h3>
+      <p>Every verdict on this page was computed in advance by the real models on a GPU; nothing runs in your browser. For each claim
+      you can view the abstract as given, with each model's predicted evidence removed (once or twice), with all gold evidence removed,
+      or with any single sentence removed. Edited variants are LLM-rewritten test claims whose claim was negated, or whose evidence was reversed or made irrelevant.</p>
+      <h3>Limitations</h3>
+      <ul>
+        <li>A research prototype and reading aid, not a substitute for reading the paper or for expert judgement. Probabilities can be confidently wrong.</li>
+        <li>Trained and tested on SciFact biomedical abstracts only. On other claim sources the models abstain far too often.</li>
+        <li>Gold rationales can miss valid evidence, so deleting them does not always leave a truly undecidable abstract.</li>
+      </ul>
+      <p class="hint">COSC 272 final project &middot; Yuehao Xu, Jialin Fan, Benson Wang</p>
+    </div>
+  </section>
+</main>
+
+<script>
+const LABEL_NAME = { SUPPORT: "SUPPORT", CONTRADICT: "CONTRADICT", NEI: "NOT ENOUGH INFO" };
+const LABEL_VAR = { SUPPORT: "--sup", CONTRADICT: "--con", NEI: "--nei" };
+const MODEL_INFO = {
+  "d1-3B zero-shot": ["Zero-shot", "No fine-tuning"],
+  "d1-original": ["Original SFT", "Original claims only"],
+  "d1-augment": ["Augmented SFT", "+ evidence-deleted copies"],
+  "d1-pair": ["Paired hinge", "+ full-vs-deleted margin"],
+};
+const EVIDENCE_HELP = "How likely the selected model thinks this sentence is evidence for its verdict (a separate yes/no question per sentence, not the verdict confidence). Sentences at 0.5 or above are highlighted as evidence.";
+const ICON = {
+  good: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.5l3 3 7-7"/></svg>',
+  bad: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4l8 8M12 4l-8 8"/></svg>',
+  info: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="8" cy="8" r="6.5"/><path d="M8 7.2v4M8 4.8v.2" stroke-linecap="round"/></svg>',
+  star: '<svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1.5l1.9 4 4.4.5-3.3 3 .9 4.3L8 11.1l-3.9 2.2.9-4.3-3.3-3 4.4-.5z"/></svg>',
+};
+let INDEX, RESULTS, item = null, model = null, removed = new Set(), active = -1;
+const store = {};
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const keyOf = (set) => [...set].sort().join("|");
+const short = (m) => (MODEL_INFO[m] || [m])[0];
+const num = (id) => id.slice(1).split("-")[0];
+const color = (label) => `var(${LABEL_VAR[label]})`;
+const pill = (label, prefix = "") => `<span class="pill ${label}">${prefix}${LABEL_NAME[label]}</span>`;
+
+// ------------------------------------------------------------------ navigation
+document.querySelectorAll("nav button").forEach((b) => b.addEventListener("click", () => {
+  document.querySelectorAll("nav button").forEach((x) => x.setAttribute("aria-selected", x === b));
+  document.querySelectorAll(".view").forEach((v) => v.hidden = v.id !== b.dataset.view);
+}));
+
+async function init() {
+  [INDEX, RESULTS] = await Promise.all([fetch("index.json").then((r) => r.json()), fetch("results.json").then((r) => r.json())]);
+  model = INDEX.models.includes("d1-augment") ? "d1-augment" : INDEX.models[INDEX.models.length - 1];
+  const byId = new Set(INDEX.items.map((e) => e.id));
+  INDEX.curated = INDEX.curated.filter((c) => byId.has(c.id));
+  $("chips").innerHTML = "<span>Try</span>" + INDEX.curated.map((c) => {
+    const e = INDEX.items.find((x) => x.id === c.id);
+    return `<button class="chip" data-id="${c.id}" aria-pressed="false" title="${esc(e.claim)}"><b>${esc(c.tag)}</b>${c.id.startsWith("x") ? "COSC 272 quizzes" : "#" + num(c.id)}</button>`;
+  }).join("");
+  $("chips").querySelectorAll(".chip").forEach((b) => b.addEventListener("click", () => load(b.dataset.id)));
+  $("random").addEventListener("click", () => load(INDEX.items[Math.floor(Math.random() * INDEX.items.length)].id));
+  $("strip").addEventListener("click", stripEvidence);
+  $("goldbtn").addEventListener("click", () => { removed = new Set(item.gold); render(); });
+  $("reset").addEventListener("click", () => { removed = new Set(); render(); });
+  setupSearch();
+  renderResults();
+  window.addEventListener("hashchange", () => { const id = location.hash.slice(1); if (byId.has(id) && (!item || item.id !== id)) load(id); });
+  const start = location.hash.slice(1);
+  load(byId.has(start) ? start : INDEX.curated[0].id);
+}
+
+// ------------------------------------------------------------------ search
+function setupSearch() {
+  const input = $("q"), box = $("results");
+  const close = () => { box.hidden = true; input.setAttribute("aria-expanded", "false"); active = -1; };
+  const options = () => [...box.querySelectorAll('[role="option"]')];
+  const show = () => {
+    const q = input.value.trim().toLowerCase().replace(/^#/, "");
+    const hits = INDEX.items.filter((e) => !q || num(e.id) === q || e.claim.toLowerCase().includes(q));
+    const test = hits.filter((e) => !e.edit).slice(0, 40), edits = hits.filter((e) => e.edit).slice(0, 20);
+    const row = (e) => `<div role="option" id="o-${e.id}" data-id="${e.id}" aria-selected="false">
+        <div class="meta">#${num(e.id)} ${pill(e.label)}${e.edit ? `<span>${esc(e.edit)}</span>` : ""}</div>
+        <div class="text">${esc(e.claim)}</div></div>`;
+    box.innerHTML = (test.length ? `<div class="group">Test claims</div>${test.map(row).join("")}` : "") +
+      (edits.length ? `<div class="group">Edited variants</div>${edits.map(row).join("")}` : "") +
+      (hits.length ? "" : `<div class="empty">No claim matches “${esc(input.value)}”.</div>`);
+    box.hidden = false; input.setAttribute("aria-expanded", "true"); active = -1;
+    options().forEach((o) => o.addEventListener("mousedown", (ev) => { ev.preventDefault(); pick(o.dataset.id); }));
+  };
+  const pick = (id) => { close(); input.value = ""; input.blur(); load(id); };
+  const move = (d) => {
+    const opts = options(); if (!opts.length) return;
+    active = (active + d + opts.length) % opts.length;
+    opts.forEach((o, i) => o.setAttribute("aria-selected", i === active));
+    opts[active].scrollIntoView({ block: "nearest" }); input.setAttribute("aria-activedescendant", opts[active].id);
+  };
+  input.addEventListener("input", show);
+  input.addEventListener("focus", show);
+  input.addEventListener("blur", () => setTimeout(close, 120));
+  input.addEventListener("keydown", (ev) => {
+    if (ev.key === "ArrowDown") { ev.preventDefault(); move(1); }
+    else if (ev.key === "ArrowUp") { ev.preventDefault(); move(-1); }
+    else if (ev.key === "Enter") { const o = options()[active] || options()[0]; if (o) pick(o.dataset.id); }
+    else if (ev.key === "Escape") { close(); input.blur(); }
+  });
+}
+
+// ------------------------------------------------------------------ claim view
+async function load(id) {
+  if (!store[id]) store[id] = await fetch(`items/${id}.json`).then((r) => r.json());
+  item = store[id]; removed = new Set();
+  if (location.hash.slice(1) !== id) history.replaceState(null, "", "#" + id);
+  const curated = INDEX.curated.find((c) => c.id === id);
+  document.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", c.dataset.id === id));
+  const where = id.startsWith("x") ? "Illustrative example (not from the dataset)" : `${item.edit ? "Edited variant of test claim" : "Test claim"} #${num(id)}`;
+  $("meta").innerHTML = `<span>${where}</span>${pill(item.label, "Gold: ")}` +
+    (curated ? `<span class="pill">${esc(curated.tag)}</span>` : "");
+  $("claim").textContent = item.claim;
+  $("note").textContent = curated && curated.note ? curated.note : "";
+  $("note").hidden = !(curated && curated.note);
+  $("cf").innerHTML = item.edit ? `<div class="callout">LLM-edited variant: <strong>${esc(item.edit)}</strong>. Edited sentences are tagged.
+      <a href="#${item.original}">Open the original claim</a>${item.original_claim ? `<br>Original claim: <em>${esc(item.original_claim)}</em>` : ""}</div>` : "";
+  $("goldbtn").disabled = !item.gold.length;
+  render();
+}
+
+// The answer a careful model should give: the gold label on the full abstract, NOT ENOUGH INFO once all
+// gold evidence is gone; undefined for other deletions.
+function expected() {
+  if (!removed.size) return item.label;
+  if (keyOf(removed) === item.gold_removed) return "NEI";
+  return null;
+}
+function verdictMark(label, long = false) {
+  const want = expected();
+  if (!want) return "";
+  return label === want ? `<span class="mark-ok" title="Matches the expected answer">${ICON.good}${long ? "Correct" : ""}</span>`
+    : `<span class="mark-bad" title="Expected ${LABEL_NAME[want]}">${ICON.bad}${long ? "Wrong" : ""}</span>`;
+}
+
+const verdictOf = (m) => (item.results[keyOf(removed)] || {})[m] || null;
+
+function stripEvidence() {
+  const v = verdictOf(model);
+  if (!v) return;
+  Object.entries(v.e).filter(([, p]) => p >= 0.5).forEach(([k]) => removed.add(k));
+  render();
+}
+
+function render() {
+  const v = verdictOf(model), gold = new Set(item.gold), edited = new Set(item.edited || []);
+  const evidence = v && v.label !== "NEI" ? Object.entries(v.e).filter(([, p]) => p >= 0.5).map(([k]) => k) : [];
+  $("strip").disabled = !v || !evidence.length;
+  $("strip").title = !v ? "" : evidence.length ? `Removes the ${evidence.length} sentence(s) ${short(model)} uses as evidence` : `${short(model)} selects no evidence here`;
+  $("reset").disabled = !removed.size;
+  $("count").textContent = removed.size ? `${removed.size} removed` : "";
+
+  let html = "";
+  for (const a of item.articles) {
+    html += `<div class="doc"><p class="doc-title"><span>DOC ${a.doc_id}</span>${esc(a.title || "Untitled abstract")}</p>
+      <div class="col-head"><span title="${EVIDENCE_HELP}">Evidence score <span class="q">?</span></span></div>`;
+    a.sentences.forEach((s, i) => {
+      const k = `${a.doc_id}-${i}`, isRemoved = removed.has(k);
+      const p = v && !isRemoved ? (v.e[k] ?? 0) : null, isEv = !isRemoved && evidence.includes(k);
+      const tags = (gold.has(k) ? `<span class="gold">${ICON.star} gold</span>` : "") + (edited.has(k) ? `<span class="edited">edited</span>` : "");
+      html += `<div class="sent${isRemoved ? " removed" : ""}${isEv ? " ev " + v.label : ""}" data-k="${k}" tabindex="0" role="button"
+          aria-label="${isRemoved ? "Restore" : "Remove"} sentence ${i}">
+        <span class="idx">${i}</span><span class="txt">${esc(s)}${tags}</span>
+        <span class="aside">${p === null ? "" : p < 0.05 ? `<span class="pv" title="P(evidence) below 0.05">&lt; 0.05</span>` : `<span class="meter" title="P(evidence) = ${p.toFixed(2)}"><i style="width:${Math.max(p * 100, 2)}%"></i></span><span class="pv">${p.toFixed(2)}</span>`}
+          <span class="act">${isRemoved ? "Restore" : "Remove"}</span></span></div>`;
+    });
+    html += "</div>";
+  }
+  $("abstract").innerHTML = html;
+  $("abstract").querySelectorAll(".sent").forEach((el) => {
+    const toggle = () => { const k = el.dataset.k; removed.has(k) ? removed.delete(k) : removed.add(k); render(); };
+    el.addEventListener("click", toggle);
+    el.addEventListener("keydown", (ev) => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); toggle(); } });
+  });
+  renderModels(); renderVerdict(v); renderCompare();
+}
+
+function renderModels() {
+  $("models").innerHTML = INDEX.models.map((m) => {
+    const [name, desc] = MODEL_INFO[m] || [m, ""];
+    return `<button class="model" data-m="${esc(m)}" aria-pressed="${m === model}"><b>${esc(name)}</b><span>${esc(desc)}</span></button>`;
+  }).join("");
+  $("models").querySelectorAll(".model").forEach((b) => b.addEventListener("click", () => { model = b.dataset.m; render(); }));
+}
+
+function renderVerdict(v) {
+  if (!v) {
+    $("verdict").innerHTML = `<p class="label-sm">Verdict</p><div class="empty-state">
+      <p>This combination of removed sentences was not precomputed.</p>
+      <p>Available for every claim: the full abstract, any single sentence removed, all gold evidence removed, and each model's predicted evidence removed (once or twice).</p>
+      <button class="btn" id="reset2">Reset</button></div>`;
+    $("reset2").addEventListener("click", () => { removed = new Set(); render(); });
+    return;
+  }
+  const top = v.p[INDEX.labels.indexOf(v.label)];
+  let status;
+  if (!removed.size) status = ["info", `Expected: <strong>${LABEL_NAME[item.label]}</strong> (the annotated gold label).`];
+  else if (keyOf(removed) === item.gold_removed) status = ["info", "Expected: <strong>NOT ENOUGH INFO</strong>, since all gold evidence was removed."];
+  else status = ["info", `${removed.size} sentence${removed.size > 1 ? "s" : ""} removed, so there is no annotated answer for this input.`];
+  $("verdict").innerHTML = `<div class="verdict-head"><p class="label-sm">Verdict · ${esc(short(model))}</p>${verdictMark(v.label, true)}</div>
+    <div class="verdict-label"><strong style="color:${color(v.label)}">${LABEL_NAME[v.label]}</strong><em>${Math.round(top * 100)}% confident</em></div>
+    ${INDEX.labels.map((l, i) => `<div class="prob"><span>${LABEL_NAME[l]}</span><span class="bar"><i style="width:${(v.p[i] * 100).toFixed(1)}%;background:${color(l)}"></i></span><span>${(v.p[i] * 100).toFixed(1)}%</span></div>`).join("")}
+    <div class="status ${status[0]}">${ICON[status[0]]}<span>${status[1]}</span></div>
+    <div class="foot">Precomputed by the real model on a GPU in ${v.ms} ms.</div>`;
+}
+
+function renderCompare() {
+  const r = item.results[keyOf(removed)];
+  if (!r) { $("compare").innerHTML = `<div class="empty-state">Not precomputed for this input.</div>`; return; }
+  $("compare").innerHTML = INDEX.models.filter((m) => r[m]).map((m) => {
+    const v = r[m];
+    return `<button data-m="${esc(m)}" aria-current="${m === model}"><span class="name">${esc(short(m))}</span><span class="right">${pill(v.label)}${verdictMark(v.label)}</span>
+      <span class="stack" title="${INDEX.labels.map((l, i) => `${LABEL_NAME[l]} ${(v.p[i] * 100).toFixed(0)}%`).join(" · ")}">
+      ${INDEX.labels.map((l, i) => `<i style="width:${(v.p[i] * 100).toFixed(2)}%;background:${color(l)}"></i>`).join("")}</span></button>`;
+  }).join("");
+  $("compare").querySelectorAll("button").forEach((b) => b.addEventListener("click", () => { model = b.dataset.m; render(); }));
+}
+
+// ------------------------------------------------------------------ results tab
+function renderResults() {
+  const cols = [["acc", "Accuracy", Math.max], ["f1", "Macro-F1", Math.max], ["evf1", "Evidence F1", Math.max], ["ece", "ECE ↓", Math.min]];
+  const best = Object.fromEntries(cols.map(([k, , f]) => [k, f(...RESULTS.metrics.map((r) => r[k]))]));
+  $("metrics").innerHTML = `<tr><th>System</th>${cols.map(([, h]) => `<th>${h}</th>`).join("")}</tr>` +
+    RESULTS.metrics.map((r) => `<tr class="${r.ours ? "ours" : ""}"><td>${esc(r.system)}</td>${cols.map(([k]) =>
+      `<td class="${r[k] === best[k] ? "best" : ""}">${r[k].toFixed(2)}</td>`).join("")}</tr>`).join("");
+  $("stress").innerHTML = RESULTS.stress.map((r) => `<div class="row"><span class="name ${r.ours ? "ours" : ""}">${esc(r.system)}</span>
+    <div class="pair">
+      <div class="line"><span class="bar"><i style="width:${r.gold}%;background:var(--accent)"></i></span><span>${r.gold.toFixed(0)}%</span></div>
+      <div class="line"><span class="bar"><i style="width:${r.random}%;background:var(--line-strong)"></i></span><span>${r.random.toFixed(0)}%</span></div>
+    </div></div>`).join("");
+}
+
+init();
+</script>
+</body>
+</html>

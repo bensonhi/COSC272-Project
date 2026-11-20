@@ -111,7 +111,7 @@ def main():
             f"{r['evidence_f1']:.3f} ({r['evidence_precision']:.2f} / {r['evidence_recall']:.2f}) | "
             f"{r['evidence_f1_human_rationales']:.3f} | "
             f"{r['evidence_auprc']:.3f} | {r['evidence_top1_hit']:.3f} | {r['ece']:.3f} | {r['median_ms_per_claim']:.0f} |")
-    text = "\n".join(lines) + "\n" + stress_table() + stress_table("_silent")
+    text = "\n".join(lines) + "\n" + stress_table() + stress_table("_silent") + counterfactual_table() + healthver_table()
     (RESULTS_DIR / "summary.md").write_text(text)
     print(text)
 
@@ -151,6 +151,53 @@ def stress_table(suffix=""):
             cells[5] = f"{control_nei:.3f}"
             cells[6] = f"{nei_rate - control_nei:+.3f}"
         lines.append("| " + " | ".join(cells) + " |")
+    return "\n".join(lines) + "\n"
+
+
+CF_SETS = ("cf_claim_negation", "cf_evidence_flip", "cf_evidence_weaken")
+
+
+def counterfactual_table():
+    """Verified counterfactual minimal pairs of the test claims (counterfactual/)."""
+    lines = ["", "Counterfactual minimal pairs of the test claims (LLM-edited, verified by the Qwen3.8-27B judge, "
+             "so B5 is excluded: it agrees with every kept edit by construction). acc = accuracy on the edited "
+             "input; pair = correct on both the original and the edited input.", "",
+             "| system | " + " | ".join(f"{c.removeprefix('cf_')} acc / pair (n)" for c in CF_SETS) + " |",
+             "|---" * (len(CF_SETS) + 1) + "|"]
+    names = sorted({f.name for c in CF_SETS for f in (RESULTS_DIR / c).glob("*/")} - {"b5_llm_qwen3.8_27b"})
+    for name in names:
+        original = {r["claim_id"]: r for r in predictions(RESULTS_DIR / name) or []}
+        cells = [name]
+        for c in CF_SETS:
+            edited = predictions(RESULTS_DIR / c / name)
+            if not edited:
+                cells.append("-")
+                continue
+            acc = sum(r["label_correct"] for r in edited) / len(edited)
+            pair = sum(r["label_correct"] and original.get(r["claim_id"], {}).get("label_correct", False)
+                       for r in edited) / len(edited)
+            cells.append(f"{acc:.3f} / {pair:.3f} ({len(edited)})")
+        lines.append("| " + " | ".join(cells) + " |")
+    return "\n".join(lines) + "\n"
+
+
+def healthver_table():
+    """Out-of-distribution test on HealthVer (healthver.py); label metrics only (no rationales)."""
+    folders = sorted((RESULTS_DIR / "healthver").glob("*/metrics.json"))
+    if not folders:
+        return ""
+    lines = ["", "Out-of-distribution: HealthVer test (1,823 human-labelled COVID-19 claim / evidence-passage "
+             "pairs, no training on HealthVer).", "",
+             "| system | macro-F1 [95% CI] | acc | F1 NEI / SUP / CON | ECE |", "|---|---|---|---|---|"]
+    for path in folders:
+        m = json.loads(path.read_text())
+        records = [json.loads(line) for line in (path.parent / "predictions.jsonl").read_text().splitlines()]
+        pairs = [(r["gold_label"], r["predicted_label"]) for r in records]
+        rng = random.Random(0)
+        boot = sorted(macro_f1([rng.choice(pairs) for _ in pairs]) for _ in range(1000))
+        f1 = " / ".join(f"{m['per_label'][label]['f1']:.3f}" for label in LABELS)
+        lines.append(f"| {path.parent.name} | {m['label_macro_f1']:.3f} [{boot[25]:.3f}, {boot[974]:.3f}] | "
+                     f"{m['label_accuracy']:.3f} | {f1} | {m['label_ece']:.3f} |")
     return "\n".join(lines) + "\n"
 
 

@@ -15,6 +15,17 @@ A Gradio app around d1-3B for evidence-sensitive claim verification.
   with per-claim latency, next to Qwen3.8-27B (live through a vLLM server, or its recorded run).
 * **About**: results table read from `baselines/results`, intended use and limitations.
 
+## Permanent public version
+https://huggingface.co/spaces/COSC272-Project/claim-verification-demo is a static page (free hosting, no GPU):
+every verdict it shows was computed in advance by the real models. For each test claim and edited variant
+it covers the full abstract, each model's predicted evidence removed (once and twice), all gold evidence
+removed, and every single sentence removed; a Results tab repeats the slide 5 table and the stress test.
+```bash
+python demo/precompute.py --adapter "d1-original=<dir>" --adapter "d1-augment=<dir>" --adapter "d1-pair=<dir>"   # GPU, resumable
+python demo/precompute.py --finish --adapter "d1-original=x" --adapter "d1-augment=x" --adapter "d1-pair=x"
+python demo/export_static.py --out site    # then upload site/ (plus the Space README) to the Space
+```
+
 ## Files
 | file | purpose |
 |---|---|
@@ -24,6 +35,8 @@ A Gradio app around d1-3B for evidence-sensitive claim verification.
 | `pick_examples.py` | chooses `examples.json` from a model's test predictions with fixed rules |
 | `run_demo.sh` | launches the app (and optionally the vLLM server) on the cluster |
 | `record_walkthrough.py` | records the silent backup video with headless Chromium |
+| `precompute.py`, `cache.py` | run the engine on every input the static page offers and store the verdicts (`cache/`, not in git) |
+| `export_static.py`, `static/` | build the static site: `static/index.html` (the page) and `static/results.json` (Results tab) |
 
 The demo uses the same prompts, answer tokens and adapters as evaluation; only the forward pass is
 batched differently. On 30 test claims the label never changed and probabilities differed by at

@@ -1,0 +1,182 @@
+{
+  "label_accuracy": 0.8498498498498499,
+  "label_macro_f1": 0.8408876659277943,
+  "sentence_level_evidence_f1": 0.7520161290322581,
+  "label_ece": 0.13892817219814382,
+  "num_samples": 333,
+  "num_valid_sentences": 3515,
+  "label_order": [
+    "NEI",
+    "SUPPORT",
+    "CONTRADICT"
+  ],
+  "label_confusion_matrix": [
+    [
+      117,
+      3,
+      6
+    ],
+    [
+      16,
+      108,
+      13
+    ],
+    [
+      8,
+      4,
+      58
+    ]
+  ],
+  "per_label": {
+    "NEI": {
+      "precision": 0.8297872340425532,
+      "recall": 0.9285714285714286,
+      "f1": 0.8764044943820225,
+      "support": 126
+    },
+    "SUPPORT": {
+      "precision": 0.9391304347826087,
+      "recall": 0.7883211678832117,
+      "f1": 0.8571428571428571,
+      "support": 137
+    },
+    "CONTRADICT": {
+      "precision": 0.7532467532467533,
+      "recall": 0.8285714285714286,
+      "f1": 0.7891156462585034,
+      "support": 70
+    }
+  },
+  "evidence": {
+    "averaging": "micro, evidence positive class",
+    "threshold": 0.5,
+    "precision": 0.8038793103448276,
+    "recall": 0.7064393939393939,
+    "tp": 373,
+    "fp": 91,
+    "fn": 155,
+    "tn": 2896,
+    "conditioned_on_predicted_label": false
+  },
+  "calibration": {
+    "type": "top-label ECE",
+    "num_bins": 10,
+    "binning": "equal-width, left-closed/right-open; last bin includes 1",
+    "bins": [
+      {
+        "lower": 0.0,
+        "upper": 0.1,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.1,
+        "upper": 0.2,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.3,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.3,
+        "upper": 0.4,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.5,
+        "count": 1,
+        "accuracy": 1.0,
+        "mean_confidence": 0.4499334990978241,
+        "ece_contribution": 0.0016518513540605883
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "count": 5,
+        "accuracy": 0.8,
+        "mean_confidence": 0.5604915499687195,
+        "ece_contribution": 0.0035962229734426503
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "count": 3,
+        "accuracy": 0.6666666666666666,
+        "mean_confidence": 0.6349547902743021,
+        "ece_contribution": 0.0002856925801113919
+      },
+      {
+        "lower": 0.7,
+        "upper": 0.8,
+        "count": 4,
+        "accuracy": 0.5,
+        "mean_confidence": 0.7764872461557388,
+        "ece_contribution": 0.003321168121990857
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "count": 6,
+        "accuracy": 0.6666666666666666,
+        "mean_confidence": 0.8520028293132782,
+        "ece_contribution": 0.0033393903179569653
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "count": 314,
+        "accuracy": 0.8598726114649682,
+        "mean_confidence": 0.9942750668829414,
+        "ece_contribution": 0.12673384685058137
+      }
+    ]
+  },
+  "zero_division": 0,
+  "score_scale": "0 to 1",
+  "latency": {
+    "median_seconds_per_claim": 0.32224754290655255,
+    "mean_seconds_per_claim": 0.777363949108522,
+    "total_seconds": 258.86219505313784,
+    "note": "wall clock of predict(sample), one claim at a time"
+  },
+  "baseline": {
+    "name": "d1_cf_evidence_only_seed44",
+    "description": "d1-3B + LoRA adapter, native prompts",
+    "base_model": "LiquidAI/d1-3B",
+    "adapter_dir": "/scratch/f008k3y/cosc272/outputs/d1-cf-evidence_flip+evidence_weaken-seed44/final",
+    "resolved_revision": null,
+    "dtype": "bfloat16",
+    "device": "cuda:0",
+    "question_batch_size": 8,
+    "gpu": "NVIDIA L40S",
+    "test_summary": {
+      "claims": 333,
+      "groups": 333,
+      "labels": {
+        "NEI": 126,
+        "CONTRADICT": 70,
+        "SUPPORT": 137
+      },
+      "valid_sentences": 3515,
+      "positive_sentences": 528,
+      "negative_sentences": 2987,
+      "masked_sentence_slots": 0,
+      "max_articles_per_group": 5
+    },
+    "evidence_threshold": 0.5
+  }
+}

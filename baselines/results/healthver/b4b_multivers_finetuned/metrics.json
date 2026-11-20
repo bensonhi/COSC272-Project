@@ -1,0 +1,181 @@
+{
+  "label_accuracy": 0.4805266044980801,
+  "label_macro_f1": 0.3910306499821992,
+  "sentence_level_evidence_f1": 0.0,
+  "label_ece": 0.45772556555970845,
+  "num_samples": 1823,
+  "num_valid_sentences": 2460,
+  "label_order": [
+    "NEI",
+    "SUPPORT",
+    "CONTRADICT"
+  ],
+  "label_confusion_matrix": [
+    [
+      671,
+      36,
+      20
+    ],
+    [
+      499,
+      129,
+      43
+    ],
+    [
+      320,
+      29,
+      76
+    ]
+  ],
+  "per_label": {
+    "NEI": {
+      "precision": 0.45033557046979866,
+      "recall": 0.922971114167813,
+      "f1": 0.6053225078935498,
+      "support": 727
+    },
+    "SUPPORT": {
+      "precision": 0.6649484536082474,
+      "recall": 0.19225037257824143,
+      "f1": 0.29826589595375724,
+      "support": 671
+    },
+    "CONTRADICT": {
+      "precision": 0.5467625899280576,
+      "recall": 0.17882352941176471,
+      "f1": 0.2695035460992908,
+      "support": 425
+    }
+  },
+  "evidence": {
+    "averaging": "micro, evidence positive class",
+    "threshold": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "tp": 0,
+    "fp": 374,
+    "fn": 0,
+    "tn": 2086,
+    "conditioned_on_predicted_label": false
+  },
+  "calibration": {
+    "type": "top-label ECE",
+    "num_bins": 10,
+    "binning": "equal-width, left-closed/right-open; last bin includes 1",
+    "bins": [
+      {
+        "lower": 0.0,
+        "upper": 0.1,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.1,
+        "upper": 0.2,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.3,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.3,
+        "upper": 0.4,
+        "count": 4,
+        "accuracy": 0.0,
+        "mean_confidence": 0.33825889229774475,
+        "ece_contribution": 0.0007422027258315848
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.5,
+        "count": 17,
+        "accuracy": 0.29411764705882354,
+        "mean_confidence": 0.45903773693477407,
+        "ece_contribution": 0.0015379273329079314
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "count": 71,
+        "accuracy": 0.38028169014084506,
+        "mean_confidence": 0.554701997360713,
+        "ece_contribution": 0.006793111252117732
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "count": 62,
+        "accuracy": 0.3709677419354839,
+        "mean_confidence": 0.65420629036042,
+        "ece_contribution": 0.009632907296953395
+      },
+      {
+        "lower": 0.7,
+        "upper": 0.8,
+        "count": 79,
+        "accuracy": 0.4810126582278481,
+        "mean_confidence": 0.7547719591780554,
+        "ece_contribution": 0.011863403606728676
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "count": 97,
+        "accuracy": 0.4536082474226804,
+        "mean_confidence": 0.8597647486273775,
+        "ece_contribution": 0.02161117971303106
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "count": 1493,
+        "accuracy": 0.49497655726724715,
+        "mean_confidence": 0.9901595657812375,
+        "ece_contribution": 0.40554483363213806
+      }
+    ]
+  },
+  "zero_division": 0,
+  "score_scale": "0 to 1",
+  "latency": {
+    "median_seconds_per_claim": 0.041131925012450665,
+    "mean_seconds_per_claim": 0.041189332458484884,
+    "total_seconds": 75.08815307181794,
+    "note": "wall clock of predict(sample), one claim at a time"
+  },
+  "baseline": {
+    "name": "healthver/b4b_multivers_finetuned",
+    "description": "MultiVerS fine-tuned on our training split from fever_sci",
+    "checkpoint": "https://scifact.s3.us-west-2.amazonaws.com/longchecker/latest/checkpoints/fever_sci.ckpt",
+    "weights": "/scratch/f008k3y/cosc272/outputs/multivers-finetuned-seed42/model.pt",
+    "encoder": "allenai/longformer-large-4096",
+    "dtype": "float32",
+    "multi_abstract_aggregation": "lowest P(NEI)",
+    "gpu": "NVIDIA L40S",
+    "test_summary": {
+      "claims": 1823,
+      "groups": 1823,
+      "labels": {
+        "NEI": 727,
+        "SUPPORT": 671,
+        "CONTRADICT": 425
+      },
+      "valid_sentences": 2460,
+      "positive_sentences": 0,
+      "negative_sentences": 2460,
+      "masked_sentence_slots": 0,
+      "max_articles_per_group": 1
+    },
+    "evidence_threshold": 0.5
+  }
+}

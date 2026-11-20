@@ -1,0 +1,182 @@
+{
+  "label_accuracy": 0.8528528528528528,
+  "label_macro_f1": 0.8430118790795441,
+  "sentence_level_evidence_f1": 0.7700101317122594,
+  "label_ece": 0.12758329251149042,
+  "num_samples": 333,
+  "num_valid_sentences": 3515,
+  "label_order": [
+    "NEI",
+    "SUPPORT",
+    "CONTRADICT"
+  ],
+  "label_confusion_matrix": [
+    [
+      120,
+      4,
+      2
+    ],
+    [
+      19,
+      113,
+      5
+    ],
+    [
+      11,
+      8,
+      51
+    ]
+  ],
+  "per_label": {
+    "NEI": {
+      "precision": 0.8,
+      "recall": 0.9523809523809523,
+      "f1": 0.8695652173913043,
+      "support": 126
+    },
+    "SUPPORT": {
+      "precision": 0.904,
+      "recall": 0.8248175182481752,
+      "f1": 0.8625954198473282,
+      "support": 137
+    },
+    "CONTRADICT": {
+      "precision": 0.8793103448275862,
+      "recall": 0.7285714285714285,
+      "f1": 0.796875,
+      "support": 70
+    }
+  },
+  "evidence": {
+    "averaging": "micro, evidence positive class",
+    "threshold": 0.5,
+    "precision": 0.8278867102396514,
+    "recall": 0.7196969696969697,
+    "tp": 380,
+    "fp": 79,
+    "fn": 148,
+    "tn": 2908,
+    "conditioned_on_predicted_label": false
+  },
+  "calibration": {
+    "type": "top-label ECE",
+    "num_bins": 10,
+    "binning": "equal-width, left-closed/right-open; last bin includes 1",
+    "bins": [
+      {
+        "lower": 0.0,
+        "upper": 0.1,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.1,
+        "upper": 0.2,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.3,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.3,
+        "upper": 0.4,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.5,
+        "count": 0,
+        "accuracy": null,
+        "mean_confidence": null,
+        "ece_contribution": 0.0
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "count": 3,
+        "accuracy": 0.0,
+        "mean_confidence": 0.5578364332516988,
+        "ece_contribution": 0.0050255534527180075
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "count": 3,
+        "accuracy": 0.6666666666666666,
+        "mean_confidence": 0.6647500197092692,
+        "ece_contribution": 1.7267089706283433e-05
+      },
+      {
+        "lower": 0.7,
+        "upper": 0.8,
+        "count": 4,
+        "accuracy": 0.25,
+        "mean_confidence": 0.7678366303443909,
+        "ece_contribution": 0.006220259823956647
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "count": 11,
+        "accuracy": 0.45454545454545453,
+        "mean_confidence": 0.8488037532026117,
+        "ece_contribution": 0.013023547403089275
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "count": 312,
+        "accuracy": 0.8846153846153846,
+        "mean_confidence": 0.9948647094842715,
+        "ece_contribution": 0.10329666474202019
+      }
+    ]
+  },
+  "zero_division": 0,
+  "score_scale": "0 to 1",
+  "latency": {
+    "median_seconds_per_claim": 0.3259016000665724,
+    "mean_seconds_per_claim": 0.7843252832070692,
+    "total_seconds": 261.18031930795405,
+    "note": "wall clock of predict(sample), one claim at a time"
+  },
+  "baseline": {
+    "name": "final_d1_augment_pair",
+    "description": "d1-3B + LoRA adapter, native prompts",
+    "base_model": "LiquidAI/d1-3B",
+    "adapter_dir": "/dartfs-hpc/rc/home/y/f008k3y/cosc272/adapters/d1-augment-pair/final",
+    "resolved_revision": null,
+    "dtype": "bfloat16",
+    "device": "cuda:0",
+    "question_batch_size": 8,
+    "gpu": "NVIDIA L40S",
+    "test_summary": {
+      "claims": 333,
+      "groups": 333,
+      "labels": {
+        "NEI": 126,
+        "CONTRADICT": 70,
+        "SUPPORT": 137
+      },
+      "valid_sentences": 3515,
+      "positive_sentences": 528,
+      "negative_sentences": 2987,
+      "masked_sentence_slots": 0,
+      "max_articles_per_group": 5
+    },
+    "evidence_threshold": 0.5
+  }
+}

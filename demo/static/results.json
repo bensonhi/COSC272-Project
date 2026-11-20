@@ -1,0 +1,98 @@
+{
+ "metrics": [
+  {
+   "system": "Original SFT",
+   "ours": true,
+   "acc": 86.49,
+   "f1": 85.41,
+   "evf1": 76.47,
+   "ece": 11.67
+  },
+  {
+   "system": "Augmented SFT",
+   "ours": true,
+   "acc": 86.19,
+   "f1": 85.09,
+   "evf1": 76.85,
+   "ece": 12.53
+  },
+  {
+   "system": "Paired hinge",
+   "ours": true,
+   "acc": 85.29,
+   "f1": 84.3,
+   "evf1": 76.88,
+   "ece": 12.69
+  },
+  {
+   "system": "Qwen3.8-27B (zero-shot)",
+   "ours": false,
+   "acc": 83.78,
+   "f1": 83.0,
+   "evf1": 68.29,
+   "ece": 9.37
+  },
+  {
+   "system": "MultiVerS (fine-tuned)",
+   "ours": false,
+   "acc": 83.78,
+   "f1": 82.53,
+   "evf1": 71.51,
+   "ece": 9.57
+  },
+  {
+   "system": "d1-3B zero-shot",
+   "ours": false,
+   "acc": 78.68,
+   "f1": 76.98,
+   "evf1": 40.5,
+   "ece": 7.03
+  },
+  {
+   "system": "NLI DeBERTa-v3 (zero-shot)",
+   "ours": false,
+   "acc": 76.58,
+   "f1": 75.36,
+   "evf1": 47.35,
+   "ece": 17.14
+  }
+ ],
+ "stress": [
+  {
+   "system": "Original SFT",
+   "ours": true,
+   "gold": 44.9,
+   "random": 12.1
+  },
+  {
+   "system": "Augmented SFT",
+   "ours": true,
+   "gold": 78.3,
+   "random": 13.5
+  },
+  {
+   "system": "Paired hinge",
+   "ours": true,
+   "gold": 83.1,
+   "random": 17.4
+  },
+  {
+   "system": "MultiVerS",
+   "ours": false,
+   "gold": 35.7,
+   "random": 7.7
+  },
+  {
+   "system": "Qwen3.8-27B",
+   "ours": false,
+   "gold": 47.8,
+   "random": 8.7
+  },
+  {
+   "system": "d1-3B zero-shot",
+   "ours": false,
+   "gold": 38.6,
+   "random": 13.5
+  }
+ ]
+}

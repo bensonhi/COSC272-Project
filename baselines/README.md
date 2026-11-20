@@ -48,6 +48,10 @@ anything was removed. Comparing the two isolates how much of a model's abstentio
 visible deletion marker rather than from the content (systems that skip empty sentences, NLI and
 MultiVerS, score identically on both).
 
+`--eval-set cf_claim_negation|cf_evidence_flip|cf_evidence_weaken` evaluates on verified
+counterfactual minimal pairs of the test claims (see `../counterfactual/README.md`); `summarize.py`
+reports accuracy on the edits and pair accuracy (original and edit both correct), without B5.
+
 ## Running
 Environment (node-local scratch on l40sx8, because the home quota is ~5 GB):
 ```bash
